@@ -356,7 +356,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	'use strict';
 	var STORAGE_KEY = 'edfmCookieConsent.v1';
 	var ANALYTICS_COOKIE = 'edfmCookieAnalytics';
-	var MEASUREMENT_ID = 'GAID_PLACEHOLDER';
+	var MEASUREMENT_ID = 'GA_MEASUREMENT_ID';
 	var loadedMeasurementId = null;
 	var gaDisabledKey = 'ga-disable-' + MEASUREMENT_ID;
 
