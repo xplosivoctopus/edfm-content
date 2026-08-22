@@ -27,6 +27,11 @@ This archive intentionally does **not** include:
 - Page count: `633`
 - Format: current MediaWiki wikitext, one page per `.wiki` file
 
+## Continuity and import docs
+
+- `docs/continuity.md` explains the purpose and emergency handoff model for this archive.
+- `docs/importing-current-content.md` explains how a future maintainer can reuse or import the exported wikitext.
+
 ## Restore/reuse notes
 
 These files are not a full MediaWiki backup. They are a public content archive. A future maintainer can import or adapt the wikitext into a new wiki, static site, or documentation system, subject to EDFM's licensing and attribution requirements.
