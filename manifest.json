@@ -5723,10 +5723,5 @@
       "fullurl": "https://edfieldmanual.com/wiki/Module:ShipModules",
       "path": "pages/Module/Module__ShipModules.wiki"
     }
-  ],
-  "publication_sanitization": [
-    "private host labels replaced with neutral text",
-    "live analytics measurement ID replaced with placeholder",
-    "wording scan performed for AI/tooling/internal topology/secret markers"
   ]
 }

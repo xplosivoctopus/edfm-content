@@ -30,8 +30,3 @@ This archive intentionally does **not** include:
 ## Restore/reuse notes
 
 These files are not a full MediaWiki backup. They are a public content archive. A future maintainer can import or adapt the wikitext into a new wiki, static site, or documentation system, subject to EDFM's licensing and attribution requirements.
-
-
-## Publication sanitization
-
-A small number of operational identifiers in otherwise public interface pages were replaced with neutral placeholders before publication, including private host labels and the live analytics measurement ID. This does not include private database content or revision history.
