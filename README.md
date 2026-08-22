@@ -31,6 +31,7 @@ This archive intentionally does **not** include:
 
 - `docs/continuity.md` explains the purpose and emergency handoff model for this archive.
 - `docs/importing-current-content.md` explains how a future maintainer can reuse or import the exported wikitext.
+- `docs/media-archive.md` explains the current uploaded-media release package.
 
 ## Restore/reuse notes
 
