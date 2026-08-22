@@ -1,0 +1,68 @@
+<!--
+EDFM current-content archive export.
+Title: Overcharged
+Namespace: 0
+Page ID: 101
+Revision ID: 174
+Timestamp: 2026-08-07T20:12:42Z
+Source URL: https://edfieldmanual.com/wiki/Overcharged
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Engineering Blueprint|deck=To be added: a one-line summary of what this blueprint changes.}}
+{{Article status|status=Draft|mode=Both}}
+
+{{Draft warning}}
+This is a demonstration page showing the Engineering blueprint page structure — see [[Elite Dangerous Field Manual:Engineering Architecture]]. No grade, cost, or compatibility data has been verified yet.
+
+== Overview ==
+Engineering data to be added.
+
+== Advantages ==
+Engineering data to be added.
+
+== Disadvantages ==
+Engineering data to be added.
+
+== Grade Comparison ==
+{| class="wikitable"
+! Grade !! Attribute changes !! Engineering cost / materials
+|-
+| 1 || Engineering data to be added. || Engineering data to be added.
+|-
+| 2 || Engineering data to be added. || Engineering data to be added.
+|-
+| 3 || Engineering data to be added. || Engineering data to be added.
+|-
+| 4 || Engineering data to be added. || Engineering data to be added.
+|-
+| 5 || Engineering data to be added. || Engineering data to be added.
+|}
+Rows for grades this blueprint doesn't have will be removed once verified.
+
+== Compatible Modules ==
+Engineering data to be added. See [[Multi-Cannon]] for an example of how a module page cross-references back to this one.
+
+== Engineers ==
+{| class="wikitable"
+! Engineer !! Maximum grade offered
+|-
+| colspan="2" | Engineering data to be added.
+|}
+
+== Compatible Experimental Effects ==
+Engineering data to be added.
+
+== Materials Required ==
+Engineering data to be added.
+
+== Recommended Uses ==
+Editorial guidance to be added once this blueprint's effects are verified.
+
+== Related Guides ==
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Engineering Blueprints]]
+[[Category:Engineering]]

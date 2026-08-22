@@ -1,0 +1,368 @@
+<!--
+EDFM current-content archive export.
+Title: Lori Jameson
+Namespace: 0
+Page ID: 123
+Revision ID: 1448
+Timestamp: 2026-08-21T14:38:44Z
+Source URL: https://edfieldmanual.com/wiki/Lori_Jameson
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 Sensors and Detailed Surface Scanner specialist based at Jameson Base in permit-locked Shinrarta Dezhra, reached through Marco Qwent.
+}}
+
+{{Engineer infobox}}
+
+'''Lori Jameson''' is a ship Engineer based at '''Jameson Base''' in the permit-locked [[Shinrarta Dezhra]] system. She is reached through [[Marco Qwent]] and specialises in scanners, exploration equipment, and several support modules.<ref name="inara-lori">[https://inara.cz/elite/engineer/20/ Lori Jameson — Engineer], Inara.</ref>
+
+Lori provides '''Grade 5 Sensors''' and '''Grade 5 Detailed Surface Scanner Engineering'''. She also provides Grade 4 Engineering for Auto Field-Maintenance Units, Fuel Scoops, Life Support, and Refineries, along with Grade 3 Engineering for Shield Cell Banks, Frame Shift Wake Scanners, Kill Warrant Scanners, and Manifest Scanners.<ref name="inara-lori" />
+
+{{Field note|Lori has two separate access considerations: you must meet her own '''Dangerous Combat-rank requirement''', and you must also be able to enter the permit-locked [[Shinrarta Dezhra]] system. Reaching Dangerous alone does not grant access to the system.}}
+
+== Location ==
+
+* '''System:''' [[Shinrarta Dezhra]]
+* '''Facility:''' [[Jameson Base]]
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Marco Qwent]]
+* '''System permit required:''' Yes — [[Shinrarta Dezhra Permit|Founders World permit]]
+
+Jameson Base cannot be reached unless your Commander already has permission to enter Shinrarta Dezhra.<ref name="inara-lori" />
+
+{{Important|Do not confuse '''Jameson Base''' with '''Jameson Memorial'''. Both are in Shinrarta Dezhra, but Lori Jameson's Engineer workshop is located at '''Jameson Base'''.}}
+
+== How to Discover Lori Jameson ==
+
+Lori Jameson is discovered through [[Marco Qwent]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Marco to receive his referral to Lori.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+{{Field note|Receiving Marco's referral makes Lori known to you. It does not satisfy her Combat-rank requirement or grant the permit required to enter Shinrarta Dezhra.}}
+
+== How to Receive an Invitation ==
+
+Reach '''Combat rank Dangerous''' or higher.<ref name="inara-lori" />
+
+The Combat-rank progression leading to Dangerous is:
+
+<pre>
+Harmless
+└── Mostly Harmless
+    └── Novice
+        └── Competent
+            └── Expert
+                └── Master
+                    └── Dangerous
+</pre>
+
+If your Combat rank is already Dangerous, Deadly, Elite, or one of the higher Elite tiers, Lori's Combat-rank requirement has been satisfied.
+
+See [[Combat Rank]] for how Combat rank is earned and how to check your current progress.
+
+=== Shinrarta Dezhra permit requirement ===
+
+Meeting Lori's Combat requirement does '''not''' by itself allow you to visit her.
+
+[[Shinrarta Dezhra]] is a permit-locked system, and Jameson Base is located inside it.<ref name="inara-lori" />
+
+You must therefore also hold the '''Founders World permit''' before travelling to Lori's workshop.
+
+See [[Shinrarta Dezhra Permit]] for the current ways to obtain access and how to verify whether the permit has already been granted to your Commander.
+
+{{Important|The '''Dangerous Combat rank''' and the '''Shinrarta Dezhra permit''' are separate requirements. A Commander who satisfies one does not necessarily satisfy the other.}}
+
+== How to Unlock Lori Jameson ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Marco Qwent]].
+* Reach '''Dangerous''' or higher in [[Combat Rank]].
+* Obtain the [[Shinrarta Dezhra Permit|permit required to enter Shinrarta Dezhra]].
+* Obtain '''25 units of [[Kongga Ale]]'''.
+* Donate the 25 Kongga Ale to Lori Jameson.
+{{Important|'''Kongga Ale is a rare commodity.''' It is not a Raw, Manufactured, or Encoded Engineering material. The 25 units occupy normal cargo space, so transporting the full unlock requirement requires at least '''25 tonnes of cargo capacity'''.}}
+
+For the complete step-by-step process, see [[Unlocking Lori Jameson]].
+
+== Obtaining Kongga Ale ==
+
+The normal production source for [[Kongga Ale]] is:
+
+* '''System:''' [[Kongga]]
+* '''Station:''' Laplace Ring
+* '''Commodity type:''' Rare commodity<ref name="inara-kongga" />
+
+Only 25 units are required for Lori's unlock.
+
+{{Tip|Rare-commodity availability can vary. Check the current supply before assuming that all '''25 units''' will be available in a single purchase.}}
+
+Fleet Carriers may also resell Kongga Ale, but carrier inventories and prices are controlled by individual Commanders and can change. Laplace Ring is the commodity's normal production source.<ref name="inara-kongga" />
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Lori is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-lori" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Lori Jameson can be increased by:
+
+* crafting Engineering modifications at Jameson Base; or
+* selling exploration data at Jameson Base.<ref name="inara-lori" />
+
+Higher Engineer reputation gives access to the higher grades Lori supports for each blueprint.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have unsold exploration data when you unlock Lori, selling it at Jameson Base can help raise your Engineer reputation without relying entirely on repeated Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Lori Jameson belongs to the [[Elvira Martuuk]] branch of the ship Engineer network.
+
+The route to Lori is:
+
+<pre>
+Elvira Martuuk
+└── Marco Qwent
+    └── Lori Jameson
+</pre>
+
+[[Marco Qwent]] can also refer Commanders to [[Chloe Sedesi]] and [[Professor Palin]]:
+
+<pre>
+Elvira Martuuk
+└── Marco Qwent
+    ├── Chloe Sedesi
+    ├── Lori Jameson
+    └── Professor Palin
+</pre>
+
+Lori Jameson does '''not''' currently lead to another Engineer in the ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|[[Chloe Sedesi]], [[Lori Jameson]], and [[Professor Palin]] are parallel referrals from [[Marco Qwent]]. None of the three must be unlocked before either of the others.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Lori's Engineering coverage is shown below. The listed grade is the highest grade she can apply to that module.<ref name="inara-lori" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Sensors]]
+|
+* Lightweight
+* Long Range
+* Wide Angle
+| '''Grade 5'''
+|-
+| [[Detailed Surface Scanner]]
+|
+* Expanded Probe Scanning Radius
+* Long Range Detailed <small>(Live only)</small>
+| '''Grade 5'''
+|-
+| [[Auto Field-Maintenance Unit]]
+|
+* Shielded
+| '''Grade 4'''
+|-
+| [[Fuel Scoop]]
+|
+* Scoop Rate Enhanced <small>(Live only)</small>
+* Shielded
+| '''Grade 4'''
+|-
+| [[Life Support]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 4'''
+|-
+| [[Refinery]]
+|
+* Shielded
+| '''Grade 4'''
+|-
+| [[Shield Cell Bank]]
+|
+* Rapid Charge
+* Specialised
+| '''Grade 3'''
+|-
+| [[Frame Shift Wake Scanner]]
+|
+* Fast Scan
+* Lightweight
+* Long Range
+* Reinforced
+* Shielded
+* Wide Angle
+| '''Grade 3'''
+|-
+| [[Kill Warrant Scanner]]
+|
+* Fast Scan
+* Lightweight
+* Long Range
+* Reinforced
+* Shielded
+* Wide Angle
+| '''Grade 3'''
+|-
+| [[Manifest Scanner]]
+|
+* Fast Scan
+* Lightweight
+* Long Range
+* Reinforced
+* Shielded
+* Wide Angle
+| '''Grade 3'''
+|}
+
+=== Operations-era Engineering ===
+
+Two blueprints available through Lori were introduced with the Operations-era Engineering additions:
+
+* '''Long Range Detailed''' for the [[Detailed Surface Scanner]]
+* '''Scoop Rate Enhanced''' for the [[Fuel Scoop]]<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+These blueprints are available only in '''Live''' and are not part of the Legacy Engineering system.
+
+==== Long Range Detailed ====
+
+'''Long Range Detailed''' improves Detailed Surface Scanner probe radius at the cost of increased module mass and power draw.
+
+Lori can apply it through '''Grade 5'''.<ref name="inara-dss-long">[https://inara.cz/elite/blueprint/205/ Detailed Surface Scanner — Long Range Detailed], Inara.</ref>
+
+{{Important|Long Range Detailed can only be applied to compatible '''Merc modules''' in the current Live Engineering system.<ref name="inara-dss-long" />}}
+
+==== Scoop Rate Enhanced ====
+
+'''Scoop Rate Enhanced''' increases a Fuel Scoop's scoop rate at the cost of increased power draw.
+
+Lori can apply it through '''Grade 4'''.<ref name="inara-scoop-rate">[https://inara.cz/elite/blueprint/201/ Fuel Scoop — Scoop Rate Enhanced], Inara.</ref>
+
+The blueprint uses [[Merc Coin]] as part of its Engineering cost in addition to conventional Engineering materials.<ref name="inara-scoop-rate" />
+
+== Experimental Effects ==
+
+Most of the modules Lori engineers do '''not''' have Experimental Effects.
+
+The exception among her current Engineering specialties is the [[Shield Cell Bank]], which supports the following Experimental Effects:<ref name="inara-scb">[https://inara.cz/elite/blueprint/18/ Shield Cell Bank — Specialised], Inara.</ref>
+
+* [[Boss Cells]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Recycling Cell]]
+* [[Stripped Down]]
+
+Her Sensors, Detailed Surface Scanners, Auto Field-Maintenance Units, Fuel Scoops, Life Support modules, Refineries, Frame Shift Wake Scanners, Kill Warrant Scanners, and Manifest Scanners do not currently have Experimental Effects available.
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. A Shield Cell Bank must be taken to an Engineer who works on that module if you want to apply an Experimental Effect.}}
+
+== Recommended Engineering ==
+
+Lori's Engineering coverage is broad, but several of her capabilities are particularly useful.
+
+=== Lightweight Sensors ===
+
+Lori provides [[Lightweight Sensors]] through '''Grade 5'''.
+
+Lightweight Engineering substantially reduces Sensor mass at the cost of integrity and passive scan angle, making it useful on ships where reducing mass is more important than maintaining maximum Sensor durability or passive coverage.<ref name="inara-sensors-light">[https://inara.cz/elite/blueprint/161/ Sensors — Lightweight], Inara.</ref>
+
+=== Detailed Surface Scanner ===
+
+Lori provides both of her available Detailed Surface Scanner blueprints through '''Grade 5''', making her one of the maximum-grade Engineers for the module.
+
+[[Expanded Probe Scanning Radius]] is useful for Commanders who want more forgiving and efficient planetary mapping.
+
+Live Commanders with compatible equipment can also use the newer [[Long Range Detailed]] blueprint.
+
+=== Lightweight Life Support ===
+
+Lori can apply [[Lightweight Life Support]] through '''Grade 4'''.
+
+Reducing Life Support mass can be useful on exploration vessels, racing ships, and other mass-sensitive builds. Commanders seeking Grade 5 Life Support Engineering will eventually need [[Etienne Dorn]] in Colonia.
+
+=== Fuel Scoop Engineering ===
+
+In Live, Lori can apply [[Scoop Rate Enhanced]] through Grade 4, increasing fuel collection rate in exchange for additional power draw.
+
+This can be useful for ships where minimizing time spent fuel scooping is more important than power efficiency.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Lori, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Lightweight Sensors]] is a strong general-purpose blueprint to consider pinning at Lori.
+
+Lori provides Lightweight Sensors through '''Grade 5''', and reducing Sensor mass is useful across many exploration, racing, and general-purpose builds.
+
+If Lightweight Sensors is already pinned through another Grade 5 Sensor Engineer, Lori's pin can instead be used for a blueprint that better fits your fleet, such as [[Expanded Probe Scanning Radius]] or [[Lightweight Life Support]].}}
+
+Blueprint pinning should reflect the modules and ships you actually use; there is no requirement to use the suggested pin.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What Lori Cannot Fully Engineer ==
+
+Lori reaches Grade 5 with Sensors and Detailed Surface Scanners, but several of her other specialties stop at lower grades.
+
+Her maximum grades are:
+
+* '''Sensors:''' Grade 5
+* '''Detailed Surface Scanner:''' Grade 5
+* '''Auto Field-Maintenance Unit:''' Grade 4
+* '''Fuel Scoop:''' Grade 4
+* '''Life Support:''' Grade 4
+* '''Refinery:''' Grade 4
+* '''Shield Cell Bank:''' Grade 3
+* '''Frame Shift Wake Scanner:''' Grade 3
+* '''Kill Warrant Scanner:''' Grade 3
+* '''Manifest Scanner:''' Grade 3<ref name="inara-lori" />
+
+For higher-grade alternatives where they exist:
+
+* [[Etienne Dorn]] provides '''Grade 5 Life Support''' and Grade 5 Engineering for the three utility scanners in Colonia.
+* [[Tiana Fortune]] provides '''Grade 5 Frame Shift Wake Scanner, Kill Warrant Scanner, and Manifest Scanner''' Engineering.
+* [[Mel Brandon]] provides '''Grade 4 Shield Cell Bank''' Engineering in Colonia.
+* [[Marsha Hicks]] provides '''Grade 5 Scoop Rate Enhanced Fuel Scoop''' Engineering in the current Live game.<ref name="inara-engineers" /><ref name="inara-scoop-rate" />
+
+Lori is therefore particularly valuable for maximum-grade Sensor and Detailed Surface Scanner work, while several of her support-module specialties have higher-grade alternatives elsewhere.
+
+== What Next? ==
+
+Lori Jameson is the end of her referral branch and does not currently introduce another Engineer.
+
+After unlocking her, your next Engineering target depends on which modules you still need to improve.
+
+{{What next|title=Continue Engineering|
+* '''Grade 5 Thrusters:''' [[Professor Palin]] or [[Chloe Sedesi]]
+* '''Higher-grade utility scanners:''' [[Tiana Fortune]]
+* '''Grade 5 Life Support:''' [[Etienne Dorn]]
+* '''Grade 5 Power Plant:''' [[Hera Tani]]
+* '''Grade 5 Power Distributor:''' [[The Dweller]]
+* '''Previous Engineer:''' [[Marco Qwent]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Core Internal Engineering]]
+[[Category:Utility Engineering]]
+[[Category:Engineering]]

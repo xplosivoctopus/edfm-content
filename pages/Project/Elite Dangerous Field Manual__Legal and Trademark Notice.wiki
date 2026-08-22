@@ -1,0 +1,98 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Legal and Trademark Notice
+Namespace: 4
+Page ID: 48
+Revision ID: 1415
+Timestamp: 2026-08-21T13:56:41Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Legal_and_Trademark_Notice
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+''Elite Dangerous Field Manual'' ('''EDFM''') is an unofficial, community-created resource for ''Elite Dangerous''. EDFM is not affiliated with, operated by, sponsored by, or endorsed by Frontier Developments plc.
+
+''Elite Dangerous'', Frontier Developments, and related game names, trademarks, artwork, imagery, and other intellectual property belong to Frontier Developments plc and/or their respective rights holders. Frontier game media used on EDFM is used in accordance with Frontier's published rules and any other permission applicable to the project.
+
+{{EDFM policy commitments}}
+
+== No endorsement implied ==
+Nothing on EDFM should be interpreted as stating or implying that Frontier Developments plc has reviewed, approved, endorsed, sponsored, or is responsible for EDFM or its content.
+
+Any authorization granted to EDFM for particular services or integrations does not constitute endorsement of the project as a whole unless Frontier expressly states otherwise.
+
+== Trademarks ==
+''Elite'', ''Elite Dangerous'', ''Frontier'', Frontier Developments, and related names, logos, and marks are trademarks or registered trademarks of Frontier Developments plc and/or their respective owners.
+
+EDFM uses game and company names only as necessary to identify and discuss the products, services, features, and subject matter documented by the site. Such use does not imply ownership, affiliation, sponsorship, or endorsement.
+
+EDFM does not claim ownership of Frontier's trademarks or other intellectual property.
+
+== Frontier game assets and imagery ==
+Screenshots, in-game imagery, game artwork, interface elements, and other material originating from ''Elite Dangerous'' remain the intellectual property of Frontier Developments plc and/or the applicable rights holder.
+
+EDFM currently operates as a non-commercial community project and uses Frontier game media in accordance with Frontier's published [https://customersupport.frontier.co.uk/hc/en-us/articles/4404292442642-How-can-I-use-Elite-Dangerous-media Elite Dangerous Media Usage Rules].
+
+Frontier's permission relating to its game content is separate from EDFM's own content license. Frontier-owned material is '''not''' relicensed under Creative Commons merely because it appears on an EDFM page.
+
+EDFM does not use Frontier's official corporate logo or proprietary fonts as EDFM branding.
+
+Where screenshots are used, EDFM's policy is to use captures supplied or created for EDFM rather than copying images from unrelated community websites, except where reuse is separately authorized by the applicable license or rights holder. See [[Elite Dangerous Field Manual:Screenshot Policy]].
+
+== Commercial status ==
+EDFM is currently a non-commercial project.
+
+Frontier's published media usage rules state that advance permission is required for use of Frontier game content in promotional or commercial ventures, including commercial websites.
+
+If EDFM's commercial status changes in the future, its use of Frontier-owned material will be subject to any additional permission or requirements provided by Frontier.
+
+== Wiki text license ==
+Unless otherwise noted, original text contributed to EDFM is licensed under the '''Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)'''.
+
+Under that license, you may share and adapt covered EDFM text, including for commercial purposes, provided that you comply with the license terms, including:
+
+giving appropriate attribution;
+providing a link to the license;
+indicating where required that changes were made; and
+distributing adaptations under CC BY-SA 4.0 or another license permitted by the ShareAlike terms.
+
+Full license information:
+[https://creativecommons.org/licenses/by-sa/4.0/ Creative Commons Attribution-ShareAlike 4.0 International]
+
+The CC BY-SA 4.0 license applies only to material for which EDFM or its contributors have the legal authority to grant that license. It does not grant rights in Frontier-owned material, third-party content, trademarks, personal information, or other rights that EDFM does not control.
+
+== Material not covered by the wiki text license ==
+The CC BY-SA 4.0 license for EDFM wiki text does '''not''' automatically apply to:
+
+'''Frontier-owned material''' — including ''Elite Dangerous'' game assets, screenshots, artwork, interface elements, trademarks, or other intellectual property. Such material remains subject to Frontier's rights and applicable permissions.
+'''Third-party material''' — content incorporated or referenced under another license, permission, quotation right, fair-use/fair-dealing principle, or other applicable authorization remains subject to its own terms.
+'''Original non-text media''' — photographs, diagrams, illustrations, logos, videos, audio, and other media created for EDFM are not automatically covered by the wiki text license unless the relevant file or page expressly states otherwise.
+'''EDFM software and infrastructure''' — EDFM-authored software, custom extensions, infrastructure code, scripts, deployment tooling, configuration, automation, and other original technical components are proprietary unless expressly licensed otherwise.
+'''EDFM branding''' — EDFM's original logo, graphical branding, and other original brand assets are not licensed under CC BY-SA 4.0 unless expressly stated otherwise.
+
+== EDFM software and infrastructure ==
+EDFM is built using MediaWiki and other third-party software, each of which remains governed by its respective license.
+
+EDFM's use of open-source software does '''not''' place EDFM's separately authored software, infrastructure, scripts, configuration, or other original technical work under the wiki's Creative Commons license.
+
+Unless a specific EDFM-authored software component contains an explicit license stating otherwise, such material is '''all rights reserved''' and may not be copied, modified, redistributed, republished, or incorporated into another project without permission.
+
+Nothing in this section changes or restricts the licenses of MediaWiki, MediaWiki extensions, libraries, or other third-party software used by EDFM.
+
+== Third-party sources and research ==
+EDFM may consult and cite Frontier documentation, community resources, other wikis, databases, guides, forums, and other third-party sources as part of its research process.
+
+Consulting a source does not make that source's content part of EDFM's license.
+
+Contributors should write original EDFM text based on the underlying facts and research rather than copying third-party prose. Material from another source may only be reproduced when its license, the rights holder's permission, or applicable law permits that use, and any required attribution or other conditions must be followed.
+
+This includes the ''Elite Dangerous'' Fandom wiki: it may be used as a research source and cited where appropriate, but EDFM does not treat its text or imagery as material that may simply be copied into EDFM.
+
+== No transfer of third-party rights ==
+Nothing in EDFM's Creative Commons license, contributor terms, or other site policies grants permission to reuse intellectual property belonging to Frontier Developments plc or any other third party.
+
+Anyone reusing EDFM material is responsible for determining which elements are covered by CC BY-SA 4.0 and which elements require separate permission or reliance on an applicable legal exception.
+
+== Contact ==
+For copyright, licensing, trademark, or other legal concerns relating to EDFM, contact:
+
+<code>contact@edfieldmanual.com</code>

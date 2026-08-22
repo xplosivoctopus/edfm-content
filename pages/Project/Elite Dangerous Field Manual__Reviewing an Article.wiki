@@ -1,0 +1,33 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Reviewing an Article
+Namespace: 4
+Page ID: 214
+Revision ID: 311
+Timestamp: 2026-08-07T22:18:25Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Reviewing_an_Article
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How to review an article and move it through EDFM's verification pipeline.
+
+== The pipeline ==
+{{tl|Article status}}'s <code>status</code> field moves roughly: '''Draft''' (incomplete) → '''Needs review''' (drafted, not yet checked) → '''Partially verified''' (some claims checked) → '''Verified''' (checked directly against current Live gameplay by a named reviewer). '''Historical''', '''Legacy only''', and '''Upcoming''' sit outside that line — they describe what kind of content the article is, not a checking stage. See [[Elite Dangerous Field Manual:Verification Policy]] for the full definitions, including the distinction between status "Legacy only" and mode "Legacy."
+
+== Where to find work ==
+[[Elite Dangerous Field Manual:Pages Needing Review]] is the working queue. <code>Category:Pages Needing Review</code>, <code>Category:Draft Articles</code>, and <code>Category:Partially Verified Articles</code> are populated automatically by {{tl|Article status}}, so they always reflect the current real state rather than a hand-maintained list.
+
+== What a review actually checks ==
+Per [[Elite Dangerous Field Manual:Verification Policy]], a reviewer records seven required fields plus two optional ones on {{tl|Article status}}:
+* '''status''', '''mode''', '''version''' — the headline: what state is this in, and what does it apply to.
+* '''reviewed''', '''reviewer''' — when, and by/how.
+* '''source_quality''' — see [[Elite Dangerous Field Manual:Source Quality Guide]] for the tier system.
+* '''uncertainty''' — anything still genuinely unclear, stated plainly rather than glossed over.
+* '''legacy_differences''', '''recent_changes''' (optional) — fill in only when relevant.
+
+Only move an article to '''Verified''' once you've actually checked its claims directly — against the live game where practical, not just against another wiki or a forum post. Moving something to Verified because content was added, rather than because it was checked, defeats the entire point of the status field.
+
+== Isolating uncertainty ==
+If most of an article is solid but one section is shaky, don't let that drag the whole page's status down (or up) dishonestly — use {{tl|Unverified claim}}/{{tl|Estimated information}} inline on just the shaky part, and consider '''Partially verified''' with the <code>uncertainty</code> field naming exactly what's still open.
+
+{{Related articles|[[Elite Dangerous Field Manual:Verification Policy]] [[Elite Dangerous Field Manual:Pages Needing Review]] [[Elite Dangerous Field Manual:Source Quality Guide]]}}

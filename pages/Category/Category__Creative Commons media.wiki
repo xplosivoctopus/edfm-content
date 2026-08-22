@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Creative Commons media
+Namespace: 14
+Page ID: 221
+Revision ID: 332
+Timestamp: 2026-08-07T23:58:18Z
+Source URL: https://edfieldmanual.com/wiki/Category:Creative_Commons_media
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Files licensed under a Creative Commons license (CC BY 4.0 or CC BY-SA 4.0) by their creator — see [[:Category:Original EDFM media]] for the broader original-work category this sits alongside.
+
+[[Category:Media]]

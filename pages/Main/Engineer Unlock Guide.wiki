@@ -1,0 +1,369 @@
+<!--
+EDFM current-content archive export.
+Title: Engineer Unlock Guide
+Namespace: 0
+Page ID: 99
+Revision ID: 1498
+Timestamp: 2026-08-21T14:39:22Z
+Source URL: https://edfieldmanual.com/wiki/Engineer_Unlock_Guide
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineering
+ |deck=A high-level roadmap showing how Engineers connect to one another, which Engineers can be approached independently, and which referrals lead deeper into each Engineering network.
+}}
+
+This page is a roadmap of the '''Engineer referral network'''. It shows which Engineers can be approached independently and which Engineers are discovered through another Engineer.
+
+For the exact discovery, meeting, invitation, permit, donation, rank, reputation, activity, commodity, or material requirements for an Engineer, follow the link to that Engineer's article.
+
+For detailed step-by-step instructions, use the dedicated Field Procedure pages named '''Unlocking [Engineer]'''. The Engineer articles remain the reference pages for locations, capabilities, blueprints, and requirements.
+
+See [[Engineers]] for the complete browsable directory of Engineers, their locations, and the Engineering they provide. For an example of a full step-by-step unlock procedure, see [[Unlocking Broo Tarquin]].
+
+{{Field note|An Engineer appearing beneath another Engineer does '''not''' mean that referral is the only requirement. Many referred Engineers also have a separate meeting or unlock requirement that must be completed before their workshop becomes available.}}
+
+== How Engineer referrals work ==
+
+Some Engineers can be discovered without first progressing with another Engineer. These are the '''starting Engineers''' for their respective referral branches.
+
+Other Engineers are discovered through referrals.
+
+For ship Engineers, current Engineer data records referrals as being granted after sufficient reputation has been earned with the previous Engineer, generally during progression between '''Grade 3 and Grade 4 access'''.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+A referral only causes the next Engineer to become known. It does '''not''' automatically unlock that Engineer's workshop.
+
+Odyssey Engineers use a similar referral system, but progression to the next Engineer normally requires completion of a specific '''referral task''' rather than ship-Engineer reputation progression.<ref name="inara-engineers" />
+
+{{Important|'''Ship Engineering and Odyssey Engineering are separate systems.'''
+
+Ship Engineers modify ship modules. Odyssey Engineers modify suits and handheld weapons. Progress through one network does not replace progression through the other.}}
+
+== Ship Engineer Unlock Paths ==
+
+There are '''five independent starting Engineers''' in the ship Engineering network:<ref name="inara-engineers" /><ref name="newp-engineers" />
+
+* [[Felicity Farseer]] <small>([[Unlocking Felicity Farseer|unlock procedure]])</small>
+* [[Elvira Martuuk]] <small>([[Unlocking Elvira Martuuk|unlock procedure]])</small>
+* [[Tod "The Blaster" McQuinn]] <small>([[Unlocking Tod "The Blaster" McQuinn|unlock procedure]])</small>
+* [[The Dweller]] <small>([[Unlocking The Dweller|unlock procedure]])</small>
+* [[Liz Ryder]] <small>([[Unlocking Liz Ryder|unlock procedure]])</small>
+
+Each begins a separate referral branch.
+
+=== Felicity Farseer branch ===
+
+* '''[[Felicity Farseer]]''' — starting Engineer
+** [[Juri Ishmaak]] <small>([[Unlocking Juri Ishmaak|unlock procedure]])</small>
+*** [[Colonel Bris Dekker]] <small>([[Unlocking Colonel Bris Dekker|unlock procedure]])</small>
+*** [[The Sarge]] <small>([[Unlocking The Sarge|unlock procedure]])</small>
+
+[[Felicity Farseer]] is an independent starting Engineer. She does '''not''' require [[Elvira Martuuk]], and Elvira does not require Felicity. They belong to separate starting branches.<ref name="inara-engineers" />
+
+After sufficient reputation has been earned with Felicity, she refers the Commander to [[Juri Ishmaak]].
+
+Juri Ishmaak can subsequently provide referrals to both:
+
+* [[Colonel Bris Dekker]]; and
+* [[The Sarge]].
+
+=== Elvira Martuuk branch ===
+
+* '''[[Elvira Martuuk]]''' — starting Engineer
+** [[Zacariah Nemo]] <small>([[Unlocking Zacariah Nemo|unlock procedure]])</small>
+** [[Marco Qwent]] <small>([[Unlocking Marco Qwent|unlock procedure]])</small>
+*** [[Chloe Sedesi]] <small>([[Unlocking Chloe Sedesi|unlock procedure]])</small>
+*** [[Lori Jameson]] <small>([[Unlocking Lori Jameson|unlock procedure]])</small>
+*** [[Professor Palin]] <small>([[Unlocking Professor Palin|unlock procedure]])</small>
+** [[Mel Brandon]] <small>([[Unlocking Mel Brandon|unlock procedure]])</small> — Colonia
+
+[[Elvira Martuuk]] is an independent starting Engineer and one of the largest referral hubs in the ship Engineering network.<ref name="inara-engineers" />
+
+After sufficient reputation has been earned with Elvira, she can provide referrals to:
+
+* [[Zacariah Nemo]];
+* [[Marco Qwent]]; and
+* [[Mel Brandon]] in the Colonia region.
+
+[[Marco Qwent]] then leads to three additional Engineers:
+
+* [[Chloe Sedesi]];
+* [[Lori Jameson]]; and
+* [[Professor Palin]].
+
+{{Field note|A referral to a Colonia Engineer does not bypass that Engineer's own requirements. The Commander must still travel to the Colonia region and satisfy the Engineer's meeting and unlock conditions.}}
+
+=== Tod "The Blaster" McQuinn branch ===
+
+* '''[[Tod "The Blaster" McQuinn]]''' — starting Engineer
+** [[Selene Jean]] <small>([[Unlocking Selene Jean|unlock procedure]])</small>
+*** [[Bill Turner]] <small>([[Unlocking Bill Turner|unlock procedure]])</small>
+*** [[Didi Vatermann]] <small>([[Unlocking Didi Vatermann|unlock procedure]])</small>
+** [[Petra Olmanova]] <small>([[Unlocking Petra Olmanova|unlock procedure]])</small> — Colonia
+
+[[Tod "The Blaster" McQuinn]] is an independent starting Engineer.<ref name="inara-engineers" />
+
+After sufficient reputation has been earned with Tod, he can provide referrals to:
+
+* [[Selene Jean]]; and
+* [[Petra Olmanova]] in the Colonia region.
+
+[[Selene Jean]] subsequently provides referrals to:
+
+* [[Bill Turner]]; and
+* [[Didi Vatermann]].
+
+=== The Dweller branch ===
+
+* '''[[The Dweller]]''' — starting Engineer
+** [[Lei Cheung]] <small>([[Unlocking Lei Cheung|unlock procedure]])</small>
+*** [[Ram Tah]] <small>([[Unlocking Ram Tah|unlock procedure]])</small>
+** [[Marsha Hicks]] <small>([[Unlocking Marsha Hicks|unlock procedure]])</small> — Colonia
+
+[[The Dweller]] is an independent starting Engineer.<ref name="inara-engineers" />
+
+After sufficient reputation has been earned with The Dweller, he can provide referrals to:
+
+* [[Lei Cheung]]; and
+* [[Marsha Hicks]] in the Colonia region.
+
+[[Lei Cheung]] subsequently provides the referral to [[Ram Tah]].
+
+=== Liz Ryder branch ===
+
+* '''[[Liz Ryder]]''' — starting Engineer
+** [[Hera Tani]] <small>([[Unlocking Hera Tani|unlock procedure]])</small>
+*** [[Broo Tarquin]]
+*** [[Tiana Fortune]] <small>([[Unlocking Tiana Fortune|unlock procedure]])</small>
+** [[Etienne Dorn]] <small>([[Unlocking Etienne Dorn|unlock procedure]])</small> — Colonia
+
+[[Liz Ryder]] is an independent starting Engineer.<ref name="inara-engineers" />
+
+After sufficient reputation has been earned with Liz, she can provide referrals to:
+
+* [[Hera Tani]]; and
+* [[Etienne Dorn]] in the Colonia region.
+
+[[Hera Tani]] subsequently provides referrals to:
+
+* [[Broo Tarquin]]; and
+* [[Tiana Fortune]].
+
+== Ship Engineer tree at a glance ==
+
+<pre>
+Felicity Farseer
+└── Juri Ishmaak
+    ├── Colonel Bris Dekker
+    └── The Sarge
+
+Elvira Martuuk
+├── Zacariah Nemo
+├── Marco Qwent
+│   ├── Chloe Sedesi
+│   ├── Lori Jameson
+│   └── Professor Palin
+└── Mel Brandon [Colonia]
+
+Tod "The Blaster" McQuinn
+├── Selene Jean
+│   ├── Bill Turner
+│   └── Didi Vatermann
+└── Petra Olmanova [Colonia]
+
+The Dweller
+├── Lei Cheung
+│   └── Ram Tah
+└── Marsha Hicks [Colonia]
+
+Liz Ryder
+├── Hera Tani
+│   ├── Broo Tarquin
+│   └── Tiana Fortune
+└── Etienne Dorn [Colonia]
+</pre>
+
+{{What next|title=Need the actual unlock requirements?|
+The tree above shows '''who introduces whom'''. A referral does not necessarily mean the referred Engineer can immediately be used.
+
+Follow the Engineer's name to their individual article for their complete discovery, meeting, and unlock procedure, including any ranks, permits, reputation requirements, commodities, materials, travel milestones, or other prerequisites.
+}}
+
+== Odyssey Engineer Unlock Paths ==
+
+Odyssey Engineering has its own referral network for [[Suits]] and [[Handheld Weapons]]. It is separate from the ship Engineer network.
+
+There are three independent starting branches in the core inhabited region and three independent starting Engineers in Colonia.<ref name="inara-engineers" />
+
+=== Hero Ferrari branch ===
+
+* '''[[Hero Ferrari]] <small>([[Unlocking Hero Ferrari|unlock procedure]])</small>''' — starting Engineer
+** [[Wellington Beck]] <small>([[Unlocking Wellington Beck|unlock procedure]])</small>
+*** [[Uma Laszlo]] <small>([[Unlocking Uma Laszlo|unlock procedure]])</small>
+
+[[Hero Ferrari]] is available without a prerequisite Engineer.<ref name="inara-engineers" />
+
+After Hero has been unlocked and her referral task has been completed, she introduces [[Wellington Beck]].
+
+After Wellington Beck has been unlocked and his own referral task has been completed, he introduces [[Uma Laszlo]].
+
+The branch is therefore:
+
+<pre>
+Hero Ferrari
+└── Wellington Beck
+    └── Uma Laszlo
+</pre>
+
+=== Jude Navarro branch ===
+
+* '''[[Jude Navarro]] <small>([[Unlocking Jude Navarro|unlock procedure]])</small>''' — starting Engineer
+** [[Terra Velasquez]] <small>([[Unlocking Terra Velasquez|unlock procedure]])</small>
+*** [[Oden Geiger]] <small>([[Unlocking Oden Geiger|unlock procedure]])</small>
+
+[[Jude Navarro]] is available without a prerequisite Engineer.<ref name="inara-engineers" />
+
+After Jude has been unlocked and his referral task has been completed, he introduces [[Terra Velasquez]].
+
+After Terra Velasquez has been unlocked and her referral task has been completed, she introduces [[Oden Geiger]].
+
+The branch is therefore:
+
+<pre>
+Jude Navarro
+└── Terra Velasquez
+    └── Oden Geiger
+</pre>
+
+=== Domino Green branch ===
+
+* '''[[Domino Green]] <small>([[Unlocking Domino Green|unlock procedure]])</small>''' — starting Engineer
+** [[Kit Fowler]] <small>([[Unlocking Kit Fowler|unlock procedure]])</small>
+*** [[Yarden Bond]] <small>([[Unlocking Yarden Bond|unlock procedure]])</small>
+
+[[Domino Green]] is available without a prerequisite Engineer.<ref name="inara-engineers" />
+
+After Domino has been unlocked and her referral task has been completed, she introduces [[Kit Fowler]].
+
+After Kit Fowler has been unlocked and his referral task has been completed, he introduces [[Yarden Bond]].
+
+The branch is therefore:
+
+<pre>
+Domino Green
+└── Kit Fowler
+    └── Yarden Bond
+</pre>
+
+=== Colonia Odyssey Engineers ===
+
+The Colonia Odyssey network does not use a normal linear referral chain.
+
+Three Engineers can be approached independently:<ref name="inara-engineers" />
+
+* '''[[Baltanos]] <small>([[Unlocking Baltanos|unlock procedure]])</small>'''
+* '''[[Eleanor Bresa]] <small>([[Unlocking Eleanor Bresa|unlock procedure]])</small>'''
+* '''[[Rosa Dayette]] <small>([[Unlocking Rosa Dayette|unlock procedure]])</small>'''
+
+Each has a separate referral task associated with [[Yi Shen]] <small>([[Unlocking Yi Shen|unlock procedure]])</small>.
+
+Yi Shen requires the referral tasks from '''all three Engineers''' to be completed before access is granted.<ref name="inara-engineers" />
+
+The relationship is therefore:
+
+<pre>
+Baltanos ──────┐
+Eleanor Bresa ─┼──► Yi Shen
+Rosa Dayette ──┘
+</pre>
+
+Yi Shen should not be treated as the direct successor of any one of those Engineers. All three contribute to his discovery and unlock path.
+
+== Odyssey Engineer tree at a glance ==
+
+<pre>
+Hero Ferrari
+└── Wellington Beck
+    └── Uma Laszlo
+
+Jude Navarro
+└── Terra Velasquez
+    └── Oden Geiger
+
+Domino Green
+└── Kit Fowler
+    └── Yarden Bond
+
+Baltanos ──────┐
+Eleanor Bresa ─┼── Yi Shen
+Rosa Dayette ──┘
+   [Colonia]
+</pre>
+
+== Starting Engineers at a glance ==
+
+=== Ship Engineering ===
+
+The five ship Engineers that do not require another Engineer's referral are:<ref name="inara-engineers" />
+
+* [[Felicity Farseer]]
+* [[Elvira Martuuk]]
+* [[Tod "The Blaster" McQuinn]]
+* [[The Dweller]]
+* [[Liz Ryder]]
+
+=== Odyssey Engineering — Core region ===
+
+The three core-region Odyssey Engineers that do not require another Engineer's referral are:<ref name="inara-engineers" />
+
+* [[Hero Ferrari]]
+* [[Jude Navarro]]
+* [[Domino Green]]
+
+=== Odyssey Engineering — Colonia ===
+
+The three Colonia Odyssey Engineers that begin the route to Yi Shen independently are:<ref name="inara-engineers" />
+
+* [[Baltanos]]
+* [[Eleanor Bresa]]
+* [[Rosa Dayette]]
+
+== Reading the roadmap ==
+
+This page describes '''referral relationships only'''.
+
+A starting Engineer can still have requirements that must be met before their workshop becomes available.
+
+Likewise, being referred to an Engineer does not mean that Engineer is immediately unlocked. Depending on the Engineer, the Commander may still need to complete requirements involving:
+
+* Pilots Federation rank;
+* Federal or Imperial Navy rank;
+* superpower or minor-faction reputation;
+* a system permit;
+* travel distance;
+* combat, trading, mining, or exploration activity;
+* missions or settlement activity;
+* commodity deliveries;
+* Engineering materials or data;
+* bounty vouchers or combat bonds; or
+* another Engineer-specific task.
+
+Those requirements are documented on the individual Engineer pages rather than duplicated here.
+
+== Notes ==
+
+* '''Starting Engineer''' means that no prerequisite Engineer referral is required. It does not mean the Engineer has no access or unlock requirements.
+* A referral makes another Engineer available to pursue; it does not automatically grant workshop access.
+* Ship Engineer referrals depend on reputation progression with the preceding Engineer.
+* Odyssey referrals generally use explicit referral tasks.
+* Colonia ship Engineers are reached through the normal ship referral network but are physically located in the Colonia region.
+* [[Yi Shen]] requires completion of the referral tasks associated with [[Baltanos]], [[Eleanor Bresa]], and [[Rosa Dayette]].
+* Ship Engineering and Odyssey Engineering are independent progression systems.
+* Exact Engineer requirements are maintained on the individual Engineer pages so that this roadmap can remain focused on the referral network.
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}

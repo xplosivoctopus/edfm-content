@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Recon Limpet Controller
+Namespace: 828
+Page ID: 573
+Revision ID: 1360
+Timestamp: 2026-08-21T00:00:28Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Recon_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Recon Limpet Controller",
+}

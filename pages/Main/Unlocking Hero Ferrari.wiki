@@ -1,0 +1,66 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Hero Ferrari
+Namespace: 0
+Page ID: 647
+Revision ID: 1507
+Timestamp: 2026-08-21T14:40:55Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Hero_Ferrari
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Hero Ferrari — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Hero Ferrari]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Hero Ferrari]].
+
+== Objective ==
+Gain access to [[Hero Ferrari]]'s Engineer services in Siris.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Hero Ferrari is '''common knowledge''' and does not require a referral from another Engineer.
+* '''Invitation:''' There is no separate invitation requirement for Hero Ferrari.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Settlement Defence Plans'''
+Settlement Defence Plans are an Odyssey '''Data''' material.
+
+Current material data lists them as obtainable from:
+
+* '''Irregular Markers''' points of interest;
+* data ports in '''CMD buildings'''; and
+* '''mission rewards'''.
+
+Because Settlement Defence Plans are Data rather than a ship commodity, they do '''not''' require cargo-rack capacity.
+
+{{Tip|Only five plans are now required. Before following an older farming guide built around collecting 15, check whether you already have enough in your Odyssey material storage.}}
+
+Once the five plans have been provided to Hero, [[Wellington Beck]] becomes the next Engineer in this branch.
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Find a system with an active ground conflict.
+# Visit a station or settlement with Frontline Solutions.
+# Choose a surface conflict zone.
+# Travel to the conflict zone using the Frontline Solutions dropship or your own transport.
+# Choose a side and complete the battle.
+# Repeat until you have completed '''10 surface conflict zones'''.
+# Travel to '''Nevermore Terrace''' on '''Siris 5 c'''.
+# Access Hero Ferrari's Engineer workshop.
+}}
+
+== Expected Result ==
+{{Expected result|[[Hero Ferrari]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Hero Ferrari]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Wellington Beck]] Frontline Solutions Surface Conflict Zones Siris Nevermore Terrace}}
+
+== Sources ==
+This procedure was extracted from the current [[Hero Ferrari]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey Engineers]]

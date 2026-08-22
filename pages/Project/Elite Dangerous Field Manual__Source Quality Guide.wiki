@@ -1,0 +1,29 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Source Quality Guide
+Namespace: 4
+Page ID: 206
+Revision ID: 301
+Timestamp: 2026-08-07T22:15:52Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Source_Quality_Guide
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How to judge and record source quality on EDFM — used to fill in {{tl|Article status}}'s <code>source_quality</code> field, and to decide when a claim needs {{tl|Unverified claim}}, {{tl|Estimated information}}, or {{tl|Community observation}} instead of being stated as plain fact.
+
+== Rough tiers (highest to lowest confidence) ==
+# '''Direct, current, reproducible testing''' by the article's own author, on the stated game version/mode. State the version tested and the date.
+# '''Official Frontier sources''': in-game text, official patch notes, official forum posts from Frontier staff. Cite with <code>&lt;ref&gt;</code> and a link.
+# '''Well-established community consensus''', cross-confirmed by multiple independent, experienced sources, without a known Frontier statement either way. Use {{tl|Community observation}} if it hasn't been independently reproduced by this project.
+# '''Single-source community claim''', not independently confirmed. Use {{tl|Unverified claim}}. Don't present tier-4 information as tier-1/2.
+# '''Estimated/approximate figures''' (e.g. "roughly," derived rather than measured). Use {{tl|Estimated information}} and say how the estimate was derived if possible.
+
+== Version sensitivity ==
+''Elite Dangerous'' changes over time, and Legacy has diverged from Live. A source being accurate once doesn't make it accurate now. {{tl|Article status}}'s <code>version</code> and <code>reviewed</code> fields exist specifically so a reader can judge whether a claim might be stale — always fill them in rather than leaving the defaults.
+
+== What this project will not do ==
+* Fabricate plausible-sounding numbers to fill a gap. An honestly marked gap is more useful than a confident-sounding guess.
+* Treat a single unverified forum post as equivalent to a reproduced test.
+* Import facts, images, or text from Fandom or other wikis, even with attribution — see [[Elite Dangerous Field Manual:Legal and Trademark Notice]].
+
+{{Related articles|[[Elite Dangerous Field Manual:Verification Policy]] [[Elite Dangerous Field Manual:Editorial Policy]] [[Elite Dangerous Field Manual:Citing Sources]]}}

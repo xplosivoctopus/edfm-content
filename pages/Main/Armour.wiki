@@ -1,0 +1,44 @@
+<!--
+EDFM current-content archive export.
+Title: Armour
+Namespace: 0
+Page ID: 365
+Revision ID: 1002
+Timestamp: 2026-08-20T01:37:47Z
+Source URL: https://edfieldmanual.com/wiki/Armour
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The core internal Bulkheads module — referred to as "Armour" in Engineering, where it governs hull integrity and damage resistance.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+'''Armour''' is the Engineering-blueprint name for a ship's '''Bulkheads''', the core internal module that sets a ship's base hull integrity and its resistance to kinetic, thermal, and explosive damage. Every ship comes fitted with a base Bulkheads option and can be upgraded to progressively heavier variants before any Engineering is applied.
+
+== Overview ==
+
+Bulkheads scale a ship's hull integrity by a percentage rather than a flat amount, and heavier variants add mass, which affects jump range and handling. Because of this tradeoff, Armour choice — and Armour Engineering on top of it — is usually made around a ship's intended role rather than always taking the heaviest available option.
+
+Armour is separate from the [[Hull Reinforcement Package]], an optional internal module that adds flat hull integrity instead of a percentage bonus; the two are commonly used together.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Liz Ryder]] || Grade 1
+|}
+
+[[Liz Ryder]], based at [[Demolition Unlimited]] in [[Eurybia]], is EDFM's currently documented Armour Engineer, offering coverage through Grade 1.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Hull Reinforcement Package]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

@@ -1,0 +1,76 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Cookie Policy
+Namespace: 4
+Page ID: 330
+Revision ID: 1414
+Timestamp: 2026-08-21T13:56:40Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Cookie_Policy
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+This page explains EDFM's cookies and browser storage.
+
+== Summary ==
+EDFM uses first-party cookies/local browser storage needed for login/security, preferences, and optional site-improvement features. EDFM also uses Google Analytics 4 on eligible public pages for anonymous public-content analytics. EDFM does not use advertising cookies, cross-site marketing cookies, Meta Pixel, session replay, Google Signals, remarketing, enhanced conversions, Google Ads audiences, AdSense, or advertising personalization.
+
+== Cookie choices ==
+The cookie banner offers:
+* '''Accept all''' — enables necessary cookies and optional site-improvement/analytics cookies.
+* '''Save preferences''' — saves the optional categories you choose. At present, the optional category is '''Analytics'''.
+* '''Reject optional cookies''' — keeps only cookies/storage needed for security, login, account creation, and remembering your cookie choice.
+
+Your cookie choice is stored in your browser's local storage as purpose/category preferences: necessary cookies are always on, and the optional Analytics category can be allowed or rejected. Older saved optional-cookie choices are interpreted as the equivalent Analytics preference so EDFM can preserve visitor intent. For server-side features that must know whether optional site-improvement cookies are accepted, EDFM may also set a small first-party consent signal cookie.
+
+Sensitive account, authentication, Frontier OAuth, and user/profile pages are excluded from Google Analytics regardless of cookie choice. Consent can enable Analytics only on pages that are otherwise eligible for public anonymous analytics.
+
+{{EDFM policy commitments}}
+
+== Strictly necessary cookies ==
+These are needed for core site operation and cannot be disabled through the banner without breaking login/security features.
+
+{| class="wikitable"
+! Name !! Purpose !! Typical duration
+|-
+| <code>edwiki_session</code> || MediaWiki session/login/account/security state. || Session
+|-
+| MediaWiki login/token/user preference cookies || Login state, account preferences, edit tokens, and normal MediaWiki functionality for logged-in users. || Session to persistent, depending on MediaWiki and user choices
+|-
+| Cloudflare/Turnstile cookies or browser checks || Security, bot/spam prevention, and abuse protection on login/account forms. || Controlled by Cloudflare/security flow
+|-
+| Frontier OAuth login/session state || Temporary authentication state used when a visitor chooses '''Sign in with Frontier''', including anti-forgery state values for the OAuth callback. OAuth codes/tokens are handled server-side for login and are not optional Analytics cookies. || Login flow/session only
+|}
+
+== Optional Analytics cookies ==
+These help improve navigation, search, public content, and trending/sidebar behavior.
+
+{| class="wikitable"
+! Name !! Purpose !! Typical duration
+|-
+| <code>edfmPopularSearch</code> || Temporarily remembers a search term so EDFM can count which article a visitor lands on after a broad search, powering aggregate Trending Guides behavior. || About 30 minutes
+|-
+| <code>edfmCookieAnalytics</code> || First-party consent signal used so server-side EDFM code knows optional site-improvement/analytics cookies are allowed. || About 180 days, or until changed/rejected
+|-
+| <code>_ga</code> and <code>_ga_4VJHJ06777</code> (matching the GA4 measurement ID currently used by EDFM) || Google Analytics 4 uses these only after optional site-improvement cookies are accepted, on eligible public pages, to distinguish visits/devices for aggregate site-usage analytics. EDFM does not use them for advertising features and does not intentionally send account identifiers to Google Analytics. || Controlled by Google Analytics; commonly up to about 2 years unless cleared or limited by browser settings
+|}
+
+If the Analytics category is rejected, EDFM should not set <code>edfmPopularSearch</code>. Aggregate page-view counts for Trending Guides may still be collected as first-party site functionality without storing visitor IP, username, or account ID in the Trending Guides tables.
+
+== Google Analytics scope ==
+Google Analytics is used only for eligible public pages and public search analytics. It may collect ordinary page/event data such as page URL, page title, referrer, traffic source, browser/device information, scrolls, outbound clicks, downloads, and public search engagement.
+
+EDFM's Analytics integration is configured not to emit the GA tag on login, logout, account creation, password reset/recovery, email confirmation, credential changes, preferences/account settings, Frontier/PluggableAuth login or callback pages, old revisions, diffs, redirects, non-existent pages, MediaWiki <code>User:</code>/<code>User talk:</code> pages, equivalent profile/commander-style pages, or requests containing sensitive authentication/account parameters.
+
+EDFM does not intentionally send MediaWiki usernames, MediaWiki numeric user IDs, email addresses, CMDR names, Frontier/FDev identifiers, Discord IDs, OAuth codes, access tokens, refresh tokens, session identifiers, cookies, or comparable account-specific identifiers to Google Analytics.
+
+== Local storage ==
+EDFM uses browser local storage to remember the cookie banner choice. Local storage stays in your browser until you clear it or change your cookie preferences.
+
+== Third-party requests ==
+EDFM pages may link to outside sites. Login and account pages may load Cloudflare Turnstile from <code>challenges.cloudflare.com</code>. If you choose '''Sign in with Frontier''', your browser is sent to Frontier's authentication service and then returned to EDFM's callback page. Eligible public pages may load Google Analytics only after optional site-improvement cookies are accepted from <code>www.googletagmanager.com</code> and send analytics requests to Google Analytics collection endpoints such as <code>www.google-analytics.com</code> and regional Google Analytics endpoints. External sites, Cloudflare, Frontier, and Google have their own policies.
+
+== Changing your choice ==
+You can change your choice from the cookie banner/preferences control when available, or by clearing site data for <code>edfieldmanual.com</code> in your browser.
+
+== Contact ==
+Questions about cookies or privacy: <code>contact@edfieldmanual.com</code>.

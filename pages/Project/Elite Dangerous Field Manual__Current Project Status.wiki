@@ -1,0 +1,235 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Current Project Status
+Namespace: 4
+Page ID: 49
+Revision ID: 860
+Timestamp: 2026-08-16T04:32:37Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Current_Project_Status
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Project
+ |deck=Where the Field Manual stands today, which areas are being developed, and where contributors can help.
+}}
+
+The '''Elite Dangerous Field Manual''' is live and under active development.
+
+EDFM is intended to become a practical, current manual for [[Elite Dangerous]] — combining factual reference material with procedures, explanations, recommendations, and guidance that help Commanders understand not only what something is, but how to work with it in practice.
+
+The site is open for public use and contribution. Coverage is not yet uniform across every subject, so individual pages use review and source-status information where appropriate to indicate how thoroughly their content has been checked.
+
+== Current stage ==
+
+EDFM has moved beyond its initial technical setup and into active content development.
+
+The current focus is on:
+
+* building complete coverage of the game's major systems;
+* replacing structural or placeholder pages with researched material;
+* reviewing existing articles against current game behavior;
+* distinguishing Live, Legacy, Odyssey, and post-Legacy mechanics where necessary;
+* improving navigation between reference material and practical procedures; and
+* building a contributor workflow that allows the manual to grow without sacrificing accuracy.
+
+The technical infrastructure required to operate the site is maintained separately from this page. This page tracks the state of the '''Field Manual's content''', not its server configuration.
+
+== Content progress ==
+
+=== Engineering ===
+
+'''Status: Substantial coverage; active review'''
+
+Engineering is currently one of EDFM's most developed subject areas.
+
+Coverage includes:
+
+* all ship and Odyssey Engineers;
+* Engineer locations and unlock requirements;
+* Engineer referral chains;
+* ship Engineering grades and blueprint availability;
+* Odyssey suit and weapon modifications;
+* Experimental Effects;
+* Engineering materials; and
+* practical Engineer-unlock guidance.
+
+The Engineer directory and individual Engineer articles are undergoing a systematic review to standardize their structure, verify current requirements, identify Live/Legacy differences, and incorporate newer Engineering introduced after the Live and Legacy versions diverged.
+
+See:
+
+* [[Engineering]]
+* [[Engineers]]
+* [[Engineer Unlock Guide]]
+* [[Engineering Blueprints]]
+* [[Experimental Effects]]
+
+=== New and returning Commanders ===
+
+'''Status: In development'''
+
+EDFM is developing separate entry paths for players who are learning the game for the first time and players returning after an extended absence.
+
+The [[New Commander Roadmap]] is intended to guide a new Commander through the early game without requiring them to read the Field Manual from beginning to end.
+
+The [[Returning Commander Overview]] is intended to identify major systems and mechanics that may have changed while a player was away.
+
+See:
+
+* [[Start Here]]
+* [[New Commander Roadmap]]
+* [[Returning Commander Overview]]
+
+=== Field Procedures ===
+
+'''Status: Expanding'''
+
+[[Field Procedures]] are practical, task-oriented guides.
+
+Rather than simply describing a mechanic, a Field Procedure should answer questions such as:
+
+* What do I need before I start?
+* Where do I need to go?
+* What do I actually do?
+* What can go wrong?
+* How do I know when I am finished?
+* What should I do next?
+
+This is a major long-term part of EDFM's purpose and will continue to expand as subject areas are developed.
+
+=== Game Reference ===
+
+'''Status: Expanding'''
+
+[[Game Reference]] contains factual information intended for quick lookup, including requirements, values, specifications, capabilities, locations, and comparisons.
+
+Reference material and Field Procedures are designed to complement one another:
+
+{{Field note|'''Game Reference''' explains what something is and how it works. '''Field Procedures''' explain what to do with it.}}
+
+=== Ships and Equipment ===
+
+'''Status: Needs expansion'''
+
+[[Ships and Equipment]] is intended to provide practical and technical information about ships, modules, outfitting, equipment roles, and build considerations.
+
+Coverage is not yet comprehensive.
+
+=== Odyssey ===
+
+'''Status: In development'''
+
+[[Odyssey]] coverage includes substantial Engineer information, but the broader on-foot portion of the Field Manual still requires expansion.
+
+Planned and developing coverage includes:
+
+* suits;
+* handheld weapons;
+* settlements;
+* missions;
+* materials;
+* suit and weapon Engineering;
+* stealth and infiltration;
+* Surface Conflict Zones; and
+* other on-foot activities.
+
+=== Powerplay ===
+
+'''Status: Needs expansion and continuing review'''
+
+[[Powerplay]] requires current, mechanics-focused documentation.
+
+Because Powerplay has undergone major revisions, EDFM should avoid carrying forward outdated mechanics without verifying that they still apply to the current game.
+
+Coverage should ultimately include both reference material and practical procedures for participating effectively.
+
+=== Colonisation ===
+
+'''Status: In development'''
+
+[[Colonisation]] is intended to document the process of expanding into new systems, planning construction, supplying projects, understanding facility requirements, and developing systems over time.
+
+Because colonisation mechanics continue to be an area where practical experience matters as much as raw reference data, this section is particularly suited to EDFM's combination of factual reference and operational guidance.
+
+=== Operations ===
+
+'''Status: Needs expansion'''
+
+[[Operations]] covers newer Live-only gameplay and equipment introduced after the separation of Live and Legacy.
+
+This area also affects older subjects such as Engineering, because some newer modules and blueprints have restrictions or capabilities that do not exist in Legacy.
+
+=== Lore and History ===
+
+'''Status: Needs expansion'''
+
+Lore and historical material is part of the Field Manual where it provides useful context for the current game world.
+
+EDFM is not intended to reproduce an exhaustive fictional encyclopedia. Lore coverage should prioritize information that helps explain locations, factions, events, mechanics, or activities a Commander may encounter.
+
+== What a review status means ==
+
+EDFM distinguishes between having information on a page and having that information sufficiently checked for publication.
+
+A reviewed article should, where applicable:
+
+* use current sources;
+* distinguish confirmed facts from recommendations;
+* identify meaningful Live and Legacy differences;
+* avoid presenting obsolete requirements as current;
+* resolve conflicting information where reasonably possible;
+* explain important game quirks rather than merely repeating misleading interface text; and
+* cite the sources supporting factual claims.
+
+A page can therefore exist and still require additional review.
+
+See [[Elite Dangerous Field Manual:Editorial Policy]] for EDFM's sourcing and editorial standards.
+
+== Current priorities ==
+
+Development priorities change as sections are researched and contributors become available.
+
+The current working list is maintained at:
+
+'''[[Elite Dangerous Field Manual:Pages Needing Review|Pages Needing Review]]'''
+
+That page should be used for individual articles requiring research, verification, expansion, correction, or direct in-game testing rather than duplicating a detailed task list here.
+
+== Contributing ==
+
+EDFM is intended to grow through contributions from Commanders with different areas of experience.
+
+Useful contributions include:
+
+* correcting inaccurate or outdated information;
+* adding missing procedures;
+* expanding incomplete reference pages;
+* providing current in-game verification;
+* identifying version-specific behavior;
+* improving explanations that are technically correct but difficult to follow;
+* documenting unusual mechanics or known game quirks; and
+* identifying pages that require a new research pass.
+
+You do not need to know everything about Elite Dangerous to contribute. A well-documented correction or firsthand verification of one mechanic can be useful.
+
+Before making substantial additions, see:
+
+* [[Elite Dangerous Field Manual:Contributing|Contributing]]
+* [[Elite Dangerous Field Manual:Editorial Policy|Editorial Policy]]
+* [[Elite Dangerous Field Manual:Pages Needing Review|Pages Needing Review]]
+
+== About technical status ==
+
+Server configuration, backups, proxy configuration, certificates, job queues, deployment notes, and other infrastructure details are maintained as administrative documentation rather than as part of the public content-progress page.
+
+Technical infrastructure should only be mentioned publicly when it directly affects readers or contributors.
+
+{{Related articles
+ |[[About the Field Manual]]
+ |[[Elite Dangerous Field Manual:Contributing|Contributing]]
+ |[[Elite Dangerous Field Manual:Editorial Policy|Editorial Policy]]
+ |[[Elite Dangerous Field Manual:Pages Needing Review|Pages Needing Review]]
+ |[[Start Here]]
+}}
+
+{{Engineering nav}}

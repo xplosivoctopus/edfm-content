@@ -1,0 +1,55 @@
+<!--
+EDFM current-content archive export.
+Title: Classified Scan Databanks
+Namespace: 0
+Page ID: 394
+Revision ID: 1031
+Timestamp: 2026-08-20T01:40:07Z
+Source URL: https://edfieldmanual.com/wiki/Classified_Scan_Databanks
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Encoded Material
+ |deck=A Standard-grade Encoded engineering material, and Ram Tah's unlock requirement.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Inara material data; no direct EDFM testing yet
+}}
+
+'''Classified Scan Databanks''' are an '''Encoded''' Engineering material of '''Standard''' grade/rarity.<ref name="inara-databanks">[https://inara.cz/elite/component/17/ Classified Scan Databanks — Component], Inara.</ref>
+
+{{Important|Unlike a commodity such as [[Meta-Alloys]] or [[Gold]], Classified Scan Databanks are '''not''' cargo. They live in your ship's separate Materials inventory (accessed from the right-hand panel, not the cargo hold) and do not occupy cargo space.}}
+
+== Why it matters for Engineering ==
+
+[[Ram Tah]] requires '''50 units of Classified Scan Databanks''' to unlock his Engineering workshop at [[Phoenix Base]] in [[Meene]].
+
+Beyond that unlock requirement, this material is also a routine blueprint ingredient in its own right: it is used across several current Engineering blueprints, including Power Distributor grade-5 modifications and Sensors/Frame Shift Wake Scanner/Kill Warrant Scanner/Manifest Scanner and Frame Shift Drive Interdictor blueprints.<ref name="inara-databanks" /> A Commander engineering those modules is likely to need more beyond the initial 50-unit delivery.
+
+== Acquisition ==
+
+Classified Scan Databanks are gathered, not bought:
+
+* '''Scanning.''' They are commonly obtained by scanning transport/haulage vessels' cargo, and from data points found at surface Points of Interest.<ref name="inara-databanks" />
+* '''Material trading.''' An Encoded Material Trader (found under Station Services → Contacts at stations that offer one) can convert other Encoded materials of a compatible tier into Classified Scan Databanks.<ref name="inara-databanks" />
+
+Because it's a Standard-grade material, small amounts turn up fairly often during routine scanning; there is no fixed "buy here" station the way there is for a commodity.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Ram Tah]] [[Phoenix Base]] [[Meene]] [[Engineering Materials]]}}
+
+{{Engineering nav}}
+
+[[Category:Encoded Materials]]
+[[Category:Engineering Materials]]
+[[Category:Engineering]]

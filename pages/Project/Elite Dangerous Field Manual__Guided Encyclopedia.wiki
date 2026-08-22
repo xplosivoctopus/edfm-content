@@ -1,0 +1,168 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Guided Encyclopedia
+Namespace: 4
+Page ID: 327
+Revision ID: 695
+Timestamp: 2026-08-12T15:59:13Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Guided_Encyclopedia
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Live}}
+
+The '''Guided Encyclopedia''' is the article and guide standard for the Elite Dangerous Field Manual. EDFM articles should usually answer both of these reader questions on one canonical page:
+
+* '''Reference:''' What is this, how does it work, and why should a Commander care?
+* '''Guidance:''' What should I actually do, in what order, and what mistakes should I avoid?
+
+This standard borrows the structural idea of encyclopedia article plus requirements plus walkthrough, but it is not a visual clone of another wiki. Components should feel native to EDFM's dark, compact, field-manual style.
+
+== Philosophy ==
+A good EDFM article is a guided encyclopedia entry. It begins with concise reference context, then gives practical preparation and a clear procedure when the subject is actionable. The walkthrough should live on the canonical article unless the guide is a larger journey through several subjects.
+
+Do not assume veteran knowledge. Explain enough for a new Commander to proceed, then link terminology and deeper mechanics to their own EDFM articles rather than re-teaching every system in every guide.
+
+== Article vs guide pages ==
+Default behavior: put the walkthrough on the canonical subject article.
+
+Examples that should normally contain their own guidance:
+
+* [[Laser Mining]]
+* [[Exobiology]]
+* [[Material Trading]]
+* [[Fuel Scooping]]
+* [[Interdiction]]
+* [[Engineering]]
+* individual Engineers
+* Powerplay mechanics
+* Colonisation mechanics
+
+Separate guide pages are for larger objectives that span several independent subjects. Examples:
+
+* [[New Commander Roadmap]]
+* [[Guide:Unlocking All Engineers]]
+* [[Guide:Preparing for Anti-Xeno Combat]]
+* [[Guide:Building Your First Exploration Ship]]
+* [[Guide:Starting a Colonisation Project]]
+
+Do not automatically create <code>/Guide</code>, <code>/Quick guide</code>, or <code>Guide:</code> pages for a single subject.
+
+== Normal article anatomy ==
+Use only the sections that fit the subject.
+
+# '''Lead''' — what the subject is, what it is used for, why it matters, and essential context.
+# '''At a glance''' — a flexible quick-reference panel with relevant fields only.
+# '''Before you start''' — required, recommended, and optional preparation, with reasons.
+# '''Walkthrough''' — sequential Commander actions.
+# '''Common problems''' — troubleshooting linked to relevant mechanics where possible.
+# '''Reference material''' — mechanics, tables, variants, locations, rewards, history, notes, see also, and references.
+# '''What next?''' — progressive navigation deeper into EDFM or back to a relevant guide.
+
+== Reusable components ==
+
+=== At a glance ===
+Use {{tl|Guide info}}. Keep it flexible; do not create a huge infobox with every possible field.
+
+<pre>
+{{Guide info|title=At a glance|
+; Activity : Laser mining
+; Difficulty : Beginner-friendly once outfitted
+; Recommended ship : Small or medium ship with mining hardpoints and cargo racks
+; Related mechanics : [[Mining]], [[Prospector Limpet Controller]], [[Refinery]]
+}}
+</pre>
+
+=== Before you start ===
+Use {{tl|Requirements}}. Explain why each item matters.
+
+<pre>
+{{Requirements|
+; Required : Mining laser — extracts fragments from asteroids.
+; Strongly recommended : Prospector Limpet Controller — identifies asteroid composition and increases yield.
+; Optional : Detailed Surface Scanner — helps find hotspots before entering the ring.
+}}
+</pre>
+
+=== Walkthrough steps ===
+Use {{tl|Guide step}} for substantial steps.
+
+<pre>
+{{Guide step|1|Find a suitable ring|
+Open the System Map and look for planetary rings with metallic or icy resources. For platinum mining, prefer metallic rings with a platinum hotspot.
+}}
+</pre>
+
+Steps should be sequential, scannable, and explicit about what the Commander should do.
+
+=== Callouts ===
+Use callouts sparingly. Do not turn every paragraph into a colored box.
+
+<pre>
+{{Field note|Main-sequence stars of spectral classes O, B, A, F, G, K and M can be fuel-scooped.}}
+{{Tip|Plot shorter early routes until you understand fuel usage.}}
+{{Important|The roadmap is guidance, not a mandatory progression path.}}
+{{Warning|Do not fly a ship you cannot afford to rebuy.}}
+</pre>
+
+=== Contextual media ===
+Use {{tl|Context media}} when an image belongs beside a specific instruction, not in a bottom gallery.
+
+<pre>
+{{Context media|image=Example galaxy map route.png|caption=The Galaxy Map with a short route plotted.|alt=Galaxy Map route plotting screen|
+Open the Galaxy Map, select a nearby inhabited system, and choose '''Plot Route'''. Return to the cockpit after the route appears in the navigation panel.
+}}
+</pre>
+
+Only use screenshots that support the instruction. Avoid decorative images inside procedure steps.
+
+=== What next ===
+Use {{tl|What next}} for progressive navigation.
+
+<pre>
+{{What next|
+* New to mining? Continue with [[Laser Mining]].
+* Need module details? Read [[Prospector Limpet Controller]].
+* Ready for engineering? Start with [[Engineering]].
+}}
+</pre>
+
+== Writing style ==
+* Write for a Commander who may be performing the activity for the first time.
+* Use direct verbs: open, select, plot, launch, dock, scan, sell, refuel.
+* Keep paragraphs short inside walkthrough sections.
+* Link first-use terminology to deeper articles.
+* Avoid unexplained veteran shorthand.
+* Keep verified facts distinct from editorial guidance.
+* If information is uncertain or not yet reviewed, use the article status system and concise inline notes rather than hiding uncertainty.
+
+== Common problems sections ==
+Guides should include troubleshooting when common failure modes exist.
+
+Examples:
+
+* My collector limpets immediately expire.
+* The station will not let me dock.
+* My Frame Shift Drive says route unavailable.
+* My refinery is full.
+* The mission target is not appearing.
+
+Explain the likely cause, the immediate fix, and link the relevant deeper mechanic.
+
+== Navigation expectations ==
+Guides should lead readers deeper into EDFM. Reference pages should also point back to practical guidance.
+
+Example progression:
+
+[[New Commander Roadmap]] → [[Mining]] → [[Laser Mining]] → [[Prospector Limpet Controller]] → [[Platinum]] → [[Finding Platinum Hotspots]]
+
+A Commander who lands on a reference page from Google should be able to find the practical guide that uses that subject in context.
+
+== Implementation notes for editors ==
+* Prefer the templates above rather than raw HTML.
+* Use only relevant fields in {{tl|Guide info}} and {{tl|Requirements}}.
+* Do not create deep template nesting for ordinary article content.
+* Keep screenshots close to the step they explain.
+* Preserve EDFM's visual identity: dark panels, compact labels, orange action accents, cyan reference accents.
+
+[[Category:Elite Dangerous Field Manual documentation]]

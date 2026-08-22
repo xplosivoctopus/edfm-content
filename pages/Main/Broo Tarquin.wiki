@@ -1,0 +1,410 @@
+<!--
+EDFM current-content archive export.
+Title: Broo Tarquin
+Namespace: 0
+Page ID: 100
+Revision ID: 1495
+Timestamp: 2026-08-21T14:39:20Z
+Source URL: https://edfieldmanual.com/wiki/Broo_Tarquin
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 Beam, Burst, and Pulse Laser specialist based at Broo's Legacy in Muang, reached through Hera Tani.
+}}
+
+{{Engineer infobox}}
+
+'''Broo Tarquin''' is a ship Engineer based at '''Broo's Legacy''' in the [[Muang]] system. He is reached through [[Hera Tani]] and specialises exclusively in laser weapons.<ref name="inara-broo">[https://inara.cz/elite/engineer/15/ Broo Tarquin — Engineer], Inara.</ref>
+
+Broo provides '''Grade 5 Engineering for Beam Lasers, Burst Lasers, and Pulse Lasers''', making him the primary Bubble Engineer for maximum-grade conventional laser Engineering.<ref name="inara-broo" /><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+In Live, Broo also provides the Operations-era '''Plasma Conversion''' blueprint through Grade 5 for all three laser types.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+{{Field note|Broo is a dedicated laser Engineer. Unlike Engineers with broad utility coverage, every conventional module he engineers is a laser weapon and reaches Grade 5.}}
+
+== Location ==
+
+* '''System:''' [[Muang]]
+* '''Facility:''' [[Broo's Legacy]]
+* '''Body:''' Muang 5 a
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Hera Tani]]
+* '''System permit required:''' No
+
+Broo's Legacy is a surface Engineer base on '''Muang 5 a'''.<ref name="inara-broo-base">[https://inara.cz/elite/station/52402/ Broo's Legacy — Station], Inara.</ref>
+
+== How to Discover Broo Tarquin ==
+
+Broo Tarquin is discovered through [[Hera Tani]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Hera to receive her referral to Broo.<ref name="newp-engineers" />
+
+Hera can also refer Commanders to [[Tiana Fortune]]. Broo and Tiana are therefore parallel referrals rather than one being required for the other.
+
+{{Field note|Receiving Hera's referral makes Broo known to you. His separate Combat-rank requirement must still be satisfied before his workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Reach the Pilots Federation '''Combat rank of Competent''' or higher.<ref name="inara-broo" />
+
+The Combat-rank progression leading to Competent is:
+
+<pre>
+Harmless
+└── Mostly Harmless
+    └── Novice
+        └── Competent
+</pre>
+
+If your Combat rank is already Competent, Expert, Master, Dangerous, Deadly, Elite, or one of the higher Elite tiers, Broo's meeting requirement has been satisfied.
+
+See [[Combat Rank]] for how Combat rank is earned and how to check your current progress.
+
+{{Field note|Broo's Combat-rank requirement is lower than the requirements for some later combat-oriented Engineers. You do not need to reach Expert, Dangerous, or Elite before meeting him.}}
+
+== How to Unlock Broo Tarquin ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Hera Tani]].
+* Reach '''Competent''' or higher in [[Combat Rank]].
+* Obtain a total of '''50 units of [[Fujin Tea]]'''.
+* Donate the 50 Fujin Tea to Broo Tarquin.
+{{Important|'''Fujin Tea is a rare commodity.''' It is not a Raw, Manufactured, or Encoded Engineering material. Each unit occupies one tonne of cargo space.}}
+
+For the complete step-by-step process, see [[Unlocking Broo Tarquin]].
+
+== Obtaining Fujin Tea ==
+
+The normal production source for [[Fujin Tea]] is:
+
+* '''System:''' [[Fujin]]
+* '''Station:''' [[Futen Spaceport]]
+* '''Commodity type:''' Rare commodity<ref name="inara-fujin-tea" />
+
+Broo requires '''50 units''' in total.
+
+Rare commodities have limited availability, so Futen Spaceport may not offer all 50 units at once. The available quantity can vary and should be checked when preparing the unlock.
+
+{{Tip|Do not plan around an old guide that gives a fixed Fujin Tea allocation. Check the current amount available at Futen Spaceport and expect that more than one purchase may be necessary.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also offer Fujin Tea when another Commander has stocked it for resale. Carrier stock and prices are player-controlled and can change.<ref name="inara-fujin-tea" />
+
+See [[Fujin Tea]] for current acquisition details and rare-commodity mechanics.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Broo is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-broo" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Broo Tarquin can be increased by:
+
+* crafting Engineering modifications at Broo's Legacy; or
+* handing in bounty vouchers at Broo's Legacy.<ref name="inara-broo" />
+
+Higher Engineer reputation gives access to the higher grades Broo supports for each blueprint.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you regularly bounty hunt, bringing unredeemed bounty vouchers to Broo's Legacy can help raise your Engineer reputation without relying entirely on Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Broo Tarquin belongs to the [[Liz Ryder]] branch of the ship Engineer network.
+
+The route to Broo is:
+
+<pre>
+Liz Ryder
+└── Hera Tani
+    └── Broo Tarquin
+</pre>
+
+Hera also provides a referral to [[Tiana Fortune]], while Liz directly refers Commanders to [[Etienne Dorn]] in Colonia:
+
+<pre>
+Liz Ryder
+├── Hera Tani
+│   ├── Broo Tarquin
+│   └── Tiana Fortune
+└── Etienne Dorn [Colonia]
+</pre>
+
+Broo Tarquin does '''not''' currently lead to another Engineer in the active ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|Broo and [[Tiana Fortune]] are parallel referrals from [[Hera Tani]]. Unlocking Broo is not required before Tiana, and unlocking Tiana is not required before Broo.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Broo provides '''Grade 5 access for all three module types he supports'''.<ref name="inara-broo" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Beam Laser]]
+|
+* Efficient
+* Lightweight
+* Long Range
+* Overcharged
+* Plasma Conversion <small>(Live only)</small>
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Burst Laser]]
+|
+* Efficient
+* Focused
+* Lightweight
+* Long Range
+* Overcharged
+* Plasma Conversion <small>(Live only)</small>
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Pulse Laser]]
+|
+* Efficient
+* Focused
+* Lightweight
+* Long Range
+* Overcharged
+* Plasma Conversion <small>(Live only)</small>
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|}
+
+Broo is therefore a maximum-grade Engineer for every conventional laser blueprint available for Beam, Burst, and Pulse Lasers.
+
+== Operations-era Plasma Conversion ==
+
+The Operations update introduced '''Plasma Conversion''' for Beam, Burst, and Pulse Lasers.<ref name="frontier-operations" />
+
+Plasma Conversion increases weapon power draw and converts part of the laser's thermal damage into plasma damage.<ref name="inara-beam-plasma">[https://inara.cz/elite/blueprint/203/ Beam Laser — Plasma Conversion], Inara.</ref>
+
+Broo can apply Plasma Conversion through '''Grade 5''' to:
+
+* [[Beam Laser|Beam Lasers]];
+* [[Burst Laser|Burst Lasers]]; and
+* [[Pulse Laser|Pulse Lasers]].<ref name="inara-beam-plasma" /><ref name="inara-burst-plasma">[https://inara.cz/elite/blueprint/202/ Burst Laser — Plasma Conversion], Inara.</ref><ref name="inara-pulse-plasma">[https://inara.cz/elite/blueprint/204/ Pulse Laser — Plasma Conversion], Inara.</ref>
+
+At Grade 5, the current blueprint applies:
+
+* '''+40% power draw'''
+* '''-11% overall damage'''
+* conversion of part of the weapon's thermal damage into plasma damage<ref name="inara-beam-plasma" />
+
+Plasma Conversion also requires [[Merc Coin]] as part of its Engineering cost.
+
+{{Important|'''Live only:''' Plasma Conversion was introduced with the Operations-era Engineering additions and is not available in Legacy.}}
+
+[[Mel Brandon]] also provides Plasma Conversion through Grade 5, while [[The Dweller]] provides it through Grade 3.<ref name="inara-beam-plasma" />
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible laser can normally have one Experimental Effect in addition to its blueprint modification.
+
+Broo can apply Experimental Effects to all three laser types he engineers.
+
+=== Beam Laser ===
+
+Available Beam Laser Experimental Effects include:<ref name="inara-beam-efficient">[https://inara.cz/elite/blueprint/170/ Beam Laser — Efficient], Inara.</ref>
+
+* [[Concordant Sequence]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Oversized]]
+* [[Regeneration Sequence]]
+* [[Stripped Down]]
+* [[Thermal Conduit]]
+* [[Thermal Shock]]
+* [[Thermal Vent]]
+
+Beam Lasers have several Experimental Effects not available to Burst or Pulse Lasers, most notably [[Thermal Vent]] and [[Regeneration Sequence]].
+
+=== Burst Laser ===
+
+Available Burst Laser Experimental Effects include:<ref name="inara-burst-efficient">[https://inara.cz/elite/blueprint/77/ Burst Laser — Efficient], Inara.</ref>
+
+* [[Concordant Sequence]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Inertial Impact]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Phasing Sequence]]
+* [[Scramble Spectrum]]
+* [[Stripped Down]]
+* [[Thermal Shock]]
+
+=== Pulse Laser ===
+
+Available Pulse Laser Experimental Effects include:<ref name="inara-pulse-efficient">[https://inara.cz/elite/blueprint/72/ Pulse Laser — Efficient], Inara.</ref>
+
+* [[Concordant Sequence]]
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Phasing Sequence]]
+* [[Scramble Spectrum]]
+* [[Stripped Down]]
+* [[Thermal Shock]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Important|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The weapon must be taken to an Engineer who works on that laser type.}}
+
+== Recommended Engineering ==
+
+Broo's Grade 5 access to all three standard laser families allows several very different build approaches.
+
+=== Beam Lasers ===
+
+Beam Lasers offer continuous thermal damage but place significant demands on the Power Distributor and generate substantial heat.
+
+Two common blueprint approaches address those weaknesses differently.
+
+==== Efficient ====
+
+[[Efficient Beam Laser|Efficient]] improves damage while substantially reducing:
+
+* power draw;
+* distributor draw; and
+* thermal load.<ref name="inara-beam-efficient" />
+
+At Grade 5, Efficient provides:
+
+* '''+24% damage'''
+* '''-48% power draw'''
+* '''-45% distributor draw'''
+* '''-60% thermal load'''<ref name="inara-beam-efficient" />
+
+{{Tip|'''Common sustained-fire choice: Efficient'''
+
+Efficient is particularly useful when the ship needs to keep one or more Beam Lasers firing for longer without exhausting the WEP capacitor or producing excessive heat.}}
+
+==== Long Range ====
+
+[[Long Range Beam Laser|Long Range]] increases both the weapon's maximum range and the distance at which damage falloff begins.<ref name="inara-beam-long">[https://inara.cz/elite/blueprint/84/ Beam Laser — Long Range], Inara.</ref>
+
+At Grade 5, Long Range provides:
+
+* '''+100% maximum range'''
+* '''+100% damage falloff start'''
+* '''+15% power draw'''
+* '''+30% mass'''<ref name="inara-beam-long" />
+
+{{Tip|'''Common ranged-combat choice: Long Range + Thermal Vent'''
+
+Long Range paired with [[Thermal Vent]] is a strong option for ships that can maintain Beam Laser hits at distance.
+
+Long Range delays damage falloff, while Thermal Vent removes heat from the firing ship while the beam remains on target.
+
+This is a recommendation rather than a universal requirement.}}
+
+[[Thermal Vent]] increases heat dissipation while successfully striking the target, but increases heat generation while the weapon misses.<ref name="inara-beam-efficient" />
+
+=== Burst Lasers ===
+
+Burst Lasers sit between continuous Beam Laser fire and the slower firing pattern of Pulse Lasers.
+
+Broo provides both [[Efficient Burst Laser|Efficient]] and [[Rapid Fire Burst Laser|Rapid Fire]] through Grade 5, along with specialised options such as Focused and Long Range.
+
+Burst Lasers also support [[Inertial Impact]], which substantially increases damage and converts part of it to kinetic damage at the cost of significant jitter.
+
+{{Field note|Inertial Impact fundamentally changes Burst Laser behaviour. The added jitter makes it poorly suited to precision or long-range fire even though its theoretical damage output increases.}}
+
+=== Pulse Lasers ===
+
+Pulse Lasers have comparatively low distributor and thermal demands and can be engineered through Grade 5 for several roles.
+
+[[Efficient Pulse Laser|Efficient]] further reduces their operating costs while increasing damage.<ref name="inara-pulse-efficient" />
+
+Pulse Lasers can also use specialised Experimental Effects including:
+
+* [[Emissive Munitions]];
+* [[Phasing Sequence]]; and
+* [[Scramble Spectrum]].
+
+The appropriate blueprint and Experimental Effect depend on whether the weapon is intended for sustained conventional damage or a specialised utility role.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Broo, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Efficient Beam Laser]] is a strong general-purpose blueprint to consider pinning at Broo.
+
+Broo provides Efficient Beam Laser Engineering through '''Grade 5''', and the blueprint reduces several of the major costs associated with Beam Lasers while also improving damage.
+
+If your builds more commonly use ranged Beam Lasers, [[Long Range Beam Laser]] may be the more useful pin instead.}}
+
+Broo also provides Grade 5 Burst and Pulse Laser Engineering, so a frequently used blueprint for either weapon type remains a reasonable alternative.
+
+Blueprint pinning should reflect the weapons and builds you actually use.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Effects such as [[Thermal Vent]], [[Inertial Impact]], and [[Emissive Munitions]] still require visiting an appropriate Engineer workshop.}}
+
+== What Broo Cannot Fully Engineer ==
+
+Within his specialty, Broo has no conventional grade limitation: all three laser types he supports reach Grade 5.<ref name="inara-broo" />
+
+His maximum grades are:
+
+* '''Beam Laser:''' Grade 5
+* '''Burst Laser:''' Grade 5
+* '''Pulse Laser:''' Grade 5
+
+Broo does '''not''' engineer other thermal or energy weapons such as:
+
+* Plasma Accelerators;
+* Rail Guns; or
+* Guardian energy weapons.
+
+For other Grade 5 laser Engineers:
+
+* [[Mel Brandon]] provides '''Grade 5 Beam, Burst, and Pulse Laser''' Engineering in Colonia.<ref name="inara-engineers" />
+* [[The Dweller]] provides lower-grade Beam and Burst Laser Engineering and Pulse Laser Engineering through Grade 4.<ref name="inara-engineers" />
+
+Broo remains the primary Bubble Engineer for maximum-grade conventional Beam, Burst, and Pulse Laser Engineering.
+
+== What Next? ==
+
+Broo Tarquin is the end of his current Engineer referral branch and does not currently introduce another Engineer.
+
+After unlocking him, the most relevant next Engineer depends on which other weapons or ship systems remain unfinished.
+
+{{What next|title=Continue Engineering|
+* '''Parallel referral from Hera Tani:''' [[Tiana Fortune]]
+* '''Power Plant Engineering:''' [[Hera Tani]]
+* '''Plasma Accelerators:''' [[Bill Turner]]
+* '''Multi-Cannons and Rail Guns:''' [[Tod "The Blaster" McQuinn]]
+* '''Alternative Grade 5 laser Engineer in Colonia:''' [[Mel Brandon]]
+* '''Previous Engineer:''' [[Hera Tani]]
+* '''Reach the invitation requirement:''' [[Combat Rank]]
+* '''Get the unlock commodity:''' [[Fujin Tea]]
+* '''Engineer laser weapons:''' [[Laser Engineering]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

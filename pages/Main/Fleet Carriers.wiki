@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Fleet Carriers
+Namespace: 0
+Page ID: 187
+Revision ID: 920
+Timestamp: 2026-08-18T13:17:38Z
+Source URL: https://edfieldmanual.com/wiki/Fleet_Carriers
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+
+Index for player-owned Fleet Carrier content — see [[:Category:Fleet Carriers]].
+
+No individual Fleet Carrier articles exist yet.
+
+{{Related articles|[[Operations]] [[Trade]] [[Tools and Resources]]}}
+[[Category:Fleet Carriers]]

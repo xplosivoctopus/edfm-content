@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Last reviewed date
+Namespace: 10
+Page ID: 22
+Revision ID: 22
+Timestamp: 2026-08-06T19:51:22Z
+Source URL: https://edfieldmanual.com/wiki/Template:Last_reviewed_date
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Last reviewed: '''{{{1|not yet reviewed}}}'''<noinclude>
+== Usage ==
+<pre>{{Last reviewed date|2026-08-06}}</pre>
+[[Category:Templates]]
+</noinclude>

@@ -1,0 +1,42 @@
+<!--
+EDFM current-content archive export.
+Title: Frame Shift Drive Interdictor
+Namespace: 0
+Page ID: 367
+Revision ID: 1004
+Timestamp: 2026-08-20T01:37:48Z
+Source URL: https://edfieldmanual.com/wiki/Frame_Shift_Drive_Interdictor
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The optional internal module used to pull other ships out of supercruise.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+The '''Frame Shift Drive Interdictor''' is an optional internal module used to interdict another ship travelling in supercruise, forcing it (and the interdicting ship) out into normal space. It is a separate module from the [[Frame Shift Drive]] itself, despite the similar name.
+
+== Overview ==
+
+Interdiction plays out as a real-time minigame between the interdicting and interdicted ship; a higher-class, better-engineered Frame Shift Drive Interdictor improves the interdictor's chances. It is used by player and NPC pirates, bounty hunters, and PvP-focused Commanders alike, and is a common fit on combat and piracy-oriented ships.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Felicity Farseer]] || Grade 1
+|}
+
+Felicity Farseer, based at [[Farseer Inc]] in [[Deciat]], is EDFM's currently documented Frame Shift Drive Interdictor Engineer, offering coverage through Grade 1.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Frame Shift Drive]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]

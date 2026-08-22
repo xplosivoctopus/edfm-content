@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Kamitra Cigars
+Namespace: 0
+Page ID: 392
+Revision ID: 1029
+Timestamp: 2026-08-20T01:40:05Z
+Source URL: https://edfieldmanual.com/wiki/Kamitra_Cigars
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Rare Commodity
+ |deck=A Legal Drugs rare commodity produced at Hammel Terminal in Kamitra, and Hera Tani's unlock requirement.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Inara commodity data; no direct EDFM testing yet
+}}
+
+'''Kamitra Cigars''' are a '''Legal Drugs''' rare commodity produced exclusively by '''Hammel Terminal''' in the Kamitra system (not to be confused with Hera Tani's own system, [[Kuwemaki]]).<ref name="inara-cigars">[https://inara.cz/elite/commodity/10030/ Kamitra Cigars — Commodity], Inara.</ref> They are legal to carry almost everywhere; Inara's data lists a small number of government types (Prison Colony, Theocracy, Corporate, and Federal Democracy systems) where they are not.<ref name="inara-cigars" />
+
+== Why it matters for Engineering ==
+
+[[Hera Tani]] requires '''50 units of Kamitra Cigars''' to unlock her Engineering workshop at [[The Jet's Hole]] in [[Kuwemaki]]. As a commodity, each unit occupies one tonne of cargo space.
+
+== Acquisition ==
+
+Like all rare commodities, Kamitra Cigars have a single fixed production source — Hammel Terminal in Kamitra — and follow rare-goods stocking rules rather than an ordinary market's supply:<ref name="inara-cigars" />
+
+* Only a small batch is available at any one time (allocation is typically a handful of units per visit, not the full 50).
+* Stock replenishes gradually while docked, roughly every several minutes, up to a per-visit cap.
+* Rares stop restocking once your hold already contains your maximum allocation, so buying, then waiting, then buying again is normally required to reach 50 units in one visit; splitting the purchase across repeat visits to Hammel Terminal also works.
+
+{{Tip|Because Kamitra Cigars only originate from Hammel Terminal, plan the trip around that one station rather than searching general commodity markets — ordinary market searches will not turn up rare goods the way they do standard commodities.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also carry Kamitra Cigars if another Commander has stocked them for resale; carrier inventory and prices are player-controlled and can change.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Hera Tani]] [[The Jet's Hole]] [[Kuwemaki]] [[Engineering Materials]]}}
+
+{{Engineering nav}}
+
+[[Category:Commodities]]
+[[Category:Engineering]]

@@ -1,0 +1,39 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Verified Commanders
+Namespace: 4
+Page ID: 336
+Revision ID: 900
+Timestamp: 2026-08-18T01:06:23Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Verified_Commanders
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+What the "Verified Commander" badge means on EDFM, and what it doesn't.
+
+== Summary ==
+A '''Verified Commander''' is an EDFM user whose linked Frontier account and associated ''Elite Dangerous'' Commander have been successfully verified through EDFM's Frontier authentication and Companion API (CAPI) integration.
+
+This confirms one thing only: that the account/Commander relationship checks out. It is '''not''':
+* a grant of moderation or administrative authority;
+* an indication that EDFM endorses that user's contributions;
+* a claim that the user is a trusted contributor; or
+* a statement about the accuracy of anything that user has written.
+
+Ordinary account creation and editing on EDFM do not require this status. See [[Elite Dangerous Field Manual:Contributing]].
+
+== How someone becomes verified ==
+Two separate steps both have to succeed:
+# '''Frontier sign-in.''' The user signs in with their Frontier account (see [[Special:UserLogin]]). This proves they control that Frontier account, nothing more.
+# '''Commander verification.''' EDFM's CAPI integration confirms which ''Elite Dangerous'' Commander is actually associated with that Frontier account.
+
+Signing in with Frontier by itself does '''not''' make someone a Verified Commander. Only the combination of a successful Frontier sign-in '''and''' a successful CAPI Commander check does.
+
+== Current status ==
+EDFM's Frontier OAuth/CAPI integration is live. Accounts are marked Verified Commander only after both steps above succeed for real &mdash; this is not a placeholder or a preview of a future mechanism.
+
+== Privacy ==
+Verified status is independent of Commander-name visibility. A user can be a Verified Commander without their Commander name being shown publicly anywhere on the site. Frontier account IDs, customer IDs, OAuth/CAPI identifiers, tokens, and similar authentication metadata are never exposed through this badge or any public profile display.
+
+== Removal ==
+Verified status can be removed if the underlying Frontier link is disconnected or replaced, or by administrator action. It is not removed for routine, temporary reasons such as an access token expiring or a one-off Frontier/CAPI outage.

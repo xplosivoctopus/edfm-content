@@ -1,0 +1,25 @@
+<!--
+EDFM current-content archive export.
+Title: Returning Commander Overview
+Namespace: 0
+Page ID: 53
+Revision ID: 940
+Timestamp: 2026-08-18T21:38:41Z
+Source URL: https://edfieldmanual.com/wiki/Returning_Commander_Overview
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Draft warning}}
+
+The Returning Commander Overview helps experienced commanders get back up to speed after time away from Elite Dangerous, covering major mechanical changes, Engineering progress, equipment status, and the differences between the current Live game and Legacy.
+
+== Planned sections ==
+* What's changed recently (to be filled in with verified, dated changelog-style notes)
+* Re-familiarising with ship/module state and Engineering progress
+* Checking whether anything owned is now Legacy-only vs Live
+* Where to check current Powerplay/Colonisation state before diving back in
+
+{{Legacy warning}}
+Commanders returning to ''Legacy'' specifically should be aware Live and Legacy have diverged; content on this wiki will mark Legacy-specific material explicitly.
+
+{{Related articles|[[Start Here]] [[Operations]] [[Elite Dangerous Field Manual:Current Project Status]]}}

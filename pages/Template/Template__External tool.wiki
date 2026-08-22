@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:External tool
+Namespace: 10
+Page ID: 32
+Revision ID: 95
+Timestamp: 2026-08-07T16:05:35Z
+Source URL: https://edfieldmanual.com/wiki/Template:External_tool
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#if:{{{url|}}}|'''[{{{url}}} {{{name|Tool}}}]'''|'''{{{name|Tool}}}'''}}{{#if:{{{description|}}}|&#32;— {{{description}}}}}<noinclude>
+== Usage ==
+As a standalone bolded, linked name (optionally with an inline description):
+<pre>{{External tool|name=|url=|description=}}</pre>
+Or just for the linked name, e.g. inside a table cell where the description is its own column:
+<pre>{{External tool|name=|url=}}</pre>
+[[Category:Templates]]
+</noinclude>

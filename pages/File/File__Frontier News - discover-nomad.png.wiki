@@ -1,0 +1,13 @@
+<!--
+EDFM current-content archive export.
+Title: File:Frontier News - discover-nomad.png
+Namespace: 6
+Page ID: 291
+Revision ID: 562
+Timestamp: 2026-08-10T03:16:38Z
+Source URL: https://edfieldmanual.com/wiki/File:Frontier_News_-_discover-nomad.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Frontier Developments article preview image for the auto-updating news module.

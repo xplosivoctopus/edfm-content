@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Odyssey Engineering
+Namespace: 14
+Page ID: 129
+Revision ID: 207
+Timestamp: 2026-08-07T20:59:57Z
+Source URL: https://edfieldmanual.com/wiki/Category:Odyssey_Engineering
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Engineering blueprints and Engineers for Odyssey suits and handheld weapons. Kept separate from ship-module Engineering categories since Odyssey Engineering is a distinct system that exists only in Live.
+
+[[Category:Engineering]]
+[[Category:Odyssey]]

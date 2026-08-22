@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: File:Brisdekker.png
+Namespace: 6
+Page ID: 245
+Revision ID: 375
+Timestamp: 2026-08-08T14:39:12Z
+Source URL: https://edfieldmanual.com/wiki/File:Brisdekker.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Bris Dekker Engineer Headshot
+== Licensing ==
+{{License-ED screenshot}}

@@ -1,0 +1,549 @@
+<!--
+EDFM current-content archive export.
+Title: Mel Brandon
+Namespace: 0
+Page ID: 124
+Revision ID: 1462
+Timestamp: 2026-08-21T14:38:55Z
+Source URL: https://edfieldmanual.com/wiki/Mel_Brandon
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A broad Grade 5 laser, propulsion, shield, and Frame Shift Drive specialist based at The Brig in the Colonia region, reached through Elvira Martuuk.
+}}
+
+{{Engineer infobox}}
+
+'''Mel Brandon''' is a ship Engineer based at '''The Brig''' in the [[Luchtaine]] system of the Colonia region. He is reached through [[Elvira Martuuk]] and provides an unusually broad range of maximum-grade Engineering across weapons, shields, propulsion, and Frame Shift Drive systems.<ref name="inara-mel">[https://inara.cz/elite/engineer/22/ Mel Brandon — Engineer], Inara.</ref>
+
+Mel provides '''Grade 5 Engineering''' for Beam Lasers, Burst Lasers, Pulse Lasers, Frame Shift Drives, Frame Shift Drive Interdictors, Shield Boosters, Shield Generators, and Thrusters. He also provides Shield Cell Bank Engineering through Grade 4.<ref name="inara-mel" />
+
+{{Field note|Mel is one of the four ship Engineers based in the '''Colonia region'''. His unusually broad Grade 5 coverage makes him useful for completing several different ship systems during a single Colonia trip.}}
+
+== Location ==
+
+* '''System:''' [[Luchtaine]]
+* '''Facility:''' [[The Brig]]
+* '''Body:''' Luchtaine A 1 c
+* '''Region:''' Colonia
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Elvira Martuuk]]
+* '''System permit required:''' No
+
+The Brig is a surface Engineer base on '''Luchtaine A 1 c''', roughly 1,500 Ls from the system arrival point.<ref name="inara-brig">[https://inara.cz/elite/station/63947/ The Brig — Station], Inara.</ref>
+
+{{Important|Luchtaine is in the Colonia region, roughly 22,000 light-years from the core inhabited Bubble. Prepare any Colonia Engineer unlock requirements and Engineering materials before making the trip whenever practical.}}
+
+== How to Discover Mel Brandon ==
+
+Mel Brandon is discovered through [[Elvira Martuuk]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Elvira to receive her referral to Mel.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Elvira also provides referrals to [[Zacariah Nemo]] and [[Marco Qwent]]. Mel is a separate Colonia branch from those Bubble Engineers.
+
+{{Field note|Receiving Elvira's referral makes Mel known to you. It does not complete his separate Colonia Council invitation requirement.}}
+
+== How to Receive an Invitation ==
+
+Gain an '''invitation from the [[Colonia Council]]'''.<ref name="inara-mel" />
+
+Current Engineering guidance identifies the practical requirement as reaching at least '''Cordial reputation with the Colonia Council''' and obtaining the Engineer invitation mission from the faction.<ref name="newp-engineers" />
+
+=== Raising Colonia Council reputation ===
+
+Reputation with the Colonia Council can be increased through ordinary minor-faction activities, including missions completed for the faction.
+
+Older Engineer guides frequently recommend selling exploration data at '''Dove Enigma''' after arriving in Colonia.
+
+That remains a practical option: Dove Enigma is currently controlled by the Colonia Council and provides Universal Cartographics.<ref name="inara-dove">[https://inara.cz/elite/station/63683/ Dove Enigma — Station], Inara.</ref>
+
+{{Field note|'''Selling exploration data at Dove Enigma is a reputation method, not the actual Engineer requirement.''' Mel's requirement is to obtain the '''Colonia Council invitation'''.}}
+
+Other Colonia Council-controlled stations can also be useful for faction missions and reputation work. Because faction control can change through the Background Simulation, check current faction information rather than treating one station as permanently mandatory.
+
+See [[Colonia Council]] and [[Minor Faction Reputation]] for the complete reputation process.
+
+== How to Unlock Mel Brandon ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Elvira Martuuk]].
+* Reach sufficient reputation with the [[Colonia Council]] and obtain their Engineer invitation.
+* Obtain at least '''100,000 CR worth of [[Bounty Vouchers]]'''.
+* Provide Mel with '''100,000 CR worth of bounty vouchers'''.
+{{Important|Do '''not''' redeem the bounty vouchers intended for Mel's unlock before arriving at The Brig. The required 100,000 CR must still be available for the Engineer hand-in.}}
+
+For the complete step-by-step process, see [[Unlocking Mel Brandon]].
+
+== Obtaining Bounty Vouchers ==
+
+[[Bounty Vouchers]] are earned by destroying ships carrying valid bounties.
+
+Suitable activities include:
+
+* [[Resource Extraction Site|Resource Extraction Sites]];
+* [[Navigation Beacon|Navigation Beacons]];
+* bounty-hunting missions; and
+* other locations where Wanted ships can be legally engaged.
+
+Mel requires only '''100,000 CR worth''' for the final unlock, so this requirement is comparatively small once you have a combat-capable ship.
+
+{{Tip|If you are already travelling to Colonia with a combat-capable ship, earning the required bounty vouchers in the Colonia region avoids carrying unredeemed vouchers throughout the entire journey from the Bubble.}}
+
+See [[Bounty Hunting]] and [[Bounty Vouchers]] for the complete process.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Mel is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-mel" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Mel Brandon is increased by:
+
+* crafting Engineering modifications at The Brig.<ref name="inara-mel" />
+
+Current Engineer data does not list exploration data, commodity sales, bounty vouchers, or another secondary method for increasing Mel's Engineer reputation after the unlock.
+
+Higher Engineer reputation gives access to the higher grades Mel supports for each blueprint.
+
+Mel does '''not''' currently provide a referral to another Engineer.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|Because Mel's reputation is raised through Engineering itself, arrive with enough Engineering materials to perform several useful upgrades rather than travelling to Colonia with only the bounty vouchers required for the initial unlock.}}
+
+== Engineer Unlock Chain ==
+
+Mel Brandon belongs to the [[Elvira Martuuk]] branch of the ship Engineer network.
+
+The direct route is:
+
+<pre>
+Elvira Martuuk
+└── Mel Brandon [Colonia]
+</pre>
+
+Elvira's broader branch is:
+
+<pre>
+Elvira Martuuk
+├── Zacariah Nemo
+├── Marco Qwent
+│   ├── Chloe Sedesi
+│   ├── Lori Jameson
+│   └── Professor Palin
+└── Mel Brandon [Colonia]
+</pre>
+
+Mel Brandon does '''not''' currently lead to another Engineer in the active ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|Mel's location in Colonia does not make the other Colonia Engineers part of his referral chain. [[Marsha Hicks]], [[Petra Olmanova]], and [[Etienne Dorn]] are discovered through different Bubble Engineers.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Mel has one of the broadest Grade 5 Engineering portfolios of any ship Engineer.<ref name="inara-mel" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Beam Laser]]
+|
+* Efficient
+* Lightweight
+* Long Range
+* Overcharged
+* Plasma Conversion <small>(Live only)</small>
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Burst Laser]]
+|
+* Efficient
+* Focused
+* Lightweight
+* Long Range
+* Overcharged
+* Plasma Conversion <small>(Live only)</small>
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Pulse Laser]]
+|
+* Efficient
+* Focused
+* Lightweight
+* Long Range
+* Overcharged
+* Plasma Conversion <small>(Live only)</small>
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Frame Shift Drive]]
+|
+* Faster Boot Sequence
+* Increased Range
+* Shielded
+| '''Grade 5'''
+|-
+| [[Frame Shift Drive Interdictor]]
+|
+* Expanded Capture Arc
+* Long Range
+| '''Grade 5'''
+|-
+| [[Shield Booster]]
+|
+* Blast Resistant
+* Heavy Duty
+* Kinetic Resistant
+* Resistance Augmented
+* Thermal Resistant
+| '''Grade 5'''
+|-
+| [[Shield Cell Bank]]
+|
+* Rapid Charge
+* Specialised
+| '''Grade 4'''
+|-
+| [[Shield Generator]]
+|
+* Enhanced Low Power
+* Kinetic Resistant
+* Reinforced
+* Thermal Resistant
+| '''Grade 5'''
+|-
+| [[Thrusters]]
+|
+* Clean
+* Dirty
+* Reinforced
+| '''Grade 5'''
+|}
+
+Mel therefore provides maximum-grade conventional Engineering for every module type he supports except the Shield Cell Bank.
+
+== Operations-era Plasma Conversion ==
+
+The Operations-era Engineering system added '''Plasma Conversion''' for Beam, Burst, and Pulse Lasers.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+Mel provides Plasma Conversion through '''Grade 5''' for all three laser families:
+
+* [[Beam Laser]];<ref name="inara-beam-plasma">[https://inara.cz/elite/blueprint/203/ Beam Laser — Plasma Conversion], Inara.</ref>
+* [[Burst Laser]];<ref name="inara-burst-plasma">[https://inara.cz/elite/blueprint/202/ Burst Laser — Plasma Conversion], Inara.</ref>
+* [[Pulse Laser]].<ref name="inara-pulse-plasma">[https://inara.cz/elite/blueprint/204/ Pulse Laser — Plasma Conversion], Inara.</ref>
+
+Plasma Conversion increases weapon power draw and converts part of the weapon's thermal damage into plasma damage.
+
+At Grade 5, the current blueprint applies:
+
+* '''+40% power draw'''
+* '''-11% overall damage'''
+* conversion of part of the weapon's thermal damage into plasma damage<ref name="inara-beam-plasma" />
+
+The blueprint also uses [[Merc Coin]] as part of its Engineering cost.
+
+{{Important|'''Live only:''' Plasma Conversion is part of the Operations-era Engineering system and is not available in Legacy.}}
+
+[[Broo Tarquin]] also provides Plasma Conversion through Grade 5, while [[The Dweller]] provides it through Grade 3.<ref name="inara-beam-plasma" />
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint.
+
+Mel can apply Experimental Effects to nearly every module family he engineers. The exception is the '''Frame Shift Drive Interdictor''', which currently has no Experimental Effects.
+
+=== Beam Laser ===
+
+Available Beam Laser Experimental Effects include:<ref name="inara-beam">[https://inara.cz/elite/blueprint/170/ Beam Laser — Efficient], Inara.</ref>
+
+* [[Concordant Sequence]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Oversized]]
+* [[Regeneration Sequence]]
+* [[Stripped Down]]
+* [[Thermal Conduit]]
+* [[Thermal Shock]]
+* [[Thermal Vent]]
+
+=== Burst Laser ===
+
+Available Burst Laser Experimental Effects include:<ref name="inara-burst">[https://inara.cz/elite/blueprint/77/ Burst Laser — Efficient], Inara.</ref>
+
+* [[Concordant Sequence]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Inertial Impact]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Phasing Sequence]]
+* [[Scramble Spectrum]]
+* [[Stripped Down]]
+* [[Thermal Shock]]
+
+=== Pulse Laser ===
+
+Available Pulse Laser Experimental Effects include:<ref name="inara-pulse">[https://inara.cz/elite/blueprint/72/ Pulse Laser — Efficient], Inara.</ref>
+
+* [[Concordant Sequence]]
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Phasing Sequence]]
+* [[Scramble Spectrum]]
+* [[Stripped Down]]
+* [[Thermal Shock]]
+
+=== Frame Shift Drive ===
+
+Available Frame Shift Drive Experimental Effects include:<ref name="inara-fsd">[https://inara.cz/elite/blueprint/2/ Frame Shift Drive — Increased Range], Inara.</ref>
+
+* [[Deep Charge]]
+* [[Double Braced]]
+* [[Mass Manager]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+=== Frame Shift Drive Interdictor ===
+
+Frame Shift Drive Interdictors currently have '''no Experimental Effects'''.<ref name="inara-interdictor">[https://inara.cz/elite/blueprint/15/ Frame Shift Drive Interdictor — Expanded Capture Arc], Inara.</ref>
+
+=== Shield Booster ===
+
+Available Shield Booster Experimental Effects include:<ref name="inara-booster">[https://inara.cz/elite/blueprint/8/ Shield Booster — Heavy Duty], Inara.</ref>
+
+* [[Blast Block]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Force Block]]
+* [[Super Capacitors]]
+* [[Thermo Block]]
+
+=== Shield Cell Bank ===
+
+Available Shield Cell Bank Experimental Effects include:<ref name="inara-scb">[https://inara.cz/elite/blueprint/18/ Shield Cell Bank — Specialised], Inara.</ref>
+
+* [[Boss Cells]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Recycling Cell]]
+* [[Stripped Down]]
+
+=== Shield Generator ===
+
+Available Shield Generator Experimental Effects include:<ref name="inara-shield">[https://inara.cz/elite/blueprint/22/ Shield Generator — Thermal Resistant], Inara.</ref>
+
+* [[Double Braced]]
+* [[Fast Charge]]
+* [[Force Block]]
+* [[Hi-Cap]]
+* [[Lo-Draw]]
+* [[Multi-Weave]]
+* [[Stripped Down]]
+* [[Thermo Block]]
+
+=== Thrusters ===
+
+Available Thruster Experimental Effects include:<ref name="inara-thrusters">[https://inara.cz/elite/blueprint/4/ Thrusters — Dirty], Inara.</ref>
+
+* [[Double Braced]]
+* [[Drag Drives]]
+* [[Drive Distributors]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Important|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module type.}}
+
+== Recommended Engineering ==
+
+Mel's broad Grade 5 coverage makes him useful for several very different ship roles.
+
+=== Thrusters ===
+
+Mel provides [[Dirty Thrusters]] through '''Grade 5''', matching [[Professor Palin]] and [[Chloe Sedesi]].
+
+For most performance-focused combat and general-purpose ships, Dirty Thrusters are a common choice because they provide a substantial increase in thrust and speed.
+
+A common pairing is:
+
+* '''Dirty Thrusters'''
+* '''Drag Drives'''
+
+{{Tip|'''Common performance choice: Dirty + Drag Drives'''
+
+This combination is widely useful when maximum ship speed and manoeuvrability are more important than thermal efficiency.
+
+[[Drive Distributors]] can be preferable on some ships or undersized-drive configurations where the Thruster's optimal-mass curve matters more than the additional multiplier from Drag Drives.}}
+
+=== Frame Shift Drive ===
+
+Mel provides [[Increased Range Frame Shift Drive]] through '''Grade 5'''.
+
+A common general-purpose combination is:
+
+* '''Increased Range'''
+* '''Mass Manager'''
+
+For smaller FSD classes, [[Deep Charge]] can sometimes provide slightly better range, but at the cost of increased fuel consumption.
+
+Mel therefore provides a Colonia alternative to [[Felicity Farseer]] and [[Elvira Martuuk]] for maximum-grade conventional FSD Engineering.
+
+=== Frame Shift Drive Interdictor ===
+
+Mel is particularly notable for providing '''Grade 5 Frame Shift Drive Interdictor Engineering'''.
+
+He can apply:
+
+* [[Expanded Capture Arc]] — Grade 5
+* [[Long Range Frame Shift Drive Interdictor|Long Range]] — Grade 5<ref name="inara-interdictor" />
+
+[[Colonel Bris Dekker]] stops at Grade 4, making Mel the only current Engineer who takes conventional FSD Interdictor Engineering to Grade 5.<ref name="inara-interdictor" />
+
+{{Tip|If you regularly use interdiction equipment, Mel's Grade 5 Interdictor access is one of his most distinctive capabilities.
+
+'''Expanded Capture Arc''' makes it easier to acquire targets that are not perfectly centred, while '''Long Range''' increases initiation distance. Neither is universally superior.}}
+
+Because Frame Shift Drive Interdictors have no Experimental Effects, a pinned Interdictor blueprint can be completed entirely through Remote Engineering once Mel's reputation is high enough.
+
+=== Shield Generators ===
+
+Mel provides all conventional Shield Generator blueprints through Grade 5:
+
+* Enhanced Low Power
+* Kinetic Resistant
+* Reinforced
+* Thermal Resistant
+
+The correct choice depends on the shield type and intended build.
+
+For many Bi-Weave and balanced-resistance setups, [[Thermal Resistant Shield Generator|Thermal Resistant]] is useful for correcting the shield's natural thermal weakness.
+
+For builds focused on maximum raw shield capacity, [[Reinforced Shield Generator|Reinforced]] is often more appropriate.
+
+There is no single universal Shield Generator blueprint.
+
+=== Shield Boosters ===
+
+Mel also provides every conventional Shield Booster blueprint through Grade 5.
+
+Common shield configurations mix:
+
+* [[Heavy Duty Shield Booster|Heavy Duty]] boosters for raw shield strength; and
+* [[Resistance Augmented Shield Booster|Resistance Augmented]] or damage-specific boosters for resistance balancing.
+
+{{Tip|Do not automatically engineer every Shield Booster identically. Combining raw-strength and resistance-oriented boosters can provide considerably better effective protection than stacking one blueprint without considering the shield's resistance profile.}}
+
+=== Lasers ===
+
+Mel matches [[Broo Tarquin]] for Grade 5 Beam, Burst, and Pulse Laser Engineering.
+
+Useful combinations include:
+
+* '''Efficient Beam Laser''' for lower distributor demand and heat;
+* '''Long Range Beam Laser + Thermal Vent''' for ranged combat and heat management;
+* '''Efficient Burst Laser''' for general-purpose sustained use; and
+* specialised Pulse or Burst Laser configurations using effects such as [[Emissive Munitions]], [[Scramble Spectrum]], or [[Inertial Impact]].
+
+See [[Laser Engineering]] for build-specific recommendations.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Mel, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+Mel's unusually broad Grade 5 coverage creates several strong candidates.
+
+{{Tip|'''EDFM recommendation:''' If you use Frame Shift Drive Interdictors, consider pinning either [[Expanded Capture Arc]] or [[Long Range Frame Shift Drive Interdictor|Long Range]] at Mel.
+
+Mel is the only current Engineer providing conventional Frame Shift Drive Interdictor Engineering through '''Grade 5''', and the Interdictor has no Experimental Effects. This means a pinned blueprint can be completed remotely without needing to return to Colonia afterward.
+
+For Commanders who rarely use Interdictors, [[Dirty Thrusters]], [[Thermal Resistant Shield Generator]], or a frequently used Grade 5 laser blueprint may provide more practical value.}}
+
+Because Mel is located roughly 22,000 light-years from the Bubble, choosing a useful pin before leaving Colonia is particularly valuable.
+
+{{Important|Most of Mel's modules still require a workshop visit for Experimental Effects. The Frame Shift Drive Interdictor is unusual because it currently has no Experimental Effects.}}
+
+== What Mel Cannot Fully Engineer ==
+
+Mel provides maximum-grade Engineering for nearly every module type he supports.
+
+His maximum grades are:
+
+* '''Beam Laser:''' Grade 5
+* '''Burst Laser:''' Grade 5
+* '''Pulse Laser:''' Grade 5
+* '''Frame Shift Drive:''' Grade 5
+* '''Frame Shift Drive Interdictor:''' Grade 5
+* '''Shield Booster:''' Grade 5
+* '''Shield Generator:''' Grade 5
+* '''Thrusters:''' Grade 5
+* '''Shield Cell Bank:''' Grade 4<ref name="inara-mel" />
+
+His only supported module that stops below Grade 5 is the '''Shield Cell Bank'''.
+
+No current Engineer provides conventional Shield Cell Bank Engineering beyond Grade 4.<ref name="inara-scb" />
+
+Mel therefore effectively provides maximum available Shield Cell Bank Engineering as well, even though the blueprint family itself ends at Grade 4.
+
+For alternative maximum-grade specialists:
+
+* [[Broo Tarquin]] provides Grade 5 Beam, Burst, and Pulse Laser Engineering in the Bubble.
+* [[Professor Palin]] and [[Chloe Sedesi]] provide Grade 5 Thruster Engineering.
+* [[Felicity Farseer]] and [[Elvira Martuuk]] provide Grade 5 Frame Shift Drive Engineering.
+* [[Lei Cheung]] provides Grade 5 Shield Generator Engineering.
+* [[Didi Vatermann]] provides Grade 5 Shield Booster Engineering.
+* [[Colonel Bris Dekker]] provides Frame Shift Drive Interdictor Engineering only through Grade 4.<ref name="inara-engineers" />
+
+Mel's distinguishing advantage is that he combines all of these specialties at a single Colonia workshop.
+
+== What Next? ==
+
+Mel Brandon is the end of his Engineer referral branch and does not currently introduce another Engineer.
+
+If you have already travelled to Colonia, it is usually worth considering the other three Colonia ship Engineers before returning to the Bubble.
+
+{{What next|title=Continue Engineering|
+* '''Projectile weapons, Fuel Scoops, limpets, and Refineries:''' [[Marsha Hicks]]
+* '''Armour, explosive weapons, and defensive utilities:''' [[Petra Olmanova]]
+* '''Power systems, Rail Guns, Plasma Accelerators, scanners, and Life Support:''' [[Etienne Dorn]]
+* '''Previous Engineer:''' [[Elvira Martuuk]]
+* '''Gain the invitation:''' [[Colonia Council]]
+* '''Raise faction reputation:''' [[Minor Faction Reputation]]
+* '''Earn the unlock currency:''' [[Bounty Vouchers]]
+* '''Plan a Colonia Engineering trip:''' [[Colonia Engineers]]
+* '''Engineer propulsion:''' [[Thruster Engineering]]
+* '''Engineer shields:''' [[Shield Engineering]]
+* '''Engineer lasers:''' [[Laser Engineering]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Colonia Engineers]]
+[[Category:Weapon Engineering]]
+[[Category:Core Internal Engineering]]
+[[Category:Optional Internal Engineering]]
+[[Category:Utility Engineering]]
+[[Category:Defensive Engineering]]
+[[Category:Engineering]]

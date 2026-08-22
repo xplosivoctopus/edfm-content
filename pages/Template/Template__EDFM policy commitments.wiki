@@ -1,0 +1,27 @@
+<!--
+EDFM current-content archive export.
+Title: Template:EDFM policy commitments
+Namespace: 10
+Page ID: 621
+Revision ID: 1412
+Timestamp: 2026-08-21T13:56:38Z
+Source URL: https://edfieldmanual.com/wiki/Template:EDFM_policy_commitments
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<includeonly><div class="edfm-policy-quick-reference" style="border:1px solid #3a4754; background:#111821; padding:1rem; margin:1rem 0;">
+'''EDFM policy commitments — quick reference'''
+
+* '''Operator/contact:''' ''Elite Dangerous Field Manual'' (EDFM) is operated as an independent community project. For policy, privacy, copyright, licensing, or site-operation questions, contact <code>contact@edfieldmanual.com</code>.
+* '''Unofficial status:''' EDFM is not affiliated with, operated by, sponsored by, endorsed by, or reviewed by Frontier Developments plc. Frontier names, marks, game assets, and imagery remain Frontier's or their owners' property.
+* '''Accounts, edits, and uploads:''' Anyone may create an account. Logged-in users may edit pages. Logged-in users may upload permitted image types subject to file type, size, rate-limit, licensing, moderation, and anti-abuse rules. Anonymous uploads remain disabled. EDFM may later restrict account creation, editing, or uploads for spam, security, abuse-prevention, legal, or moderation reasons.
+* '''Age:''' EDFM is not intended for children under 13. If you are under 13, do not create an account or provide personal information.
+* '''Contribution license:''' Unless a page clearly says otherwise, original text submitted to EDFM is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). Frontier-owned game material, third-party material, trademarks, personal information, EDFM software/infrastructure, and EDFM branding are not relicensed by that text license.
+* '''Personal data and advertising:''' EDFM does not sell personal information and does not share personal information for behavioural advertising. EDFM does not use advertising cookies, cross-site marketing cookies, remarketing, enhanced conversions, Google Ads audiences, AdSense, Meta Pixel, session replay, or ad-personalisation features. Optional Google Analytics is used only after Analytics consent on eligible public pages and is excluded from sensitive account, authentication, Frontier OAuth, and profile pages.
+* '''Account removal and public history:''' If account removal is requested, EDFM's normal approach is to disable or rename the account where appropriate while preserving public edits, file history, logs, and other records needed for attribution, licensing, moderation, security, legal compliance, and wiki integrity.
+* '''Logs and backups:''' Operational logs are intended to rotate at about 60 days unless longer retention is temporarily needed for abuse, security, outages, or legal reasons. EDFM takes daily backups; removed or changed data may remain in already-created backups until those backups expire under the backup schedule.
+* '''Cookies and consent:''' Necessary cookies/storage support login, security, account creation, preferences, and cookie-choice handling. Optional Analytics/site-improvement cookies are controlled through Cookie Preferences. Rejecting optional cookies should not prevent ordinary reading.
+* '''Frontier login and CAPI:''' Normal Frontier sign-in is for account login/linking only and requests <code>auth</code>, not Companion API (<code>capi</code>) access. Commander-name verification is a separate optional Preferences action; choosing '''Attach CMDR Name''' requests <code>auth capi</code>, reads the Commander name once, and keeps that Commander name private by default unless the user later enables public display.
+</div></includeonly><noinclude>
+Reusable public-policy quick-reference block for EDFM policy, legal, privacy, cookie, and contributing pages. Keep this template aligned with the actual runtime configuration and public policy pages.
+</noinclude>

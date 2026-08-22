@@ -1,0 +1,50 @@
+<!--
+EDFM current-content archive export.
+Title: Gold
+Namespace: 0
+Page ID: 395
+Revision ID: 1032
+Timestamp: 2026-08-20T01:40:08Z
+Source URL: https://edfieldmanual.com/wiki/Gold
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Commodity
+ |deck=A Metals commodity produced by Extraction and Refinery economies, and Lei Cheung's unlock requirement.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Inara commodity data; no direct EDFM testing yet
+}}
+
+'''Gold''' is a '''Metals''' commodity carried as ordinary cargo, valued for its corrosion resistance and its use in jewellery, luxury goods, and electronics contacts.<ref name="inara-gold">[https://inara.cz/elite/commodity/42/ Gold — Commodity], Inara.</ref> It is produced by '''Extraction''' and '''Refinery''' economy stations and consumed by most other station types.<ref name="inara-gold" />
+
+== Why it matters for Engineering ==
+
+[[Lei Cheung]] requires '''200 units of Gold''' to unlock his Engineering workshop at [[Trader's Rest]] in [[Laksak]]. As an ordinary commodity, each unit occupies one tonne of cargo space; the full 200-unit requirement needs 200 tonnes of cargo capacity if delivered in a single trip, or can be split across multiple trips.
+
+== Acquisition ==
+
+Gold can be obtained two ways:
+
+* '''Buy it.''' Commodity markets at stations with an '''Extraction''' or '''Refinery''' economy routinely stock Gold.<ref name="inara-gold" /> Use a current commodity-market search rather than assuming one specific station's stock is permanent.
+* '''Mine it.''' Gold is a minable metal; prospecting and refining it yourself avoids depending on any station's market stock entirely, at the cost of needing mining equipment and time.
+
+{{Tip|Because 200 units is a substantial market purchase, check current sell/buy prices and available stock at more than one Extraction/Refinery station before committing to a single trip — allocations and prices vary by station and over time.}}
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Lei Cheung]] [[Trader's Rest]] [[Laksak]] [[Engineering Materials]]}}
+
+{{Engineering nav}}
+
+[[Category:Commodities]]
+[[Category:Engineering]]

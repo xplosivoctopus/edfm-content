@@ -1,0 +1,399 @@
+<!--
+EDFM current-content archive export.
+Title: Hera Tani
+Namespace: 0
+Page ID: 107
+Revision ID: 1432
+Timestamp: 2026-08-21T14:38:31Z
+Source URL: https://edfieldmanual.com/wiki/Hera_Tani
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 Power Plant and Detailed Surface Scanner specialist based at The Jet's Hole in Kuwemaki, reached through Liz Ryder.
+}}
+
+{{Engineer infobox}}
+
+'''Hera Tani''' is a ship Engineer based at '''The Jet's Hole''' in the [[Kuwemaki]] system. She is reached through [[Liz Ryder]] and specialises primarily in ship power systems.<ref name="inara-hera">[https://inara.cz/elite/engineer/12/ Hera Tani — Engineer], Inara.</ref>
+
+Hera provides '''Grade 5 Power Plant''' and '''Grade 5 Detailed Surface Scanner Engineering''', along with Power Distributor and Sensor Engineering through Grade 3.<ref name="inara-hera" /><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+{{Field note|Hera's primary maximum-grade specialty is the '''Power Plant'''. Although she also works on Power Distributors and Sensors, those modules stop at Grade 3 at her workshop.}}
+
+== Location ==
+
+* '''System:''' [[Kuwemaki]]
+* '''Facility:''' [[The Jet's Hole]]
+* '''Body:''' Kuwemaki A 3 a
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Liz Ryder]]
+* '''System permit required:''' No
+
+The Jet's Hole is a surface Engineer base on '''Kuwemaki A 3 a'''.<ref name="inara-jets-hole">[https://inara.cz/elite/station/52289/ The Jet's Hole — Station], Inara.</ref>
+
+== How to Discover Hera Tani ==
+
+Hera Tani is discovered through [[Liz Ryder]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Liz to receive her referral to Hera.<ref name="newp-engineers" />
+
+Liz can also refer Comanders directly to [[Etienne Dorn]] in Colonia. Hera and Etienne are therefore parallel referrals from Liz rather than one being required for the other.
+
+{{Field note|Receiving Liz's referral makes Hera known to you. Her separate Imperial Navy rank requirement must still be satisfied before her workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Reach the Imperial Navy rank of '''Outsider''' or higher.<ref name="inara-hera" /><ref name="newp-engineers" />
+
+Outsider is the first earned rank in the Imperial Navy progression.
+
+If your Imperial Navy rank is already Outsider or higher, Hera's meeting requirement has been satisfied.
+
+See [[Imperial Navy Rank]] for how Imperial Navy progression works, how to earn rank progress, and how to check your current rank.
+
+{{Important|Hera requires an '''Imperial Navy rank''', not merely reputation with an Empire-aligned minor faction. Faction reputation is used while working toward Imperial Navy progression, but the Engineer requirement itself is the rank of '''Outsider''' or higher.}}
+
+== How to Unlock Hera Tani ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Liz Ryder]].
+* Reach '''Outsider''' or higher in [[Imperial Navy Rank]].
+* Obtain a total of '''50 units of [[Kamitra Cigars]]'''.
+* Donate the 50 Kamitra Cigars to Hera Tani.
+{{Important|'''Kamitra Cigars are a rare commodity.''' They are not Raw, Manufactured, or Encoded Engineering materials. Each unit occupies one tonne of cargo space.}}
+
+For the complete step-by-step process, see [[Unlocking Hera Tani]].
+
+== Obtaining Kamitra Cigars ==
+
+The normal production source for [[Kamitra Cigars]] is:
+
+* '''System:''' [[Kamitra]]
+* '''Station:''' [[Hammel Terminal]]
+* '''Commodity type:''' Rare commodity<ref name="inara-cigars" />
+
+Hera requires '''50 units''' in total.
+
+Because Kamitra Cigars are a rare commodity, the quantity available directly from Hammel Terminal can be limited. If fewer than 50 are available, multiple purchases may be required.
+
+{{Tip|Check your available allocation at Hammel Terminal before planning around a single 50-tonne trip. Rare-commodity availability is not the same as the large supply figures normally seen for ordinary market commodities.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also offer Kamitra Cigars if another Commander has stocked them for resale. Carrier inventory and prices are player-controlled and can change.
+
+See [[Kamitra Cigars]] for current acquisition details and rare-commodity mechanics.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Hera is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-hera" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Hera Tani can be increased by:
+
+* crafting Engineering modifications at The Jet's Hole; or
+* selling commodities at The Jet's Hole.<ref name="inara-hera" />
+
+Higher Engineer reputation gives access to the higher grades Hera supports for each blueprint.
+
+Reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' allows Hera to provide referrals to [[Broo Tarquin]] and [[Tiana Fortune]].<ref name="newp-engineers" /><ref name="inara-broo">[https://inara.cz/elite/engineer/15/ Broo Tarquin — Engineer], Inara.</ref><ref name="inara-tiana">[https://inara.cz/elite/engineer/16/ Tiana Fortune — Engineer], Inara.</ref>
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have ordinary commodities to sell after unlocking Hera, selling them through the commodity market at The Jet's Hole can help increase your Engineer reputation without relying entirely on Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Hera Tani belongs to the [[Liz Ryder]] branch of the ship Engineer network.
+
+The route to Hera is:
+
+<pre>
+Liz Ryder
+└── Hera Tani
+</pre>
+
+After reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with Hera, she provides referrals to:
+
+* [[Broo Tarquin]]
+* [[Tiana Fortune]]
+
+Liz also directly refers Commanders to [[Etienne Dorn]] in Colonia.
+
+The branch is therefore:
+
+<pre>
+Liz Ryder
+├── Hera Tani
+│   ├── Broo Tarquin
+│   └── Tiana Fortune
+└── Etienne Dorn [Colonia]
+</pre>
+
+Current Engineer data independently lists both Broo Tarquin and Tiana Fortune as being discovered through Hera Tani.<ref name="inara-broo" /><ref name="inara-tiana" />
+
+{{Field note|[[Broo Tarquin]] and [[Tiana Fortune]] are parallel referrals from Hera. Unlocking either one is not required before unlocking the other.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Hera's current Engineering coverage is shown below. The listed grade is the highest grade she can apply to that module.<ref name="inara-hera" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Power Plant]]
+|
+* Armoured
+* Low Emissions
+* Overcharged
+| '''Grade 5'''
+|-
+| [[Detailed Surface Scanner]]
+|
+* Expanded Probe Scanning Radius
+* Long Range Detailed <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Power Distributor]]
+|
+* Balanced <small>(Live only; compatible Merc modules)</small>
+* Charge Enhanced
+* Engine Focused
+* High Charge Capacity
+* Shielded
+* Support Focused <small>(Live only; compatible Merc modules)</small>
+* System Focused
+* Weapon Focused
+| '''Grade 3'''
+|-
+| [[Sensors]]
+|
+* Lightweight
+* Long Range
+* Wide Angle
+| '''Grade 3'''
+|}
+
+Hera's maximum-grade specialties are therefore the '''Power Plant''' and '''Detailed Surface Scanner'''.
+
+== Operations-era Engineering ==
+
+The Operations-era Engineering system added three current blueprints to Hera's workshop:
+
+* '''Long Range Detailed''' for the [[Detailed Surface Scanner]];
+* '''Balanced''' for the [[Power Distributor]]; and
+* '''Support Focused''' for the Power Distributor.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+These blueprints are available only in '''Live''' and can only be applied to compatible '''Merc modules'''.
+
+They also use [[Merc Coin]] as part of their Engineering costs.
+
+=== Long Range Detailed Surface Scanner ===
+
+'''Long Range Detailed''' increases Detailed Surface Scanner probe radius at the cost of additional module mass and power draw.<ref name="inara-dss-long">[https://inara.cz/elite/blueprint/205/ Detailed Surface Scanner — Long Range Detailed], Inara.</ref>
+
+Hera can apply Long Range Detailed through '''Grade 5'''.
+
+At Grade 5, the blueprint provides:
+
+* '''+100% Probe Radius'''<ref name="inara-dss-long" />
+
+{{Important|Long Range Detailed can only be applied to compatible '''Merc Detailed Surface Scanners'''.}}
+
+=== Balanced Power Distributor ===
+
+'''Balanced''' increases capacity and recharge rate across the SYS, ENG, and WEP capacitors while reducing Power Distributor power draw. The tradeoffs include increased module mass and reduced integrity.<ref name="inara-balanced">[https://inara.cz/elite/blueprint/208/ Power Distributor — Balanced], Inara.</ref>
+
+Hera can apply Balanced through '''Grade 3'''.
+
+At Grade 3, the current blueprint provides:
+
+* '''+10.5% SYS, ENG, and WEP capacity'''
+* '''+11.5% SYS, ENG, and WEP recharge'''
+* '''-5% power draw'''
+* '''+5% mass'''
+* '''-2.5% integrity'''<ref name="inara-balanced" />
+
+For Grade 4 and Grade 5 Balanced Engineering, use [[The Dweller]] or [[Etienne Dorn]].<ref name="inara-balanced" />
+
+{{Important|Balanced can only be applied to compatible '''Merc Power Distributors'''.}}
+
+=== Support Focused Power Distributor ===
+
+'''Support Focused''' increases SYS and ENG capacity and recharge while reducing WEP capacity and recharge.<ref name="inara-support">[https://inara.cz/elite/blueprint/209/ Power Distributor — Support Focused], Inara.</ref>
+
+Hera can apply Support Focused through '''Grade 3'''.
+
+At Grade 3, the current blueprint provides:
+
+* '''+22.5% ENG capacity'''
+* '''+20% ENG recharge'''
+* '''+22.5% SYS capacity'''
+* '''+20% SYS recharge'''
+* '''-12.5% WEP capacity'''
+* '''-10% WEP recharge'''<ref name="inara-support" />
+
+For Grade 4 and Grade 5 Support Focused Engineering, use [[The Dweller]] or [[Etienne Dorn]].<ref name="inara-support" />
+
+{{Important|Support Focused can only be applied to compatible '''Merc Power Distributors'''.}}
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+
+Hera can apply Experimental Effects to Power Plants and Power Distributors.
+
+Detailed Surface Scanners and Sensors do not currently have Experimental Effects.
+
+=== Power Plant ===
+
+Available Power Plant Experimental Effects include:<ref name="inara-powerplant">[https://inara.cz/elite/blueprint/12/ Power Plant — Armoured], Inara.</ref>
+
+* [[Double Braced]]
+* [[Monstered]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+=== Power Distributor ===
+
+Available Power Distributor Experimental Effects include:<ref name="inara-balanced" />
+
+* [[Cluster Capacitors]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Stripped Down]]
+* [[Super Conduits]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Hera can apply a compatible Experimental Effect to a Power Distributor even if that distributor has been engineered beyond her Grade 3 blueprint limit by another Engineer.}}
+
+{{Important|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Engineering ==
+
+Hera's most important conventional capability is her '''Grade 5 Power Plant Engineering'''.
+
+Power Plant Engineering requires more care than simply maximizing one statistic because every blueprint changes the ship's available power, thermal behaviour, integrity, or mass.
+
+=== Armoured Power Plant ===
+
+[[Armoured Power Plant|Armoured]] increases Power Plant integrity while also providing modest improvements to power generation and heat efficiency. The primary tradeoff is increased module mass.<ref name="inara-powerplant" />
+
+At Grade 5, Armoured provides:
+
+* '''+120% integrity'''
+* '''+12% power generation'''
+* '''-12% heat efficiency value'''
+* '''+20% mass'''<ref name="inara-powerplant" />
+
+{{Tip|'''Common general-purpose choice: Armoured + Thermal Spread'''
+
+If the ship has enough power with an Armoured Power Plant, combining '''Armoured''' with [[Thermal Spread]] is a strong general-purpose configuration.
+
+It improves durability and thermal behaviour while also providing some additional power output.
+
+This is a recommendation rather than a universal rule.}}
+
+=== Overcharged Power Plant ===
+
+[[Overcharged Power Plant|Overcharged]] is intended for ships that need substantially more power generation.
+
+At Grade 5, Overcharged provides '''+40% power generation''', but reduces Power Plant integrity and worsens thermal efficiency.<ref name="inara-overcharged">[https://inara.cz/elite/blueprint/13/ Power Plant — Overcharged], Inara.</ref>
+
+{{Important|Do not automatically engineer every Power Plant to Grade 5 Overcharged. Higher Overcharged grades increase heat and reduce integrity. Use only as much additional generation as the build actually requires when thermal efficiency or survivability matters.}}
+
+Useful Overcharged Experimental Effects include:
+
+* [[Thermal Spread]] when heat management is the priority; and
+* [[Monstered]] when still more power output is required.
+
+=== Low Emissions Power Plant ===
+
+[[Low Emissions Power Plant|Low Emissions]] substantially improves thermal efficiency at the cost of reduced power generation and increased mass.
+
+It is especially useful for builds where low heat is more valuable than maximum available power, including some stealth-oriented, exploration, and specialised thermal-management builds.
+
+=== Power Distributor ===
+
+Hera's conventional Power Distributor Engineering stops at Grade 3.
+
+That is enough for intermediate Engineering or applying Experimental Effects, but Commanders seeking Grade 5 conventional Power Distributor Engineering should use [[The Dweller]] or [[Etienne Dorn]].
+
+For many general-purpose and combat ships, [[Charge Enhanced Power Distributor|Charge Enhanced]] combined with [[Super Conduits]] remains a common configuration because it prioritises capacitor recharge.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Hera, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Overcharged Power Plant]] is a useful blueprint to consider pinning at Hera.
+
+Hera provides Overcharged through '''Grade 5''', and remote access is particularly convenient when a new ship or changed loadout requires more power than its current Power Plant can supply.
+
+If your fleet more commonly uses [[Armoured Power Plant|Armoured]] rather than Overcharged, Armoured is an equally reasonable Grade 5 pin.}}
+
+Because Hera's Power Distributor and Sensor Engineering stop at Grade 3, one of her Grade 5 Power Plant blueprints will usually provide more value as a long-term pin.
+
+Blueprint pinning should reflect the ships and builds you actually use.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Effects such as [[Thermal Spread]], [[Monstered]], and [[Super Conduits]] still require visiting an appropriate Engineer workshop.}}
+
+== What Hera Cannot Fully Engineer ==
+
+Hera provides maximum-grade Power Plant and Detailed Surface Scanner Engineering, but her Power Distributor and Sensor work stops at Grade 3.
+
+Her maximum grades are:
+
+* '''Power Plant:''' Grade 5
+* '''Detailed Surface Scanner:''' Grade 5
+* '''Power Distributor:''' Grade 3
+* '''Sensors:''' Grade 3<ref name="inara-hera" />
+
+For higher-grade Power Distributor Engineering:
+
+* [[The Dweller]] provides '''Grade 5 Power Distributor''' Engineering.
+* [[Etienne Dorn]] provides '''Grade 5 Power Distributor''' Engineering in Colonia.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+For higher-grade Sensor Engineering, several Engineers provide Grade 5 access, including:
+
+* [[Lei Cheung]]
+* [[Juri Ishmaak]]
+* [[Lori Jameson]]
+* [[Bill Turner]]
+* [[Tiana Fortune]]
+* [[Etienne Dorn]]<ref name="inara-engineers" />
+
+For Grade 5 Power Plant Engineering, [[Etienne Dorn]] is Hera's other maximum-grade alternative.
+
+Hera remains the primary Bubble Engineer for conventional Grade 5 Power Plant Engineering.
+
+== What Next? ==
+
+Progressing Hera's reputation opens two additional Engineer paths.
+
+{{What next|title=Continue Engineering|
+* '''Grade 5 Beam, Burst, and Pulse Lasers:''' [[Broo Tarquin]]
+* '''Grade 5 scanners, Sensors, and limpet controllers:''' [[Tiana Fortune]]
+* '''Colonia Power Plant and Power Distributor alternative:''' [[Etienne Dorn]]
+* '''Previous Engineer:''' [[Liz Ryder]]
+* '''Reach the invitation requirement:''' [[Imperial Navy Rank]]
+* '''Get the unlock commodity:''' [[Kamitra Cigars]]
+* '''Engineer ship power systems:''' [[Power Plant Engineering]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Core Internal Engineering]]
+[[Category:Utility Engineering]]
+[[Category:Engineering]]

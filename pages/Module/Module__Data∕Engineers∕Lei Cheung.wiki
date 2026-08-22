@@ -1,0 +1,57 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Lei Cheung
+Namespace: 828
+Page ID: 405
+Revision ID: 1158
+Timestamp: 2026-08-20T22:08:59Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Lei_Cheung
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Lei Cheung",
+	"engineer_scope": "ship",
+	"image": "Leicheung.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Laksak",
+	"body": "Laksak A 1",
+	"facility": "Trader's Rest",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Shield Generator",
+		"Detailed Surface Scanner",
+		"Sensors",
+		"Shield Booster"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "The Dweller",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from The Dweller",
+	"invitation_requirement": "Trade at 50 unique commodity markets",
+	"meeting_requirement": "Trade at at least 50 unique commodity markets.",
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 200,
+		"item": "Gold"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Shield Generator",
+				"Detailed Surface Scanner",
+				"Sensors"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Shield Booster"
+			]
+		}
+	],
+	"colonia": false
+}

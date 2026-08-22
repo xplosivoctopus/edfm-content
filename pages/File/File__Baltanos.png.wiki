@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: File:Baltanos.png
+Namespace: 6
+Page ID: 243
+Revision ID: 373
+Timestamp: 2026-08-08T14:36:18Z
+Source URL: https://edfieldmanual.com/wiki/File:Baltanos.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Baltanos Engineer Headeshot
+== Licensing ==
+{{License-ED screenshot}}

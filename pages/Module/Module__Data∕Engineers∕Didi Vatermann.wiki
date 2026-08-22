@@ -1,0 +1,59 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Didi Vatermann
+Namespace: 828
+Page ID: 415
+Revision ID: 1152
+Timestamp: 2026-08-20T22:08:56Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Didi_Vatermann
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Didi Vatermann",
+	"engineer_scope": "ship",
+	"image": "Didivatermann.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Leesti",
+	"body": "Leesti 1 a",
+	"facility": "Vatermann LLC",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Shield Booster",
+		"Shield Generator"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Selene Jean",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Selene Jean",
+	"invitation_requirement": "Trade rank Merchant or higher",
+	"meeting_requirement": "Reach Trade rank Merchant or higher.",
+	"meeting_links": [
+		{
+			"text": "Trade rank",
+			"target": "Trade Rank"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 50,
+		"item": "Lavian Brandy"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Shield Booster"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Shield Generator"
+			]
+		}
+	],
+	"colonia": false
+}

@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Guardian Shard Cannon
+Namespace: 828
+Page ID: 509
+Revision ID: 1296
+Timestamp: 2026-08-20T23:59:39Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Shard_Cannon
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Guardian Shard Cannon",
+}

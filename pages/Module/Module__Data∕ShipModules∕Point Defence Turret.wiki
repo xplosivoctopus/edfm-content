@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Point Defence Turret
+Namespace: 828
+Page ID: 559
+Revision ID: 1346
+Timestamp: 2026-08-21T00:00:17Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Point_Defence_Turret
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Point Defence Turret",
+}

@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Mining
+Namespace: 0
+Page ID: 185
+Revision ID: 923
+Timestamp: 2026-08-18T13:17:40Z
+Source URL: https://edfieldmanual.com/wiki/Mining
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+
+Index for mining and refining content — see [[:Category:Mining]].
+
+{{Draft warning}}
+No individual mining articles exist yet.
+
+{{Related articles|[[Trade]] [[Ships and Equipment]] [[Tools and Resources]]}}
+[[Category:Mining]]

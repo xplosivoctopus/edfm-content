@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Meta-Alloys
+Namespace: 0
+Page ID: 390
+Revision ID: 1027
+Timestamp: 2026-08-20T01:40:04Z
+Source URL: https://edfieldmanual.com/wiki/Meta-Alloys
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Commodity
+ |deck=An Industrial Materials commodity of Barnacle origin, and Felicity Farseer's unlock requirement.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Inara commodity data and current community reporting; no direct EDFM testing yet
+ |uncertainty=Exact current market availability fluctuates and has not been independently reproduced by this project
+}}
+
+'''Meta-Alloys''' are an '''Industrial Materials''' commodity carried as ordinary cargo, not an Engineering material drawn from the Materials tab.<ref name="inara-meta">[https://inara.cz/elite/commodity/101/ Meta-Alloys — Commodity], Inara.</ref> They form organically around alien '''Barnacle''' sites rather than being manufactured by any station, and the in-game commodity description notes they are lighter, stronger, and more thermally resistant than most conventional alloys.<ref name="inara-meta" />
+
+== Why it matters for Engineering ==
+
+[[Felicity Farseer]] requires '''1 unit of Meta-Alloys''' to unlock her Engineering workshop at [[Farseer Inc]] in [[Deciat]]. Because it is a commodity rather than a Raw/Manufactured/Encoded material, it occupies one tonne of cargo space and must be physically carried to Farseer Inc — a single cargo rack is enough for this delivery.
+
+== Acquisition ==
+
+Meta-Alloys are not sold at ordinary commodity markets in reliable, restocking quantities. Two general approaches are documented:
+
+* '''Barnacle sites.''' Meta-Alloys can be collected directly at Large Barnacle sites using a Collector Limpet Controller, which is the more consistent source since it does not depend on a station's market stock.<ref name="inara-meta" />
+* '''Scattered market stock.''' A small number of stations occasionally list Meta-Alloys for sale, but availability and location shift over time and typical allocations are small (often only a handful of units per visit).<ref name="inara-meta" />
+
+Because only 1 unit is required to unlock Felicity Farseer, either method is normally sufficient for this specific purpose; do not plan around one specific station's stock as though it were permanent; check current market data before relying on the market route.
+
+{{Field note|Some older community guides point to a single fixed station as a reliable Meta-Alloys source. Station stock lists change over time — use a current commodity search rather than an old fixed route.}}
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Felicity Farseer]] [[Farseer Inc]] [[Engineering Materials]]}}
+
+{{Engineering nav}}
+
+[[Category:Commodities]]
+[[Category:Engineering]]

@@ -1,0 +1,51 @@
+<!--
+EDFM current-content archive export.
+Title: Wyrd
+Namespace: 0
+Page ID: 355
+Revision ID: 992
+Timestamp: 2026-08-20T01:37:40Z
+Source URL: https://edfieldmanual.com/wiki/Wyrd
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=A Corporate-controlled Core Systems world hosting The Dweller's workshop, Black Hide.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced star system and station records
+}}
+
+'''Wyrd''' is an independent system in the Core Systems, home to '''[[Black Hide]]''', the workshop of '''[[The Dweller]]'''. The Dweller is one of the independent starting Engineers, requiring no referral from another Engineer.<ref name="inara-wyrd">[https://inara.cz/elite/starsystem/236/ Wyrd — Star System], Inara.</ref>
+
+== Overview ==
+
+* '''Star:''' Class K (scoopable)
+* '''Allegiance:''' Independent
+* '''Government:''' Corporate
+* '''Security:''' Medium
+* '''Economy:''' Extraction / Agriculture<ref name="inara-wyrd" />
+
+== Engineer Facility ==
+
+'''[[Black Hide]]''' is a surface Engineer base on Wyrd A 2, operated by '''[[The Dweller]]'''.<ref name="inara-black-hide">[https://inara.cz/elite/station/52127/ Black Hide in Wyrd — Station], Inara.</ref>
+
+No system permit is required to enter Wyrd. See [[The Dweller]] for the full discovery, invitation, and unlock requirements for his workshop.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[The Dweller]] [[Black Hide]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

@@ -1,0 +1,36 @@
+<!--
+EDFM current-content archive export.
+Title: Enhanced AX Missile Rack
+Namespace: 0
+Page ID: 479
+Revision ID: 1266
+Timestamp: 2026-08-20T23:59:18Z
+Source URL: https://edfieldmanual.com/wiki/Enhanced_AX_Missile_Rack
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Ship Module
+ |deck=Structured stub page for the Enhanced AX Missile Rack ship module.
+}}
+
+{{Ship module infobox
+ |name = Enhanced AX Missile Rack
+ |image =
+ |module_class =
+ |slot_type =
+ |mount =
+ |manufacturer =
+ |availability =
+ |engineering =
+ |related_modules =
+}}
+
+{{Draft warning}}
+
+== Overview ==
+
+This ship module page is a structured stub. Source-backed module details have not been filled yet.
+
+[[Category:Modules]]
+[[Category:Ship modules]]

@@ -1,0 +1,470 @@
+<!--
+EDFM current-content archive export.
+Title: Jude Navarro
+Namespace: 0
+Page ID: 130
+Revision ID: 1474
+Timestamp: 2026-08-21T14:39:04Z
+Source URL: https://edfieldmanual.com/wiki/Jude_Navarro
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Odyssey Engineer
+ |deck=A combat-oriented suit and weapon specialist based at Marshall's Drift in Aurai, and the starting point of the Terra Velasquez referral chain.
+}}
+
+{{Engineer infobox}}
+
+'''Jude Navarro''' is an Odyssey Engineer based at '''Marshall's Drift''' in the [[Aurai]] system. He is an independent starting Engineer and does not require a referral from another Engineer.<ref name="inara-jude">[https://inara.cz/elite/engineer/26/ Jude Navarro — Engineer], Inara.</ref>
+
+Jude specialises in combat-oriented suit and handheld-weapon modifications. He provides [[Added Melee Damage]], [[Damage Resistance]], [[Extra Ammo Capacity]], [[Magazine Size]], and [[Reload Speed]].<ref name="inara-jude" />
+
+{{Field note|Jude is one of '''three independent starting Odyssey Engineers in the Bubble''', alongside [[Hero Ferrari]] and [[Domino Green]]. All three are listed as common knowledge and can be pursued without first unlocking another Odyssey Engineer.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>}}
+
+Odyssey Engineering is separate from ship Engineering. Suits and handheld weapons have equipment grades and modification slots rather than the Grade 1–5 Engineer-reputation progression used by ship Engineers.
+
+== Location ==
+
+* '''System:''' [[Aurai]]
+* '''Settlement:''' [[Marshall's Drift]]
+* '''Body:''' Aurai 1 a
+* '''Engineer type:''' Odyssey Engineer
+* '''Prerequisite Engineer:''' None
+* '''System permit required:''' No
+
+Marshall's Drift is a surface Engineer base on '''Aurai 1 a''', approximately 1,600 Ls from the system arrival point.<ref name="inara-marshalls-drift">[https://inara.cz/elite/station-outfitting/241978/ Marshall's Drift — Station], Inara.</ref>
+
+== How to Discover Jude Navarro ==
+
+Jude Navarro is '''common knowledge''' and does not require a referral from another Engineer.<ref name="inara-jude" />
+
+He can therefore be pursued independently of the other Odyssey Engineer branches.
+
+The three independent starting branches in the Bubble are:
+
+<pre>
+Hero Ferrari
+└── Wellington Beck
+    └── Uma Laszlo
+
+Jude Navarro
+└── Terra Velasquez
+    └── Oden Geiger
+
+Domino Green
+└── Kit Fowler
+    └── Yarden Bond
+</pre>
+
+{{Field note|The starting Engineers do not need to be completed in any particular order. Progress with Hero Ferrari, Jude Navarro, and Domino Green can be worked on independently.}}
+
+== How to Receive an Invitation ==
+
+There is no separate invitation requirement for Jude Navarro.
+
+His access requirement is simply to complete '''10 Restore or Reactivation missions'''.<ref name="inara-jude" />
+
+== How to Unlock Jude Navarro ==
+
+Unlock requirements summary:
+* Repeat until '''10 qualifying missions''' have been completed.
+{{Important|The requirement is for '''10 completed Restore or Reactivation missions'''. Simply turning on the power at an unrelated abandoned settlement is not the documented Engineer requirement.}}
+{{Tip|These missions can also provide opportunities to search powered-down settlements for Odyssey Engineering materials, making Jude's unlock a useful time to begin building a general stockpile of Goods, Assets, and Data.}}
+
+For the complete step-by-step process, see [[Unlocking Jude Navarro]].
+
+== Odyssey Engineering at Jude Navarro ==
+
+Odyssey Engineering works differently from ship Engineering.
+
+Suits and handheld weapons have an '''equipment grade'''. Higher equipment grades provide additional modification slots:
+
+{| class="wikitable"
+! Equipment grade
+! Modification slots
+|-
+| Grade 1
+| 0
+|-
+| Grade 2
+| 1
+|-
+| Grade 3
+| 2
+|-
+| Grade 4
+| 3
+|-
+| Grade 5
+| 4
+|}
+
+Jude installs individual modifications into those available slots.
+
+His modifications do '''not''' progress through Grade 1–5 Engineer reputation.
+
+{{Important|A Grade 5 Dominator Suit does not receive a "Grade 5 Damage Resistance" modification. Grade 5 describes the suit itself and gives it four modification slots; Damage Resistance occupies one of those slots as a single permanent modification.}}
+
+See [[Odyssey Engineering]] for equipment grades, upgrading, modification slots, Engineering materials, and Pioneer Supplies.
+
+== Available Engineering ==
+
+Jude currently provides five Odyssey modifications.<ref name="inara-jude" />
+
+{| class="wikitable"
+! Modification
+! Equipment
+! Primary effect
+|-
+| [[Added Melee Damage]]
+| Suit
+| Greatly increases damage from fists and weapon melee attacks
+|-
+| [[Damage Resistance]]
+| Suit
+| Reduces kinetic, thermal, plasma, and explosive damage taken
+|-
+| [[Extra Ammo Capacity]]
+| Suit
+| Increases ammunition carrying capacity by 50%
+|-
+| [[Magazine Size]]
+| Handheld weapon
+| Increases the weapon's magazine capacity
+|-
+| [[Reload Speed]]
+| Handheld weapon
+| Reduces weapon reload time
+|}
+
+== Added Melee Damage ==
+
+'''Added Melee Damage''' substantially increases damage dealt by both unarmed attacks and melee strikes performed with a handheld weapon.<ref name="inara-jude" />
+
+The current modifiers are:
+
+* '''+150% weapon melee damage multiplier'''
+* '''+150% fists melee damage multiplier'''<ref name="inara-jude" />
+
+The current recipe is:
+
+* 5 [[Combat Training Material]]
+* 5 [[Combatant Performance]]
+* 5 [[Epinephrine]]
+* 8 [[Micro Thrusters]]
+* '''500,000 CR'''<ref name="inara-jude" />
+
+Other Engineers currently providing Added Melee Damage include:
+
+* [[Kit Fowler]]
+* [[Eleanor Bresa]]<ref name="inara-jude" />
+
+{{Tip|'''EDFM recommendation:''' Added Melee Damage is a specialised modification rather than a general-purpose suit upgrade.
+
+It can be useful for a build deliberately designed around close-quarters combat, but most Commanders will gain more consistent value from survivability, ammunition, mobility, or utility modifications.}}
+
+Because Odyssey suit modification slots are permanent and limited, consider whether melee combat is genuinely part of the suit's intended role before installing it.
+
+== Damage Resistance ==
+
+'''Damage Resistance''' reduces incoming damage from the four principal on-foot weapon damage types.<ref name="inara-jude" />
+
+The current modifiers are:
+
+* '''+10% kinetic damage reduction'''
+* '''+10% thermal damage reduction'''
+* '''+10% plasma damage reduction'''
+* '''+10% explosive damage reduction'''<ref name="inara-jude" />
+
+The current recipe is:
+
+* 5 [[Weapon Inventory]]
+* 5 [[Ballistics Data]]
+* 3 [[Titanium Plating]]
+* 3 [[Carbon Fibre Plating]]
+* 8 [[Epoxy Adhesive]]
+* '''750,000 CR'''<ref name="inara-jude" />
+
+Other Engineers currently providing Damage Resistance include:
+
+* [[Uma Laszlo]]
+* [[Eleanor Bresa]]<ref name="inara-jude" />
+
+{{Tip|'''EDFM recommendation:''' Damage Resistance is one of Jude's strongest general-purpose modifications for a combat-oriented [[Dominator Suit]].
+
+It improves protection against kinetic, thermal, plasma, and explosive attacks rather than depending on the enemy using one particular damage type.}}
+
+It can also be useful on other suits when increased survivability is worth one of their limited modification slots.
+
+== Extra Ammo Capacity ==
+
+'''Extra Ammo Capacity''' increases the amount of ammunition the suit can carry for its weapons.<ref name="inara-jude" />
+
+The current modifier is:
+
+* '''+50% ammunition capacity'''<ref name="inara-jude" />
+
+The current recipe is:
+
+* 8 [[Recycling Logs]]
+* 5 [[Weapon Test Data]]
+* 5 [[Production Reports]]
+* 3 [[Weapon Component]]
+* '''750,000 CR'''<ref name="inara-jude" />
+
+Other Engineers currently providing Extra Ammo Capacity include:
+
+* [[Kit Fowler]]
+* [[Eleanor Bresa]]<ref name="inara-jude" />
+
+{{Tip|'''EDFM recommendation:''' Extra Ammo Capacity is particularly useful on a [[Dominator Suit]] used for prolonged surface combat.
+
+The larger ammunition reserve reduces dependence on ammunition crates and allows more engagements before the suit needs to be resupplied.}}
+
+It can also be valuable on suits used for settlement missions where resupply opportunities may be limited.
+
+{{Field note|Extra Ammo Capacity modifies the '''suit's carried ammunition reserve'''. It is separate from [[Magazine Size]], which modifies how many rounds an individual weapon holds before reloading.}}
+
+== Magazine Size ==
+
+'''Magazine Size''' increases the amount of ammunition held in a handheld weapon's magazine.<ref name="inara-jude" />
+
+The resulting magazine capacity depends on the weapon being modified.
+
+The current recipe is:
+
+* 5 [[Weapon Test Data]]
+* 3 [[Security Expenses]]
+* 3 [[Weapon Component]]
+* 3 [[Tungsten Carbide]]
+* 5 [[Metal Coil]]
+* '''750,000 CR'''<ref name="inara-jude" />
+
+Other Engineers currently providing Magazine Size include:
+
+* [[Kit Fowler]]
+* [[Eleanor Bresa]]<ref name="inara-jude" />
+
+{{Tip|'''EDFM recommendation:''' Magazine Size is most useful on weapons whose normal magazine frequently forces a reload at inconvenient points in an engagement.
+
+Its practical value depends heavily on the weapon. A larger magazine can improve sustained fire, but a weapon that already has adequate capacity may benefit more from another modification.}}
+
+Magazine Size can be particularly useful when combined with a suit carrying [[Extra Ammo Capacity]]:
+
+* Magazine Size increases ammunition available '''before each reload'''.
+* Extra Ammo Capacity increases the suit's '''total carried reserve'''.
+
+They solve different ammunition limitations.
+
+== Reload Speed ==
+
+'''Reload Speed''' shortens the time required to reload a handheld weapon.<ref name="inara-jude" />
+
+The current recipe is:
+
+* 5 [[Operational Manual]]
+* 5 [[Production Reports]]
+* 5 [[Combat Training Material]]
+* 5 [[Micro Hydraulics]]
+* 5 [[Electromagnet]]
+* '''500,000 CR'''<ref name="inara-jude" />
+
+Other Engineers currently providing Reload Speed include:
+
+* [[Uma Laszlo]]
+* [[Eleanor Bresa]]<ref name="inara-jude" />
+
+{{Tip|'''EDFM recommendation:''' Reload Speed is one of Jude's strongest broadly useful weapon modifications.
+
+Its benefit applies every time the weapon is reloaded and does not depend on a particular target type, body location, or environmental condition.}}
+
+The value of Reload Speed increases on weapons whose normal reload animation creates a significant interruption during combat.
+
+== Engineer Unlock Chain ==
+
+Jude Navarro is an independent starting point in the Odyssey Engineer network.
+
+His branch is:
+
+<pre>
+Jude Navarro
+└── Terra Velasquez
+    └── Oden Geiger
+</pre>
+
+[[Terra Velasquez]] is discovered through Jude Navarro.<ref name="inara-terra">[https://inara.cz/elite/engineer/31/ Terra Velasquez — Engineer], Inara.</ref>
+
+Terra subsequently leads to [[Oden Geiger]].<ref name="inara-oden">[https://inara.cz/elite/engineer/34/ Oden Geiger — Engineer], Inara.</ref>
+
+== Referring Terra Velasquez ==
+
+After Jude Navarro has been unlocked, provide him with '''5 [[Genetic Repair Meds]]''' to receive the referral to [[Terra Velasquez]].<ref name="inara-jude" />
+
+{{Important|The Genetic Repair Meds are '''not required to unlock Jude himself'''.
+
+The two requirements are separate:
+
+* '''Unlock Jude Navarro:''' complete 10 Restore or Reactivation missions.
+* '''Discover Terra Velasquez:''' provide Jude with '''5 Genetic Repair Meds'''.}}
+
+== Obtaining Genetic Repair Meds ==
+
+[[Genetic Repair Meds]] are Odyssey '''Goods'''.<ref name="inara-genetic-meds">[https://inara.cz/elite/componentitem/10349/ Genetic Repair Meds — Component], Inara.</ref>
+
+Current material data lists them in several settlement loot pools, including:
+
+* '''MED rooms'''
+* '''STO buildings'''
+* '''RES buildings'''
+* '''IND buildings'''
+* '''EXT buildings'''
+* '''AGRI buildings'''<ref name="inara-genetic-meds" />
+
+Medical areas are therefore an obvious place to check when searching settlements for them.
+
+{{Tip|Only '''5 Genetic Repair Meds''' are required. Once Jude is unlocked, keep the first five you find if you intend to continue immediately into the Terra Velasquez branch.}}
+
+Because Genetic Repair Meds are physical Odyssey Goods rather than Data, they occupy Goods storage and must be physically provided to Jude.
+
+Once the five units have been handed over, [[Terra Velasquez]] becomes the next Engineer in the branch.<ref name="inara-terra" />
+
+== Increasing Engineer Reputation ==
+
+'''Not applicable to Odyssey Engineers in the same way as ship Engineers.'''
+
+Jude Navarro does not use the Grade 1–5 Engineer-reputation progression found at ship Engineer workshops.
+
+Once Jude has been unlocked, his modifications are available provided that:
+
+* the equipment is compatible;
+* the suit or weapon has an unused modification slot; and
+* you possess the required Odyssey materials and credits.
+
+The equipment itself is upgraded separately through [[Pioneer Supplies]].
+
+Likewise, Jude's referral to Terra is not triggered by raising an Engineer reputation grade. It is triggered specifically by providing '''5 Genetic Repair Meds'''.<ref name="inara-jude" />
+
+See [[Odyssey Engineering]] for the complete on-foot Engineering system.
+
+== Experimental Effects ==
+
+'''Not applicable.'''
+
+Odyssey suit and handheld-weapon Engineering does not use the separate ship-module [[Experimental Effects]] system.
+
+Jude's five modifications are themselves the permanent modifications installed onto the equipment.
+
+== Blueprint Pinning ==
+
+'''Not applicable.'''
+
+Odyssey modifications cannot be pinned for [[Remote Engineering]] in the same manner as ship Engineering blueprints.
+
+A suit or weapon must be taken to Jude Navarro or another Odyssey Engineer who offers the desired modification.
+
+{{Field note|Unlocking Jude therefore does not make Damage Resistance, Extra Ammo Capacity, Magazine Size, or Reload Speed remotely available from another station.}}
+
+== Recommended Engineering ==
+
+Jude's modification set is particularly useful for combat-oriented equipment.
+
+=== Dominator Suit ==
+
+For a [[Dominator Suit]] intended primarily for surface conflict zones, settlement combat, or combat missions:
+
+{{Tip|'''EDFM recommendation:''' [[Damage Resistance]] and [[Extra Ammo Capacity]] are both strong general-purpose choices.
+
+Damage Resistance improves survivability against all four major on-foot weapon damage types, while Extra Ammo Capacity increases combat endurance by carrying 50% more ammunition.}}
+
+The two modifications complement each other:
+
+* Damage Resistance helps the suit survive longer.
+* Extra Ammo Capacity allows the Commander to remain combat-effective longer before resupplying.
+
+[[Added Melee Damage]] is much more specialised and is best reserved for a suit intentionally built around very close-range combat.
+
+=== General-purpose weapon ===
+
+For weapons, Jude offers:
+
+* [[Magazine Size]]
+* [[Reload Speed]]
+
+Neither is universally superior.
+
+{{Tip|'''EDFM recommendation:''' [[Reload Speed]] is the safer general-purpose choice when the weapon's reload cycle regularly interrupts combat.
+
+[[Magazine Size]] can be stronger on weapons whose small normal magazine is the more significant limitation.}}
+
+The choice should therefore be made on a weapon-by-weapon basis rather than applying the same modification automatically to every firearm.
+
+=== Combining ammunition modifications ===
+
+A combat build can use both:
+
+* '''Extra Ammo Capacity''' on the suit; and
+* '''Magazine Size''' on the weapon.
+
+This increases both total ammunition reserve and ammunition available between reloads.
+
+Alternatively, combining Extra Ammo Capacity with Reload Speed leaves the weapon's magazine unchanged but reduces the interruption each time that magazine is emptied.
+
+== What Jude Cannot Modify ==
+
+Jude currently provides five modification types:
+
+* '''Added Melee Damage''' — suit
+* '''Damage Resistance''' — suit
+* '''Extra Ammo Capacity''' — suit
+* '''Magazine Size''' — weapon
+* '''Reload Speed''' — weapon<ref name="inara-jude" />
+
+Other modifications require different Engineers.
+
+Examples include:
+
+* '''Combat Movement Speed:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Improved Hip Fire Accuracy:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Noise Suppressor:''' [[Hero Ferrari]], [[Terra Velasquez]], or [[Baltanos]]
+* '''Faster Handling:''' [[Hero Ferrari]], [[Yarden Bond]], or [[Baltanos]]
+* '''Greater Range:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Scope:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Stability:''' [[Domino Green]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Faster Shield Regen:''' [[Kit Fowler]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Stowed Reloading:''' [[Kit Fowler]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Night Vision:''' [[Oden Geiger]] or [[Yi Shen]]<ref name="inara-engineers" />
+
+See [[Odyssey Engineer Modifications]] for the complete Engineer-by-modification matrix.
+
+== What Next? ==
+
+Jude Navarro opens the [[Terra Velasquez]] branch of the Odyssey Engineer network.
+
+{{What next|title=Continue Odyssey Engineering|
+* '''Next Engineer in this branch:''' [[Terra Velasquez]]
+* '''Engineer after Terra Velasquez:''' [[Oden Geiger]]
+* '''Get Terra's referral items:''' [[Genetic Repair Meds]]
+* '''Complete Jude's unlock activity:''' [[Restore Missions]]
+* '''Learn settlement reactivation:''' [[Settlement Reactivation]]
+* '''Other starting combat/mobility branch:''' [[Hero Ferrari]]
+* '''Other starting utility branch:''' [[Domino Green]]
+* '''Plan combat suits:''' [[Dominator Suit Engineering]]
+* '''Plan suit modifications:''' [[Suit Engineering]]
+* '''Plan weapon modifications:''' [[Weapon Engineering (Odyssey)]]
+* '''See the complete network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Odyssey Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineers]]
+[[Category:Suit Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

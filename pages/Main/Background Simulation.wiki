@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Background Simulation
+Namespace: 0
+Page ID: 186
+Revision ID: 915
+Timestamp: 2026-08-18T13:17:34Z
+Source URL: https://edfieldmanual.com/wiki/Background_Simulation
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+
+Index for the Background Simulation (BGS) — faction influence and states — see [[:Category:Background Simulation]].
+
+{{Draft warning}}
+No individual Background Simulation articles exist yet.
+
+{{Related articles|[[Powerplay]] [[Field Procedures]] [[Tools and Resources]]}}
+[[Category:Background Simulation]]

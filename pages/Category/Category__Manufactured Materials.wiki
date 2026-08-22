@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Manufactured Materials
+Namespace: 14
+Page ID: 88
+Revision ID: 160
+Timestamp: 2026-08-07T20:12:40Z
+Source URL: https://edfieldmanual.com/wiki/Category:Manufactured_Materials
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Engineering materials salvaged from wrecks, combat, and similar manufactured sources.
+
+[[Category:Engineering Materials]]

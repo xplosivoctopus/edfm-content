@@ -1,0 +1,48 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Yi Shen
+Namespace: 828
+Page ID: 427
+Revision ID: 1213
+Timestamp: 2026-08-20T23:54:20Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Yi_Shen
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Yi Shen",
+	"image": null,
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Einheriar",
+	"body": null,
+	"facility": "Eidolon Hold",
+	"region": "Colonia",
+	"allegiance": null,
+	"discovery": {
+		"type": "referral"
+	},
+	"unlock": {
+		"type": "custom",
+		"display": "Completing all three referral tasks grants access."
+	},
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_note": "— complete all three referral tasks",
+	"prerequisite_engineers": [
+		"Baltanos",
+		"Eleanor Bresa",
+		"Rosa Dayette"
+	],
+	"referrals": [],
+	"modifications": {
+		"suit": [
+			"Quieter Footsteps",
+			"Night Vision"
+		],
+		"weapon": [
+			"Audio Masking",
+			"Headshot Damage"
+		]
+	},
+	"colonia": true
+}

@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Historical Content
+Namespace: 14
+Page ID: 15
+Revision ID: 15
+Timestamp: 2026-08-06T19:51:22Z
+Source URL: https://edfieldmanual.com/wiki/Category:Historical_Content
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Content describing a past state of the game that may no longer be accurate. Pair with {{tl|Historical warning}}.

@@ -1,0 +1,63 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Terra Velasquez
+Namespace: 828
+Page ID: 429
+Revision ID: 1209
+Timestamp: 2026-08-20T23:54:18Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Terra_Velasquez
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Terra Velasquez",
+	"image": null,
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Shou Xing",
+	"body": "Shou Xing 1",
+	"facility": "Rascal's Choice",
+	"region": null,
+	"allegiance": null,
+	"discovery": {
+		"type": "referral"
+	},
+	"unlock": {
+		"type": "missions",
+		"quantity": 6,
+		"combined": true,
+		"mission_types": [
+			{
+				"name": "Covert Theft",
+				"target": "Covert Missions"
+			},
+			{
+				"name": "Covert Heist",
+				"target": "Covert Missions"
+			}
+		]
+	},
+	"prerequisite_engineer": "Jude Navarro",
+	"referrals": [
+		{
+			"engineer": "Oden Geiger",
+			"requirement": {
+				"type": "provide",
+				"quantity": 15,
+				"item": "Financial Projections"
+			}
+		}
+	],
+	"modifications": {
+		"suit": [
+			"Combat Movement Speed",
+			"Increased Air Reserves",
+			"Increased Sprint Duration"
+		],
+		"weapon": [
+			"Improved Hip Fire Accuracy",
+			"Noise Suppressor"
+		]
+	},
+	"colonia": false
+}

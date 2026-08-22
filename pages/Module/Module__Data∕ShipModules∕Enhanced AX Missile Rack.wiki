@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Enhanced AX Missile Rack
+Namespace: 828
+Page ID: 478
+Revision ID: 1265
+Timestamp: 2026-08-20T23:59:18Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Enhanced_AX_Missile_Rack
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Enhanced AX Missile Rack",
+}

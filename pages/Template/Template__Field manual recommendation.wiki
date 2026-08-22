@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Field manual recommendation
+Namespace: 10
+Page ID: 261
+Revision ID: 404
+Timestamp: 2026-08-08T15:20:07Z
+Source URL: https://edfieldmanual.com/wiki/Template:Field_manual_recommendation
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-fact-recommendation edfm-fact-recommendation--recommendation"><span class="edfm-fact-recommendation-label">Field Manual Recommendation</span><div class="edfm-fact-recommendation-body">{{{1|}}}</div></div><noinclude>
+== Usage ==
+Pairs with {{tl|Fact}} -- see that template's usage notes. Use this one
+specifically for EDFM's own editorial or strategy guidance (e.g. blueprint
+pinning recommendations), never for a plain verified fact — that's what
+{{tl|Fact}} is for. Keeping the two visually and semantically distinct is
+the whole point of this pair; see [[Elite Dangerous Field Manual:
+Engineering Architecture]] for the underlying policy.
+
+<pre>
+{{Field manual recommendation|1=Not yet made — needs the missing maximum-grade and blueprint data filled in first.}}
+</pre>
+
+[[Category:Templates]]
+</noinclude>

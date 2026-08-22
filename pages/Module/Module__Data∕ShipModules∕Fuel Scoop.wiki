@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Fuel Scoop
+Namespace: 828
+Page ID: 496
+Revision ID: 1283
+Timestamp: 2026-08-20T23:59:30Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fuel_Scoop
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Fuel Scoop",
+}

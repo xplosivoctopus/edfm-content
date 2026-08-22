@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Sub-surface Displacement Missile
+Namespace: 828
+Page ID: 605
+Revision ID: 1392
+Timestamp: 2026-08-21T00:00:51Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Sub-surface_Displacement_Missile
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Sub-surface Displacement Missile",
+}

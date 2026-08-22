@@ -1,0 +1,5732 @@
+{
+  "exported_at_utc": "2026-08-22T03:14:50Z",
+  "source_api": "https://edfieldmanual.com/api.php",
+  "export_type": "current public wikitext only",
+  "excluded": [
+    "revision history",
+    "user accounts",
+    "emails",
+    "password hashes",
+    "logs",
+    "deleted/suppressed pages",
+    "database dumps",
+    "server config",
+    "secrets",
+    "uploaded binary files"
+  ],
+  "namespaces": {
+    "0": "Main",
+    "4": "Project",
+    "6": "File",
+    "8": "MediaWiki",
+    "10": "Template",
+    "12": "Help",
+    "14": "Category",
+    "828": "Module"
+  },
+  "page_count": 633,
+  "pages": [
+    {
+      "title": "AX Missile Rack",
+      "ns": 0,
+      "pageid": 438,
+      "rev_id": 1225,
+      "timestamp": "2026-08-20T23:58:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/AX_Missile_Rack",
+      "path": "pages/Main/AX Missile Rack.wiki"
+    },
+    {
+      "title": "AX Multi-Cannon",
+      "ns": 0,
+      "pageid": 440,
+      "rev_id": 1227,
+      "timestamp": "2026-08-20T23:58:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/AX_Multi-Cannon",
+      "path": "pages/Main/AX Multi-Cannon.wiki"
+    },
+    {
+      "title": "Abrasion Blaster",
+      "ns": 0,
+      "pageid": 442,
+      "rev_id": 1229,
+      "timestamp": "2026-08-20T23:58:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Abrasion_Blaster",
+      "path": "pages/Main/Abrasion Blaster.wiki"
+    },
+    {
+      "title": "Advanced Docking Computer",
+      "ns": 0,
+      "pageid": 444,
+      "rev_id": 1231,
+      "timestamp": "2026-08-20T23:58:54Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Advanced_Docking_Computer",
+      "path": "pages/Main/Advanced Docking Computer.wiki"
+    },
+    {
+      "title": "Advanced Plasma Accelerator",
+      "ns": 0,
+      "pageid": 446,
+      "rev_id": 1233,
+      "timestamp": "2026-08-20T23:58:55Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Advanced_Plasma_Accelerator",
+      "path": "pages/Main/Advanced Plasma Accelerator.wiki"
+    },
+    {
+      "title": "Armour",
+      "ns": 0,
+      "pageid": 365,
+      "rev_id": 1002,
+      "timestamp": "2026-08-20T01:37:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Armour",
+      "path": "pages/Main/Armour.wiki"
+    },
+    {
+      "title": "Auto Field-Maintenance Unit",
+      "ns": 0,
+      "pageid": 448,
+      "rev_id": 1235,
+      "timestamp": "2026-08-20T23:58:56Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Auto_Field-Maintenance_Unit",
+      "path": "pages/Main/Auto Field-Maintenance Unit.wiki"
+    },
+    {
+      "title": "BGS",
+      "ns": 0,
+      "pageid": 199,
+      "rev_id": 294,
+      "timestamp": "2026-08-07T22:14:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/BGS",
+      "path": "pages/Main/BGS.wiki"
+    },
+    {
+      "title": "Background Simulation",
+      "ns": 0,
+      "pageid": 186,
+      "rev_id": 915,
+      "timestamp": "2026-08-18T13:17:34Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Background_Simulation",
+      "path": "pages/Main/Background Simulation.wiki"
+    },
+    {
+      "title": "Baltanos",
+      "ns": 0,
+      "pageid": 139,
+      "rev_id": 1488,
+      "timestamp": "2026-08-21T14:39:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Baltanos",
+      "path": "pages/Main/Baltanos.wiki"
+    },
+    {
+      "title": "Beam Laser",
+      "ns": 0,
+      "pageid": 375,
+      "rev_id": 1012,
+      "timestamp": "2026-08-20T01:38:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Beam_Laser",
+      "path": "pages/Main/Beam Laser.wiki"
+    },
+    {
+      "title": "Bi-Weave Shield Generator",
+      "ns": 0,
+      "pageid": 451,
+      "rev_id": 1238,
+      "timestamp": "2026-08-20T23:58:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Bi-Weave_Shield_Generator",
+      "path": "pages/Main/Bi-Weave Shield Generator.wiki"
+    },
+    {
+      "title": "Bill Turner",
+      "ns": 0,
+      "pageid": 115,
+      "rev_id": 1442,
+      "timestamp": "2026-08-21T14:38:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Bill_Turner",
+      "path": "pages/Main/Bill Turner.wiki"
+    },
+    {
+      "title": "Black Hide",
+      "ns": 0,
+      "pageid": 356,
+      "rev_id": 993,
+      "timestamp": "2026-08-20T01:37:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Black_Hide",
+      "path": "pages/Main/Black Hide.wiki"
+    },
+    {
+      "title": "Broo Tarquin",
+      "ns": 0,
+      "pageid": 100,
+      "rev_id": 1495,
+      "timestamp": "2026-08-21T14:39:20Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Broo_Tarquin",
+      "path": "pages/Main/Broo Tarquin.wiki"
+    },
+    {
+      "title": "Broo's Legacy",
+      "ns": 0,
+      "pageid": 352,
+      "rev_id": 989,
+      "timestamp": "2026-08-20T01:37:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Broo%27s_Legacy",
+      "path": "pages/Main/Broo's Legacy.wiki"
+    },
+    {
+      "title": "Bulkheads",
+      "ns": 0,
+      "pageid": 453,
+      "rev_id": 1240,
+      "timestamp": "2026-08-20T23:59:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Bulkheads",
+      "path": "pages/Main/Bulkheads.wiki"
+    },
+    {
+      "title": "Burst Laser",
+      "ns": 0,
+      "pageid": 376,
+      "rev_id": 1013,
+      "timestamp": "2026-08-20T01:38:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Burst_Laser",
+      "path": "pages/Main/Burst Laser.wiki"
+    },
+    {
+      "title": "Business Class Passenger Cabin",
+      "ns": 0,
+      "pageid": 456,
+      "rev_id": 1243,
+      "timestamp": "2026-08-20T23:59:02Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Business_Class_Passenger_Cabin",
+      "path": "pages/Main/Business Class Passenger Cabin.wiki"
+    },
+    {
+      "title": "Cannon",
+      "ns": 0,
+      "pageid": 458,
+      "rev_id": 1245,
+      "timestamp": "2026-08-20T23:59:03Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Cannon",
+      "path": "pages/Main/Cannon.wiki"
+    },
+    {
+      "title": "Cargo Rack",
+      "ns": 0,
+      "pageid": 369,
+      "rev_id": 1006,
+      "timestamp": "2026-08-20T01:37:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Cargo_Rack",
+      "path": "pages/Main/Cargo Rack.wiki"
+    },
+    {
+      "title": "Caustic Sink Launcher",
+      "ns": 0,
+      "pageid": 461,
+      "rev_id": 1248,
+      "timestamp": "2026-08-20T23:59:06Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Caustic_Sink_Launcher",
+      "path": "pages/Main/Caustic Sink Launcher.wiki"
+    },
+    {
+      "title": "Chaff Launcher",
+      "ns": 0,
+      "pageid": 381,
+      "rev_id": 1018,
+      "timestamp": "2026-08-20T01:38:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Chaff_Launcher",
+      "path": "pages/Main/Chaff Launcher.wiki"
+    },
+    {
+      "title": "Chloe Sedesi",
+      "ns": 0,
+      "pageid": 128,
+      "rev_id": 1438,
+      "timestamp": "2026-08-21T14:38:36Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Chloe_Sedesi",
+      "path": "pages/Main/Chloe Sedesi.wiki"
+    },
+    {
+      "title": "Classified Scan Databanks",
+      "ns": 0,
+      "pageid": 394,
+      "rev_id": 1031,
+      "timestamp": "2026-08-20T01:40:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Classified_Scan_Databanks",
+      "path": "pages/Main/Classified Scan Databanks.wiki"
+    },
+    {
+      "title": "Collector Limpet Controller",
+      "ns": 0,
+      "pageid": 385,
+      "rev_id": 1022,
+      "timestamp": "2026-08-20T01:38:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Collector_Limpet_Controller",
+      "path": "pages/Main/Collector Limpet Controller.wiki"
+    },
+    {
+      "title": "Colonel Bris Dekker",
+      "ns": 0,
+      "pageid": 121,
+      "rev_id": 1456,
+      "timestamp": "2026-08-21T14:38:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Colonel_Bris_Dekker",
+      "path": "pages/Main/Colonel Bris Dekker.wiki"
+    },
+    {
+      "title": "Colonisation",
+      "ns": 0,
+      "pageid": 60,
+      "rev_id": 916,
+      "timestamp": "2026-08-18T13:17:35Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Colonisation",
+      "path": "pages/Main/Colonisation.wiki"
+    },
+    {
+      "title": "Colonization",
+      "ns": 0,
+      "pageid": 190,
+      "rev_id": 285,
+      "timestamp": "2026-08-07T22:14:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Colonization",
+      "path": "pages/Main/Colonization.wiki"
+    },
+    {
+      "title": "Combat",
+      "ns": 0,
+      "pageid": 183,
+      "rev_id": 917,
+      "timestamp": "2026-08-18T13:17:35Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Combat",
+      "path": "pages/Main/Combat.wiki"
+    },
+    {
+      "title": "Corrosion Resistant Cargo Rack",
+      "ns": 0,
+      "pageid": 465,
+      "rev_id": 1252,
+      "timestamp": "2026-08-20T23:59:09Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Corrosion_Resistant_Cargo_Rack",
+      "path": "pages/Main/Corrosion Resistant Cargo Rack.wiki"
+    },
+    {
+      "title": "Cytoscrambler",
+      "ns": 0,
+      "pageid": 467,
+      "rev_id": 1254,
+      "timestamp": "2026-08-20T23:59:10Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Cytoscrambler",
+      "path": "pages/Main/Cytoscrambler.wiki"
+    },
+    {
+      "title": "Deciat",
+      "ns": 0,
+      "pageid": 345,
+      "rev_id": 982,
+      "timestamp": "2026-08-20T01:37:33Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Deciat",
+      "path": "pages/Main/Deciat.wiki"
+    },
+    {
+      "title": "Decontamination Limpet Controller",
+      "ns": 0,
+      "pageid": 469,
+      "rev_id": 1256,
+      "timestamp": "2026-08-20T23:59:11Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Decontamination_Limpet_Controller",
+      "path": "pages/Main/Decontamination Limpet Controller.wiki"
+    },
+    {
+      "title": "Demolition Unlimited",
+      "ns": 0,
+      "pageid": 348,
+      "rev_id": 985,
+      "timestamp": "2026-08-20T01:37:35Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Demolition_Unlimited",
+      "path": "pages/Main/Demolition Unlimited.wiki"
+    },
+    {
+      "title": "Detailed Surface Scanner",
+      "ns": 0,
+      "pageid": 366,
+      "rev_id": 1003,
+      "timestamp": "2026-08-20T01:37:48Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Detailed_Surface_Scanner",
+      "path": "pages/Main/Detailed Surface Scanner.wiki"
+    },
+    {
+      "title": "Didi Vatermann",
+      "ns": 0,
+      "pageid": 116,
+      "rev_id": 1452,
+      "timestamp": "2026-08-21T14:38:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Didi_Vatermann",
+      "path": "pages/Main/Didi Vatermann.wiki"
+    },
+    {
+      "title": "Docking Computer",
+      "ns": 0,
+      "pageid": 472,
+      "rev_id": 1259,
+      "timestamp": "2026-08-20T23:59:14Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Docking_Computer",
+      "path": "pages/Main/Docking Computer.wiki"
+    },
+    {
+      "title": "Domino Green",
+      "ns": 0,
+      "pageid": 131,
+      "rev_id": 1470,
+      "timestamp": "2026-08-21T14:39:01Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Domino_Green",
+      "path": "pages/Main/Domino Green.wiki"
+    },
+    {
+      "title": "Economy Class Passenger Cabin",
+      "ns": 0,
+      "pageid": 474,
+      "rev_id": 1261,
+      "timestamp": "2026-08-20T23:59:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Economy_Class_Passenger_Cabin",
+      "path": "pages/Main/Economy Class Passenger Cabin.wiki"
+    },
+    {
+      "title": "Eleanor Bresa",
+      "ns": 0,
+      "pageid": 141,
+      "rev_id": 1490,
+      "timestamp": "2026-08-21T14:39:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Eleanor_Bresa",
+      "path": "pages/Main/Eleanor Bresa.wiki"
+    },
+    {
+      "title": "Electronic Countermeasure",
+      "ns": 0,
+      "pageid": 382,
+      "rev_id": 1019,
+      "timestamp": "2026-08-20T01:38:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Electronic_Countermeasure",
+      "path": "pages/Main/Electronic Countermeasure.wiki"
+    },
+    {
+      "title": "Elvira Martuuk",
+      "ns": 0,
+      "pageid": 108,
+      "rev_id": 1424,
+      "timestamp": "2026-08-21T14:38:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elvira_Martuuk",
+      "path": "pages/Main/Elvira Martuuk.wiki"
+    },
+    {
+      "title": "Empire",
+      "ns": 0,
+      "pageid": 396,
+      "rev_id": 1033,
+      "timestamp": "2026-08-20T01:40:08Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Empire",
+      "path": "pages/Main/Empire.wiki"
+    },
+    {
+      "title": "Enforcer Cannon",
+      "ns": 0,
+      "pageid": 477,
+      "rev_id": 1264,
+      "timestamp": "2026-08-20T23:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Enforcer_Cannon",
+      "path": "pages/Main/Enforcer Cannon.wiki"
+    },
+    {
+      "title": "Engineer Capability Comparison",
+      "ns": 0,
+      "pageid": 177,
+      "rev_id": 283,
+      "timestamp": "2026-08-07T22:13:30Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Engineer_Capability_Comparison",
+      "path": "pages/Main/Engineer Capability Comparison.wiki"
+    },
+    {
+      "title": "Engineer Unlock Guide",
+      "ns": 0,
+      "pageid": 99,
+      "rev_id": 1498,
+      "timestamp": "2026-08-21T14:39:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Engineer_Unlock_Guide",
+      "path": "pages/Main/Engineer Unlock Guide.wiki"
+    },
+    {
+      "title": "Engineering",
+      "ns": 0,
+      "pageid": 57,
+      "rev_id": 856,
+      "timestamp": "2026-08-16T04:11:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Engineering",
+      "path": "pages/Main/Engineering.wiki"
+    },
+    {
+      "title": "Engineering Blueprints",
+      "ns": 0,
+      "pageid": 96,
+      "rev_id": 169,
+      "timestamp": "2026-08-07T20:12:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Engineering_Blueprints",
+      "path": "pages/Main/Engineering Blueprints.wiki"
+    },
+    {
+      "title": "Engineering Materials",
+      "ns": 0,
+      "pageid": 98,
+      "rev_id": 171,
+      "timestamp": "2026-08-07T20:12:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Engineering_Materials",
+      "path": "pages/Main/Engineering Materials.wiki"
+    },
+    {
+      "title": "Engineers",
+      "ns": 0,
+      "pageid": 95,
+      "rev_id": 1217,
+      "timestamp": "2026-08-20T23:57:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Engineers",
+      "path": "pages/Main/Engineers.wiki"
+    },
+    {
+      "title": "Enhanced AX Missile Rack",
+      "ns": 0,
+      "pageid": 479,
+      "rev_id": 1266,
+      "timestamp": "2026-08-20T23:59:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Enhanced_AX_Missile_Rack",
+      "path": "pages/Main/Enhanced AX Missile Rack.wiki"
+    },
+    {
+      "title": "Enhanced AX Multi-Cannon",
+      "ns": 0,
+      "pageid": 481,
+      "rev_id": 1268,
+      "timestamp": "2026-08-20T23:59:20Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Enhanced_AX_Multi-Cannon",
+      "path": "pages/Main/Enhanced AX Multi-Cannon.wiki"
+    },
+    {
+      "title": "Enhanced Xeno Scanner",
+      "ns": 0,
+      "pageid": 483,
+      "rev_id": 1270,
+      "timestamp": "2026-08-20T23:59:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Enhanced_Xeno_Scanner",
+      "path": "pages/Main/Enhanced Xeno Scanner.wiki"
+    },
+    {
+      "title": "Etienne Dorn",
+      "ns": 0,
+      "pageid": 126,
+      "rev_id": 1468,
+      "timestamp": "2026-08-21T14:39:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Etienne_Dorn",
+      "path": "pages/Main/Etienne Dorn.wiki"
+    },
+    {
+      "title": "Eurybia",
+      "ns": 0,
+      "pageid": 347,
+      "rev_id": 984,
+      "timestamp": "2026-08-20T01:37:34Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Eurybia",
+      "path": "pages/Main/Eurybia.wiki"
+    },
+    {
+      "title": "Exobio",
+      "ns": 0,
+      "pageid": 204,
+      "rev_id": 299,
+      "timestamp": "2026-08-07T22:14:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Exobio",
+      "path": "pages/Main/Exobio.wiki"
+    },
+    {
+      "title": "Exobiology",
+      "ns": 0,
+      "pageid": 182,
+      "rev_id": 918,
+      "timestamp": "2026-08-18T13:17:36Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Exobiology",
+      "path": "pages/Main/Exobiology.wiki"
+    },
+    {
+      "title": "Experimental Effects",
+      "ns": 0,
+      "pageid": 97,
+      "rev_id": 170,
+      "timestamp": "2026-08-07T20:12:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Experimental_Effects",
+      "path": "pages/Main/Experimental Effects.wiki"
+    },
+    {
+      "title": "Exploration",
+      "ns": 0,
+      "pageid": 181,
+      "rev_id": 919,
+      "timestamp": "2026-08-18T13:17:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Exploration",
+      "path": "pages/Main/Exploration.wiki"
+    },
+    {
+      "title": "FSD",
+      "ns": 0,
+      "pageid": 389,
+      "rev_id": 1026,
+      "timestamp": "2026-08-20T01:39:06Z",
+      "fullurl": "https://edfieldmanual.com/wiki/FSD",
+      "path": "pages/Main/FSD.wiki"
+    },
+    {
+      "title": "Farseer",
+      "ns": 0,
+      "pageid": 193,
+      "rev_id": 288,
+      "timestamp": "2026-08-07T22:14:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Farseer",
+      "path": "pages/Main/Farseer.wiki"
+    },
+    {
+      "title": "Farseer Inc",
+      "ns": 0,
+      "pageid": 346,
+      "rev_id": 983,
+      "timestamp": "2026-08-20T01:37:33Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Farseer_Inc",
+      "path": "pages/Main/Farseer Inc.wiki"
+    },
+    {
+      "title": "Felicity Farseer",
+      "ns": 0,
+      "pageid": 105,
+      "rev_id": 1422,
+      "timestamp": "2026-08-21T14:38:24Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Felicity_Farseer",
+      "path": "pages/Main/Felicity Farseer.wiki"
+    },
+    {
+      "title": "Field Procedures",
+      "ns": 0,
+      "pageid": 54,
+      "rev_id": 1496,
+      "timestamp": "2026-08-21T14:39:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Field_Procedures",
+      "path": "pages/Main/Field Procedures.wiki"
+    },
+    {
+      "title": "Fighter Hangar",
+      "ns": 0,
+      "pageid": 485,
+      "rev_id": 1272,
+      "timestamp": "2026-08-20T23:59:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Fighter_Hangar",
+      "path": "pages/Main/Fighter Hangar.wiki"
+    },
+    {
+      "title": "First Class Passenger Cabin",
+      "ns": 0,
+      "pageid": 487,
+      "rev_id": 1274,
+      "timestamp": "2026-08-20T23:59:24Z",
+      "fullurl": "https://edfieldmanual.com/wiki/First_Class_Passenger_Cabin",
+      "path": "pages/Main/First Class Passenger Cabin.wiki"
+    },
+    {
+      "title": "Fleet Carrier",
+      "ns": 0,
+      "pageid": 203,
+      "rev_id": 298,
+      "timestamp": "2026-08-07T22:14:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Fleet_Carrier",
+      "path": "pages/Main/Fleet Carrier.wiki"
+    },
+    {
+      "title": "Fleet Carriers",
+      "ns": 0,
+      "pageid": 187,
+      "rev_id": 920,
+      "timestamp": "2026-08-18T13:17:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Fleet_Carriers",
+      "path": "pages/Main/Fleet Carriers.wiki"
+    },
+    {
+      "title": "Fragment Cannon",
+      "ns": 0,
+      "pageid": 489,
+      "rev_id": 1276,
+      "timestamp": "2026-08-20T23:59:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Fragment_Cannon",
+      "path": "pages/Main/Fragment Cannon.wiki"
+    },
+    {
+      "title": "Frame Shift Drive",
+      "ns": 0,
+      "pageid": 359,
+      "rev_id": 996,
+      "timestamp": "2026-08-20T01:37:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Frame_Shift_Drive",
+      "path": "pages/Main/Frame Shift Drive.wiki"
+    },
+    {
+      "title": "Frame Shift Drive Booster",
+      "ns": 0,
+      "pageid": 492,
+      "rev_id": 1279,
+      "timestamp": "2026-08-20T23:59:27Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Frame_Shift_Drive_Booster",
+      "path": "pages/Main/Frame Shift Drive Booster.wiki"
+    },
+    {
+      "title": "Frame Shift Drive Interdictor",
+      "ns": 0,
+      "pageid": 367,
+      "rev_id": 1004,
+      "timestamp": "2026-08-20T01:37:48Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Frame_Shift_Drive_Interdictor",
+      "path": "pages/Main/Frame Shift Drive Interdictor.wiki"
+    },
+    {
+      "title": "Frame Shift Wake Scanner",
+      "ns": 0,
+      "pageid": 495,
+      "rev_id": 1282,
+      "timestamp": "2026-08-20T23:59:29Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Frame_Shift_Wake_Scanner",
+      "path": "pages/Main/Frame Shift Wake Scanner.wiki"
+    },
+    {
+      "title": "Fuel Scoop",
+      "ns": 0,
+      "pageid": 497,
+      "rev_id": 1284,
+      "timestamp": "2026-08-20T23:59:31Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Fuel_Scoop",
+      "path": "pages/Main/Fuel Scoop.wiki"
+    },
+    {
+      "title": "Fuel Tank",
+      "ns": 0,
+      "pageid": 499,
+      "rev_id": 1286,
+      "timestamp": "2026-08-20T23:59:32Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Fuel_Tank",
+      "path": "pages/Main/Fuel Tank.wiki"
+    },
+    {
+      "title": "Fuel Transfer Limpet Controller",
+      "ns": 0,
+      "pageid": 386,
+      "rev_id": 1023,
+      "timestamp": "2026-08-20T01:38:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Fuel_Transfer_Limpet_Controller",
+      "path": "pages/Main/Fuel Transfer Limpet Controller.wiki"
+    },
+    {
+      "title": "Fujin Tea",
+      "ns": 0,
+      "pageid": 393,
+      "rev_id": 1030,
+      "timestamp": "2026-08-20T01:40:06Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Fujin_Tea",
+      "path": "pages/Main/Fujin Tea.wiki"
+    },
+    {
+      "title": "Game Reference",
+      "ns": 0,
+      "pageid": 55,
+      "rev_id": 851,
+      "timestamp": "2026-08-16T04:05:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Game_Reference",
+      "path": "pages/Main/Game Reference.wiki"
+    },
+    {
+      "title": "Gold",
+      "ns": 0,
+      "pageid": 395,
+      "rev_id": 1032,
+      "timestamp": "2026-08-20T01:40:08Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Gold",
+      "path": "pages/Main/Gold.wiki"
+    },
+    {
+      "title": "Guardian",
+      "ns": 0,
+      "pageid": 188,
+      "rev_id": 921,
+      "timestamp": "2026-08-18T13:17:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardian",
+      "path": "pages/Main/Guardian.wiki"
+    },
+    {
+      "title": "Guardian Frame Shift Drive Booster",
+      "ns": 0,
+      "pageid": 502,
+      "rev_id": 1289,
+      "timestamp": "2026-08-20T23:59:34Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardian_Frame_Shift_Drive_Booster",
+      "path": "pages/Main/Guardian Frame Shift Drive Booster.wiki"
+    },
+    {
+      "title": "Guardian Gauss Cannon",
+      "ns": 0,
+      "pageid": 378,
+      "rev_id": 1015,
+      "timestamp": "2026-08-20T01:38:44Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardian_Gauss_Cannon",
+      "path": "pages/Main/Guardian Gauss Cannon.wiki"
+    },
+    {
+      "title": "Guardian Hull Reinforcement Package",
+      "ns": 0,
+      "pageid": 505,
+      "rev_id": 1292,
+      "timestamp": "2026-08-20T23:59:36Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardian_Hull_Reinforcement_Package",
+      "path": "pages/Main/Guardian Hull Reinforcement Package.wiki"
+    },
+    {
+      "title": "Guardian Module Reinforcement Package",
+      "ns": 0,
+      "pageid": 507,
+      "rev_id": 1294,
+      "timestamp": "2026-08-20T23:59:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardian_Module_Reinforcement_Package",
+      "path": "pages/Main/Guardian Module Reinforcement Package.wiki"
+    },
+    {
+      "title": "Guardian Plasma Charger",
+      "ns": 0,
+      "pageid": 379,
+      "rev_id": 1016,
+      "timestamp": "2026-08-20T01:38:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardian_Plasma_Charger",
+      "path": "pages/Main/Guardian Plasma Charger.wiki"
+    },
+    {
+      "title": "Guardian Shard Cannon",
+      "ns": 0,
+      "pageid": 380,
+      "rev_id": 1017,
+      "timestamp": "2026-08-20T01:38:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardian_Shard_Cannon",
+      "path": "pages/Main/Guardian Shard Cannon.wiki"
+    },
+    {
+      "title": "Guardian Shield Reinforcement Package",
+      "ns": 0,
+      "pageid": 511,
+      "rev_id": 1298,
+      "timestamp": "2026-08-20T23:59:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardian_Shield_Reinforcement_Package",
+      "path": "pages/Main/Guardian Shield Reinforcement Package.wiki"
+    },
+    {
+      "title": "Guardian Tech",
+      "ns": 0,
+      "pageid": 201,
+      "rev_id": 296,
+      "timestamp": "2026-08-07T22:14:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardian_Tech",
+      "path": "pages/Main/Guardian Tech.wiki"
+    },
+    {
+      "title": "Guardians",
+      "ns": 0,
+      "pageid": 200,
+      "rev_id": 295,
+      "timestamp": "2026-08-07T22:14:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Guardians",
+      "path": "pages/Main/Guardians.wiki"
+    },
+    {
+      "title": "Hatch Breaker Limpet Controller",
+      "ns": 0,
+      "pageid": 387,
+      "rev_id": 1024,
+      "timestamp": "2026-08-20T01:38:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Hatch_Breaker_Limpet_Controller",
+      "path": "pages/Main/Hatch Breaker Limpet Controller.wiki"
+    },
+    {
+      "title": "Heat Sink Launcher",
+      "ns": 0,
+      "pageid": 383,
+      "rev_id": 1020,
+      "timestamp": "2026-08-20T01:38:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Heat_Sink_Launcher",
+      "path": "pages/Main/Heat Sink Launcher.wiki"
+    },
+    {
+      "title": "Hera Tani",
+      "ns": 0,
+      "pageid": 107,
+      "rev_id": 1432,
+      "timestamp": "2026-08-21T14:38:31Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Hera_Tani",
+      "path": "pages/Main/Hera Tani.wiki"
+    },
+    {
+      "title": "Hero Ferrari",
+      "ns": 0,
+      "pageid": 133,
+      "rev_id": 1472,
+      "timestamp": "2026-08-21T14:39:03Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Hero_Ferrari",
+      "path": "pages/Main/Hero Ferrari.wiki"
+    },
+    {
+      "title": "Hull Reinforcement Package",
+      "ns": 0,
+      "pageid": 368,
+      "rev_id": 1005,
+      "timestamp": "2026-08-20T01:37:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Hull_Reinforcement_Package",
+      "path": "pages/Main/Hull Reinforcement Package.wiki"
+    },
+    {
+      "title": "Imperial Hammer",
+      "ns": 0,
+      "pageid": 516,
+      "rev_id": 1303,
+      "timestamp": "2026-08-20T23:59:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Imperial_Hammer",
+      "path": "pages/Main/Imperial Hammer.wiki"
+    },
+    {
+      "title": "Jude Navarro",
+      "ns": 0,
+      "pageid": 130,
+      "rev_id": 1474,
+      "timestamp": "2026-08-21T14:39:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Jude_Navarro",
+      "path": "pages/Main/Jude Navarro.wiki"
+    },
+    {
+      "title": "Juri Ishmaak",
+      "ns": 0,
+      "pageid": 119,
+      "rev_id": 1454,
+      "timestamp": "2026-08-21T14:38:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Juri_Ishmaak",
+      "path": "pages/Main/Juri Ishmaak.wiki"
+    },
+    {
+      "title": "Kamitra Cigars",
+      "ns": 0,
+      "pageid": 392,
+      "rev_id": 1029,
+      "timestamp": "2026-08-20T01:40:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Kamitra_Cigars",
+      "path": "pages/Main/Kamitra Cigars.wiki"
+    },
+    {
+      "title": "Kill Warrant Scanner",
+      "ns": 0,
+      "pageid": 518,
+      "rev_id": 1305,
+      "timestamp": "2026-08-20T23:59:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Kill_Warrant_Scanner",
+      "path": "pages/Main/Kill Warrant Scanner.wiki"
+    },
+    {
+      "title": "Kit Fowler",
+      "ns": 0,
+      "pageid": 132,
+      "rev_id": 1476,
+      "timestamp": "2026-08-21T14:39:06Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Kit_Fowler",
+      "path": "pages/Main/Kit Fowler.wiki"
+    },
+    {
+      "title": "Kuwemaki",
+      "ns": 0,
+      "pageid": 349,
+      "rev_id": 986,
+      "timestamp": "2026-08-20T01:37:36Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Kuwemaki",
+      "path": "pages/Main/Kuwemaki.wiki"
+    },
+    {
+      "title": "Laksak",
+      "ns": 0,
+      "pageid": 357,
+      "rev_id": 994,
+      "timestamp": "2026-08-20T01:37:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Laksak",
+      "path": "pages/Main/Laksak.wiki"
+    },
+    {
+      "title": "Landmines",
+      "ns": 0,
+      "pageid": 391,
+      "rev_id": 1028,
+      "timestamp": "2026-08-20T01:40:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Landmines",
+      "path": "pages/Main/Landmines.wiki"
+    },
+    {
+      "title": "Lei Cheung",
+      "ns": 0,
+      "pageid": 112,
+      "rev_id": 1444,
+      "timestamp": "2026-08-21T14:38:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Lei_Cheung",
+      "path": "pages/Main/Lei Cheung.wiki"
+    },
+    {
+      "title": "Life Support",
+      "ns": 0,
+      "pageid": 520,
+      "rev_id": 1307,
+      "timestamp": "2026-08-20T23:59:48Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Life_Support",
+      "path": "pages/Main/Life Support.wiki"
+    },
+    {
+      "title": "List of Engineers",
+      "ns": 0,
+      "pageid": 176,
+      "rev_id": 947,
+      "timestamp": "2026-08-19T18:14:08Z",
+      "fullurl": "https://edfieldmanual.com/wiki/List_of_Engineers",
+      "path": "pages/Main/List of Engineers.wiki"
+    },
+    {
+      "title": "Liz Ryder",
+      "ns": 0,
+      "pageid": 106,
+      "rev_id": 1430,
+      "timestamp": "2026-08-21T14:38:30Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Liz_Ryder",
+      "path": "pages/Main/Liz Ryder.wiki"
+    },
+    {
+      "title": "Lore and History",
+      "ns": 0,
+      "pageid": 62,
+      "rev_id": 922,
+      "timestamp": "2026-08-18T13:17:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Lore_and_History",
+      "path": "pages/Main/Lore and History.wiki"
+    },
+    {
+      "title": "Lori Jameson",
+      "ns": 0,
+      "pageid": 123,
+      "rev_id": 1448,
+      "timestamp": "2026-08-21T14:38:44Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Lori_Jameson",
+      "path": "pages/Main/Lori Jameson.wiki"
+    },
+    {
+      "title": "Luxury Passenger Cabin",
+      "ns": 0,
+      "pageid": 522,
+      "rev_id": 1309,
+      "timestamp": "2026-08-20T23:59:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Luxury_Passenger_Cabin",
+      "path": "pages/Main/Luxury Passenger Cabin.wiki"
+    },
+    {
+      "title": "Main Page",
+      "ns": 0,
+      "pageid": 1,
+      "rev_id": 932,
+      "timestamp": "2026-08-18T16:11:54Z",
+      "fullurl": "https://edfieldmanual.com/",
+      "path": "pages/Main/Main Page.wiki"
+    },
+    {
+      "title": "Manifest Scanner",
+      "ns": 0,
+      "pageid": 524,
+      "rev_id": 1311,
+      "timestamp": "2026-08-20T23:59:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Manifest_Scanner",
+      "path": "pages/Main/Manifest Scanner.wiki"
+    },
+    {
+      "title": "Marco Qwent",
+      "ns": 0,
+      "pageid": 109,
+      "rev_id": 1434,
+      "timestamp": "2026-08-21T14:38:33Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Marco_Qwent",
+      "path": "pages/Main/Marco Qwent.wiki"
+    },
+    {
+      "title": "Marsha Hicks",
+      "ns": 0,
+      "pageid": 127,
+      "rev_id": 1464,
+      "timestamp": "2026-08-21T14:38:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Marsha_Hicks",
+      "path": "pages/Main/Marsha Hicks.wiki"
+    },
+    {
+      "title": "Meene",
+      "ns": 0,
+      "pageid": 353,
+      "rev_id": 990,
+      "timestamp": "2026-08-20T01:37:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Meene",
+      "path": "pages/Main/Meene.wiki"
+    },
+    {
+      "title": "Mel Brandon",
+      "ns": 0,
+      "pageid": 124,
+      "rev_id": 1462,
+      "timestamp": "2026-08-21T14:38:55Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Mel_Brandon",
+      "path": "pages/Main/Mel Brandon.wiki"
+    },
+    {
+      "title": "Meta Alloy Hull Reinforcement Package",
+      "ns": 0,
+      "pageid": 526,
+      "rev_id": 1313,
+      "timestamp": "2026-08-20T23:59:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Meta_Alloy_Hull_Reinforcement_Package",
+      "path": "pages/Main/Meta Alloy Hull Reinforcement Package.wiki"
+    },
+    {
+      "title": "Meta-Alloys",
+      "ns": 0,
+      "pageid": 390,
+      "rev_id": 1027,
+      "timestamp": "2026-08-20T01:40:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Meta-Alloys",
+      "path": "pages/Main/Meta-Alloys.wiki"
+    },
+    {
+      "title": "Mine Launcher",
+      "ns": 0,
+      "pageid": 374,
+      "rev_id": 1011,
+      "timestamp": "2026-08-20T01:38:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Mine_Launcher",
+      "path": "pages/Main/Mine Launcher.wiki"
+    },
+    {
+      "title": "Mining",
+      "ns": 0,
+      "pageid": 185,
+      "rev_id": 923,
+      "timestamp": "2026-08-18T13:17:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Mining",
+      "path": "pages/Main/Mining.wiki"
+    },
+    {
+      "title": "Mining Lance",
+      "ns": 0,
+      "pageid": 529,
+      "rev_id": 1316,
+      "timestamp": "2026-08-20T23:59:55Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Mining_Lance",
+      "path": "pages/Main/Mining Lance.wiki"
+    },
+    {
+      "title": "Mining Laser",
+      "ns": 0,
+      "pageid": 531,
+      "rev_id": 1318,
+      "timestamp": "2026-08-20T23:59:56Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Mining_Laser",
+      "path": "pages/Main/Mining Laser.wiki"
+    },
+    {
+      "title": "Mining Multi Limpet Controller",
+      "ns": 0,
+      "pageid": 533,
+      "rev_id": 1320,
+      "timestamp": "2026-08-20T23:59:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Mining_Multi_Limpet_Controller",
+      "path": "pages/Main/Mining Multi Limpet Controller.wiki"
+    },
+    {
+      "title": "Missile Rack",
+      "ns": 0,
+      "pageid": 371,
+      "rev_id": 1008,
+      "timestamp": "2026-08-20T01:38:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Missile_Rack",
+      "path": "pages/Main/Missile Rack.wiki"
+    },
+    {
+      "title": "Modified Guardian Gauss Cannon",
+      "ns": 0,
+      "pageid": 536,
+      "rev_id": 1323,
+      "timestamp": "2026-08-21T00:00:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Modified_Guardian_Gauss_Cannon",
+      "path": "pages/Main/Modified Guardian Gauss Cannon.wiki"
+    },
+    {
+      "title": "Modified Guardian Plasma Charger",
+      "ns": 0,
+      "pageid": 538,
+      "rev_id": 1325,
+      "timestamp": "2026-08-21T00:00:02Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Modified_Guardian_Plasma_Charger",
+      "path": "pages/Main/Modified Guardian Plasma Charger.wiki"
+    },
+    {
+      "title": "Modified Guardian Shard Cannon",
+      "ns": 0,
+      "pageid": 540,
+      "rev_id": 1327,
+      "timestamp": "2026-08-21T00:00:03Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Modified_Guardian_Shard_Cannon",
+      "path": "pages/Main/Modified Guardian Shard Cannon.wiki"
+    },
+    {
+      "title": "Module Reinforcement Package",
+      "ns": 0,
+      "pageid": 542,
+      "rev_id": 1329,
+      "timestamp": "2026-08-21T00:00:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module_Reinforcement_Package",
+      "path": "pages/Main/Module Reinforcement Package.wiki"
+    },
+    {
+      "title": "Muang",
+      "ns": 0,
+      "pageid": 351,
+      "rev_id": 988,
+      "timestamp": "2026-08-20T01:37:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Muang",
+      "path": "pages/Main/Muang.wiki"
+    },
+    {
+      "title": "Multi Cannon",
+      "ns": 0,
+      "pageid": 196,
+      "rev_id": 291,
+      "timestamp": "2026-08-07T22:14:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Multi_Cannon",
+      "path": "pages/Main/Multi Cannon.wiki"
+    },
+    {
+      "title": "Multi-Cannon",
+      "ns": 0,
+      "pageid": 103,
+      "rev_id": 320,
+      "timestamp": "2026-08-07T22:25:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Multi-Cannon",
+      "path": "pages/Main/Multi-Cannon.wiki"
+    },
+    {
+      "title": "Multicannon",
+      "ns": 0,
+      "pageid": 195,
+      "rev_id": 290,
+      "timestamp": "2026-08-07T22:14:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Multicannon",
+      "path": "pages/Main/Multicannon.wiki"
+    },
+    {
+      "title": "Nanite Torpedo Pylon",
+      "ns": 0,
+      "pageid": 545,
+      "rev_id": 1332,
+      "timestamp": "2026-08-21T00:00:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Nanite_Torpedo_Pylon",
+      "path": "pages/Main/Nanite Torpedo Pylon.wiki"
+    },
+    {
+      "title": "New Commander Roadmap",
+      "ns": 0,
+      "pageid": 52,
+      "rev_id": 854,
+      "timestamp": "2026-08-16T04:07:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/New_Commander_Roadmap",
+      "path": "pages/Main/New Commander Roadmap.wiki"
+    },
+    {
+      "title": "New Player Guide",
+      "ns": 0,
+      "pageid": 197,
+      "rev_id": 292,
+      "timestamp": "2026-08-07T22:14:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/New_Player_Guide",
+      "path": "pages/Main/New Player Guide.wiki"
+    },
+    {
+      "title": "Oden Geiger",
+      "ns": 0,
+      "pageid": 138,
+      "rev_id": 1486,
+      "timestamp": "2026-08-21T14:39:13Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Oden_Geiger",
+      "path": "pages/Main/Oden Geiger.wiki"
+    },
+    {
+      "title": "Odyssey",
+      "ns": 0,
+      "pageid": 58,
+      "rev_id": 924,
+      "timestamp": "2026-08-18T13:17:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Odyssey",
+      "path": "pages/Main/Odyssey.wiki"
+    },
+    {
+      "title": "Operations",
+      "ns": 0,
+      "pageid": 61,
+      "rev_id": 925,
+      "timestamp": "2026-08-18T13:17:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Operations",
+      "path": "pages/Main/Operations.wiki"
+    },
+    {
+      "title": "Operations Multi Limpet Controller",
+      "ns": 0,
+      "pageid": 547,
+      "rev_id": 1334,
+      "timestamp": "2026-08-21T00:00:08Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Operations_Multi_Limpet_Controller",
+      "path": "pages/Main/Operations Multi Limpet Controller.wiki"
+    },
+    {
+      "title": "Overcharged",
+      "ns": 0,
+      "pageid": 101,
+      "rev_id": 174,
+      "timestamp": "2026-08-07T20:12:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Overcharged",
+      "path": "pages/Main/Overcharged.wiki"
+    },
+    {
+      "title": "PP2",
+      "ns": 0,
+      "pageid": 191,
+      "rev_id": 286,
+      "timestamp": "2026-08-07T22:14:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/PP2",
+      "path": "pages/Main/PP2.wiki"
+    },
+    {
+      "title": "Pacifier Frag-Cannon",
+      "ns": 0,
+      "pageid": 549,
+      "rev_id": 1336,
+      "timestamp": "2026-08-21T00:00:10Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Pacifier_Frag-Cannon",
+      "path": "pages/Main/Pacifier Frag-Cannon.wiki"
+    },
+    {
+      "title": "Pack-Hound Missile Rack",
+      "ns": 0,
+      "pageid": 551,
+      "rev_id": 1338,
+      "timestamp": "2026-08-21T00:00:11Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Pack-Hound_Missile_Rack",
+      "path": "pages/Main/Pack-Hound Missile Rack.wiki"
+    },
+    {
+      "title": "Palin",
+      "ns": 0,
+      "pageid": 194,
+      "rev_id": 289,
+      "timestamp": "2026-08-07T22:14:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Palin",
+      "path": "pages/Main/Palin.wiki"
+    },
+    {
+      "title": "Passenger Cabin",
+      "ns": 0,
+      "pageid": 553,
+      "rev_id": 1340,
+      "timestamp": "2026-08-21T00:00:13Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Passenger_Cabin",
+      "path": "pages/Main/Passenger Cabin.wiki"
+    },
+    {
+      "title": "Petra Olmanova",
+      "ns": 0,
+      "pageid": 125,
+      "rev_id": 1466,
+      "timestamp": "2026-08-21T14:38:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Petra_Olmanova",
+      "path": "pages/Main/Petra Olmanova.wiki"
+    },
+    {
+      "title": "Phoenix Base",
+      "ns": 0,
+      "pageid": 354,
+      "rev_id": 991,
+      "timestamp": "2026-08-20T01:37:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Phoenix_Base",
+      "path": "pages/Main/Phoenix Base.wiki"
+    },
+    {
+      "title": "Planetary Vehicle Hangar",
+      "ns": 0,
+      "pageid": 555,
+      "rev_id": 1342,
+      "timestamp": "2026-08-21T00:00:14Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Planetary_Vehicle_Hangar",
+      "path": "pages/Main/Planetary Vehicle Hangar.wiki"
+    },
+    {
+      "title": "Plasma Accelerator",
+      "ns": 0,
+      "pageid": 557,
+      "rev_id": 1344,
+      "timestamp": "2026-08-21T00:00:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Plasma_Accelerator",
+      "path": "pages/Main/Plasma Accelerator.wiki"
+    },
+    {
+      "title": "Point Defence",
+      "ns": 0,
+      "pageid": 384,
+      "rev_id": 1021,
+      "timestamp": "2026-08-20T01:38:48Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Point_Defence",
+      "path": "pages/Main/Point Defence.wiki"
+    },
+    {
+      "title": "Point Defence Turret",
+      "ns": 0,
+      "pageid": 560,
+      "rev_id": 1347,
+      "timestamp": "2026-08-21T00:00:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Point_Defence_Turret",
+      "path": "pages/Main/Point Defence Turret.wiki"
+    },
+    {
+      "title": "Power Distributor",
+      "ns": 0,
+      "pageid": 363,
+      "rev_id": 1000,
+      "timestamp": "2026-08-20T01:37:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Power_Distributor",
+      "path": "pages/Main/Power Distributor.wiki"
+    },
+    {
+      "title": "Power Plant",
+      "ns": 0,
+      "pageid": 362,
+      "rev_id": 999,
+      "timestamp": "2026-08-20T01:37:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Power_Plant",
+      "path": "pages/Main/Power Plant.wiki"
+    },
+    {
+      "title": "Powerplay",
+      "ns": 0,
+      "pageid": 59,
+      "rev_id": 926,
+      "timestamp": "2026-08-18T13:17:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Powerplay",
+      "path": "pages/Main/Powerplay.wiki"
+    },
+    {
+      "title": "Prismatic Shield Generator",
+      "ns": 0,
+      "pageid": 564,
+      "rev_id": 1351,
+      "timestamp": "2026-08-21T00:00:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Prismatic_Shield_Generator",
+      "path": "pages/Main/Prismatic Shield Generator.wiki"
+    },
+    {
+      "title": "Professor Palin",
+      "ns": 0,
+      "pageid": 110,
+      "rev_id": 1436,
+      "timestamp": "2026-08-21T14:38:34Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Professor_Palin",
+      "path": "pages/Main/Professor Palin.wiki"
+    },
+    {
+      "title": "Prospector Limpet Controller",
+      "ns": 0,
+      "pageid": 388,
+      "rev_id": 1025,
+      "timestamp": "2026-08-20T01:38:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Prospector_Limpet_Controller",
+      "path": "pages/Main/Prospector Limpet Controller.wiki"
+    },
+    {
+      "title": "Pulse Disruptor",
+      "ns": 0,
+      "pageid": 567,
+      "rev_id": 1354,
+      "timestamp": "2026-08-21T00:00:23Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Pulse_Disruptor",
+      "path": "pages/Main/Pulse Disruptor.wiki"
+    },
+    {
+      "title": "Pulse Laser",
+      "ns": 0,
+      "pageid": 377,
+      "rev_id": 1014,
+      "timestamp": "2026-08-20T01:38:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Pulse_Laser",
+      "path": "pages/Main/Pulse Laser.wiki"
+    },
+    {
+      "title": "Pulse Wave Analyser",
+      "ns": 0,
+      "pageid": 570,
+      "rev_id": 1357,
+      "timestamp": "2026-08-21T00:00:26Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Pulse_Wave_Analyser",
+      "path": "pages/Main/Pulse Wave Analyser.wiki"
+    },
+    {
+      "title": "Railgun",
+      "ns": 0,
+      "pageid": 572,
+      "rev_id": 1359,
+      "timestamp": "2026-08-21T00:00:27Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Railgun",
+      "path": "pages/Main/Railgun.wiki"
+    },
+    {
+      "title": "Ram Tah",
+      "ns": 0,
+      "pageid": 122,
+      "rev_id": 1446,
+      "timestamp": "2026-08-21T14:38:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Ram_Tah",
+      "path": "pages/Main/Ram Tah.wiki"
+    },
+    {
+      "title": "Recon Limpet Controller",
+      "ns": 0,
+      "pageid": 574,
+      "rev_id": 1361,
+      "timestamp": "2026-08-21T00:00:29Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Recon_Limpet_Controller",
+      "path": "pages/Main/Recon Limpet Controller.wiki"
+    },
+    {
+      "title": "Refinery",
+      "ns": 0,
+      "pageid": 576,
+      "rev_id": 1363,
+      "timestamp": "2026-08-21T00:00:30Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Refinery",
+      "path": "pages/Main/Refinery.wiki"
+    },
+    {
+      "title": "Remote Release Flak Launcher",
+      "ns": 0,
+      "pageid": 578,
+      "rev_id": 1365,
+      "timestamp": "2026-08-21T00:00:32Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Remote_Release_Flak_Launcher",
+      "path": "pages/Main/Remote Release Flak Launcher.wiki"
+    },
+    {
+      "title": "Remote Release Flechette Launcher",
+      "ns": 0,
+      "pageid": 580,
+      "rev_id": 1367,
+      "timestamp": "2026-08-21T00:00:33Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Remote_Release_Flechette_Launcher",
+      "path": "pages/Main/Remote Release Flechette Launcher.wiki"
+    },
+    {
+      "title": "Repair Limpet Controller",
+      "ns": 0,
+      "pageid": 582,
+      "rev_id": 1369,
+      "timestamp": "2026-08-21T00:00:35Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Repair_Limpet_Controller",
+      "path": "pages/Main/Repair Limpet Controller.wiki"
+    },
+    {
+      "title": "Rescue Multi Limpet Controller",
+      "ns": 0,
+      "pageid": 584,
+      "rev_id": 1371,
+      "timestamp": "2026-08-21T00:00:36Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Rescue_Multi_Limpet_Controller",
+      "path": "pages/Main/Rescue Multi Limpet Controller.wiki"
+    },
+    {
+      "title": "Research Limpet Controller",
+      "ns": 0,
+      "pageid": 586,
+      "rev_id": 1373,
+      "timestamp": "2026-08-21T00:00:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Research_Limpet_Controller",
+      "path": "pages/Main/Research Limpet Controller.wiki"
+    },
+    {
+      "title": "Retributor Beam Laser",
+      "ns": 0,
+      "pageid": 588,
+      "rev_id": 1375,
+      "timestamp": "2026-08-21T00:00:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Retributor_Beam_Laser",
+      "path": "pages/Main/Retributor Beam Laser.wiki"
+    },
+    {
+      "title": "Returning Commander Overview",
+      "ns": 0,
+      "pageid": 53,
+      "rev_id": 940,
+      "timestamp": "2026-08-18T21:38:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Returning_Commander_Overview",
+      "path": "pages/Main/Returning Commander Overview.wiki"
+    },
+    {
+      "title": "Returning Player",
+      "ns": 0,
+      "pageid": 198,
+      "rev_id": 293,
+      "timestamp": "2026-08-07T22:14:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Returning_Player",
+      "path": "pages/Main/Returning Player.wiki"
+    },
+    {
+      "title": "Rosa Dayette",
+      "ns": 0,
+      "pageid": 140,
+      "rev_id": 1492,
+      "timestamp": "2026-08-21T14:39:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Rosa_Dayette",
+      "path": "pages/Main/Rosa Dayette.wiki"
+    },
+    {
+      "title": "Seeker Missile Rack",
+      "ns": 0,
+      "pageid": 372,
+      "rev_id": 1009,
+      "timestamp": "2026-08-20T01:38:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Seeker_Missile_Rack",
+      "path": "pages/Main/Seeker Missile Rack.wiki"
+    },
+    {
+      "title": "Seismic Charge Launcher",
+      "ns": 0,
+      "pageid": 591,
+      "rev_id": 1378,
+      "timestamp": "2026-08-21T00:00:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Seismic_Charge_Launcher",
+      "path": "pages/Main/Seismic Charge Launcher.wiki"
+    },
+    {
+      "title": "Selene Jean",
+      "ns": 0,
+      "pageid": 114,
+      "rev_id": 1440,
+      "timestamp": "2026-08-21T14:38:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Selene_Jean",
+      "path": "pages/Main/Selene Jean.wiki"
+    },
+    {
+      "title": "Sensors",
+      "ns": 0,
+      "pageid": 360,
+      "rev_id": 997,
+      "timestamp": "2026-08-20T01:37:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Sensors",
+      "path": "pages/Main/Sensors.wiki"
+    },
+    {
+      "title": "Shield Booster",
+      "ns": 0,
+      "pageid": 370,
+      "rev_id": 1007,
+      "timestamp": "2026-08-20T01:37:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Shield_Booster",
+      "path": "pages/Main/Shield Booster.wiki"
+    },
+    {
+      "title": "Shield Cell Bank",
+      "ns": 0,
+      "pageid": 595,
+      "rev_id": 1382,
+      "timestamp": "2026-08-21T00:00:44Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Shield_Cell_Bank",
+      "path": "pages/Main/Shield Cell Bank.wiki"
+    },
+    {
+      "title": "Shield Generator",
+      "ns": 0,
+      "pageid": 364,
+      "rev_id": 1001,
+      "timestamp": "2026-08-20T01:37:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Shield_Generator",
+      "path": "pages/Main/Shield Generator.wiki"
+    },
+    {
+      "title": "Shield Reinforcement Package",
+      "ns": 0,
+      "pageid": 598,
+      "rev_id": 1385,
+      "timestamp": "2026-08-21T00:00:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Shield_Reinforcement_Package",
+      "path": "pages/Main/Shield Reinforcement Package.wiki"
+    },
+    {
+      "title": "Ship Modules",
+      "ns": 0,
+      "pageid": 435,
+      "rev_id": 1222,
+      "timestamp": "2026-08-20T23:58:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Ship_Modules",
+      "path": "pages/Main/Ship Modules.wiki"
+    },
+    {
+      "title": "Ships",
+      "ns": 0,
+      "pageid": 331,
+      "rev_id": 869,
+      "timestamp": "2026-08-17T05:05:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Ships",
+      "path": "pages/Main/Ships.wiki"
+    },
+    {
+      "title": "Ships and Equipment",
+      "ns": 0,
+      "pageid": 56,
+      "rev_id": 867,
+      "timestamp": "2026-08-17T05:02:27Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Ships_and_Equipment",
+      "path": "pages/Main/Ships and Equipment.wiki"
+    },
+    {
+      "title": "Shock Mine Launcher",
+      "ns": 0,
+      "pageid": 600,
+      "rev_id": 1387,
+      "timestamp": "2026-08-21T00:00:48Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Shock_Mine_Launcher",
+      "path": "pages/Main/Shock Mine Launcher.wiki"
+    },
+    {
+      "title": "Shutdown Field Neutraliser",
+      "ns": 0,
+      "pageid": 602,
+      "rev_id": 1389,
+      "timestamp": "2026-08-21T00:00:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Shutdown_Field_Neutraliser",
+      "path": "pages/Main/Shutdown Field Neutraliser.wiki"
+    },
+    {
+      "title": "Standard Docking Computer",
+      "ns": 0,
+      "pageid": 604,
+      "rev_id": 1391,
+      "timestamp": "2026-08-21T00:00:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Standard_Docking_Computer",
+      "path": "pages/Main/Standard Docking Computer.wiki"
+    },
+    {
+      "title": "Start Here",
+      "ns": 0,
+      "pageid": 51,
+      "rev_id": 855,
+      "timestamp": "2026-08-16T04:08:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Start_Here",
+      "path": "pages/Main/Start Here.wiki"
+    },
+    {
+      "title": "Sub-surface Displacement Missile",
+      "ns": 0,
+      "pageid": 606,
+      "rev_id": 1393,
+      "timestamp": "2026-08-21T00:00:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Sub-surface_Displacement_Missile",
+      "path": "pages/Main/Sub-surface Displacement Missile.wiki"
+    },
+    {
+      "title": "Sub-surface Extraction Missile",
+      "ns": 0,
+      "pageid": 608,
+      "rev_id": 1395,
+      "timestamp": "2026-08-21T00:00:53Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Sub-surface_Extraction_Missile",
+      "path": "pages/Main/Sub-surface Extraction Missile.wiki"
+    },
+    {
+      "title": "Supercruise Assist",
+      "ns": 0,
+      "pageid": 610,
+      "rev_id": 1397,
+      "timestamp": "2026-08-21T00:00:55Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Supercruise_Assist",
+      "path": "pages/Main/Supercruise Assist.wiki"
+    },
+    {
+      "title": "Terra Velasquez",
+      "ns": 0,
+      "pageid": 135,
+      "rev_id": 1478,
+      "timestamp": "2026-08-21T14:39:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Terra_Velasquez",
+      "path": "pages/Main/Terra Velasquez.wiki"
+    },
+    {
+      "title": "Thargoid",
+      "ns": 0,
+      "pageid": 189,
+      "rev_id": 927,
+      "timestamp": "2026-08-18T13:17:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Thargoid",
+      "path": "pages/Main/Thargoid.wiki"
+    },
+    {
+      "title": "Thargoid Pulse Neutraliser",
+      "ns": 0,
+      "pageid": 612,
+      "rev_id": 1399,
+      "timestamp": "2026-08-21T00:00:56Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Thargoid_Pulse_Neutraliser",
+      "path": "pages/Main/Thargoid Pulse Neutraliser.wiki"
+    },
+    {
+      "title": "Thargoid War History",
+      "ns": 0,
+      "pageid": 179,
+      "rev_id": 266,
+      "timestamp": "2026-08-07T22:11:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Thargoid_War_History",
+      "path": "pages/Main/Thargoid War History.wiki"
+    },
+    {
+      "title": "Thargoids",
+      "ns": 0,
+      "pageid": 202,
+      "rev_id": 297,
+      "timestamp": "2026-08-07T22:14:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Thargoids",
+      "path": "pages/Main/Thargoids.wiki"
+    },
+    {
+      "title": "The Dweller",
+      "ns": 0,
+      "pageid": 111,
+      "rev_id": 1426,
+      "timestamp": "2026-08-21T14:38:27Z",
+      "fullurl": "https://edfieldmanual.com/wiki/The_Dweller",
+      "path": "pages/Main/The Dweller.wiki"
+    },
+    {
+      "title": "The Jet's Hole",
+      "ns": 0,
+      "pageid": 350,
+      "rev_id": 987,
+      "timestamp": "2026-08-20T01:37:36Z",
+      "fullurl": "https://edfieldmanual.com/wiki/The_Jet%27s_Hole",
+      "path": "pages/Main/The Jet's Hole.wiki"
+    },
+    {
+      "title": "The Sarge",
+      "ns": 0,
+      "pageid": 120,
+      "rev_id": 1458,
+      "timestamp": "2026-08-21T14:38:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/The_Sarge",
+      "path": "pages/Main/The Sarge.wiki"
+    },
+    {
+      "title": "Thermal Vent",
+      "ns": 0,
+      "pageid": 102,
+      "rev_id": 175,
+      "timestamp": "2026-08-07T20:12:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Thermal_Vent",
+      "path": "pages/Main/Thermal Vent.wiki"
+    },
+    {
+      "title": "Thrusters",
+      "ns": 0,
+      "pageid": 361,
+      "rev_id": 998,
+      "timestamp": "2026-08-20T01:37:44Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Thrusters",
+      "path": "pages/Main/Thrusters.wiki"
+    },
+    {
+      "title": "Tiana Fortune",
+      "ns": 0,
+      "pageid": 118,
+      "rev_id": 1460,
+      "timestamp": "2026-08-21T14:38:54Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Tiana_Fortune",
+      "path": "pages/Main/Tiana Fortune.wiki"
+    },
+    {
+      "title": "Tod \"The Blaster\" McQuinn",
+      "ns": 0,
+      "pageid": 113,
+      "rev_id": 1428,
+      "timestamp": "2026-08-21T14:38:28Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Tod_%22The_Blaster%22_McQuinn",
+      "path": "pages/Main/Tod _The Blaster_ McQuinn.wiki"
+    },
+    {
+      "title": "Tod McQuinn",
+      "ns": 0,
+      "pageid": 192,
+      "rev_id": 287,
+      "timestamp": "2026-08-07T22:14:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Tod_McQuinn",
+      "path": "pages/Main/Tod McQuinn.wiki"
+    },
+    {
+      "title": "Tools and Resources",
+      "ns": 0,
+      "pageid": 63,
+      "rev_id": 963,
+      "timestamp": "2026-08-19T22:18:10Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Tools_and_Resources",
+      "path": "pages/Main/Tools and Resources.wiki"
+    },
+    {
+      "title": "Torpedo Pylon",
+      "ns": 0,
+      "pageid": 373,
+      "rev_id": 1010,
+      "timestamp": "2026-08-20T01:38:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Torpedo_Pylon",
+      "path": "pages/Main/Torpedo Pylon.wiki"
+    },
+    {
+      "title": "Trade",
+      "ns": 0,
+      "pageid": 184,
+      "rev_id": 928,
+      "timestamp": "2026-08-18T13:17:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Trade",
+      "path": "pages/Main/Trade.wiki"
+    },
+    {
+      "title": "Trader's Rest",
+      "ns": 0,
+      "pageid": 358,
+      "rev_id": 995,
+      "timestamp": "2026-08-20T01:37:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Trader%27s_Rest",
+      "path": "pages/Main/Trader's Rest.wiki"
+    },
+    {
+      "title": "Trailblazers",
+      "ns": 0,
+      "pageid": 180,
+      "rev_id": 808,
+      "timestamp": "2026-08-15T04:32:30Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Trailblazers",
+      "path": "pages/Main/Trailblazers.wiki"
+    },
+    {
+      "title": "Uma Laszlo",
+      "ns": 0,
+      "pageid": 136,
+      "rev_id": 1484,
+      "timestamp": "2026-08-21T14:39:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Uma_Laszlo",
+      "path": "pages/Main/Uma Laszlo.wiki"
+    },
+    {
+      "title": "Universal Limpet Controller",
+      "ns": 0,
+      "pageid": 616,
+      "rev_id": 1403,
+      "timestamp": "2026-08-21T00:01:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Universal_Limpet_Controller",
+      "path": "pages/Main/Universal Limpet Controller.wiki"
+    },
+    {
+      "title": "Unlocking Baltanos",
+      "ns": 0,
+      "pageid": 655,
+      "rev_id": 1487,
+      "timestamp": "2026-08-21T14:39:14Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Baltanos",
+      "path": "pages/Main/Unlocking Baltanos.wiki"
+    },
+    {
+      "title": "Unlocking Bill Turner",
+      "ns": 0,
+      "pageid": 632,
+      "rev_id": 1499,
+      "timestamp": "2026-08-21T14:40:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Bill_Turner",
+      "path": "pages/Main/Unlocking Bill Turner.wiki"
+    },
+    {
+      "title": "Unlocking Broo Tarquin",
+      "ns": 0,
+      "pageid": 178,
+      "rev_id": 1530,
+      "timestamp": "2026-08-21T14:42:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Broo_Tarquin",
+      "path": "pages/Main/Unlocking Broo Tarquin.wiki"
+    },
+    {
+      "title": "Unlocking Chloe Sedesi",
+      "ns": 0,
+      "pageid": 630,
+      "rev_id": 1500,
+      "timestamp": "2026-08-21T14:40:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Chloe_Sedesi",
+      "path": "pages/Main/Unlocking Chloe Sedesi.wiki"
+    },
+    {
+      "title": "Unlocking Colonel Bris Dekker",
+      "ns": 0,
+      "pageid": 639,
+      "rev_id": 1501,
+      "timestamp": "2026-08-21T14:40:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Colonel_Bris_Dekker",
+      "path": "pages/Main/Unlocking Colonel Bris Dekker.wiki"
+    },
+    {
+      "title": "Unlocking Didi Vatermann",
+      "ns": 0,
+      "pageid": 637,
+      "rev_id": 1502,
+      "timestamp": "2026-08-21T14:40:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Didi_Vatermann",
+      "path": "pages/Main/Unlocking Didi Vatermann.wiki"
+    },
+    {
+      "title": "Unlocking Domino Green",
+      "ns": 0,
+      "pageid": 646,
+      "rev_id": 1503,
+      "timestamp": "2026-08-21T14:40:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Domino_Green",
+      "path": "pages/Main/Unlocking Domino Green.wiki"
+    },
+    {
+      "title": "Unlocking Eleanor Bresa",
+      "ns": 0,
+      "pageid": 656,
+      "rev_id": 1531,
+      "timestamp": "2026-08-22T02:37:09Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Eleanor_Bresa",
+      "path": "pages/Main/Unlocking Eleanor Bresa.wiki"
+    },
+    {
+      "title": "Unlocking Elvira Martuuk",
+      "ns": 0,
+      "pageid": 623,
+      "rev_id": 1504,
+      "timestamp": "2026-08-21T14:40:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Elvira_Martuuk",
+      "path": "pages/Main/Unlocking Elvira Martuuk.wiki"
+    },
+    {
+      "title": "Unlocking Etienne Dorn",
+      "ns": 0,
+      "pageid": 645,
+      "rev_id": 1532,
+      "timestamp": "2026-08-22T02:37:10Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Etienne_Dorn",
+      "path": "pages/Main/Unlocking Etienne Dorn.wiki"
+    },
+    {
+      "title": "Unlocking Felicity Farseer",
+      "ns": 0,
+      "pageid": 622,
+      "rev_id": 1505,
+      "timestamp": "2026-08-21T14:40:53Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Felicity_Farseer",
+      "path": "pages/Main/Unlocking Felicity Farseer.wiki"
+    },
+    {
+      "title": "Unlocking Hera Tani",
+      "ns": 0,
+      "pageid": 627,
+      "rev_id": 1506,
+      "timestamp": "2026-08-21T14:40:54Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Hera_Tani",
+      "path": "pages/Main/Unlocking Hera Tani.wiki"
+    },
+    {
+      "title": "Unlocking Hero Ferrari",
+      "ns": 0,
+      "pageid": 647,
+      "rev_id": 1507,
+      "timestamp": "2026-08-21T14:40:55Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Hero_Ferrari",
+      "path": "pages/Main/Unlocking Hero Ferrari.wiki"
+    },
+    {
+      "title": "Unlocking Jude Navarro",
+      "ns": 0,
+      "pageid": 648,
+      "rev_id": 1508,
+      "timestamp": "2026-08-21T14:40:56Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Jude_Navarro",
+      "path": "pages/Main/Unlocking Jude Navarro.wiki"
+    },
+    {
+      "title": "Unlocking Juri Ishmaak",
+      "ns": 0,
+      "pageid": 638,
+      "rev_id": 1509,
+      "timestamp": "2026-08-21T14:40:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Juri_Ishmaak",
+      "path": "pages/Main/Unlocking Juri Ishmaak.wiki"
+    },
+    {
+      "title": "Unlocking Kit Fowler",
+      "ns": 0,
+      "pageid": 649,
+      "rev_id": 1510,
+      "timestamp": "2026-08-21T14:40:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Kit_Fowler",
+      "path": "pages/Main/Unlocking Kit Fowler.wiki"
+    },
+    {
+      "title": "Unlocking Lei Cheung",
+      "ns": 0,
+      "pageid": 633,
+      "rev_id": 1511,
+      "timestamp": "2026-08-21T14:41:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Lei_Cheung",
+      "path": "pages/Main/Unlocking Lei Cheung.wiki"
+    },
+    {
+      "title": "Unlocking Liz Ryder",
+      "ns": 0,
+      "pageid": 626,
+      "rev_id": 1512,
+      "timestamp": "2026-08-21T14:41:01Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Liz_Ryder",
+      "path": "pages/Main/Unlocking Liz Ryder.wiki"
+    },
+    {
+      "title": "Unlocking Lori Jameson",
+      "ns": 0,
+      "pageid": 635,
+      "rev_id": 1513,
+      "timestamp": "2026-08-21T14:41:02Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Lori_Jameson",
+      "path": "pages/Main/Unlocking Lori Jameson.wiki"
+    },
+    {
+      "title": "Unlocking Marco Qwent",
+      "ns": 0,
+      "pageid": 628,
+      "rev_id": 1514,
+      "timestamp": "2026-08-21T14:41:03Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Marco_Qwent",
+      "path": "pages/Main/Unlocking Marco Qwent.wiki"
+    },
+    {
+      "title": "Unlocking Marsha Hicks",
+      "ns": 0,
+      "pageid": 643,
+      "rev_id": 1515,
+      "timestamp": "2026-08-21T14:41:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Marsha_Hicks",
+      "path": "pages/Main/Unlocking Marsha Hicks.wiki"
+    },
+    {
+      "title": "Unlocking Mel Brandon",
+      "ns": 0,
+      "pageid": 642,
+      "rev_id": 1516,
+      "timestamp": "2026-08-21T14:41:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Mel_Brandon",
+      "path": "pages/Main/Unlocking Mel Brandon.wiki"
+    },
+    {
+      "title": "Unlocking Oden Geiger",
+      "ns": 0,
+      "pageid": 654,
+      "rev_id": 1517,
+      "timestamp": "2026-08-21T14:41:06Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Oden_Geiger",
+      "path": "pages/Main/Unlocking Oden Geiger.wiki"
+    },
+    {
+      "title": "Unlocking Petra Olmanova",
+      "ns": 0,
+      "pageid": 644,
+      "rev_id": 1518,
+      "timestamp": "2026-08-21T14:41:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Petra_Olmanova",
+      "path": "pages/Main/Unlocking Petra Olmanova.wiki"
+    },
+    {
+      "title": "Unlocking Professor Palin",
+      "ns": 0,
+      "pageid": 629,
+      "rev_id": 1519,
+      "timestamp": "2026-08-21T14:41:08Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Professor_Palin",
+      "path": "pages/Main/Unlocking Professor Palin.wiki"
+    },
+    {
+      "title": "Unlocking Ram Tah",
+      "ns": 0,
+      "pageid": 634,
+      "rev_id": 1520,
+      "timestamp": "2026-08-21T14:41:10Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Ram_Tah",
+      "path": "pages/Main/Unlocking Ram Tah.wiki"
+    },
+    {
+      "title": "Unlocking Rosa Dayette",
+      "ns": 0,
+      "pageid": 657,
+      "rev_id": 1533,
+      "timestamp": "2026-08-22T02:37:10Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Rosa_Dayette",
+      "path": "pages/Main/Unlocking Rosa Dayette.wiki"
+    },
+    {
+      "title": "Unlocking Selene Jean",
+      "ns": 0,
+      "pageid": 631,
+      "rev_id": 1521,
+      "timestamp": "2026-08-21T14:41:11Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Selene_Jean",
+      "path": "pages/Main/Unlocking Selene Jean.wiki"
+    },
+    {
+      "title": "Unlocking Terra Velasquez",
+      "ns": 0,
+      "pageid": 650,
+      "rev_id": 1522,
+      "timestamp": "2026-08-21T14:41:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Terra_Velasquez",
+      "path": "pages/Main/Unlocking Terra Velasquez.wiki"
+    },
+    {
+      "title": "Unlocking The Dweller",
+      "ns": 0,
+      "pageid": 624,
+      "rev_id": 1523,
+      "timestamp": "2026-08-21T14:41:13Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_The_Dweller",
+      "path": "pages/Main/Unlocking The Dweller.wiki"
+    },
+    {
+      "title": "Unlocking The Sarge",
+      "ns": 0,
+      "pageid": 640,
+      "rev_id": 1524,
+      "timestamp": "2026-08-21T14:41:14Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_The_Sarge",
+      "path": "pages/Main/Unlocking The Sarge.wiki"
+    },
+    {
+      "title": "Unlocking Tiana Fortune",
+      "ns": 0,
+      "pageid": 641,
+      "rev_id": 1534,
+      "timestamp": "2026-08-22T02:37:11Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Tiana_Fortune",
+      "path": "pages/Main/Unlocking Tiana Fortune.wiki"
+    },
+    {
+      "title": "Unlocking Tod \"The Blaster\" McQuinn",
+      "ns": 0,
+      "pageid": 625,
+      "rev_id": 1525,
+      "timestamp": "2026-08-21T14:41:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Tod_%22The_Blaster%22_McQuinn",
+      "path": "pages/Main/Unlocking Tod _The Blaster_ McQuinn.wiki"
+    },
+    {
+      "title": "Unlocking Uma Laszlo",
+      "ns": 0,
+      "pageid": 653,
+      "rev_id": 1526,
+      "timestamp": "2026-08-21T14:41:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Uma_Laszlo",
+      "path": "pages/Main/Unlocking Uma Laszlo.wiki"
+    },
+    {
+      "title": "Unlocking Wellington Beck",
+      "ns": 0,
+      "pageid": 652,
+      "rev_id": 1527,
+      "timestamp": "2026-08-21T14:41:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Wellington_Beck",
+      "path": "pages/Main/Unlocking Wellington Beck.wiki"
+    },
+    {
+      "title": "Unlocking Yarden Bond",
+      "ns": 0,
+      "pageid": 651,
+      "rev_id": 1528,
+      "timestamp": "2026-08-21T14:41:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Yarden_Bond",
+      "path": "pages/Main/Unlocking Yarden Bond.wiki"
+    },
+    {
+      "title": "Unlocking Yi Shen",
+      "ns": 0,
+      "pageid": 658,
+      "rev_id": 1535,
+      "timestamp": "2026-08-22T02:37:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Yi_Shen",
+      "path": "pages/Main/Unlocking Yi Shen.wiki"
+    },
+    {
+      "title": "Unlocking Zacariah Nemo",
+      "ns": 0,
+      "pageid": 636,
+      "rev_id": 1529,
+      "timestamp": "2026-08-21T14:41:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Unlocking_Zacariah_Nemo",
+      "path": "pages/Main/Unlocking Zacariah Nemo.wiki"
+    },
+    {
+      "title": "Wellington Beck",
+      "ns": 0,
+      "pageid": 134,
+      "rev_id": 1482,
+      "timestamp": "2026-08-21T14:39:10Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Wellington_Beck",
+      "path": "pages/Main/Wellington Beck.wiki"
+    },
+    {
+      "title": "Wyrd",
+      "ns": 0,
+      "pageid": 355,
+      "rev_id": 992,
+      "timestamp": "2026-08-20T01:37:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Wyrd",
+      "path": "pages/Main/Wyrd.wiki"
+    },
+    {
+      "title": "Xeno Multi Limpet Controller",
+      "ns": 0,
+      "pageid": 618,
+      "rev_id": 1405,
+      "timestamp": "2026-08-21T00:01:01Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Xeno_Multi_Limpet_Controller",
+      "path": "pages/Main/Xeno Multi Limpet Controller.wiki"
+    },
+    {
+      "title": "Xeno Scanner",
+      "ns": 0,
+      "pageid": 620,
+      "rev_id": 1407,
+      "timestamp": "2026-08-21T00:01:03Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Xeno_Scanner",
+      "path": "pages/Main/Xeno Scanner.wiki"
+    },
+    {
+      "title": "Yarden Bond",
+      "ns": 0,
+      "pageid": 137,
+      "rev_id": 1480,
+      "timestamp": "2026-08-21T14:39:09Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Yarden_Bond",
+      "path": "pages/Main/Yarden Bond.wiki"
+    },
+    {
+      "title": "Yi Shen",
+      "ns": 0,
+      "pageid": 142,
+      "rev_id": 1494,
+      "timestamp": "2026-08-21T14:39:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Yi_Shen",
+      "path": "pages/Main/Yi Shen.wiki"
+    },
+    {
+      "title": "Zacariah Nemo",
+      "ns": 0,
+      "pageid": 117,
+      "rev_id": 1450,
+      "timestamp": "2026-08-21T14:38:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Zacariah_Nemo",
+      "path": "pages/Main/Zacariah Nemo.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:About the Field Manual",
+      "ns": 4,
+      "pageid": 42,
+      "rev_id": 1419,
+      "timestamp": "2026-08-21T13:57:34Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:About_the_Field_Manual",
+      "path": "pages/Project/Elite Dangerous Field Manual__About the Field Manual.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Adding Structured Data",
+      "ns": 4,
+      "pageid": 212,
+      "rev_id": 309,
+      "timestamp": "2026-08-07T22:18:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Adding_Structured_Data",
+      "path": "pages/Project/Elite Dangerous Field Manual__Adding Structured Data.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Adding an Image",
+      "ns": 4,
+      "pageid": 210,
+      "rev_id": 1539,
+      "timestamp": "2026-08-22T02:38:10Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Adding_an_Image",
+      "path": "pages/Project/Elite Dangerous Field Manual__Adding an Image.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Citing Sources",
+      "ns": 4,
+      "pageid": 211,
+      "rev_id": 809,
+      "timestamp": "2026-08-15T04:32:31Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Citing_Sources",
+      "path": "pages/Project/Elite Dangerous Field Manual__Citing Sources.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Content Style Guide",
+      "ns": 4,
+      "pageid": 207,
+      "rev_id": 302,
+      "timestamp": "2026-08-07T22:15:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Content_Style_Guide",
+      "path": "pages/Project/Elite Dangerous Field Manual__Content Style Guide.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Contributing",
+      "ns": 4,
+      "pageid": 43,
+      "rev_id": 1413,
+      "timestamp": "2026-08-21T13:56:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Contributing",
+      "path": "pages/Project/Elite Dangerous Field Manual__Contributing.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Cookie Policy",
+      "ns": 4,
+      "pageid": 330,
+      "rev_id": 1414,
+      "timestamp": "2026-08-21T13:56:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Cookie_Policy",
+      "path": "pages/Project/Elite Dangerous Field Manual__Cookie Policy.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Creating a Guide",
+      "ns": 4,
+      "pageid": 209,
+      "rev_id": 312,
+      "timestamp": "2026-08-07T22:20:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Creating_a_Guide",
+      "path": "pages/Project/Elite Dangerous Field Manual__Creating a Guide.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Creating an Article",
+      "ns": 4,
+      "pageid": 208,
+      "rev_id": 313,
+      "timestamp": "2026-08-07T22:20:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Creating_an_Article",
+      "path": "pages/Project/Elite Dangerous Field Manual__Creating an Article.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Current Project Status",
+      "ns": 4,
+      "pageid": 49,
+      "rev_id": 860,
+      "timestamp": "2026-08-16T04:32:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Current_Project_Status",
+      "path": "pages/Project/Elite Dangerous Field Manual__Current Project Status.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Editorial Policy",
+      "ns": 4,
+      "pageid": 44,
+      "rev_id": 303,
+      "timestamp": "2026-08-07T22:15:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Editorial_Policy",
+      "path": "pages/Project/Elite Dangerous Field Manual__Editorial Policy.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Engineering Architecture",
+      "ns": 4,
+      "pageid": 94,
+      "rev_id": 904,
+      "timestamp": "2026-08-18T01:06:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Engineering_Architecture",
+      "path": "pages/Project/Elite Dangerous Field Manual__Engineering Architecture.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Guided Encyclopedia",
+      "ns": 4,
+      "pageid": 327,
+      "rev_id": 695,
+      "timestamp": "2026-08-12T15:59:13Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Guided_Encyclopedia",
+      "path": "pages/Project/Elite Dangerous Field Manual__Guided Encyclopedia.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Image Use Policy",
+      "ns": 4,
+      "pageid": 238,
+      "rev_id": 1536,
+      "timestamp": "2026-08-22T02:37:13Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Image_Use_Policy",
+      "path": "pages/Project/Elite Dangerous Field Manual__Image Use Policy.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Legal and Trademark Notice",
+      "ns": 4,
+      "pageid": 48,
+      "rev_id": 1415,
+      "timestamp": "2026-08-21T13:56:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Legal_and_Trademark_Notice",
+      "path": "pages/Project/Elite Dangerous Field Manual__Legal and Trademark Notice.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:News",
+      "ns": 4,
+      "pageid": 289,
+      "rev_id": 557,
+      "timestamp": "2026-08-10T02:20:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:News",
+      "path": "pages/Project/Elite Dangerous Field Manual__News.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Pages Needing Review",
+      "ns": 4,
+      "pageid": 50,
+      "rev_id": 318,
+      "timestamp": "2026-08-07T22:23:30Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Pages_Needing_Review",
+      "path": "pages/Project/Elite Dangerous Field Manual__Pages Needing Review.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Privacy Policy",
+      "ns": 4,
+      "pageid": 47,
+      "rev_id": 1417,
+      "timestamp": "2026-08-21T13:56:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Privacy_Policy",
+      "path": "pages/Project/Elite Dangerous Field Manual__Privacy Policy.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Redirect and Disambiguation Policy",
+      "ns": 4,
+      "pageid": 205,
+      "rev_id": 300,
+      "timestamp": "2026-08-07T22:14:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Redirect_and_Disambiguation_Policy",
+      "path": "pages/Project/Elite Dangerous Field Manual__Redirect and Disambiguation Policy.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Reviewing an Article",
+      "ns": 4,
+      "pageid": 214,
+      "rev_id": 311,
+      "timestamp": "2026-08-07T22:18:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Reviewing_an_Article",
+      "path": "pages/Project/Elite Dangerous Field Manual__Reviewing an Article.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Screenshot Policy",
+      "ns": 4,
+      "pageid": 46,
+      "rev_id": 1537,
+      "timestamp": "2026-08-22T02:37:13Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Screenshot_Policy",
+      "path": "pages/Project/Elite Dangerous Field Manual__Screenshot Policy.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Source Quality Guide",
+      "ns": 4,
+      "pageid": 206,
+      "rev_id": 301,
+      "timestamp": "2026-08-07T22:15:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Source_Quality_Guide",
+      "path": "pages/Project/Elite Dangerous Field Manual__Source Quality Guide.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Terms of Use",
+      "ns": 4,
+      "pageid": 329,
+      "rev_id": 1538,
+      "timestamp": "2026-08-22T02:37:14Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Terms_of_Use",
+      "path": "pages/Project/Elite Dangerous Field Manual__Terms of Use.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Updating Game Statistics",
+      "ns": 4,
+      "pageid": 213,
+      "rev_id": 310,
+      "timestamp": "2026-08-07T22:18:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Updating_Game_Statistics",
+      "path": "pages/Project/Elite Dangerous Field Manual__Updating Game Statistics.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Verification Policy",
+      "ns": 4,
+      "pageid": 45,
+      "rev_id": 248,
+      "timestamp": "2026-08-07T22:01:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Verification_Policy",
+      "path": "pages/Project/Elite Dangerous Field Manual__Verification Policy.wiki"
+    },
+    {
+      "title": "Elite Dangerous Field Manual:Verified Commanders",
+      "ns": 4,
+      "pageid": 336,
+      "rev_id": 900,
+      "timestamp": "2026-08-18T01:06:23Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Verified_Commanders",
+      "path": "pages/Project/Elite Dangerous Field Manual__Verified Commanders.wiki"
+    },
+    {
+      "title": "File:Baltanos.png",
+      "ns": 6,
+      "pageid": 243,
+      "rev_id": 373,
+      "timestamp": "2026-08-08T14:36:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Baltanos.png",
+      "path": "pages/File/File__Baltanos.png.wiki"
+    },
+    {
+      "title": "File:Billturner.png",
+      "ns": 6,
+      "pageid": 244,
+      "rev_id": 374,
+      "timestamp": "2026-08-08T14:38:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Billturner.png",
+      "path": "pages/File/File__Billturner.png.wiki"
+    },
+    {
+      "title": "File:Brisdekker.png",
+      "ns": 6,
+      "pageid": 245,
+      "rev_id": 375,
+      "timestamp": "2026-08-08T14:39:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Brisdekker.png",
+      "path": "pages/File/File__Brisdekker.png.wiki"
+    },
+    {
+      "title": "File:Chloesedesi.png",
+      "ns": 6,
+      "pageid": 246,
+      "rev_id": 377,
+      "timestamp": "2026-08-08T14:39:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Chloesedesi.png",
+      "path": "pages/File/File__Chloesedesi.png.wiki"
+    },
+    {
+      "title": "File:Didivatermann.png",
+      "ns": 6,
+      "pageid": 247,
+      "rev_id": 378,
+      "timestamp": "2026-08-08T14:40:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Didivatermann.png",
+      "path": "pages/File/File__Didivatermann.png.wiki"
+    },
+    {
+      "title": "File:Dominogreen.png",
+      "ns": 6,
+      "pageid": 248,
+      "rev_id": 379,
+      "timestamp": "2026-08-08T14:40:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Dominogreen.png",
+      "path": "pages/File/File__Dominogreen.png.wiki"
+    },
+    {
+      "title": "File:Dweller.png",
+      "ns": 6,
+      "pageid": 241,
+      "rev_id": 365,
+      "timestamp": "2026-08-08T00:32:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Dweller.png",
+      "path": "pages/File/File__Dweller.png.wiki"
+    },
+    {
+      "title": "File:Eleanorbresa.png",
+      "ns": 6,
+      "pageid": 249,
+      "rev_id": 380,
+      "timestamp": "2026-08-08T14:41:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Eleanorbresa.png",
+      "path": "pages/File/File__Eleanorbresa.png.wiki"
+    },
+    {
+      "title": "File:Elviramartuuk.png",
+      "ns": 6,
+      "pageid": 250,
+      "rev_id": 383,
+      "timestamp": "2026-08-08T14:43:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Elviramartuuk.png",
+      "path": "pages/File/File__Elviramartuuk.png.wiki"
+    },
+    {
+      "title": "File:Felicityfarseer.png",
+      "ns": 6,
+      "pageid": 251,
+      "rev_id": 384,
+      "timestamp": "2026-08-08T14:44:30Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Felicityfarseer.png",
+      "path": "pages/File/File__Felicityfarseer.png.wiki"
+    },
+    {
+      "title": "File:Frontier News - beneath-surface-your-first-look-rhino.jpg",
+      "ns": 6,
+      "pageid": 293,
+      "rev_id": 821,
+      "timestamp": "2026-08-15T09:17:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Frontier_News_-_beneath-surface-your-first-look-rhino.jpg",
+      "path": "pages/File/File__Frontier News - beneath-surface-your-first-look-rhino.jpg.wiki"
+    },
+    {
+      "title": "File:Frontier News - discover-nomad.png",
+      "ns": 6,
+      "pageid": 291,
+      "rev_id": 562,
+      "timestamp": "2026-08-10T03:16:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Frontier_News_-_discover-nomad.png",
+      "path": "pages/File/File__Frontier News - discover-nomad.png.wiki"
+    },
+    {
+      "title": "File:Frontier News - elite-dangerous-july-dev-log-2026.jpg",
+      "ns": 6,
+      "pageid": 292,
+      "rev_id": 563,
+      "timestamp": "2026-08-10T03:16:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Frontier_News_-_elite-dangerous-july-dev-log-2026.jpg",
+      "path": "pages/File/File__Frontier News - elite-dangerous-july-dev-log-2026.jpg.wiki"
+    },
+    {
+      "title": "File:Frontier News - elite-dangerous-june-dev-log-2026.jpg",
+      "ns": 6,
+      "pageid": 294,
+      "rev_id": 565,
+      "timestamp": "2026-08-10T03:16:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Frontier_News_-_elite-dangerous-june-dev-log-2026.jpg",
+      "path": "pages/File/File__Frontier News - elite-dangerous-june-dev-log-2026.jpg.wiki"
+    },
+    {
+      "title": "File:Frontier News - elite-dangerous-may-dev-log-2026.png",
+      "ns": 6,
+      "pageid": 290,
+      "rev_id": 561,
+      "timestamp": "2026-08-10T03:16:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Frontier_News_-_elite-dangerous-may-dev-log-2026.png",
+      "path": "pages/File/File__Frontier News - elite-dangerous-may-dev-log-2026.png.wiki"
+    },
+    {
+      "title": "File:Frontier News - nomad-available-now-arx-early-access.jpg",
+      "ns": 6,
+      "pageid": 295,
+      "rev_id": 566,
+      "timestamp": "2026-08-10T03:16:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Frontier_News_-_nomad-available-now-arx-early-access.jpg",
+      "path": "pages/File/File__Frontier News - nomad-available-now-arx-early-access.jpg.wiki"
+    },
+    {
+      "title": "File:Heroferrari.png",
+      "ns": 6,
+      "pageid": 252,
+      "rev_id": 663,
+      "timestamp": "2026-08-11T03:08:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Heroferrari.png",
+      "path": "pages/File/File__Heroferrari.png.wiki"
+    },
+    {
+      "title": "File:Judenavarro.png",
+      "ns": 6,
+      "pageid": 253,
+      "rev_id": 386,
+      "timestamp": "2026-08-08T14:48:01Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Judenavarro.png",
+      "path": "pages/File/File__Judenavarro.png.wiki"
+    },
+    {
+      "title": "File:Juriishmaak.png",
+      "ns": 6,
+      "pageid": 254,
+      "rev_id": 387,
+      "timestamp": "2026-08-08T14:48:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Juriishmaak.png",
+      "path": "pages/File/File__Juriishmaak.png.wiki"
+    },
+    {
+      "title": "File:Leicheung.png",
+      "ns": 6,
+      "pageid": 298,
+      "rev_id": 653,
+      "timestamp": "2026-08-11T03:06:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Leicheung.png",
+      "path": "pages/File/File__Leicheung.png.wiki"
+    },
+    {
+      "title": "File:Lizryder.png",
+      "ns": 6,
+      "pageid": 302,
+      "rev_id": 657,
+      "timestamp": "2026-08-11T03:06:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Lizryder.png",
+      "path": "pages/File/File__Lizryder.png.wiki"
+    },
+    {
+      "title": "File:Lorijameson.png",
+      "ns": 6,
+      "pageid": 305,
+      "rev_id": 660,
+      "timestamp": "2026-08-11T03:06:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Lorijameson.png",
+      "path": "pages/File/File__Lorijameson.png.wiki"
+    },
+    {
+      "title": "File:Marcoqwent.png",
+      "ns": 6,
+      "pageid": 288,
+      "rev_id": 652,
+      "timestamp": "2026-08-11T03:06:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Marcoqwent.png",
+      "path": "pages/File/File__Marcoqwent.png.wiki"
+    },
+    {
+      "title": "File:Marshahicks.png",
+      "ns": 6,
+      "pageid": 308,
+      "rev_id": 667,
+      "timestamp": "2026-08-11T03:32:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Marshahicks.png",
+      "path": "pages/File/File__Marshahicks.png.wiki"
+    },
+    {
+      "title": "File:Melbrandon.png",
+      "ns": 6,
+      "pageid": 306,
+      "rev_id": 661,
+      "timestamp": "2026-08-11T03:06:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Melbrandon.png",
+      "path": "pages/File/File__Melbrandon.png.wiki"
+    },
+    {
+      "title": "File:Petraolmanova.png",
+      "ns": 6,
+      "pageid": 307,
+      "rev_id": 662,
+      "timestamp": "2026-08-11T03:06:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Petraolmanova.png",
+      "path": "pages/File/File__Petraolmanova.png.wiki"
+    },
+    {
+      "title": "File:Professorpalin.png",
+      "ns": 6,
+      "pageid": 240,
+      "rev_id": 363,
+      "timestamp": "2026-08-08T00:08:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Professorpalin.png",
+      "path": "pages/File/File__Professorpalin.png.wiki"
+    },
+    {
+      "title": "File:Ramtah.png",
+      "ns": 6,
+      "pageid": 304,
+      "rev_id": 659,
+      "timestamp": "2026-08-11T03:06:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Ramtah.png",
+      "path": "pages/File/File__Ramtah.png.wiki"
+    },
+    {
+      "title": "File:Selenejean.png",
+      "ns": 6,
+      "pageid": 300,
+      "rev_id": 655,
+      "timestamp": "2026-08-11T03:06:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Selenejean.png",
+      "path": "pages/File/File__Selenejean.png.wiki"
+    },
+    {
+      "title": "File:Stationinterface.webp",
+      "ns": 6,
+      "pageid": 328,
+      "rev_id": 707,
+      "timestamp": "2026-08-12T21:28:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Stationinterface.webp",
+      "path": "pages/File/File__Stationinterface.webp.wiki"
+    },
+    {
+      "title": "File:Theblaster.png",
+      "ns": 6,
+      "pageid": 299,
+      "rev_id": 654,
+      "timestamp": "2026-08-11T03:06:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Theblaster.png",
+      "path": "pages/File/File__Theblaster.png.wiki"
+    },
+    {
+      "title": "File:Thesarge.png",
+      "ns": 6,
+      "pageid": 303,
+      "rev_id": 658,
+      "timestamp": "2026-08-11T03:06:44Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Thesarge.png",
+      "path": "pages/File/File__Thesarge.png.wiki"
+    },
+    {
+      "title": "File:Zachariahnemo.png",
+      "ns": 6,
+      "pageid": 301,
+      "rev_id": 656,
+      "timestamp": "2026-08-11T03:06:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Zachariahnemo.png",
+      "path": "pages/File/File__Zachariahnemo.png.wiki"
+    },
+    {
+      "title": "MediaWiki:Aboutpage",
+      "ns": 8,
+      "pageid": 65,
+      "rev_id": 66,
+      "timestamp": "2026-08-06T19:51:26Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Aboutpage",
+      "path": "pages/MediaWiki/MediaWiki__Aboutpage.wiki"
+    },
+    {
+      "title": "MediaWiki:Authmanager-realname-help",
+      "ns": 8,
+      "pageid": 316,
+      "rev_id": 679,
+      "timestamp": "2026-08-11T21:56:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Authmanager-realname-help",
+      "path": "pages/MediaWiki/MediaWiki__Authmanager-realname-help.wiki"
+    },
+    {
+      "title": "MediaWiki:Authmanager-realname-label",
+      "ns": 8,
+      "pageid": 315,
+      "rev_id": 678,
+      "timestamp": "2026-08-11T21:56:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Authmanager-realname-label",
+      "path": "pages/MediaWiki/MediaWiki__Authmanager-realname-label.wiki"
+    },
+    {
+      "title": "MediaWiki:Common.css",
+      "ns": 8,
+      "pageid": 69,
+      "rev_id": 1411,
+      "timestamp": "2026-08-21T13:45:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Common.css",
+      "path": "pages/MediaWiki/MediaWiki__Common.css.wiki"
+    },
+    {
+      "title": "MediaWiki:Common.js",
+      "ns": 8,
+      "pageid": 72,
+      "rev_id": 1129,
+      "timestamp": "2026-08-20T09:20:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Common.js",
+      "path": "pages/MediaWiki/MediaWiki__Common.js.wiki"
+    },
+    {
+      "title": "MediaWiki:Createacct-another-realname-tip",
+      "ns": 8,
+      "pageid": 314,
+      "rev_id": 677,
+      "timestamp": "2026-08-11T21:56:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Createacct-another-realname-tip",
+      "path": "pages/MediaWiki/MediaWiki__Createacct-another-realname-tip.wiki"
+    },
+    {
+      "title": "MediaWiki:Createacct-realname",
+      "ns": 8,
+      "pageid": 312,
+      "rev_id": 675,
+      "timestamp": "2026-08-11T21:56:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Createacct-realname",
+      "path": "pages/MediaWiki/MediaWiki__Createacct-realname.wiki"
+    },
+    {
+      "title": "MediaWiki:Disclaimerpage",
+      "ns": 8,
+      "pageid": 66,
+      "rev_id": 67,
+      "timestamp": "2026-08-06T19:51:26Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Disclaimerpage",
+      "path": "pages/MediaWiki/MediaWiki__Disclaimerpage.wiki"
+    },
+    {
+      "title": "MediaWiki:Group-staff",
+      "ns": 8,
+      "pageid": 338,
+      "rev_id": 906,
+      "timestamp": "2026-08-18T03:17:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Group-staff",
+      "path": "pages/MediaWiki/MediaWiki__Group-staff.wiki"
+    },
+    {
+      "title": "MediaWiki:Group-staff-member",
+      "ns": 8,
+      "pageid": 339,
+      "rev_id": 907,
+      "timestamp": "2026-08-18T03:17:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Group-staff-member",
+      "path": "pages/MediaWiki/MediaWiki__Group-staff-member.wiki"
+    },
+    {
+      "title": "MediaWiki:Group-verified",
+      "ns": 8,
+      "pageid": 333,
+      "rev_id": 1144,
+      "timestamp": "2026-08-20T19:05:53Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Group-verified",
+      "path": "pages/MediaWiki/MediaWiki__Group-verified.wiki"
+    },
+    {
+      "title": "MediaWiki:Group-verified-member",
+      "ns": 8,
+      "pageid": 334,
+      "rev_id": 1145,
+      "timestamp": "2026-08-20T19:05:54Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Group-verified-member",
+      "path": "pages/MediaWiki/MediaWiki__Group-verified-member.wiki"
+    },
+    {
+      "title": "MediaWiki:Grouppage-staff",
+      "ns": 8,
+      "pageid": 340,
+      "rev_id": 908,
+      "timestamp": "2026-08-18T03:17:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Grouppage-staff",
+      "path": "pages/MediaWiki/MediaWiki__Grouppage-staff.wiki"
+    },
+    {
+      "title": "MediaWiki:Grouppage-verified",
+      "ns": 8,
+      "pageid": 335,
+      "rev_id": 896,
+      "timestamp": "2026-08-17T21:24:26Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Grouppage-verified",
+      "path": "pages/MediaWiki/MediaWiki__Grouppage-verified.wiki"
+    },
+    {
+      "title": "MediaWiki:Licenses",
+      "ns": 8,
+      "pageid": 236,
+      "rev_id": 353,
+      "timestamp": "2026-08-07T23:59:53Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Licenses",
+      "path": "pages/MediaWiki/MediaWiki__Licenses.wiki"
+    },
+    {
+      "title": "MediaWiki:Prefs-help-realname",
+      "ns": 8,
+      "pageid": 313,
+      "rev_id": 676,
+      "timestamp": "2026-08-11T21:56:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Prefs-help-realname",
+      "path": "pages/MediaWiki/MediaWiki__Prefs-help-realname.wiki"
+    },
+    {
+      "title": "MediaWiki:Privacypage",
+      "ns": 8,
+      "pageid": 67,
+      "rev_id": 68,
+      "timestamp": "2026-08-06T19:51:26Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Privacypage",
+      "path": "pages/MediaWiki/MediaWiki__Privacypage.wiki"
+    },
+    {
+      "title": "MediaWiki:Sidebar",
+      "ns": 8,
+      "pageid": 70,
+      "rev_id": 1410,
+      "timestamp": "2026-08-21T13:41:23Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Sidebar",
+      "path": "pages/MediaWiki/MediaWiki__Sidebar.wiki"
+    },
+    {
+      "title": "MediaWiki:Sitenotice",
+      "ns": 8,
+      "pageid": 68,
+      "rev_id": 553,
+      "timestamp": "2026-08-10T02:12:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Sitenotice",
+      "path": "pages/MediaWiki/MediaWiki__Sitenotice.wiki"
+    },
+    {
+      "title": "MediaWiki:Tagline",
+      "ns": 8,
+      "pageid": 64,
+      "rev_id": 65,
+      "timestamp": "2026-08-06T19:51:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Tagline",
+      "path": "pages/MediaWiki/MediaWiki__Tagline.wiki"
+    },
+    {
+      "title": "MediaWiki:Turnstile-badlogin",
+      "ns": 8,
+      "pageid": 309,
+      "rev_id": 669,
+      "timestamp": "2026-08-11T21:30:29Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Turnstile-badlogin",
+      "path": "pages/MediaWiki/MediaWiki__Turnstile-badlogin.wiki"
+    },
+    {
+      "title": "MediaWiki:Turnstile-createaccount",
+      "ns": 8,
+      "pageid": 310,
+      "rev_id": 671,
+      "timestamp": "2026-08-11T21:38:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Turnstile-createaccount",
+      "path": "pages/MediaWiki/MediaWiki__Turnstile-createaccount.wiki"
+    },
+    {
+      "title": "MediaWiki:Upload-default-description",
+      "ns": 8,
+      "pageid": 259,
+      "rev_id": 414,
+      "timestamp": "2026-08-08T15:56:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Upload-default-description",
+      "path": "pages/MediaWiki/MediaWiki__Upload-default-description.wiki"
+    },
+    {
+      "title": "MediaWiki:Uploadtext",
+      "ns": 8,
+      "pageid": 237,
+      "rev_id": 415,
+      "timestamp": "2026-08-08T15:59:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Uploadtext",
+      "path": "pages/MediaWiki/MediaWiki__Uploadtext.wiki"
+    },
+    {
+      "title": "MediaWiki:Userlogin-joinproject",
+      "ns": 8,
+      "pageid": 311,
+      "rev_id": 886,
+      "timestamp": "2026-08-17T19:22:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Userlogin-joinproject",
+      "path": "pages/MediaWiki/MediaWiki__Userlogin-joinproject.wiki"
+    },
+    {
+      "title": "MediaWiki:Userlogin-noaccount",
+      "ns": 8,
+      "pageid": 332,
+      "rev_id": 885,
+      "timestamp": "2026-08-17T19:22:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/MediaWiki:Userlogin-noaccount",
+      "path": "pages/MediaWiki/MediaWiki__Userlogin-noaccount.wiki"
+    },
+    {
+      "title": "Template:Article header",
+      "ns": 10,
+      "pageid": 73,
+      "rev_id": 965,
+      "timestamp": "2026-08-19T22:24:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Article_header",
+      "path": "pages/Template/Template__Article header.wiki"
+    },
+    {
+      "title": "Template:Article status",
+      "ns": 10,
+      "pageid": 21,
+      "rev_id": 1098,
+      "timestamp": "2026-08-20T02:58:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Article_status",
+      "path": "pages/Template/Template__Article status.wiki"
+    },
+    {
+      "title": "Template:Callout",
+      "ns": 10,
+      "pageid": 317,
+      "rev_id": 700,
+      "timestamp": "2026-08-12T16:01:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Callout",
+      "path": "pages/Template/Template__Callout.wiki"
+    },
+    {
+      "title": "Template:Common mistakes",
+      "ns": 10,
+      "pageid": 30,
+      "rev_id": 103,
+      "timestamp": "2026-08-07T16:32:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Common_mistakes",
+      "path": "pages/Template/Template__Common mistakes.wiki"
+    },
+    {
+      "title": "Template:Community observation",
+      "ns": 10,
+      "pageid": 34,
+      "rev_id": 1119,
+      "timestamp": "2026-08-20T03:29:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Community_observation",
+      "path": "pages/Template/Template__Community observation.wiki"
+    },
+    {
+      "title": "Template:Context media",
+      "ns": 10,
+      "pageid": 318,
+      "rev_id": 686,
+      "timestamp": "2026-08-12T15:58:29Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Context_media",
+      "path": "pages/Template/Template__Context media.wiki"
+    },
+    {
+      "title": "Template:Draft warning",
+      "ns": 10,
+      "pageid": 26,
+      "rev_id": 1124,
+      "timestamp": "2026-08-20T03:29:44Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Draft_warning",
+      "path": "pages/Template/Template__Draft warning.wiki"
+    },
+    {
+      "title": "Template:EDFM image information",
+      "ns": 10,
+      "pageid": 258,
+      "rev_id": 632,
+      "timestamp": "2026-08-11T02:49:26Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:EDFM_image_information",
+      "path": "pages/Template/Template__EDFM image information.wiki"
+    },
+    {
+      "title": "Template:EDFM policy commitments",
+      "ns": 10,
+      "pageid": 621,
+      "rev_id": 1412,
+      "timestamp": "2026-08-21T13:56:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:EDFM_policy_commitments",
+      "path": "pages/Template/Template__EDFM policy commitments.wiki"
+    },
+    {
+      "title": "Template:EDFM style/styles.css",
+      "ns": 10,
+      "pageid": 41,
+      "rev_id": 966,
+      "timestamp": "2026-08-19T22:25:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:EDFM_style/styles.css",
+      "path": "pages/Template/Template__EDFM style∕styles.css.wiki"
+    },
+    {
+      "title": "Template:Elite Dangerous screenshot",
+      "ns": 10,
+      "pageid": 235,
+      "rev_id": 1113,
+      "timestamp": "2026-08-20T03:29:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Elite_Dangerous_screenshot",
+      "path": "pages/Template/Template__Elite Dangerous screenshot.wiki"
+    },
+    {
+      "title": "Template:Engineer infobox",
+      "ns": 10,
+      "pageid": 174,
+      "rev_id": 949,
+      "timestamp": "2026-08-19T18:36:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Engineer_infobox",
+      "path": "pages/Template/Template__Engineer infobox.wiki"
+    },
+    {
+      "title": "Template:Engineer table entry",
+      "ns": 10,
+      "pageid": 287,
+      "rev_id": 536,
+      "timestamp": "2026-08-10T01:00:08Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Engineer_table_entry",
+      "path": "pages/Template/Template__Engineer table entry.wiki"
+    },
+    {
+      "title": "Template:Engineering nav",
+      "ns": 10,
+      "pageid": 77,
+      "rev_id": 147,
+      "timestamp": "2026-08-07T20:06:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Engineering_nav",
+      "path": "pages/Template/Template__Engineering nav.wiki"
+    },
+    {
+      "title": "Template:Estimated information",
+      "ns": 10,
+      "pageid": 36,
+      "rev_id": 36,
+      "timestamp": "2026-08-06T19:51:23Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Estimated_information",
+      "path": "pages/Template/Template__Estimated information.wiki"
+    },
+    {
+      "title": "Template:Expected result",
+      "ns": 10,
+      "pageid": 29,
+      "rev_id": 112,
+      "timestamp": "2026-08-07T16:33:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Expected_result",
+      "path": "pages/Template/Template__Expected result.wiki"
+    },
+    {
+      "title": "Template:External tool",
+      "ns": 10,
+      "pageid": 32,
+      "rev_id": 95,
+      "timestamp": "2026-08-07T16:05:35Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:External_tool",
+      "path": "pages/Template/Template__External tool.wiki"
+    },
+    {
+      "title": "Template:Fact",
+      "ns": 10,
+      "pageid": 260,
+      "rev_id": 403,
+      "timestamp": "2026-08-08T15:20:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Fact",
+      "path": "pages/Template/Template__Fact.wiki"
+    },
+    {
+      "title": "Template:Field manual recommendation",
+      "ns": 10,
+      "pageid": 261,
+      "rev_id": 404,
+      "timestamp": "2026-08-08T15:20:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Field_manual_recommendation",
+      "path": "pages/Template/Template__Field manual recommendation.wiki"
+    },
+    {
+      "title": "Template:Field note",
+      "ns": 10,
+      "pageid": 319,
+      "rev_id": 687,
+      "timestamp": "2026-08-12T15:58:29Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Field_note",
+      "path": "pages/Template/Template__Field note.wiki"
+    },
+    {
+      "title": "Template:Frontier News",
+      "ns": 10,
+      "pageid": 296,
+      "rev_id": 599,
+      "timestamp": "2026-08-10T17:14:10Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Frontier_News",
+      "path": "pages/Template/Template__Frontier News.wiki"
+    },
+    {
+      "title": "Template:Frontier assets notice",
+      "ns": 10,
+      "pageid": 227,
+      "rev_id": 1125,
+      "timestamp": "2026-08-20T03:29:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Frontier_assets_notice",
+      "path": "pages/Template/Template__Frontier assets notice.wiki"
+    },
+    {
+      "title": "Template:Game update infobox",
+      "ns": 10,
+      "pageid": 175,
+      "rev_id": 262,
+      "timestamp": "2026-08-07T22:10:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Game_update_infobox",
+      "path": "pages/Template/Template__Game update infobox.wiki"
+    },
+    {
+      "title": "Template:Guide info",
+      "ns": 10,
+      "pageid": 320,
+      "rev_id": 697,
+      "timestamp": "2026-08-12T16:01:13Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Guide_info",
+      "path": "pages/Template/Template__Guide info.wiki"
+    },
+    {
+      "title": "Template:Guide step",
+      "ns": 10,
+      "pageid": 321,
+      "rev_id": 699,
+      "timestamp": "2026-08-12T16:01:14Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Guide_step",
+      "path": "pages/Template/Template__Guide step.wiki"
+    },
+    {
+      "title": "Template:Historical warning",
+      "ns": 10,
+      "pageid": 25,
+      "rev_id": 1116,
+      "timestamp": "2026-08-20T03:29:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Historical_warning",
+      "path": "pages/Template/Template__Historical warning.wiki"
+    },
+    {
+      "title": "Template:Important",
+      "ns": 10,
+      "pageid": 322,
+      "rev_id": 690,
+      "timestamp": "2026-08-12T15:58:31Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Important",
+      "path": "pages/Template/Template__Important.wiki"
+    },
+    {
+      "title": "Template:Infobox",
+      "ns": 10,
+      "pageid": 71,
+      "rev_id": 402,
+      "timestamp": "2026-08-08T15:20:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Infobox",
+      "path": "pages/Template/Template__Infobox.wiki"
+    },
+    {
+      "title": "Template:Last reviewed date",
+      "ns": 10,
+      "pageid": 22,
+      "rev_id": 22,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Last_reviewed_date",
+      "path": "pages/Template/Template__Last reviewed date.wiki"
+    },
+    {
+      "title": "Template:Legacy warning",
+      "ns": 10,
+      "pageid": 24,
+      "rev_id": 1121,
+      "timestamp": "2026-08-20T03:29:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Legacy_warning",
+      "path": "pages/Template/Template__Legacy warning.wiki"
+    },
+    {
+      "title": "Template:License-CC BY 4.0",
+      "ns": 10,
+      "pageid": 231,
+      "rev_id": 1123,
+      "timestamp": "2026-08-20T03:29:44Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:License-CC_BY_4.0",
+      "path": "pages/Template/Template__License-CC BY 4.0.wiki"
+    },
+    {
+      "title": "Template:License-CC BY-SA 4.0",
+      "ns": 10,
+      "pageid": 232,
+      "rev_id": 1122,
+      "timestamp": "2026-08-20T03:29:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:License-CC_BY-SA_4.0",
+      "path": "pages/Template/Template__License-CC BY-SA 4.0.wiki"
+    },
+    {
+      "title": "Template:License-ED screenshot",
+      "ns": 10,
+      "pageid": 228,
+      "rev_id": 355,
+      "timestamp": "2026-08-08T00:05:08Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:License-ED_screenshot",
+      "path": "pages/Template/Template__License-ED screenshot.wiki"
+    },
+    {
+      "title": "Template:License-Official Frontier media",
+      "ns": 10,
+      "pageid": 229,
+      "rev_id": 1118,
+      "timestamp": "2026-08-20T03:29:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:License-Official_Frontier_media",
+      "path": "pages/Template/Template__License-Official Frontier media.wiki"
+    },
+    {
+      "title": "Template:License-Original work",
+      "ns": 10,
+      "pageid": 230,
+      "rev_id": 1128,
+      "timestamp": "2026-08-20T03:29:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:License-Original_work",
+      "path": "pages/Template/Template__License-Original work.wiki"
+    },
+    {
+      "title": "Template:License-Public domain",
+      "ns": 10,
+      "pageid": 234,
+      "rev_id": 1120,
+      "timestamp": "2026-08-20T03:29:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:License-Public_domain",
+      "path": "pages/Template/Template__License-Public domain.wiki"
+    },
+    {
+      "title": "Template:License-Used with permission",
+      "ns": 10,
+      "pageid": 233,
+      "rev_id": 1115,
+      "timestamp": "2026-08-20T03:29:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:License-Used_with_permission",
+      "path": "pages/Template/Template__License-Used with permission.wiki"
+    },
+    {
+      "title": "Template:Needs review",
+      "ns": 10,
+      "pageid": 344,
+      "rev_id": 1127,
+      "timestamp": "2026-08-20T03:29:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Needs_review",
+      "path": "pages/Template/Template__Needs review.wiki"
+    },
+    {
+      "title": "Template:New blueprint page",
+      "ns": 10,
+      "pageid": 80,
+      "rev_id": 150,
+      "timestamp": "2026-08-07T20:06:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:New_blueprint_page",
+      "path": "pages/Template/Template__New blueprint page.wiki"
+    },
+    {
+      "title": "Template:New engineer page",
+      "ns": 10,
+      "pageid": 79,
+      "rev_id": 153,
+      "timestamp": "2026-08-07T20:12:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:New_engineer_page",
+      "path": "pages/Template/Template__New engineer page.wiki"
+    },
+    {
+      "title": "Template:New engineering module page",
+      "ns": 10,
+      "pageid": 82,
+      "rev_id": 152,
+      "timestamp": "2026-08-07T20:06:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:New_engineering_module_page",
+      "path": "pages/Template/Template__New engineering module page.wiki"
+    },
+    {
+      "title": "Template:New experimental effect page",
+      "ns": 10,
+      "pageid": 81,
+      "rev_id": 154,
+      "timestamp": "2026-08-07T20:12:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:New_experimental_effect_page",
+      "path": "pages/Template/Template__New experimental effect page.wiki"
+    },
+    {
+      "title": "Template:New guide page",
+      "ns": 10,
+      "pageid": 167,
+      "rev_id": 250,
+      "timestamp": "2026-08-07T22:01:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:New_guide_page",
+      "path": "pages/Template/Template__New guide page.wiki"
+    },
+    {
+      "title": "Template:Odyssey Engineer directory",
+      "ns": 10,
+      "pageid": 430,
+      "rev_id": 1216,
+      "timestamp": "2026-08-20T23:56:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Odyssey_Engineer_directory",
+      "path": "pages/Template/Template__Odyssey Engineer directory.wiki"
+    },
+    {
+      "title": "Template:Patch history",
+      "ns": 10,
+      "pageid": 166,
+      "rev_id": 249,
+      "timestamp": "2026-08-07T22:01:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Patch_history",
+      "path": "pages/Template/Template__Patch history.wiki"
+    },
+    {
+      "title": "Template:Prerequisites",
+      "ns": 10,
+      "pageid": 27,
+      "rev_id": 110,
+      "timestamp": "2026-08-07T16:33:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Prerequisites",
+      "path": "pages/Template/Template__Prerequisites.wiki"
+    },
+    {
+      "title": "Template:Procedure steps",
+      "ns": 10,
+      "pageid": 28,
+      "rev_id": 111,
+      "timestamp": "2026-08-07T16:33:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Procedure_steps",
+      "path": "pages/Template/Template__Procedure steps.wiki"
+    },
+    {
+      "title": "Template:Related articles",
+      "ns": 10,
+      "pageid": 37,
+      "rev_id": 146,
+      "timestamp": "2026-08-07T20:06:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Related_articles",
+      "path": "pages/Template/Template__Related articles.wiki"
+    },
+    {
+      "title": "Template:Related tools",
+      "ns": 10,
+      "pageid": 38,
+      "rev_id": 108,
+      "timestamp": "2026-08-07T16:33:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Related_tools",
+      "path": "pages/Template/Template__Related tools.wiki"
+    },
+    {
+      "title": "Template:Requirements",
+      "ns": 10,
+      "pageid": 323,
+      "rev_id": 698,
+      "timestamp": "2026-08-12T16:01:14Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Requirements",
+      "path": "pages/Template/Template__Requirements.wiki"
+    },
+    {
+      "title": "Template:Resource card",
+      "ns": 10,
+      "pageid": 76,
+      "rev_id": 122,
+      "timestamp": "2026-08-07T16:52:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Resource_card",
+      "path": "pages/Template/Template__Resource card.wiki"
+    },
+    {
+      "title": "Template:Resource card/styles.css",
+      "ns": 10,
+      "pageid": 75,
+      "rev_id": 610,
+      "timestamp": "2026-08-10T19:26:24Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Resource_card/styles.css",
+      "path": "pages/Template/Template__Resource card∕styles.css.wiki"
+    },
+    {
+      "title": "Template:SEO",
+      "ns": 10,
+      "pageid": 341,
+      "rev_id": 912,
+      "timestamp": "2026-08-18T13:16:31Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:SEO",
+      "path": "pages/Template/Template__SEO.wiki"
+    },
+    {
+      "title": "Template:Screenshot caption",
+      "ns": 10,
+      "pageid": 39,
+      "rev_id": 39,
+      "timestamp": "2026-08-06T19:51:23Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Screenshot_caption",
+      "path": "pages/Template/Template__Screenshot caption.wiki"
+    },
+    {
+      "title": "Template:Screenshot license",
+      "ns": 10,
+      "pageid": 216,
+      "rev_id": 1114,
+      "timestamp": "2026-08-20T03:29:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Screenshot_license",
+      "path": "pages/Template/Template__Screenshot license.wiki"
+    },
+    {
+      "title": "Template:Section number",
+      "ns": 10,
+      "pageid": 74,
+      "rev_id": 101,
+      "timestamp": "2026-08-07T16:32:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Section_number",
+      "path": "pages/Template/Template__Section number.wiki"
+    },
+    {
+      "title": "Template:Ship module infobox",
+      "ns": 10,
+      "pageid": 432,
+      "rev_id": 1219,
+      "timestamp": "2026-08-20T23:58:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Ship_module_infobox",
+      "path": "pages/Template/Template__Ship module infobox.wiki"
+    },
+    {
+      "title": "Template:Ship module table entry",
+      "ns": 10,
+      "pageid": 433,
+      "rev_id": 1220,
+      "timestamp": "2026-08-20T23:58:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Ship_module_table_entry",
+      "path": "pages/Template/Template__Ship module table entry.wiki"
+    },
+    {
+      "title": "Template:Source citation",
+      "ns": 10,
+      "pageid": 33,
+      "rev_id": 33,
+      "timestamp": "2026-08-06T19:51:23Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Source_citation",
+      "path": "pages/Template/Template__Source citation.wiki"
+    },
+    {
+      "title": "Template:Tip",
+      "ns": 10,
+      "pageid": 324,
+      "rev_id": 692,
+      "timestamp": "2026-08-12T15:58:32Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Tip",
+      "path": "pages/Template/Template__Tip.wiki"
+    },
+    {
+      "title": "Template:Tl",
+      "ns": 10,
+      "pageid": 104,
+      "rev_id": 178,
+      "timestamp": "2026-08-07T20:14:24Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Tl",
+      "path": "pages/Template/Template__Tl.wiki"
+    },
+    {
+      "title": "Template:Troubleshooting",
+      "ns": 10,
+      "pageid": 31,
+      "rev_id": 106,
+      "timestamp": "2026-08-07T16:32:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Troubleshooting",
+      "path": "pages/Template/Template__Troubleshooting.wiki"
+    },
+    {
+      "title": "Template:Unlock chain",
+      "ns": 10,
+      "pageid": 78,
+      "rev_id": 148,
+      "timestamp": "2026-08-07T20:06:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Unlock_chain",
+      "path": "pages/Template/Template__Unlock chain.wiki"
+    },
+    {
+      "title": "Template:Unofficial disclaimer",
+      "ns": 10,
+      "pageid": 40,
+      "rev_id": 1126,
+      "timestamp": "2026-08-20T03:29:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Unofficial_disclaimer",
+      "path": "pages/Template/Template__Unofficial disclaimer.wiki"
+    },
+    {
+      "title": "Template:Unverified claim",
+      "ns": 10,
+      "pageid": 35,
+      "rev_id": 1117,
+      "timestamp": "2026-08-20T03:29:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Unverified_claim",
+      "path": "pages/Template/Template__Unverified claim.wiki"
+    },
+    {
+      "title": "Template:Verified game mode",
+      "ns": 10,
+      "pageid": 23,
+      "rev_id": 23,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Verified_game_mode",
+      "path": "pages/Template/Template__Verified game mode.wiki"
+    },
+    {
+      "title": "Template:Warning",
+      "ns": 10,
+      "pageid": 325,
+      "rev_id": 693,
+      "timestamp": "2026-08-12T15:58:33Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:Warning",
+      "path": "pages/Template/Template__Warning.wiki"
+    },
+    {
+      "title": "Template:What next",
+      "ns": 10,
+      "pageid": 326,
+      "rev_id": 701,
+      "timestamp": "2026-08-12T16:01:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Template:What_next",
+      "path": "pages/Template/Template__What next.wiki"
+    },
+    {
+      "title": "Category:Background Simulation",
+      "ns": 14,
+      "pageid": 152,
+      "rev_id": 233,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Background_Simulation",
+      "path": "pages/Category/Category__Background Simulation.wiki"
+    },
+    {
+      "title": "Category:Character images",
+      "ns": 14,
+      "pageid": 263,
+      "rev_id": 409,
+      "timestamp": "2026-08-08T15:50:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Character_images",
+      "path": "pages/Category/Category__Character images.wiki"
+    },
+    {
+      "title": "Category:Characters",
+      "ns": 14,
+      "pageid": 158,
+      "rev_id": 239,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Characters",
+      "path": "pages/Category/Category__Characters.wiki"
+    },
+    {
+      "title": "Category:Colonisation",
+      "ns": 14,
+      "pageid": 12,
+      "rev_id": 12,
+      "timestamp": "2026-08-06T19:51:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Colonisation",
+      "path": "pages/Category/Category__Colonisation.wiki"
+    },
+    {
+      "title": "Category:Combat",
+      "ns": 14,
+      "pageid": 149,
+      "rev_id": 230,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Combat",
+      "path": "pages/Category/Category__Combat.wiki"
+    },
+    {
+      "title": "Category:Commodities",
+      "ns": 14,
+      "pageid": 146,
+      "rev_id": 227,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Commodities",
+      "path": "pages/Category/Category__Commodities.wiki"
+    },
+    {
+      "title": "Category:Comparisons",
+      "ns": 14,
+      "pageid": 5,
+      "rev_id": 5,
+      "timestamp": "2026-08-06T19:51:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Comparisons",
+      "path": "pages/Category/Category__Comparisons.wiki"
+    },
+    {
+      "title": "Category:Core Internal Engineering",
+      "ns": 14,
+      "pageid": 91,
+      "rev_id": 163,
+      "timestamp": "2026-08-07T20:12:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Core_Internal_Engineering",
+      "path": "pages/Category/Category__Core Internal Engineering.wiki"
+    },
+    {
+      "title": "Category:Creative Commons media",
+      "ns": 14,
+      "pageid": 221,
+      "rev_id": 332,
+      "timestamp": "2026-08-07T23:58:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Creative_Commons_media",
+      "path": "pages/Category/Category__Creative Commons media.wiki"
+    },
+    {
+      "title": "Category:Diagrams",
+      "ns": 14,
+      "pageid": 267,
+      "rev_id": 413,
+      "timestamp": "2026-08-08T15:50:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Diagrams",
+      "path": "pages/Category/Category__Diagrams.wiki"
+    },
+    {
+      "title": "Category:Draft Articles",
+      "ns": 14,
+      "pageid": 20,
+      "rev_id": 20,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Draft_Articles",
+      "path": "pages/Category/Category__Draft Articles.wiki"
+    },
+    {
+      "title": "Category:Elite Dangerous screenshots",
+      "ns": 14,
+      "pageid": 218,
+      "rev_id": 329,
+      "timestamp": "2026-08-07T23:58:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Elite_Dangerous_screenshots",
+      "path": "pages/Category/Category__Elite Dangerous screenshots.wiki"
+    },
+    {
+      "title": "Category:Encoded Materials",
+      "ns": 14,
+      "pageid": 89,
+      "rev_id": 161,
+      "timestamp": "2026-08-07T20:12:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Encoded_Materials",
+      "path": "pages/Category/Category__Encoded Materials.wiki"
+    },
+    {
+      "title": "Category:Engineer images",
+      "ns": 14,
+      "pageid": 255,
+      "rev_id": 648,
+      "timestamp": "2026-08-11T03:06:36Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Engineer_images",
+      "path": "pages/Category/Category__Engineer images.wiki"
+    },
+    {
+      "title": "Category:Engineering",
+      "ns": 14,
+      "pageid": 7,
+      "rev_id": 7,
+      "timestamp": "2026-08-06T19:51:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Engineering",
+      "path": "pages/Category/Category__Engineering.wiki"
+    },
+    {
+      "title": "Category:Engineering Blueprints",
+      "ns": 14,
+      "pageid": 84,
+      "rev_id": 156,
+      "timestamp": "2026-08-07T20:12:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Engineering_Blueprints",
+      "path": "pages/Category/Category__Engineering Blueprints.wiki"
+    },
+    {
+      "title": "Category:Engineering Materials",
+      "ns": 14,
+      "pageid": 86,
+      "rev_id": 158,
+      "timestamp": "2026-08-07T20:12:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Engineering_Materials",
+      "path": "pages/Category/Category__Engineering Materials.wiki"
+    },
+    {
+      "title": "Category:Engineers",
+      "ns": 14,
+      "pageid": 83,
+      "rev_id": 155,
+      "timestamp": "2026-08-07T20:12:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Engineers",
+      "path": "pages/Category/Category__Engineers.wiki"
+    },
+    {
+      "title": "Category:Equipment",
+      "ns": 14,
+      "pageid": 144,
+      "rev_id": 225,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Equipment",
+      "path": "pages/Category/Category__Equipment.wiki"
+    },
+    {
+      "title": "Category:Equipment images",
+      "ns": 14,
+      "pageid": 264,
+      "rev_id": 410,
+      "timestamp": "2026-08-08T15:50:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Equipment_images",
+      "path": "pages/Category/Category__Equipment images.wiki"
+    },
+    {
+      "title": "Category:Exobiology",
+      "ns": 14,
+      "pageid": 148,
+      "rev_id": 229,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Exobiology",
+      "path": "pages/Category/Category__Exobiology.wiki"
+    },
+    {
+      "title": "Category:Experimental Effects",
+      "ns": 14,
+      "pageid": 85,
+      "rev_id": 157,
+      "timestamp": "2026-08-07T20:12:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Experimental_Effects",
+      "path": "pages/Category/Category__Experimental Effects.wiki"
+    },
+    {
+      "title": "Category:Exploration",
+      "ns": 14,
+      "pageid": 147,
+      "rev_id": 228,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Exploration",
+      "path": "pages/Category/Category__Exploration.wiki"
+    },
+    {
+      "title": "Category:Factions",
+      "ns": 14,
+      "pageid": 156,
+      "rev_id": 237,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Factions",
+      "path": "pages/Category/Category__Factions.wiki"
+    },
+    {
+      "title": "Category:Field Procedures",
+      "ns": 14,
+      "pageid": 3,
+      "rev_id": 1497,
+      "timestamp": "2026-08-21T14:39:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Field_Procedures",
+      "path": "pages/Category/Category__Field Procedures.wiki"
+    },
+    {
+      "title": "Category:Files missing licensing information",
+      "ns": 14,
+      "pageid": 225,
+      "rev_id": 336,
+      "timestamp": "2026-08-07T23:58:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Files_missing_licensing_information",
+      "path": "pages/Category/Category__Files missing licensing information.wiki"
+    },
+    {
+      "title": "Category:Files missing source information",
+      "ns": 14,
+      "pageid": 224,
+      "rev_id": 335,
+      "timestamp": "2026-08-07T23:58:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Files_missing_source_information",
+      "path": "pages/Category/Category__Files missing source information.wiki"
+    },
+    {
+      "title": "Category:Files needing licensing review",
+      "ns": 14,
+      "pageid": 226,
+      "rev_id": 337,
+      "timestamp": "2026-08-07T23:58:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Files_needing_licensing_review",
+      "path": "pages/Category/Category__Files needing licensing review.wiki"
+    },
+    {
+      "title": "Category:Fleet Carriers",
+      "ns": 14,
+      "pageid": 155,
+      "rev_id": 236,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Fleet_Carriers",
+      "path": "pages/Category/Category__Fleet Carriers.wiki"
+    },
+    {
+      "title": "Category:Galactic Archive",
+      "ns": 14,
+      "pageid": 6,
+      "rev_id": 6,
+      "timestamp": "2026-08-06T19:51:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Galactic_Archive",
+      "path": "pages/Category/Category__Galactic Archive.wiki"
+    },
+    {
+      "title": "Category:Gameplay",
+      "ns": 14,
+      "pageid": 143,
+      "rev_id": 224,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Gameplay",
+      "path": "pages/Category/Category__Gameplay.wiki"
+    },
+    {
+      "title": "Category:Guardian",
+      "ns": 14,
+      "pageid": 153,
+      "rev_id": 234,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Guardian",
+      "path": "pages/Category/Category__Guardian.wiki"
+    },
+    {
+      "title": "Category:Historical Content",
+      "ns": 14,
+      "pageid": 15,
+      "rev_id": 15,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Historical_Content",
+      "path": "pages/Category/Category__Historical Content.wiki"
+    },
+    {
+      "title": "Category:History",
+      "ns": 14,
+      "pageid": 160,
+      "rev_id": 241,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:History",
+      "path": "pages/Category/Category__History.wiki"
+    },
+    {
+      "title": "Category:Legacy Content",
+      "ns": 14,
+      "pageid": 16,
+      "rev_id": 16,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Legacy_Content",
+      "path": "pages/Category/Category__Legacy Content.wiki"
+    },
+    {
+      "title": "Category:Legacy-Only Content",
+      "ns": 14,
+      "pageid": 165,
+      "rev_id": 246,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Legacy-Only_Content",
+      "path": "pages/Category/Category__Legacy-Only Content.wiki"
+    },
+    {
+      "title": "Category:Lists",
+      "ns": 14,
+      "pageid": 161,
+      "rev_id": 242,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Lists",
+      "path": "pages/Category/Category__Lists.wiki"
+    },
+    {
+      "title": "Category:Location images",
+      "ns": 14,
+      "pageid": 265,
+      "rev_id": 411,
+      "timestamp": "2026-08-08T15:50:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Location_images",
+      "path": "pages/Category/Category__Location images.wiki"
+    },
+    {
+      "title": "Category:Locations",
+      "ns": 14,
+      "pageid": 159,
+      "rev_id": 240,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Locations",
+      "path": "pages/Category/Category__Locations.wiki"
+    },
+    {
+      "title": "Category:Lore",
+      "ns": 14,
+      "pageid": 14,
+      "rev_id": 14,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Lore",
+      "path": "pages/Category/Category__Lore.wiki"
+    },
+    {
+      "title": "Category:Maintenance",
+      "ns": 14,
+      "pageid": 163,
+      "rev_id": 244,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Maintenance",
+      "path": "pages/Category/Category__Maintenance.wiki"
+    },
+    {
+      "title": "Category:Manufactured Materials",
+      "ns": 14,
+      "pageid": 88,
+      "rev_id": 160,
+      "timestamp": "2026-08-07T20:12:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Manufactured_Materials",
+      "path": "pages/Category/Category__Manufactured Materials.wiki"
+    },
+    {
+      "title": "Category:Media",
+      "ns": 14,
+      "pageid": 217,
+      "rev_id": 328,
+      "timestamp": "2026-08-07T23:58:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Media",
+      "path": "pages/Category/Category__Media.wiki"
+    },
+    {
+      "title": "Category:Media used with permission",
+      "ns": 14,
+      "pageid": 222,
+      "rev_id": 333,
+      "timestamp": "2026-08-07T23:58:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Media_used_with_permission",
+      "path": "pages/Category/Category__Media used with permission.wiki"
+    },
+    {
+      "title": "Category:Mining",
+      "ns": 14,
+      "pageid": 151,
+      "rev_id": 232,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Mining",
+      "path": "pages/Category/Category__Mining.wiki"
+    },
+    {
+      "title": "Category:Modules",
+      "ns": 14,
+      "pageid": 9,
+      "rev_id": 9,
+      "timestamp": "2026-08-06T19:51:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Modules",
+      "path": "pages/Category/Category__Modules.wiki"
+    },
+    {
+      "title": "Category:Odyssey",
+      "ns": 14,
+      "pageid": 10,
+      "rev_id": 10,
+      "timestamp": "2026-08-06T19:51:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Odyssey",
+      "path": "pages/Category/Category__Odyssey.wiki"
+    },
+    {
+      "title": "Category:Odyssey Engineer images",
+      "ns": 14,
+      "pageid": 257,
+      "rev_id": 650,
+      "timestamp": "2026-08-11T03:06:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Odyssey_Engineer_images",
+      "path": "pages/Category/Category__Odyssey Engineer images.wiki"
+    },
+    {
+      "title": "Category:Odyssey Engineering",
+      "ns": 14,
+      "pageid": 129,
+      "rev_id": 207,
+      "timestamp": "2026-08-07T20:59:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Odyssey_Engineering",
+      "path": "pages/Category/Category__Odyssey Engineering.wiki"
+    },
+    {
+      "title": "Category:Official Elite Dangerous media",
+      "ns": 14,
+      "pageid": 219,
+      "rev_id": 330,
+      "timestamp": "2026-08-07T23:58:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Official_Elite_Dangerous_media",
+      "path": "pages/Category/Category__Official Elite Dangerous media.wiki"
+    },
+    {
+      "title": "Category:Operations",
+      "ns": 14,
+      "pageid": 13,
+      "rev_id": 13,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Operations",
+      "path": "pages/Category/Category__Operations.wiki"
+    },
+    {
+      "title": "Category:Optional Internal Engineering",
+      "ns": 14,
+      "pageid": 92,
+      "rev_id": 164,
+      "timestamp": "2026-08-07T20:12:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Optional_Internal_Engineering",
+      "path": "pages/Category/Category__Optional Internal Engineering.wiki"
+    },
+    {
+      "title": "Category:Organizations",
+      "ns": 14,
+      "pageid": 157,
+      "rev_id": 238,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Organizations",
+      "path": "pages/Category/Category__Organizations.wiki"
+    },
+    {
+      "title": "Category:Original EDFM media",
+      "ns": 14,
+      "pageid": 220,
+      "rev_id": 331,
+      "timestamp": "2026-08-07T23:58:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Original_EDFM_media",
+      "path": "pages/Category/Category__Original EDFM media.wiki"
+    },
+    {
+      "title": "Category:Pages Needing Review",
+      "ns": 14,
+      "pageid": 19,
+      "rev_id": 19,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Pages_Needing_Review",
+      "path": "pages/Category/Category__Pages Needing Review.wiki"
+    },
+    {
+      "title": "Category:Partially Verified Articles",
+      "ns": 14,
+      "pageid": 18,
+      "rev_id": 18,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Partially_Verified_Articles",
+      "path": "pages/Category/Category__Partially Verified Articles.wiki"
+    },
+    {
+      "title": "Category:Powerplay",
+      "ns": 14,
+      "pageid": 11,
+      "rev_id": 11,
+      "timestamp": "2026-08-06T19:51:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Powerplay",
+      "path": "pages/Category/Category__Powerplay.wiki"
+    },
+    {
+      "title": "Category:Public domain media",
+      "ns": 14,
+      "pageid": 223,
+      "rev_id": 334,
+      "timestamp": "2026-08-07T23:58:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Public_domain_media",
+      "path": "pages/Category/Category__Public domain media.wiki"
+    },
+    {
+      "title": "Category:Raw Materials",
+      "ns": 14,
+      "pageid": 87,
+      "rev_id": 159,
+      "timestamp": "2026-08-07T20:12:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Raw_Materials",
+      "path": "pages/Category/Category__Raw Materials.wiki"
+    },
+    {
+      "title": "Category:Reference Entries",
+      "ns": 14,
+      "pageid": 4,
+      "rev_id": 4,
+      "timestamp": "2026-08-06T19:51:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Reference_Entries",
+      "path": "pages/Category/Category__Reference Entries.wiki"
+    },
+    {
+      "title": "Category:Ship Engineer images",
+      "ns": 14,
+      "pageid": 256,
+      "rev_id": 649,
+      "timestamp": "2026-08-11T03:06:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Ship_Engineer_images",
+      "path": "pages/Category/Category__Ship Engineer images.wiki"
+    },
+    {
+      "title": "Category:Ship images",
+      "ns": 14,
+      "pageid": 262,
+      "rev_id": 408,
+      "timestamp": "2026-08-08T15:50:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Ship_images",
+      "path": "pages/Category/Category__Ship images.wiki"
+    },
+    {
+      "title": "Category:Ship modules",
+      "ns": 14,
+      "pageid": 436,
+      "rev_id": 1223,
+      "timestamp": "2026-08-20T23:58:48Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Ship_modules",
+      "path": "pages/Category/Category__Ship modules.wiki"
+    },
+    {
+      "title": "Category:Ships",
+      "ns": 14,
+      "pageid": 8,
+      "rev_id": 8,
+      "timestamp": "2026-08-06T19:51:21Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Ships",
+      "path": "pages/Category/Category__Ships.wiki"
+    },
+    {
+      "title": "Category:Templates",
+      "ns": 14,
+      "pageid": 215,
+      "rev_id": 316,
+      "timestamp": "2026-08-07T22:21:27Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Templates",
+      "path": "pages/Category/Category__Templates.wiki"
+    },
+    {
+      "title": "Category:Thargoid",
+      "ns": 14,
+      "pageid": 154,
+      "rev_id": 235,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Thargoid",
+      "path": "pages/Category/Category__Thargoid.wiki"
+    },
+    {
+      "title": "Category:Trading",
+      "ns": 14,
+      "pageid": 150,
+      "rev_id": 231,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Trading",
+      "path": "pages/Category/Category__Trading.wiki"
+    },
+    {
+      "title": "Category:UI screenshots",
+      "ns": 14,
+      "pageid": 266,
+      "rev_id": 412,
+      "timestamp": "2026-08-08T15:50:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:UI_screenshots",
+      "path": "pages/Category/Category__UI screenshots.wiki"
+    },
+    {
+      "title": "Category:Upcoming Content",
+      "ns": 14,
+      "pageid": 164,
+      "rev_id": 245,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Upcoming_Content",
+      "path": "pages/Category/Category__Upcoming Content.wiki"
+    },
+    {
+      "title": "Category:Updates",
+      "ns": 14,
+      "pageid": 162,
+      "rev_id": 243,
+      "timestamp": "2026-08-07T21:59:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Updates",
+      "path": "pages/Category/Category__Updates.wiki"
+    },
+    {
+      "title": "Category:Utility Engineering",
+      "ns": 14,
+      "pageid": 93,
+      "rev_id": 165,
+      "timestamp": "2026-08-07T20:12:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Utility_Engineering",
+      "path": "pages/Category/Category__Utility Engineering.wiki"
+    },
+    {
+      "title": "Category:Verified Articles",
+      "ns": 14,
+      "pageid": 17,
+      "rev_id": 17,
+      "timestamp": "2026-08-06T19:51:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Verified_Articles",
+      "path": "pages/Category/Category__Verified Articles.wiki"
+    },
+    {
+      "title": "Category:Weapon Engineering",
+      "ns": 14,
+      "pageid": 90,
+      "rev_id": 162,
+      "timestamp": "2026-08-07T20:12:41Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Weapon_Engineering",
+      "path": "pages/Category/Category__Weapon Engineering.wiki"
+    },
+    {
+      "title": "Category:Weapons",
+      "ns": 14,
+      "pageid": 145,
+      "rev_id": 226,
+      "timestamp": "2026-08-07T21:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Weapons",
+      "path": "pages/Category/Category__Weapons.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Baltanos",
+      "ns": 828,
+      "pageid": 423,
+      "rev_id": 1201,
+      "timestamp": "2026-08-20T23:54:14Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Baltanos",
+      "path": "pages/Module/Module__Data∕Engineers∕Baltanos.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Bill Turner",
+      "ns": 828,
+      "pageid": 414,
+      "rev_id": 1148,
+      "timestamp": "2026-08-20T22:08:54Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Bill_Turner",
+      "path": "pages/Module/Module__Data∕Engineers∕Bill Turner.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Broo Tarquin",
+      "ns": 828,
+      "pageid": 172,
+      "rev_id": 1149,
+      "timestamp": "2026-08-20T22:08:54Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Broo_Tarquin",
+      "path": "pages/Module/Module__Data∕Engineers∕Broo Tarquin.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Chloe Sedesi",
+      "ns": 828,
+      "pageid": 401,
+      "rev_id": 1150,
+      "timestamp": "2026-08-20T22:08:55Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Chloe_Sedesi",
+      "path": "pages/Module/Module__Data∕Engineers∕Chloe Sedesi.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Colonel Bris Dekker",
+      "ns": 828,
+      "pageid": 409,
+      "rev_id": 1151,
+      "timestamp": "2026-08-20T22:08:55Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Colonel_Bris_Dekker",
+      "path": "pages/Module/Module__Data∕Engineers∕Colonel Bris Dekker.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Didi Vatermann",
+      "ns": 828,
+      "pageid": 415,
+      "rev_id": 1152,
+      "timestamp": "2026-08-20T22:08:56Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Didi_Vatermann",
+      "path": "pages/Module/Module__Data∕Engineers∕Didi Vatermann.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Domino Green",
+      "ns": 828,
+      "pageid": 418,
+      "rev_id": 1202,
+      "timestamp": "2026-08-20T23:54:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Domino_Green",
+      "path": "pages/Module/Module__Data∕Engineers∕Domino Green.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Eleanor Bresa",
+      "ns": 828,
+      "pageid": 421,
+      "rev_id": 1203,
+      "timestamp": "2026-08-20T23:54:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Eleanor_Bresa",
+      "path": "pages/Module/Module__Data∕Engineers∕Eleanor Bresa.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Elvira Martuuk",
+      "ns": 828,
+      "pageid": 398,
+      "rev_id": 1153,
+      "timestamp": "2026-08-20T22:08:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Elvira_Martuuk",
+      "path": "pages/Module/Module__Data∕Engineers∕Elvira Martuuk.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Etienne Dorn",
+      "ns": 828,
+      "pageid": 411,
+      "rev_id": 1154,
+      "timestamp": "2026-08-20T22:08:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Etienne_Dorn",
+      "path": "pages/Module/Module__Data∕Engineers∕Etienne Dorn.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Felicity Farseer",
+      "ns": 828,
+      "pageid": 169,
+      "rev_id": 1155,
+      "timestamp": "2026-08-20T22:08:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Felicity_Farseer",
+      "path": "pages/Module/Module__Data∕Engineers∕Felicity Farseer.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Hera Tani",
+      "ns": 828,
+      "pageid": 171,
+      "rev_id": 1156,
+      "timestamp": "2026-08-20T22:08:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Hera_Tani",
+      "path": "pages/Module/Module__Data∕Engineers∕Hera Tani.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Hero Ferrari",
+      "ns": 828,
+      "pageid": 420,
+      "rev_id": 1204,
+      "timestamp": "2026-08-20T23:54:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Hero_Ferrari",
+      "path": "pages/Module/Module__Data∕Engineers∕Hero Ferrari.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Jude Navarro",
+      "ns": 828,
+      "pageid": 417,
+      "rev_id": 1205,
+      "timestamp": "2026-08-20T23:54:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Jude_Navarro",
+      "path": "pages/Module/Module__Data∕Engineers∕Jude Navarro.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Juri Ishmaak",
+      "ns": 828,
+      "pageid": 407,
+      "rev_id": 1157,
+      "timestamp": "2026-08-20T22:08:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Juri_Ishmaak",
+      "path": "pages/Module/Module__Data∕Engineers∕Juri Ishmaak.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Kit Fowler",
+      "ns": 828,
+      "pageid": 419,
+      "rev_id": 1206,
+      "timestamp": "2026-08-20T23:54:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Kit_Fowler",
+      "path": "pages/Module/Module__Data∕Engineers∕Kit Fowler.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Lei Cheung",
+      "ns": 828,
+      "pageid": 405,
+      "rev_id": 1158,
+      "timestamp": "2026-08-20T22:08:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Lei_Cheung",
+      "path": "pages/Module/Module__Data∕Engineers∕Lei Cheung.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Liz Ryder",
+      "ns": 828,
+      "pageid": 170,
+      "rev_id": 1159,
+      "timestamp": "2026-08-20T22:09:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Liz_Ryder",
+      "path": "pages/Module/Module__Data∕Engineers∕Liz Ryder.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Lori Jameson",
+      "ns": 828,
+      "pageid": 402,
+      "rev_id": 1160,
+      "timestamp": "2026-08-20T22:09:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Lori_Jameson",
+      "path": "pages/Module/Module__Data∕Engineers∕Lori Jameson.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Marco Qwent",
+      "ns": 828,
+      "pageid": 399,
+      "rev_id": 1161,
+      "timestamp": "2026-08-20T22:09:01Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Marco_Qwent",
+      "path": "pages/Module/Module__Data∕Engineers∕Marco Qwent.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Marsha Hicks",
+      "ns": 828,
+      "pageid": 406,
+      "rev_id": 1162,
+      "timestamp": "2026-08-20T22:09:01Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Marsha_Hicks",
+      "path": "pages/Module/Module__Data∕Engineers∕Marsha Hicks.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Mel Brandon",
+      "ns": 828,
+      "pageid": 404,
+      "rev_id": 1163,
+      "timestamp": "2026-08-20T22:09:02Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Mel_Brandon",
+      "path": "pages/Module/Module__Data∕Engineers∕Mel Brandon.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Oden Geiger",
+      "ns": 828,
+      "pageid": 424,
+      "rev_id": 1207,
+      "timestamp": "2026-08-20T23:54:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Oden_Geiger",
+      "path": "pages/Module/Module__Data∕Engineers∕Oden Geiger.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Petra Olmanova",
+      "ns": 828,
+      "pageid": 416,
+      "rev_id": 1164,
+      "timestamp": "2026-08-20T22:09:03Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Petra_Olmanova",
+      "path": "pages/Module/Module__Data∕Engineers∕Petra Olmanova.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Professor Palin",
+      "ns": 828,
+      "pageid": 400,
+      "rev_id": 1165,
+      "timestamp": "2026-08-20T22:09:03Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Professor_Palin",
+      "path": "pages/Module/Module__Data∕Engineers∕Professor Palin.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Ram Tah",
+      "ns": 828,
+      "pageid": 343,
+      "rev_id": 1166,
+      "timestamp": "2026-08-20T22:09:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Ram_Tah",
+      "path": "pages/Module/Module__Data∕Engineers∕Ram Tah.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Rosa Dayette",
+      "ns": 828,
+      "pageid": 426,
+      "rev_id": 1215,
+      "timestamp": "2026-08-20T23:55:11Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Rosa_Dayette",
+      "path": "pages/Module/Module__Data∕Engineers∕Rosa Dayette.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Selene Jean",
+      "ns": 828,
+      "pageid": 413,
+      "rev_id": 1167,
+      "timestamp": "2026-08-20T22:09:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Selene_Jean",
+      "path": "pages/Module/Module__Data∕Engineers∕Selene Jean.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Terra Velasquez",
+      "ns": 828,
+      "pageid": 429,
+      "rev_id": 1209,
+      "timestamp": "2026-08-20T23:54:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Terra_Velasquez",
+      "path": "pages/Module/Module__Data∕Engineers∕Terra Velasquez.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/The Dweller",
+      "ns": 828,
+      "pageid": 286,
+      "rev_id": 1168,
+      "timestamp": "2026-08-20T22:09:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/The_Dweller",
+      "path": "pages/Module/Module__Data∕Engineers∕The Dweller.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/The Sarge",
+      "ns": 828,
+      "pageid": 408,
+      "rev_id": 1169,
+      "timestamp": "2026-08-20T22:09:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/The_Sarge",
+      "path": "pages/Module/Module__Data∕Engineers∕The Sarge.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Tiana Fortune",
+      "ns": 828,
+      "pageid": 410,
+      "rev_id": 1170,
+      "timestamp": "2026-08-20T22:09:06Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Tiana_Fortune",
+      "path": "pages/Module/Module__Data∕Engineers∕Tiana Fortune.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Tod \"The Blaster\" McQuinn",
+      "ns": 828,
+      "pageid": 412,
+      "rev_id": 1171,
+      "timestamp": "2026-08-20T22:09:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Tod_%22The_Blaster%22_McQuinn",
+      "path": "pages/Module/Module__Data∕Engineers∕Tod _The Blaster_ McQuinn.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Uma Laszlo",
+      "ns": 828,
+      "pageid": 425,
+      "rev_id": 1210,
+      "timestamp": "2026-08-20T23:54:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Uma_Laszlo",
+      "path": "pages/Module/Module__Data∕Engineers∕Uma Laszlo.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Wellington Beck",
+      "ns": 828,
+      "pageid": 428,
+      "rev_id": 1211,
+      "timestamp": "2026-08-20T23:54:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Wellington_Beck",
+      "path": "pages/Module/Module__Data∕Engineers∕Wellington Beck.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Yarden Bond",
+      "ns": 828,
+      "pageid": 422,
+      "rev_id": 1212,
+      "timestamp": "2026-08-20T23:54:20Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Yarden_Bond",
+      "path": "pages/Module/Module__Data∕Engineers∕Yarden Bond.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Yi Shen",
+      "ns": 828,
+      "pageid": 427,
+      "rev_id": 1213,
+      "timestamp": "2026-08-20T23:54:20Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Yi_Shen",
+      "path": "pages/Module/Module__Data∕Engineers∕Yi Shen.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/Zacariah Nemo",
+      "ns": 828,
+      "pageid": 403,
+      "rev_id": 1172,
+      "timestamp": "2026-08-20T22:09:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/Zacariah_Nemo",
+      "path": "pages/Module/Module__Data∕Engineers∕Zacariah Nemo.wiki"
+    },
+    {
+      "title": "Module:Data/Engineers/index",
+      "ns": 828,
+      "pageid": 168,
+      "rev_id": 1186,
+      "timestamp": "2026-08-20T22:09:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/Engineers/index",
+      "path": "pages/Module/Module__Data∕Engineers∕index.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/AX Missile Rack",
+      "ns": 828,
+      "pageid": 437,
+      "rev_id": 1224,
+      "timestamp": "2026-08-20T23:58:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/AX_Missile_Rack",
+      "path": "pages/Module/Module__Data∕ShipModules∕AX Missile Rack.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/AX Multi-Cannon",
+      "ns": 828,
+      "pageid": 439,
+      "rev_id": 1226,
+      "timestamp": "2026-08-20T23:58:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/AX_Multi-Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕AX Multi-Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Abrasion Blaster",
+      "ns": 828,
+      "pageid": 441,
+      "rev_id": 1228,
+      "timestamp": "2026-08-20T23:58:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Abrasion_Blaster",
+      "path": "pages/Module/Module__Data∕ShipModules∕Abrasion Blaster.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Advanced Docking Computer",
+      "ns": 828,
+      "pageid": 443,
+      "rev_id": 1230,
+      "timestamp": "2026-08-20T23:58:53Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Advanced_Docking_Computer",
+      "path": "pages/Module/Module__Data∕ShipModules∕Advanced Docking Computer.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Advanced Plasma Accelerator",
+      "ns": 828,
+      "pageid": 445,
+      "rev_id": 1232,
+      "timestamp": "2026-08-20T23:58:54Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Advanced_Plasma_Accelerator",
+      "path": "pages/Module/Module__Data∕ShipModules∕Advanced Plasma Accelerator.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Auto Field-Maintenance Unit",
+      "ns": 828,
+      "pageid": 447,
+      "rev_id": 1234,
+      "timestamp": "2026-08-20T23:58:56Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Auto_Field-Maintenance_Unit",
+      "path": "pages/Module/Module__Data∕ShipModules∕Auto Field-Maintenance Unit.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Beam Laser",
+      "ns": 828,
+      "pageid": 449,
+      "rev_id": 1236,
+      "timestamp": "2026-08-20T23:58:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Beam_Laser",
+      "path": "pages/Module/Module__Data∕ShipModules∕Beam Laser.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Bi-Weave Shield Generator",
+      "ns": 828,
+      "pageid": 450,
+      "rev_id": 1237,
+      "timestamp": "2026-08-20T23:58:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Bi-Weave_Shield_Generator",
+      "path": "pages/Module/Module__Data∕ShipModules∕Bi-Weave Shield Generator.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Bulkheads",
+      "ns": 828,
+      "pageid": 452,
+      "rev_id": 1239,
+      "timestamp": "2026-08-20T23:58:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Bulkheads",
+      "path": "pages/Module/Module__Data∕ShipModules∕Bulkheads.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Burst Laser",
+      "ns": 828,
+      "pageid": 454,
+      "rev_id": 1241,
+      "timestamp": "2026-08-20T23:59:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Burst_Laser",
+      "path": "pages/Module/Module__Data∕ShipModules∕Burst Laser.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Business Class Passenger Cabin",
+      "ns": 828,
+      "pageid": 455,
+      "rev_id": 1242,
+      "timestamp": "2026-08-20T23:59:01Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Business_Class_Passenger_Cabin",
+      "path": "pages/Module/Module__Data∕ShipModules∕Business Class Passenger Cabin.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Cannon",
+      "ns": 828,
+      "pageid": 457,
+      "rev_id": 1244,
+      "timestamp": "2026-08-20T23:59:03Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Cargo Rack",
+      "ns": 828,
+      "pageid": 459,
+      "rev_id": 1246,
+      "timestamp": "2026-08-20T23:59:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Cargo_Rack",
+      "path": "pages/Module/Module__Data∕ShipModules∕Cargo Rack.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Caustic Sink Launcher",
+      "ns": 828,
+      "pageid": 460,
+      "rev_id": 1247,
+      "timestamp": "2026-08-20T23:59:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Caustic_Sink_Launcher",
+      "path": "pages/Module/Module__Data∕ShipModules∕Caustic Sink Launcher.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Chaff Launcher",
+      "ns": 828,
+      "pageid": 462,
+      "rev_id": 1249,
+      "timestamp": "2026-08-20T23:59:06Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Chaff_Launcher",
+      "path": "pages/Module/Module__Data∕ShipModules∕Chaff Launcher.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Collector Limpet Controller",
+      "ns": 828,
+      "pageid": 463,
+      "rev_id": 1250,
+      "timestamp": "2026-08-20T23:59:07Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Collector_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Collector Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Corrosion Resistant Cargo Rack",
+      "ns": 828,
+      "pageid": 464,
+      "rev_id": 1251,
+      "timestamp": "2026-08-20T23:59:08Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Corrosion_Resistant_Cargo_Rack",
+      "path": "pages/Module/Module__Data∕ShipModules∕Corrosion Resistant Cargo Rack.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Cytoscrambler",
+      "ns": 828,
+      "pageid": 466,
+      "rev_id": 1253,
+      "timestamp": "2026-08-20T23:59:09Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Cytoscrambler",
+      "path": "pages/Module/Module__Data∕ShipModules∕Cytoscrambler.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Decontamination Limpet Controller",
+      "ns": 828,
+      "pageid": 468,
+      "rev_id": 1255,
+      "timestamp": "2026-08-20T23:59:11Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Decontamination_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Decontamination Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Detailed Surface Scanner",
+      "ns": 828,
+      "pageid": 470,
+      "rev_id": 1257,
+      "timestamp": "2026-08-20T23:59:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Detailed_Surface_Scanner",
+      "path": "pages/Module/Module__Data∕ShipModules∕Detailed Surface Scanner.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Docking Computer",
+      "ns": 828,
+      "pageid": 471,
+      "rev_id": 1258,
+      "timestamp": "2026-08-20T23:59:13Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Docking_Computer",
+      "path": "pages/Module/Module__Data∕ShipModules∕Docking Computer.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Economy Class Passenger Cabin",
+      "ns": 828,
+      "pageid": 473,
+      "rev_id": 1260,
+      "timestamp": "2026-08-20T23:59:14Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Economy_Class_Passenger_Cabin",
+      "path": "pages/Module/Module__Data∕ShipModules∕Economy Class Passenger Cabin.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Electronic Countermeasure",
+      "ns": 828,
+      "pageid": 475,
+      "rev_id": 1262,
+      "timestamp": "2026-08-20T23:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Electronic_Countermeasure",
+      "path": "pages/Module/Module__Data∕ShipModules∕Electronic Countermeasure.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Enforcer Cannon",
+      "ns": 828,
+      "pageid": 476,
+      "rev_id": 1263,
+      "timestamp": "2026-08-20T23:59:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Enforcer_Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Enforcer Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Enhanced AX Missile Rack",
+      "ns": 828,
+      "pageid": 478,
+      "rev_id": 1265,
+      "timestamp": "2026-08-20T23:59:18Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Enhanced_AX_Missile_Rack",
+      "path": "pages/Module/Module__Data∕ShipModules∕Enhanced AX Missile Rack.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Enhanced AX Multi-Cannon",
+      "ns": 828,
+      "pageid": 480,
+      "rev_id": 1267,
+      "timestamp": "2026-08-20T23:59:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Enhanced_AX_Multi-Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Enhanced AX Multi-Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Enhanced Xeno Scanner",
+      "ns": 828,
+      "pageid": 482,
+      "rev_id": 1269,
+      "timestamp": "2026-08-20T23:59:20Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Enhanced_Xeno_Scanner",
+      "path": "pages/Module/Module__Data∕ShipModules∕Enhanced Xeno Scanner.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Fighter Hangar",
+      "ns": 828,
+      "pageid": 484,
+      "rev_id": 1271,
+      "timestamp": "2026-08-20T23:59:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fighter_Hangar",
+      "path": "pages/Module/Module__Data∕ShipModules∕Fighter Hangar.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/First Class Passenger Cabin",
+      "ns": 828,
+      "pageid": 486,
+      "rev_id": 1273,
+      "timestamp": "2026-08-20T23:59:23Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/First_Class_Passenger_Cabin",
+      "path": "pages/Module/Module__Data∕ShipModules∕First Class Passenger Cabin.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Fragment Cannon",
+      "ns": 828,
+      "pageid": 488,
+      "rev_id": 1275,
+      "timestamp": "2026-08-20T23:59:24Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fragment_Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Fragment Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Frame Shift Drive",
+      "ns": 828,
+      "pageid": 490,
+      "rev_id": 1277,
+      "timestamp": "2026-08-20T23:59:26Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Frame_Shift_Drive",
+      "path": "pages/Module/Module__Data∕ShipModules∕Frame Shift Drive.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Frame Shift Drive Booster",
+      "ns": 828,
+      "pageid": 491,
+      "rev_id": 1278,
+      "timestamp": "2026-08-20T23:59:27Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Frame_Shift_Drive_Booster",
+      "path": "pages/Module/Module__Data∕ShipModules∕Frame Shift Drive Booster.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Frame Shift Drive Interdictor",
+      "ns": 828,
+      "pageid": 493,
+      "rev_id": 1280,
+      "timestamp": "2026-08-20T23:59:28Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Frame_Shift_Drive_Interdictor",
+      "path": "pages/Module/Module__Data∕ShipModules∕Frame Shift Drive Interdictor.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Frame Shift Wake Scanner",
+      "ns": 828,
+      "pageid": 494,
+      "rev_id": 1281,
+      "timestamp": "2026-08-20T23:59:29Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Frame_Shift_Wake_Scanner",
+      "path": "pages/Module/Module__Data∕ShipModules∕Frame Shift Wake Scanner.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Fuel Scoop",
+      "ns": 828,
+      "pageid": 496,
+      "rev_id": 1283,
+      "timestamp": "2026-08-20T23:59:30Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fuel_Scoop",
+      "path": "pages/Module/Module__Data∕ShipModules∕Fuel Scoop.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Fuel Tank",
+      "ns": 828,
+      "pageid": 498,
+      "rev_id": 1285,
+      "timestamp": "2026-08-20T23:59:31Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fuel_Tank",
+      "path": "pages/Module/Module__Data∕ShipModules∕Fuel Tank.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Fuel Transfer Limpet Controller",
+      "ns": 828,
+      "pageid": 500,
+      "rev_id": 1287,
+      "timestamp": "2026-08-20T23:59:33Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fuel_Transfer_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Fuel Transfer Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Guardian Frame Shift Drive Booster",
+      "ns": 828,
+      "pageid": 501,
+      "rev_id": 1288,
+      "timestamp": "2026-08-20T23:59:34Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Frame_Shift_Drive_Booster",
+      "path": "pages/Module/Module__Data∕ShipModules∕Guardian Frame Shift Drive Booster.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Guardian Gauss Cannon",
+      "ns": 828,
+      "pageid": 503,
+      "rev_id": 1290,
+      "timestamp": "2026-08-20T23:59:35Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Gauss_Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Guardian Gauss Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Guardian Hull Reinforcement Package",
+      "ns": 828,
+      "pageid": 504,
+      "rev_id": 1291,
+      "timestamp": "2026-08-20T23:59:36Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Hull_Reinforcement_Package",
+      "path": "pages/Module/Module__Data∕ShipModules∕Guardian Hull Reinforcement Package.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Guardian Module Reinforcement Package",
+      "ns": 828,
+      "pageid": 506,
+      "rev_id": 1293,
+      "timestamp": "2026-08-20T23:59:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Module_Reinforcement_Package",
+      "path": "pages/Module/Module__Data∕ShipModules∕Guardian Module Reinforcement Package.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Guardian Plasma Charger",
+      "ns": 828,
+      "pageid": 508,
+      "rev_id": 1295,
+      "timestamp": "2026-08-20T23:59:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Plasma_Charger",
+      "path": "pages/Module/Module__Data∕ShipModules∕Guardian Plasma Charger.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Guardian Shard Cannon",
+      "ns": 828,
+      "pageid": 509,
+      "rev_id": 1296,
+      "timestamp": "2026-08-20T23:59:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Shard_Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Guardian Shard Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Guardian Shield Reinforcement Package",
+      "ns": 828,
+      "pageid": 510,
+      "rev_id": 1297,
+      "timestamp": "2026-08-20T23:59:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Shield_Reinforcement_Package",
+      "path": "pages/Module/Module__Data∕ShipModules∕Guardian Shield Reinforcement Package.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Hatch Breaker Limpet Controller",
+      "ns": 828,
+      "pageid": 512,
+      "rev_id": 1299,
+      "timestamp": "2026-08-20T23:59:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Hatch_Breaker_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Hatch Breaker Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Heat Sink Launcher",
+      "ns": 828,
+      "pageid": 513,
+      "rev_id": 1300,
+      "timestamp": "2026-08-20T23:59:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Heat_Sink_Launcher",
+      "path": "pages/Module/Module__Data∕ShipModules∕Heat Sink Launcher.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Hull Reinforcement Package",
+      "ns": 828,
+      "pageid": 514,
+      "rev_id": 1301,
+      "timestamp": "2026-08-20T23:59:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Hull_Reinforcement_Package",
+      "path": "pages/Module/Module__Data∕ShipModules∕Hull Reinforcement Package.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Imperial Hammer",
+      "ns": 828,
+      "pageid": 515,
+      "rev_id": 1302,
+      "timestamp": "2026-08-20T23:59:44Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Imperial_Hammer",
+      "path": "pages/Module/Module__Data∕ShipModules∕Imperial Hammer.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Kill Warrant Scanner",
+      "ns": 828,
+      "pageid": 517,
+      "rev_id": 1304,
+      "timestamp": "2026-08-20T23:59:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Kill_Warrant_Scanner",
+      "path": "pages/Module/Module__Data∕ShipModules∕Kill Warrant Scanner.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Life Support",
+      "ns": 828,
+      "pageid": 519,
+      "rev_id": 1306,
+      "timestamp": "2026-08-20T23:59:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Life_Support",
+      "path": "pages/Module/Module__Data∕ShipModules∕Life Support.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Luxury Passenger Cabin",
+      "ns": 828,
+      "pageid": 521,
+      "rev_id": 1308,
+      "timestamp": "2026-08-20T23:59:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Luxury_Passenger_Cabin",
+      "path": "pages/Module/Module__Data∕ShipModules∕Luxury Passenger Cabin.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Manifest Scanner",
+      "ns": 828,
+      "pageid": 523,
+      "rev_id": 1310,
+      "timestamp": "2026-08-20T23:59:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Manifest_Scanner",
+      "path": "pages/Module/Module__Data∕ShipModules∕Manifest Scanner.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Meta Alloy Hull Reinforcement Package",
+      "ns": 828,
+      "pageid": 525,
+      "rev_id": 1312,
+      "timestamp": "2026-08-20T23:59:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Meta_Alloy_Hull_Reinforcement_Package",
+      "path": "pages/Module/Module__Data∕ShipModules∕Meta Alloy Hull Reinforcement Package.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Mine Launcher",
+      "ns": 828,
+      "pageid": 527,
+      "rev_id": 1314,
+      "timestamp": "2026-08-20T23:59:53Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Mine_Launcher",
+      "path": "pages/Module/Module__Data∕ShipModules∕Mine Launcher.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Mining Lance",
+      "ns": 828,
+      "pageid": 528,
+      "rev_id": 1315,
+      "timestamp": "2026-08-20T23:59:54Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Mining_Lance",
+      "path": "pages/Module/Module__Data∕ShipModules∕Mining Lance.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Mining Laser",
+      "ns": 828,
+      "pageid": 530,
+      "rev_id": 1317,
+      "timestamp": "2026-08-20T23:59:56Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Mining_Laser",
+      "path": "pages/Module/Module__Data∕ShipModules∕Mining Laser.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Mining Multi Limpet Controller",
+      "ns": 828,
+      "pageid": 532,
+      "rev_id": 1319,
+      "timestamp": "2026-08-20T23:59:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Mining_Multi_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Mining Multi Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Missile Rack",
+      "ns": 828,
+      "pageid": 534,
+      "rev_id": 1321,
+      "timestamp": "2026-08-20T23:59:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Missile_Rack",
+      "path": "pages/Module/Module__Data∕ShipModules∕Missile Rack.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Modified Guardian Gauss Cannon",
+      "ns": 828,
+      "pageid": 535,
+      "rev_id": 1322,
+      "timestamp": "2026-08-20T23:59:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Modified_Guardian_Gauss_Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Modified Guardian Gauss Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Modified Guardian Plasma Charger",
+      "ns": 828,
+      "pageid": 537,
+      "rev_id": 1324,
+      "timestamp": "2026-08-21T00:00:01Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Modified_Guardian_Plasma_Charger",
+      "path": "pages/Module/Module__Data∕ShipModules∕Modified Guardian Plasma Charger.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Modified Guardian Shard Cannon",
+      "ns": 828,
+      "pageid": 539,
+      "rev_id": 1326,
+      "timestamp": "2026-08-21T00:00:02Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Modified_Guardian_Shard_Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Modified Guardian Shard Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Module Reinforcement Package",
+      "ns": 828,
+      "pageid": 541,
+      "rev_id": 1328,
+      "timestamp": "2026-08-21T00:00:04Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Module_Reinforcement_Package",
+      "path": "pages/Module/Module__Data∕ShipModules∕Module Reinforcement Package.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Multi-Cannon",
+      "ns": 828,
+      "pageid": 543,
+      "rev_id": 1330,
+      "timestamp": "2026-08-21T00:00:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Multi-Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Multi-Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Nanite Torpedo Pylon",
+      "ns": 828,
+      "pageid": 544,
+      "rev_id": 1331,
+      "timestamp": "2026-08-21T00:00:06Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Nanite_Torpedo_Pylon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Nanite Torpedo Pylon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Operations Multi Limpet Controller",
+      "ns": 828,
+      "pageid": 546,
+      "rev_id": 1333,
+      "timestamp": "2026-08-21T00:00:08Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Operations_Multi_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Operations Multi Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Pacifier Frag-Cannon",
+      "ns": 828,
+      "pageid": 548,
+      "rev_id": 1335,
+      "timestamp": "2026-08-21T00:00:09Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Pacifier_Frag-Cannon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Pacifier Frag-Cannon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Pack-Hound Missile Rack",
+      "ns": 828,
+      "pageid": 550,
+      "rev_id": 1337,
+      "timestamp": "2026-08-21T00:00:11Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Pack-Hound_Missile_Rack",
+      "path": "pages/Module/Module__Data∕ShipModules∕Pack-Hound Missile Rack.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Passenger Cabin",
+      "ns": 828,
+      "pageid": 552,
+      "rev_id": 1339,
+      "timestamp": "2026-08-21T00:00:12Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Passenger_Cabin",
+      "path": "pages/Module/Module__Data∕ShipModules∕Passenger Cabin.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Planetary Vehicle Hangar",
+      "ns": 828,
+      "pageid": 554,
+      "rev_id": 1341,
+      "timestamp": "2026-08-21T00:00:13Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Planetary_Vehicle_Hangar",
+      "path": "pages/Module/Module__Data∕ShipModules∕Planetary Vehicle Hangar.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Plasma Accelerator",
+      "ns": 828,
+      "pageid": 556,
+      "rev_id": 1343,
+      "timestamp": "2026-08-21T00:00:15Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Plasma_Accelerator",
+      "path": "pages/Module/Module__Data∕ShipModules∕Plasma Accelerator.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Point Defence",
+      "ns": 828,
+      "pageid": 558,
+      "rev_id": 1345,
+      "timestamp": "2026-08-21T00:00:16Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Point_Defence",
+      "path": "pages/Module/Module__Data∕ShipModules∕Point Defence.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Point Defence Turret",
+      "ns": 828,
+      "pageid": 559,
+      "rev_id": 1346,
+      "timestamp": "2026-08-21T00:00:17Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Point_Defence_Turret",
+      "path": "pages/Module/Module__Data∕ShipModules∕Point Defence Turret.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Power Distributor",
+      "ns": 828,
+      "pageid": 561,
+      "rev_id": 1348,
+      "timestamp": "2026-08-21T00:00:19Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Power_Distributor",
+      "path": "pages/Module/Module__Data∕ShipModules∕Power Distributor.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Power Plant",
+      "ns": 828,
+      "pageid": 562,
+      "rev_id": 1349,
+      "timestamp": "2026-08-21T00:00:20Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Power_Plant",
+      "path": "pages/Module/Module__Data∕ShipModules∕Power Plant.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Prismatic Shield Generator",
+      "ns": 828,
+      "pageid": 563,
+      "rev_id": 1350,
+      "timestamp": "2026-08-21T00:00:20Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Prismatic_Shield_Generator",
+      "path": "pages/Module/Module__Data∕ShipModules∕Prismatic Shield Generator.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Prospector Limpet Controller",
+      "ns": 828,
+      "pageid": 565,
+      "rev_id": 1352,
+      "timestamp": "2026-08-21T00:00:22Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Prospector_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Prospector Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Pulse Disruptor",
+      "ns": 828,
+      "pageid": 566,
+      "rev_id": 1353,
+      "timestamp": "2026-08-21T00:00:23Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Pulse_Disruptor",
+      "path": "pages/Module/Module__Data∕ShipModules∕Pulse Disruptor.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Pulse Laser",
+      "ns": 828,
+      "pageid": 568,
+      "rev_id": 1355,
+      "timestamp": "2026-08-21T00:00:24Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Pulse_Laser",
+      "path": "pages/Module/Module__Data∕ShipModules∕Pulse Laser.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Pulse Wave Analyser",
+      "ns": 828,
+      "pageid": 569,
+      "rev_id": 1356,
+      "timestamp": "2026-08-21T00:00:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Pulse_Wave_Analyser",
+      "path": "pages/Module/Module__Data∕ShipModules∕Pulse Wave Analyser.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Railgun",
+      "ns": 828,
+      "pageid": 571,
+      "rev_id": 1358,
+      "timestamp": "2026-08-21T00:00:27Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Railgun",
+      "path": "pages/Module/Module__Data∕ShipModules∕Railgun.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Recon Limpet Controller",
+      "ns": 828,
+      "pageid": 573,
+      "rev_id": 1360,
+      "timestamp": "2026-08-21T00:00:28Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Recon_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Recon Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Refinery",
+      "ns": 828,
+      "pageid": 575,
+      "rev_id": 1362,
+      "timestamp": "2026-08-21T00:00:30Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Refinery",
+      "path": "pages/Module/Module__Data∕ShipModules∕Refinery.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Remote Release Flak Launcher",
+      "ns": 828,
+      "pageid": 577,
+      "rev_id": 1364,
+      "timestamp": "2026-08-21T00:00:31Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Remote_Release_Flak_Launcher",
+      "path": "pages/Module/Module__Data∕ShipModules∕Remote Release Flak Launcher.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Remote Release Flechette Launcher",
+      "ns": 828,
+      "pageid": 579,
+      "rev_id": 1366,
+      "timestamp": "2026-08-21T00:00:33Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Remote_Release_Flechette_Launcher",
+      "path": "pages/Module/Module__Data∕ShipModules∕Remote Release Flechette Launcher.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Repair Limpet Controller",
+      "ns": 828,
+      "pageid": 581,
+      "rev_id": 1368,
+      "timestamp": "2026-08-21T00:00:34Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Repair_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Repair Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Rescue Multi Limpet Controller",
+      "ns": 828,
+      "pageid": 583,
+      "rev_id": 1370,
+      "timestamp": "2026-08-21T00:00:35Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Rescue_Multi_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Rescue Multi Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Research Limpet Controller",
+      "ns": 828,
+      "pageid": 585,
+      "rev_id": 1372,
+      "timestamp": "2026-08-21T00:00:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Research_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Research Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Retributor Beam Laser",
+      "ns": 828,
+      "pageid": 587,
+      "rev_id": 1374,
+      "timestamp": "2026-08-21T00:00:38Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Retributor_Beam_Laser",
+      "path": "pages/Module/Module__Data∕ShipModules∕Retributor Beam Laser.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Seeker Missile Rack",
+      "ns": 828,
+      "pageid": 589,
+      "rev_id": 1376,
+      "timestamp": "2026-08-21T00:00:39Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Seeker_Missile_Rack",
+      "path": "pages/Module/Module__Data∕ShipModules∕Seeker Missile Rack.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Seismic Charge Launcher",
+      "ns": 828,
+      "pageid": 590,
+      "rev_id": 1377,
+      "timestamp": "2026-08-21T00:00:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Seismic_Charge_Launcher",
+      "path": "pages/Module/Module__Data∕ShipModules∕Seismic Charge Launcher.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Sensors",
+      "ns": 828,
+      "pageid": 592,
+      "rev_id": 1379,
+      "timestamp": "2026-08-21T00:00:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Sensors",
+      "path": "pages/Module/Module__Data∕ShipModules∕Sensors.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Shield Booster",
+      "ns": 828,
+      "pageid": 593,
+      "rev_id": 1380,
+      "timestamp": "2026-08-21T00:00:42Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shield_Booster",
+      "path": "pages/Module/Module__Data∕ShipModules∕Shield Booster.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Shield Cell Bank",
+      "ns": 828,
+      "pageid": 594,
+      "rev_id": 1381,
+      "timestamp": "2026-08-21T00:00:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shield_Cell_Bank",
+      "path": "pages/Module/Module__Data∕ShipModules∕Shield Cell Bank.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Shield Generator",
+      "ns": 828,
+      "pageid": 596,
+      "rev_id": 1383,
+      "timestamp": "2026-08-21T00:00:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shield_Generator",
+      "path": "pages/Module/Module__Data∕ShipModules∕Shield Generator.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Shield Reinforcement Package",
+      "ns": 828,
+      "pageid": 597,
+      "rev_id": 1384,
+      "timestamp": "2026-08-21T00:00:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shield_Reinforcement_Package",
+      "path": "pages/Module/Module__Data∕ShipModules∕Shield Reinforcement Package.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Shock Mine Launcher",
+      "ns": 828,
+      "pageid": 599,
+      "rev_id": 1386,
+      "timestamp": "2026-08-21T00:00:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shock_Mine_Launcher",
+      "path": "pages/Module/Module__Data∕ShipModules∕Shock Mine Launcher.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Shutdown Field Neutraliser",
+      "ns": 828,
+      "pageid": 601,
+      "rev_id": 1388,
+      "timestamp": "2026-08-21T00:00:48Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shutdown_Field_Neutraliser",
+      "path": "pages/Module/Module__Data∕ShipModules∕Shutdown Field Neutraliser.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Standard Docking Computer",
+      "ns": 828,
+      "pageid": 603,
+      "rev_id": 1390,
+      "timestamp": "2026-08-21T00:00:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Standard_Docking_Computer",
+      "path": "pages/Module/Module__Data∕ShipModules∕Standard Docking Computer.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Sub-surface Displacement Missile",
+      "ns": 828,
+      "pageid": 605,
+      "rev_id": 1392,
+      "timestamp": "2026-08-21T00:00:51Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Sub-surface_Displacement_Missile",
+      "path": "pages/Module/Module__Data∕ShipModules∕Sub-surface Displacement Missile.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Sub-surface Extraction Missile",
+      "ns": 828,
+      "pageid": 607,
+      "rev_id": 1394,
+      "timestamp": "2026-08-21T00:00:53Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Sub-surface_Extraction_Missile",
+      "path": "pages/Module/Module__Data∕ShipModules∕Sub-surface Extraction Missile.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Supercruise Assist",
+      "ns": 828,
+      "pageid": 609,
+      "rev_id": 1396,
+      "timestamp": "2026-08-21T00:00:54Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Supercruise_Assist",
+      "path": "pages/Module/Module__Data∕ShipModules∕Supercruise Assist.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Thargoid Pulse Neutraliser",
+      "ns": 828,
+      "pageid": 611,
+      "rev_id": 1398,
+      "timestamp": "2026-08-21T00:00:56Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Thargoid_Pulse_Neutraliser",
+      "path": "pages/Module/Module__Data∕ShipModules∕Thargoid Pulse Neutraliser.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Thrusters",
+      "ns": 828,
+      "pageid": 613,
+      "rev_id": 1400,
+      "timestamp": "2026-08-21T00:00:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Thrusters",
+      "path": "pages/Module/Module__Data∕ShipModules∕Thrusters.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Torpedo Pylon",
+      "ns": 828,
+      "pageid": 614,
+      "rev_id": 1401,
+      "timestamp": "2026-08-21T00:00:58Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Torpedo_Pylon",
+      "path": "pages/Module/Module__Data∕ShipModules∕Torpedo Pylon.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Universal Limpet Controller",
+      "ns": 828,
+      "pageid": 615,
+      "rev_id": 1402,
+      "timestamp": "2026-08-21T00:00:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Universal_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Universal Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Xeno Multi Limpet Controller",
+      "ns": 828,
+      "pageid": 617,
+      "rev_id": 1404,
+      "timestamp": "2026-08-21T00:01:00Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Xeno_Multi_Limpet_Controller",
+      "path": "pages/Module/Module__Data∕ShipModules∕Xeno Multi Limpet Controller.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/Xeno Scanner",
+      "ns": 828,
+      "pageid": 619,
+      "rev_id": 1406,
+      "timestamp": "2026-08-21T00:01:02Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/Xeno_Scanner",
+      "path": "pages/Module/Module__Data∕ShipModules∕Xeno Scanner.wiki"
+    },
+    {
+      "title": "Module:Data/ShipModules/index",
+      "ns": 828,
+      "pageid": 434,
+      "rev_id": 1221,
+      "timestamp": "2026-08-20T23:58:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/ShipModules/index",
+      "path": "pages/Module/Module__Data∕ShipModules∕index.wiki"
+    },
+    {
+      "title": "Module:Engineers",
+      "ns": 828,
+      "pageid": 173,
+      "rev_id": 1214,
+      "timestamp": "2026-08-20T23:55:11Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Engineers",
+      "path": "pages/Module/Module__Engineers.wiki"
+    },
+    {
+      "title": "Module:ShipModules",
+      "ns": 828,
+      "pageid": 431,
+      "rev_id": 1218,
+      "timestamp": "2026-08-20T23:58:45Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:ShipModules",
+      "path": "pages/Module/Module__ShipModules.wiki"
+    }
+  ],
+  "publication_sanitization": [
+    "private host labels replaced with neutral text",
+    "live analytics measurement ID replaced with placeholder",
+    "wording scan performed for AI/tooling/internal topology/secret markers"
+  ]
+}

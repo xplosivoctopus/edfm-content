@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Upcoming Content
+Namespace: 14
+Page ID: 164
+Revision ID: 245
+Timestamp: 2026-08-07T21:59:17Z
+Source URL: https://edfieldmanual.com/wiki/Category:Upcoming_Content
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Articles carrying an {{tl|Article status}} of ''Upcoming'' — announced but not yet released content.
+
+[[Category:Maintenance]]

@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Expected result
+Namespace: 10
+Page ID: 29
+Revision ID: 112
+Timestamp: 2026-08-07T16:33:00Z
+Source URL: https://edfieldmanual.com/wiki/Template:Expected_result
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-info">'''Expected result:''' {{{1}}}</div><noinclude>
+== Usage ==
+<pre>{{Expected result|What the commander should see if the procedure worked}}</pre>
+[[Category:Templates]]
+</noinclude>

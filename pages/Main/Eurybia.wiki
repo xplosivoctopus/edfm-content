@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Eurybia
+Namespace: 0
+Page ID: 347
+Revision ID: 984
+Timestamp: 2026-08-20T01:37:34Z
+Source URL: https://edfieldmanual.com/wiki/Eurybia
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=An anarchy system in the Core Systems, home to Liz Ryder's Demolition Unlimited workshop.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced star system and station records
+}}
+
+'''Eurybia''' is an independent system in the Core Systems, notable for hosting '''[[Demolition Unlimited]]''', the workshop of '''[[Liz Ryder]]''', one of the independent starting Engineers for explosive-weapon Engineering.<ref name="inara-eurybia">[https://inara.cz/elite/starsystem/17904/ Eurybia — Star System], Inara.</ref>
+
+== Overview ==
+
+* '''Star:''' Class K (scoopable)
+* '''Allegiance:''' Independent
+* '''Government:''' Anarchy
+* '''Security:''' Anarchy
+* '''Economy:''' Industrial / High Tech<ref name="inara-eurybia" />
+
+{{Important|Eurybia has '''Anarchy''' security. There is no local security response to unlawful activity, so Commanders should be prepared for potential player and NPC threats while docked or in transit here.}}
+
+== Engineer Facility ==
+
+'''[[Demolition Unlimited]]''' is a surface Engineer base on the planet Makalu, operated by '''[[Liz Ryder]]'''.<ref name="inara-demolition">[https://inara.cz/elite/station/52147/ Demolition Unlimited in Eurybia — Station], Inara.</ref>
+
+No system permit is required to enter Eurybia. See [[Liz Ryder]] for the full discovery, invitation, and unlock requirements for her workshop.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Liz Ryder]] [[Demolition Unlimited]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

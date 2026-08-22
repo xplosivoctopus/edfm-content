@@ -1,0 +1,177 @@
+<!--
+EDFM current-content archive export.
+Title: Engineering
+Namespace: 0
+Page ID: 57
+Revision ID: 856
+Timestamp: 2026-08-16T04:11:51Z
+Source URL: https://edfieldmanual.com/wiki/Engineering
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Game Systems|deck=How Engineering works, and where to find blueprints, Experimental Effects, Engineers, and materials.}}
+
+Engineering is Elite Dangerous' long-term module customisation system. It lets commanders take ordinary ship modules, suits, and handheld weapons beyond their stock specifications by spending collected materials at specialist Engineer bases. The result is not one universal upgrade path: every modification has trade-offs, every Engineer has a limited set of specialties, and the best build usually comes from choosing the right blueprint, grade, and Experimental Effect for the job.
+
+This page is the central hub for the Engineering section of the Field Manual. Use it as the map: start here to understand the system, then jump to individual [[Engineers]], [[Engineering Blueprints|blueprints]], [[Experimental Effects]], and material pages as they are written. See [[Elite Dangerous Field Manual:Engineering Architecture]] for how this section is organised and how new articles should be added.
+
+{{Related articles|label=Browse Engineering|[[Engineering Blueprints]] [[Experimental Effects]] [[Engineers]] [[Engineering Materials]] [[:Category:Modules|Browse by Module]] [[Engineer Unlock Guide]]}}
+
+== Key Reference Articles ==
+The most fully worked-out Engineer chain on EDFM so far — a good starting point for what a complete Engineering article looks like:
+{{Related articles|label=Key Reference Articles|[[Felicity Farseer]] [[Liz Ryder]] [[Hera Tani]] [[Broo Tarquin]] [[Multi-Cannon]] [[Overcharged]] [[Thermal Vent]]}}
+
+== What Is Engineering? ==
+Engineering is the process of applying specialist modifications to equipment. For ships, that means taking a module such as a Frame Shift Drive, power plant, multi-cannon, shield booster, or thruster and applying a blueprint that changes its statistics. A Frame Shift Drive might be tuned for longer range; a weapon might be tuned for higher damage; a shield booster might be tuned for more raw shield strength.
+
+Most ship Engineering follows the same pattern:
+* choose the module you want to modify;
+* choose a compatible blueprint;
+* spend the required materials to apply and improve that blueprint;
+* optionally add one compatible Experimental Effect; and
+* decide whether the resulting trade-offs fit the build.
+
+Engineering is powerful because it lets a ship specialise. It is also easy to overdo: more damage may mean more heat or distributor draw, more jump range may mean lower integrity, and stronger defences may mean more mass or power use. Treat Engineering as build tuning, not a free upgrade button.
+
+Odyssey suit and weapon Engineering is related, but separate. It uses different Engineers, different materials, and different equipment rules. EDFM keeps ship Engineers and Odyssey Engineers in the same Engineering section for navigation, but individual pages should be clear about which system they cover.
+
+== How Engineering Works ==
+Ship Engineering is built around three things: the Engineer, the blueprint, and the materials.
+
+An Engineer is the specialist who performs the work. Each Engineer has a base, an unlock path, and a limited list of blueprints they can apply. Some Engineers can take a blueprint all the way to Grade 5, while others may only offer lower grades for the same module family.
+
+A blueprint is the modification itself, such as [[Overcharged]], Increased FSD Range, Dirty Drives, Reinforced, or Heavy Duty. Blueprints are tied to module types: the same blueprint name may apply to several compatible modules, but it does not apply to everything. A commander must bring the correct module to an Engineer who supports that blueprint.
+
+Materials are the cost. Ship Engineering uses Raw, Manufactured, and Encoded materials. Odyssey Engineering uses its own on-foot assets, goods, and data. Credits are rarely the limiting factor; the real preparation is collecting the right material set and knowing where to trade for missing pieces.
+
+A practical Engineering visit usually looks like this:
+# Fit or store the module you want to modify.
+# Travel to an Engineer who supports the desired blueprint and grade.
+# Apply the blueprint through one or more grades.
+# Add an Experimental Effect if the module and blueprint support one.
+# Test the result in outfitting, flight, combat, or exploration conditions.
+
+== Engineering Grades ==
+Most ship blueprints are divided into grades, usually Grade 1 through Grade 5. Higher grades push the module further from stock and require higher-grade materials. Grade 1 is cheap and small; Grade 5 is expensive and build-defining.
+
+Within a grade, Engineering progress fills as the modification is applied. Early grades usually complete quickly. Later grades may require several applications before the grade is effectively complete, especially at Grade 5. The exact material cost depends on the blueprint, module, grade, and how far the current grade has already progressed.
+
+Grades are not automatically better in every situation. A lower grade can be enough when the goal is to unlock the next Engineer, reduce material cost, avoid an unwanted penalty, or make a temporary module usable without fully investing in it.
+
+== Engineer Reputation ==
+Each Engineer has a reputation level with the commander. Reputation gates access to higher grades at that Engineer: the more trusted you are, the further they will push a module.
+
+The normal way to build reputation is to perform Engineering with that Engineer. Some Engineers also accept activity related to their specialty, such as selling exploration data, trading, bounty vouchers, or combat bonds at their base. The exact reputation options vary by Engineer and should be documented on the individual Engineer page.
+
+A useful early habit is to engineer a low-cost module through enough grades to raise reputation before spending rare materials on the final build. This is especially helpful when arriving at a newly unlocked Engineer who can eventually provide Grade 5 work but does not offer it to you immediately.
+
+== Engineer Unlocks ==
+Engineers are not all available at once. Most unlock paths have several stages:
+* '''Discovery''' — learning that the Engineer exists, often through another Engineer or by meeting a broad career condition.
+* '''Invitation''' — satisfying the requirement that makes the Engineer contact you.
+* '''Unlock''' — delivering commodities, materials, vouchers, or another proof of work at the Engineer base.
+* '''Reputation''' — increasing access to higher grades after the Engineer is unlocked.
+
+Some Engineers sit in chains. For example, one Engineer may refer you to the next after you build enough reputation with them. This is why EDFM separates short unlock summaries from full walkthroughs: a card can tell you the requirement, while a guide can explain the route, cargo risks, material sources, and recommended order.
+
+See [[Engineer Unlock Guide]] for the chain-focused view and individual Engineer articles for confirmed requirements.
+
+== Blueprints ==
+Blueprints are the named modifications applied to modules. They define the positive effects, penalties, grades, material costs, and eligible module types. Examples include weapon damage blueprints, FSD range blueprints, shield booster blueprints, power plant blueprints, and scanner blueprints.
+
+A good blueprint page should answer four questions quickly:
+* What module types can use this blueprint?
+* What does each grade improve or penalise?
+* Which Engineers can apply it, and to what maximum grade?
+* Which Experimental Effects can be paired with it?
+
+See [[Engineering Blueprints]] to browse individual blueprint articles as they are written.
+
+== Experimental Effects ==
+Experimental Effects are optional special properties added after a ship module has been engineered. They are not the same thing as grades: a blueprint changes the module's baseline statistics, while an Experimental Effect adds a specific extra behaviour or trade-off.
+
+Examples include effects that change heat behaviour, damage type, ammunition behaviour, shield interaction, or module utility. Not every module supports an Experimental Effect, and compatible effects depend on the module and blueprint family.
+
+A module can normally carry one Experimental Effect at a time. Replacing it means choosing a different effect and paying the required materials again, so the effect should match the ship's job rather than simply sounding strong on paper.
+
+See [[Experimental Effects]] to browse individual effect articles as they are written.
+
+== Pinned Blueprints ==
+A pinned blueprint is a blueprint saved from an Engineer so it can be used later through Remote Workshop. Pinning is one of the most important quality-of-life steps in Engineering because it lets commanders continue upgrading common modules without returning to the Engineer base every time.
+
+Each Engineer can have one pinned blueprint. The best pin is usually a blueprint you expect to use repeatedly, such as a common Frame Shift Drive, thruster, weapon, shield, or power blueprint. Pinned choices are account-wide conveniences, not permanent commitments: you can revisit the Engineer and change the pinned blueprint if your priorities change.
+
+Pinned blueprints do not replace Engineer unlocks. You still need to unlock and gain reputation with the Engineer who provides the blueprint, and you still need the required materials.
+
+== Remote Workshop ==
+Remote Workshop lets commanders apply pinned ship blueprints from stations that offer the service, without flying back to the Engineer base. It is useful for finishing routine upgrades, working on stored modules, or making progress while away from the Engineer's system.
+
+Remote Workshop has limits. It depends on pinned blueprints, uses your existing Engineer access, and does not replace the full services of an Engineer base. Most importantly, Experimental Effects must be handled at an Engineer base rather than added remotely.
+
+In practice, Remote Workshop is best used for repeatable baseline work: pin the blueprint, collect the materials, apply the grades remotely, then visit the Engineer only when you need to change the pin, add an Experimental Effect, or use a blueprint that is not pinned.
+
+== Engineering Materials ==
+Materials are the resource cost of Engineering. They do not take cargo space in the normal ship cargo rack, but they do have storage caps. Material management is a major part of Engineering preparation.
+
+Ship Engineering materials are grouped into three broad categories:
+* '''Raw materials''' — minerals and elements gathered mostly from planetary surfaces, mining by-products, and certain signal or mission sources.
+* '''Manufactured materials''' — components recovered from ships, signal sources, mission rewards, combat aftermath, and salvage.
+* '''Encoded materials''' — data gathered from scans, data points, wakes, missions, and signal sources.
+
+Odyssey Engineering uses different on-foot assets, goods, and data. Do not assume a ship material source will help with suit or weapon upgrades.
+
+See [[Engineering Materials]] for the materials hub.
+
+== Material Traders ==
+Material Traders let commanders exchange materials within a category. Raw Material Traders exchange raw materials, Manufactured Material Traders exchange manufactured materials, and Encoded Material Traders exchange encoded data.
+
+Trading is most efficient when moving down from high-grade materials to lower-grade ones. Trading upward is expensive, and trading across material families within the same category is less efficient than trading within the same family. For that reason, many commanders farm high-value materials and trade down to fill out common blueprint costs.
+
+Material Traders are a convenience, not a complete replacement for gathering. They are best used to smooth out shortages after a farming run or before visiting an Engineer.
+
+== Engineers ==
+Engineers are the NPC specialists who perform the modifications. Each Engineer page should cover location, access requirements, unlock cost, specialties, maximum grades, related Engineers, and sources. The directory page keeps the roster browsable at a glance.
+
+Ship Engineers and Odyssey Engineers should not be mixed together inside build advice. They use different equipment and material systems, and Odyssey Engineering is not available in Legacy. When an article discusses both, it should label the distinction clearly.
+
+See [[Engineers]] to browse individual Engineer articles as they are written.
+
+== Engineering Guides ==
+Engineering guides should focus on routes and decisions rather than duplicating reference tables. A good guide explains the practical order of operations: what to unlock first, what to carry, what can be done remotely, which commodities are risky, what materials to collect in advance, and which steps can be combined in one trip.
+
+Examples of useful guide topics include:
+* first-ship Engineering route for new commanders;
+* Frame Shift Drive range preparation;
+* combat ship weapon and defence tuning;
+* Colonia Engineer preparation;
+* Odyssey suit and weapon unlock routes; and
+* material gathering loops for common blueprint families.
+
+See [[Unlocking Broo Tarquin]] for a worked example of a standalone unlock guide, and [[Elite Dangerous Field Manual:Creating a Guide]] for how the encyclopedia/guide split works.
+
+== Lists & Comparisons ==
+Structured-data proof of concept, generated from [[Module:Data/Engineers/index|Module:Data/Engineers]] rather than hand-maintained — see [[Elite Dangerous Field Manual:Adding Structured Data]]. Partial (4 of 38 Engineers) until backfilled further.
+{{Related articles|label=Lists & Comparisons|[[List of Engineers]] [[Engineer Capability Comparison]]}}
+
+As more structured Engineer and blueprint data is added, this section should become the comparison layer: who offers a blueprint, which Engineer reaches the highest grade, which unlock chain is shortest, and which Engineers are worth combining in a single route.
+
+== External Tools ==
+Community tools are useful for planning Engineering because they can track large material inventories and simulate full builds before you spend anything in-game. Use them for planning, then use EDFM pages for Field Manual explanations, unlock notes, and source-backed reference details.
+
+See the Engineering material tracking section of [[Tools and Resources]] for community apps that track blueprint/material progress.
+
+== Related Categories ==
+* [[:Category:Engineering]]
+* [[:Category:Engineers]]
+* [[:Category:Engineering Blueprints]]
+* [[:Category:Experimental Effects]]
+* [[:Category:Engineering Materials]]
+* [[:Category:Weapon Engineering]]
+* [[:Category:Core Internal Engineering]]
+* [[:Category:Optional Internal Engineering]]
+* [[:Category:Utility Engineering]]
+* [[:Category:Odyssey Engineering]]
+
+{{Engineering nav}}
+
+{{Related articles|[[Ships and Equipment]] [[Game Reference]]}}

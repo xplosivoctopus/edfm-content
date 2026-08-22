@@ -1,0 +1,624 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Common.js
+Namespace: 8
+Page ID: 72
+Revision ID: 1129
+Timestamp: 2026-08-20T09:20:22Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.js
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+/* EDFM: small, purely presentational enhancements. None are required
+ * for the site to function -- all degrade gracefully with JS off -- and
+ * none are achievable in pure CSS, which is why they exist here instead
+ * of in MediaWiki:Common.css. Kept deliberately tiny: no framework, no
+ * build step, vanilla DOM APIs only.
+ */
+( function () {
+	'use strict';
+
+	/* 1. Eyebrow placement (see Template:Article header, .edfm-eyebrow in
+	 * Common.css). MediaWiki always renders the real #firstHeading (the
+	 * page's H1) before the article body in the DOM -- there is no
+	 * template or CSS hook that lets wikitext content appear earlier than
+	 * that. The eyebrow is authored as ordinary wikitext at the top of the
+	 * article; this just moves that already-rendered, already-accessible
+	 * element to sit visually above the title instead of below it. If this
+	 * script doesn't run for any reason, the eyebrow still renders --
+	 * directly under the title rather than above it -- so nothing breaks,
+	 * this only affects placement.
+	 */
+	function placeEyebrow() {
+		var eyebrow = document.querySelector( '.edfm-eyebrow' );
+		var heading = document.getElementById( 'firstHeading' );
+		if ( eyebrow && heading && heading.parentNode ) {
+			heading.parentNode.insertBefore( eyebrow, heading );
+		}
+	}
+
+	/* 2. "You are here" sidebar highlighting. MediaWiki's default sidebar
+	 * has no built-in current-page indication -- this compares each
+	 * sidebar link's URL to the current page and flags the match so
+	 * Common.css can style it (see .edfm-nav-current). Wrapped in try/catch
+	 * per-link only so one malformed href can't stop the rest from being
+	 * checked.
+	 */
+	function highlightCurrentNavLink() {
+		var links = document.querySelectorAll( '#mw-panel .vector-menu-content-list a[href]' );
+		/* Compare pathname *and* query string, not just pathname. Most
+		 * content pages use clean /wiki/Page_Name URLs where pathname alone
+		 * is unambiguous, but action views (edit, history, diff, page
+		 * info, ...) all route through the same /index.php pathname and
+		 * are only distinguished by their query string (?action=edit vs
+		 * ?action=info etc.) -- comparing pathname only would wrongly
+		 * highlight every sidebar link that happens to also point at
+		 * /index.php, e.g. "Page information" while actually viewing the
+		 * edit-source screen.
+		 */
+		var here = window.location.pathname + window.location.search;
+		for ( var i = 0; i < links.length; i++ ) {
+			var a = links[ i ];
+			try {
+				var target = new URL( a.href, window.location.href );
+				if ( target.pathname + target.search === here ) {
+					a.parentNode.classList.add( 'edfm-nav-current' );
+				}
+			} catch ( e ) {
+				/* malformed href on this one link -- skip it, not fatal */
+			}
+		}
+	}
+
+	/* 3. Jump-nav label shortening (2026-08-08, Engineer article layout
+	 * pass). MediaWiki's native table of contents always mirrors a
+	 * section's real ==Heading== text exactly -- there's no template or
+	 * markup mechanism for a heading to carry a separate "short nav
+	 * label". Article headings stay full and descriptive (e.g. "How to
+	 * Receive an Invitation") since that's what reads well in the article
+	 * body; this only shortens the *jump-nav tile* text afterwards, so the
+	 * dense tile grid doesn't force long headings to wrap across two
+	 * lines. Keyed by exact heading text, shared across all Engineer
+	 * articles (same section names throughout, see Template:New engineer
+	 * page) rather than being specific to any one page. Anything not in
+	 * this list is left exactly as MediaWiki rendered it -- this only ever
+	 * shortens, never invents nav text for a heading it doesn't recognise.
+	 */
+	var TOC_SHORT_LABELS = {
+		'How to Discover This Engineer': 'Discovery',
+		'How to Receive an Invitation': 'Invitation',
+		'How to Unlock This Engineer': 'Unlock',
+		'Engineer Unlock Chain': 'Unlock Chain',
+		'Available Engineering': 'Engineering',
+		'Experimental Effects': 'Experimentals',
+		'Increasing Engineer Reputation': 'Reputation',
+		'Recommended Blueprint to Pin': 'Blueprint Pinning'
+	};
+
+	function shortenTocLabels() {
+		var toctexts = document.querySelectorAll( '#toc .toctext, .toc .toctext' );
+		for ( var i = 0; i < toctexts.length; i++ ) {
+			var el = toctexts[ i ];
+			var full = el.textContent.trim();
+			if ( Object.prototype.hasOwnProperty.call( TOC_SHORT_LABELS, full ) ) {
+				el.textContent = TOC_SHORT_LABELS[ full ];
+			}
+		}
+	}
+
+
+	/* 4. Desktop top-bar clocks. RuneScape.wiki has a compact utility strip
+	 * in the personal-toolbar tier; EDFM only needs time readouts there.
+	 * UTC is synced once from MediaWiki's API curtimestamp (server-side UTC)
+	 * and then advanced locally each second; local time uses the visitor's
+	 * browser timezone. If the API request fails, the UTC clock falls back to
+	 * the browser clock in UTC rather than leaving a blank control.
+	 */
+	function initTopBarClocks() {
+		var personal = document.getElementById( 'p-personal' );
+		if ( !personal || document.querySelector( '.edfm-topbar-clocks' ) ) {
+			return;
+		}
+
+		var clocks = document.createElement( 'div' );
+		clocks.className = 'edfm-topbar-clocks';
+		clocks.setAttribute( 'aria-label', 'Current time' );
+
+		var utcClock = document.createElement( 'span' );
+		utcClock.className = 'edfm-topbar-clock edfm-topbar-clock-utc';
+		utcClock.innerHTML = '<span class="edfm-topbar-clock-label">Server</span> <time>--:--</time>';
+
+		var localClock = document.createElement( 'span' );
+		localClock.className = 'edfm-topbar-clock edfm-topbar-clock-local';
+		localClock.innerHTML = '<span class="edfm-topbar-clock-label">Local</span> <time>--:--</time>';
+
+		clocks.appendChild( utcClock );
+		clocks.appendChild( localClock );
+		personal.insertBefore( clocks, personal.firstChild );
+
+		var utcOffset = 0;
+		var utcTime = utcClock.querySelector( 'time' );
+		var localTime = localClock.querySelector( 'time' );
+
+		function twoDigits( number ) {
+			return String( number ).padStart( 2, '0' );
+		}
+		function render() {
+			var localNow = new Date();
+			var utcNow = new Date( Date.now() + utcOffset );
+			var utcText = twoDigits( utcNow.getUTCHours() ) + ':' + twoDigits( utcNow.getUTCMinutes() );
+			var localText = twoDigits( localNow.getHours() ) + ':' + twoDigits( localNow.getMinutes() );
+
+			utcTime.textContent = utcText;
+			utcTime.setAttribute( 'datetime', utcNow.toISOString() );
+			utcTime.setAttribute( 'title', 'Server time (UTC): ' + utcNow.toUTCString() );
+
+			localTime.textContent = localText;
+			localTime.setAttribute( 'datetime', localNow.toISOString() );
+			localTime.setAttribute( 'title', 'Your local time: ' + localNow.toLocaleString() );
+		}
+
+		function syncServerTime() {
+			if ( !window.fetch || !window.mw || !mw.util ) {
+				render();
+				return;
+			}
+			var apiUrl = mw.util.wikiScript( 'api' ) + '?action=query&format=json&curtimestamp=1';
+			fetch( apiUrl, { credentials: 'same-origin' } )
+				.then( function ( response ) { return response.json(); } )
+				.then( function ( data ) {
+					if ( data && data.curtimestamp ) {
+						utcOffset = Date.parse( data.curtimestamp ) - Date.now();
+					}
+					render();
+				} )
+				.catch( render );
+		}
+
+		syncServerTime();
+		window.setInterval( render, 1000 );
+	}
+
+
+	/* 6. Frontier news links. The Frontier feed uses normal MediaWiki external
+	 * link wikitext so it remains valid when regenerated by the updater. Add
+	 * target/rel in JS because MediaWiki wikitext does not support per-link
+	 * target attributes without unsafe raw HTML.
+	 */
+	function initFrontierNewsExternalLinks() {
+		var links = document.querySelectorAll( '.edfm-frontier-news .edfm-news-title a[href]' );
+		for ( var i = 0; i < links.length; i++ ) {
+			var link = links[ i ];
+			link.target = '_blank';
+			link.rel = 'nofollow noopener noreferrer';
+		}
+	}
+
+
+	/* 7. Mobile app shell. Vector legacy was built for desktop; this adds a
+	 * small progressive-enhancement shell on phones: hamburger drawer using
+	 * the real #mw-panel links, a search button that reveals/focuses the
+	 * existing MediaWiki search input, ESC/scrim close behavior, and ARIA
+	 * state updates. With JS off the CSS fallback remains the existing stacked
+	 * Vector mobile layout.
+	 *
+	 * #p-personal (login/create account, or username/watchlist/preferences/
+	 * log out once signed in) lives in #mw-head, not #mw-panel, so it was
+	 * never one of "the real #mw-panel links" above -- it was simply left
+	 * behind when #mw-head collapsed into the sticky appbar, with no way to
+	 * reach it on a phone. Relocated into the drawer here instead of being
+	 * cloned, so there's still exactly one login control (no duplicate IDs,
+	 * accesskeys, or interactive elements). It already uses the same
+	 * .vector-menu-heading / .vector-menu-content-list markup as every other
+	 * #mw-panel section, so adding the .vector-menu-portal class is enough
+	 * for it to pick up the existing portal spacing/divider styling with no
+	 * new CSS. The matching Common.css rule only hides it at its original
+	 * #mw-head location (html.client-js #mw-head #p-personal), so nojs
+	 * visitors still get it via the existing stacked mobile layout.
+	 */
+	function initMobileChrome() {
+		var navigation = document.getElementById( 'mw-navigation' );
+		var panel = document.getElementById( 'mw-panel' );
+		var searchInput = document.getElementById( 'searchInput' );
+		if ( !navigation || !panel || document.querySelector( '.edfm-mobile-appbar' ) ) {
+			return;
+		}
+
+		var appbar = document.createElement( 'div' );
+		appbar.className = 'edfm-mobile-appbar';
+
+		var menuButton = document.createElement( 'button' );
+		menuButton.type = 'button';
+		menuButton.className = 'edfm-mobile-menu-button';
+		menuButton.setAttribute( 'aria-label', 'Open navigation menu' );
+		menuButton.setAttribute( 'aria-controls', 'mw-panel' );
+		menuButton.setAttribute( 'aria-expanded', 'false' );
+
+		var brand = document.createElement( 'a' );
+		brand.className = 'edfm-mobile-brand';
+		brand.href = mw && mw.util ? mw.util.getUrl( 'Main Page' ) : '/wiki/Main_Page';
+		brand.textContent = 'Field Manual';
+
+		var searchButton = document.createElement( 'button' );
+		searchButton.type = 'button';
+		searchButton.className = 'edfm-mobile-search-button';
+		searchButton.setAttribute( 'aria-label', 'Search the Field Manual' );
+		searchButton.setAttribute( 'aria-expanded', 'false' );
+
+		appbar.appendChild( menuButton );
+		appbar.appendChild( brand );
+		appbar.appendChild( searchButton );
+		navigation.insertBefore( appbar, navigation.firstChild );
+
+		var closeButton = document.createElement( 'button' );
+		closeButton.type = 'button';
+		closeButton.className = 'edfm-mobile-close-button';
+		closeButton.setAttribute( 'aria-label', 'Close navigation menu' );
+		panel.insertBefore( closeButton, panel.firstChild );
+
+		// #p-personal keeps core Vector's `position: absolute` (EDFM's own
+		// desktop override only adjusts its offset/layout, not the
+		// positioning scheme -- see Common.css), so it must only be
+		// physically relocated when the mobile breakpoint is actually
+		// active; doing this unconditionally would move it out of #mw-head
+		// on desktop too and break its absolute-positioned placement there.
+		// Same one-time-at-load check as the rest of this shell (no
+		// resize listener anywhere else in initMobileChrome either).
+		var personal = document.getElementById( 'p-personal' );
+		if ( personal && window.matchMedia && window.matchMedia( '(max-width: 800px)' ).matches ) {
+			personal.classList.add( 'vector-menu-portal' );
+			panel.insertBefore( personal, closeButton.nextSibling );
+		}
+
+		var scrim = document.createElement( 'button' );
+		scrim.type = 'button';
+		scrim.className = 'edfm-mobile-scrim';
+		scrim.setAttribute( 'aria-label', 'Close navigation menu' );
+		document.body.appendChild( scrim );
+
+		function setMenuOpen( open ) {
+			document.body.classList.toggle( 'edfm-mobile-menu-open', open );
+			menuButton.setAttribute( 'aria-expanded', open ? 'true' : 'false' );
+		}
+		function setSearchOpen( open ) {
+			document.body.classList.toggle( 'edfm-mobile-search-open', open );
+			searchButton.setAttribute( 'aria-expanded', open ? 'true' : 'false' );
+			if ( open && searchInput ) {
+				window.setTimeout( function () { searchInput.focus(); }, 0 );
+			}
+		}
+
+		menuButton.addEventListener( 'click', function () { setMenuOpen( true ); } );
+		closeButton.addEventListener( 'click', function () { setMenuOpen( false ); } );
+		scrim.addEventListener( 'click', function () { setMenuOpen( false ); } );
+		searchButton.addEventListener( 'click', function () {
+			setSearchOpen( !document.body.classList.contains( 'edfm-mobile-search-open' ) );
+		} );
+		panel.addEventListener( 'click', function ( event ) {
+			if ( event.target && event.target.closest && event.target.closest( 'a' ) ) {
+				setMenuOpen( false );
+			}
+		} );
+		document.addEventListener( 'keydown', function ( event ) {
+			if ( event.key === 'Escape' ) {
+				setMenuOpen( false );
+				setSearchOpen( false );
+			}
+		} );
+	}
+
+	if ( document.readyState === 'loading' ) {
+		document.addEventListener( 'DOMContentLoaded', function () {
+			placeEyebrow();
+			highlightCurrentNavLink();
+			shortenTocLabels();
+			initTopBarClocks();
+			initFrontierNewsExternalLinks();
+			initMobileChrome();
+		} );
+	} else {
+		placeEyebrow();
+		highlightCurrentNavLink();
+		shortenTocLabels();
+		initTopBarClocks();
+		initFrontierNewsExternalLinks();
+		initMobileChrome();
+	}
+}() );
+
+/* EDFM one-time cookie preference model migration: previous versions stored
+ * the only optional purpose as { analytics: true/false }. Rewrite that into
+ * the category-based model before the preference UI/GA loader runs.
+ */
+(function () {
+	'use strict';
+	var key = 'edfmCookieConsent.v1';
+	try {
+		var raw = JSON.parse(localStorage.getItem(key) || 'null');
+		if (raw && !raw.categories && typeof raw.analytics === 'boolean') {
+			localStorage.setItem(key, JSON.stringify({
+				necessary: true,
+				categories: { analytics: raw.analytics === true },
+				analytics: raw.analytics === true,
+				updated: new Date().toISOString(),
+				model: 'purposes-v2',
+				migratedFrom: 'legacy-analytics-boolean'
+			}));
+		}
+	} catch (e) {}
+}());
+
+/* EDFM cookie preferences banner + optional GA4 loader.
+ * Basic Google Consent Mode only: Google Analytics is never loaded while the
+ * optional Analytics purpose is undecided or denied.
+ */
+(function () {
+	'use strict';
+	var STORAGE_KEY = 'edfmCookieConsent.v1';
+	var ANALYTICS_COOKIE = 'edfmCookieAnalytics';
+	var MEASUREMENT_ID = 'GAID_PLACEHOLDER';
+	var loadedMeasurementId = null;
+	var gaDisabledKey = 'ga-disable-' + MEASUREMENT_ID;
+
+	function normalizeChoice(raw) {
+		if (!raw || typeof raw !== 'object') { return null; }
+		var analytics;
+		var migratedFromLegacy = false;
+		if (raw.categories && typeof raw.categories === 'object' && typeof raw.categories.analytics === 'boolean') {
+			analytics = raw.categories.analytics;
+		} else if (typeof raw.analytics === 'boolean') {
+			// Migration path for the previous single optional site-improvement choice.
+			analytics = raw.analytics;
+			migratedFromLegacy = true;
+		} else {
+			return null;
+		}
+		return {
+			necessary: true,
+			categories: {
+				analytics: analytics
+			},
+			// Keep the legacy field for current/future small integrations that may
+			// still read the existing boolean during the category-model migration.
+			analytics: analytics,
+			updated: raw.updated || null,
+			model: 'purposes-v2',
+			migratedFromLegacy: migratedFromLegacy
+		};
+	}
+
+	function parseChoice() {
+		try {
+			var choice = normalizeChoice(JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null'));
+			if (choice && choice.migratedFromLegacy === true) {
+				choice = persistChoice({ analytics: choice.analytics === true });
+			}
+			return choice;
+		}
+		catch (e) { return null; }
+	}
+
+	function persistChoice(categories) {
+		var analytics = !!(categories && categories.analytics === true);
+		var choice = {
+			necessary: true,
+			categories: {
+				analytics: analytics
+			},
+			analytics: analytics,
+			updated: new Date().toISOString(),
+			model: 'purposes-v2'
+		};
+		localStorage.setItem(STORAGE_KEY, JSON.stringify(choice));
+		return choice;
+	}
+
+	function hasAnalyticsConsent() {
+		var choice = parseChoice();
+		return !!(choice && choice.categories.analytics === true);
+	}
+
+	function setAnalyticsCookie(enabled) {
+		var maxAge = enabled ? 60 * 60 * 24 * 180 : 0;
+		document.cookie = ANALYTICS_COOKIE + '=' + (enabled ? '1' : '') + '; Max-Age=' + maxAge + '; Path=/; Secure; SameSite=Lax';
+		if (!enabled) {
+			document.cookie = 'edfmPopularSearch=; Max-Age=0; Path=/; Secure; SameSite=Lax';
+		}
+	}
+
+	function deleteCookieEverywhere(name) {
+		var host = window.location.hostname;
+		var domains = [ '', host ];
+		if (host.indexOf('.') !== -1) {
+			domains.push('.' + host);
+			var parts = host.split('.');
+			if (parts.length > 2) {
+				domains.push('.' + parts.slice(-2).join('.'));
+			}
+		}
+		var paths = [ '/', window.location.pathname || '/' ];
+		domains.forEach(function (domain) {
+			paths.forEach(function (path) {
+				document.cookie = name + '=; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Path=' + path + (domain ? '; Domain=' + domain : '') + '; Secure; SameSite=Lax';
+			});
+		});
+	}
+
+	function deleteGaCookies() {
+		document.cookie.split(';').forEach(function (part) {
+			var name = part.split('=')[0].trim();
+			if (name === '_ga' || name.indexOf('_ga_') === 0) {
+				deleteCookieEverywhere(name);
+			}
+		});
+	}
+
+	function eligibleMeasurementId() {
+		var marker = document.querySelector('meta[name="edfm-ga4-measurement-id"]');
+		return marker ? marker.getAttribute('content') : null;
+	}
+
+	function sanitizeReferrerConfig() {
+		var cfg = {
+			allow_google_signals: false,
+			allow_ad_personalization_signals: false
+		};
+		try {
+			var ref = document.referrer ? new URL(document.referrer) : null;
+			if (ref && ref.origin === location.origin) {
+				var path = ref.pathname.toLowerCase();
+				var query = ref.search.toLowerCase();
+				var sensitivePath = /\/wiki\/(special:(userlogin|createaccount|changecredentials|passwordreset|confirmemail|preferences|pluggableauthlogin|userlogout)|user:|user_talk:|profile:|profiles:|commander:|commanders:|cmdr:)/.test(path);
+				var sensitiveTitle = /(^|[?&])title=special(?::|%3a)(userlogin|createaccount|changecredentials|passwordreset|confirmemail|preferences|pluggableauthlogin|userlogout)(&|$)/i.test(query);
+				var sensitiveQuery = /(^|[?&])(code|state|token|access_token|refresh_token|id_token|session|session_id|email|email_address|username|user|user_id|account_id|frontier_id|fdev_id|commander|commander_name|cmdr|wpname|wplogintoken|returnto|returntoquery|wpreturnto|wpreturntoquery|authaction|provider)=/i.test(query);
+				if (sensitivePath || sensitiveTitle || sensitiveQuery) {
+					cfg.page_referrer = location.origin + '/wiki/[private-referrer]';
+				}
+			}
+		} catch (e) {}
+		return cfg;
+	}
+
+	function initDataLayer() {
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+	}
+
+	function loadAnalyticsAfterConsent() {
+		var id = eligibleMeasurementId();
+		if (!id || id !== MEASUREMENT_ID || !hasAnalyticsConsent()) {
+			return;
+		}
+		window[gaDisabledKey] = false;
+		initDataLayer();
+		window.gtag('consent', 'default', {
+			ad_storage: 'denied',
+			ad_user_data: 'denied',
+			ad_personalization: 'denied',
+			analytics_storage: 'granted'
+		});
+		if (!loadedMeasurementId && !document.querySelector('script[data-edfm-ga4="' + id + '"]')) {
+			var s = document.createElement('script');
+			s.async = true;
+			s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+			s.setAttribute('data-edfm-ga4', id);
+			document.head.appendChild(s);
+			window.gtag('js', new Date());
+			window.gtag('config', id, sanitizeReferrerConfig());
+			loadedMeasurementId = id;
+		} else {
+			window.gtag('consent', 'update', { analytics_storage: 'granted' });
+		}
+	}
+
+	function disableAnalytics() {
+		window[gaDisabledKey] = true;
+		if (window.gtag) {
+			window.gtag('consent', 'update', {
+				ad_storage: 'denied',
+				ad_user_data: 'denied',
+				ad_personalization: 'denied',
+				analytics_storage: 'denied'
+			});
+		}
+		deleteGaCookies();
+	}
+
+	function saveChoice(categories) {
+		var choice = persistChoice(categories);
+		var analytics = choice.categories.analytics === true;
+		setAnalyticsCookie(analytics);
+		if (analytics) {
+			loadAnalyticsAfterConsent();
+		} else {
+			disableAnalytics();
+		}
+	}
+
+	function bannerHtml() {
+		return '<div class="edfm-cookie-card" role="dialog" aria-live="polite" aria-labelledby="edfm-cookie-title" aria-describedby="edfm-cookie-intro">' +
+			'<div id="edfm-cookie-title" class="edfm-cookie-title">Cookie preferences</div>' +
+			'<p id="edfm-cookie-intro" class="edfm-cookie-text">EDFM uses necessary cookies for security and site functionality. Optional cookies help us understand how EDFM is used and improve the site. You can choose which optional categories to allow.</p>' +
+			'<div class="edfm-cookie-categories">' +
+			'<section class="edfm-cookie-category edfm-cookie-category-necessary" aria-labelledby="edfm-cookie-necessary-title">' +
+			'<div class="edfm-cookie-category-head"><h3 id="edfm-cookie-necessary-title">Necessary</h3><span class="edfm-cookie-status" aria-label="Necessary cookies are always on">Always on</span></div>' +
+			'<p>Used for security, login sessions, essential site functionality, and remembering your cookie preferences.</p>' +
+			'</section>' +
+			'<section class="edfm-cookie-category edfm-cookie-category-analytics" aria-labelledby="edfm-cookie-analytics-title">' +
+			'<div class="edfm-cookie-category-head">' +
+			'<h3 id="edfm-cookie-analytics-title">Analytics</h3>' +
+			'<label class="edfm-cookie-switch" for="edfm-cookie-analytics-toggle"><input id="edfm-cookie-analytics-toggle" type="checkbox" class="edfm-cookie-analytics" aria-describedby="edfm-cookie-analytics-desc"><span>Allow</span></label>' +
+			'</div>' +
+			'<p id="edfm-cookie-analytics-desc">Google Analytics helps us understand page usage, navigation, searches, traffic sources, and general engagement so we can improve EDFM. EDFM does not intentionally send Google usernames, Commander names, email addresses, or Frontier account identifiers.</p>' +
+			'</section>' +
+			'</div>' +
+			'<div class="edfm-cookie-actions">' +
+			'<button type="button" class="edfm-cookie-accept-all">Accept all</button>' +
+			'<button type="button" class="edfm-cookie-save">Save preferences</button>' +
+			'<button type="button" class="edfm-cookie-reject">Reject optional</button>' +
+			'</div>' +
+			'<div class="edfm-cookie-links"><a href="/wiki/Elite_Dangerous_Field_Manual:Cookie_Policy">Cookie Policy</a> · <a href="/wiki/Elite_Dangerous_Field_Manual:Privacy_Policy">Privacy Policy</a></div>' +
+			'</div>';
+	}
+
+	function showBanner() {
+		if (document.getElementById('edfm-cookie-banner')) { return; }
+		var wrap = document.createElement('div');
+		wrap.id = 'edfm-cookie-banner';
+		wrap.innerHTML = bannerHtml();
+		document.body.appendChild(wrap);
+		var checkbox = wrap.querySelector('.edfm-cookie-analytics');
+		var current = parseChoice();
+		checkbox.checked = !!(current && current.categories.analytics === true);
+		wrap.querySelector('.edfm-cookie-accept-all').addEventListener('click', function () {
+			saveChoice({ analytics: true });
+			wrap.remove();
+		});
+		wrap.querySelector('.edfm-cookie-reject').addEventListener('click', function () {
+			saveChoice({ analytics: false });
+			wrap.remove();
+		});
+		wrap.querySelector('.edfm-cookie-save').addEventListener('click', function () {
+			saveChoice({ analytics: checkbox.checked });
+			wrap.remove();
+		});
+	}
+
+	function addPreferencesLink() {
+		var footer = document.getElementById('footer-places') || document.getElementById('footer') || document.body;
+		if (!footer || document.getElementById('edfm-cookie-preferences-link')) { return; }
+		var li = document.createElement(footer.tagName && footer.tagName.toLowerCase() === 'ul' ? 'li' : 'div');
+		var a = document.createElement('a');
+		a.href = '#cookie-preferences';
+		a.id = 'edfm-cookie-preferences-link';
+		a.textContent = 'Cookie Preferences';
+		a.addEventListener('click', function (event) {
+			event.preventDefault();
+			showBanner();
+		});
+		li.appendChild(a);
+		footer.appendChild(li);
+	}
+
+	function initCookiePrefs() {
+		addPreferencesLink();
+		var choice = parseChoice();
+		if (!choice) { showBanner(); disableAnalytics(); return; }
+		if (choice.migratedFromLegacy === true || choice.model !== 'purposes-v2' || !choice.categories) {
+			choice = persistChoice({ analytics: !!choice.analytics });
+		}
+		setAnalyticsCookie(choice.categories.analytics === true);
+		if (choice.categories.analytics === true) {
+			loadAnalyticsAfterConsent();
+		} else {
+			disableAnalytics();
+		}
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initCookiePrefs);
+	} else {
+		initCookiePrefs();
+	}
+	window.edfmShowCookiePreferences = showBanner;
+}());

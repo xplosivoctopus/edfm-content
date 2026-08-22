@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Group-verified-member
+Namespace: 8
+Page ID: 334
+Revision ID: 1145
+Timestamp: 2026-08-20T19:05:54Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Group-verified-member
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Verified Commander

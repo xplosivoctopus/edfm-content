@@ -1,0 +1,35 @@
+<!--
+EDFM current-content archive export.
+Title: Ship Modules
+Namespace: 0
+Page ID: 435
+Revision ID: 1222
+Timestamp: 2026-08-20T23:58:47Z
+Source URL: https://edfieldmanual.com/wiki/Ship_Modules
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Equipment
+ |deck=Structured directory of ship module pages. The entries below are initial database-backed stubs and are intentionally awaiting source-backed details.
+}}
+
+'''Ship modules''' are being organized into structured EDFM pages so module articles, directories, and future comparison views can draw from the same data-backed page set.
+
+{{Related articles
+ |label=Browse equipment
+ |[[Ships and Equipment]]
+ |[[Ships]]
+ |[[Engineering Blueprints]]
+ |[[Experimental Effects]]
+}}
+
+{{Draft warning}}
+
+== Ship module directory ==
+
+The directory below is generated from [[Module:Data/ShipModules/index]]. The individual module articles and data pages have been created as stubs only; factual module details should be filled later from source-backed references.
+
+{{#invoke:ShipModules|directory}}
+
+[[Category:Modules]]

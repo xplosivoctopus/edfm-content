@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Engineer table entry
+Namespace: 10
+Page ID: 287
+Revision ID: 536
+Timestamp: 2026-08-10T01:00:08Z
+Source URL: https://edfieldmanual.com/wiki/Template:Engineer_table_entry
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<includeonly><span class="edfm-engineer-entry">[[File:{{{2}}}|40x40px|link={{{1}}}|alt={{{1}}} portrait|class=edfm-engineer-entry__portrait]] <span class="edfm-engineer-entry__name">[[{{{1}}}]]</span></span></includeonly><noinclude>
+== Usage ==
+Formats an Engineer name with a small portrait for sortable directory tables.
+
+<pre>{{Engineer table entry|Felicity Farseer|Felicityfarseer.png}}</pre>
+
+Use the table cell's <code>data-sort-value</code> attribute so the row still sorts by the Engineer's name instead of the file name.
+[[Category:Templates]]
+</noinclude>

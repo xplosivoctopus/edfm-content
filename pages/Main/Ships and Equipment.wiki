@@ -1,0 +1,100 @@
+<!--
+EDFM current-content archive export.
+Title: Ships and Equipment
+Namespace: 0
+Page ID: 56
+Revision ID: 867
+Timestamp: 2026-08-17T05:02:27Z
+Source URL: https://edfieldmanual.com/wiki/Ships_and_Equipment
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Ships & Equipment
+ |deck=Ships, modules, weapons, outfitting, and the equipment used to build a vessel for the job.
+}}
+
+'''Ships and Equipment''' covers the vessels Commanders fly and the modules, weapons, utilities, and support equipment used to outfit them.
+
+Choose what you need below.
+
+== Ships ==
+
+Browse the complete '''[[Ships]]''' directory for every Commander-piloted starship, organized by landing-pad size.
+
+{{Related articles
+ |label=Ships
+ |[[Ships]]
+ |[[Ship Comparison]]
+ |[[Ship-Launched Craft]]
+ |[[Surface Recon Vehicles]]
+ |[[Fleet Carriers]]
+}}
+
+== Outfitting ==
+
+'''[[Outfitting]]''' covers how ship modules are installed, replaced, stored, and organized.
+
+Use this section when you need to understand:
+
+* module slots and sizes;
+* module classes and ratings;
+* power requirements;
+* module priorities;
+* stored modules;
+* outfitting restrictions; and
+* how a ship's modules work together as a build.
+
+{{Related articles
+ |label=Outfitting
+ |[[Outfitting]]
+ |[[Ship Modules]]
+ |[[Core Internal Modules]]
+ |[[Optional Internal Modules]]
+ |[[Utility Mounts]]
+}}
+
+== Weapons ==
+
+See '''[[Ship Weapons]]''' for hardpoint-mounted weapons and their characteristics.
+
+{{Related articles
+ |label=Weapons
+ |[[Ship Weapons]]
+ |[[Kinetic Weapons]]
+ |[[Thermal Weapons]]
+ |[[Explosive Weapons]]
+ |[[Experimental Weapons]]
+}}
+
+== Building a ship ==
+
+A ship's hull only determines the starting platform. Its actual capabilities depend heavily on its modules and Engineering.
+
+For build planning, see:
+
+* [[Ship Builds]]
+* [[Outfitting]]
+* [[Engineering]]
+* [[Engineering Blueprints]]
+
+{{Field note|The most expensive ship is not automatically the best ship for a particular activity. Landing-pad size, internal compartments, hardpoints, handling, jump capability, module compatibility, and the intended build can matter more than hull price.}}
+
+== Other vessels ==
+
+Some player-operated vehicles are not conventional starships:
+
+* [[Ship-Launched Fighters]]
+* [[Nomad]]
+* [[Surface Recon Vehicles]]
+* [[Fleet Carriers]]
+
+These are documented separately because their acquisition and operation differ from normal ships.
+
+{{Related articles
+ |[[Ships]]
+ |[[Outfitting]]
+ |[[Ship Modules]]
+ |[[Ship Weapons]]
+ |[[Engineering]]
+}}

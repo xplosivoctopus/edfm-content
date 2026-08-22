@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Exploration
+Namespace: 0
+Page ID: 181
+Revision ID: 919
+Timestamp: 2026-08-18T13:17:37Z
+Source URL: https://edfieldmanual.com/wiki/Exploration
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+
+Index for long-range travel, scanning, and discovery content — see [[:Category:Exploration]].
+
+{{Draft warning}}
+No individual exploration articles exist yet.
+
+{{Related articles|[[Exobiology]] [[Game Reference]] [[Tools and Resources]]}}
+[[Category:Exploration]]

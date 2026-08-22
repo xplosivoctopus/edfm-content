@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Mining
+Namespace: 14
+Page ID: 151
+Revision ID: 232
+Timestamp: 2026-08-07T21:59:16Z
+Source URL: https://edfieldmanual.com/wiki/Category:Mining
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Extracting and refining minerals and metals from asteroids and rings.
+
+[[Category:Gameplay]]

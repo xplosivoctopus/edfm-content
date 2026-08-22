@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Verified game mode
+Namespace: 10
+Page ID: 23
+Revision ID: 23
+Timestamp: 2026-08-06T19:51:22Z
+Source URL: https://edfieldmanual.com/wiki/Template:Verified_game_mode
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<span class="edfm-inline-flag">[{{{1|Live}}}]</span><noinclude>
+== Usage ==
+Small inline badge for a specific fact or section: <pre>{{Verified game mode|Live}}</pre>
+[[Category:Templates]]
+</noinclude>

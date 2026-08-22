@@ -1,0 +1,33 @@
+<!--
+EDFM current-content archive export.
+Title: Thargoid War History
+Namespace: 0
+Page ID: 179
+Revision ID: 266
+Timestamp: 2026-08-07T22:11:00Z
+Source URL: https://edfieldmanual.com/wiki/Thargoid_War_History
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Galactic Archive|deck=A structural placeholder for the Thargoid War's history — proving the Archive content family, not yet populated with verified events.}}
+{{Article status|status=Draft|mode=Historical|version=Not yet researched|reviewed=2026-08-07|reviewer=Structural placeholder only — no historical claims have been researched or verified for this pass|source_quality=Unassessed|uncertainty=Every event, date, and outcome on this page is a placeholder until independently researched — see Editorial Policy on not inventing facts}}
+
+{{Historical warning|No specific Thargoid War events are documented on this page yet — see the Draft notice below.}}
+
+{{Draft warning}}
+This page exists to prove EDFM's Galactic Archive structure (see [[Elite Dangerous Field Manual:Engineering Architecture]]-style content architecture documentation), not as a researched account of the Thargoid War. No dates, battles, or outcomes below have been verified — do not treat anything on this page as settled fact until it carries real sourcing and a non-Draft status.
+
+== What belongs here ==
+A chronological account of the Thargoid War: its opening incursions, major fleet actions, the Titans, human/Guardian counter-technology, and its eventual resolution — covering what happened and when, for readers who want the history rather than current-play instructions. Current Thargoid gameplay mechanics (combat, technology, materials) belong on [[Thargoid]] instead; this page is specifically the historical timeline.
+
+== Overview ==
+To be researched.
+
+== Sources ==
+None yet — to be added once this page has real content.
+
+{{Related articles|[[Thargoid]] [[Guardian]] [[Lore and History]]}}
+
+[[Category:Galactic Archive]]
+[[Category:History]]
+[[Category:Thargoid]]

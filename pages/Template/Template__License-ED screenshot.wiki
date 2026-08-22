@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Template:License-ED screenshot
+Namespace: 10
+Page ID: 228
+Revision ID: 355
+Timestamp: 2026-08-08T00:05:08Z
+Source URL: https://edfieldmanual.com/wiki/Template:License-ED_screenshot
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Frontier assets notice}}<includeonly>[[Category:Elite Dangerous screenshots]]</includeonly><noinclude>
+== Usage ==
+The license value inserted automatically when a contributor picks '''"Elite Dangerous in-game screenshot"''' from the Licensing dropdown on <code>Special:Upload</code>. Wraps the shared {{tl|Frontier assets notice}} wording and adds [[:Category:Elite Dangerous screenshots]]. For a screenshot that also needs the fuller metadata fields (description, subject, capture date, etc.), use {{tl|Elite Dangerous screenshot}} on the file page instead — it includes this same notice.
+[[Category:Templates]]
+</noinclude>

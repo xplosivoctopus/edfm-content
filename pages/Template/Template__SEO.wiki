@@ -1,0 +1,41 @@
+<!--
+EDFM current-content archive export.
+Title: Template:SEO
+Namespace: 10
+Page ID: 341
+Revision ID: 912
+Timestamp: 2026-08-18T13:16:31Z
+Source URL: https://edfieldmanual.com/wiki/Template:SEO
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<noinclude>
+This template lets an editor set this page's own SEO title, meta description,
+and/or mark it as a placeholder that shouldn't be indexed yet, without writing
+any HTML or raw parser-function syntax.
+
+'''Usage''' (all parameters optional, use only what you need):
+
+<pre>
+{{SEO
+ |title       = Custom search-result/browser-tab title
+ |description = Custom meta description (aim for roughly 150-160 characters)
+ |noindex     = yes
+}}
+</pre>
+
+Place it near the top of the article, above or below {{tl|Article status}}.
+
+If you're marking a page as a placeholder, {{tl|Article status}} itself now
+also accepts a <code>noindex=yes</code> parameter directly, which is usually
+more convenient than adding a separate {{SEO}} call just for that one thing.
+
+When no {{SEO|title=}}/{{SEO|description=}} is given, EDFM generates a
+plain mechanical fallback automatically (page name + site name; "X reference
+for Elite Dangerous commanders...") -- set them explicitly only when a more
+specific, human-written title or description would genuinely help search
+results or social shares. Most pages don't need this template at all.
+
+See [[Elite Dangerous Field Manual:Editorial Policy]] for EDFM's general
+content standards.
+</noinclude><includeonly>{{#seo:{{#if:{{{title|}}}|title={{{title}}}|}}|{{#if:{{{description|}}}|description={{{description}}}|}}|{{#if:{{{noindex|}}}|noindex={{{noindex}}}|}}}}</includeonly>

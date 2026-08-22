@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:UI screenshots
+Namespace: 14
+Page ID: 266
+Revision ID: 412
+Timestamp: 2026-08-08T15:50:50Z
+Source URL: https://edfieldmanual.com/wiki/Category:UI_screenshots
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Screenshots of the game's user interface (HUD, panels, menus) rather than a ship, character, or location.
+
+[[Category:Media]]

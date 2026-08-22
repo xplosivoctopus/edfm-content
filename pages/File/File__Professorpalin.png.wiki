@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: File:Professorpalin.png
+Namespace: 6
+Page ID: 240
+Revision ID: 363
+Timestamp: 2026-08-08T00:08:15Z
+Source URL: https://edfieldmanual.com/wiki/File:Professorpalin.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Professor Palin Headshot
+== Licensing ==
+{{License-ED screenshot}}

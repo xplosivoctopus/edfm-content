@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Repair Limpet Controller
+Namespace: 828
+Page ID: 581
+Revision ID: 1368
+Timestamp: 2026-08-21T00:00:34Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Repair_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Repair Limpet Controller",
+}

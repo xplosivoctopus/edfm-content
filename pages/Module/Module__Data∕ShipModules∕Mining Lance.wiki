@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Mining Lance
+Namespace: 828
+Page ID: 528
+Revision ID: 1315
+Timestamp: 2026-08-20T23:59:54Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Mining_Lance
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Mining Lance",
+}

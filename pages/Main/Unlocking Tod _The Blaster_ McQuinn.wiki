@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Tod "The Blaster" McQuinn
+Namespace: 0
+Page ID: 625
+Revision ID: 1525
+Timestamp: 2026-08-21T14:41:15Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Tod_%22The_Blaster%22_McQuinn
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Tod "The Blaster" McQuinn — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Tod "The Blaster" McQuinn]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Tod "The Blaster" McQuinn]].
+
+== Objective ==
+Gain access to [[Tod "The Blaster" McQuinn]]'s Engineer services at Trophy Camp in Wolf 397.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Tod McQuinn's whereabouts are '''common knowledge'''.
+* '''Invitation:''' Earn '''more than 15 bounty vouchers'''.
+* Earn '''more than 15 bounty vouchers'''.
+* Provide Tod with '''100,000 CR worth of bounty vouchers''' through the Engineer unlock interface.
+}}
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Earn '''more than 15 bounty vouchers'''.
+# Hold at least '''100,000 CR worth of bounty vouchers''' for Tod's unlock.
+# Travel to '''Trophy Camp''' in Wolf 397.
+# Provide Tod with '''100,000 CR worth of bounty vouchers''' through the Engineer unlock interface.
+# Enter the Engineer workshop and begin increasing your reputation with Tod.
+}}
+
+== Expected Result ==
+{{Expected result|[[Tod "The Blaster" McQuinn]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Tod "The Blaster" McQuinn]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] Bounty Vouchers Wolf 397 Engineer Reputation Resource Extraction Site Navigation Beacon Bounty Hunting}}
+
+== Sources ==
+This procedure was extracted from the current [[Tod "The Blaster" McQuinn]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

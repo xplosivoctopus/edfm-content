@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Trader's Rest
+Namespace: 0
+Page ID: 358
+Revision ID: 995
+Timestamp: 2026-08-20T01:37:42Z
+Source URL: https://edfieldmanual.com/wiki/Trader%27s_Rest
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=Lei Cheung's Engineering workshop, a surface base on Laksak A 1.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced station record
+}}
+
+'''Trader's Rest''' is a surface Engineer base in the '''[[Laksak]]''' system, and the workshop of '''[[Lei Cheung]]'''.<ref name="inara-traders-rest">[https://inara.cz/elite/station/52146/ Trader's Rest in Laksak — Station], Inara.</ref>
+
+== Location ==
+
+* '''System:''' [[Laksak]]
+* '''Body:''' Laksak A 1
+* '''Landing pad:''' Large
+* '''Permit required:''' No<ref name="inara-traders-rest" />
+* '''Government:''' Independent <small>(Colony economy)</small><ref name="inara-traders-rest" />
+
+== Engineer ==
+
+Trader's Rest is operated by '''[[Lei Cheung]]'''. He is reached through a referral from [[The Dweller]] — see [[Lei Cheung]] for the full discovery, invitation, and unlock requirements to access his workshop.
+
+== Station Services ==
+
+Trader's Rest offers a commodity market, outfitting, refuelling, repairs, and shipyard services, in addition to Lei Cheung's Engineering workshop.<ref name="inara-traders-rest" />
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Lei Cheung]] [[Laksak]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

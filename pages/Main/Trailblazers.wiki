@@ -1,0 +1,34 @@
+<!--
+EDFM current-content archive export.
+Title: Trailblazers
+Namespace: 0
+Page ID: 180
+Revision ID: 808
+Timestamp: 2026-08-15T04:32:30Z
+Source URL: https://edfieldmanual.com/wiki/Trailblazers
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Game Update|deck=The Update 3 revision of the Trailblazers season, reworking Colonisation's system economy.}}
+{{Article status|status=Needs review|mode=Live|version=Update 3, released 2025-04-30|reviewed=2026-08-07|reviewer=Desk research cross-referencing Inara's Trailblazers coverage against a WebSearch summary corroborating the same date; Frontier's own update-notes page could not be fetched directly (HTTP 403, same access pattern already logged elsewhere on this wiki) — see Sources|source_quality=Date corroborated by two independent sources (Inara, a search-aggregated summary); the specific client version string (4.1.2.0) is inferred from Frontier's own update-notes URL slug rather than confirmed from readable page content|uncertainty=Exact client version string not independently confirmed from Frontier's own page text — see Article status reviewer note}}
+
+{{Game update infobox
+ |release_date = 2025-04-30
+ |version = Update 3 (client version widely cited as 4.1.2.0, per Frontier's own update-notes URL — not independently confirmed from readable page text)
+ |platform = PC, Xbox, PlayStation
+ |major_features = [[Colonisation]] system-economy rework
+ |preceded_by = Earlier Trailblazers updates (not yet documented on EDFM)
+ |followed_by = Not yet documented on EDFM
+}}
+
+'''Trailblazers Update 3''' is a revision within the Trailblazers season, released 30 April 2025. Its most significant change was a rework of [[Colonisation]]'s system economy — including how economies develop, population growth, and automatic linking between completed constructions within a system.<ref name="inara-tb3">[https://inara.cz/morps/article/45827/ Elite Dangerous | Trailblazers | Update 3], Inara.</ref>
+
+This page is a demonstration/proof-of-concept for EDFM's Game Update page pattern — it is not yet a complete account of everything the update changed.
+
+== Sources ==
+<references />
+
+{{Related articles|[[Colonisation]] [[Operations]]}}
+
+[[Category:Updates]]
+[[Category:Colonisation]]

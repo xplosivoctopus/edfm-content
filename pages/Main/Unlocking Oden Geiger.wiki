@@ -1,0 +1,117 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Oden Geiger
+Namespace: 0
+Page ID: 654
+Revision ID: 1517
+Timestamp: 2026-08-21T14:41:06Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Oden_Geiger
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Oden Geiger — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Oden Geiger]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Oden Geiger]].
+
+== Objective ==
+Gain access to [[Oden Geiger]]'s Engineer services in Candiaei.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Oden Geiger is discovered through [[Terra Velasquez]].
+* '''Invitation:''' There is no separate invitation requirement after Terra Velasquez has referred Oden.
+* Unlock [[Jude Navarro]].
+* Provide Jude with '''5 Genetic Repair Meds''' to discover [[Terra Velasquez]].
+* Provide Terra with '''15 Financial Projections''' to discover Oden Geiger.
+* Obtain any combination of Biological Samples, Employee Genetic Data, and Genetic Research.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Oden's Unlock Materials'''
+Oden's three qualifying unlock materials are split between physical '''Goods''' and stored '''Data'''.
+
+{| class="wikitable"
+! Material
+! Type
+! Current acquisition locations
+|-
+| Biological Sample
+| Goods
+| STO buildings, AGRI buildings
+|-
+| Employee Genetic Data
+| Data
+| RES buildings, MED rooms, CMD buildings, mission rewards
+|-
+| Genetic Research
+| Data
+| MED rooms, RES buildings, AGRI buildings, mission rewards
+|}
+
+=== Biological Samples ==
+
+Biological Samples are physical Odyssey '''Goods'''.
+
+Current material data lists them in:
+
+* '''STO buildings'''
+* '''AGRI buildings'''
+
+Because they are Goods, Biological Samples occupy physical Odyssey Goods storage.
+
+{{Tip|Agricultural settlements are particularly useful for Oden's unlock because their loot pools can contain both Biological Samples and Genetic Research.}}
+
+=== Employee Genetic Data ==
+
+Employee Genetic Data is Odyssey '''Data'''.
+
+Current material data lists it in:
+
+* '''RES buildings'''
+* '''MED rooms'''
+* '''CMD buildings'''
+* '''mission rewards'''
+
+Because it is Data, Employee Genetic Data does not occupy the physical Goods section of the suit backpack.
+
+=== Genetic Research ==
+
+Genetic Research is Odyssey '''Data'''.
+
+Current material data lists it in:
+
+* '''MED rooms'''
+* '''RES buildings'''
+* '''AGRI buildings'''
+* '''mission rewards'''
+
+Unlike Employee Genetic Data, Genetic Research is also used in some Odyssey modification recipes, including Combat Movement Speed.
+
+{{Tip|Because Oden accepts any combination of the three materials, there is no reason to deliberately farm equal quantities. Use whichever qualifying material you can acquire most efficiently until the combined total reaches 20.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Unlock [[Jude Navarro]].
+# Provide Jude with '''5 Genetic Repair Meds''' to discover [[Terra Velasquez]].
+# Complete Terra's unlock requirement.
+# Provide Terra with '''15 Financial Projections''' to discover Oden Geiger.
+# Obtain any combination of Biological Samples, Employee Genetic Data, and Genetic Research.
+# Sell a combined total of '''20''' qualifying materials to bartenders.
+# Travel to '''Ankh's Promise''' on '''Candiaei 9 c'''.
+# Access Oden Geiger's Engineer workshop.
+}}
+
+== Expected Result ==
+{{Expected result|[[Oden Geiger]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Oden Geiger]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Terra Velasquez]] Financial Projections Biological Sample Employee Genetic Data Genetic Research [[Jude Navarro]]}}
+
+== Sources ==
+This procedure was extracted from the current [[Oden Geiger]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey Engineers]]

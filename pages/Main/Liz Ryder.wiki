@@ -1,0 +1,457 @@
+<!--
+EDFM current-content archive export.
+Title: Liz Ryder
+Namespace: 0
+Page ID: 106
+Revision ID: 1430
+Timestamp: 2026-08-21T14:38:30Z
+Source URL: https://edfieldmanual.com/wiki/Liz_Ryder
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=An independent explosive-weapons Engineer based at Demolition Unlimited in Eurybia, opening the branches to Hera Tani and Etienne Dorn.
+}}
+
+{{Engineer infobox}}
+
+'''Liz Ryder''' is a ship Engineer based at '''Demolition Unlimited''' in the [[Eurybia]] system. She is one of the independent starting Engineers: no referral from another Engineer is required before a Commander can meet and unlock her.<ref name="inara-liz">[https://inara.cz/elite/engineer/5/ Liz Ryder — Engineer], Inara.</ref>
+
+Liz specialises primarily in '''explosive weapons'''. She provides '''Grade 5 Missile Rack, Seeker Missile Rack, and Torpedo Pylon Engineering''', Mine Launcher Engineering through Grade 3, and lower-grade Armour and Hull Reinforcement Package Engineering.<ref name="inara-liz" />
+
+In Live, her workshop also supports several Operations-era blueprints for compatible Merc weapons and mining equipment, including Abrasion Blasters, Enzyme Missile Racks, Mining Lasers, and additional Seeker Missile Rack modifications.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+{{Field note|Liz is one of the independent entry points into ship Engineering. [[Felicity Farseer]], [[Elvira Martuuk]], [[Tod "The Blaster" McQuinn]], and [[The Dweller]] are separate starting Engineers; none of them must be unlocked before Liz.}}
+
+== Location ==
+
+* '''System:''' [[Eurybia]]
+* '''Facility:''' [[Demolition Unlimited]]
+* '''Body:''' Makalu
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' No
+* '''System permit required:''' No
+
+Demolition Unlimited is a surface Engineer base on '''Makalu''' in Eurybia.<ref name="inara-demolition">[https://inara.cz/elite/station-market/?search=Demolition+Unlimited%5BEurybia%5D Demolition Unlimited — Station], Inara.</ref>
+
+== How to Discover Liz Ryder ==
+
+Liz Ryder is known through '''public sources''' and does not require a referral from another Engineer.<ref name="inara-liz" />
+
+This makes her one of the independent starting points in the ship Engineer network.
+
+== How to Receive an Invitation ==
+
+Reach at least '''Cordial reputation''' with the [[Eurybia Blue Mafia]].<ref name="inara-liz" /><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+The Eurybia Blue Mafia is an independent minor faction whose home system is Eurybia.<ref name="inara-ebm">[https://inara.cz/elite/minorfaction/33941/ Eurybia Blue Mafia — Minor Faction], Inara.</ref>
+
+Reputation can be raised by completing activities for the faction, with missions offering '''REP''' rewards being a straightforward method.
+
+Because minor-faction presence and station control can change through the Background Simulation, use current faction information when looking for places where Eurybia Blue Mafia missions are available rather than relying on a permanently fixed station list.
+
+See [[Minor Faction Reputation]] for how faction reputation works and how to raise it efficiently.
+
+{{Field note|The reputation requirement concerns your standing with the '''Eurybia Blue Mafia'''. It is separate from your Engineer reputation with Liz Ryder, which does not begin until Liz herself has been unlocked.}}
+
+== How to Unlock Liz Ryder ==
+
+Unlock requirements summary:
+* Reach at least '''Cordial reputation''' with the [[Eurybia Blue Mafia]].
+* Obtain '''200 units of [[Landmines]]'''.
+* Donate the 200 Landmines to Liz Ryder.
+{{Important|'''Landmines are ordinary cargo commodities.''' They are not Raw, Manufactured, or Encoded Engineering materials. Each unit occupies one tonne of cargo space, so transporting the entire unlock requirement at once requires '''200 tonnes of cargo capacity'''.}}
+
+For the complete step-by-step process, see [[Unlocking Liz Ryder]].
+
+== Obtaining Landmines ==
+
+[[Landmines]] are a Weapons commodity that can be purchased through commodity markets.<ref name="inara-landmines" />
+
+Current commodity data lists them as normally produced by '''Military surface economies'''.<ref name="inara-landmines" />
+
+You do '''not''' need to manufacture, salvage, or destroy anything to obtain Liz's unlock cargo.
+
+{{Tip|Use current commodity-market information to locate a nearby source with enough supply rather than relying on an old fixed station. Liz requires 200 units, so check both the available supply and your ship's cargo capacity before departing.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also offer Landmines when another Commander has placed them on the carrier market. Carrier inventory and prices are player-controlled and can change.
+
+{{Field note|Landmines are prohibited in some jurisdictions. Check the legal status of your cargo where relevant when transporting them.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Liz is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-liz" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Liz Ryder can be increased by:
+
+* crafting Engineering modifications at Demolition Unlimited; or
+* selling commodities at Demolition Unlimited.<ref name="inara-liz" />
+
+Higher Engineer reputation gives access to the higher grades Liz supports for each blueprint.
+
+Reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' allows Liz to provide referrals to [[Hera Tani]] and [[Etienne Dorn]].<ref name="newp-engineers" /><ref name="inara-hera">[https://inara.cz/elite/engineer/12/ Hera Tani — Engineer], Inara.</ref><ref name="inara-dorn">[https://inara.cz/elite/engineer/23/ Etienne Dorn — Engineer], Inara.</ref>
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have ordinary commodities to sell after unlocking Liz, selling them at Demolition Unlimited can help increase your Engineer reputation without relying entirely on Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Liz Ryder is one of the independent starting points in the ship Engineer network.
+
+After reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''', she provides referrals to:
+
+* [[Hera Tani]]
+* [[Etienne Dorn]] — Colonia
+
+Hera Tani subsequently leads to [[Broo Tarquin]] and [[Tiana Fortune]].<ref name="inara-broo">[https://inara.cz/elite/engineer/15/ Broo Tarquin — Engineer], Inara.</ref><ref name="inara-tiana">[https://inara.cz/elite/engineer/16/ Tiana Fortune — Engineer], Inara.</ref>
+
+The branch is therefore:
+
+<pre>
+Liz Ryder
+├── Hera Tani
+│   ├── Broo Tarquin
+│   └── Tiana Fortune
+└── Etienne Dorn [Colonia]
+</pre>
+
+{{Field note|[[Etienne Dorn]] is a direct referral from Liz Ryder. He is not reached through Hera Tani. Likewise, [[Broo Tarquin]] and [[Tiana Fortune]] are referrals from Hera rather than direct referrals from Liz.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Liz's current Engineering coverage is shown below. Where individual blueprints have a lower limit than the module's overall maximum grade, that limit is shown explicitly.<ref name="inara-liz" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Missile Rack]]
+|
+* High Capacity
+* Lightweight
+* Rapid Fire
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Seeker Missile Rack]]
+|
+* High Capacity — Grade 5
+* Lightweight — Grade 5
+* Rapid Fire — Grade 5
+* Sturdy — Grade 5
+* Drag — Grade 3 <small>(Live only; compatible Merc modules)</small>
+* Lightweight Thermal — Grade 3 <small>(Live only; compatible Merc modules)</small>
+* Lockdown — Grade 3 <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Torpedo Pylon]]
+|
+* Lightweight
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Mine Launcher]]
+|
+* High Capacity
+* Lightweight
+* Rapid Fire
+* Sturdy
+| '''Grade 3'''
+|-
+| [[Abrasion Blaster]]
+|
+* Far-reaching <small>(Live only; compatible Merc modules)</small>
+| '''Grade 3'''
+|-
+| [[Enzyme Missile Rack]]
+|
+* High-yield <small>(Live only; compatible Merc modules)</small>
+| '''Grade 3'''
+|-
+| [[Mining Laser]]
+|
+* Long Range <small>(Live only; compatible Merc modules)</small>
+| '''Grade 3'''
+|-
+| [[Armour]]
+|
+* Blast Resistant
+* Heavy Duty
+* Kinetic Resistant
+* Lightweight
+* Thermal Resistant
+| '''Grade 1'''
+|-
+| [[Hull Reinforcement Package]]
+|
+* Blast Resistant
+* Heavy Duty
+* Kinetic Resistant
+* Lightweight
+* Thermal Resistant
+| '''Grade 1'''
+|}
+
+Liz's primary maximum-grade specialties are therefore '''Missile Racks, Seeker Missile Racks, and Torpedo Pylons'''.
+
+== Operations-era Engineering ==
+
+The Operations-era Engineering system added several new blueprints to Liz Ryder's workshop.<ref name="frontier-operations" />
+
+These modifications are available only in '''Live''' and require compatible '''Merc modules'''.
+
+They also use [[Merc Coin]] as part of their Engineering costs.
+
+=== Far-reaching Abrasion Blaster ===
+
+'''Far-reaching''' increases Abrasion Blaster range and projectile speed while reducing power draw, distributor draw, and thermal load, at the cost of module integrity.<ref name="inara-abrasion">[https://inara.cz/elite/blueprint/217/ Abrasion Blaster — Far-reaching], Inara.</ref>
+
+Liz can apply Far-reaching through '''Grade 3'''.
+
+For Grade 4 and Grade 5, the module must be taken to [[Juri Ishmaak]].<ref name="inara-abrasion" />
+
+{{Important|Far-reaching can only be applied to compatible '''Merc Abrasion Blasters'''.}}
+
+=== High-yield Enzyme Missile Rack ===
+
+'''High-yield''' increases Enzyme Missile Rack ammunition and magazine capacity, with higher grades also increasing ammunition reserves, at the cost of additional mass and power draw.<ref name="inara-enzyme">[https://inara.cz/elite/blueprint/224/ Enzyme Missile Rack — High-yield], Inara.</ref>
+
+Liz can apply High-yield through '''Grade 3'''.
+
+[[Juri Ishmaak]] can apply the same blueprint through Grade 5.<ref name="inara-enzyme" />
+
+{{Important|High-yield can only be applied to compatible '''Merc Enzyme Missile Racks'''.}}
+
+=== Long Range Mining Laser ===
+
+'''Long Range''' greatly increases Mining Laser effective range while changing its power, distributor, heat, integrity, and damage characteristics.<ref name="inara-mining-long">[https://inara.cz/elite/blueprint/218/ Mining Laser — Long Range], Inara.</ref>
+
+Liz can apply Long Range through '''Grade 3'''.
+
+[[Juri Ishmaak]] can apply it through Grade 5.<ref name="inara-mining-long" />
+
+{{Important|Long Range Mining Laser Engineering can only be applied to compatible '''Merc Mining Lasers'''.}}
+
+=== Additional Seeker Missile Rack blueprints ===
+
+Liz also provides three Live-only Seeker Missile Rack blueprints:
+
+* '''Drag''' — through Grade 3
+* '''Lightweight Thermal''' — through Grade 3
+* '''Lockdown''' — through Grade 3<ref name="inara-seeker-drag">[https://inara.cz/elite/blueprint/219/ Seeker Missile Rack — Drag], Inara.</ref><ref name="inara-seeker-lightthermal">[https://inara.cz/elite/blueprint/220/ Seeker Missile Rack — Lightweight Thermal], Inara.</ref><ref name="inara-seeker-lockdown">[https://inara.cz/elite/blueprint/221/ Seeker Missile Rack — Lockdown], Inara.</ref>
+
+[[Juri Ishmaak]] can take each of these newer blueprints through Grade 5.
+
+{{Important|These three blueprints apply only to compatible '''Merc Seeker Missile Racks'''.}}
+
+{{Field note|The '''Drag''' Seeker Missile blueprint is a normal Engineering blueprint and is separate from the [[Drag Munitions]] Experimental Effect. A compatible weapon may use the Drag blueprint and then receive an Experimental Effect separately where allowed.}}
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible weapon or defensive module can normally have one Experimental Effect in addition to its blueprint modification.
+
+Liz can apply Experimental Effects to Missile Racks, Seeker Missile Racks, Torpedo Pylons, Mine Launchers, Armour, and Hull Reinforcement Packages.
+
+Her current Abrasion Blaster, Enzyme Missile Rack, and Mining Laser blueprints do not have Experimental Effects available.<ref name="inara-abrasion" /><ref name="inara-enzyme" /><ref name="inara-mining-long" />
+
+=== Missile Rack ===
+
+Available Missile Rack Experimental Effects include:<ref name="inara-missile">[https://inara.cz/elite/blueprint/174/ Missile Rack — High Capacity], Inara.</ref>
+
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[FSD Interrupt]]
+* [[Multi-servos]]
+* [[Overload Munitions]]
+* [[Oversized]]
+* [[Penetrator Munitions]]
+* [[Stripped Down]]
+* [[Thermal Cascade]]
+
+=== Seeker Missile Rack ===
+
+Available Seeker Missile Rack Experimental Effects include:<ref name="inara-seeker-drag" />
+
+* [[Double Braced]]
+* [[Drag Munitions]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Multi-servos]]
+* [[Overload Munitions]]
+* [[Oversized]]
+* [[Stripped Down]]
+* [[Thermal Cascade]]
+
+=== Torpedo Pylon ===
+
+Available Torpedo Pylon Experimental Effects include:
+
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Mass Lock Munition]]
+* [[Oversized]]
+* [[Penetrator Payload]]
+* [[Reverberating Cascade]]
+* [[Stripped Down]]
+
+=== Mine Launcher ===
+
+Available Mine Launcher Experimental Effects include:<ref name="inara-mine">[https://inara.cz/elite/blueprint/28/ Mine Launcher — High Capacity], Inara.</ref>
+
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Ion Disruption]]
+* [[Overload Munitions]]
+* [[Oversized]]
+* [[Radiant Canister]]
+* [[Reverberating Cascade]]
+* [[Shift-lock Canister]]
+* [[Stripped Down]]
+
+=== Armour ===
+
+Available Armour Experimental Effects include:
+
+* [[Angled Plating]]
+* [[Deep Plating]]
+* [[Layered Plating]]
+* [[Reflective Plating]]
+
+=== Hull Reinforcement Package ===
+
+Available Hull Reinforcement Package Experimental Effects include:
+
+* [[Angled Plating]]
+* [[Deep Plating]]
+* [[Layered Plating]]
+* [[Reflective Plating]]
+
+{{Field note|Liz can apply compatible Experimental Effects even when her own maximum blueprint grade for that module is lower. For example, Armour engineered to Grade 5 by [[Selene Jean]] can still be taken to Liz for a compatible Armour Experimental Effect.}}
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Important|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Engineering ==
+
+Liz's strongest conventional Engineering is focused on explosive weapons.
+
+=== Seeker Missile Racks ===
+
+Seeker Missiles are ammunition-limited weapons, making ammunition capacity an important consideration for sustained combat.
+
+{{Tip|'''Common general-purpose choice: High Capacity'''
+
+[[High Capacity Seeker Missile Rack]] is a strong general-purpose choice when additional ammunition and magazine capacity are more valuable than minimizing weapon mass and power draw.
+
+Liz provides the conventional High Capacity blueprint through '''Grade 5'''.}}
+
+The best Experimental Effect depends on the intended role.
+
+Examples include:
+
+* [[Drag Munitions]] for reducing a target's ability to gain thrust from ENG distribution;
+* [[Emissive Munitions]] for increasing the target's signature;
+* [[Overload Munitions]] for converting part of the explosive damage to thermal damage; and
+* [[Thermal Cascade]] for adding heat pressure against shielded targets.
+
+=== Missile Racks ===
+
+Liz also provides conventional Missile Rack Engineering through Grade 5.
+
+[[High Capacity Missile Rack|High Capacity]] is useful for ammunition-focused builds, while effects such as [[FSD Interrupt]] or [[Penetrator Munitions]] can give dumbfire missiles specialised utility.
+
+=== Torpedo Pylons ===
+
+Torpedoes have highly specialised combat applications.
+
+Experimental Effects such as [[Reverberating Cascade]] can make Torpedo Pylons useful in anti-shield-generator roles, while [[Penetrator Payload]] focuses on internal-module damage.
+
+Their limited ammunition makes them a specialised choice rather than a general-purpose weapon for sustained engagements.
+
+=== Armour and Hull Reinforcement ===
+
+Liz only provides Grade 1 Armour and Hull Reinforcement Package blueprints.
+
+These are useful for early Engineering and for applying Experimental Effects, but Commanders seeking full Grade 5 hull Engineering should use [[Selene Jean]] or [[Petra Olmanova]].
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Liz, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[High Capacity Seeker Missile Rack]] is a practical blueprint to consider pinning at Liz.
+
+Liz provides the conventional High Capacity Seeker Missile Rack blueprint through '''Grade 5''', and ammunition capacity is useful on many Seeker Missile builds.
+
+If your fleet uses dumbfire Missile Racks more often than seekers, [[High Capacity Missile Rack]] is an equally reasonable alternative.}}
+
+Because Liz's Armour and Hull Reinforcement Package Engineering stops at Grade 1, those are generally poor uses of her blueprint pin compared with one of her Grade 5 explosive-weapon blueprints.
+
+Blueprint pinning should reflect the weapons and builds you actually use.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Effects such as [[Drag Munitions]], [[FSD Interrupt]], or [[Reverberating Cascade]] still require visiting an appropriate Engineer workshop.}}
+
+== What Liz Cannot Fully Engineer ==
+
+Liz provides Grade 5 Engineering for her main conventional missile specialties, but several other modules stop at lower grades.
+
+Her maximum grades are:
+
+* '''Missile Rack:''' Grade 5
+* '''Seeker Missile Rack:''' Grade 5 for conventional blueprints
+* '''Torpedo Pylon:''' Grade 5
+* '''Mine Launcher:''' Grade 3
+* '''Abrasion Blaster — Far-reaching:''' Grade 3 <small>(Live only)</small>
+* '''Enzyme Missile Rack — High-yield:''' Grade 3 <small>(Live only)</small>
+* '''Mining Laser — Long Range:''' Grade 3 <small>(Live only)</small>
+* '''Seeker Missile Rack — Drag:''' Grade 3 <small>(Live only)</small>
+* '''Seeker Missile Rack — Lightweight Thermal:''' Grade 3 <small>(Live only)</small>
+* '''Seeker Missile Rack — Lockdown:''' Grade 3 <small>(Live only)</small>
+* '''Armour:''' Grade 1
+* '''Hull Reinforcement Package:''' Grade 1<ref name="inara-liz" />
+
+For higher-grade alternatives:
+
+* [[Selene Jean]] provides '''Grade 5 Armour and Hull Reinforcement Package''' Engineering.
+* [[Petra Olmanova]] provides '''Grade 5 Armour and Hull Reinforcement Package''' Engineering in Colonia.
+* [[Juri Ishmaak]] provides '''Grade 5 Mine Launcher''' Engineering.
+* [[Petra Olmanova]] also provides '''Grade 5 Mine Launcher''' Engineering in Colonia.
+* In Live, [[Juri Ishmaak]] provides '''Grade 5 Far-reaching Abrasion Blaster, High-yield Enzyme Missile Rack, Long Range Mining Laser, Drag Seeker Missile Rack, Lightweight Thermal Seeker Missile Rack, and Lockdown Seeker Missile Rack''' Engineering.<ref name="inara-abrasion" /><ref name="inara-enzyme" /><ref name="inara-mining-long" /><ref name="inara-seeker-drag" /><ref name="inara-seeker-lightthermal" /><ref name="inara-seeker-lockdown" />
+
+Liz remains a primary Bubble Engineer for conventional Grade 5 Missile Racks, Seeker Missile Racks, and Torpedo Pylons.
+
+== What Next? ==
+
+Progressing Liz's reputation opens two separate Engineer paths.
+
+{{What next|title=Continue Engineering|
+* '''Power Plants and Power Distributors:''' [[Hera Tani]]
+* '''Colonia power systems, weapons, scanners, and Life Support:''' [[Etienne Dorn]]
+* '''Grade 5 thermal weapons after Hera:''' [[Broo Tarquin]]
+* '''Utility and scanner Engineering after Hera:''' [[Tiana Fortune]]
+* '''Higher-grade Mine Launcher and Operations-era weapon Engineering:''' [[Juri Ishmaak]]
+* '''Grade 5 Armour and Hull Reinforcement:''' [[Selene Jean]]
+* '''Raise the invitation reputation:''' [[Eurybia Blue Mafia]]
+* '''Get the unlock commodity:''' [[Landmines]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Weapon Engineering]]
+[[Category:Defensive Engineering]]
+[[Category:Engineering]]

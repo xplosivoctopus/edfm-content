@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Location images
+Namespace: 14
+Page ID: 265
+Revision ID: 411
+Timestamp: 2026-08-08T15:50:50Z
+Source URL: https://edfieldmanual.com/wiki/Category:Location_images
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Images identifying stations, settlements, planets, moons, systems, and other in-game locations.
+
+[[Category:Media]]

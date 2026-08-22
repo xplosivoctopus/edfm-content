@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: Engineering Blueprints
+Namespace: 0
+Page ID: 96
+Revision ID: 169
+Timestamp: 2026-08-07T20:12:41Z
+Source URL: https://edfieldmanual.com/wiki/Engineering_Blueprints
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Engineering|deck=Browse individual Engineering blueprint articles as they're written and verified.}}
+{{Article status|status=Draft|mode=Both}}
+
+Index of individual Engineering blueprint articles — see [[:Category:Engineering Blueprints]] for the full list as it grows. Each blueprint has its own page covering its grades, compatible modules, the Engineers who provide it, and compatible Experimental Effects; see [[Elite Dangerous Field Manual:Engineering Architecture]] for the page structure and [[Overcharged]] for a populated (but still placeholder-content) example. One page per blueprint covers every module it applies to — see the architecture page for why per-module duplicate pages aren't used.
+
+{{Draft warning}}
+
+== Blueprints ==
+{| class="wikitable"
+! Blueprint !! Applies to !! Maximum grade
+|-
+| [[Overcharged]] || Engineering data to be added || Engineering data to be added
+|}
+
+{{Engineering nav}}

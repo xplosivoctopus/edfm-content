@@ -1,0 +1,35 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Citing Sources
+Namespace: 4
+Page ID: 211
+Revision ID: 809
+Timestamp: 2026-08-15T04:32:31Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Citing_Sources
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How to cite sources on EDFM.
+
+== Formal citations: use <ref> tags ==
+The Cite extension is enabled — use ordinary <code>&lt;ref&gt;</code> tags, not a citation template:
+<pre>
+Deliver 50 units of Fujin Tea.&lt;ref&gt;[https://inara.cz/elite/engineer/15/ Broo Tarquin — engineer], Inara.&lt;/ref&gt;
+</pre>
+Reuse a named ref for the same source cited more than once on a page: <code>&lt;ref name="inara-broo"&gt;...&lt;/ref&gt;</code> the first time, <code>&lt;ref name="inara-broo" /&gt;</code> after. End every article that carries citations with a <code>== Sources ==</code> section containing <code>&lt;references /&gt;</code>. There is no <code><nowiki>{{cite web}}</nowiki></code> template on this wiki — plain <code>[url Title], Site, accessed YYYY-MM-DD.</code> inside the ref tag is the house format.
+
+== Marking uncertain content inline ==
+Not everything needs a footnote — for content that's uncertain rather than simply sourced, use the dedicated templates instead of (or alongside) a citation:
+* {{tl|Unverified claim}} — a single-source claim, not independently confirmed.
+* {{tl|Estimated information}} — an approximate/derived figure, not a measured one.
+* {{tl|Community observation}} — well-established community consensus without a known Frontier confirmation.
+
+See [[Elite Dangerous Field Manual:Source Quality Guide]] for the full tier system these correspond to, and how to fill in {{tl|Article status}}'s <code>source_quality</code> field.
+
+== Don't clutter every sentence ==
+If a whole section draws on the same one or two sources, it's fine to cite once per section rather than once per sentence, as long as it's unambiguous which claims the citation covers. Reserve per-sentence citation for genuinely contested or surprising figures.
+
+== Never copy text verbatim from other sites ==
+Research a fact, then write EDFM's own sentence describing it — never paste text from Inara, Fandom, Frontier's own site, or anywhere else, even with a citation attached. A citation records where a fact came from; it doesn't license copying the source's wording.
+
+{{Related articles|[[Elite Dangerous Field Manual:Source Quality Guide]] [[Elite Dangerous Field Manual:Verification Policy]]}}

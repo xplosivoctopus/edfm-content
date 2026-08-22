@@ -1,0 +1,22 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Callout
+Namespace: 10
+Page ID: 317
+Revision ID: 700
+Timestamp: 2026-08-12T16:01:15Z
+Source URL: https://edfieldmanual.com/wiki/Template:Callout
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-guide-callout edfm-guide-callout--{{{type|field-note}}}">
+<span class="edfm-guide-callout-label">{{{label|Field note}}}</span>
+<div class="edfm-guide-callout-body">
+{{{1|}}}
+</div>
+</div><noinclude>
+== Usage ==
+Generic Guided Encyclopedia callout. Prefer the wrapper templates when possible: {{tl|Field note}}, {{tl|Tip}}, {{tl|Warning}}, and {{tl|Important}}.
+<pre>{{Callout|type=warning|label=Warning|Never fly without rebuy.}}</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>

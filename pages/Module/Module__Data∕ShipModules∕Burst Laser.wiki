@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Burst Laser
+Namespace: 828
+Page ID: 454
+Revision ID: 1241
+Timestamp: 2026-08-20T23:59:00Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Burst_Laser
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Burst Laser",
+}

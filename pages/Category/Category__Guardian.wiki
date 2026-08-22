@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Guardian
+Namespace: 14
+Page ID: 153
+Revision ID: 234
+Timestamp: 2026-08-07T21:59:17Z
+Source URL: https://edfieldmanual.com/wiki/Category:Guardian
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Guardian ruins, technology, and related lore.
+
+[[Category:Gameplay]]

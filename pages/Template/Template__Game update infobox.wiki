@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Game update infobox
+Namespace: 10
+Page ID: 175
+Revision ID: 262
+Timestamp: 2026-08-07T22:10:59Z
+Source URL: https://edfieldmanual.com/wiki/Template:Game_update_infobox
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Infobox
+ |name = {{{name|{{PAGENAME}}}}}
+ |image = {{{image|}}}
+ |label1 = Release date |row1 = {{{release_date|}}}
+ |label2 = Version |row2 = {{{version|}}}
+ |label3 = Platform |row3 = {{{platform|}}}
+ |label4 = Major features |row4 = {{{major_features|}}}
+ |label5 = Preceded by |row5 = {{{preceded_by|}}}
+ |label6 = Followed by |row6 = {{{followed_by|}}}
+}}<noinclude>
+== Usage ==
+A named-parameter wrapper over {{tl|Infobox}} for Game Update articles —
+the second infobox wrapper built (after {{tl|Engineer infobox}}), plain
+Shape A (no structured-data backing), since a handful of Game Update
+pages don't yet need the JSON/Lua machinery. Empty fields hide
+automatically, same {{tl|Infobox}} mechanism.
+
+<pre>
+{{Game update infobox
+ |release_date = 2025-04-30
+ |version = Update 3 (client version 4.1.2.0 per Frontier's own update-notes URL)
+ |platform = PC, Xbox, PlayStation
+ |major_features = [[Colonisation]] economy rework
+ |preceded_by = [[Trailblazers|Trailblazers Update 2]]
+ |followed_by = To be added
+}}
+</pre>
+
+Link <code>major_features</code> to the mechanic pages this update
+introduced or changed — this is what lets
+<code>Special:WhatLinksHere</code> on the update page answer "what did
+this update affect," with no per-update category needed. See
+[[Elite Dangerous Field Manual:Updating Game Statistics]].
+[[Category:Templates]]
+</noinclude>

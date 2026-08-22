@@ -1,0 +1,182 @@
+<!--
+EDFM current-content archive export.
+Title: Engineers
+Namespace: 0
+Page ID: 95
+Revision ID: 1217
+Timestamp: 2026-08-20T23:57:19Z
+Source URL: https://edfieldmanual.com/wiki/Engineers
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineering
+ |deck=Directory of every currently available Engineer, including where to find them, how to unlock them, and what they can engineer.
+}}
+
+'''Engineers''' are specialists who modify ship modules, suits, and handheld weapons beyond their standard specifications. Each Engineer has a fixed workshop, access requirements, and a defined set of modifications they can perform.
+
+Ship Engineering and Odyssey Engineering are separate systems. '''Ship Engineers''' modify ship modules and exist in both Live and Legacy. '''Odyssey Engineers''' modify suits and handheld weapons and exist only in Live.
+
+This page is intended as a quick-reference directory: who the Engineers are, where they are located, what is required to unlock them, and what Engineering they provide. For step-by-step routes, preparation, material sourcing, and efficient unlock order, see the [[Engineer Unlock Guide]].
+
+{{Related articles
+ |label=Browse Engineering
+ |[[Engineer Unlock Guide]]
+ |[[Engineering Blueprints]]
+ |[[Experimental Effects]]
+ |[[Engineering Materials]]
+}}
+
+== How Engineer access works ==
+
+Ship Engineers generally have three stages of access:
+
+; Discovery
+: Determines when the Engineer becomes known to the Commander. Some Engineers are known without a referral, while others are introduced by another Engineer.
+
+; Meeting requirement
+: A condition that must be satisfied before the Engineer will allow the Commander to proceed. This may involve rank, reputation, travel distance, combat, trade, mining, or another activity.
+
+; Unlock requirement
+: The final payment, commodity delivery, material delivery, voucher hand-in, or other task required to gain access to the Engineer's workshop.
+
+For ship Engineers reached through another Engineer, the referral is normally received after reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with the referring Engineer.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+{{Field note|A referral only makes the next Engineer available to pursue. It does '''not''' bypass that Engineer's separate meeting, permit, rank, reputation, or unlock requirements.}}
+
+Unlocking a ship Engineer does not automatically provide access to every Engineering grade they offer. Reputation with that Engineer must be increased before their higher grades become available.
+
+Odyssey Engineers use a similar discovery and unlock structure, but they do '''not''' use the ship Engineer Grade 1–5 reputation progression. Suits and handheld weapons are upgraded separately, while Odyssey Engineers install individual modifications into available modification slots.
+
+{{Draft warning}}
+
+== Ship Engineers ==
+
+There are '''25 ship Engineers''': 20 in the core inhabited regions, four in Colonia, and Chloe Sedesi in the Witch Head Nebula.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+The Engineering column is intended as a quick-reference summary of each Engineer's module coverage.
+
+For conventional ship Engineering, the grade shown is the highest grade the Engineer can apply to that module. However, this is no longer universally a single module-wide value in Live: newer blueprint families can have their own Engineer lists and grade ceilings.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+{{Important|'''Live and Legacy differences'''
+
+Engineering introduced after the Live and Legacy versions diverged is marked '''Live only''' below where it adds an otherwise unavailable module or materially changes the grade shown in this directory.
+
+'''Merc''' indicates a blueprint that can only be applied to compatible Merc modules.
+
+Some module families also have additional Live-only blueprints without changing the maximum module grade shown here. For the exact blueprint-by-blueprint availability, see the individual Engineer article or [[Engineering Blueprints]].}}
+
+For example, [[Juri Ishmaak]] provides conventional Seeker Missile Rack Engineering only through Grade 3, but in Live he can take the Merc-only [[Drag Seeker Missile Rack|Drag]], [[Lightweight Thermal Seeker Missile Rack|Lightweight Thermal]], and [[Lockdown Seeker Missile Rack|Lockdown]] blueprints through Grade 5.<ref name="inara-seeker-drag">[https://inara.cz/elite/blueprint/219/ Seeker Missile Rack — Drag], Inara.</ref><ref name="inara-seeker-thermal">[https://inara.cz/elite/blueprint/220/ Seeker Missile Rack — Lightweight Thermal], Inara.</ref><ref name="inara-seeker-lockdown">[https://inara.cz/elite/blueprint/221/ Seeker Missile Rack — Lockdown], Inara.</ref>
+
+{{#invoke:Engineers|shipDirectory}}
+
+{{Field note|'''Variable Federal Combat Bond requirements:''' [[Juri Ishmaak]] can currently request either '''100,000 CR or 1,000,000 CR''' worth of Federal Combat Bonds, while [[Colonel Bris Dekker]] can request either '''1,000,000 CR or 10,000,000 CR'''.<ref name="inara-engineers" /> The determining conditions are not currently established. Use the value shown in your own Engineer invitation rather than assuming one amount is universal.}}
+
+== Odyssey Engineers ==
+
+There are '''13 Odyssey Engineers''': nine in the core inhabited regions and four in Colonia.<ref name="inara-engineers" />
+
+Odyssey Engineers modify suits and handheld weapons and are available only in '''Live'''.
+
+Unlike ship Engineering, Odyssey modifications are installed directly into available modification slots on upgraded suits and weapons. They do not use separate Grade 1–5 blueprint levels or the ship-Engineer reputation system.
+
+Several Odyssey Engineer access and referral requirements were reduced in Update 18.08. The requirements below use the current values rather than the original Odyssey launch requirements.<ref name="frontier-1808">[https://forums.frontier.co.uk/threads/elite-dangerous-type-8-update-18-08-wednesday-7th-august.627151/ Elite Dangerous — Type-8 Update 18.08], Frontier Developments.</ref>
+
+=== Core-region Odyssey Engineers ===
+
+The nine core-region Odyssey Engineers form three separate chains. [[Hero Ferrari]], [[Jude Navarro]], and [[Domino Green]] are independent starting Engineers and do not require referrals.
+
+{{Odyssey Engineer directory|colonia=false}}
+
+=== Colonia Odyssey Engineers ===
+
+The four Colonia Odyssey Engineers use a different access structure. [[Baltanos]], [[Eleanor Bresa]], and [[Rosa Dayette]] are independently available. Each has a separate referral task for [[Yi Shen]], and '''all three''' referral tasks must be completed before Yi Shen becomes available.
+
+{{Odyssey Engineer directory|colonia=true}}
+
+== Ship Engineer unlock chains ==
+
+The ship Engineer network has five independent starting points:
+
+* [[Felicity Farseer]]
+* [[Elvira Martuuk]]
+* [[The Dweller]]
+* [[Tod "The Blaster" McQuinn]]
+* [[Liz Ryder]]
+
+The chains below show '''referral relationships only'''. Engineers farther down a branch can still have their own rank, reputation, permit, activity, and unlock requirements.
+
+=== Felicity Farseer chain ===
+
+* '''[[Felicity Farseer]]'''
+** [[Juri Ishmaak]]
+*** [[The Sarge]]
+*** [[Colonel Bris Dekker]]
+
+=== Elvira Martuuk chain ===
+
+* '''[[Elvira Martuuk]]'''
+** [[Marco Qwent]]
+*** [[Professor Palin]]
+*** [[Chloe Sedesi]]
+*** [[Lori Jameson]]
+** [[Zacariah Nemo]]
+** [[Mel Brandon]]
+
+=== The Dweller chain ===
+
+* '''[[The Dweller]]'''
+** [[Lei Cheung]]
+*** [[Ram Tah]]
+** [[Marsha Hicks]]
+
+=== Tod McQuinn chain ===
+
+* '''[[Tod "The Blaster" McQuinn]]'''
+** [[Selene Jean]]
+*** [[Bill Turner]]
+*** [[Didi Vatermann]]
+** [[Petra Olmanova]]
+
+=== Liz Ryder chain ===
+
+* '''[[Liz Ryder]]'''
+** [[Hera Tani]]
+*** [[Broo Tarquin]]
+*** [[Tiana Fortune]]
+** [[Etienne Dorn]]
+
+== Odyssey Engineer unlock chains ==
+
+The core-region Odyssey network has three independent starting points. The Colonia network instead requires three independent Engineer referral tasks to converge on [[Yi Shen]].
+
+=== Core region ===
+
+* '''[[Hero Ferrari]]'''
+** [[Wellington Beck]]
+*** [[Uma Laszlo]]
+
+* '''[[Jude Navarro]]'''
+** [[Terra Velasquez]]
+*** [[Oden Geiger]]
+
+* '''[[Domino Green]]'''
+** [[Kit Fowler]]
+*** [[Yarden Bond]]
+
+=== Colonia ===
+
+The three independent Colonia Engineers all contribute to the same final referral:
+
+'''[[Baltanos]] + [[Eleanor Bresa]] + [[Rosa Dayette]] → [[Yi Shen]]'''
+
+All three referral tasks must be completed before Yi Shen becomes available.
+
+For a recommended unlock order, preparation checklist, material requirements, and practical travel route, see the [[Engineer Unlock Guide]].
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}

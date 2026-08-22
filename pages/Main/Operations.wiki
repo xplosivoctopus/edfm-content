@@ -1,0 +1,18 @@
+<!--
+EDFM current-content archive export.
+Title: Operations
+Namespace: 0
+Page ID: 61
+Revision ID: 925
+Timestamp: 2026-08-18T13:17:41Z
+Source URL: https://edfieldmanual.com/wiki/Operations
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+
+Index for larger multi-step activities (expeditions, fleet carrier operations, community goals) — see [[:Category:Operations]].
+
+No individual operations articles exist yet.
+
+{{Related articles|[[Field Procedures]] [[Colonisation]] [[Powerplay]]}}

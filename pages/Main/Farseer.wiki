@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Farseer
+Namespace: 0
+Page ID: 193
+Revision ID: 288
+Timestamp: 2026-08-07T22:14:18Z
+Source URL: https://edfieldmanual.com/wiki/Farseer
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Felicity Farseer]]

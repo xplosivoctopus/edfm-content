@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Trading
+Namespace: 14
+Page ID: 150
+Revision ID: 231
+Timestamp: 2026-08-07T21:59:16Z
+Source URL: https://edfieldmanual.com/wiki/Category:Trading
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Buying and selling commodities for profit.
+
+[[Category:Gameplay]]

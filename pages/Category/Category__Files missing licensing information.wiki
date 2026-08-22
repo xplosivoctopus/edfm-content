@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Files missing licensing information
+Namespace: 14
+Page ID: 225
+Revision ID: 336
+Timestamp: 2026-08-07T23:58:19Z
+Source URL: https://edfieldmanual.com/wiki/Category:Files_missing_licensing_information
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Maintenance category — files uploaded without any licensing classification at all. Check <code>Special:UncategorizedFiles</code> periodically, since a properly classified file always carries at least one of the categories under [[:Category:Media]] automatically.
+
+[[Category:Media]]
+[[Category:Maintenance]]

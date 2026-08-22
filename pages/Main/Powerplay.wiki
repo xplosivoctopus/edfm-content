@@ -1,0 +1,18 @@
+<!--
+EDFM current-content archive export.
+Title: Powerplay
+Namespace: 0
+Page ID: 59
+Revision ID: 926
+Timestamp: 2026-08-18T13:17:42Z
+Source URL: https://edfieldmanual.com/wiki/Powerplay
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Live|noindex=yes}}
+
+Index for Powerplay content — see [[:Category:Powerplay]].
+
+No individual Powerplay articles exist yet. Powerplay mechanics have changed substantially over time (Powerplay 2.0); nothing on this page states specific mechanics yet, to avoid recording stale rules as current.
+
+{{Related articles|[[Operations]] [[Game Reference]]}}

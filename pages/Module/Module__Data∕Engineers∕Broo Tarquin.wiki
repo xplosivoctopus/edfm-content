@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Broo Tarquin
+Namespace: 828
+Page ID: 172
+Revision ID: 1149
+Timestamp: 2026-08-20T22:08:54Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Broo_Tarquin
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Broo Tarquin",
+	"engineer_scope": "ship",
+	"image": null,
+	"engineer_type": "Ship (weapons)",
+	"system": "Muang",
+	"body": "Muang 5 a",
+	"facility": "Broo's Legacy",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Beam Laser",
+		"Burst Laser",
+		"Pulse Laser"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Hera Tani",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Hera Tani",
+	"invitation_requirement": "Combat rank Competent or higher",
+	"meeting_requirement": "Reach Combat rank Competent or higher.",
+	"meeting_links": [
+		{
+			"text": "Combat rank",
+			"target": "Combat Rank"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 50,
+		"item": "Fujin Tea"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Beam Laser",
+				"Burst Laser",
+				"Pulse Laser"
+			]
+		}
+	],
+	"colonia": false
+}

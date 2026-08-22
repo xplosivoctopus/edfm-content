@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Sensors
+Namespace: 0
+Page ID: 360
+Revision ID: 997
+Timestamp: 2026-08-20T01:37:43Z
+Source URL: https://edfieldmanual.com/wiki/Sensors
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The core internal module that governs a ship's detection range for other ships, signal sources, and points of interest.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+'''Sensors''' are a core internal module fitted to every ship, governing detection range for other ships, signal sources, and navigational beacons. They are distinct from the [[Detailed Surface Scanner]], which is an optional internal module used for planetary and system exploration scanning rather than general contact detection.
+
+== Overview ==
+
+The Sensors module determines how far away a Commander can detect other contacts on the radar and target them. Higher-class Sensors extend this range, which matters for combat awareness, locating signal sources, and general situational awareness in a system.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Felicity Farseer]] || Grade 3
+|-
+| [[Hera Tani]] || Grade 3
+|-
+| [[Lei Cheung]] || Grade 5
+|}
+
+[[Lei Cheung]], based at [[Trader's Rest]] in [[Laksak]], is EDFM's currently documented Grade 5 Sensors Engineer.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

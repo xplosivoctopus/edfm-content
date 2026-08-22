@@ -1,0 +1,91 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Engineering Architecture
+Namespace: 4
+Page ID: 94
+Revision ID: 904
+Timestamp: 2026-08-18T01:06:25Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Engineering_Architecture
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Foundation pass only (2026-08-07) — no verified game data (blueprint stats, unlock requirements, material costs, engineer locations) has been added yet. Everything on the pages this describes is page structure, templates, categories, and cross-linking, built so a future pass can populate real content without redesigning anything. This page is the "how it actually works" reference for whoever does that next pass.
+
+== Why flat page names, no "Engineering/..." subpaths ==
+Checked before deciding: <code>$wgNamespacesWithSubpages</code> is not set in LocalSettings.php, so the main article namespace gets MediaWiki's default (subpages disabled there) — a page titled <code>Engineering/Blueprints</code> would just be a literal title containing a slash, with none of the automatic parent-link/breadcrumb behaviour subpages provide elsewhere on this wiki. (Template: namespace has subpages on by default — that's why [[Template:EDFM style/styles.css]] and [[Template:Resource card/styles.css]] work the way they do; it's namespace-specific, not a site-wide convention.) Every existing content page uses a plain, flat, human-readable title ([[Tools and Resources]], [[Colonisation]], [[Operations]], ...). Engineering pages match that exactly: [[Engineering]], [[Engineers]], [[Engineering Blueprints]], [[Experimental Effects]], [[Engineering Materials]], [[Engineer Unlock Guide]], and individual articles like [[Broo Tarquin]] / [[Overcharged]] / [[Thermal Vent]] / [[Multi-Cannon]] — no prefixes, no slashes.
+
+== Page types and where they live ==
+{| class="wikitable"
+! Page !! Title !! Status this pass
+|-
+| Engineering hub || [[Engineering]] || Redesigned (pre-existing placeholder)
+|-
+| Engineers directory || [[Engineers]] || New
+|-
+| Blueprints browse hub || [[Engineering Blueprints]] || New
+|-
+| Experimental Effects browse hub || [[Experimental Effects]] || New
+|-
+| Materials landing page || [[Engineering Materials]] || New
+|-
+| Unlock walkthroughs index || [[Engineer Unlock Guide]] || New, minimal
+|-
+| Example Engineer article || [[Broo Tarquin]] || New, demo/placeholder
+|-
+| Example blueprint article || [[Overcharged]] || New, demo/placeholder
+|-
+| Example Experimental Effect article || [[Thermal Vent]] || New, demo/placeholder
+|-
+| Example module article || [[Multi-Cannon]] || New, demo/placeholder
+|}
+
+'''One page per blueprint/effect, covering every module it applies to.''' [[Overcharged]] is a single page with a "Compatible Modules" section listing every module it can be applied to, not a separate "Overcharged (Multi-Cannon)" / "Overcharged (Cannon)" page per module. This is the core "avoid duplicating data" mechanism the brief asked for — see [[Template:New blueprint page]]'s own usage notes.
+
+'''Module pages are shared with [[Ships and Equipment]], not duplicated.''' Ships and Equipment already claims <code>Category:Modules</code> for general module articles (specs). A module gets exactly one page covering both general specs and its Engineering options — [[Multi-Cannon]] demonstrates this: it's a <code>Category:Modules</code> page with an "Engineering" section (see [[Template:New engineering module page]]), not a second engineering-only page competing with a future general one. If a general module page already exists when someone's ready to add its Engineering section, that section gets appended to the existing page.
+
+== Templates ==
+'''Extended (not duplicated):'''
+* {{tl|Infobox}} — 6 rows → 12. No CSS change needed: <code>.edfm-infobox-row</code> in Common.css isn't numbered per-row, so more pairs "just work." Used for the Engineer infobox (~11 fields) and available for future ship/module infoboxes too.
+* {{tl|Related articles}} — gained an optional <code>label=</code> parameter (default unchanged, so all pre-existing pages using it are unaffected). Lets the exact same tile component serve as a hub page's primary "browse" navigation cards, not just a "related articles" footer.
+
+'''New, all reusing existing CSS (<code>.edfm-related</code>/<code>.edfm-related-links</code> tile styling, external-link colours, <code>.wikitable</code> styling) — zero changes to Common.css or [[Template:EDFM style/styles.css]] this pass:'''
+* {{tl|Engineering nav}} — fixed 6-link bottom cross-navigation, wraps {{tl|Related articles}} with a custom label. Placed on every Engineering page so a reader never has to backtrack through the Engineering hub to move between siblings.
+* {{tl|Unlock chain}} — renders a verified Engineer prerequisite sequence (Engineer A → Engineer B → Engineer C) by wrapping each linked name in its own tile span. '''Not used on any page yet''' — no unlock chain has been verified. Its own docs say not to invent one.
+
+'''New, subst-only skeletons (not live-transcluded — see each one's own usage docs for exactly how to use it):'''
+* {{tl|New engineer page}}
+* {{tl|New blueprint page}}
+* {{tl|New experimental effect page}}
+* {{tl|New engineering module page}}
+
+A future editor creates a new article by making the page and typing e.g. <code><nowiki>{{subst:New engineer page}}</nowiki></code> as the first edit, then filling in the placeholders. Subst rather than live transclusion so every resulting article is normal, independently editable wikitext with no ongoing dependency on the skeleton template.
+
+== Categories ==
+* [[:Category:Engineering]] (pre-existing)
+** [[:Category:Engineers]]
+** [[:Category:Engineering Blueprints]]
+** [[:Category:Experimental Effects]]
+** [[:Category:Engineering Materials]]
+*** [[:Category:Raw Materials]]
+*** [[:Category:Manufactured Materials]]
+*** [[:Category:Encoded Materials]]
+** [[:Category:Weapon Engineering]]
+** [[:Category:Core Internal Engineering]]
+** [[:Category:Optional Internal Engineering]]
+** [[:Category:Utility Engineering]]
+
+The four module-type categories (Weapon / Core Internal / Optional Internal / Utility Engineering) tag both module pages and, once written, blueprint pages, by which broad module type they relate to — they're children of Engineering directly (not of Engineering Blueprints) since they apply to modules too, not just blueprints.
+
+Every new category got a short one-line description matching the existing style ([[:Category:Colonisation]], [[:Category:Comparisons]], etc.), not left empty the way [[:Category:Templates]] currently is.
+
+== Cross-linking: what's real vs. what's deliberately not there yet ==
+Navigational cross-links (hub → demo page, demo page → hub, the {{tl|Engineering nav}} footer, "see X for an example of this page type") are live everywhere — that's site architecture, not a game-fact claim.
+
+'''Data cross-links (which Engineer offers which blueprint at which grade, which modules a blueprint/effect applies to, unlock prerequisites) are deliberately NOT populated between the four demo pages, even where it would have been easy to fill in from general knowledge.''' Every data table (Grade Comparison, Available Engineering, Engineers, Compatible Modules/Blueprints/Effects) is either fully empty with a "to be added" placeholder row, or explicitly says a claim hasn't been verified yet. This was a deliberate choice, not an oversight — the brief drew a hard line against inventing or half-confirming unlock requirements, blueprint statistics, or compatibility during this pass, and the safest way to honour "we will populate verified game information in a later pass" was to apply that line to every data table uniformly, not just the ones explicitly named in the brief.
+
+== Adding real content later ==
+# Verify the fact against the live game (or a citable source) first — per [[Elite Dangerous Field Manual:Editorial Policy]], same standard as everywhere else on this wiki.
+# Use the matching subst skeleton for a brand new page, or edit an existing placeholder page (all of them are already tagged <code>status=Draft</code> and listed on [[Elite Dangerous Field Manual:Pages Needing Review]]).
+# Fill in real data tables/infobox fields, replacing "to be added" — don't leave stale placeholder text next to real data in the same table.
+# Only use {{tl|Unlock chain}} once a prerequisite relationship is confirmed.
+# Update the page's {{tl|Article status}} from Draft toward Needs review once populated, per the site's normal verification workflow.

@@ -1,0 +1,350 @@
+<!--
+EDFM current-content archive export.
+Title: Ships
+Namespace: 0
+Page ID: 331
+Revision ID: 869
+Timestamp: 2026-08-17T05:05:15Z
+Source URL: https://edfieldmanual.com/wiki/Ships
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Ships
+ |deck=Directory of Commander-piloted starships, organized by landing-pad size with basic hull information and links to each ship.
+}}
+
+'''Ships''' are the primary vessels flown by Commanders in [[Elite Dangerous]]. They range from small fighters and utility craft to large freighters, passenger liners, exploration vessels, and warships.
+
+There are currently '''48 independently operated starships''' in Live. Ships introduced after the Live and Legacy branches separated are marked '''Live only'''.<ref name="inara-ships">[https://inara.cz/elite/ships/ Ships], Inara.</ref><ref name="frontier-starships">[https://www.elitedangerous.com/equipment/starships Starships], Frontier Developments.</ref>
+
+{{Field note|This directory covers ships that operate as a Commander's primary starship. [[Ship-Launched Craft]], including fighters and the [[Nomad]], [[Surface Recon Vehicles|SRVs]], [[Fleet Carriers]], megaships, and capital ships are separate vessel classes and are not included in the tables below.<ref name="frontier-nomad">[https://www.elitedangerous.com/news/nomad-available-now-arx-early-access Nomad — Available Now Via ARX Early Access], Frontier Developments.</ref>}}
+
+{{Related articles
+ |label=Ships and Outfitting
+ |[[Ships and Equipment]]
+ |[[Outfitting]]
+ |[[Ship Modules]]
+ |[[Ship-Launched Craft]]
+ |[[Fleet Carriers]]
+}}
+
+== Reading the directory ==
+
+Ships are grouped by the landing-pad size they require.
+
+; Small
+: Uses a small landing pad. Small ships can also use medium and large pads when available.
+
+; Medium
+: Requires at least a medium landing pad.
+
+; Large
+: Requires a large landing pad. Large ships cannot dock at standard orbital outposts because those stations do not provide large landing pads.
+
+The '''base hull price''' is the standard price of the stock ship itself. It does not include upgraded modules, Engineering, stored equipment, or rebuy costs, and actual purchase prices can be lower where shipyard discounts apply.
+
+'''Live & Legacy''' means the ship exists in both current Live and Legacy versions. '''Live only''' identifies ships introduced after development of the two versions diverged.
+
+{{Important|Some ships have additional purchase requirements, including [[Federal Navy]] or [[Imperial Navy]] rank, special account entitlements, or current-version ownership conditions. Those requirements are documented on the individual ship page rather than repeated throughout this directory.}}
+
+{{Field note|A higher hull price does not automatically make a ship better for a particular activity. Ship size, internal compartments, hardpoints, handling, jump capability, module compatibility, and intended build can matter far more than purchase price.}}
+
+== Small ships ==
+
+There are '''16 Small ships''' in the current Live roster.<ref name="inara-ships" />
+
+{| class="wikitable sortable" style="width:100%;"
+! style="width:30%;" | Ship
+! style="width:25%;" | Manufacturer
+! style="width:25%;" | Base hull price
+! style="width:20%;" | Available in
+|-
+| [[Adder]]
+| Zorgon Peterson
+| data-sort-value="87810" | 87,810 CR
+| Live & Legacy
+|-
+| [[Cobra Mk III]]
+| Faulcon deLacy
+| data-sort-value="349720" | 349,720 CR
+| Live & Legacy
+|-
+| [[Cobra Mk IV]]
+| Faulcon deLacy
+| data-sort-value="764720" | 764,720 CR
+| Live & Legacy
+|-
+| [[Cobra Mk V]]
+| Faulcon deLacy
+| data-sort-value="1989460" | 1,989,460 CR
+| '''Live only'''
+|-
+| [[Diamondback Explorer]]
+| Lakon Spaceways
+| data-sort-value="1894760" | 1,894,760 CR
+| Live & Legacy
+|-
+| [[Diamondback Scout]]
+| Lakon Spaceways
+| data-sort-value="564330" | 564,330 CR
+| Live & Legacy
+|-
+| [[Dolphin]]
+| Saud Kruger
+| data-sort-value="1337320" | 1,337,320 CR
+| Live & Legacy
+|-
+| [[Eagle Mk II]]
+| Core Dynamics
+| data-sort-value="44800" | 44,800 CR
+| Live & Legacy
+|-
+| [[Hauler]]
+| Zorgon Peterson
+| data-sort-value="52720" | 52,720 CR
+| Live & Legacy
+|-
+| [[Imperial Courier]]
+| Gutamaya
+| data-sort-value="2542930" | 2,542,930 CR
+| Live & Legacy
+|-
+| [[Imperial Eagle]]
+| Gutamaya
+| data-sort-value="110830" | 110,830 CR
+| Live & Legacy
+|-
+| [[Kestrel Mk II]]
+| Core Dynamics
+| data-sort-value="14273820" | 14,273,820 CR
+| '''Live only'''
+|-
+| [[Sidewinder Mk I]]
+| Faulcon deLacy
+| data-sort-value="32000" | 32,000 CR
+| Live & Legacy
+|-
+| [[Viper Mk III]]
+| Faulcon deLacy
+| data-sort-value="142930" | 142,930 CR
+| Live & Legacy
+|-
+| [[Viper Mk IV]]
+| Faulcon deLacy
+| data-sort-value="437930" | 437,930 CR
+| Live & Legacy
+|-
+| [[Vulture]]
+| Core Dynamics
+| data-sort-value="4925620" | 4,925,620 CR
+| Live & Legacy
+|}
+
+== Medium ships ==
+
+There are '''21 Medium ships''' in the current Live roster.<ref name="inara-ships" />
+
+{| class="wikitable sortable" style="width:100%;"
+! style="width:30%;" | Ship
+! style="width:25%;" | Manufacturer
+! style="width:25%;" | Base hull price
+! style="width:20%;" | Available in
+|-
+| [[Alliance Challenger]]
+| Lakon Spaceways
+| data-sort-value="30472250" | 30,472,250 CR
+| Live & Legacy
+|-
+| [[Alliance Chieftain]]
+| Lakon Spaceways
+| data-sort-value="19382250" | 19,382,250 CR
+| Live & Legacy
+|-
+| [[Alliance Crusader]]
+| Lakon Spaceways
+| data-sort-value="22866340" | 22,866,340 CR
+| Live & Legacy
+|-
+| [[Asp Explorer]]
+| Lakon Spaceways
+| data-sort-value="6661160" | 6,661,160 CR
+| Live & Legacy
+|-
+| [[Asp Scout]]
+| Lakon Spaceways
+| data-sort-value="3961160" | 3,961,160 CR
+| Live & Legacy
+|-
+| [[Corsair]]
+| Gutamaya
+| data-sort-value="79304750" | 79,304,750 CR
+| '''Live only'''
+|-
+| [[Federal Assault Ship]]
+| Core Dynamics
+| data-sort-value="19814210" | 19,814,210 CR
+| Live & Legacy
+|-
+| [[Federal Dropship]]
+| Core Dynamics
+| data-sort-value="14314210" | 14,314,210 CR
+| Live & Legacy
+|-
+| [[Federal Gunship]]
+| Core Dynamics
+| data-sort-value="35814210" | 35,814,210 CR
+| Live & Legacy
+|-
+| [[Fer-de-Lance]]
+| Zorgon Peterson
+| data-sort-value="51567040" | 51,567,040 CR
+| Live & Legacy
+|-
+| [[Keelback]]
+| Lakon Spaceways
+| data-sort-value="3126150" | 3,126,150 CR
+| Live & Legacy
+|-
+| [[Krait Mk II]]
+| Faulcon deLacy
+| data-sort-value="45814210" | 45,814,210 CR
+| Live & Legacy
+|-
+| [[Krait Phantom]]
+| Faulcon deLacy
+| data-sort-value="37472250" | 37,472,250 CR
+| Live & Legacy
+|-
+| [[Lynx Highliner]]
+| Zorgon Peterson
+| data-sort-value="69289470" | 69,289,470 CR
+| '''Live only'''
+|-
+| [[Mamba]]
+| Zorgon Peterson
+| data-sort-value="55867040" | 55,867,040 CR
+| Live & Legacy
+|-
+| [[Mandalay]]
+| Zorgon Peterson
+| data-sort-value="17639220" | 17,639,220 CR
+| '''Live only'''
+|-
+| [[Python]]
+| Faulcon deLacy
+| data-sort-value="56978180" | 56,978,180 CR
+| Live & Legacy
+|-
+| [[Python Mk II]]
+| Faulcon deLacy
+| data-sort-value="67527360" | 67,527,360 CR
+| '''Live only'''
+|-
+| [[Type-6 Transporter]]
+| Lakon Spaceways
+| data-sort-value="1045950" | 1,045,950 CR
+| Live & Legacy
+|-
+| [[Type-8 Transporter]]
+| Lakon Spaceways
+| data-sort-value="38453970" | 38,453,970 CR
+| '''Live only'''
+|-
+| [[Type-11 Prospector]]
+| Lakon Spaceways
+| data-sort-value="67861850" | 67,861,850 CR
+| '''Live only'''
+|}
+
+== Large ships ==
+
+There are '''11 Large ships''' in the current Live roster.<ref name="inara-ships" />
+
+{| class="wikitable sortable" style="width:100%;"
+! style="width:30%;" | Ship
+! style="width:25%;" | Manufacturer
+! style="width:25%;" | Base hull price
+! style="width:20%;" | Available in
+|-
+| [[Anaconda]]
+| Faulcon deLacy
+| data-sort-value="146969450" | 146,969,450 CR
+| Live & Legacy
+|-
+| [[Beluga Liner]]
+| Saud Kruger
+| data-sort-value="84532760" | 84,532,760 CR
+| Live & Legacy
+|-
+| [[Caspian Explorer]]
+| Zorgon Peterson
+| data-sort-value="194861290" | 194,861,290 CR
+| '''Live only'''
+|-
+| [[Federal Corvette]]
+| Core Dynamics
+| data-sort-value="187969450" | 187,969,450 CR
+| Live & Legacy
+|-
+| [[Imperial Clipper]]
+| Gutamaya
+| data-sort-value="22295860" | 22,295,860 CR
+| Live & Legacy
+|-
+| [[Imperial Cutter]]
+| Gutamaya
+| data-sort-value="208969450" | 208,969,450 CR
+| Live & Legacy
+|-
+| [[Orca]]
+| Saud Kruger
+| data-sort-value="48539890" | 48,539,890 CR
+| Live & Legacy
+|-
+| [[Panther Clipper Mk II]]
+| Zorgon Peterson
+| data-sort-value="301348585" | 301,348,585 CR
+| '''Live only'''
+|-
+| [[Type-7 Transporter]]
+| Lakon Spaceways
+| data-sort-value="17472250" | 17,472,250 CR
+| Live & Legacy
+|-
+| [[Type-9 Heavy]]
+| Lakon Spaceways
+| data-sort-value="76555840" | 76,555,840 CR
+| Live & Legacy
+|-
+| [[Type-10 Defender]]
+| Lakon Spaceways
+| data-sort-value="124755340" | 124,755,340 CR
+| Live & Legacy
+|}
+
+== Other vessels ==
+
+Not every pilotable or player-owned vessel is a primary starship.
+
+* '''[[Ship-Launched Fighters]]''' — short-range combat craft deployed from compatible ships.
+* '''[[Nomad]]''' — ship-launched utility vessel deployed through a compatible Mk II Vessel Bay.
+* '''[[Surface Recon Vehicles]]''' — planetary surface vehicles carried aboard ships.
+* '''[[Fleet Carriers]]''' — player-owned capital-scale mobile bases rather than conventionally piloted ships.
+
+These vessel types are documented separately because their acquisition, deployment, outfitting, and operation differ substantially from normal starships.
+
+== Sources ==
+
+<references />
+
+{{Related articles
+ |[[Ships and Equipment]]
+ |[[Outfitting]]
+ |[[Ship Modules]]
+ |[[Ship-Launched Craft]]
+ |[[Fleet Carriers]]
+}}
+
+[[Category:Ships]]
+[[Category:Ships and Equipment]]

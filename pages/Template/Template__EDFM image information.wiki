@@ -1,0 +1,64 @@
+<!--
+EDFM current-content archive export.
+Title: Template:EDFM image information
+Namespace: 10
+Page ID: 258
+Revision ID: 632
+Timestamp: 2026-08-11T02:49:26Z
+Source URL: https://edfieldmanual.com/wiki/Template:EDFM_image_information
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-info">
+<dl>
+<dt>Description</dt><dd>{{{description|<span class="edfm-inline-flag">Not specified</span>}}}</dd>
+<dt>Subject</dt><dd>{{{subject|<span class="edfm-inline-flag">Not specified</span>}}}</dd>{{#if:{{{subject_type|}}}|
+<dt>Subject type</dt><dd>{{{subject_type}}}</dd>}}
+<dt>Source</dt><dd>{{{source|Elite Dangerous}}}</dd>
+<dt>Media type</dt><dd>{{{media_type|In-game screenshot}}}</dd>
+<dt>Captured by</dt><dd>{{{captured_by|<span class="edfm-inline-flag">Contributor name not specified</span>}}}</dd>{{#if:{{{capture_date|}}}|
+<dt>Captured</dt><dd>{{{capture_date}}}</dd>}}{{#if:{{{modifications|}}}|
+<dt>Modifications</dt><dd>{{{modifications}}}</dd>}}
+<dt>Intended use</dt><dd>{{{intended_use|<span class="edfm-inline-flag">Not specified</span>}}}</dd>
+<dt>Copyright holder</dt><dd>{{{copyright_holder|<span class="edfm-inline-flag">Not specified</span>}}}</dd>{{#if:{{{notes|}}}|
+<dt>Notes</dt><dd>{{{notes}}}</dd>}}
+</dl>
+</div><noinclude>
+== Usage ==
+The standard media-information template for EDFM file pages — describes the '''asset''' (what it depicts, where it came from, who made/captured it, how it's been altered, what it's for). It does '''not''' handle licensing — that stays in its own <code>== Licensing ==</code> section via the existing {{tl|License-ED screenshot}} / {{tl|License-Official Frontier media}} / etc. templates (selected from the Licensing dropdown on <code>Special:Upload</code>), so the two responsibilities don't get tangled together on the page. See [[Elite Dangerous Field Manual:Image Use Policy]] for why this split matters.
+
+This template also does not duplicate the subject's own article — it describes the picture, not the Engineer/ship/location pictured. Gameplay facts (location, unlock requirements, specialties, etc.) belong on the subject's own article, not here.
+
+<pre>
+{{EDFM image information
+ |description = In-game portrait of Hero Ferrari, an Engineer.
+ |subject = [[Hero Ferrari]]
+ |subject_type = Engineer
+ |source = Elite Dangerous
+ |media_type = Cropped in-game screenshot
+ |captured_by = Sythan
+ |capture_date = 8 August 2026
+ |modifications = Cropped to portrait framing
+ |intended_use = Identification and illustration on the Hero Ferrari article and related Engineering pages.
+ |copyright_holder = Frontier Developments plc
+}}
+</pre>
+
+Place this under <code>== Summary ==</code> on the file page (MediaWiki generates that heading automatically from the upload description). Put the licensing classification under a separate <code>== Licensing ==</code> section, as already happens automatically when a Licensing option is picked at upload time.
+
+'''Fields:'''
+* <code>description</code> — a sentence describing what the image actually shows.
+* <code>subject</code> — what's pictured. Wikilink it yourself (e.g. <code>[[Hero Ferrari]]</code>) when the subject has its own EDFM article and linking would actually help someone reach it — don't link just for the sake of it.
+* <code>subject_type</code> — optional; a short classification of the subject (e.g. "Engineer", "Ship", "Station", "Settlement", "UI element").
+* <code>source</code> — where the media originated; defaults to "Elite Dangerous". Override for other cases, e.g. "Frontier Developments promotional/media asset" or "Created for Elite Dangerous Field Manual".
+* <code>media_type</code> — defaults to "In-game screenshot". Other examples: "Cropped in-game screenshot", "Promotional image", "Frontier press asset", "Logo", "Diagram", "EDFM-created graphic", "User-created illustration", "Map", "UI screenshot".
+* <code>captured_by</code> — the contributor's commander name or handle. Always fill this in — leaving it out flags the file into [[:Category:Files missing source information]] rather than silently crediting nobody.
+* <code>capture_date</code> — optional, omitted entirely (no row shown) if not given. Use the actual capture/creation date only if it's actually known — '''do not substitute the upload date''' unless that's genuinely also the capture date.
+* <code>modifications</code> — optional, omitted entirely if not given. Only note changes with practical relevance (cropped, resized, background removed, colour corrected, composite, etc.) — don't list routine technical detail with no bearing on how the image should be read, and don't claim "original"/unmodified unless that's actually known.
+* <code>intended_use</code> — what the image is for on EDFM (e.g. "Identification and illustration on the Hero Ferrari article").
+* <code>copyright_holder</code> — who actually owns the underlying material (e.g. "Frontier Developments plc" for anything showing game assets, "EDFM" or a named contributor for original diagrams/graphics, a named third party if used with permission). State only what's actually known — don't infer.
+* <code>notes</code> — optional, anything else worth recording.
+
+See [[Elite Dangerous Field Manual:Image Use Policy]] and [[Elite Dangerous Field Manual:Adding an Image]].
+[[Category:Templates]]
+</noinclude>

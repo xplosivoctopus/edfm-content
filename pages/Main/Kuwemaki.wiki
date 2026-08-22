@@ -1,0 +1,51 @@
+<!--
+EDFM current-content archive export.
+Title: Kuwemaki
+Namespace: 0
+Page ID: 349
+Revision ID: 986
+Timestamp: 2026-08-20T01:37:36Z
+Source URL: https://edfieldmanual.com/wiki/Kuwemaki
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=A Corporate-controlled Core Systems world hosting Hera Tani's workshop, The Jet's Hole.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced star system and station records
+}}
+
+'''Kuwemaki''' is an independent system in the Core Systems, reached by Commanders pursuing '''[[Hera Tani]]''''s power-systems Engineering after a referral from [[Liz Ryder]]. It hosts '''[[The Jet's Hole]]''', Hera's workshop.<ref name="inara-kuwemaki">[https://inara.cz/elite/starsystem/15367/ Kuwemaki — Star System], Inara.</ref>
+
+== Overview ==
+
+* '''Star:''' Class K (scoopable)
+* '''Allegiance:''' Independent
+* '''Government:''' Corporate
+* '''Security:''' Medium
+* '''Economy:''' Extraction / High Tech<ref name="inara-kuwemaki" />
+
+== Engineer Facility ==
+
+'''[[The Jet's Hole]]''' is a surface Engineer base on Kuwemaki A 3 a, operated by '''[[Hera Tani]]'''.<ref name="inara-jets-hole">[https://inara.cz/elite/station/52289/ The Jet's Hole in Kuwemaki — Station], Inara.</ref>
+
+No system permit is required to enter Kuwemaki. See [[Hera Tani]] for the full discovery, invitation, and unlock requirements for her workshop.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Hera Tani]] [[The Jet's Hole]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

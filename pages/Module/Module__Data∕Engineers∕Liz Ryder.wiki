@@ -1,0 +1,72 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Liz Ryder
+Namespace: 828
+Page ID: 170
+Revision ID: 1159
+Timestamp: 2026-08-20T22:09:00Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Liz_Ryder
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Liz Ryder",
+	"engineer_scope": "ship",
+	"image": "Lizryder.png",
+	"engineer_type": "Ship (weapons / armour)",
+	"system": "Eurybia",
+	"body": "Makalu",
+	"facility": "Demolition Unlimited",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Missile Rack",
+		"Seeker Missile Rack",
+		"Torpedo Pylon",
+		"Mine Launcher",
+		"Armour",
+		"Hull Reinforcement Package"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_note": null,
+	"prerequisite_engineer_display": "None — independent starting Engineer",
+	"discovery_requirement": "None — known from public sources",
+	"invitation_requirement": "Cordial or Friendly reputation with the Eurybia Blue Mafia minor faction",
+	"meeting_requirement": "Reach at least Cordial reputation with the Eurybia Blue Mafia.",
+	"meeting_links": [
+		{
+			"text": "reputation",
+			"target": "Reputation"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 200,
+		"item": "Landmines"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Missile Rack",
+				"Seeker Missile Rack",
+				"Torpedo Pylon"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Mine Launcher"
+			]
+		},
+		{
+			"grade": 1,
+			"modules": [
+				"Armour",
+				"Hull Reinforcement Package"
+			]
+		}
+	],
+	"colonia": false
+}

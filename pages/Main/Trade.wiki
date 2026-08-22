@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Trade
+Namespace: 0
+Page ID: 184
+Revision ID: 928
+Timestamp: 2026-08-18T13:17:43Z
+Source URL: https://edfieldmanual.com/wiki/Trade
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+
+Index for commodity trading content — see [[:Category:Trading]].
+
+{{Draft warning}}
+No individual trade articles exist yet.
+
+{{Related articles|[[Mining]] [[Background Simulation]] [[Tools and Resources]]}}
+[[Category:Trading]]

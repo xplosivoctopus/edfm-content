@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Power Plant
+Namespace: 0
+Page ID: 362
+Revision ID: 999
+Timestamp: 2026-08-20T01:37:45Z
+Source URL: https://edfieldmanual.com/wiki/Power_Plant
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The core internal reactor that supplies power to every other module on the ship.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+The '''Power Plant''' is a core internal module fitted to every ship. It generates the ship's total power output, which is then allocated to every other system through the [[Power Distributor]] and direct module draw.
+
+== Overview ==
+
+If a ship's fitted modules draw more power than the Power Plant can supply, some modules will be automatically disabled until draw is brought back under the available capacity. Because of this, Power Plant capacity is a hard constraint on how heavily a ship can be outfitted, and Engineering it is often one of the first steps in preparing a build for a specific role.
+
+Power Plant Engineering also affects heat generation, which interacts with a ship's overall thermal management.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Felicity Farseer]] || Grade 1
+|-
+| [[Hera Tani]] || Grade 5
+|}
+
+[[Hera Tani]], based at [[The Jet's Hole]] in [[Kuwemaki]], is EDFM's currently documented Grade 5 Power Plant Engineer.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

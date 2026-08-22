@@ -1,0 +1,272 @@
+<!--
+EDFM current-content archive export.
+Title: Marco Qwent
+Namespace: 0
+Page ID: 109
+Revision ID: 1434
+Timestamp: 2026-08-21T14:38:33Z
+Source URL: https://edfieldmanual.com/wiki/Marco_Qwent
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A power-systems Engineer based in Sirius, providing Grade 4 Power Plant and Grade 3 Power Distributor engineering and leading to several later Engineers.
+}}
+
+{{Engineer infobox}}
+
+'''Marco Qwent''' is a ship Engineer based at '''Qwent Research Base''' in the permit-locked [[Sirius]] system. Unlike the independent starting Engineers, Marco must first be discovered through [[Elvira Martuuk]].<ref name="inara-marco">[https://inara.cz/elite/engineer/7/ Marco Qwent — Engineer], Inara.</ref>
+
+Qwent specialises in ship power systems. He provides '''Grade 4 Power Plant Engineering''' and '''Grade 3 Power Distributor Engineering'''.<ref name="inara-marco" />
+
+He is also an important progression Engineer because reputation with Marco leads to [[Professor Palin]], [[Chloe Sedesi]], and [[Lori Jameson]].<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|Unlocking Marco is more involved than simply receiving Elvira's referral. The [[Sirius]] system is permit-locked, and Marco also requires an invitation from Sirius Corporation before his workshop can be accessed.}}
+
+== Location ==
+
+* '''System:''' [[Sirius]]
+* '''Facility:''' [[Qwent Research Base]]
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Elvira Martuuk]]
+* '''System permit required:''' Yes
+
+[[Sirius]] is a permit-locked system, so the system permit must be obtained before Qwent Research Base can be reached.<ref name="inara-sirius">[https://inara.cz/elite/starsystem/11810/ Sirius — Star System], Inara.</ref>
+
+== How to Discover Marco Qwent ==
+
+Marco Qwent is discovered through [[Elvira Martuuk]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Elvira to receive her referral to Marco.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+{{Field note|Receiving Elvira's referral makes Marco known to you. It does '''not''' grant access to Sirius or automatically unlock his workshop.}}
+
+== How to Receive an Invitation ==
+
+Marco requires an invitation from '''Sirius Corporation'''.<ref name="inara-marco" />
+
+The practical progression is:
+
+# Receive the referral to Marco from [[Elvira Martuuk]].
+# Become '''Allied with Sirius Corporation'''.
+# Obtain the '''Sirius system permit'''.
+# Travel to [[Sirius]].
+# Complete the Sirius Corporation Engineer invitation mission for Marco Qwent.
+
+Current New Pilots Initiative guidance lists Allied reputation with Sirius Corporation as the requirement for obtaining the necessary Sirius access and Engineer invitation.<ref name="newp-engineers" />
+
+{{Important|The '''Sirius system permit''' and '''Marco Qwent's Engineer invitation''' are separate pieces of the access process. Having Elvira's referral alone does not allow you to enter Sirius, and having the system permit alone does not replace Marco's Engineer invitation.}}
+
+== How to Unlock Marco Qwent ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Elvira Martuuk]].
+* Obtain the '''[[Gaining Sirius Corporation Reputation for Marco Qwent#Obtaining the Sirius system permit|Sirius system permit]]'''.
+* Obtain '''25 units of [[Modular Terminals]]'''.
+* Donate the 25 Modular Terminals.
+{{Important|'''Modular Terminals are a commodity.''' They are not Raw, Manufactured, or Encoded Engineering materials. Each unit occupies cargo space, so transporting all 25 at once requires at least '''25 tonnes of cargo capacity'''.}}
+
+For the complete step-by-step process, see [[Unlocking Marco Qwent]].
+
+== Obtaining Modular Terminals ==
+
+Modular Terminals are primarily obtained as '''mission rewards'''.<ref name="inara-modular" />
+
+They may also be sold by player-owned [[Fleet Carrier|Fleet Carriers]], although carrier supply and pricing are controlled by individual Commanders and can change at any time.<ref name="newp-engineers" />
+
+{{Tip|If you plan to collect all 25 Modular Terminals before travelling to Sirius, fit at least '''25 tonnes of cargo capacity''' before beginning the final part of Marco's unlock.}}
+
+Because Fleet Carrier inventories can change quickly, use current market information rather than relying on a carrier location listed in an older guide.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Marco is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-marco" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Marco Qwent can be increased by:
+
+* crafting Engineering modifications at his workshop; or
+* selling commodities at Qwent Research Base.<ref name="inara-marco" />
+
+Higher Engineer reputation gives access to the higher grades Marco supports for each blueprint.
+
+{{Tip|If you are carrying ordinary saleable commodities after completing Marco's unlock, selling them at Qwent Research Base can supplement the reputation gained from Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Marco Qwent is part of the [[Elvira Martuuk]] branch of the ship Engineer network.
+
+The route to Marco is:
+
+<pre>
+Elvira Martuuk
+└── Marco Qwent
+</pre>
+
+After reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with Marco, he can provide referrals to three later Engineers:<ref name="newp-engineers" />
+
+* [[Professor Palin]]
+* [[Chloe Sedesi]]
+* [[Lori Jameson]]
+
+The wider branch is:
+
+<pre>
+Elvira Martuuk
+├── Zacariah Nemo
+├── Marco Qwent
+│   ├── Chloe Sedesi
+│   ├── Lori Jameson
+│   └── Professor Palin
+└── Mel Brandon [Colonia]
+</pre>
+
+Current Engineer data lists Professor Palin, Chloe Sedesi, and Lori Jameson as being discovered through Marco Qwent.<ref name="inara-engineers" />
+
+{{Field note|A referral from Marco does not automatically unlock the referred Engineer. [[Professor Palin]], [[Chloe Sedesi]], and [[Lori Jameson]] each have additional meeting and unlock requirements.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Marco's Engineering coverage is shown below. The listed grade is the highest grade he can apply to that module.<ref name="inara-marco" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Power Plant]]
+|
+* Armoured
+* Low Emissions
+* Overcharged
+| '''Grade 4'''
+|-
+| [[Power Distributor]]
+|
+* Balanced <small>(Live only; compatible Merc modules)</small>
+* Charge Enhanced
+* Engine Focused
+* High Charge Capacity
+* Shielded
+* Support Focused <small>(Live only; compatible Merc modules)</small>
+* System Focused
+* Weapon Focused
+| '''Grade 3'''
+|}
+
+=== Operations-era Power Distributor Engineering ===
+
+Two of the Power Distributor blueprints in the current Live game were added with the Operations-era Engineering additions:
+
+* '''Balanced'''
+* '''Support Focused'''
+
+Both can be applied by Marco through '''Grade 3'''.<ref name="inara-balanced">[https://inara.cz/elite/blueprint/208/ Power Distributor — Balanced], Inara.</ref><ref name="inara-support">[https://inara.cz/elite/blueprint/209/ Power Distributor — Support Focused], Inara.</ref>
+
+{{Important|'''Live only:''' Balanced and Support Focused were introduced as part of the Operations-era Power Distributor additions and can only be applied to compatible '''Merc modules'''. They are not part of the Legacy Engineering system.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>}}
+
+The established Power Distributor blueprints — Charge Enhanced, Engine Focused, High Charge Capacity, Shielded, System Focused, and Weapon Focused — remain available to Marco through Grade 3.<ref name="inara-marco" />
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+
+Marco can apply Experimental Effects to Power Plants and Power Distributors even when the module has been engineered beyond the maximum grade Marco himself can provide.
+
+For example, a Grade 5 Power Plant engineered by [[Hera Tani]] or [[Etienne Dorn]] can still be taken to Marco for a compatible Power Plant Experimental Effect.
+
+=== Power Plant ===
+
+Available Power Plant Experimental Effects include:<ref name="inara-powerplant">[https://inara.cz/elite/blueprint/12/ Power Plant — Armoured], Inara.</ref>
+
+* [[Double Braced]]
+* [[Monstered]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+=== Power Distributor ===
+
+Available Power Distributor Experimental Effects include:<ref name="inara-distributor">[https://inara.cz/elite/blueprint/67/ Power Distributor — Charge Enhanced], Inara.</ref>
+
+* [[Cluster Capacitors]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Stripped Down]]
+* [[Super Conduits]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Early Engineering ==
+
+Marco's most useful capability while progressing through the Engineer network is his '''Grade 4 Power Plant Engineering'''.
+
+Grade 4 is enough to make substantial changes to a ship's available power, heat efficiency, and Power Plant integrity before a Grade 5 Power Plant Engineer has been unlocked.
+
+{{Tip|'''Common Power Plant choices'''
+
+* '''Armoured''' is a strong general-purpose option when a build has enough power capacity, improving integrity while also providing modest improvements to power generation and heat efficiency.
+* '''Overcharged''' provides substantially more power output, but sacrifices integrity and worsens thermal performance.
+* '''Low Emissions''' improves heat efficiency, but reduces available power and increases module mass.
+
+There is no universal best Power Plant blueprint. The correct choice depends on the ship's power requirements and thermal characteristics.}}
+
+Marco's Grade 3 Power Distributor Engineering is useful while progressing through the network, but commanders seeking maximum conventional Power Distributor performance can eventually obtain Grade 5 access from [[The Dweller]] or [[Etienne Dorn]].
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Marco, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Low Emissions Power Plant]] is a useful blueprint to consider pinning at Marco.
+
+New Pilots Initiative's current suggested pinning plan also assigns Low Emissions Power Plant to Marco, leaving other Power Plant and Power Distributor blueprints available to be pinned at Engineers with different specialties.<ref name="newp-engineering">[https://newp.io/engineeringguide Engineering Guide], New Pilots Initiative.</ref>
+
+Remember that Marco only provides Power Plant Engineering through '''Grade 4'''. A blueprint pinned through Marco therefore cannot provide Grade 5 Power Plant Engineering remotely.}}
+
+If you routinely use Grade 5 Low Emissions Power Plants, another Engineer may be a better location for that pin.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What Marco Cannot Fully Engineer ==
+
+Neither of Marco's specialties reaches Grade 5.
+
+His maximum grades are:
+
+* '''Power Plant:''' Grade 4
+* '''Power Distributor:''' Grade 3<ref name="inara-marco" />
+
+For higher-grade alternatives:
+
+* '''Grade 5 Power Plant''' Engineering is available from [[Hera Tani]] and [[Etienne Dorn]].
+* '''Grade 5 Power Distributor''' Engineering is available from [[The Dweller]] and [[Etienne Dorn]].<ref name="newp-engineers" />
+
+This means Marco is useful both as a power-systems Engineer and as an important step in Engineer progression, but commanders building fully Grade 5 power systems will eventually need other Engineers.
+
+== What Next? ==
+
+Progressing Marco's reputation opens three important branches.
+
+{{What next|title=Continue Engineering|
+* '''Grade 5 Thrusters:''' [[Professor Palin]]
+* '''Alternative Grade 5 Thrusters:''' [[Chloe Sedesi]]
+* '''Scanners and exploration systems:''' [[Lori Jameson]]
+* '''Grade 5 Power Plant:''' [[Hera Tani]]
+* '''Grade 5 Power Distributor:''' [[The Dweller]]
+* '''Previous Engineer:''' [[Elvira Martuuk]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

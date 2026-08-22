@@ -1,0 +1,45 @@
+<!--
+EDFM current-content archive export.
+Title: Beam Laser
+Namespace: 0
+Page ID: 375
+Revision ID: 1012
+Timestamp: 2026-08-20T01:38:42Z
+Source URL: https://edfieldmanual.com/wiki/Beam_Laser
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Weapon
+ |deck=A continuous-beam energy weapon with strong sustained damage against shields, at the cost of heavy power draw and heat.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+'''Beam Lasers''' are thermal energy weapons that fire a continuous beam for as long as the trigger is held and the weapon capacitor allows, rather than firing in individual bursts like a [[Pulse Laser]] or [[Burst Laser]].
+
+== Overview ==
+
+Beam Lasers draw heavily on the ship's weapon capacitor and generate significant heat during sustained fire, but that continuous beam makes them easy to keep on target and effective at wearing down shields over time. Like all lasers, they have unlimited ammunition — thermal weapons draw on the ship's Power Distributor rather than a physical magazine — which makes heat and power management, not reloading, the main limiting factor.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Broo Tarquin]] || Grade 5
+|-
+| [[The Dweller]] || Grade 3
+|}
+
+Broo Tarquin's laser Engineering is his primary specialty, reaching Grade 5 across all three laser types.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Tip
+Namespace: 10
+Page ID: 324
+Revision ID: 692
+Timestamp: 2026-08-12T15:58:32Z
+Source URL: https://edfieldmanual.com/wiki/Template:Tip
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Callout|type=tip|label=Tip|{{{1|}}}}}<noinclude>
+== Usage ==
+Efficiency or convenience advice.
+<pre>{{Tip|Bind a key for the Galaxy Map before making several jumps.}}</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>

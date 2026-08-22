@@ -1,0 +1,254 @@
+<!--
+EDFM current-content archive export.
+Title: Chloe Sedesi
+Namespace: 0
+Page ID: 128
+Revision ID: 1438
+Timestamp: 2026-08-21T14:38:36Z
+Source URL: https://edfieldmanual.com/wiki/Chloe_Sedesi
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 Thruster specialist based at Cinder Dock in Shenve, reached through Marco Qwent after travelling at least 5,000 light-years from your career start location.
+}}
+
+{{Engineer infobox}}
+
+'''Chloe Sedesi''' is a ship Engineer based at '''Cinder Dock''' in the [[Shenve]] system, in the Witch Head region. She is reached through [[Marco Qwent]] and is best known for providing '''Grade 5 Thruster Engineering'''. She also provides Frame Shift Drive Engineering through Grade 3.<ref name="inara-chloe">[https://inara.cz/elite/engineer/25/ Chloe Sedesi — Engineer], Inara.</ref><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Chloe provides the same maximum Engineering grades as [[Professor Palin]]: Grade 5 Thrusters and Grade 3 Frame Shift Drives. Both Engineers are separate referrals from Marco Qwent rather than one being unlocked through the other.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|Chloe and [[Professor Palin]] have very similar access requirements and Engineering capabilities, but they are '''parallel Engineers'''. Unlocking Palin does not unlock Chloe, and unlocking Chloe does not unlock Palin.}}
+
+== Location ==
+
+* '''System:''' [[Shenve]]
+* '''Facility:''' [[Cinder Dock]]
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Marco Qwent]]
+* '''System permit required:''' No
+* '''Region:''' Witch Head
+
+Cinder Dock is a surface facility in Shenve. Chloe's workshop was established in the Witch Head region as part of the expansion of human infrastructure there.<ref name="frontier-chloe">[https://community.elitedangerous.com/galnet/06-AUG-3305 GalNet — Chloe Sedesi establishes Cinder Dock facility], Frontier Developments, 3305-08-06.</ref>
+
+{{Field note|Shenve is considerably farther from the core inhabited Bubble than most early ship Engineers. Plan for the additional travel before heading to Cinder Dock.}}
+
+== How to Discover Chloe Sedesi ==
+
+Chloe Sedesi is discovered through [[Marco Qwent]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Marco to receive his referral to Chloe.<ref name="newp-engineers" />
+
+{{Field note|Receiving Marco's referral and satisfying Chloe's 5,000-light-year meeting requirement are separate conditions. The referral does not replace the distance requirement.}}
+
+== How to Receive an Invitation ==
+
+Reach a '''maximum distance of at least 5,000 light-years from your career start location'''.<ref name="inara-chloe" />
+
+This is a distance-from-start requirement, not a cumulative travel requirement. Flying a total of 5,000 Ly through many shorter trips does not satisfy it unless your recorded maximum distance from your career start location reaches at least 5,000 Ly.
+
+=== Checking your distance from your starting location ===
+
+You can check your progress directly in-game:
+
+# Open the '''right-hand cockpit panel'''.
+# Select '''Codex'''.
+# Open the '''Commander''' section.
+# Select '''Stats'''.
+# Open the '''Exploration''' statistics.
+# Find '''Max Distance From Start'''.<ref name="frontier-distance">[https://forums.frontier.co.uk/threads/professor-palin-cant-find-distance-traveled.543935/ Professor Palin — Can't Find Distance Traveled], Frontier Forums.</ref>
+
+The value shown under '''Max Distance From Start''' is the relevant statistic for Chloe's requirement. Do not confuse it with your total hyperspace distance travelled.
+
+{{Important|You need the '''Max Distance From Start''' value to reach at least '''5,000 Ly'''. You do not need to travel 5,000 Ly outward and then another 5,000 Ly back before the requirement counts. Once your maximum-distance statistic has reached 5,000 Ly, the distance requirement has been satisfied.}}
+
+You only need to reach the required distance; you do not need to remain 5,000 Ly away after the condition has been recorded.
+
+{{Tip|The same 5,000-Ly maximum-distance requirement is used by [[Professor Palin]]. If you intend to unlock both Engineers, one qualifying journey can satisfy the distance requirement for both.}}
+
+== How to Unlock Chloe Sedesi ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Marco Qwent]].
+* Reach a maximum distance of at least '''5,000 Ly from your career start location'''.
+* Obtain '''25 [[Sensor Fragments]]'''.
+* Provide the 25 Sensor Fragments to Chloe Sedesi.
+{{Important|'''Sensor Fragments are very rare Manufactured Engineering materials of Thargoid origin.''' They are not commodities and do not occupy normal cargo space.}}
+{{Field note|[[Professor Palin]] also requires '''25 Sensor Fragments'''. Unlocking one Engineer does not satisfy the other's donation requirement. If you plan to unlock both, you will need enough Sensor Fragments for both unlocks.}}
+
+For the complete step-by-step process, see [[Unlocking Chloe Sedesi]].
+
+== Increasing Engineer Reputation ==
+
+Reputation with Chloe Sedesi can be increased by:
+
+* crafting Engineering modifications at Cinder Dock; or
+* selling exploration data at Cinder Dock.<ref name="inara-chloe" /><ref name="newp-engineers" />
+
+Higher Engineer reputation gives access to the higher grades Chloe supports for each blueprint.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If your 5,000-light-year journey generated exploration data, consider saving some of it until after Chloe is unlocked. Selling it at Cinder Dock can help increase your Engineer reputation without relying entirely on repeated Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Chloe Sedesi belongs to the [[Elvira Martuuk]] branch of the ship Engineer network.
+
+The route to Chloe is:
+
+<pre>
+Elvira Martuuk
+└── Marco Qwent
+    └── Chloe Sedesi
+</pre>
+
+[[Marco Qwent]] can also refer Commanders to [[Professor Palin]] and [[Lori Jameson]]:
+
+<pre>
+Elvira Martuuk
+└── Marco Qwent
+    ├── Chloe Sedesi
+    ├── Lori Jameson
+    └── Professor Palin
+</pre>
+
+Chloe Sedesi does '''not''' currently lead to another Engineer in the ship Engineer referral network.<ref name="inara-engineers" />
+
+{{Field note|[[Professor Palin]] is not unlocked through Chloe Sedesi. Chloe and Palin are separate referrals from [[Marco Qwent]], despite having the same maximum module grades and similar unlock requirements.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Chloe's Engineering coverage is shown below. The listed grade is the highest grade she can apply to that module.<ref name="inara-chloe" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Thrusters]]
+|
+* Clean
+* Dirty
+* Reinforced
+| '''Grade 5'''
+|-
+| [[Frame Shift Drive]]
+|
+* Faster Boot Sequence
+* Increased Range
+* Shielded
+| '''Grade 3'''
+|}
+
+Chloe's primary specialty is therefore Thrusters. Her Frame Shift Drive capability is useful for lower-grade work and Experimental Effects, but Commanders seeking Grade 5 FSD Engineering will need another Engineer.
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+
+Chloe can apply Experimental Effects to both Thrusters and Frame Shift Drives.
+
+=== Thrusters ===
+
+Available Thruster Experimental Effects include:<ref name="inara-thrusters">[https://inara.cz/elite/blueprint/6/ Thrusters — Clean], Inara.</ref>
+
+* [[Double Braced]]
+* [[Drag Drives]]
+* [[Drive Distributors]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+=== Frame Shift Drive ===
+
+Available Frame Shift Drive Experimental Effects include:<ref name="inara-fsd">[https://inara.cz/elite/blueprint/1/ Frame Shift Drive — Faster Boot Sequence], Inara.</ref>
+
+* [[Deep Charge]]
+* [[Double Braced]]
+* [[Mass Manager]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Engineering ==
+
+Chloe's most important capability is her '''Grade 5 Thruster Engineering'''.
+
+{{Tip|'''Common general-purpose choice: Dirty + Drag Drives'''
+
+For many ships, [[Dirty Thrusters|Dirty]] Thruster Engineering combined with the [[Drag Drives]] Experimental Effect is a strong general-purpose choice when maximum speed, boost speed, and manoeuvrability are the priority.
+
+This is a recommendation rather than a universal rule. Clean, Reinforced, or a different Experimental Effect may be more appropriate for specialised builds.}}
+
+Dirty Engineering increases Thruster performance while increasing power draw and thermal load and reducing module integrity. The tradeoffs increase at higher grades.<ref name="inara-thrusters-dirty">[https://inara.cz/elite/blueprint/4/ Thrusters — Dirty], Inara.</ref>
+
+{{Field note|[[Drag Drives]] and [[Drive Distributors]] modify Thruster performance in different ways. Drag Drives is not automatically the best Experimental Effect for every ship and Thruster combination; very mass-sensitive configurations can benefit differently depending on the module's optimal-mass curve.}}
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Chloe, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Clean Thrusters]] is a useful blueprint to pin at Chloe if [[Professor Palin]] is already being used to pin [[Dirty Thrusters]].
+
+Both Chloe and Palin provide Grade 5 Thruster Engineering, which makes the pair useful for keeping two different Grade 5 Thruster blueprints available through [[Remote Engineering]].}}
+
+If Dirty Thrusters is more useful for your fleet and is not already pinned elsewhere, there is no requirement to use the Clean blueprint simply because Chloe can provide it. Blueprint pinning should reflect the modules and builds you actually use.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What Chloe Cannot Fully Engineer ==
+
+Chloe provides maximum-grade Engineering for Thrusters, but her Frame Shift Drive Engineering stops at Grade 3.
+
+Her maximum grades are:
+
+* '''Thrusters:''' Grade 5
+* '''Frame Shift Drive:''' Grade 3<ref name="inara-chloe" />
+
+For higher-grade Frame Shift Drive Engineering:
+
+* [[Felicity Farseer]] provides '''Grade 5''' FSD Engineering.
+* [[Elvira Martuuk]] provides '''Grade 5''' FSD Engineering.
+* [[Mel Brandon]] provides '''Grade 5''' FSD Engineering in Colonia.<ref name="inara-engineers" />
+
+Other Engineers who provide Grade 5 Thruster Engineering include:
+
+* [[Professor Palin]]; and
+* [[Mel Brandon]].<ref name="inara-engineers" />
+
+Chloe is therefore one of the primary maximum-grade Thruster Engineers, but she is not a maximum-grade FSD Engineer.
+
+== What Next? ==
+
+Chloe Sedesi is the end of her referral branch and does not currently introduce another Engineer.
+
+After unlocking her, your next Engineering target depends on which modules you still need to improve.
+
+{{What next|title=Continue Engineering|
+* '''Alternative Grade 5 Thrusters:''' [[Professor Palin]]
+* '''Grade 5 FSD Engineering:''' [[Felicity Farseer]] or [[Elvira Martuuk]]
+* '''Scanners and exploration systems:''' [[Lori Jameson]]
+* '''Grade 5 Power Plant:''' [[Hera Tani]]
+* '''Grade 5 Power Distributor:''' [[The Dweller]]
+* '''Previous Engineer:''' [[Marco Qwent]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

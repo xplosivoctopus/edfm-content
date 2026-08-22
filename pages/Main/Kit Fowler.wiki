@@ -1,0 +1,546 @@
+<!--
+EDFM current-content archive export.
+Title: Kit Fowler
+Namespace: 0
+Page ID: 132
+Revision ID: 1476
+Timestamp: 2026-08-21T14:39:06Z
+Source URL: https://edfieldmanual.com/wiki/Kit_Fowler
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Odyssey Engineer
+ |deck=A combat-endurance, ammunition, and weapon-reload specialist based at The Last Call in Capoya, reached through Domino Green and leading to Yarden Bond.
+}}
+
+{{Engineer infobox}}
+
+'''Kit Fowler''' is an Odyssey Engineer based at '''The Last Call''' in the [[Capoya]] system. He is discovered through [[Domino Green]] and specialises in combat endurance, ammunition capacity, and handheld-weapon reload behaviour.<ref name="inara-kit">[https://inara.cz/elite/engineer/29/ Kit Fowler — Engineer], Inara.</ref>
+
+Kit provides [[Added Melee Damage]], [[Extra Ammo Capacity]], [[Faster Shield Regen]], [[Magazine Size]], and [[Stowed Reloading]].<ref name="inara-kit" />
+
+{{Field note|Odyssey Engineering does '''not''' use the Grade 1–5 Engineer-reputation progression used by ship Engineers. Suits and weapons have equipment grades and modification slots; Kit installs individual modifications into those slots.}}
+
+== Location ==
+
+* '''System:''' [[Capoya]]
+* '''Settlement:''' [[The Last Call]]
+* '''Body:''' Capoya 2
+* '''Distance from arrival:''' approximately 434 Ls
+* '''Engineer type:''' Odyssey Engineer
+* '''Prerequisite Engineer:''' [[Domino Green]]
+* '''System permit required:''' No
+
+The Last Call is a surface Engineer base on '''Capoya 2'''.<ref name="inara-last-call">[https://inara.cz/elite/station/275875/ The Last Call — Station], Inara.</ref>
+
+== How to Discover Kit Fowler ==
+
+Kit Fowler is discovered through [[Domino Green]].<ref name="inara-kit" />
+
+After unlocking Domino, provide her with '''5 doses of [[Push]]''' to receive the referral to Kit.<ref name="inara-domino">[https://inara.cz/elite/engineer/27/ Domino Green — Engineer], Inara.</ref>
+
+{{Important|'''Push does not unlock Kit Fowler.'''
+
+Push is given to [[Domino Green]] to obtain the referral. Kit has a separate unlock requirement after he becomes known.}}
+
+There is also no Engineer-reputation grade to build with Domino before receiving the referral. Odyssey Engineers do not use the ship Engineer reputation system.
+
+See [[Domino Green]] and [[Push]] for the complete preceding step.
+
+== How to Receive an Invitation ==
+
+There is no separate invitation requirement after Domino Green has referred Kit.
+
+Once Kit has been discovered, complete his bartender-sales requirement to unlock his workshop.<ref name="inara-kit" />
+
+== How to Unlock Kit Fowler ==
+
+Unlock requirements summary:
+* Unlock [[Domino Green]] by travelling at least 100 light-years in shuttles.
+* Provide Domino with '''5 [[Push]]''' to discover Kit Fowler.
+* Obtain '''5 [[Opinion Polls]]'''.
+* Sell the Opinion Polls to bartenders.
+{{Important|The current requirement is '''5 Opinion Polls'''. Frontier reduced Kit's requirement from 10 to 5 in Update 18.08.
+{{Tip|Wait until Kit has been discovered through Domino before selling the Opinion Polls so there is no ambiguity about whether the Engineer progression is active.}}
+
+For the complete step-by-step process, see [[Unlocking Kit Fowler]].
+
+== Obtaining Opinion Polls ==
+
+[[Opinion Polls]] are Odyssey '''Data'''.<ref name="inara-opinion-polls">[https://inara.cz/elite/componentitem/10420/ Opinion Polls — Component], Inara.</ref>
+
+Current material data lists them as obtainable from:
+
+* data ports in '''HAB buildings''';
+* data ports in '''CMD buildings'''; and
+* '''mission rewards'''.<ref name="inara-opinion-polls" />
+
+Because Opinion Polls are Data, they do not occupy the physical Goods section of the suit backpack.
+
+They currently have no normal suit or weapon modification recipe and are principally useful for Kit Fowler's Engineer progression.<ref name="inara-opinion-polls" />
+
+== Odyssey Engineering at Kit Fowler ==
+
+Odyssey Engineering works differently from ship Engineering.
+
+Suits and handheld weapons have an '''equipment grade'''. Higher equipment grades provide additional modification slots:
+
+{| class="wikitable"
+! Equipment grade
+! Modification slots
+|-
+| Grade 1
+| 0
+|-
+| Grade 2
+| 1
+|-
+| Grade 3
+| 2
+|-
+| Grade 4
+| 3
+|-
+| Grade 5
+| 4
+|}
+
+Kit installs individual modifications into those available slots.
+
+His modifications do '''not''' progress through Grade 1–5 Engineer reputation.
+
+{{Important|A Grade 5 Dominator Suit does not receive a "Grade 5 Extra Ammo Capacity" modification. Grade 5 describes the suit itself and provides four modification slots; Extra Ammo Capacity occupies one of those slots as a single permanent modification.}}
+
+See [[Odyssey Engineering]] for equipment grades, modification slots, upgrading, and Engineering-material mechanics.
+
+== Available Engineering ==
+
+Kit currently provides five Odyssey modifications.<ref name="inara-kit" />
+
+{| class="wikitable"
+! Modification
+! Equipment
+! Primary effect
+|-
+| [[Added Melee Damage]]
+| Suit
+| Increases damage from fists and weapon melee strikes
+|-
+| [[Extra Ammo Capacity]]
+| Suit
+| Increases carried ammunition capacity by 50%
+|-
+| [[Faster Shield Regen]]
+| Suit
+| Increases personal-shield regeneration rate by approximately 25%
+|-
+| [[Magazine Size]]
+| Handheld weapon
+| Increases the weapon's magazine capacity
+|-
+| [[Stowed Reloading]]
+| Handheld weapon
+| Automatically reloads a weapon after it has been stowed
+|}
+
+== Added Melee Damage ==
+
+'''Added Melee Damage''' substantially increases damage dealt by both unarmed attacks and melee strikes performed with a handheld weapon.<ref name="inara-kit" />
+
+The current modifiers are:
+
+* '''+150% weapon melee damage multiplier'''
+* '''+150% fists melee damage multiplier'''<ref name="inara-kit" />
+
+The current recipe is:
+
+* 5 [[Combat Training Material]]
+* 5 [[Combatant Performance]]
+* 5 [[Epinephrine]]
+* 8 [[Micro Thrusters]]
+* '''500,000 CR'''<ref name="inara-kit" />
+
+Other Engineers currently providing Added Melee Damage include:
+
+* [[Jude Navarro]]
+* [[Eleanor Bresa]]<ref name="inara-kit" />
+
+{{Tip|'''EDFM recommendation:''' Added Melee Damage is a specialised modification.
+
+It can support a deliberately melee-focused build, but most general-purpose combat suits gain more consistent benefit from survivability, ammunition, mobility, or utility modifications.}}
+
+Odyssey modification slots are permanent and limited, so consider whether melee attacks are genuinely part of the suit's intended role before installing it.
+
+== Extra Ammo Capacity ==
+
+'''Extra Ammo Capacity''' increases the amount of ammunition the suit can carry for each equipped weapon.<ref name="inara-kit" />
+
+The current modifier is:
+
+* '''+50% ammunition capacity'''<ref name="inara-kit" />
+
+The current recipe is:
+
+* 8 [[Recycling Logs]]
+* 5 [[Weapon Test Data]]
+* 5 [[Production Reports]]
+* 3 [[Weapon Component]]
+* '''750,000 CR'''<ref name="inara-kit" />
+
+Other Engineers currently providing Extra Ammo Capacity include:
+
+* [[Jude Navarro]]
+* [[Eleanor Bresa]]<ref name="inara-kit" />
+
+{{Tip|'''EDFM recommendation:''' Extra Ammo Capacity is one of Kit's strongest general-purpose modifications for a combat-focused [[Dominator Suit]].
+
+The 50% larger ammunition reserve reduces dependence on ammunition crates and allows more sustained fighting between resupply stops.}}
+
+It is especially useful when carrying weapons with comparatively small total ammunition reserves.
+
+{{Field note|Extra Ammo Capacity affects the '''suit's total carried ammunition reserve'''. It is separate from [[Magazine Size]], which changes the amount of ammunition loaded into an individual weapon before a reload is required.}}
+
+== Faster Shield Regen ==
+
+'''Faster Shield Regen''' increases the regeneration rate of the suit's personal shield.<ref name="inara-kit" />
+
+Independent in-game testing measures the modification at approximately '''+25% shield regeneration rate'''.<ref name="shield-regen-testing">[https://www.reddit.com/r/EliteDangerous/comments/or36h9/dominator_faster_shield_regen_2525/ Dominator + Faster Shield Regen (+25.25%)], r/EliteDangerous.</ref>
+
+Testing across several Dominator Suit grades produced approximately:
+
+* '''Grade 3:''' 1.65 → 2.06
+* '''Grade 4:''' 2.02 → 2.53
+* '''Grade 5:''' 2.48 → 3.10<ref name="shield-regen-testing" />
+
+These measurements correspond to an increase of roughly '''25%'''.
+
+The current recipe is:
+
+* 5 [[Reactor Output Review]]
+* 3 [[Ion Battery]]
+* 8 [[Micro Transformer]]
+* 8 [[Electrical Wiring]]
+* '''750,000 CR'''<ref name="inara-kit" />
+
+Other Engineers currently providing Faster Shield Regen include:
+
+* [[Uma Laszlo]]
+* [[Eleanor Bresa]]<ref name="inara-kit" />
+
+{{Tip|'''EDFM recommendation:''' Faster Shield Regen is a strong choice for a [[Dominator Suit]] intended for sustained surface combat.
+
+Faster recovery shortens the downtime between engagements after the Commander stops taking shield damage.}}
+
+It can be particularly useful in:
+
+* [[Surface Conflict Zones]];
+* settlement combat missions;
+* prolonged scavenger engagements; and
+* other situations involving repeated fights with short recovery periods.
+
+{{Field note|Current Inara data describes Faster Shield Regen as increasing personal-shield regeneration but displays the numerical modifier as '''Shield health +25%'''.<ref name="inara-kit" /> Independent in-game testing instead measures approximately '''25% faster shield regeneration''' without supporting a corresponding 25% increase in maximum shield capacity.<ref name="shield-regen-testing" /> EDFM therefore treats the current "Shield health" label as a database-display discrepancy.}}
+
+== Magazine Size ==
+
+'''Magazine Size''' increases the amount of ammunition loaded into a handheld weapon before it must be reloaded.<ref name="inara-kit" />
+
+The resulting magazine capacity depends on the weapon being modified.
+
+The current recipe is:
+
+* 5 [[Weapon Test Data]]
+* 3 [[Security Expenses]]
+* 3 [[Weapon Component]]
+* 3 [[Tungsten Carbide]]
+* 5 [[Metal Coil]]
+* '''750,000 CR'''<ref name="inara-kit" />
+
+Other Engineers currently providing Magazine Size include:
+
+* [[Jude Navarro]]
+* [[Eleanor Bresa]]<ref name="inara-kit" />
+
+{{Tip|'''EDFM recommendation:''' Magazine Size is most useful on weapons whose normal magazine forces frequent reloads during an engagement.
+
+The practical value is weapon-dependent: increasing a restrictive magazine can substantially improve combat flow, while a weapon that already carries enough rounds per magazine may benefit more from another modification.}}
+
+=== Magazine Size vs Extra Ammo Capacity ===
+
+The two ammunition modifications affect different limits:
+
+* '''Magazine Size''' — increases how much ammunition is loaded before each reload.
+* '''Extra Ammo Capacity''' — increases how much total ammunition the suit carries.
+
+A combat build can therefore use both.
+
+{{Field note|Magazine Size is available on sidearms as well as primary weapons where compatible. For example, the [[Manticore Tormentor]] supports the modification.<ref name="inara-tormentor">[https://inara.cz/elite/equipment-blueprint/15/ Manticore Tormentor — Equipment Blueprints], Inara.</ref>}}
+
+== Stowed Reloading ==
+
+'''Stowed Reloading''' automatically reloads a handheld weapon while it is stowed.<ref name="inara-kit" />
+
+The current recipe is:
+
+* 5 [[Digital Designs]]
+* 5 [[Operational Manual]]
+* 5 [[Production Schedule]]
+* 3 [[Circuit Board]]
+* 8 [[Encrypted Memory Chip]]
+* '''1,000,000 CR'''<ref name="inara-kit" />
+
+Other Engineers currently providing Stowed Reloading include:
+
+* [[Uma Laszlo]]
+* [[Eleanor Bresa]]<ref name="inara-kit" />
+
+In-game testing has measured the automatic stowed reload at approximately '''5 seconds''', independent of the weapon's normal reload time.<ref name="frontier-stowed-test">[https://forums.frontier.co.uk/threads/the-odyssey-weapon-and-suit-mechanics-and-mods-thread.583083/page-7 The Odyssey Weapon and Suit Mechanics and Mods Thread], Frontier Forums.</ref>
+
+{{Tip|'''EDFM recommendation:''' Stowed Reloading is particularly strong on loadouts that frequently alternate between weapons.
+
+Instead of manually reloading an empty weapon, the Commander can switch to another weapon and continue fighting while the first reloads in the background.}}
+
+This is especially useful when:
+
+* using separate thermal and kinetic weapons;
+* frequently switching between a primary weapon and sidearm;
+* using weapons with long normal reload animations; or
+* alternating between two weapons during sustained combat.
+
+=== Example ===
+
+A typical combat sequence can be:
+
+# Fire Weapon A until its magazine is empty.
+# Switch to Weapon B.
+# Continue fighting with Weapon B.
+# Leave Weapon A stowed for roughly five seconds.
+# Switch back to Weapon A after its automatic reload has completed.
+
+{{Field note|Stowed Reloading does not make the reload instantaneous. The weapon must remain stowed long enough for the automatic reload to finish.<ref name="frontier-stowed-test" />}}
+
+=== Stowed Reloading vs Reload Speed ===
+
+[[Reload Speed]] and Stowed Reloading solve the same basic problem in different ways:
+
+* '''Reload Speed''' — shortens a manual reload while continuing to use that weapon.
+* '''Stowed Reloading''' — allows the weapon to reload in the background while another weapon is being used.
+
+{{Tip|Use '''Reload Speed''' when a weapon is normally kept active throughout an engagement.
+
+Use '''Stowed Reloading''' when the loadout naturally switches between weapons often enough to give the stowed weapon time to reload.}}
+
+Kit does not provide Reload Speed himself; that modification is available from [[Jude Navarro]], [[Uma Laszlo]], and [[Eleanor Bresa]].
+
+== Engineer Unlock Chain ==
+
+Kit Fowler belongs to the [[Domino Green]] branch of the Odyssey Engineer network.
+
+The complete branch is:
+
+<pre>
+Domino Green
+└── Kit Fowler
+    └── Yarden Bond
+</pre>
+
+The progression is:
+
+# Unlock [[Domino Green]].
+# Provide Domino with '''5 [[Push]]''' to discover Kit Fowler.
+# Complete Kit Fowler's unlock requirement.
+# Provide Kit with '''5 [[Surveillance Equipment]]''' to discover [[Yarden Bond]].<ref name="inara-domino" /><ref name="inara-kit" />
+
+== Referring Yarden Bond ==
+
+After Kit Fowler has been unlocked, provide him with '''5 [[Surveillance Equipment]]''' to receive the referral to [[Yarden Bond]].<ref name="inara-kit" />
+
+== Obtaining Surveillance Equipment ==
+
+[[Surveillance Equipment]] is physical Odyssey '''Goods'''.<ref name="inara-surveillance">[https://inara.cz/elite/componentitem/10335/ Surveillance Equipment — Component], Inara.</ref>
+
+Current material data lists it as obtainable from:
+
+* '''STO buildings'''
+* '''EXT buildings'''
+* '''CMD buildings'''
+* '''mission rewards'''<ref name="inara-surveillance" />
+
+Because Surveillance Equipment is physical Goods, the five units must be carried to Kit and provided directly.
+
+Surveillance Equipment is also used in [[Night Vision]] modification recipes, so it has value beyond the Engineer referral.<ref name="inara-surveillance" />
+
+{{Tip|If you intend to unlock both Yarden Bond and Night Vision on several suits, collect more than the five units required for the referral. The referral consumes material that is also useful for actual Engineering.}}
+
+Once the five units have been provided, [[Yarden Bond]] becomes known.
+
+== Continuing to Yarden Bond ==
+
+Receiving Kit's referral reveals [[Yarden Bond]] but does not unlock her workshop.
+
+Yarden has her own separate bartender-sales requirement after she becomes known.<ref name="inara-yarden">[https://inara.cz/elite/engineer/33/ Yarden Bond — Engineer], Inara.</ref>
+
+See [[Yarden Bond]] for the complete next step.
+
+== Increasing Engineer Reputation ==
+
+'''Not applicable to Odyssey Engineers in the same way as ship Engineers.'''
+
+Kit Fowler does not use the Grade 1–5 Engineer-reputation progression found at ship Engineer workshops.
+
+Once Kit has been unlocked, his modifications can be installed provided that:
+
+* the equipment is compatible;
+* the suit or weapon has an unused modification slot; and
+* you possess the required Odyssey materials and credits.
+
+The equipment itself is upgraded separately through [[Pioneer Supplies]].
+
+Likewise, Kit's referral to Yarden Bond is not triggered by increasing Engineer reputation. It is triggered specifically by providing '''5 Surveillance Equipment'''.<ref name="inara-kit" />
+
+See [[Odyssey Engineering]] for the complete on-foot Engineering system.
+
+== Experimental Effects ==
+
+'''Not applicable.'''
+
+Odyssey suit and handheld-weapon Engineering does not use the separate ship-module [[Experimental Effects]] system.
+
+Kit's five modifications are themselves the permanent modifications installed onto the equipment.
+
+== Blueprint Pinning ==
+
+'''Not applicable.'''
+
+Odyssey modifications cannot be pinned for [[Remote Engineering]] in the same manner as ship Engineering blueprints.
+
+A suit or weapon must be taken directly to Kit Fowler or another Odyssey Engineer offering the desired modification.
+
+{{Field note|Unlocking Kit therefore does not make Extra Ammo Capacity, Faster Shield Regen, Magazine Size, or Stowed Reloading remotely available from another station.}}
+
+== Recommended Engineering ==
+
+Kit's modification set is especially strong for sustained ground combat.
+
+=== Dominator Suit ===
+
+For a [[Dominator Suit]] intended for [[Surface Conflict Zones]] or other prolonged combat:
+
+{{Tip|'''EDFM recommendation:''' [[Extra Ammo Capacity]] and [[Faster Shield Regen]] are Kit's strongest broadly useful suit modifications.
+
+Extra Ammo Capacity extends the amount of fighting that can be done before resupplying, while Faster Shield Regen shortens recovery between engagements.}}
+
+Together they improve two different parts of combat endurance:
+
+* '''Extra Ammo Capacity''' — increases offensive endurance.
+* '''Faster Shield Regen''' — improves defensive recovery.
+
+[[Added Melee Damage]] is much more specialised and should normally be reserved for a suit deliberately built around melee combat.
+
+=== Maverick Suit ===
+
+Faster Shield Regen can be useful on a Maverick used regularly for illegal or hostile settlement operations.
+
+Extra Ammo Capacity can also help if the suit routinely sees heavy combat, but utility modifications such as:
+
+* [[Extra Backpack Capacity]]
+* [[Reduced Tool Battery Consumption]]
+* [[Night Vision]]
+* [[Improved Battery Capacity]]
+
+often compete more strongly for Maverick modification slots.
+
+=== Artemis Suit ===
+
+Kit's suit modifications generally provide little value to a dedicated exploration-focused Artemis Suit.
+
+A Commander normally has stronger Artemis options focused on:
+
+* mobility;
+* battery endurance;
+* night operations; and
+* exploration convenience.
+
+=== Weapons ===
+
+Kit provides:
+
+* [[Magazine Size]]
+* [[Stowed Reloading]]
+
+Both can substantially improve weapon handling, but they solve different limitations.
+
+{{Tip|'''EDFM recommendation:''' Stowed Reloading is particularly valuable on weapons that are frequently switched out during combat.
+
+Magazine Size is the better candidate when a weapon's restrictive magazine is the main reason it becomes unavailable during an engagement.}}
+
+A weapon can also use both if its intended role justifies spending two of its limited modification slots on ammunition handling.
+
+=== Low-capacity weapons ===
+
+Weapons with restrictive magazines or long reload interruptions can benefit particularly strongly from Kit's weapon modifications.
+
+For example:
+
+* a larger magazine reduces the frequency of reloads;
+* Stowed Reloading allows those reloads to occur while another weapon is active.
+
+The exact best combination remains weapon-specific.
+
+== What Kit Cannot Modify ==
+
+Kit currently provides five modification types:
+
+* '''Added Melee Damage''' — suit
+* '''Extra Ammo Capacity''' — suit
+* '''Faster Shield Regen''' — suit
+* '''Magazine Size''' — weapon
+* '''Stowed Reloading''' — weapon<ref name="inara-kit" />
+
+Other commonly useful modifications require different Engineers.
+
+Examples include:
+
+* '''Damage Resistance:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Reload Speed:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Combat Movement Speed:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Improved Hip Fire Accuracy:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Faster Handling:''' [[Hero Ferrari]], [[Yarden Bond]], or [[Baltanos]]
+* '''Greater Range:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Scope:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Stability:''' [[Domino Green]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Night Vision:''' [[Oden Geiger]] or [[Yi Shen]]
+* '''Noise Suppressor:''' [[Hero Ferrari]], [[Terra Velasquez]], or [[Baltanos]]
+* '''Audio Masking:''' [[Yarden Bond]] or [[Yi Shen]]
+* '''Quieter Footsteps:''' [[Yarden Bond]] or [[Yi Shen]]
+
+See [[Odyssey Engineer Modifications]] for the complete Engineer-by-modification matrix.
+
+== What Next? ==
+
+Kit Fowler leads directly to [[Yarden Bond]].
+
+{{What next|title=Continue Odyssey Engineering|
+* '''Next Engineer in this branch:''' [[Yarden Bond]]
+* '''Previous Engineer:''' [[Domino Green]]
+* '''Get Yarden's referral Goods:''' [[Surveillance Equipment]]
+* '''Starting referral item for this branch:''' [[Push]]
+* '''Plan combat suits:''' [[Dominator Suit Engineering]]
+* '''Plan suit modifications:''' [[Suit Engineering]]
+* '''Plan weapon modifications:''' [[Weapon Engineering (Odyssey)]]
+* '''See the complete network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Odyssey Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineers]]
+[[Category:Suit Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

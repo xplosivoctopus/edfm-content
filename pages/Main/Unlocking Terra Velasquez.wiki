@@ -1,0 +1,70 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Terra Velasquez
+Namespace: 0
+Page ID: 650
+Revision ID: 1522
+Timestamp: 2026-08-21T14:41:12Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Terra_Velasquez
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Terra Velasquez — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Terra Velasquez]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Terra Velasquez]].
+
+== Objective ==
+Gain access to [[Terra Velasquez]]'s Engineer services in Shou Xing.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Terra Velasquez is discovered through [[Jude Navarro]].
+* '''Invitation:''' There is no separate invitation requirement after receiving Terra's referral from [[Jude Navarro]].
+* Unlock [[Jude Navarro]].
+* Provide Jude with '''5 Genetic Repair Meds''' to discover Terra Velasquez.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Covert Theft and Covert Heist Missions'''
+Both qualifying mission types involve stealing a specified target from a settlement while avoiding the conditions that would fail the covert objective.
+
+=== Covert Theft ===
+
+A Covert Theft mission generally requires stealing an item from settlement storage.
+
+The mission's covert condition means the settlement alarm must not be successfully raised during the operation.
+
+=== Covert Heist ===
+
+A Covert Heist generally requires stealing material from a secured sample containment unit.
+
+Sample containment units require time to open and can trigger settlement alarms, making the settlement's alarm system particularly important during these missions.
+
+{{Tip|Locating and disabling the '''Settlement Alarm System''' before performing the actual theft can greatly reduce the risk of failing a covert mission once illegal activity begins.}}
+
+See Covert Missions, Settlement Infiltration, and Settlement Alarm System for the full stealth workflow.
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Unlock [[Jude Navarro]].
+# Provide Jude with '''5 Genetic Repair Meds''' to discover Terra Velasquez.
+# Accept missions explicitly identified as '''Covert Theft''' or '''Covert Heist'''.
+# Successfully complete a total of '''6''' qualifying missions.
+# Travel to '''Rascal's Choice''' on '''Shou Xing 1'''.
+# Access Terra Velasquez's Engineer workshop.
+}}
+
+== Expected Result ==
+{{Expected result|[[Terra Velasquez]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Terra Velasquez]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Jude Navarro]] Genetic Repair Meds Shou Xing Rascal's Choice}}
+
+== Sources ==
+This procedure was extracted from the current [[Terra Velasquez]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey Engineers]]

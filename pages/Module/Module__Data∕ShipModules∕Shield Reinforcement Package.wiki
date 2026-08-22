@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Shield Reinforcement Package
+Namespace: 828
+Page ID: 597
+Revision ID: 1384
+Timestamp: 2026-08-21T00:00:46Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shield_Reinforcement_Package
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Shield Reinforcement Package",
+}

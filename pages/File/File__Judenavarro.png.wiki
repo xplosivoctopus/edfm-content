@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: File:Judenavarro.png
+Namespace: 6
+Page ID: 253
+Revision ID: 386
+Timestamp: 2026-08-08T14:48:01Z
+Source URL: https://edfieldmanual.com/wiki/File:Judenavarro.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Jude Navarro Engineer Headshot
+== Licensing ==
+{{License-ED screenshot}}

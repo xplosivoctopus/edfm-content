@@ -1,0 +1,42 @@
+<!--
+EDFM current-content archive export.
+Title: Shield Generator
+Namespace: 0
+Page ID: 364
+Revision ID: 1001
+Timestamp: 2026-08-20T01:37:46Z
+Source URL: https://edfieldmanual.com/wiki/Shield_Generator
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The core internal module that produces a ship's deflector shield.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+The '''Shield Generator''' is a core internal module that projects a ship's deflector shield, absorbing damage before it reaches the hull. Not every ship carries one — it occupies a core internal slot that a Commander can instead leave empty or fill with a different core internal module, trading defence for other priorities.
+
+== Overview ==
+
+A Shield Generator needs sufficient spare capacity from the [[Power Plant]] and [[Power Distributor]] to stay raised; if the ship draws too much power elsewhere, the shield can collapse ("shields down") until enough capacity is freed up. Shield strength is also boosted by any fitted [[Shield Booster]] utility modules.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Lei Cheung]] || Grade 5
+|}
+
+[[Lei Cheung]], based at [[Trader's Rest]] in [[Laksak]], is EDFM's currently documented Shield Generator Engineer.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

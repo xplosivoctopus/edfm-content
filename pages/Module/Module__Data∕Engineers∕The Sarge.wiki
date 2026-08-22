@@ -1,0 +1,67 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/The Sarge
+Namespace: 828
+Page ID: 408
+Revision ID: 1169
+Timestamp: 2026-08-20T22:09:05Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/The_Sarge
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "The Sarge",
+	"engineer_scope": "ship",
+	"image": "Thesarge.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Beta-3 Tucani",
+	"body": "Beta-3 Tucani 2 b a",
+	"facility": "The Beach",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Cannon",
+		"Collector Limpet Controller",
+		"Fuel Transfer Limpet Controller",
+		"Hatch Breaker Limpet Controller",
+		"Prospector Limpet Controller",
+		"Rail Gun"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Juri Ishmaak",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Juri Ishmaak",
+	"invitation_requirement": "Federal Navy rank Midshipman or higher",
+	"meeting_requirement": "Reach Federal Navy rank Midshipman or higher.",
+	"meeting_links": [
+		{
+			"text": "Federal Navy rank",
+			"target": "Federal Navy Rank"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 50,
+		"item": "Aberrant Shield Pattern Analysis"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Cannon",
+				"Collector Limpet Controller",
+				"Fuel Transfer Limpet Controller",
+				"Hatch Breaker Limpet Controller",
+				"Prospector Limpet Controller"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Rail Gun"
+			]
+		}
+	],
+	"colonia": false
+}

@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: File:Didivatermann.png
+Namespace: 6
+Page ID: 247
+Revision ID: 378
+Timestamp: 2026-08-08T14:40:22Z
+Source URL: https://edfieldmanual.com/wiki/File:Didivatermann.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Didi Vatermann Engineer Headshot
+== Licensing ==
+{{License-ED screenshot}}

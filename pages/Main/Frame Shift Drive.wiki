@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Frame Shift Drive
+Namespace: 0
+Page ID: 359
+Revision ID: 996
+Timestamp: 2026-08-20T01:37:43Z
+Source URL: https://edfieldmanual.com/wiki/Frame_Shift_Drive
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The core internal module that gives a ship supercruise and hyperspace jump capability — one of the most commonly Engineered modules in the game.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+The '''Frame Shift Drive''' (commonly abbreviated '''FSD''') is a core internal module fitted to every ship. It provides two distinct functions: '''supercruise''', the faster-than-light drive used for travel within a system, and '''hyperspace jumps''', which move a ship between star systems along the galaxy map.
+
+== Overview ==
+
+Every ship hull has a fixed core internal slot reserved for its Frame Shift Drive; a ship cannot fly without one fitted. The class and rating of the drive fitted, combined with the ship's unladen mass, cargo, and fuel load, determine its maximum jump range.
+
+Frame Shift Drive Engineering is one of the most commonly sought modifications in the game, since jump range directly affects exploration reach, trade route efficiency, and how quickly a Commander can relocate between regions.
+
+A separate module, the [[Frame Shift Drive Interdictor]], is used to pull other ships out of supercruise — it is a different optional internal module, not a Frame Shift Drive upgrade.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Felicity Farseer]] || Grade 5
+|}
+
+Felicity Farseer, based at [[Farseer Inc]] in [[Deciat]], is EDFM's currently documented Grade 5 Frame Shift Drive Engineer and a common early destination for Commanders looking to increase jump range.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

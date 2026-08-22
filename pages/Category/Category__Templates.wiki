@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Templates
+Namespace: 14
+Page ID: 215
+Revision ID: 316
+Timestamp: 2026-08-07T22:21:27Z
+Source URL: https://edfieldmanual.com/wiki/Category:Templates
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Every reusable template on EDFM — infoboxes, article-status/warning banners, guide-component wrappers, and skeleton pages. See [[Special:AllPages]] with namespace Template for the full list, or browse this category directly.

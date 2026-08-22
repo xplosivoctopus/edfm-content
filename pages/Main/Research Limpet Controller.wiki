@@ -1,0 +1,36 @@
+<!--
+EDFM current-content archive export.
+Title: Research Limpet Controller
+Namespace: 0
+Page ID: 586
+Revision ID: 1373
+Timestamp: 2026-08-21T00:00:37Z
+Source URL: https://edfieldmanual.com/wiki/Research_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Ship Module
+ |deck=Structured stub page for the Research Limpet Controller ship module.
+}}
+
+{{Ship module infobox
+ |name = Research Limpet Controller
+ |image =
+ |module_class =
+ |slot_type =
+ |mount =
+ |manufacturer =
+ |availability =
+ |engineering =
+ |related_modules =
+}}
+
+{{Draft warning}}
+
+== Overview ==
+
+This ship module page is a structured stub. Source-backed module details have not been filled yet.
+
+[[Category:Modules]]
+[[Category:Ship modules]]

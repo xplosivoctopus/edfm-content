@@ -1,0 +1,344 @@
+<!--
+EDFM current-content archive export.
+Title: The Dweller
+Namespace: 0
+Page ID: 111
+Revision ID: 1426
+Timestamp: 2026-08-21T14:38:27Z
+Source URL: https://edfieldmanual.com/wiki/The_Dweller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=An independent starting Engineer based at Black Hide in Wyrd, providing Grade 5 Power Distributor engineering and modifications for beam, burst, and pulse lasers.
+}}
+
+{{Engineer infobox}}
+
+'''The Dweller''' is a ship Engineer based at '''Black Hide''' in the [[Wyrd]] system. He is one of the independent starting Engineers: no referral from [[Professor Palin]] or any other Engineer is required before a Commander can meet and unlock him.<ref name="inara-dweller">[https://inara.cz/elite/engineer/4/ The Dweller — Engineer], Inara.</ref><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+The Dweller provides '''Grade 5 Power Distributor Engineering''' and also works on energy weapons, providing Pulse Laser Engineering through Grade 4 and Beam and Burst Laser Engineering through Grade 3.<ref name="inara-dweller" />
+
+{{Field note|The Dweller is a '''starting Engineer'''. [[Professor Palin]] is not part of his unlock path. The two belong to separate branches of the ship Engineer network.}}
+
+== Location ==
+
+* '''System:''' [[Wyrd]]
+* '''Facility:''' [[Black Hide]]
+* '''Body:''' Wyrd A 2
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' No
+* '''System permit required:''' No
+
+Black Hide is a surface Engineer base located on Wyrd A 2.<ref name="inara-black-hide">[https://inara.cz/elite/station/52127/ Black Hide — Station], Inara.</ref>
+
+== How to Discover The Dweller ==
+
+The Dweller's whereabouts are '''public knowledge'''. He does not require a referral from another Engineer.<ref name="inara-dweller" />
+
+This makes him one of the independent entry points into the ship Engineering network.
+
+== How to Receive an Invitation ==
+
+Sell commodities at '''at least 5 unique Black Markets'''.<ref name="inara-dweller" /><ref name="newp-engineers" />
+
+A Black Market is a station service used to sell cargo that the local market will not accept through ordinary legal trade.
+
+For The Dweller's requirement, the important part is that you use '''five separate Black Market contacts'''.
+
+{{Important|Selling five units at a single Black Market does '''not''' satisfy the requirement. You must make qualifying sales at '''five different Black Markets'''.}}
+
+The Black Markets do not need to be in five different star systems; what matters is that each sale is made through a distinct Black Market.
+
+See [[Black Markets]] for how to locate Black Markets, obtain cargo they will accept, and make the required sales.
+
+{{Field note|Older guides sometimes describe this requirement loosely as simply "using" five Black Markets. Current Engineer references specify selling commodities at five unique Black Markets.<ref name="newp-engineers" />}}
+
+== How to Unlock The Dweller ==
+
+Unlock requirements summary:
+* Sell commodities at '''5 unique [[Black Markets]]'''.
+{{Important|The '''500,000 CR''' unlock is a direct credit payment. You do not need to transport a commodity or Engineering material to complete the final unlock step.}}
+{{Field note|Current Engineer data notes that station services may not become available immediately after The Dweller is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+For the complete step-by-step process, see [[Unlocking The Dweller]].
+
+== Increasing Engineer Reputation ==
+
+Reputation with The Dweller can be increased by:
+
+* crafting Engineering modifications at Black Hide; or
+* selling commodities at Black Hide.<ref name="inara-dweller" />
+
+Higher Engineer reputation gives access to the higher grades The Dweller supports for each blueprint.
+
+Reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' also allows The Dweller to provide referrals to [[Lei Cheung]] and [[Marsha Hicks]].<ref name="newp-engineers" />
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have ordinary commodities to sell after unlocking The Dweller, selling them at Black Hide can help increase your Engineer reputation without relying entirely on repeated Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+The Dweller is one of the independent starting points in the ship Engineer network.
+
+After reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''', he can provide referrals to:<ref name="newp-engineers" />
+
+* [[Lei Cheung]]
+* [[Marsha Hicks]] — Colonia
+
+[[Lei Cheung]] subsequently leads to [[Ram Tah]].
+
+The branch is therefore:
+
+<pre>
+The Dweller
+├── Lei Cheung
+│   └── Ram Tah
+└── Marsha Hicks [Colonia]
+</pre>
+
+Current Engineer data independently lists both Lei Cheung and Marsha Hicks as being discovered through The Dweller.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|A referral does not automatically unlock the referred Engineer. [[Lei Cheung]] and [[Marsha Hicks]] each have additional meeting and unlock requirements of their own.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+The Dweller's Engineering coverage is shown below. The listed grade is the highest grade he can apply to that module.<ref name="inara-dweller" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Power Distributor]]
+|
+* Balanced <small>(Live only; compatible Merc modules)</small>
+* Charge Enhanced
+* Engine Focused
+* High Charge Capacity
+* Shielded
+* Support Focused <small>(Live only; compatible Merc modules)</small>
+* System Focused
+* Weapon Focused
+| '''Grade 5'''
+|-
+| [[Pulse Laser]]
+|
+* Efficient
+* Focused
+* Lightweight
+* Long Range
+* Overcharged
+* Plasma Conversion <small>(Live only)</small>
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 4'''
+|-
+| [[Beam Laser]]
+|
+* Efficient
+* Lightweight
+* Long Range
+* Overcharged
+* Plasma Conversion <small>(Live only)</small>
+* Short Range
+* Sturdy
+| '''Grade 3'''
+|-
+| [[Burst Laser]]
+|
+* Efficient
+* Focused
+* Lightweight
+* Long Range
+* Overcharged
+* Plasma Conversion <small>(Live only)</small>
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 3'''
+|}
+
+The Dweller's maximum-grade specialty is therefore the [[Power Distributor]]. His laser Engineering is useful during early and intermediate progression but stops below Grade 5.
+
+== Operations-era Engineering ==
+
+Several blueprints now available through The Dweller were introduced with the Operations-era Engineering additions.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+These additions are available in '''Live''' and are not part of the Legacy Engineering system.
+
+=== Balanced Power Distributor ===
+
+'''Balanced''' increases capacity and recharge across all three Power Distributor capacitors while reducing power draw, at the cost of increased mass and reduced integrity.<ref name="inara-balanced">[https://inara.cz/elite/blueprint/208/ Power Distributor — Balanced], Inara.</ref>
+
+The Dweller can apply Balanced through '''Grade 5'''.
+
+{{Important|Balanced can only be applied to compatible '''Merc modules'''.<ref name="inara-balanced" />}}
+
+=== Support Focused Power Distributor ===
+
+'''Support Focused''' increases Engine and System capacity and recharge while reducing Weapon capacity and recharge.<ref name="inara-support">[https://inara.cz/elite/blueprint/209/ Power Distributor — Support Focused], Inara.</ref>
+
+The Dweller can apply Support Focused through '''Grade 5'''.
+
+{{Important|Support Focused can only be applied to compatible '''Merc modules'''.<ref name="inara-support" />}}
+
+=== Plasma Conversion ===
+
+The Operations update also introduced a Plasma Conversion blueprint for Beam, Burst, and Pulse Lasers.
+
+The modification increases power draw and converts part of the weapon's normal thermal damage into plasma damage.<ref name="frontier-operations" />
+
+The Dweller can apply Plasma Conversion to:
+
+* '''Pulse Lasers''' — through Grade 4
+* '''Beam Lasers''' — through Grade 3
+* '''Burst Lasers''' — through Grade 3<ref name="inara-plasma-beam">[https://inara.cz/elite/blueprint/203/ Beam Laser — Plasma Conversion], Inara.</ref><ref name="inara-plasma-burst">[https://inara.cz/elite/blueprint/202/ Burst Laser — Plasma Conversion], Inara.</ref><ref name="inara-plasma-pulse">[https://inara.cz/elite/blueprint/204/ Pulse Laser — Plasma Conversion], Inara.</ref>
+
+Plasma Conversion uses [[Merc Coin]] as part of its Engineering cost in addition to conventional Engineering materials.
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+
+The Dweller can apply Experimental Effects to every module type he engineers.
+
+== Power Distributor Experimental Effects ==
+
+Available Power Distributor Experimental Effects include:<ref name="inara-distributor">[https://inara.cz/elite/blueprint/67/ Power Distributor — Charge Enhanced], Inara.</ref>
+
+* [[Cluster Capacitors]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Stripped Down]]
+* [[Super Conduits]]
+
+== Beam Laser Experimental Effects ==
+
+Available Beam Laser Experimental Effects include:<ref name="inara-beam">[https://inara.cz/elite/blueprint/203/ Beam Laser — Plasma Conversion], Inara.</ref>
+
+* [[Concordant Sequence]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Oversized]]
+* [[Regeneration Sequence]]
+* [[Stripped Down]]
+* [[Thermal Conduit]]
+* [[Thermal Shock]]
+* [[Thermal Vent]]
+
+== Burst Laser Experimental Effects ==
+
+Available Burst Laser Experimental Effects include:<ref name="inara-burst">[https://inara.cz/elite/blueprint/77/ Burst Laser — Efficient], Inara.</ref>
+
+* [[Concordant Sequence]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Inertial Impact]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Phasing Sequence]]
+* [[Scramble Spectrum]]
+* [[Stripped Down]]
+* [[Thermal Shock]]
+
+== Pulse Laser Experimental Effects ==
+
+Available Pulse Laser Experimental Effects include:<ref name="inara-pulse">[https://inara.cz/elite/blueprint/72/ Pulse Laser — Efficient], Inara.</ref>
+
+* [[Concordant Sequence]]
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Phasing Sequence]]
+* [[Scramble Spectrum]]
+* [[Stripped Down]]
+* [[Thermal Shock]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Engineering ==
+
+The Dweller's most broadly useful capability is his '''Grade 5 Power Distributor Engineering'''.
+
+{{Tip|'''Common general-purpose choice: Charge Enhanced + Super Conduits'''
+
+For many combat and general-purpose ships, [[Charge Enhanced Power Distributor|Charge Enhanced]] combined with [[Super Conduits]] is a strong default combination.
+
+Charge Enhanced prioritises faster recharge across the Systems, Engines, and Weapons capacitors at the cost of some maximum capacity. Super Conduits pushes the recharge rates farther while reducing capacitor capacity slightly more.
+
+This is a recommendation rather than a universal rule. Builds that depend on unusually large individual capacitor reserves may benefit from a different blueprint or Experimental Effect.}}
+
+=== Energy weapons ===
+
+The Dweller also provides useful early access to Beam, Burst, and Pulse Laser Engineering.
+
+His maximum grades are lower than the dedicated Grade 5 laser Engineers, but this still allows Commanders to begin modifying energy weapons and applying their Experimental Effects relatively early in the Engineer network.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with The Dweller, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Charge Enhanced Power Distributor]] is a strong general-purpose blueprint to pin at The Dweller.
+
+The Dweller provides Charge Enhanced through '''Grade 5''', and the blueprint is useful across a wide range of combat, exploration, trade, and multipurpose ships.
+
+If Charge Enhanced is already pinned through another Grade 5 Power Distributor Engineer, The Dweller's pin can instead be used for another blueprint that better fits your fleet.}}
+
+Blueprint pinning should reflect the modules and ships you actually use; there is no requirement to use the suggested pin.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What The Dweller Cannot Fully Engineer ==
+
+The Dweller provides maximum-grade Power Distributor Engineering, but his laser Engineering stops below Grade 5.
+
+His maximum grades are:
+
+* '''Power Distributor:''' Grade 5
+* '''Pulse Laser:''' Grade 4
+* '''Beam Laser:''' Grade 3
+* '''Burst Laser:''' Grade 3<ref name="inara-dweller" />
+
+For higher-grade laser Engineering:
+
+* [[Broo Tarquin]] provides '''Grade 5 Beam, Burst, and Pulse Laser''' Engineering.
+* [[Mel Brandon]] provides '''Grade 5 Beam, Burst, and Pulse Laser''' Engineering in Colonia.<ref name="inara-engineers" />
+
+For Power Distributors, [[Etienne Dorn]] also provides '''Grade 5''' Engineering in Colonia.
+
+The Dweller therefore remains one of the primary Engineers for maximum-grade Power Distributor work while also serving as an accessible early source of energy-weapon Engineering.
+
+== What Next? ==
+
+Progressing The Dweller's reputation opens two additional Engineer paths.
+
+{{What next|title=Continue Engineering|
+* '''Shields and Sensors:''' [[Lei Cheung]]
+* '''Colonia weapons and support modules:''' [[Marsha Hicks]]
+* '''Grade 5 Beam, Burst, and Pulse Lasers:''' [[Broo Tarquin]]
+* '''Another Grade 5 Power Distributor Engineer:''' [[Etienne Dorn]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn about Black Markets:''' [[Black Markets]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

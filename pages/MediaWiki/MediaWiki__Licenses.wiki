@@ -1,0 +1,21 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Licenses
+Namespace: 8
+Page ID: 236
+Revision ID: 353
+Timestamp: 2026-08-07T23:59:53Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Licenses
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+* Elite Dangerous Media
+** License-ED screenshot|Elite Dangerous in-game screenshot
+** License-Official Frontier media|Official Frontier / Elite Dangerous media
+* Original EDFM Media
+** License-Original work|Original work — creator retains copyright
+** License-CC BY 4.0|CC BY 4.0
+** License-CC BY-SA 4.0|CC BY-SA 4.0
+* Other
+** License-Used with permission|Used with explicit permission
+** License-Public domain|Public domain

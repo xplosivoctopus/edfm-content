@@ -1,0 +1,37 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Odyssey Engineer directory
+Namespace: 10
+Page ID: 430
+Revision ID: 1216
+Timestamp: 2026-08-20T23:56:25Z
+Source URL: https://edfieldmanual.com/wiki/Template:Odyssey_Engineer_directory
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#invoke:Engineers|odysseyDirectory|colonia={{{colonia|}}}}}<noinclude>
+== Usage ==
+Generates the Odyssey Engineer directory from canonical structured Engineer data.
+
+<pre>
+{{Odyssey Engineer directory}}
+</pre>
+
+An optional <code>|colonia=</code> parameter restricts the table to just the
+core-region roster or just the Colonia roster, matching how the
+[[Engineers]] article presents them as two separate tables under two
+separate headings:
+
+<pre>
+{{Odyssey Engineer directory|colonia=false}}
+{{Odyssey Engineer directory|colonia=true}}
+</pre>
+
+Omit <code>|colonia=</code> entirely for all 13 Odyssey Engineers in one
+table.
+
+Engineer facts shown here are maintained in
+[[Module:Data/Engineers]] rather than duplicated manually.
+
+[[Category:Templates]]
+</noinclude>

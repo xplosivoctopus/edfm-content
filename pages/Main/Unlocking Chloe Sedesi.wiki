@@ -1,0 +1,65 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Chloe Sedesi
+Namespace: 0
+Page ID: 630
+Revision ID: 1500
+Timestamp: 2026-08-21T14:40:47Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Chloe_Sedesi
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Chloe Sedesi — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Chloe Sedesi]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Chloe Sedesi]].
+
+== Objective ==
+Gain access to [[Chloe Sedesi]]'s Engineer services at Cinder Dock in Shenve.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Chloe Sedesi is discovered through [[Marco Qwent]].
+* '''Invitation:''' Reach a '''maximum distance of at least 5,000 light-years from your career start location'''.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Marco Qwent]].
+* Reach a maximum distance of at least '''5,000 Ly from your career start location'''.
+* Obtain '''25 Sensor Fragments'''.
+* Provide the 25 Sensor Fragments to Chloe Sedesi.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Sensor Fragments'''
+Sensor Fragments are pieces of Thargoid Sensors. Current material data lists them as obtainable from:
+
+* destroyed Thargoid Sensors;
+* Non-Human Signal Sources; and
+* Thargoid sites.
+
+See Sensor Fragments for current collection methods and recommended locations.
+
+{{Field note|[[Professor Palin]] also requires '''25 Sensor Fragments'''. Unlocking one Engineer does not satisfy the other's donation requirement. If you plan to unlock both, you will need enough Sensor Fragments for both unlocks.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Chloe is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Marco Qwent]].
+# Receive Marco's referral to Chloe Sedesi.
+# Reach a maximum distance of at least '''5,000 Ly from your career start location'''.
+# Obtain '''25 Sensor Fragments'''.
+# Travel to '''Cinder Dock''' in Shenve.
+# Provide the 25 Sensor Fragments to Chloe Sedesi.
+# Enter the Engineer workshop and begin increasing your reputation with Chloe.
+}}
+
+== Expected Result ==
+{{Expected result|[[Chloe Sedesi]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Chloe Sedesi]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Marco Qwent]] [[Professor Palin]] Sensor Fragments Shenve Engineer Reputation Cinder Dock}}
+
+== Sources ==
+This procedure was extracted from the current [[Chloe Sedesi]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

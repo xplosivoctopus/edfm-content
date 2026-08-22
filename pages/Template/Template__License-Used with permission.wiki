@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Template:License-Used with permission
+Namespace: 10
+Page ID: 233
+Revision ID: 1115
+Timestamp: 2026-08-20T03:29:38Z
+Source URL: https://edfieldmanual.com/wiki/Template:License-Used_with_permission
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-warning noexcerpt">This file is used with explicit permission from its rights holder. It is '''not''' released under this wiki's CC BY-SA 4.0 text license and may not be redistributed beyond this wiki without separately obtaining permission from the original rights holder. The uploader should be able to document or point to evidence of the permission granted (e.g. a message, email, or public statement from the rights holder) if asked.</div><includeonly>[[Category:Media used with permission]]
+[[Category:Files needing licensing review]]</includeonly><noinclude>
+== Usage ==
+The license value inserted when a contributor picks '''"Used with explicit permission"''' from the Licensing dropdown on <code>Special:Upload</code>. Automatically adds [[:Category:Files needing licensing review]] since a permission claim is exactly the kind of thing worth a second person double-checking — describe how/from whom permission was obtained in the file description.
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

@@ -1,0 +1,99 @@
+<!--
+EDFM current-content archive export.
+Title: Start Here
+Namespace: 0
+Page ID: 51
+Revision ID: 855
+Timestamp: 2026-08-16T04:08:51Z
+Source URL: https://edfieldmanual.com/wiki/Start_Here
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Start Here
+ |deck=Not sure where to begin? Pick the path that best matches what you're trying to do.
+}}
+
+'''Start Here''' is the orientation page for the Elite Dangerous Field Manual.
+
+You do not need to read EDFM in order. Use the section below that best describes why you're here, then follow the links from there.
+
+{{Prerequisites|
+* None — this page assumes nothing.
+}}
+
+== I'm brand new to Elite Dangerous ==
+
+Start with the '''[[New Commander Roadmap]]'''.
+
+It begins after the tutorial and walks through the early decisions and systems that are most useful to understand first, including:
+
+* earning your first credits;
+* understanding rebuy and ship loss;
+* travelling safely between systems;
+* fuel, route planning, and fuel scoops;
+* buying and upgrading ships; and
+* deciding what activities you want to pursue next.
+
+{{Tip|You do not need to learn every major game system before you start playing. The roadmap is intended to get you moving, explain the things that can cause expensive mistakes, and point you toward deeper guides when you actually need them.}}
+
+== I've played before and I'm coming back ==
+
+Start with the '''[[Returning Commander Overview]]'''.
+
+Elite Dangerous has changed substantially over time. The returning-player overview is intended to help identify the systems, mechanics, and activities that may have changed since you last played without making you work through beginner material you already know.
+
+== I already know what I want to do ==
+
+You probably do not need a roadmap.
+
+Use '''[[Field Procedures]]''' when you want to know '''how to do something'''.
+
+Examples include:
+
+* unlocking an Engineer;
+* gathering a particular material;
+* completing an activity;
+* using a game system;
+* preparing for a specific operation; or
+* following a repeatable procedure.
+
+Use '''[[Game Reference]]''' when you need '''facts, values, specifications, or comparisons''' rather than step-by-step instructions.
+
+{{Field note|A simple distinction is: '''Field Procedures tell you what to do. Game Reference tells you how something works or what its values are.'''}}
+
+== I'm looking for a major game system ==
+
+You can also go directly to one of EDFM's major subject areas:
+
+* '''[[Engineering]]''' — ship, suit, and weapon Engineering
+* '''[[Odyssey]]''' — on-foot gameplay and systems
+* '''[[Powerplay]]''' — Powerplay activities and progression
+* '''[[Colonisation]]''' — system expansion and construction
+* '''[[Exploration]]''' — travelling, surveying, and discovering systems
+* '''[[Combat]]''' — ship and on-foot combat
+* '''[[Mining]]''' — mining methods, equipment, and resources
+* '''[[Trading]]''' — commodities, markets, and trade
+
+If you are looking for one specific page rather than an entire subject, the site search is usually faster.
+
+== I'm looking for a planner, website, or other tool ==
+
+Go to '''[[Tools and Resources]]'''.
+
+That section collects useful external resources, planners, databases, calculators, and other tools that complement the Field Manual.
+
+== I'm still not sure ==
+
+If you are a newer Commander, use the '''[[New Commander Roadmap]]'''.
+
+Otherwise, return to the '''[[Main Page]]''' and browse by activity or game system. There is no required reading order.
+
+{{Related articles
+ |[[Main Page]]
+ |[[New Commander Roadmap]]
+ |[[Returning Commander Overview]]
+ |[[Field Procedures]]
+ |[[Game Reference]]
+ |[[Tools and Resources]]
+}}

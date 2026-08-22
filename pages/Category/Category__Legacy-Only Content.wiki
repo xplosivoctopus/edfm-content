@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Legacy-Only Content
+Namespace: 14
+Page ID: 165
+Revision ID: 246
+Timestamp: 2026-08-07T21:59:17Z
+Source URL: https://edfieldmanual.com/wiki/Category:Legacy-Only_Content
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Articles carrying an {{tl|Article status}} of ''Legacy only'' — entirely about Legacy-exclusive mechanics with no Live counterpart. Distinct from [[:Category:Legacy Content]] (the broader, mode-based tag applied whenever any part of an article's subject differs between Live and Legacy).
+
+[[Category:Maintenance]]

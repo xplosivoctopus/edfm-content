@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Odyssey
+Namespace: 14
+Page ID: 10
+Revision ID: 10
+Timestamp: 2026-08-06T19:51:21Z
+Source URL: https://edfieldmanual.com/wiki/Category:Odyssey
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Content specific to the Odyssey expansion (on-foot gameplay, settlements, suits, and related mechanics).

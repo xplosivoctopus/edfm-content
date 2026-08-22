@@ -1,0 +1,99 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Tiana Fortune
+Namespace: 828
+Page ID: 410
+Revision ID: 1170
+Timestamp: 2026-08-20T22:09:06Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Tiana_Fortune
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Tiana Fortune",
+	"engineer_scope": "ship",
+	"image": null,
+	"engineer_type": "Ship (utility)",
+	"system": "Achenar",
+	"body": null,
+	"facility": "Fortune's Loss",
+	"region": null,
+	"allegiance": "Empire",
+	"specialties": [
+		"Collector Limpet Controller",
+		"Frame Shift Wake Scanner",
+		"Fuel Transfer Limpet Controller",
+		"Hatch Breaker Limpet Controller",
+		"Kill Warrant Scanner",
+		"Manifest Scanner",
+		"Prospector Limpet Controller",
+		"Sensors",
+		"Cargo Rack",
+		"Detailed Surface Scanner",
+		"Frame Shift Drive Interdictor"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Hera Tani",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Hera Tani",
+	"invitation_requirement": "Friendly reputation with the Empire",
+	"meeting_requirement": "Reach Friendly reputation with the Empire.",
+	"meeting_links": [
+		{
+			"text": "reputation",
+			"target": "Reputation"
+		},
+		{
+			"text": "Empire",
+			"target": "Empire"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 50,
+		"item": "Decoded Emission Data"
+	},
+	"access_note": "Achenar is permit-locked; the permit requires Imperial Navy rank Squire or higher.",
+	"access_note_links": [
+		{
+			"text": "Achenar",
+			"target": "Achenar"
+		},
+		{
+			"text": "Imperial Navy rank",
+			"target": "Imperial Navy Rank"
+		}
+	],
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Collector Limpet Controller",
+				"Frame Shift Wake Scanner",
+				"Fuel Transfer Limpet Controller",
+				"Hatch Breaker Limpet Controller",
+				"Kill Warrant Scanner",
+				"Manifest Scanner",
+				"Prospector Limpet Controller",
+				"Sensors"
+			]
+		},
+		{
+			"grade": 5,
+			"live_only": true,
+			"merc": true,
+			"modules": [
+				"Cargo Rack"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Detailed Surface Scanner",
+				"Frame Shift Drive Interdictor"
+			]
+		}
+	],
+	"colonia": false
+}

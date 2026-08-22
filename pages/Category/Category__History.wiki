@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:History
+Namespace: 14
+Page ID: 160
+Revision ID: 241
+Timestamp: 2026-08-07T21:59:17Z
+Source URL: https://edfieldmanual.com/wiki/Category:History
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Real-world game-timeline chronology — GalNet events, conflicts, and expansion history. Distinct from [[:Category:Lore]] (in-universe narrative).
+
+[[Category:Galactic Archive]]

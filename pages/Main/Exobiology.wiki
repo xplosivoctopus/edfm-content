@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Exobiology
+Namespace: 0
+Page ID: 182
+Revision ID: 918
+Timestamp: 2026-08-18T13:17:36Z
+Source URL: https://edfieldmanual.com/wiki/Exobiology
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+
+Index for exobiology (surface bio-sampling) content — see [[:Category:Exobiology]].
+
+{{Draft warning}}
+No individual exobiology articles exist yet.
+
+{{Related articles|[[Exploration]] [[Game Reference]]}}
+[[Category:Exobiology]]

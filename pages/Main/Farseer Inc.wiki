@@ -1,0 +1,52 @@
+<!--
+EDFM current-content archive export.
+Title: Farseer Inc
+Namespace: 0
+Page ID: 346
+Revision ID: 983
+Timestamp: 2026-08-20T01:37:33Z
+Source URL: https://edfieldmanual.com/wiki/Farseer_Inc
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=Felicity Farseer's Engineering workshop, a surface base in the Deciat system.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced station record
+}}
+
+'''Farseer Inc''' is a surface Engineer base in the '''[[Deciat]]''' system, and the workshop of '''[[Felicity Farseer]]'''.<ref name="inara-farseer-inc">[https://inara.cz/elite/station/52125/ Farseer Inc in Deciat — Station], Inara.</ref>
+
+== Location ==
+
+* '''System:''' [[Deciat]]
+* '''Body:''' Deciat 6a
+* '''Landing pad:''' Large
+* '''Permit required:''' No<ref name="inara-farseer-inc" />
+
+== Engineer ==
+
+Farseer Inc is operated by '''[[Felicity Farseer]]'''. See [[Felicity Farseer]] for the full discovery, invitation, and unlock requirements to access her workshop.
+
+== Station Services ==
+
+Farseer Inc offers a commodity market, outfitting, rearmament, refuelling, repairs, shipyard services, black market, Fleet Carrier services, and a technology broker, in addition to Felicity's Engineering workshop.<ref name="inara-farseer-inc" />
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Felicity Farseer]] [[Deciat]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

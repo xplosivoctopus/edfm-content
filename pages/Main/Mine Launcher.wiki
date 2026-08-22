@@ -1,0 +1,43 @@
+<!--
+EDFM current-content archive export.
+Title: Mine Launcher
+Namespace: 0
+Page ID: 374
+Revision ID: 1011
+Timestamp: 2026-08-20T01:38:41Z
+Source URL: https://edfieldmanual.com/wiki/Mine_Launcher
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Weapon
+ |deck=A rear-deployed area-denial weapon, more often used to punish a pursuer than as a primary damage source.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+'''Mine Launchers''' eject explosive mines behind the firing ship rather than projecting damage forward like a conventional weapon.
+
+== Overview ==
+
+Mines are typically used against a ship that is following closely — a pursuing interdictor, a pirate staying on a Commander's tail, or an opponent chasing through a scramble in combat. Because they rely on the target running into them rather than a direct hit, they're a situational tool rather than a Commander's primary weapon, and ammunition capacity is limited.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Liz Ryder]] || Grade 3
+|}
+
+For higher-grade Mine Launcher Engineering, other Engineers in the wider network provide Grade 5 access; see the Engineer's own article for referral details.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

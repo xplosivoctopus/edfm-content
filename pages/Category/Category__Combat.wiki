@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Combat
+Namespace: 14
+Page ID: 149
+Revision ID: 230
+Timestamp: 2026-08-07T21:59:16Z
+Source URL: https://edfieldmanual.com/wiki/Category:Combat
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Ship-to-ship and on-foot combat mechanics.
+
+[[Category:Gameplay]]

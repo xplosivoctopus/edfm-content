@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Professor Palin
+Namespace: 828
+Page ID: 400
+Revision ID: 1165
+Timestamp: 2026-08-20T22:09:03Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Professor_Palin
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Professor Palin",
+	"engineer_scope": "ship",
+	"image": "Professorpalin.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Arque",
+	"body": null,
+	"facility": "Abel Laboratory",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Thrusters",
+		"Frame Shift Drive"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Marco Qwent",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Marco Qwent",
+	"invitation_requirement": "Reach a maximum distance of at least 5,000 Ly from your career start location",
+	"meeting_requirement": "Reach a maximum distance of at least 5,000 light-years from your career start location.",
+	"unlock": {
+		"action": "Provide",
+		"quantity": 25,
+		"item": "Sensor Fragments"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Thrusters"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Frame Shift Drive"
+			]
+		}
+	],
+	"colonia": false
+}

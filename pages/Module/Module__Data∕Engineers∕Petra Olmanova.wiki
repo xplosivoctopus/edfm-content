@@ -1,0 +1,81 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Petra Olmanova
+Namespace: 828
+Page ID: 416
+Revision ID: 1164
+Timestamp: 2026-08-20T22:09:03Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Petra_Olmanova
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Petra Olmanova",
+	"engineer_scope": "ship",
+	"image": "Petraolmanova.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Asura",
+	"body": "Asura 1 d",
+	"facility": "Sanctuary",
+	"region": "Colonia",
+	"allegiance": null,
+	"specialties": [
+		"Armour",
+		"Hull Reinforcement Package",
+		"Auto Field-Maintenance Unit",
+		"Chaff Launcher",
+		"Electronic Countermeasure",
+		"Heat Sink Launcher",
+		"Point Defence",
+		"Mine Launcher",
+		"Missile Rack",
+		"Seeker Missile Rack",
+		"Torpedo Pylon",
+		"Module Reinforcement Package"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Tod \"The Blaster\" McQuinn",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Tod \"The Blaster\" McQuinn",
+	"invitation_requirement": "Combat rank Expert or higher",
+	"meeting_requirement": "Reach Combat rank Expert or higher.",
+	"meeting_links": [
+		{
+			"text": "Combat rank",
+			"target": "Combat Rank"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 200,
+		"item": "Progenitor Cells"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Armour",
+				"Hull Reinforcement Package",
+				"Auto Field-Maintenance Unit",
+				"Chaff Launcher",
+				"Electronic Countermeasure",
+				"Heat Sink Launcher",
+				"Point Defence",
+				"Mine Launcher",
+				"Missile Rack",
+				"Seeker Missile Rack",
+				"Torpedo Pylon"
+			]
+		},
+		{
+			"grade": 5,
+			"live_only": true,
+			"merc": true,
+			"modules": [
+				"Module Reinforcement Package"
+			]
+		}
+	],
+	"colonia": true
+}

@@ -1,0 +1,31 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Redirect and Disambiguation Policy
+Namespace: 4
+Page ID: 205
+Revision ID: 300
+Timestamp: 2026-08-07T22:14:19Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Redirect_and_Disambiguation_Policy
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How EDFM handles redirects and, eventually, disambiguation.
+
+== When to create a redirect ==
+* Common abbreviations and initialisms (e.g. <code>BGS</code> → [[Background Simulation]]).
+* American/British spelling variants (e.g. <code>Colonization</code> → [[Colonisation]]).
+* Predictable alternate phrasing a commander might actually type (e.g. <code>New Player Guide</code> → [[New Commander Roadmap]]).
+* Common short forms of a proper name (e.g. <code>Farseer</code> → [[Felicity Farseer]]).
+
+Do '''not''' create a redirect for a guessed misspelling nobody has actually been observed to type, or "just in case" — every redirect is a small ongoing maintenance surface, not a free action.
+
+== Hard rule: the target must exist ==
+A redirect's target page must already exist. Never create a redirect that points at a page that hasn't been written yet — that's a disguised red link, and defeats the purpose of {{tl|Article status}}'s honesty about what's actually here. <code>Special:BrokenRedirects</code> is the audit tool for catching any that slip through or whose target later gets renamed/deleted.
+
+== Disambiguation ==
+No title collision currently exists anywhere on EDFM. When one first happens (two different subjects that would naturally share a title), follow the standard parenthetical pattern: <code>Foo (context)</code> for each specific meaning, with a plain <code>Foo</code> page becoming either the more common/primary meaning (with a hatnote pointing to the other) or a short <code>Foo (disambiguation)</code>-style list once there are 3 or more meanings. This matches the convention most large wikis in this style (including RuneScape Wiki, EDFM's stated model) already use, rather than inventing a new one.
+
+== Mass renames ==
+Use the Replace Text extension (already installed) rather than hand-editing every incoming link individually if a page ever needs to move — see Special:ReplaceText.
+
+{{Related articles|[[Elite Dangerous Field Manual:Editorial Policy]] [[Elite Dangerous Field Manual:Contributing]]}}

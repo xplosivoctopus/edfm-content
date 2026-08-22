@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Draft warning
+Namespace: 10
+Page ID: 26
+Revision ID: 1124
+Timestamp: 2026-08-20T03:29:44Z
+Source URL: https://edfieldmanual.com/wiki/Template:Draft_warning
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-draft noexcerpt">'''Draft:''' This article is still a work in progress and may be incomplete. You can help improve it by adding or expanding its content.</div><noinclude>
+== Usage ==
+<pre>{{Draft warning}}</pre>
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

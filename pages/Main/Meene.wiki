@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Meene
+Namespace: 0
+Page ID: 353
+Revision ID: 990
+Timestamp: 2026-08-20T01:37:38Z
+Source URL: https://edfieldmanual.com/wiki/Meene
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=A Confederacy-controlled Core Systems world hosting Ram Tah's workshop and Guardian research, Phoenix Base.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced star system and station records
+}}
+
+'''Meene''' is an independent system in the Core Systems, reached by Commanders pursuing '''[[Ram Tah]]''''s limpet-controller and Guardian-technology Engineering after a referral from [[Lei Cheung]]. It hosts '''[[Phoenix Base]]''', Ram Tah's workshop and the centre of his Guardian research.<ref name="inara-meene">[https://inara.cz/elite/starsystem/19583/ Meene — Star System], Inara.</ref>
+
+== Overview ==
+
+* '''Star:''' Class F (scoopable)
+* '''Allegiance:''' Independent
+* '''Government:''' Confederacy
+* '''Security:''' Medium
+* '''Economy:''' Industrial / Extraction<ref name="inara-meene" />
+
+Meene has also seen a history of Background Simulation conflict between local minor factions; check current system state before relying on any particular faction being in control when you arrive.<ref name="inara-meene" />
+
+== Engineer Facility ==
+
+'''[[Phoenix Base]]''' is a surface Engineer base in Meene, operated by '''[[Ram Tah]]'''.<ref name="inara-phoenix-base">[https://inara.cz/elite/station/55499/ Phoenix Base in Meene — Station], Inara.</ref>
+
+No system permit is required to enter Meene. See [[Ram Tah]] for the full discovery, invitation, and unlock requirements for his workshop.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Ram Tah]] [[Phoenix Base]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

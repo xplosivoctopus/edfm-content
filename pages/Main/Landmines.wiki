@@ -1,0 +1,50 @@
+<!--
+EDFM current-content archive export.
+Title: Landmines
+Namespace: 0
+Page ID: 391
+Revision ID: 1028
+Timestamp: 2026-08-20T01:40:05Z
+Source URL: https://edfieldmanual.com/wiki/Landmines
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Commodity
+ |deck=A Weapons commodity produced by Military economies, and Liz Ryder's unlock requirement.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Inara commodity data; no direct EDFM testing yet
+ |uncertainty=Legality varies by system and has not been independently reproduced by this project
+}}
+
+'''Landmines''' are a '''Weapons''' commodity carried as ordinary cargo.<ref name="inara-landmines">[https://inara.cz/elite/commodity/118/ Landmines — Commodity], Inara.</ref> They are normally produced by surface ports and settlements with a '''Military''' economy.<ref name="inara-landmines" />
+
+== Why it matters for Engineering ==
+
+[[Liz Ryder]] requires '''200 units of Landmines''' to unlock her Engineering workshop at [[Demolition Unlimited]] in [[Eurybia]]. As an ordinary commodity, each unit occupies one tonne of cargo space — transporting the full 200-unit requirement in a single trip needs 200 tonnes of cargo capacity, though the delivery can be split across multiple trips.
+
+== Acquisition ==
+
+Landmines are bought at commodity markets, most consistently at planetary surface ports and settlements with a '''Military''' economy.<ref name="inara-landmines" /> Use a current commodity-market search rather than a fixed station list, since which stations stock Landmines and in what quantity changes over time.
+
+{{Important|Landmines are '''prohibited cargo''' in some systems, though not universally. Check the legal status of your cargo before transporting them through unfamiliar jurisdictions.<ref name="inara-landmines" />}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also carry Landmines if another Commander has stocked them for resale; carrier inventory and prices are player-controlled and can change.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Liz Ryder]] [[Demolition Unlimited]] [[Engineering Materials]]}}
+
+{{Engineering nav}}
+
+[[Category:Commodities]]
+[[Category:Engineering]]

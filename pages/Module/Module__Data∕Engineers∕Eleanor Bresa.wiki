@@ -1,0 +1,55 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Eleanor Bresa
+Namespace: 828
+Page ID: 421
+Revision ID: 1203
+Timestamp: 2026-08-20T23:54:15Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Eleanor_Bresa
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Eleanor Bresa",
+	"image": "Eleanorbresa.png",
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Desy",
+	"body": null,
+	"facility": "Bresa Modifications",
+	"region": "Colonia",
+	"allegiance": null,
+	"discovery": {
+		"type": "public"
+	},
+	"unlock": {
+		"type": "custom",
+		"display": "Visit 5 settlements in the Colonia system."
+	},
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_display": "None — independent Odyssey Engineer",
+	"referrals": [
+		{
+			"engineer": "Yi Shen",
+			"requirement": {
+				"type": "provide",
+				"quantity": 10,
+				"item": "Digital Designs"
+			}
+		}
+	],
+	"modifications": {
+		"suit": [
+			"Added Melee Damage",
+			"Damage Resistance",
+			"Extra Ammo Capacity",
+			"Faster Shield Regen"
+		],
+		"weapon": [
+			"Magazine Size",
+			"Reload Speed",
+			"Stowed Reloading"
+		]
+	},
+	"colonia": true
+}

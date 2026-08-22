@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Commodities
+Namespace: 14
+Page ID: 146
+Revision ID: 227
+Timestamp: 2026-08-07T21:59:16Z
+Source URL: https://edfieldmanual.com/wiki/Category:Commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Tradeable goods carried as cargo, including their sources and uses.
+
+[[Category:Gameplay]]

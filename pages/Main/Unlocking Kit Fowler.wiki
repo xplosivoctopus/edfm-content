@@ -1,0 +1,83 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Kit Fowler
+Namespace: 0
+Page ID: 649
+Revision ID: 1510
+Timestamp: 2026-08-21T14:40:58Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Kit_Fowler
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Kit Fowler — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Kit Fowler]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Kit Fowler]].
+
+== Objective ==
+Gain access to [[Kit Fowler]]'s Engineer services in Capoya.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Kit Fowler is discovered through [[Domino Green]].
+* '''Invitation:''' There is no separate invitation requirement after Domino Green has referred Kit.
+* Unlock [[Domino Green]] by travelling at least 100 light-years in shuttles.
+* Provide Domino with '''5 Push''' to discover Kit Fowler.
+* Obtain '''5 Opinion Polls'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Opinion Polls'''
+Opinion Polls are Odyssey '''Data'''.
+
+Current material data lists them as obtainable from:
+
+* data ports in '''HAB buildings''';
+* data ports in '''CMD buildings'''; and
+* '''mission rewards'''.
+
+Because Opinion Polls are Data, they do not occupy the physical Goods section of the suit backpack.
+
+They currently have no normal suit or weapon modification recipe and are principally useful for Kit Fowler's Engineer progression.
+
+'''Obtaining Surveillance Equipment'''
+Surveillance Equipment is physical Odyssey '''Goods'''.
+
+Current material data lists it as obtainable from:
+
+* '''STO buildings'''
+* '''EXT buildings'''
+* '''CMD buildings'''
+* '''mission rewards'''
+
+Because Surveillance Equipment is physical Goods, the five units must be carried to Kit and provided directly.
+
+Surveillance Equipment is also used in Night Vision modification recipes, so it has value beyond the Engineer referral.
+
+{{Tip|If you intend to unlock both Yarden Bond and Night Vision on several suits, collect more than the five units required for the referral. The referral consumes material that is also useful for actual Engineering.}}
+
+Once the five units have been provided, [[Yarden Bond]] becomes known.
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Unlock [[Domino Green]] by travelling at least 100 light-years in shuttles.
+# Provide Domino with '''5 Push''' to discover Kit Fowler.
+# Obtain '''5 Opinion Polls'''.
+# Sell the Opinion Polls to bartenders.
+# Travel to '''The Last Call''' on '''Capoya 2'''.
+# Access Kit Fowler's Engineer workshop.
+}}
+
+== Expected Result ==
+{{Expected result|[[Kit Fowler]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Kit Fowler]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Domino Green]] Push Opinion Polls Capoya The Last Call}}
+
+== Sources ==
+This procedure was extracted from the current [[Kit Fowler]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey Engineers]]

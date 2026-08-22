@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Imperial Hammer
+Namespace: 828
+Page ID: 515
+Revision ID: 1302
+Timestamp: 2026-08-20T23:59:44Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Imperial_Hammer
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Imperial Hammer",
+}

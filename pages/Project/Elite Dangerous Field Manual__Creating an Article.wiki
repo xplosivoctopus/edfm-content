@@ -1,0 +1,29 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Creating an Article
+Namespace: 4
+Page ID: 208
+Revision ID: 313
+Timestamp: 2026-08-07T22:20:39Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Creating_an_Article
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How to start a new reference/encyclopedia article on EDFM.
+
+== Before you start ==
+Check whether the subject already has a page (search first) and whether it fits an existing topic hub — see the hub list on [[Main Page]]. If it's a procedure rather than a "what is this" subject, you want [[Elite Dangerous Field Manual:Creating a Guide]] instead.
+
+== Title ==
+Plain, flat, human-readable page name — no namespace prefix, no subpage slash (e.g. <code>[[Broo Tarquin]]</code>, not <code>Engineer:Broo Tarquin</code>). This is a deliberate, consistent site-wide convention; see [[Elite Dangerous Field Manual:Engineering Architecture]] for the reasoning behind it.
+
+== Starting from a skeleton ==
+Several entity types have a subst-only skeleton template — check the [[:Category:Templates]] list for one matching your subject (e.g. {{tl|New engineer page}}, {{tl|New blueprint page}}, {{tl|New engineering module page}}, {{tl|New experimental effect page}}). As your very first edit on the new page, enter <code><nowiki>{{subst:Template name}}</nowiki></code> (with the actual template's name in place of "Template name"), save, then fill in the placeholders. If no skeleton exists yet for your subject type, build the page manually using {{tl|Article header}}, {{tl|Article status}}, and an appropriate infobox (see [[Elite Dangerous Field Manual:Adding Structured Data]] if the subject's data should be reusable elsewhere) as the minimum shape.
+
+== Don't invent facts ==
+Leave a field or section as "to be added" / "not yet confirmed" rather than filling it with a plausible-sounding guess — see [[Elite Dangerous Field Manual:Source Quality Guide]] and [[Elite Dangerous Field Manual:Editorial Policy]].
+
+== Categorise it ==
+Every article needs at least one subject category and, if gameplay-facing, {{tl|Article status}} (which auto-categorises by status/mode). Browse <code>Special:Categories</code> or start from [[:Category:Gameplay]] to find the right existing category rather than creating a new, overly-specific one.
+
+{{Related articles|[[Elite Dangerous Field Manual:Editorial Policy]] [[Elite Dangerous Field Manual:Creating a Guide]] [[Elite Dangerous Field Manual:Adding Structured Data]]}}

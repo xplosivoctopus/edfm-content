@@ -1,0 +1,39 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Uploadtext
+Namespace: 8
+Page ID: 237
+Revision ID: 415
+Timestamp: 2026-08-08T15:59:12Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Uploadtext
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+'''Before you upload''', read [[Elite Dangerous Field Manual:Image Use Policy]] — in short: only upload images you personally captured or created, never something copied from Fandom, Reddit, Discord, YouTube, another wiki, or a search-engine image result.
+
+== Which Licensing option do I pick? ==
+Almost every upload to this wiki will be an ordinary gameplay screenshot — pick '''"Elite Dangerous in-game screenshot"''' unless you have a specific reason not to:
+
+* '''Elite Dangerous in-game screenshot''' — the normal choice. A screenshot you captured yourself: an Engineer headshot, a ship, a station or facility, a UI element, a location, anything captured from within the game.
+* '''Official Frontier / Elite Dangerous media''' — only for media Frontier Developments itself released (press kit assets, official screenshots, promotional art) — not something you captured in-game.
+* '''Original work — creator retains copyright''' — a diagram or graphic '''you made''', not a screenshot of the game (e.g. a hand-drawn route map).
+* '''CC BY 4.0''' / '''CC BY-SA 4.0''' — original work you made and are deliberately releasing under a Creative Commons license.
+* '''Used with explicit permission''' — someone else's image, used with their explicit, documented permission. Rare — most uploads shouldn't need this.
+* '''Public domain''' — genuinely public domain (expired copyright, government work, etc.), with the reason stated in the description. Not a fallback for "I don't know the license," and not correct for game assets, which aren't public domain.
+
+There is deliberately no generic "unknown" or "fair use" option — every upload needs one of the classifications above.
+
+== Filling in the rest of the form ==
+The form below asks only for what EDFM can't safely work out on its own:
+
+# '''Destination filename''' — a clear, descriptive name (it becomes the page title in the File namespace).
+# '''Media purpose''' — what kind of image this is (Engineer portrait, ship image, UI screenshot, etc.). This drives the description and categories EDFM generates.
+# '''Subject''' — the EDFM article this image is of, e.g. <code>Hero Ferrari</code> or <code>Anaconda</code> — just the page title, no <code><nowiki>[[brackets]]</nowiki></code>. Required for media purposes that have an obvious subject (a portrait, a ship, a location); optional for general gameplay screenshots, UI screenshots, and diagrams.
+# '''Licensing''' — see above.
+# '''Image modifications''' and '''Additional notes''' — both optional. Only fill these in if there's actually something worth recording (e.g. "Cropped to portrait framing") — leave them blank otherwise.
+
+EDFM then generates the file page automatically: it records who you are, the source and media type implied by your Licensing choice, the copyright holder where that's established by the license, a short factual description built from the media purpose and subject, a capture date '''only''' if the file's own metadata genuinely contains one, the relevant categories, and the <code>{{tl|EDFM image information}}</code>/<code>== Licensing ==</code> markup itself. You should not need to write or edit any template syntax for a normal upload.
+
+If EDFM can't confidently determine something (for example, a subject's Engineer type), it leaves that field out rather than guess — you can always add it afterwards by editing the file page normally, the same as any other page on this wiki.
+
+See [[Elite Dangerous Field Manual:Adding an Image]] for the full walkthrough.

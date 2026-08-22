@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: File:Billturner.png
+Namespace: 6
+Page ID: 244
+Revision ID: 374
+Timestamp: 2026-08-08T14:38:22Z
+Source URL: https://edfieldmanual.com/wiki/File:Billturner.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Bill Turner Engineer Headshot (Bootstrap Bill??)
+== Licensing ==
+{{License-ED screenshot}}

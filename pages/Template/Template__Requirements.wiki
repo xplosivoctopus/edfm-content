@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Requirements
+Namespace: 10
+Page ID: 323
+Revision ID: 698
+Timestamp: 2026-08-12T16:01:14Z
+Source URL: https://edfieldmanual.com/wiki/Template:Requirements
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-guide-requirements">
+<div class="edfm-guide-requirements-title">{{{title|Before you start}}}</div>
+<div class="edfm-guide-requirements-body">
+{{{1|}}}
+</div>
+</div><noinclude>
+== Usage ==
+Preparation panel for required, recommended, and optional equipment or knowledge. Explain why each item matters.
+<pre>{{Requirements|
+; Required : A ship with a Frame Shift Drive — every interstellar route depends on it.
+; Recommended : Fuel scoop — prevents early fuel mistakes.
+; Optional : Docking computer — useful while learning station approach.
+}}</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>

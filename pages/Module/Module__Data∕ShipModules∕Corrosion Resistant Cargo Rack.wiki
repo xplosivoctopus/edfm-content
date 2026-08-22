@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Corrosion Resistant Cargo Rack
+Namespace: 828
+Page ID: 464
+Revision ID: 1251
+Timestamp: 2026-08-20T23:59:08Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Corrosion_Resistant_Cargo_Rack
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Corrosion Resistant Cargo Rack",
+}

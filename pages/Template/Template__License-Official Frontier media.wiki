@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:License-Official Frontier media
+Namespace: 10
+Page ID: 229
+Revision ID: 1118
+Timestamp: 2026-08-20T03:29:40Z
+Source URL: https://edfieldmanual.com/wiki/Template:License-Official_Frontier_media
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Frontier assets notice}}<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-warning noexcerpt">This file is official media released by Frontier Developments plc (for example: press kit assets, official screenshots, or promotional artwork), not a screenshot captured by a contributor. State exactly where this file came from (official press kit, official social media post, etc.) in the file description.</div><includeonly>[[Category:Official Elite Dangerous media]]</includeonly><noinclude>
+== Usage ==
+The license value inserted when a contributor picks '''"Official Frontier / Elite Dangerous media"''' from the Licensing dropdown on <code>Special:Upload</code>. Wraps the shared {{tl|Frontier assets notice}} wording plus a note that this is Frontier's own released media, not a contributor's gameplay capture. Use only for media Frontier itself released (press kits, official posts) — an ordinary gameplay screenshot should use {{tl|License-ED screenshot}} or {{tl|Elite Dangerous screenshot}} instead.
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

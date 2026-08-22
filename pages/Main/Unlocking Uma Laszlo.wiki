@@ -1,0 +1,68 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Uma Laszlo
+Namespace: 0
+Page ID: 653
+Revision ID: 1526
+Timestamp: 2026-08-21T14:41:16Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Uma_Laszlo
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Uma Laszlo — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Uma Laszlo]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Uma Laszlo]].
+
+== Objective ==
+Gain access to [[Uma Laszlo]]'s Engineer services in Xuane.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Uma Laszlo is discovered through [[Wellington Beck]].
+* '''Invitation:''' There is no separate invitation requirement after Wellington Beck has revealed Uma.
+* Unlock [[Hero Ferrari]].
+* Provide Hero with '''5 Settlement Defence Plans''' to discover [[Wellington Beck]].
+* Provide Wellington with '''5 Insight Entertainment Suites'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Lowering Sirius Corporation Reputation'''
+Sirius Corporation is an independent minor faction present in multiple inhabited systems.
+
+To satisfy Uma's requirement, your reputation specifically with '''Sirius Corporation''' must fall to Unfriendly or lower.
+
+Actions that negatively affect your standing with the faction can be used to reduce it. Because Sirius Corporation's system presence, missions, and conflicts can change through the [[Background Simulation]], use current faction information when choosing where to work against the faction rather than relying on an old fixed-location guide.
+
+{{Important|Reducing Sirius Corporation reputation may interfere with other progression that requires good standing with the faction.
+
+In particular, [[Marco Qwent]]'s access path involves Sirius Corporation reputation and the Sirius Permit. If you still need to complete that progression, consider doing so '''before''' deliberately reducing your Sirius Corporation standing for Uma.}}
+
+{{Tip|Check your current Sirius Corporation reputation before beginning. Uma does not merely require you to lose some reputation; your final standing must actually reach '''Unfriendly''' or lower.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Uma is unlocked. If her expected services do not appear after reaching the required reputation and visiting Laszlo's Resolve, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Unlock [[Hero Ferrari]].
+# Provide Hero with '''5 Settlement Defence Plans''' to discover [[Wellington Beck]].
+# Complete Wellington's unlock requirement.
+# Provide Wellington with '''5 Insight Entertainment Suites'''.
+# Reduce your reputation with Sirius Corporation to '''Unfriendly or lower'''.
+# Travel to '''Laszlo's Resolve''' on '''Xuane A 3'''.
+# Access Uma Laszlo's Engineer workshop.
+}}
+
+== Expected Result ==
+{{Expected result|[[Uma Laszlo]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Uma Laszlo]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Wellington Beck]] Insight Entertainment Suite Sirius Corporation [[Hero Ferrari]] Settlement Defence Plans Xuane}}
+
+== Sources ==
+This procedure was extracted from the current [[Uma Laszlo]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey Engineers]]

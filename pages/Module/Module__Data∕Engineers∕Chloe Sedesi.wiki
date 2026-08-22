@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Chloe Sedesi
+Namespace: 828
+Page ID: 401
+Revision ID: 1150
+Timestamp: 2026-08-20T22:08:55Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Chloe_Sedesi
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Chloe Sedesi",
+	"engineer_scope": "ship",
+	"image": "Chloesedesi.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Shenve",
+	"body": null,
+	"facility": "Cinder Dock",
+	"region": "Witch Head",
+	"allegiance": null,
+	"specialties": [
+		"Thrusters",
+		"Frame Shift Drive"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Marco Qwent",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Marco Qwent",
+	"invitation_requirement": "Reach a maximum distance of at least 5,000 Ly from your career start location",
+	"meeting_requirement": "Reach a maximum distance of at least 5,000 light-years from your career start location.",
+	"unlock": {
+		"action": "Provide",
+		"quantity": 25,
+		"item": "Sensor Fragments"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Thrusters"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Frame Shift Drive"
+			]
+		}
+	],
+	"colonia": false
+}

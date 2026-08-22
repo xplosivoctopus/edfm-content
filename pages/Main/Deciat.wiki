@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Deciat
+Namespace: 0
+Page ID: 345
+Revision ID: 982
+Timestamp: 2026-08-20T01:37:33Z
+Source URL: https://edfieldmanual.com/wiki/Deciat
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=An independent Core Systems world best known as the home of Farseer Inc, Felicity Farseer's Engineering workshop.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced star system and station records
+}}
+
+'''Deciat''' is an independent system in the Core Systems, and one of the first destinations most Commanders visit for ship Engineering. It hosts '''[[Farseer Inc]]''', the workshop of '''[[Felicity Farseer]]''', one of the two independent starting Engineers most new Commanders reach first.<ref name="inara-deciat">[https://inara.cz/elite/starsystem/2821/ Deciat — Star System], Inara.</ref>
+
+== Overview ==
+
+* '''Star:''' Class K (scoopable)
+* '''Allegiance:''' Independent
+* '''Government:''' Feudal
+* '''Security:''' High
+* '''Economy:''' Industrial / Refinery<ref name="inara-deciat" />
+
+Deciat's high security rating and short distance from the starting bubble make it a low-risk trip for Commanders travelling here for the first time.
+
+== Engineer Facility ==
+
+'''[[Farseer Inc]]''' is a surface Engineer base on Deciat 6a, operated by '''[[Felicity Farseer]]'''.<ref name="inara-farseer-inc">[https://inara.cz/elite/station/52125/ Farseer Inc in Deciat — Station], Inara.</ref>
+
+No system permit is required to enter Deciat. See [[Felicity Farseer]] for the full discovery, invitation, and unlock requirements for her workshop.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Felicity Farseer]] [[Farseer Inc]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

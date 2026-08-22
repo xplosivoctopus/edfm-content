@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Guardians
+Namespace: 0
+Page ID: 200
+Revision ID: 295
+Timestamp: 2026-08-07T22:14:19Z
+Source URL: https://edfieldmanual.com/wiki/Guardians
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Guardian]]

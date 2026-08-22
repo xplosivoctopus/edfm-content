@@ -1,0 +1,42 @@
+<!--
+EDFM current-content archive export.
+Title: Hatch Breaker Limpet Controller
+Namespace: 0
+Page ID: 387
+Revision ID: 1024
+Timestamp: 2026-08-20T01:38:50Z
+Source URL: https://edfieldmanual.com/wiki/Hatch_Breaker_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Optional Internal Module
+ |deck=Deploys limpets that force open a targeted ship's cargo hatch — the core tool of ship-to-ship piracy.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+The '''Hatch Breaker Limpet Controller''' launches limpets that attach to a targeted ship's cargo hatch and force it open, spilling some of that ship's cargo for the attacker to collect.
+
+== Overview ==
+
+Hatch Breaker limpets are one of four original Limpet Controller types (alongside [[Collector Limpet Controller|Collector]], [[Fuel Transfer Limpet Controller|Fuel Transfer]], and [[Prospector Limpet Controller|Prospector]]), and are the module that actually makes ship-to-ship piracy possible — without one, a pirate can disable a target's drive but has no way to make it release cargo. A target with a functioning [[Electronic Countermeasure]] can strip an attached Hatch Breaker limpet before it finishes forcing the hatch, so piracy builds and their defences are closely linked.
+
+{{Important|Piracy carries legal and reputation consequences within the game's factions and Powerplay systems. This article describes what the module does, not whether using it is advisable in a given situation.}}
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Ram Tah]] || Grade 3
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]

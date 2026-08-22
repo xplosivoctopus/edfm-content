@@ -1,0 +1,308 @@
+<!--
+EDFM current-content archive export.
+Title: Colonel Bris Dekker
+Namespace: 0
+Page ID: 121
+Revision ID: 1456
+Timestamp: 2026-08-21T14:38:51Z
+Source URL: https://edfieldmanual.com/wiki/Colonel_Bris_Dekker
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Frame Shift Drive Interdictor specialist based at Dekker's Yard in permit-locked Sol, reached through Juri Ishmaak.
+}}
+
+{{Engineer infobox}}
+
+'''Colonel Bris Dekker''' is a ship Engineer based at '''Dekker's Yard''' in the permit-locked [[Sol]] system. She is reached through [[Juri Ishmaak]] and specialises primarily in [[Frame Shift Drive Interdictor]] Engineering.<ref name="inara-dekker">[https://inara.cz/elite/engineer/14/ Colonel Bris Dekker — Engineer], Inara.</ref>
+
+Bris provides '''Grade 4 Frame Shift Drive Interdictor Engineering''' and '''Grade 3 Frame Shift Drive Engineering'''.<ref name="inara-dekker" />
+
+{{Field note|Bris is the highest-grade Frame Shift Drive Interdictor Engineer available in the Bubble. [[Mel Brandon]] can take the same conventional Interdictor blueprints to Grade 5, but is located in the Colonia region.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>}}
+
+== Location ==
+
+* '''System:''' [[Sol]]
+* '''Facility:''' [[Dekker's Yard]]
+* '''Body:''' [[Iapetus]]
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Juri Ishmaak]]
+* '''System permit required:''' Yes — [[Sol Permit]]
+
+Dekker's Yard is a surface Engineer base on '''Iapetus''', approximately 4,700 Ls from Sol's arrival point.<ref name="inara-dekkers-yard">[https://inara.cz/elite/station/52834/ Dekker's Yard — Station], Inara.</ref>
+
+[[Sol]] is a permit-locked Federation system.<ref name="inara-sol">[https://inara.cz/elite/starsystem/367/ Sol — Star System], Inara.</ref>
+
+{{Important|Receiving Juri Ishmaak's referral does '''not''' grant access to Sol. You must obtain the [[Sol Permit]] separately before you can reach Dekker's Yard.}}
+
+== How to Discover Colonel Bris Dekker ==
+
+Colonel Bris Dekker is discovered through [[Juri Ishmaak]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Juri to receive his referral to Bris.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Juri can also refer Commanders to [[The Sarge]]. Bris and The Sarge are therefore parallel referrals rather than one being required for the other.
+
+{{Field note|Receiving Juri's referral makes Bris known to you. You must still satisfy her Federation-reputation requirement and be able to enter Sol.}}
+
+== How to Receive an Invitation ==
+
+Reach at least '''Friendly reputation with the Federation'''.<ref name="inara-dekker" />
+
+Federation reputation is your superpower-level standing with the Federation and is distinct from:
+
+* reputation with an individual Federation-aligned minor faction; and
+* your [[Federal Navy Rank]].
+
+Activities completed for Federation-aligned minor factions can contribute toward Federation reputation.
+
+See [[Federation Reputation]] for how superpower reputation works and how to check your current standing.
+
+=== Sol permit ===
+
+Bris is physically located inside Sol, so you must also possess the [[Sol Permit]] before you can reach her workshop.
+
+The Sol permit is awarded through [[Federal Navy Rank]] progression at '''Petty Officer'''.<ref name="newp-engineers" />
+
+{{Important|'''Friendly Federation reputation and the Sol permit are separate requirements.''' Bris's meeting requirement is Friendly Federation reputation, while physical access to her workshop requires the permit obtained through Federal Navy progression.}}
+
+See [[Sol Permit]] and [[Federal Navy Rank]] for the complete progression route.
+
+== How to Unlock Colonel Bris Dekker ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Juri Ishmaak]].
+* Reach at least '''Friendly reputation with the Federation'''.
+* Obtain the [[Sol Permit]] by reaching '''Petty Officer''' or higher in [[Federal Navy Rank]].
+* Accumulate enough '''Federal combat bonds''' for Bris's unlock requirement.
+* Provide the required value of Federal combat bonds.
+{{Important|Bris is one of the Engineer unlocks with a genuinely variable requirement. EDFM therefore does '''not''' present either 1 million or 10 million credits as a universal value.}}
+{{Tip|If you want to avoid making another Combat Zone trip after reaching Sol, accumulating at least '''10,000,000 CR worth of qualifying Federal combat bonds''' beforehand covers the higher currently documented requirement.}}
+
+For the complete step-by-step process, see [[Unlocking Colonel Bris Dekker]].
+
+== Increasing Engineer Reputation ==
+
+Reputation with Colonel Bris Dekker can be increased by:
+
+* crafting Engineering modifications at Dekker's Yard; or
+* handing in bounty vouchers at Dekker's Yard.<ref name="inara-dekker" />
+
+Higher Engineer reputation gives access to the higher grades Bris supports for each blueprint.
+
+Bris does '''not''' currently provide a referral to another Engineer.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Field note|Bris's current reputation method lists '''bounty vouchers'''. This is separate from the Federal combat bonds required for her initial unlock.<ref name="inara-dekker" />}}
+
+== Engineer Unlock Chain ==
+
+Colonel Bris Dekker belongs to the [[Felicity Farseer]] branch of the ship Engineer network.
+
+The route to Bris is:
+
+<pre>
+Felicity Farseer
+└── Juri Ishmaak
+    └── Colonel Bris Dekker
+</pre>
+
+Juri also provides a referral to [[The Sarge]]:
+
+<pre>
+Felicity Farseer
+└── Juri Ishmaak
+    ├── Colonel Bris Dekker
+    └── The Sarge
+</pre>
+
+Colonel Bris Dekker does '''not''' currently lead to another Engineer in the active ship Engineer referral network.<ref name="inara-engineers" />
+
+{{Field note|Bris and [[The Sarge]] are parallel referrals from [[Juri Ishmaak]]. Unlocking either one is not required before unlocking the other.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Bris's current Engineering coverage is narrow but specialised.<ref name="inara-dekker" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Frame Shift Drive Interdictor]]
+|
+* Expanded Capture Arc
+* Long Range
+| '''Grade 4'''
+|-
+| [[Frame Shift Drive]]
+|
+* Faster Boot Sequence
+* Increased Range
+* Shielded
+| '''Grade 3'''
+|}
+
+Bris is therefore primarily a '''Frame Shift Drive Interdictor Engineer'''. Her Frame Shift Drive capability is useful for intermediate Engineering and applying Experimental Effects, but stops below Grade 5.
+
+== Frame Shift Drive Interdictor Engineering ==
+
+Bris provides both conventional Frame Shift Drive Interdictor blueprints through '''Grade 4'''.<ref name="inara-dekker" />
+
+=== Expanded Capture Arc ===
+
+[[Expanded Capture Arc]] increases the angular area in which an interdiction can be initiated, making it easier to acquire a target that is not directly centred ahead of the ship.
+
+At Grade 4, the current blueprint provides:
+
+* '''+100% facing limit'''
+* '''-25% range'''
+* '''+40% power draw'''<ref name="inara-interdictor-arc">[https://inara.cz/elite/blueprint/15/ Frame Shift Drive Interdictor — Expanded Capture Arc], Inara.</ref>
+
+{{Tip|'''Expanded Capture Arc''' is useful when ease of acquiring the interdiction is more important than maximum initiation distance.}}
+
+=== Long Range ===
+
+[[Long Range Frame Shift Drive Interdictor|Long Range]] increases the distance from which an interdiction can be initiated, but requires more accurate alignment with the target.
+
+At Grade 4, the current blueprint provides:
+
+* '''+50% range'''
+* '''-25% facing limit'''
+* '''+40% power draw'''
+* '''+25% mass'''<ref name="inara-interdictor-range">[https://inara.cz/elite/blueprint/16/ Frame Shift Drive Interdictor — Long Range], Inara.</ref>
+
+{{Tip|'''Long Range''' is useful when initiating interdictions from farther away matters more than having a wider capture angle.}}
+
+Neither Frame Shift Drive Interdictor blueprint currently supports Experimental Effects.<ref name="inara-interdictor-arc" /><ref name="inara-interdictor-range" />
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint.
+
+The '''Frame Shift Drive''' supports Experimental Effects.
+
+The '''Frame Shift Drive Interdictor does not currently have Experimental Effects'''.<ref name="inara-interdictor-arc" /><ref name="inara-interdictor-range" />
+
+=== Frame Shift Drive ===
+
+Available Frame Shift Drive Experimental Effects include:<ref name="inara-fsd-range">[https://inara.cz/elite/blueprint/2/ Frame Shift Drive — Increased Range], Inara.</ref>
+
+* [[Deep Charge]]
+* [[Double Braced]]
+* [[Mass Manager]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+{{Field note|Bris can apply a compatible Frame Shift Drive Experimental Effect even to an FSD that has already been engineered to Grade 5 by another Engineer. Her Grade 3 blueprint limit does not prevent her from applying the Experimental Effect.}}
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Important|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The Frame Shift Drive must be taken to an Engineer who works on that module.}}
+
+== Recommended Engineering ==
+
+Bris's main reason for existing in an Engineering progression is the '''Frame Shift Drive Interdictor'''.
+
+There is no single universally superior Interdictor blueprint because the two available modifications solve opposite problems.
+
+=== Expanded Capture Arc ===
+
+{{Tip|'''EDFM recommendation for general interdiction use: Expanded Capture Arc'''
+
+For many ships, [[Expanded Capture Arc]] is the easier general-purpose choice because it widens the area in which an interdiction can be initiated.
+
+This gives the pilot more tolerance when positioning behind a manoeuvring target.
+
+The tradeoff is reduced initiation range.}}
+
+=== Long Range ===
+
+Long Range is more appropriate when interdictions need to begin from farther away and the pilot is comfortable maintaining tighter alignment with the target.
+
+This can be useful for:
+
+* bounty hunting;
+* piracy;
+* Powerplay activity; and
+* other roles where quickly reaching a target's interdiction range is important.
+
+The narrower capture angle means it is not simply a direct upgrade over Expanded Capture Arc.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Bris, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Expanded Capture Arc]] is a practical blueprint to consider pinning at Bris if you regularly use Frame Shift Drive Interdictors.
+
+Bris provides the blueprint through '''Grade 4''', the highest grade available from a Bubble Engineer.
+
+If your interdiction ships are instead built around engaging targets from greater distance, [[Long Range Frame Shift Drive Interdictor]] is the better pin.}}
+
+Bris's Frame Shift Drive blueprints are generally poor candidates for her pin because they stop at Grade 3 while [[Felicity Farseer]], [[Elvira Martuuk]], and [[Mel Brandon]] provide them through Grade 5.<ref name="inara-engineers" />
+
+{{Important|Frame Shift Drive Interdictors currently have no Experimental Effects, so their main blueprint can be completed entirely through Remote Engineering once the appropriate blueprint is pinned and Engineer reputation is sufficient.}}
+
+== What Bris Cannot Fully Engineer ==
+
+Bris has only two module specialties:
+
+* '''Frame Shift Drive Interdictor:''' Grade 4
+* '''Frame Shift Drive:''' Grade 3<ref name="inara-dekker" />
+
+For Grade 5 Frame Shift Drive Interdictor Engineering:
+
+* [[Mel Brandon]] provides '''Grade 5 Expanded Capture Arc''' and '''Grade 5 Long Range''' Engineering in Colonia.<ref name="inara-interdictor-arc" /><ref name="inara-interdictor-range" />
+
+Other Interdictor Engineers include:
+
+* [[Tiana Fortune]] — Grade 3
+* [[Felicity Farseer]] — Grade 1<ref name="inara-engineers" />
+
+For Grade 5 Frame Shift Drive Engineering:
+
+* [[Felicity Farseer]]
+* [[Elvira Martuuk]]
+* [[Mel Brandon]]<ref name="inara-engineers" />
+
+[[Professor Palin]] and [[Chloe Sedesi]] provide Frame Shift Drive Engineering through Grade 3.
+
+Bris is therefore most valuable for '''Grade 4 Frame Shift Drive Interdictor Engineering in the Bubble''', rather than for engineering the ship's main Frame Shift Drive.
+
+== What Next? ==
+
+Colonel Bris Dekker is the end of her Engineer referral branch and does not currently introduce another Engineer.
+
+The parallel branch from [[Juri Ishmaak]] leads to [[The Sarge]].
+
+{{What next|title=Continue Engineering|
+* '''Parallel referral from Juri Ishmaak:''' [[The Sarge]]
+* '''Previous Engineer:''' [[Juri Ishmaak]]
+* '''Grade 5 Frame Shift Drive Interdictors in Colonia:''' [[Mel Brandon]]
+* '''Grade 5 Frame Shift Drives:''' [[Felicity Farseer]] or [[Elvira Martuuk]]
+* '''Gain access to the system:''' [[Sol Permit]]
+* '''Reach the permit rank:''' [[Federal Navy Rank]]
+* '''Raise the invitation standing:''' [[Federation Reputation]]
+* '''Earn the unlock currency:''' [[Combat Bonds]]
+* '''Find qualifying conflicts:''' [[Combat Zones]]
+* '''Engineer interdiction equipment:''' [[Frame Shift Drive Interdictor Engineering]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Core Internal Engineering]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]

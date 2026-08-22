@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Powerplay
+Namespace: 14
+Page ID: 11
+Revision ID: 11
+Timestamp: 2026-08-06T19:51:21Z
+Source URL: https://edfieldmanual.com/wiki/Category:Powerplay
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Content related to the Powerplay metagame.

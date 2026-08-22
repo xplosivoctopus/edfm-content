@@ -1,0 +1,18 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Field Procedures
+Namespace: 14
+Page ID: 3
+Revision ID: 1497
+Timestamp: 2026-08-21T14:39:22Z
+Source URL: https://edfieldmanual.com/wiki/Category:Field_Procedures
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Field Procedures are step-by-step instructions for completing specific tasks in ''Elite Dangerous''.
+
+Articles in this category focus primarily on '''what to do and in what order''', with a defined objective and a recognizable completion point. Depending on the task, they may also include prerequisites, preparation, expected results, common mistakes, and troubleshooting.
+
+Reference articles should not be placed in this category solely because they contain instructional sections. When a reference article contains a substantial procedure, the procedure may instead be documented separately and linked from the reference article.
+
+For the curated procedure index, see [[Field Procedures]].

@@ -1,0 +1,72 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Mel Brandon
+Namespace: 0
+Page ID: 642
+Revision ID: 1516
+Timestamp: 2026-08-21T14:41:05Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Mel_Brandon
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Mel Brandon — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Mel Brandon]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Mel Brandon]].
+
+== Objective ==
+Gain access to [[Mel Brandon]]'s Engineer services at The Brig in Luchtaine.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Mel Brandon is discovered through [[Elvira Martuuk]].
+* '''Invitation:''' Gain an '''invitation from the Colonia Council'''.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Elvira Martuuk]].
+* Reach sufficient reputation with the Colonia Council and obtain their Engineer invitation.
+* Obtain at least '''100,000 CR worth of Bounty Vouchers'''.
+* Provide Mel with '''100,000 CR worth of bounty vouchers'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Bounty Vouchers'''
+Bounty Vouchers are earned by destroying ships carrying valid bounties.
+
+Suitable activities include:
+
+* Resource Extraction Sites;
+* Navigation Beacons;
+* bounty-hunting missions; and
+* other locations where Wanted ships can be legally engaged.
+
+Mel requires only '''100,000 CR worth''' for the final unlock, so this requirement is comparatively small once you have a combat-capable ship.
+
+{{Tip|If you are already travelling to Colonia with a combat-capable ship, earning the required bounty vouchers in the Colonia region avoids carrying unredeemed vouchers throughout the entire journey from the Bubble.}}
+
+See Bounty Hunting and Bounty Vouchers for the complete process.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Mel is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Elvira Martuuk]].
+# Receive Elvira's referral to Mel Brandon.
+# Travel to the Colonia region.
+# Reach sufficient reputation with the Colonia Council and obtain their Engineer invitation.
+# Obtain at least '''100,000 CR worth of Bounty Vouchers'''.
+# Travel to '''The Brig''' on '''Luchtaine A 1 c''' in Luchtaine.
+# Provide Mel with '''100,000 CR worth of bounty vouchers'''.
+# Enter the Engineer workshop and begin increasing your reputation with Mel.
+}}
+
+== Expected Result ==
+{{Expected result|[[Mel Brandon]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Mel Brandon]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Elvira Martuuk]] [[Zacariah Nemo]] [[Marco Qwent]] Colonia Council Minor Faction Reputation Bounty Vouchers}}
+
+== Sources ==
+This procedure was extracted from the current [[Mel Brandon]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Colonia Engineers]]
+[[Category:Engineering]]

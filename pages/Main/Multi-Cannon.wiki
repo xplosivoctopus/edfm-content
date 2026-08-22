@@ -1,0 +1,36 @@
+<!--
+EDFM current-content archive export.
+Title: Multi-Cannon
+Namespace: 0
+Page ID: 103
+Revision ID: 320
+Timestamp: 2026-08-07T22:25:12Z
+Source URL: https://edfieldmanual.com/wiki/Multi-Cannon
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Weapon|deck=To be added: a one-line summary of this weapon.}}
+{{Article status|status=Draft|mode=Both}}
+
+{{Draft warning}}
+This is a demonstration page showing how a module's Engineering section fits onto its general article — see [[Elite Dangerous Field Manual:Engineering Architecture]]. General specifications (damage, rate of fire, thermal load, and similar) belong under [[Ships and Equipment]]'s [[:Category:Modules]] scope and would normally appear above the Engineering section below on this same page; none have been added yet, and no engineering data has been verified yet either.
+
+== Engineering ==
+Short overview placeholder — engineering data to be added.
+
+=== Available Engineering Blueprints ===
+{| class="wikitable"
+! Blueprint !! Maximum grade !! Effect summary !! Engineers offering it !! Compatible Experimental Effects
+|-
+| colspan="5" | Engineering data to be added. (See [[Overcharged]] for an example of what a blueprint page looks like — this table will link to it once the compatibility is verified, rather than asserted now.)
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

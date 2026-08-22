@@ -1,0 +1,83 @@
+<!--
+EDFM current-content archive export.
+Title: Template:New guide page
+Namespace: 10
+Page ID: 167
+Revision ID: 250
+Timestamp: 2026-08-07T22:01:42Z
+Source URL: https://edfieldmanual.com/wiki/Template:New_guide_page
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<noinclude>
+== Usage ==
+'''Subst-only skeleton, not a live template.''' Start a new guide (Field
+Procedure) article by creating the page — plain page name, no
+namespace/subpage prefix, matching this wiki's flat-title convention, e.g.
+<code>[[Unlocking Broo Tarquin]]</code>, not <code>Guide:Unlocking Broo
+Tarquin</code> — and, as the very first edit, entering:
+
+<pre>{{subst:New guide page}}</pre>
+
+then saving and filling in the placeholders. Substituting (rather than
+transcluding live) means every guide ends up as normal, freely editable
+wikitext, same reasoning as {{tl|New engineer page}}.
+
+A guide is a '''procedure''', not a second encyclopedia article. If the
+subject already has a Main-namespace reference article (e.g.
+[[Broo Tarquin]], [[Multi-Cannon]]), do not re-explain what it is or what
+it specialises in here — link to the reference article instead and keep
+this page to the actionable checklist (requirements, steps, expected
+result). See [[Elite Dangerous Field Manual:Creating a Guide]] and
+[[Elite Dangerous Field Manual:Editorial Policy]].
+
+Do not invent requirements, quantities, or steps — leave a section as "to
+be added" until it's been checked against the live game or a reliable
+source, per [[Elite Dangerous Field Manual:Editorial Policy]].
+[[Category:Templates]]
+</noinclude><includeonly>{{Article header|eyebrow=EDFM // Field Procedure|deck=To be added: a one-line summary of what this guide accomplishes.}}
+{{Article status|status=Draft|mode=Both}}
+
+== Objective ==
+To be added.
+
+== Prerequisites ==
+{{Prerequisites|
+* To be added
+}}
+
+== Required Materials, Equipment, and Access ==
+To be added.
+
+== Estimated Time ==
+To be added.
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# To be added
+}}
+
+== Expected Result ==
+{{Expected result|To be added}}
+
+== Common Mistakes ==
+{{Common mistakes|
+* To be added
+}}
+
+== Troubleshooting ==
+{{Troubleshooting|
+; To be added
+: To be added
+}}
+
+== Related Reference Pages ==
+{{Related articles|[[To be added]]}}
+
+== Relevant External Tools ==
+{{Related tools|To be added}}
+
+== Sources ==
+<references />
+
+[[Category:Field Procedures]]</includeonly>

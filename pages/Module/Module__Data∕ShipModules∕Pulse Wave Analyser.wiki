@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Pulse Wave Analyser
+Namespace: 828
+Page ID: 569
+Revision ID: 1356
+Timestamp: 2026-08-21T00:00:25Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Pulse_Wave_Analyser
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Pulse Wave Analyser",
+}

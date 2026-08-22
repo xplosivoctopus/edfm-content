@@ -1,0 +1,42 @@
+<!--
+EDFM current-content archive export.
+Title: Cargo Rack
+Namespace: 0
+Page ID: 369
+Revision ID: 1006
+Timestamp: 2026-08-20T01:37:50Z
+Source URL: https://edfieldmanual.com/wiki/Cargo_Rack
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The optional internal module that provides a ship's cargo capacity.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+A '''Cargo Rack''' is an optional internal module that provides cargo capacity, measured in tonnes. Trade, mining, mission-running, and material/commodity-delivery Commanders (including delivering an Engineer's own unlock commodity) all depend on having enough cargo capacity fitted for the job at hand.
+
+== Overview ==
+
+Cargo Racks compete for optional internal slots with every other optional internal module (Shield Generators, Hull Reinforcement Packages, Fuel Scoops, and so on), so a ship's maximum cargo capacity is a build choice rather than a fixed property of the hull.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Ram Tah]] || Grade 5 <small>(Live only; compatible Merc modules)</small>
+|}
+
+[[Ram Tah]], based at [[Phoenix Base]] in [[Meene]], is EDFM's currently documented Cargo Rack Engineer. His Cargo Rack blueprint is a Live-only addition that applies only to compatible Merc modules, per the Engineer's own already-sourced article.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Trade]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]

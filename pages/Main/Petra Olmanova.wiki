@@ -1,0 +1,516 @@
+<!--
+EDFM current-content archive export.
+Title: Petra Olmanova
+Namespace: 0
+Page ID: 125
+Revision ID: 1466
+Timestamp: 2026-08-21T14:38:58Z
+Source URL: https://edfieldmanual.com/wiki/Petra_Olmanova
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 armour, explosive-weapon, and defensive-utility Engineer based at Sanctuary in the Colonia region, reached through Tod "The Blaster" McQuinn.
+}}
+
+{{Engineer infobox}}
+
+'''Petra Olmanova''' is a ship Engineer based at '''Sanctuary''' in the [[Asura]] system of the Colonia region. She is reached through [[Tod "The Blaster" McQuinn]] and has unusually broad Grade 5 coverage across armour, reinforcement modules, explosive weapons, and defensive utility equipment.<ref name="inara-petra">[https://inara.cz/elite/engineer/24/ Petra Olmanova — Engineer], Inara.</ref>
+
+Petra provides '''Grade 5 Engineering for every conventional module type she supports'''. This includes Armour, Hull Reinforcement Packages, Auto Field-Maintenance Units, Chaff Launchers, Electronic Countermeasures, Heat Sink Launchers, Point Defence, Mine Launchers, Missile Racks, Seeker Missile Racks, and Torpedo Pylons.<ref name="inara-petra" />
+
+In Live, she also provides the Operations-era '''Heavy Duty Module Reinforcement Package''' blueprint through Grade 5 for compatible Merc modules.<ref name="inara-mrp-heavy">[https://inara.cz/elite/blueprint/214/ Module Reinforcement Package — Heavy Duty], Inara.</ref>
+
+{{Field note|Petra is one of the four ship Engineers based in the '''Colonia region'''. Receiving her referral does not provide remote access to her workshop; you must travel to Asura to complete the unlock and apply Experimental Effects.}}
+
+== Location ==
+
+* '''System:''' [[Asura]]
+* '''Facility:''' [[Sanctuary]]
+* '''Body:''' Asura 1 d
+* '''Region:''' Colonia
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Tod "The Blaster" McQuinn]]
+* '''System permit required:''' No
+
+Sanctuary is a surface Engineer base on '''Asura 1 d'''.<ref name="inara-sanctuary">[https://inara.cz/elite/station/67081/ Sanctuary — Station], Inara.</ref>
+
+{{Important|Asura is in the Colonia region, roughly 22,000 light-years from the core inhabited Bubble. If you are travelling to Colonia primarily for Engineering, prepare the unlock requirements for the other Colonia Engineers before leaving whenever practical.}}
+
+== How to Discover Petra Olmanova ==
+
+Petra Olmanova is discovered through [[Tod "The Blaster" McQuinn]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Tod to receive his referral to Petra.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Tod can also refer Commanders to [[Selene Jean]]. Petra and Selene are therefore parallel referrals from Tod rather than one being required for the other.
+
+{{Field note|Receiving Tod's referral makes Petra known to you. Her separate Combat-rank requirement must still be satisfied before her workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Reach the Pilots Federation '''Combat rank of Expert''' or higher.<ref name="inara-petra" />
+
+The Combat-rank progression leading to Expert is:
+
+<pre>
+Harmless
+└── Mostly Harmless
+    └── Novice
+        └── Competent
+            └── Expert
+</pre>
+
+If your Combat rank is already Expert, Master, Dangerous, Deadly, Elite, or one of the higher Elite tiers, Petra's meeting requirement has been satisfied.
+
+See [[Combat Rank]] for how Combat rank is earned and how to check your current progress.
+
+{{Field note|Petra requires '''Expert''', which is lower than the Dangerous rank required by [[Lori Jameson]]. A Commander does not need to reach Elite Combat rank to meet Petra.}}
+
+== How to Unlock Petra Olmanova ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Tod "The Blaster" McQuinn]].
+* Reach '''Expert''' or higher in [[Combat Rank]].
+* Obtain '''200 units of [[Progenitor Cells]]'''.
+* Donate the 200 Progenitor Cells to Petra Olmanova.
+{{Important|'''Progenitor Cells are an ordinary commodity.''' They are not Raw, Manufactured, or Encoded Engineering materials. Each unit occupies one tonne of cargo space, so carrying the full unlock requirement at once requires '''200 tonnes of cargo capacity'''.}}
+
+For the complete step-by-step process, see [[Unlocking Petra Olmanova]].
+
+== Obtaining Progenitor Cells ==
+
+[[Progenitor Cells]] are a Medicine commodity normally produced by '''High Tech''' economies.<ref name="inara-progenitor" />
+
+They can be purchased through ordinary commodity markets, so you do '''not''' need to mine, salvage, or collect them as Engineering materials.
+
+Petra requires '''200 units''' in total.
+
+{{Tip|Because Petra is in Colonia, buy the Progenitor Cells from a current market in or near the Colonia region rather than transporting 200 tonnes all the way from the Bubble.}}
+
+Market supply changes over time, so use current market information when choosing where to purchase them rather than relying on a permanently listed station.
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also sell Progenitor Cells when another Commander has placed them on the carrier market. Carrier stock and prices are player-controlled and can change.
+
+See [[Progenitor Cells]] for current acquisition methods.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Petra is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-petra" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Petra Olmanova is increased by:
+
+* crafting Engineering modifications at Sanctuary.<ref name="inara-petra" />
+
+Current Engineer data does not list commodity sales, exploration data, bounty vouchers, or another secondary reputation method for Petra.
+
+Higher Engineer reputation gives access to the higher grades Petra supports for each blueprint.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|Because Petra's reputation is raised through Engineering itself, consider arriving with enough Engineering materials to perform several useful modifications rather than travelling to Colonia with only the Progenitor Cells needed for her unlock.}}
+
+== Engineer Unlock Chain ==
+
+Petra Olmanova belongs to the [[Tod "The Blaster" McQuinn]] branch of the ship Engineer network.
+
+The direct route is:
+
+<pre>
+Tod "The Blaster" McQuinn
+└── Petra Olmanova [Colonia]
+</pre>
+
+Tod also provides a referral to [[Selene Jean]], who leads to [[Bill Turner]] and [[Didi Vatermann]]:
+
+<pre>
+Tod "The Blaster" McQuinn
+├── Selene Jean
+│   ├── Bill Turner
+│   └── Didi Vatermann
+└── Petra Olmanova [Colonia]
+</pre>
+
+Petra Olmanova does '''not''' currently lead to another Engineer in the ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|Petra's location in Colonia does not make the other Colonia Engineers part of her referral chain. [[Mel Brandon]], [[Marsha Hicks]], and [[Etienne Dorn]] are reached through different Bubble Engineers.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Petra's Engineering coverage is unusually broad. The table below lists the current conventional blueprints verified for her workshop.<ref name="inara-petra" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Armour]]
+|
+* Blast Resistant
+* Heavy Duty
+* Kinetic Resistant
+* Lightweight
+* Thermal Resistant
+| '''Grade 5'''
+|-
+| [[Hull Reinforcement Package]]
+|
+* Blast Resistant
+* Heavy Duty
+* Kinetic Resistant
+* Lightweight
+* Thermal Resistant
+| '''Grade 5'''
+|-
+| [[Module Reinforcement Package]]
+|
+* Heavy Duty <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Auto Field-Maintenance Unit]]
+|
+* Shielded
+| '''Grade 5'''
+|-
+| [[Chaff Launcher]]
+|
+* Ammo Capacity — Grade 1
+* Lightweight — Grade 5
+* Reinforced — Grade 5
+* Shielded — Grade 5
+| '''Grade 5'''
+|-
+| [[Electronic Countermeasure]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Heat Sink Launcher]]
+|
+* Ammo Capacity — Grade 1
+* Lightweight — Grade 5
+* Reinforced — Grade 5
+* Shielded — Grade 5
+| '''Grade 5'''
+|-
+| [[Point Defence]]
+|
+* Ammo Capacity — Grade 1
+* Lightweight — Grade 5
+* Reinforced — Grade 5
+* Shielded — Grade 5
+| '''Grade 5'''
+|-
+| [[Mine Launcher]]
+|
+* High Capacity
+* Lightweight
+* Rapid Fire
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Missile Rack]]
+|
+* High Capacity
+* Lightweight
+* Rapid Fire
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Seeker Missile Rack]]
+|
+* High Capacity
+* Lightweight
+* Rapid Fire
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Torpedo Pylon]]
+|
+* Lightweight
+* Sturdy
+| '''Grade 5'''
+|}
+
+{{Field note|The Grade 1 limit on Ammo Capacity for Chaff Launchers, Heat Sink Launchers, and Point Defence is a property of the blueprint itself. Those modifications do not have higher conventional grades.}}
+
+== Operations-era Module Reinforcement Engineering ==
+
+The '''Heavy Duty Module Reinforcement Package''' blueprint is part of the Operations-era Engineering additions.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+Petra can apply it through '''Grade 5'''.<ref name="inara-mrp-heavy" />
+
+At Grade 5, the current blueprint provides:
+
+* '''+25% integrity'''
+* '''+25% damage protection'''
+* '''+100% mass'''<ref name="inara-mrp-heavy" />
+
+{{Important|'''Live only:''' Heavy Duty Module Reinforcement Package Engineering can only be applied to compatible '''Merc modules''' and requires [[Merc Coin]] as part of its Engineering cost.<ref name="inara-mrp-heavy" />}}
+
+[[Selene Jean]] also provides this blueprint through Grade 5.
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint.
+
+Petra can apply Experimental Effects to her Armour, Hull Reinforcement Packages, Module Reinforcement Packages, Mine Launchers, Missile Racks, Seeker Missile Racks, and Torpedo Pylons.
+
+Her Auto Field-Maintenance Units, Chaff Launchers, Electronic Countermeasures, Heat Sink Launchers, and Point Defence do not currently use ordinary Experimental Effects.
+
+=== Armour ===
+
+Available Armour Experimental Effects include:<ref name="inara-armour">[https://inara.cz/elite/blueprint/38/ Armour — Heavy Duty], Inara.</ref>
+
+* [[Angled Plating]]
+* [[Deep Plating]]
+* [[Layered Plating]]
+* [[Reflective Plating]]
+
+=== Hull Reinforcement Package ===
+
+Available Hull Reinforcement Package Experimental Effects include:<ref name="inara-hrp">[https://inara.cz/elite/blueprint/25/ Hull Reinforcement Package — Heavy Duty], Inara.</ref>
+
+* [[Angled Plating]]
+* [[Deep Plating]]
+* [[Layered Plating]]
+* [[Reflective Plating]]
+
+=== Module Reinforcement Package ===
+
+In Live, compatible '''Merc Module Reinforcement Packages''' engineered with the [[Heavy Duty Module Reinforcement Package|Heavy Duty]] blueprint can also receive the following Experimental Effects:<ref name="inara-mrp-heavy" />
+
+* [[Angled Plating]]
+* [[Deep Plating]]
+* [[Layered Plating]]
+* [[Reflective Plating]]
+
+=== Mine Launcher ===
+
+Available Mine Launcher Experimental Effects include:<ref name="inara-mine">[https://inara.cz/elite/blueprint/28/ Mine Launcher — High Capacity], Inara.</ref>
+
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Ion Disruption]]
+* [[Overload Munitions]]
+* [[Oversized]]
+* [[Radiant Canister]]
+* [[Reverberating Cascade]]
+* [[Shift-lock Canister]]
+* [[Stripped Down]]
+
+=== Missile Rack ===
+
+Available Missile Rack Experimental Effects include:<ref name="inara-missile">[https://inara.cz/elite/blueprint/174/ Missile Rack — High Capacity], Inara.</ref>
+
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[FSD Interrupt]]
+* [[Multi-servos]]
+* [[Overload Munitions]]
+* [[Oversized]]
+* [[Penetrator Munitions]]
+* [[Stripped Down]]
+* [[Thermal Cascade]]
+
+=== Seeker Missile Rack ===
+
+Available Seeker Missile Rack Experimental Effects include:<ref name="inara-seeker">[https://inara.cz/elite/blueprint/32/ Seeker Missile Rack — High Capacity], Inara.</ref>
+
+* [[Double Braced]]
+* [[Drag Munitions]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Multi-servos]]
+* [[Overload Munitions]]
+* [[Oversized]]
+* [[Stripped Down]]
+* [[Thermal Cascade]]
+
+=== Torpedo Pylon ===
+
+Available Torpedo Pylon Experimental Effects include:<ref name="inara-torpedo">[https://inara.cz/elite/blueprint/95/ Torpedo Pylon — Lightweight], Inara.</ref>
+
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Mass Lock Munition]]
+* [[Oversized]]
+* [[Penetrator Payload]]
+* [[Reverberating Cascade]]
+* [[Stripped Down]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Engineering ==
+
+Petra's broad Grade 5 coverage makes her useful for several very different types of builds.
+
+=== Armour ===
+
+Petra provides the same maximum-grade conventional Armour Engineering as [[Selene Jean]].
+
+A common general-purpose hull-strength configuration is:
+
+* '''Heavy Duty Armour'''
+* '''Deep Plating'''
+
+[[Heavy Duty Armour]] increases hull integrity and all three conventional resistances at the cost of additional Armour mass.
+
+{{Tip|'''Lightweight Alloy exception'''
+
+Heavy Duty Engineering does not add mass to the ship's stock '''Lightweight Alloy''' Armour because that Armour has zero base mass.
+
+This makes '''Heavy Duty + Deep Plating''' particularly attractive on many ships that retain their standard Lightweight Alloy bulkheads.}}
+
+Resistance-oriented Armour blueprints remain useful when the objective is correcting a specific weakness rather than maximizing raw hull integrity.
+
+See [[Hull Tanking]] for how Armour, Hull Reinforcement Packages, resistances, hardness, and Module Reinforcement Packages interact.
+
+=== Hull Reinforcement Packages ===
+
+For general combat use, a common starting point is:
+
+* '''Heavy Duty'''
+* '''Deep Plating'''
+
+This combination substantially increases raw hull reinforcement.
+
+{{Tip|A hull tank does not necessarily need every HRP configured identically. One or more resistance-oriented Hull Reinforcement Packages can be used to correct weak kinetic, thermal, or explosive resistance while the remaining packages focus on raw integrity.}}
+
+=== Heat Sink Launchers ===
+
+Petra provides both Grade 5 Lightweight utility engineering and the Grade 1 Ammo Capacity blueprint for Heat Sink Launchers.
+
+'''Ammo Capacity''' increases maximum Heat Sink ammunition by 50%, at the cost of greater mass and a longer reload time.<ref name="inara-heatsink-ammo">[https://inara.cz/elite/blueprint/147/ Heat Sink Launcher — Ammo Capacity], Inara.</ref>
+
+'''Lightweight''' instead reduces module mass substantially, making it useful on exploration and other mass-sensitive ships.<ref name="inara-heatsink-light">[https://inara.cz/elite/blueprint/148/ Heat Sink Launcher — Lightweight], Inara.</ref>
+
+The correct choice depends on whether additional Heat Sink ammunition or reduced ship mass matters more for the build.
+
+=== Auto Field-Maintenance Unit ===
+
+Petra provides [[Shielded Auto Field-Maintenance Unit]] Engineering through '''Grade 5'''.<ref name="inara-afmu">[https://inara.cz/elite/blueprint/125/ Auto Field-Maintenance Unit — Shielded], Inara.</ref>
+
+Shielded increases AFMU integrity at the cost of additional power draw.
+
+This is a specialized modification rather than an automatic choice for every exploration ship, since AFMUs are commonly powered down when they are not actively repairing another module.
+
+=== Missile weapons ===
+
+Petra provides Grade 5 conventional Engineering for:
+
+* Mine Launchers;
+* Missile Racks;
+* Seeker Missile Racks; and
+* Torpedo Pylons.
+
+For general missile use, [[High Capacity Missile Rack|High Capacity]] is often useful because missile weapons are strongly constrained by their ammunition reserve.
+
+The appropriate Experimental Effect depends heavily on the role of the weapon.
+
+Examples include:
+
+* [[Drag Munitions]] on Seeker Missiles to interfere with target thrust;
+* [[FSD Interrupt]] on dumbfire Missile Racks;
+* [[Penetrator Munitions]] for attacking internal modules;
+* [[Reverberating Cascade]] on Mines or Torpedoes for specialized anti-shield-generator roles; and
+* [[Thermal Cascade]] for additional heat pressure.
+
+These are role-specific effects rather than universal upgrades.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Petra, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Heavy Duty Armour]] is a strong blueprint to consider pinning at Petra.
+
+Petra and [[Selene Jean]] both provide Grade 5 Armour and Hull Reinforcement Package Engineering. Using Petra for '''Heavy Duty Armour''' and Selene for '''Heavy Duty Hull Reinforcement Package''' allows both commonly used hull-strength blueprints to remain available through Remote Engineering at the same time.
+
+If those blueprints are already covered by your existing pins, Petra's broad Grade 5 weapon and utility coverage gives several other viable choices.}}
+
+Because Petra is located in Colonia, choosing a useful pinned blueprint before returning to the Bubble can save a very long future trip for ordinary blueprint work.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Effects such as [[Deep Plating]], [[Drag Munitions]], or [[Reverberating Cascade]] still require visiting an appropriate Engineer workshop.}}
+
+== What Petra Cannot Fully Engineer ==
+
+Petra provides '''Grade 5 access for every conventional module type she supports'''.<ref name="inara-petra" />
+
+Her supported module types include:
+
+* '''Armour:''' Grade 5
+* '''Hull Reinforcement Package:''' Grade 5
+* '''Module Reinforcement Package — Heavy Duty:''' Grade 5 <small>(Live only)</small>
+* '''Auto Field-Maintenance Unit:''' Grade 5
+* '''Chaff Launcher:''' Grade 5
+* '''Electronic Countermeasure:''' Grade 5
+* '''Heat Sink Launcher:''' Grade 5
+* '''Point Defence:''' Grade 5
+* '''Mine Launcher:''' Grade 5
+* '''Missile Rack:''' Grade 5
+* '''Seeker Missile Rack:''' Grade 5
+* '''Torpedo Pylon:''' Grade 5
+
+Some individual utility blueprints, such as '''Ammo Capacity''', exist only at Grade 1; this is the maximum grade of the blueprint itself rather than a limitation specific to Petra.
+
+Petra does not engineer every defensive or explosive module. For example, she does not provide Engineering for:
+
+* Shield Generators;
+* Shield Boosters;
+* Shield Cell Banks;
+* Cannons;
+* Fragment Cannons; or
+* Multi-Cannons.
+
+For related maximum-grade alternatives:
+
+* [[Selene Jean]] provides Grade 5 Armour and Hull Reinforcement Package Engineering in the Bubble.
+* [[Liz Ryder]] provides Grade 5 Missile Rack, Seeker Missile Rack, and Torpedo Pylon Engineering.
+* [[Juri Ishmaak]] provides Grade 5 Mine Launcher Engineering.
+* [[Ram Tah]] provides Grade 5 Chaff Launcher, Electronic Countermeasure, Heat Sink Launcher, and Point Defence Engineering.<ref name="inara-engineers" />
+
+Petra's distinguishing advantage is the unusually large number of Grade 5 defensive and explosive-weapon module types available from a single Colonia workshop.
+
+== What Next? ==
+
+Petra Olmanova is the end of her referral branch and does not currently introduce another Engineer.
+
+If you have already travelled to Colonia, consider unlocking the other three Colonia ship Engineers before returning to the Bubble.
+
+{{What next|title=Continue Engineering|
+* '''Projectile weapons, limpets, Fuel Scoops, and Refineries:''' [[Marsha Hicks]]
+* '''Lasers, shields, FSDs, Thrusters, and Shield Cell Banks:''' [[Mel Brandon]]
+* '''Power systems, scanners, Rail Guns, Plasma Accelerators, and Life Support:''' [[Etienne Dorn]]
+* '''Alternative Bubble armour specialist:''' [[Selene Jean]]
+* '''Previous Engineer:''' [[Tod "The Blaster" McQuinn]]
+* '''Get the unlock commodity:''' [[Progenitor Cells]]
+* '''Learn about Colonia Engineering:''' [[Colonia Engineers]]
+* '''Build stronger hulls:''' [[Hull Tanking]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Colonia Engineers]]
+[[Category:Weapon Engineering]]
+[[Category:Utility Engineering]]
+[[Category:Defensive Engineering]]
+[[Category:Core Internal Engineering]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]

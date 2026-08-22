@@ -1,0 +1,71 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking The Sarge
+Namespace: 0
+Page ID: 640
+Revision ID: 1524
+Timestamp: 2026-08-21T14:41:14Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_The_Sarge
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to The Sarge — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[The Sarge]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[The Sarge]].
+
+== Objective ==
+Gain access to [[The Sarge]]'s Engineer services at The Beach in Beta-3 Tucani.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' The Sarge is discovered through [[Juri Ishmaak]].
+* '''Invitation:''' Reach the '''Federal Navy rank of Midshipman''' or higher.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Juri Ishmaak]].
+* Reach '''Midshipman''' or higher in Federal Navy Rank.
+* Obtain '''50 units of Aberrant Shield Pattern Analysis'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Aberrant Shield Pattern Analysis'''
+Aberrant Shield Pattern Analysis is an '''Encoded''' material in the Shield Data family.
+
+Current material data lists its normal acquisition sources as:
+
+* scanning combat-oriented ships; and
+* mission rewards.
+
+It has a higher chance of appearing from appropriate ship scans in systems in a '''Boom''' state.
+
+Because it is an Encoded material, it can also be obtained by trading other Encoded materials at an Encoded Material Trader.
+
+{{Tip|If you already have a large stock of higher-value or unwanted Encoded data, using an Encoded Material Trader can be considerably faster than attempting to gather all 50 Aberrant Shield Pattern Analysis directly from ship scans.}}
+
+See Aberrant Shield Pattern Analysis for acquisition methods and Material Traders for material-conversion mechanics.
+
+{{Field note|You can collect the required data before travelling to Beta-3 Tucani. Unlike commodity-based Engineer unlocks, no cargo rack is required to transport it.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after The Sarge is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Juri Ishmaak]].
+# Receive Juri's referral to The Sarge.
+# Reach '''Midshipman''' or higher in Federal Navy Rank.
+# Obtain '''50 units of Aberrant Shield Pattern Analysis'''.
+# Travel to '''The Beach''' on '''Beta-3 Tucani 2 b a'''.
+# Donate the 50 Aberrant Shield Pattern Analysis to The Sarge.
+# Enter the Engineer workshop and begin increasing your reputation with The Sarge.
+}}
+
+== Expected Result ==
+{{Expected result|[[The Sarge]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[The Sarge]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Juri Ishmaak]] [[Colonel Bris Dekker]] Federal Navy Rank Aberrant Shield Pattern Analysis Engineer Reputation Beta-3 Tucani}}
+
+== Sources ==
+This procedure was extracted from the current [[The Sarge]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

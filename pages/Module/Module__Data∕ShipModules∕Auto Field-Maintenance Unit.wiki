@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Auto Field-Maintenance Unit
+Namespace: 828
+Page ID: 447
+Revision ID: 1234
+Timestamp: 2026-08-20T23:58:56Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Auto_Field-Maintenance_Unit
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Auto Field-Maintenance Unit",
+}

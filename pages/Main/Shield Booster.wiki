@@ -1,0 +1,44 @@
+<!--
+EDFM current-content archive export.
+Title: Shield Booster
+Namespace: 0
+Page ID: 370
+Revision ID: 1007
+Timestamp: 2026-08-20T01:37:50Z
+Source URL: https://edfieldmanual.com/wiki/Shield_Booster
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=A utility-slot module that adds extra shield strength and resistances on top of a ship's Shield Generator.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+A '''Shield Booster''' is a utility module fitted to a ship's utility mounts. Each one fitted adds to the ship's overall shield strength and damage resistances, working alongside the [[Shield Generator]] rather than replacing it.
+
+== Overview ==
+
+Multiple Shield Boosters can be fitted at once, with their bonuses stacking, though the practical benefit per additional booster diminishes as more are added. Because utility mounts are also shared with other utility modules such as [[Chaff Launcher|Chaff Launchers]] and [[Heat Sink Launcher|Heat Sink Launchers]], how many slots a Commander dedicates to Shield Boosters is a build decision based on the ship's role.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Felicity Farseer]] || Grade 1
+|-
+| [[Lei Cheung]] || Grade 3
+|}
+
+[[Lei Cheung]], based at [[Trader's Rest]] in [[Laksak]], is EDFM's currently documented Grade 3 Shield Booster Engineer.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Shield Generator]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Utility Engineering]]
+[[Category:Engineering]]

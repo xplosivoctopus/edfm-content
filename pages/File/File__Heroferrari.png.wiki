@@ -1,0 +1,28 @@
+<!--
+EDFM current-content archive export.
+Title: File:Heroferrari.png
+Namespace: 6
+Page ID: 252
+Revision ID: 663
+Timestamp: 2026-08-11T03:08:17Z
+Source URL: https://edfieldmanual.com/wiki/File:Heroferrari.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game portrait of Hero Ferrari, an Odyssey Engineer.
+ |subject = [[Hero Ferrari]]
+ |subject_type = Odyssey Engineer
+ |source = Elite Dangerous
+ |media_type = Cropped in-game screenshot
+ |captured_by = Sythan
+ |modifications = Cropped to portrait framing (dimensions are non-standard for a full-screen capture, consistent with cropping; not confirmed against an uncropped original)
+ |intended_use = Identification and illustration on the [[Hero Ferrari]] article and related Engineering pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Engineer images]]
+[[Category:Odyssey Engineer images]]
+== Licensing ==
+{{License-ED screenshot}}

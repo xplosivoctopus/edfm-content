@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Enhanced Xeno Scanner
+Namespace: 828
+Page ID: 482
+Revision ID: 1269
+Timestamp: 2026-08-20T23:59:20Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Enhanced_Xeno_Scanner
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Enhanced Xeno Scanner",
+}

@@ -1,0 +1,54 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Kit Fowler
+Namespace: 828
+Page ID: 419
+Revision ID: 1206
+Timestamp: 2026-08-20T23:54:17Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Kit_Fowler
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Kit Fowler",
+	"image": null,
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Capoya",
+	"body": "Capoya 2",
+	"facility": "The Last Call",
+	"region": null,
+	"allegiance": null,
+	"discovery": {
+		"type": "referral"
+	},
+	"unlock": {
+		"type": "sell",
+		"quantity": 5,
+		"item": "Opinion Polls",
+		"destination": "bartenders"
+	},
+	"prerequisite_engineer": "Domino Green",
+	"referrals": [
+		{
+			"engineer": "Yarden Bond",
+			"requirement": {
+				"type": "provide",
+				"quantity": 5,
+				"item": "Surveillance Equipment"
+			}
+		}
+	],
+	"modifications": {
+		"suit": [
+			"Added Melee Damage",
+			"Extra Ammo Capacity",
+			"Faster Shield Regen"
+		],
+		"weapon": [
+			"Magazine Size",
+			"Stowed Reloading"
+		]
+	},
+	"colonia": false
+}

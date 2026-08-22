@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Remote Release Flechette Launcher
+Namespace: 828
+Page ID: 579
+Revision ID: 1366
+Timestamp: 2026-08-21T00:00:33Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Remote_Release_Flechette_Launcher
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Remote Release Flechette Launcher",
+}

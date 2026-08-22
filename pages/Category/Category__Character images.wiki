@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Character images
+Namespace: 14
+Page ID: 263
+Revision ID: 409
+Timestamp: 2026-08-08T15:50:50Z
+Source URL: https://edfieldmanual.com/wiki/Category:Character_images
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Portrait and identification images of named characters who are not Engineers (faction leaders, station contacts, and similar).
+
+[[Category:Media]]

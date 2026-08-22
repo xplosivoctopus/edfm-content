@@ -1,0 +1,71 @@
+<!--
+EDFM current-content archive export.
+Title: Baltanos
+Namespace: 0
+Page ID: 139
+Revision ID: 1488
+Timestamp: 2026-08-21T14:39:15Z
+Source URL: https://edfieldmanual.com/wiki/Baltanos
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Odyssey Engineer|deck=Physical performance specialist at The Divine Apparatus in the Deriso system.}}
+
+{{Draft warning}}
+
+{{Engineer infobox}}
+
+Baltanos specialises in physical performance modifications for suits and handheld weapons.<ref name="inara-list" />
+
+Odyssey Engineering is a separate system from ship Engineering — it modifies suits and handheld weapons rather than ship modules, and exists only in Live (there is no Legacy equivalent). See [[Engineers]] for how the two systems are organised.
+
+== Location ==
+* '''System:''' Deriso
+* '''Settlement:''' The Divine Apparatus
+* '''Region:''' Colonia
+
+== How to Discover This Engineer ==
+Baltanos is independently available and does not require a referral from another Engineer.<ref name="inara-list">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+== How to Receive an Invitation ==
+There is no separate invitation requirement distinct from the unlock requirement below.
+
+== How to Unlock This Engineer ==
+Unlock requirements summary:
+* Reach '''Friendly''' reputation with the '''Colonia Council'''.
+
+For the complete step-by-step process, see [[Unlocking Baltanos]].
+
+== Engineer Unlock Chain ==
+Baltanos is one of three independent Colonia Odyssey Engineers (alongside [[Eleanor Bresa]] and [[Rosa Dayette]]) whose referral tasks all feed into [[Yi Shen]].<ref name="inara-list" />
+
+After Baltanos is unlocked, delivering '''10 Faction Associates''' data completes the referral task toward Yi Shen. All three Colonia Engineers' referral tasks must be completed before Yi Shen becomes available.
+
+== Available Engineering ==
+Specific suit/weapon modification names and maximum grades were not confirmed in the sources checked for this pass — see [[Elite Dangerous Field Manual:Engineering Architecture]] for the site's policy on not inventing unconfirmed specifics. Confirmed specialty area: Physical performance.
+
+== Experimental Effects ==
+To be added — not confirmed in the sources checked for this pass.
+
+== Increasing Engineer Reputation ==
+Reputation increases through crafting modifications at their workshop, in line with the general mechanic covered on the main [[Engineering]] page.
+
+== Blueprint Pinning ==
+'''Fact:''' Baltanos's confirmed specialty area is Physical performance.
+
+'''EDFM recommendation:''' Not yet made. A pinning recommendation needs the specific modification and maximum-grade data above filled in first — see [[Elite Dangerous Field Manual:Engineering Architecture]] for why EDFM treats pinning guidance as editorial judgement, not a database fact.
+
+== Related Engineers ==
+[[Eleanor Bresa]] and [[Rosa Dayette]] are the other two independent Colonia Odyssey Engineers whose referral tasks converge on [[Yi Shen]].
+
+== Related Guides ==
+{{Related articles|[[Engineering]] [[Engineer Unlock Guide]]}}
+
+== Sources ==
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

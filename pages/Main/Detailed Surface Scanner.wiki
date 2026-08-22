@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Detailed Surface Scanner
+Namespace: 0
+Page ID: 366
+Revision ID: 1003
+Timestamp: 2026-08-20T01:37:48Z
+Source URL: https://edfieldmanual.com/wiki/Detailed_Surface_Scanner
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The optional internal module used to scan planetary and system bodies during exploration.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+The '''Detailed Surface Scanner''' ('''DSS''') is an optional internal module used to scan planets, moons, rings, and other bodies within a system, revealing surface detail, geological and biological signal counts, and other body-specific information used for exploration data value and site-hunting.
+
+== Overview ==
+
+Firing a Detailed Surface Scanner probe at a body — commonly called "honking" a body once mapped — reveals a fuller data set about it than the system-wide discovery scan alone provides, and is a prerequisite for locating specific surface points of interest. It is distinct from [[Sensors]], the core internal module governing general contact detection range.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Felicity Farseer]] || Grade 3
+|-
+| [[Hera Tani]] || Grade 5
+|-
+| [[Lei Cheung]] || Grade 5
+|}
+
+Both [[Hera Tani]] (at [[The Jet's Hole]] in [[Kuwemaki]]) and [[Lei Cheung]] (at [[Trader's Rest]] in [[Laksak]]) are EDFM's currently documented Grade 5 Detailed Surface Scanner Engineers.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Exploration]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]

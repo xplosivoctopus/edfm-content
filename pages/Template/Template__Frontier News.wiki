@@ -1,0 +1,40 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Frontier News
+Namespace: 10
+Page ID: 296
+Revision ID: 599
+Timestamp: 2026-08-10T17:14:10Z
+Source URL: https://edfieldmanual.com/wiki/Template:Frontier_News
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<noinclude>This template is generated automatically by the Frontier news updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-home-news edfm-frontier-news">
+<div class="edfm-news-feature-grid">
+<div class="edfm-news-card edfm-news-card-primary">
+<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - beneath-surface-your-first-look-rhino.jpg|640px|frameless|alt=Beneath the Surface - Your First Look at the Rhino]]</div>
+<div class="edfm-news-card-body">
+<div class="edfm-news-meta">6 Aug 2026 · Frontier Developments</div>
+<div class="edfm-news-title">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface - Your First Look at the Rhino]</div>
+<div class="edfm-news-summary">A new colossus emerges in Elite Dangerous. Coming to ARX Early Access later this month.</div>
+</div>
+</div>
+<div class="edfm-news-card">
+<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - elite-dangerous-july-dev-log-2026.jpg|640px|frameless|alt=Elite Dangerous: July Dev Log 2026]]</div>
+<div class="edfm-news-card-body">
+<div class="edfm-news-meta">30 Jul 2026 · Frontier Developments</div>
+<div class="edfm-news-title">[https://www.elitedangerous.com/news/elite-dangerous-july-dev-log-2026 Elite Dangerous: July Dev Log 2026]</div>
+<div class="edfm-news-summary">In this month's post we're starting by looking back at the Nomad, our latest new vessel which has taken the galaxy by storm. We'll then take you behind the scenes of Operations, specifically the incredible work done by our art team to bring these new locations to life.</div>
+</div>
+</div>
+<div class="edfm-news-card">
+<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - nomad-available-now-arx-early-access.jpg|640px|frameless|alt=Nomad – Available Now Via ARX Early Access]]</div>
+<div class="edfm-news-card-body">
+<div class="edfm-news-meta">30 Jun 2026 · Frontier Developments</div>
+<div class="edfm-news-title">[https://www.elitedangerous.com/news/nomad-available-now-arx-early-access Nomad – Available Now Via ARX Early Access]</div>
+<div class="edfm-news-summary">Expanding the possibilities of surface exploration, Faulcon DeLacy presents the Nomad.</div>
+</div>
+</div>
+</div>
+<div class="edfm-news-attribution edfm-news-attribution-compact">Source: Frontier Developments / Elite Dangerous official news.</div>
+</div></includeonly>

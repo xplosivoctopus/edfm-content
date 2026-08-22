@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Caustic Sink Launcher
+Namespace: 828
+Page ID: 460
+Revision ID: 1247
+Timestamp: 2026-08-20T23:59:05Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Caustic_Sink_Launcher
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Caustic Sink Launcher",
+}

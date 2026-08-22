@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Estimated information
+Namespace: 10
+Page ID: 36
+Revision ID: 36
+Timestamp: 2026-08-06T19:51:23Z
+Source URL: https://edfieldmanual.com/wiki/Template:Estimated_information
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<span class="edfm-inline-flag">~{{{1}}} (estimated, not exact)</span><noinclude>
+== Usage ==
+<pre>{{Estimated information|value or figure}}</pre>
+[[Category:Templates]]
+</noinclude>

@@ -1,0 +1,544 @@
+<!--
+EDFM current-content archive export.
+Title: Oden Geiger
+Namespace: 0
+Page ID: 138
+Revision ID: 1486
+Timestamp: 2026-08-21T14:39:13Z
+Source URL: https://edfieldmanual.com/wiki/Oden_Geiger
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Odyssey Engineer
+ |deck=A strategic suit-utility and weapon-control specialist based at Ankh's Promise in Candiaei, reached through Terra Velasquez.
+}}
+
+{{Engineer infobox}}
+
+'''Oden Geiger''' is an Odyssey Engineer based at '''Ankh's Promise''' in the [[Candiaei]] system. He is reached through [[Terra Velasquez]] and specialises in suit sensors and endurance, night vision, and weapon optics and recoil control.<ref name="inara-oden">[https://inara.cz/elite/engineer/34/ Oden Geiger — Engineer], Inara.</ref>
+
+Oden provides [[Enhanced Tracking]], [[Improved Battery Capacity]], [[Night Vision]], [[Scope]], and [[Stability]].<ref name="inara-oden" />
+
+{{Field note|Odyssey Engineering does '''not''' use the Grade 1–5 Engineer-reputation progression used by ship Engineers. Suits and weapons have equipment grades and modification slots; Oden installs individual modifications into those slots.}}
+
+== Location ==
+
+* '''System:''' [[Candiaei]]
+* '''Settlement:''' [[Ankh's Promise]]
+* '''Body:''' Candiaei 9 c
+* '''Distance from arrival:''' approximately 941 Ls
+* '''Engineer type:''' Odyssey Engineer
+* '''Prerequisite Engineer:''' [[Terra Velasquez]]
+* '''System permit required:''' No
+
+Ankh's Promise is a surface Engineer base on '''Candiaei 9 c'''.<ref name="inara-ankh">[https://inara.cz/elite/station/316548/ Ankh's Promise — Station], Inara.</ref>
+
+The facility includes the usual Odyssey concourse services, including a bartender, Pioneer Supplies, Frontline Solutions, and Oden's workshop.<ref name="inara-ankh" />
+
+== How to Discover Oden Geiger ==
+
+Oden Geiger is discovered through [[Terra Velasquez]].<ref name="inara-oden" />
+
+After unlocking Terra, provide her with '''15 [[Financial Projections]]''' to receive the referral to Oden.<ref name="inara-terra">[https://inara.cz/elite/engineer/31/ Terra Velasquez — Engineer], Inara.</ref>
+
+[[Financial Projections]] are Odyssey '''Data'''.
+
+{{Important|Do not confuse Terra's own unlock with Oden's referral:
+
+* '''Unlock Terra Velasquez:''' complete 6 qualifying Covert Theft and/or Covert Heist missions.
+* '''Discover Oden Geiger:''' provide Terra with '''15 Financial Projections'''.}}
+
+See [[Terra Velasquez]] for the complete preceding Engineer progression.
+
+== How to Receive an Invitation ==
+
+There is no separate invitation requirement after Terra Velasquez has referred Oden.
+
+Once Oden has been discovered, complete his bartender-sales requirement to unlock his workshop.<ref name="inara-oden" />
+
+== How to Unlock Oden Geiger ==
+
+Unlock requirements summary:
+* Unlock [[Jude Navarro]].
+* Provide Jude with '''5 [[Genetic Repair Meds]]''' to discover [[Terra Velasquez]].
+* Complete Terra's unlock requirement.
+* Provide Terra with '''15 [[Financial Projections]]''' to discover Oden Geiger.
+* Obtain any combination of [[Biological Sample|Biological Samples]], [[Employee Genetic Data]], and [[Genetic Research]].
+* Sell a combined total of '''20''' qualifying materials to bartenders.
+{{Important|You do '''not''' need 20 Biological Samples, 20 Employee Genetic Data, and 20 Genetic Research. The requirement is '''20 combined'''.}}
+{{Tip|EDFM recommends waiting until Oden has been discovered through Terra before beginning the bartender sales. Older reports describe Engineer-unlock sales performed before discovery failing to count reliably, so retaining the qualifying materials until Oden appears in your Engineer panel is the safer approach.}}
+
+For the complete step-by-step process, see [[Unlocking Oden Geiger]].
+
+== Obtaining Oden's Unlock Materials ==
+
+Oden's three qualifying unlock materials are split between physical '''Goods''' and stored '''Data'''.
+
+{| class="wikitable"
+! Material
+! Type
+! Current acquisition locations
+|-
+| [[Biological Sample]]
+| Goods
+| STO buildings, AGRI buildings
+|-
+| [[Employee Genetic Data]]
+| Data
+| RES buildings, MED rooms, CMD buildings, mission rewards
+|-
+| [[Genetic Research]]
+| Data
+| MED rooms, RES buildings, AGRI buildings, mission rewards
+|}
+
+=== Biological Samples ==
+
+[[Biological Sample|Biological Samples]] are physical Odyssey '''Goods'''.<ref name="inara-biological">[https://inara.cz/elite/componentitem/10345/ Biological Sample — Component], Inara.</ref>
+
+Current material data lists them in:
+
+* '''STO buildings'''
+* '''AGRI buildings'''<ref name="inara-biological" />
+
+Because they are Goods, Biological Samples occupy physical Odyssey Goods storage.
+
+{{Tip|Agricultural settlements are particularly useful for Oden's unlock because their loot pools can contain both Biological Samples and Genetic Research.}}
+
+=== Employee Genetic Data ==
+
+[[Employee Genetic Data]] is Odyssey '''Data'''.<ref name="inara-employee-genetic">[https://inara.cz/elite/componentitem/10381/ Employee Genetic Data — Component], Inara.</ref>
+
+Current material data lists it in:
+
+* '''RES buildings'''
+* '''MED rooms'''
+* '''CMD buildings'''
+* '''mission rewards'''<ref name="inara-employee-genetic" />
+
+Because it is Data, Employee Genetic Data does not occupy the physical Goods section of the suit backpack.
+
+=== Genetic Research ==
+
+[[Genetic Research]] is Odyssey '''Data'''.<ref name="inara-genetic-research">[https://inara.cz/elite/componentitem/10286/ Genetic Research — Component], Inara.</ref>
+
+Current material data lists it in:
+
+* '''MED rooms'''
+* '''RES buildings'''
+* '''AGRI buildings'''
+* '''mission rewards'''<ref name="inara-genetic-research" />
+
+Unlike Employee Genetic Data, Genetic Research is also used in some Odyssey modification recipes, including Combat Movement Speed.<ref name="inara-genetic-research" />
+
+{{Tip|Because Oden accepts any combination of the three materials, there is no reason to deliberately farm equal quantities. Use whichever qualifying material you can acquire most efficiently until the combined total reaches 20.}}
+
+== Odyssey Engineering at Oden Geiger ==
+
+Odyssey Engineering works differently from ship Engineering.
+
+Suits and handheld weapons have an '''equipment grade'''. Higher equipment grades provide additional modification slots:
+
+{| class="wikitable"
+! Equipment grade
+! Modification slots
+|-
+| Grade 1
+| 0
+|-
+| Grade 2
+| 1
+|-
+| Grade 3
+| 2
+|-
+| Grade 4
+| 3
+|-
+| Grade 5
+| 4
+|}
+
+Oden installs individual modifications into those available slots.
+
+His modifications do '''not''' progress through Grade 1–5 Engineer reputation.
+
+{{Important|A Grade 5 Artemis Suit does not receive a "Grade 5 Night Vision" modification. Grade 5 describes the suit itself and provides four modification slots; Night Vision occupies one of those slots as a single permanent modification.}}
+
+See [[Odyssey Engineering]] for equipment grades, modification slots, upgrading, and Engineering-material mechanics.
+
+== Available Engineering ==
+
+Oden currently provides five Odyssey modifications.<ref name="inara-oden" />
+
+{| class="wikitable"
+! Modification
+! Equipment
+! Primary effect
+|-
+| [[Enhanced Tracking]]
+| Suit
+| Increases the range and speed of the suit's basic scan function
+|-
+| [[Improved Battery Capacity]]
+| Suit
+| Increases suit battery capacity by 50%
+|-
+| [[Night Vision]]
+| Suit
+| Adds night-vision capability
+|-
+| [[Scope]]
+| Handheld weapon
+| Adds a scope or improves an existing optic
+|-
+| [[Stability]]
+| Handheld weapon
+| Reduces weapon recoil
+|}
+
+== Enhanced Tracking ==
+
+'''Enhanced Tracking''' improves the suit's basic scanning function by increasing its range and scan performance.<ref name="inara-oden" />
+
+Current data lists:
+
+* '''+100% line-of-sight analysis range'''<ref name="inara-oden" />
+
+The current recipe is:
+
+* 5 [[Topographical Surveys]]
+* 5 [[Stellar Activity Logs]]
+* 5 [[Spectral Analysis Data]]
+* 3 [[Transmitter]]
+* 3 [[Circuit Board]]
+* '''750,000 CR'''<ref name="inara-oden" />
+
+Other Engineers currently providing Enhanced Tracking include:
+
+* [[Domino Green]]
+* [[Rosa Dayette]]<ref name="inara-oden" />
+
+{{Tip|'''EDFM recommendation:''' Enhanced Tracking is a specialised utility modification.
+
+The doubled scan range can be useful during occupied-settlement operations where identifying NPCs from farther away is valuable, but most suit builds have more broadly useful alternatives competing for the same limited modification slots.}}
+
+{{Field note|Current external data describes Enhanced Tracking as increasing both scan range and speed. Its numerical range bonus is clearly listed as +100%, while the displayed analysis-time field is less intuitive. EDFM therefore does not assign a specific percentage to the scan-speed improvement here without direct in-game timing verification.<ref name="inara-oden" />}}
+
+== Improved Battery Capacity ==
+
+'''Improved Battery Capacity''' increases the suit's total battery-energy capacity by '''50%'''.<ref name="inara-oden" />
+
+The current modifier is:
+
+* '''+50% battery energy capacity'''<ref name="inara-oden" />
+
+The current recipe is:
+
+* 5 [[Reactor Output Review]]
+* 8 [[Maintenance Logs]]
+* 3 [[Ion Battery]]
+* 5 [[Micro Supercapacitor]]
+* 5 [[Electrical Wiring]]
+* '''750,000 CR'''<ref name="inara-oden" />
+
+Other Engineers currently providing Improved Battery Capacity include:
+
+* [[Wellington Beck]]
+* [[Rosa Dayette]]<ref name="inara-oden" />
+
+{{Tip|'''EDFM recommendation:''' Improved Battery Capacity is one of Oden's strongest general-purpose suit modifications.
+
+A larger energy reserve benefits settlement missions, combat, exploration, tool use, shields, and operations in environments where the suit consumes additional power.}}
+
+=== Maverick Suit ===
+
+A [[Maverick Suit]] regularly consumes energy through its tools and during prolonged settlement operations, making additional battery capacity broadly useful.
+
+=== Dominator Suit ===
+
+The [[Dominator Suit]] benefits from the larger reserve during extended combat, particularly when shields are used heavily.
+
+=== Artemis Suit ===
+
+The [[Artemis Suit]] can benefit during extended exobiology work, particularly when operating for long periods away from the ship or SRV or in environments that increase suit energy consumption.
+
+{{Field note|Improved Battery Capacity increases the suit's main energy reserve. It is different from [[Increased Air Reserves]], which affects emergency oxygen after usable suit power has been exhausted.}}
+
+== Night Vision ==
+
+'''Night Vision''' adds night-vision capability to the suit.<ref name="inara-oden" />
+
+The current recipe is:
+
+* 5 [[Surveillance Equipment]]
+* 3 [[Surveillance Logs]]
+* 3 [[Radioactivity Data]]
+* 3 [[NOC Data]]
+* 5 [[Circuit Switch]]
+* '''1,000,000 CR'''<ref name="inara-oden" />
+
+Only two current Odyssey Engineers provide Night Vision:
+
+* '''Oden Geiger''' — Bubble
+* [[Yi Shen]] — Colonia<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Tip|'''EDFM recommendation: Night Vision'''
+
+Night Vision is Oden's most distinctive modification and one of the strongest reasons to complete his Engineer branch.
+
+It is useful on all three suit types because surface activities frequently take place on the dark side of planets and moons, inside poorly lit structures, or around settlements with limited lighting.}}
+
+Night Vision can make it easier to:
+
+* navigate dark terrain;
+* identify structures and obstacles;
+* locate NPCs and settlement features;
+* fight without relying entirely on the suit torch; and
+* operate at powered-down or poorly illuminated settlements.
+
+{{Field note|Oden is currently the '''only Bubble Engineer''' who installs Night Vision. The alternative, [[Yi Shen]], is located in the Colonia region.<ref name="inara-engineers" />}}
+
+=== Artemis Suit ===
+
+Night Vision is highly useful for an [[Artemis Suit]] intended for planetary exploration and exobiology, since biological signals frequently need to be located on bodies where the local terrain is dark.
+
+=== Maverick Suit ===
+
+A [[Maverick Suit]] benefits during settlement salvage, infiltration, Restore missions, and operations at powered-down settlements.
+
+=== Dominator Suit ===
+
+A [[Dominator Suit]] can benefit during surface conflict zones and combat missions taking place in darkness.
+
+{{Tip|If you expect to engineer several different suit types, plan carefully before spending Night Vision materials. Each suit must receive the modification individually.}}
+
+== Scope ==
+
+'''Scope''' adds a magnified optic to a compatible handheld weapon or improves the weapon's existing optic.<ref name="inara-oden" />
+
+The current recipe is:
+
+* 5 [[Spectral Analysis Data]]
+* 3 [[Biometric Data]]
+* 5 [[Optical Lens]]
+* 3 [[Optical Fibre]]
+* '''500,000 CR'''<ref name="inara-oden" />
+
+Other Engineers currently providing Scope include:
+
+* [[Wellington Beck]]
+* [[Rosa Dayette]]<ref name="inara-oden" />
+
+{{Tip|'''EDFM recommendation:''' Scope is most useful on weapons deliberately intended for aimed medium- or longer-range combat.
+
+It is less valuable on close-range weapons where most engagements occur at distances that do not benefit meaningfully from magnification.}}
+
+Scope can pair naturally with modifications such as [[Greater Range]] when the entire weapon is being configured for ranged engagement.
+
+{{Important|Odyssey weapon modification slots are permanent and limited. Decide the intended role of the weapon before committing a slot to Scope.}}
+
+== Stability ==
+
+'''Stability''' reduces the recoil generated by a handheld weapon.<ref name="inara-oden" />
+
+The current modifier is:
+
+* '''+30% Stability'''<ref name="inara-oden" />
+
+The current recipe is:
+
+* 5 [[Mining Analytics]]
+* 8 [[Risk Assessments]]
+* 5 [[Viscoelastic Polymer]]
+* 5 [[Micro Hydraulics]]
+* '''500,000 CR'''<ref name="inara-oden" />
+
+Other Engineers currently providing Stability include:
+
+* [[Domino Green]]
+* [[Rosa Dayette]]<ref name="inara-oden" />
+
+{{Tip|'''EDFM recommendation:''' Stability is most valuable on weapons where recoil makes successive shots difficult to keep on target.
+
+Weapons with little practical recoil or builds centred around single deliberate shots may gain less from the modification than automatic or rapid-fire weapons.}}
+
+Stability can also complement [[Scope]] on a ranged weapon by making the sight picture easier to maintain during repeated fire.
+
+== Engineer Unlock Chain ==
+
+Oden Geiger belongs to the [[Jude Navarro]] branch of the Odyssey Engineer network.
+
+The complete branch is:
+
+<pre>
+Jude Navarro
+└── Terra Velasquez
+    └── Oden Geiger
+</pre>
+
+The progression is:
+
+# Unlock [[Jude Navarro]] by completing 10 Restore or Reactivation missions.
+# Give Jude '''5 [[Genetic Repair Meds]]''' to discover [[Terra Velasquez]].
+# Complete '''6 Covert Theft and/or Covert Heist missions''' to unlock Terra.
+# Give Terra '''15 [[Financial Projections]]''' to discover Oden Geiger.
+# Sell a combined total of '''20 Biological Samples, Employee Genetic Data, and/or Genetic Research''' to bartenders to unlock Oden.<ref name="inara-terra" /><ref name="inara-oden" />
+
+Oden Geiger does '''not''' currently refer the Commander to another Odyssey Engineer.<ref name="inara-engineers" />
+
+He is therefore the endpoint of this branch.
+
+== Increasing Engineer Reputation ==
+
+'''Not applicable to Odyssey Engineers in the same way as ship Engineers.'''
+
+Oden Geiger does not use the Grade 1–5 Engineer-reputation progression found at ship Engineer workshops.
+
+Once Oden has been unlocked, his modifications can be installed provided that:
+
+* the equipment is compatible;
+* the suit or weapon has an unused modification slot; and
+* you possess the required Odyssey materials and credits.
+
+The suit or weapon itself is upgraded separately through [[Pioneer Supplies]].
+
+Oden has no further Engineer referral requirement.
+
+See [[Odyssey Engineering]] for the complete on-foot Engineering system.
+
+== Experimental Effects ==
+
+'''Not applicable.'''
+
+Odyssey suit and handheld-weapon Engineering does not use the separate ship-module [[Experimental Effects]] system.
+
+Oden's five modifications are themselves the permanent modifications installed onto the equipment.
+
+== Blueprint Pinning ==
+
+'''Not applicable.'''
+
+Odyssey modifications cannot be pinned for [[Remote Engineering]] in the same manner as ship Engineering blueprints.
+
+A suit or weapon must be taken directly to Oden Geiger or another Odyssey Engineer offering the desired modification.
+
+{{Field note|Unlocking Oden therefore does not make Night Vision, Stability, Scope, or his other modifications remotely available through Pioneer Supplies or another station.}}
+
+== Recommended Engineering ==
+
+Oden's modification set ranges from broadly useful suit upgrades to specialised weapon modifications.
+
+=== General-purpose suits ===
+
+{{Tip|'''EDFM recommendation:''' [[Night Vision]] and [[Improved Battery Capacity]] are Oden's strongest broadly useful suit modifications.
+
+Night Vision provides a capability unavailable from any other Bubble Engineer, while Improved Battery Capacity increases the operating endurance of almost any suit role.}}
+
+Which one should take priority depends on the suit's intended purpose and the remaining modification slots.
+
+=== Maverick Suit ===
+
+For a [[Maverick Suit]] used for settlement missions, salvage, and infiltration:
+
+* '''Night Vision''' — strong general-purpose visibility improvement
+* '''Improved Battery Capacity''' — extends settlement operating time
+* '''Enhanced Tracking''' — situationally useful for identifying NPCs during occupied-settlement work
+
+Enhanced Tracking generally competes with more broadly useful Maverick modifications such as [[Extra Backpack Capacity]] and [[Reduced Tool Battery Consumption]].
+
+=== Artemis Suit ===
+
+For an exploration-focused [[Artemis Suit]]:
+
+* '''Night Vision''' is highly useful for dark-side exobiology and terrain navigation.
+* '''Improved Battery Capacity''' extends time away from the ship or SRV.
+* '''Enhanced Tracking''' normally provides little benefit during isolated exploration.
+
+=== Dominator Suit ===
+
+For a combat-focused [[Dominator Suit]]:
+
+* '''Night Vision''' is useful for nighttime conflict zones and settlement combat.
+* '''Improved Battery Capacity''' supports longer periods of shield and suit operation.
+* '''Enhanced Tracking''' is more situational because hostile contacts are usually already obvious during active combat.
+
+=== Weapons ===
+
+Oden offers:
+
+* [[Scope]]
+* [[Stability]]
+
+{{Tip|'''EDFM recommendation:''' Do not automatically combine Scope and Stability on every weapon.
+
+Scope is primarily a ranged-aiming modification, while Stability is primarily a recoil-control modification. A weapon benefits most when the modification addresses an actual limitation of that weapon and its intended role.}}
+
+A precision or ranged weapon may benefit from both, while a close-range weapon may have better uses for its limited modification slots.
+
+== What Oden Cannot Modify ==
+
+Oden currently provides five modification types:
+
+* '''Enhanced Tracking''' — suit
+* '''Improved Battery Capacity''' — suit
+* '''Night Vision''' — suit
+* '''Scope''' — weapon
+* '''Stability''' — weapon<ref name="inara-oden" />
+
+Other commonly useful modifications require different Engineers.
+
+Examples include:
+
+* '''Damage Resistance:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Faster Shield Regen:''' [[Kit Fowler]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Extra Ammo Capacity:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Extra Backpack Capacity:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Reduced Tool Battery Consumption:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Combat Movement Speed:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Improved Hip Fire Accuracy:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Increased Sprint Duration:''' [[Hero Ferrari]], [[Terra Velasquez]], or [[Baltanos]]
+* '''Noise Suppressor:''' [[Hero Ferrari]], [[Terra Velasquez]], or [[Baltanos]]
+* '''Audio Masking:''' [[Yarden Bond]] or [[Yi Shen]]
+* '''Quieter Footsteps:''' [[Yarden Bond]] or [[Yi Shen]]
+* '''Greater Range:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Reload Speed:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]<ref name="inara-engineers" />
+
+See [[Odyssey Engineer Modifications]] for the complete Engineer-by-modification matrix.
+
+== What Next? ==
+
+Oden Geiger is the endpoint of the [[Jude Navarro]] Odyssey Engineer branch and does not currently introduce another Engineer.
+
+After unlocking Oden, further Odyssey Engineering progression requires working on another independent branch or the Colonia Engineer network.
+
+{{What next|title=Continue Odyssey Engineering|
+* '''Previous Engineer:''' [[Terra Velasquez]]
+* '''Starting point of this branch:''' [[Jude Navarro]]
+* '''Oden's standout modification:''' [[Night Vision]]
+* '''Get Oden's referral requirement:''' [[Financial Projections]]
+* '''Collect Oden's unlock Goods:''' [[Biological Sample]]
+* '''Collect Oden's unlock Data:''' [[Employee Genetic Data]]
+* '''Collect Oden's unlock Data:''' [[Genetic Research]]
+* '''Other Bubble starting branch:''' [[Hero Ferrari]]
+* '''Other Bubble starting branch:''' [[Domino Green]]
+* '''Alternative Night Vision Engineer in Colonia:''' [[Yi Shen]]
+* '''Plan suit modifications:''' [[Suit Engineering]]
+* '''Plan weapon modifications:''' [[Weapon Engineering (Odyssey)]]
+* '''See the complete network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Odyssey Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineers]]
+[[Category:Suit Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

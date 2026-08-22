@@ -1,0 +1,33 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:About the Field Manual
+Namespace: 4
+Page ID: 42
+Revision ID: 1419
+Timestamp: 2026-08-21T13:57:34Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:About_the_Field_Manual
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+'''Elite Dangerous Field Manual (EDFM)''' is an independent, community-maintained knowledge base and practical field manual for ''Elite Dangerous''.
+
+''Elite Dangerous Field Manual'' is an unofficial community project and is not affiliated with or endorsed by Frontier Developments plc. ''Elite Dangerous'' and related names, marks, and assets are the property of their respective owners.
+
+{{EDFM policy commitments}}
+
+== What this project is ==
+A reference and procedure guide aimed at being:
+
+* '''Ad-free''' — no advertising of any kind.
+* '''Privacy-respecting''' — no advertising or cross-site marketing tracking; optional public-content analytics runs only after Analytics consent and is excluded from sensitive account, authentication, Frontier OAuth, and profile pages. See [[Elite Dangerous Field Manual:Privacy Policy]] and [[Elite Dangerous Field Manual:Cookie Policy]].
+* '''Accurate over exhaustive''' — see [[Elite Dangerous Field Manual:Editorial Policy]] and [[Elite Dangerous Field Manual:Verification Policy]].
+* '''Version-aware''' — Elite Dangerous changes over time; articles are expected to record what version/mode they were verified against, and to flag when content is Legacy-only or historical.
+
+== What this project is not ==
+It is not official. It is not produced or reviewed by Frontier Developments. It does not claim any special access to unreleased information. See [[Elite Dangerous Field Manual:Legal and Trademark Notice]].
+
+== Project status ==
+EDFM is live and open for public use and contribution. See [[Elite Dangerous Field Manual:Current Project Status]] for what exists so far and [[Elite Dangerous Field Manual:Pages Needing Review]] for open work.
+
+== Getting involved ==
+See [[Elite Dangerous Field Manual:Contributing]].

@@ -1,0 +1,261 @@
+<!--
+EDFM current-content archive export.
+Title: Elvira Martuuk
+Namespace: 0
+Page ID: 108
+Revision ID: 1424
+Timestamp: 2026-08-21T14:38:25Z
+Source URL: https://edfieldmanual.com/wiki/Elvira_Martuuk
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=An independent starting Engineer based in Khun, providing Grade 5 Frame Shift Drive engineering along with lower-grade shield and thruster upgrades.
+}}
+
+{{Engineer infobox}}
+
+'''Elvira Martuuk''' is a ship Engineer based at '''Long Sight Base''' in the [[Khun]] system. She is one of the independent starting Engineers: no referral from [[Felicity Farseer]] or any other Engineer is required before a Commander can meet and unlock her.<ref name="inara-elvira">[https://inara.cz/elite/engineer/2/ Elvira Martuuk — Engineer], Inara.</ref><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Elvira is particularly notable for providing '''Grade 5 Frame Shift Drive Engineering'''. She also engineers Shield Generators through Grade 3, Thrusters through Grade 2, and Shield Cell Banks through Grade 1.<ref name="inara-elvira" />
+
+{{Field note|Elvira and [[Felicity Farseer]] are '''separate starting Engineers'''. Unlocking Felicity is not required to discover, meet, or unlock Elvira.}}
+
+== Location ==
+
+* '''System:''' [[Khun]]
+* '''Facility:''' [[Long Sight Base]]
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' No
+
+== How to Discover Elvira Martuuk ==
+
+Elvira Martuuk's whereabouts are '''public knowledge'''. She does not require a referral from another Engineer.<ref name="inara-elvira" /><ref name="newp-engineers" />
+
+This makes her one of the independent entry points into the ship Engineering network.
+
+== How to Receive an Invitation ==
+
+Reach a '''maximum distance of at least 300 light-years from your career start location'''.<ref name="inara-elvira" />
+
+This requirement is based on how far you have travelled from the location where your Commander began their career. It is not a requirement to accumulate 300 Ly of ordinary travel; your recorded maximum distance from the starting location must reach at least 300 Ly.
+
+Once this requirement has been satisfied, Elvira can be visited at Long Sight Base in Khun.
+
+== How to Unlock Elvira Martuuk ==
+
+Unlock requirements summary:
+* Reach a maximum distance of at least '''300 Ly from your career start location'''.
+* Obtain '''3 units of [[Soontill Relics]]'''.
+* Donate the three Soontill Relics to Elvira Martuuk.
+{{Important|'''Soontill Relics are a rare commodity.''' They are not Raw, Manufactured, or Encoded Engineering materials. They occupy cargo space and must be physically transported to Long Sight Base.}}
+{{Tip|If you are collecting the Relics specifically for Elvira, make sure your ship has at least '''3 tonnes of cargo capacity''' before travelling to Ngurii.}}
+
+For the complete step-by-step process, see [[Unlocking Elvira Martuuk]].
+
+== Increasing Engineer Reputation ==
+
+Reputation with Elvira Martuuk can be increased by:
+
+* crafting Engineering modifications at her workshop; or
+* selling exploration data at Long Sight Base.<ref name="inara-elvira" /><ref name="newp-engineers" />
+
+Higher Engineer reputation gives access to the higher grades Elvira supports for each blueprint.
+
+{{Tip|Because the meeting requirement already encourages travelling away from the Bubble, you may have exploration data available by the time you reach Elvira. Selling that data at Long Sight Base can help increase her Engineer reputation without relying entirely on repeated Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Elvira Martuuk is one of the independent starting points in the ship Engineer network.
+
+After reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with Elvira, she can provide referrals to three Engineers:<ref name="newp-engineers" />
+
+* [[Marco Qwent]]
+* [[Zacariah Nemo]]
+* [[Mel Brandon]] — Colonia
+
+[[Marco Qwent]] subsequently leads farther into the same branch:
+
+<pre>
+Elvira Martuuk
+├── Zacariah Nemo
+├── Marco Qwent
+│   ├── Chloe Sedesi
+│   ├── Lori Jameson
+│   └── Professor Palin
+└── Mel Brandon [Colonia]
+</pre>
+
+Current Engineer data independently lists Marco Qwent, Zacariah Nemo, and Mel Brandon as being discovered through Elvira Martuuk.<ref name="inara-marco">[https://inara.cz/elite/engineer/7/ Marco Qwent — Engineer], Inara.</ref><ref name="inara-nemo">[https://inara.cz/elite/engineer/9/ Zacariah Nemo — Engineer], Inara.</ref><ref name="inara-mel">[https://inara.cz/elite/engineer/22/ Mel Brandon — Engineer], Inara.</ref>
+
+{{Field note|A referral does not automatically unlock the referred Engineer. [[Marco Qwent]], [[Zacariah Nemo]], and [[Mel Brandon]] each have additional meeting and unlock requirements of their own.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Elvira's Engineering coverage is shown below. The listed grade is the highest grade she can apply to that module.<ref name="inara-elvira" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Frame Shift Drive]]
+|
+* Faster Boot Sequence
+* Increased Range
+* Shielded
+| '''Grade 5'''
+|-
+| [[Shield Generator]]
+|
+* Enhanced Low Power
+* Kinetic Resistant
+* Reinforced
+* Thermal Resistant
+| '''Grade 3'''
+|-
+| [[Thrusters]]
+|
+* Clean
+* Dirty
+* Reinforced
+| '''Grade 2'''
+|-
+| [[Shield Cell Bank]]
+|
+* Rapid Charge
+* Specialised
+| '''Grade 1'''
+|}
+
+Elvira's Frame Shift Drive coverage is therefore equivalent in maximum grade to [[Felicity Farseer]], while her other modules stop at lower grades.
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+
+Elvira can apply Experimental Effects to modules she engineers even when her maximum blueprint grade for that module is lower than the grade already applied by another Engineer.
+
+For example, a Shield Generator engineered beyond Grade 3 elsewhere can still be taken to Elvira for a compatible Shield Generator Experimental Effect.
+
+=== Frame Shift Drive ===
+
+Available Frame Shift Drive Experimental Effects include:<ref name="inara-fsd">[https://inara.cz/elite/blueprint/2/ Frame Shift Drive — Increased Range], Inara.</ref>
+
+* [[Deep Charge]]
+* [[Double Braced]]
+* [[Mass Manager]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+=== Shield Generator ===
+
+Available Shield Generator Experimental Effects include:<ref name="inara-shields">[https://inara.cz/elite/blueprint/20/ Shield Generator — Enhanced Low Power], Inara.</ref>
+
+* [[Double Braced]]
+* [[Fast Charge]]
+* [[Force Block]]
+* [[Hi-Cap]]
+* [[Lo-Draw]]
+* [[Multi-Weave]]
+* [[Stripped Down]]
+* [[Thermo Block]]
+
+=== Shield Cell Bank ===
+
+Available Shield Cell Bank Experimental Effects include:<ref name="inara-scb">[https://inara.cz/elite/blueprint/18/ Shield Cell Bank — Specialised], Inara.</ref>
+
+* [[Boss Cells]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Recycling Cell]]
+* [[Stripped Down]]
+
+=== Thrusters ===
+
+Available Thruster Experimental Effects include:<ref name="inara-thrusters">[https://inara.cz/elite/blueprint/4/ Thrusters — Dirty], Inara.</ref>
+
+* [[Double Braced]]
+* [[Drag Drives]]
+* [[Drive Distributors]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Early Engineering ==
+
+For many Commanders, Elvira's most immediately useful capability is her '''Grade 5 Frame Shift Drive Engineering'''.
+
+{{Tip|'''Common general-purpose choice: Increased Range + Mass Manager'''
+
+For many ships, [[Increased Range Frame Shift Drive]] combined with the [[Mass Manager]] Experimental Effect is a strong general-purpose choice for increasing jump range.
+
+This is a recommendation rather than a requirement. Different ships and specialised builds may benefit from different Engineering choices.}}
+
+Elvira's Shield Generator Engineering can also be useful early in progression. Although she only provides it through Grade 3, this allows a Commander to begin improving shields and apply Shield Generator Experimental Effects before unlocking an Engineer with Grade 5 Shield Generator access.
+
+Her Grade 2 Thruster Engineering serves a similar early-game role, but Commanders seeking maximum Thruster performance will eventually need a higher-grade Thruster Engineer.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Elvira, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Increased Range Frame Shift Drive]] is a strong default blueprint to pin at Elvira.
+
+Elvira provides the blueprint through Grade 5, and Increased Range is useful across a large number of ships. Pinning it here also leaves [[Felicity Farseer]] available to pin a different blueprint if both Engineers have been unlocked.}}
+
+New Pilots Initiative's current Engineering guidance likewise assigns the '''Increased Range FSD''' pin to Elvira in its suggested Engineer pinning plan.<ref name="newp-engineering">[https://newp.io/engineeringguide Engineering Guide], New Pilots Initiative.</ref>
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What Elvira Cannot Fully Engineer ==
+
+Only Elvira's Frame Shift Drive Engineering reaches Grade 5.
+
+Her other maximum grades are:
+
+* '''Shield Generator:''' Grade 3
+* '''Thrusters:''' Grade 2
+* '''Shield Cell Bank:''' Grade 1<ref name="inara-elvira" />
+
+This makes Elvira useful for both early Engineering and Grade 5 FSD work, but she does not replace Engineers who provide higher grades for her other specialties.
+
+For maximum-grade alternatives:
+
+* '''Grade 5 Shield Generator''' Engineering is available from [[Lei Cheung]] and [[Mel Brandon]].
+* '''Grade 5 Thruster''' Engineering is available from [[Professor Palin]], [[Chloe Sedesi]], and [[Mel Brandon]].
+* '''Grade 4 Shield Cell Bank''' Engineering is available from [[Mel Brandon]].<ref name="newp-engineers" />
+
+== What Next? ==
+
+After unlocking Elvira, you do not need to immediately follow her referral branch.
+
+If you want to continue her branch, progressing Elvira's reputation will eventually open three different paths.
+
+{{What next|title=Continue Engineering|
+* '''Power Plants and Power Distributors:''' [[Marco Qwent]]
+* '''Fragment Cannons and other weapons:''' [[Zacariah Nemo]]
+* '''Colonia Engineering:''' [[Mel Brandon]]
+* '''Another Grade 5 FSD Engineer:''' [[Felicity Farseer]]
+* '''Weapons:''' [[Tod "The Blaster" McQuinn]]
+* '''Power Distributor and energy weapons:''' [[The Dweller]]
+* '''Missiles and armour:''' [[Liz Ryder]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

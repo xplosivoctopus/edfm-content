@@ -1,0 +1,74 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Mel Brandon
+Namespace: 828
+Page ID: 404
+Revision ID: 1163
+Timestamp: 2026-08-20T22:09:02Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Mel_Brandon
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Mel Brandon",
+	"engineer_scope": "ship",
+	"image": "Melbrandon.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Luchtaine",
+	"body": "Luchtaine A 1 c",
+	"facility": "The Brig",
+	"region": "Colonia",
+	"allegiance": null,
+	"specialties": [
+		"Beam Laser",
+		"Burst Laser",
+		"Pulse Laser",
+		"Frame Shift Drive",
+		"Frame Shift Drive Interdictor",
+		"Shield Booster",
+		"Shield Generator",
+		"Thrusters",
+		"Shield Cell Bank"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Elvira Martuuk",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Elvira Martuuk",
+	"invitation_requirement": "Cordial reputation with the Colonia Council",
+	"meeting_requirement": "Reach at least Cordial reputation with the Colonia Council and obtain its Engineer invitation.",
+	"meeting_links": [
+		{
+			"text": "reputation",
+			"target": "Reputation"
+		}
+	],
+	"unlock": {
+		"action": "Provide",
+		"credits": 100000,
+		"item": "Bounty Vouchers",
+		"credits_worth": true
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Beam Laser",
+				"Burst Laser",
+				"Pulse Laser",
+				"Frame Shift Drive",
+				"Frame Shift Drive Interdictor",
+				"Shield Booster",
+				"Shield Generator",
+				"Thrusters"
+			]
+		},
+		{
+			"grade": 4,
+			"modules": [
+				"Shield Cell Bank"
+			]
+		}
+	],
+	"colonia": true
+}

@@ -1,0 +1,430 @@
+<!--
+EDFM current-content archive export.
+Title: Bill Turner
+Namespace: 0
+Page ID: 115
+Revision ID: 1442
+Timestamp: 2026-08-21T14:38:39Z
+Source URL: https://edfieldmanual.com/wiki/Bill_Turner
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 Plasma Accelerator, Sensors, and Detailed Surface Scanner Engineer based at Turner Metallics Inc in permit-locked Alioth, reached through Selene Jean.
+}}
+
+{{Engineer infobox}}
+
+'''Bill Turner''' is a ship Engineer based at '''Turner Metallics Inc''' in the permit-locked [[Alioth]] system. He is reached through [[Selene Jean]] and specialises in Plasma Accelerators, scanners, Sensors, and several exploration and support modules.<ref name="inara-bill">[https://inara.cz/elite/engineer/19/ Bill Turner — Engineer], Inara.</ref>
+
+Bill provides '''Grade 5 Plasma Accelerator, Sensors, and Detailed Surface Scanner Engineering'''. In Live, he also provides the Operations-era '''Extended Cargo Rack''' blueprint through Grade 5. His remaining conventional support-module Engineering reaches Grade 3.<ref name="inara-bill" />
+
+{{Field note|Bill's workshop is inside '''permit-locked Alioth'''. Receiving Selene Jean's referral is not enough by itself — you must also satisfy Bill's Alliance-reputation requirement and be able to enter Alioth before you can reach Turner Metallics Inc.}}
+
+== Location ==
+
+* '''System:''' [[Alioth]]
+* '''Facility:''' [[Turner Metallics Inc]]
+* '''Body:''' Alioth 4 a
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Selene Jean]]
+* '''System permit required:''' Yes — [[Alioth Permit]]
+
+Turner Metallics Inc is a surface Engineer base on '''Alioth 4 a'''.<ref name="inara-turner-base">[https://inara.cz/elite/station/55522/ Turner Metallics Inc — Station], Inara.</ref>
+
+Alioth itself remains a permit-locked Alliance system.<ref name="inara-alioth">[https://inara.cz/elite/starsystem/2407/ Alioth — Star System], Inara.</ref>
+
+== How to Discover Bill Turner ==
+
+Bill Turner is discovered through [[Selene Jean]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Selene to receive her referral to Bill.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Selene can also refer Commanders to [[Didi Vatermann]]. Bill and Didi are therefore parallel referrals from Selene rather than one being required for the other.
+
+{{Field note|Receiving Selene's referral makes Bill known to you. It does not grant the [[Alioth Permit]] or complete Bill's separate reputation requirement.}}
+
+== How to Receive an Invitation ==
+
+Current Engineer data lists the following meeting requirements for Bill Turner:
+
+* reach at least '''Friendly''' reputation with the '''Alliance'''; and
+* obtain the permit required to enter [[Alioth]], which is associated with '''Allied''' reputation with the [[Alioth Independents]].<ref name="inara-bill" />
+
+These are separate from the referral from Selene Jean.
+
+=== Alioth system permit ===
+
+Because Turner Metallics Inc is located inside Alioth, the system permit is a practical requirement for reaching Bill.
+
+Current Engineer data identifies '''Allied reputation with the Alioth Independents''' as the faction-reputation requirement associated with obtaining access to Alioth.<ref name="inara-bill" />
+
+{{Important|'''Alliance reputation and Alioth Independents reputation are not the same thing.''' Bill's current meeting information lists Friendly reputation with the Alliance, while access to Alioth requires the separate permit progression associated with the Alioth Independents.}}
+
+See [[Alioth Permit]] for how to raise the required reputation, obtain the permit, and verify that Alioth is available on your Galaxy Map.
+
+{{Field note|The systems and stations where the Alioth Independents are present can change with the Background Simulation and system development. Use current faction information rather than relying on an old guide that sends every Commander to one fixed system.}}
+
+== How to Unlock Bill Turner ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Selene Jean]].
+* Reach at least '''Friendly''' reputation with the '''Alliance'''.
+* Obtain the [[Alioth Permit]].
+* Obtain '''50 units of [[Bromellite]]'''.
+* Donate the 50 Bromellite to Bill Turner.
+{{Important|'''Bromellite is a commodity.''' It is not a Raw, Manufactured, or Encoded Engineering material. Each unit occupies one tonne of cargo space, so carrying the full unlock requirement at once requires at least '''50 tonnes of cargo capacity'''.}}
+
+For the complete step-by-step process, see [[Unlocking Bill Turner]].
+
+== Obtaining Bromellite ==
+
+Bromellite is a mineral commodity whose normal production source is '''mining'''.<ref name="inara-bromellite" />
+
+Bill requires '''50 units'''.
+
+If you know you intend to unlock Bill while working toward [[Selene Jean]], it can be efficient to collect and retain the Bromellite while completing Selene's '''500-tonne mining requirement'''.
+
+{{Tip|Selene requires you to mine 500 tonnes before meeting her, while Bill later asks for 50 tonnes of Bromellite. Planning for both Engineers at the same time can avoid having to begin a second dedicated mining session after Selene is complete.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also offer Bromellite through their commodity markets when a Commander has placed stock for sale. Carrier availability and prices are player-controlled and can change.
+
+See [[Bromellite]] for current mining methods and [[Mining]] for the complete mining workflow.
+
+{{Field note|Unlike Selene Jean's unlock, which explicitly calls for '''mined Painite''', Bill's current unlock requirement is listed simply as providing '''50 units of Bromellite'''.<ref name="inara-bill" />}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Bill is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-bill" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Bill Turner can be increased by:
+
+* crafting Engineering modifications at Turner Metallics Inc; or
+* selling commodities at Turner Metallics Inc.<ref name="inara-bill" />
+
+Higher Engineer reputation gives access to the higher grades Bill supports for each blueprint.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have ordinary commodities aboard after unlocking Bill, selling appropriate cargo through the commodity market at Turner Metallics Inc can help increase your Engineer reputation without relying entirely on repeated Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Bill Turner belongs to the [[Tod "The Blaster" McQuinn]] branch of the ship Engineer network.
+
+The route to Bill is:
+
+<pre>
+Tod "The Blaster" McQuinn
+└── Selene Jean
+    └── Bill Turner
+</pre>
+
+Selene also refers Commanders to [[Didi Vatermann]]:
+
+<pre>
+Tod "The Blaster" McQuinn
+├── Selene Jean
+│   ├── Bill Turner
+│   └── Didi Vatermann
+└── Petra Olmanova [Colonia]
+</pre>
+
+Bill Turner does '''not''' currently lead to another Engineer in the ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|Bill Turner and [[Didi Vatermann]] are parallel referrals from [[Selene Jean]]. Unlocking one is not required before unlocking the other.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Bill's current Engineering coverage is shown below. The listed grade is the highest grade he can apply to that module.<ref name="inara-bill" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Plasma Accelerator]]
+|
+* Efficient
+* Focused
+* Lightweight
+* Long Range
+* Overcharged
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Sensors]]
+|
+* Lightweight
+* Long Range
+* Wide Angle
+| '''Grade 5'''
+|-
+| [[Detailed Surface Scanner]]
+|
+* Expanded Probe Scanning Radius
+* Long Range Detailed <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Cargo Rack]]
+|
+* Extended <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Auto Field-Maintenance Unit]]
+|
+* Shielded
+| '''Grade 3'''
+|-
+| [[Frame Shift Wake Scanner]]
+|
+* Fast Scan
+* Lightweight
+* Long Range
+* Reinforced
+* Shielded
+* Wide Angle
+| '''Grade 3'''
+|-
+| [[Fuel Scoop]]
+|
+* Scoop Rate Enhanced <small>(Live only)</small>
+* Shielded
+| '''Grade 3'''
+|-
+| [[Kill Warrant Scanner]]
+|
+* Fast Scan
+* Lightweight
+* Long Range
+* Reinforced
+* Shielded
+* Wide Angle
+| '''Grade 3'''
+|-
+| [[Life Support]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 3'''
+|-
+| [[Manifest Scanner]]
+|
+* Fast Scan
+* Lightweight
+* Long Range
+* Reinforced
+* Shielded
+* Wide Angle
+| '''Grade 3'''
+|-
+| [[Refinery]]
+|
+* Shielded
+| '''Grade 3'''
+|}
+
+Bill therefore provides maximum-grade Engineering for Plasma Accelerators, Sensors, Detailed Surface Scanners, and the Live-only Extended Cargo Rack. His other support-module specialties stop at Grade 3.
+
+== Operations-era Engineering ==
+
+Several blueprints now available through Bill Turner were introduced with the Operations-era Engineering additions.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+These blueprints are available only in '''Live''' and are not part of Legacy Engineering.
+
+=== Extended Cargo Rack ===
+
+'''Extended''' increases the capacity of a compatible Cargo Rack.<ref name="inara-cargo-extended">[https://inara.cz/elite/blueprint/206/ Cargo Rack — Extended], Inara.</ref>
+
+Bill can apply Extended Cargo Rack Engineering through '''Grade 5'''.
+
+At Grade 5, the current blueprint provides:
+
+* '''+34.4% Cargo Capacity'''<ref name="inara-cargo-extended" />
+
+{{Important|Extended can only be applied to compatible '''Merc Cargo Racks''' and uses [[Merc Coin]] as part of its Engineering cost.<ref name="inara-cargo-extended" />}}
+
+=== Long Range Detailed Surface Scanner ===
+
+'''Long Range Detailed''' increases Detailed Surface Scanner probe radius in exchange for increased module mass and power draw.<ref name="inara-dss-long">[https://inara.cz/elite/blueprint/205/ Detailed Surface Scanner — Long Range Detailed], Inara.</ref>
+
+Bill can apply Long Range Detailed through '''Grade 5'''.
+
+At Grade 5, the current blueprint provides:
+
+* '''+100% Probe Radius'''<ref name="inara-dss-long" />
+
+{{Important|Long Range Detailed can only be applied to compatible '''Merc Detailed Surface Scanners''' and uses [[Merc Coin]] as part of its Engineering cost.<ref name="inara-dss-long" />}}
+
+=== Scoop Rate Enhanced Fuel Scoop ===
+
+'''Scoop Rate Enhanced''' increases a Fuel Scoop's collection rate at the cost of increased power draw.<ref name="inara-scoop-rate">[https://inara.cz/elite/blueprint/201/ Fuel Scoop — Scoop Rate Enhanced], Inara.</ref>
+
+Bill can apply Scoop Rate Enhanced through '''Grade 3'''.
+
+At Grade 3, the current blueprint provides:
+
+* '''+30% Scoop Rate'''
+* '''+9% Power Draw'''<ref name="inara-scoop-rate" />
+
+Unlike Extended Cargo Rack and Long Range Detailed, the current Scoop Rate Enhanced blueprint is not listed as restricted to Merc-only Fuel Scoops.
+
+For higher grades:
+
+* [[Lori Jameson]] provides Scoop Rate Enhanced through Grade 4.
+* [[Marsha Hicks]] provides Scoop Rate Enhanced through Grade 5.<ref name="inara-scoop-rate" />
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint.
+
+Among Bill's supported module types, the '''Plasma Accelerator''' supports ordinary Experimental Effects.
+
+His Sensors, Detailed Surface Scanners, Cargo Racks, Auto Field-Maintenance Units, Frame Shift Wake Scanners, Fuel Scoops, Kill Warrant Scanners, Life Support modules, Manifest Scanners, and Refineries do not currently have Experimental Effects.
+
+=== Plasma Accelerator ===
+
+Available Plasma Accelerator Experimental Effects include:<ref name="inara-pa">[https://inara.cz/elite/blueprint/88/ Plasma Accelerator — Focused], Inara.</ref>
+
+* [[Dazzle Shell]]
+* [[Dispersal Field]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Phasing Sequence]]
+* [[Plasma Slug]]
+* [[Stripped Down]]
+* [[Target Lock Breaker]]
+* [[Thermal Conduit]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. A Plasma Accelerator must be taken to an Engineer who works on that weapon type to have an Experimental Effect applied.}}
+
+== Recommended Engineering ==
+
+Bill's most distinctive conventional capability is his '''Grade 5 Plasma Accelerator Engineering'''.
+
+=== Plasma Accelerators ===
+
+Plasma Accelerators have high power draw, distributor demand, and thermal load, so the best blueprint depends heavily on the ship and combat style.
+
+{{Tip|'''Common general-purpose choice: Efficient'''
+
+[[Efficient Plasma Accelerator]] is a strong general-purpose option because it reduces distributor draw, power draw, and thermal load while also improving damage.
+
+This makes it particularly useful on ships that carry several Plasma Accelerators or otherwise have limited thermal or distributor headroom.
+
+It is a recommendation rather than a universal rule.}}
+
+Other useful choices include:
+
+* '''Focused''' — useful when increased projectile speed and armour penetration are priorities.
+* '''Long Range''' — useful when greater projectile speed and maintaining effectiveness at distance are priorities.
+* '''Rapid Fire''' — increases firing rate and significantly reduces reload time, but changes heat, jitter, and ammunition behaviour.
+
+Experimental Effects can further change the role of the weapon.
+
+For example:
+
+* [[Plasma Slug]] draws ammunition from the ship's fuel supply;
+* [[Target Lock Breaker]] breaks the target's lock when the effect triggers;
+* [[Dispersal Field]] disrupts enemy gimbal and turret tracking; and
+* [[Thermal Conduit]] increases damage as the firing ship becomes hotter.
+
+See [[Plasma Accelerator Engineering]] for build-specific combinations.
+
+=== Sensors ===
+
+Bill also provides all three Sensor blueprints through Grade 5.
+
+[[Lightweight Sensors]] is particularly useful on exploration and other mass-sensitive ships, while [[Long Range Sensors]] and [[Wide Angle Sensors]] are more appropriate when scanner performance is the priority.
+
+=== Detailed Surface Scanner ===
+
+Bill provides both current Detailed Surface Scanner blueprints through Grade 5.
+
+[[Expanded Probe Scanning Radius]] remains useful for easier and more efficient planetary mapping, while Live Commanders with compatible equipment can also use [[Long Range Detailed]].
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Bill, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Efficient Plasma Accelerator]] is a strong general-purpose blueprint to consider pinning at Bill.
+
+Bill provides Plasma Accelerator Engineering through '''Grade 5''', and Efficient addresses several of the weapon's major costs at once: distributor draw, power draw, and heat.
+
+If your Plasma Accelerator builds more commonly use [[Focused Plasma Accelerator|Focused]] or [[Long Range Plasma Accelerator|Long Range]], either of those can be a better pin instead.}}
+
+Bill also provides Grade 5 Sensors and Detailed Surface Scanner Engineering, so those remain reasonable alternatives if your preferred Plasma Accelerator blueprint is already pinned through another Engineer.
+
+Blueprint pinning should reflect the weapons and ships you actually use; there is no requirement to use the suggested pin.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Plasma Accelerator Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What Bill Cannot Fully Engineer ==
+
+Bill provides maximum-grade Engineering for several specialties, but much of his utility coverage stops at Grade 3.
+
+His maximum grades are:
+
+* '''Plasma Accelerator:''' Grade 5
+* '''Sensors:''' Grade 5
+* '''Detailed Surface Scanner:''' Grade 5
+* '''Cargo Rack — Extended:''' Grade 5 <small>(Live only)</small>
+* '''Auto Field-Maintenance Unit:''' Grade 3
+* '''Frame Shift Wake Scanner:''' Grade 3
+* '''Fuel Scoop:''' Grade 3
+* '''Kill Warrant Scanner:''' Grade 3
+* '''Life Support:''' Grade 3
+* '''Manifest Scanner:''' Grade 3
+* '''Refinery:''' Grade 3<ref name="inara-bill" />
+
+For higher-grade alternatives where they exist:
+
+* [[Lori Jameson]] provides Grade 4 Auto Field-Maintenance Unit, Fuel Scoop, Life Support, and Refinery Engineering.
+* [[Tiana Fortune]] provides Grade 5 Frame Shift Wake Scanner, Kill Warrant Scanner, and Manifest Scanner Engineering.
+* [[Etienne Dorn]] provides Grade 5 Life Support, Frame Shift Wake Scanner, Manifest Scanner, Plasma Accelerator, and Sensors Engineering in Colonia.
+* [[Marsha Hicks]] provides Grade 5 Fuel Scoop and Refinery Engineering in Colonia.<ref name="inara-engineers" />
+
+Bill is therefore primarily valuable for his maximum-grade Plasma Accelerator, Sensors, and Detailed Surface Scanner Engineering rather than as a maximum-grade source for every utility module he supports.
+
+== What Next? ==
+
+Bill Turner is the end of his Engineer referral branch and does not currently introduce another Engineer.
+
+After unlocking him, your next target depends on which modules remain unfinished.
+
+{{What next|title=Continue Engineering|
+* '''Parallel referral from Selene Jean:''' [[Didi Vatermann]]
+* '''Higher-grade utility scanners:''' [[Tiana Fortune]]
+* '''Higher-grade Fuel Scoop and support Engineering:''' [[Lori Jameson]]
+* '''Colonia Plasma Accelerator and utility Engineering:''' [[Etienne Dorn]]
+* '''Previous Engineer:''' [[Selene Jean]]
+* '''Gain system access:''' [[Alioth Permit]]
+* '''Get the unlock commodity:''' [[Bromellite]]
+* '''Engineer Plasma Accelerators:''' [[Plasma Accelerator Engineering]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Weapon Engineering]]
+[[Category:Core Internal Engineering]]
+[[Category:Optional Internal Engineering]]
+[[Category:Utility Engineering]]
+[[Category:Engineering]]

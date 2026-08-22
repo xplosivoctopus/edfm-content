@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Guardian
+Namespace: 0
+Page ID: 188
+Revision ID: 921
+Timestamp: 2026-08-18T13:17:38Z
+Source URL: https://edfieldmanual.com/wiki/Guardian
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+
+Index for Guardian ruins, technology, and related content — see [[:Category:Guardian]].
+
+{{Draft warning}}
+No individual Guardian articles exist yet.
+
+{{Related articles|[[Thargoid]] [[Lore and History]] [[Engineering]]}}
+[[Category:Guardian]]

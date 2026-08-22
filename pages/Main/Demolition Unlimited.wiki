@@ -1,0 +1,52 @@
+<!--
+EDFM current-content archive export.
+Title: Demolition Unlimited
+Namespace: 0
+Page ID: 348
+Revision ID: 985
+Timestamp: 2026-08-20T01:37:35Z
+Source URL: https://edfieldmanual.com/wiki/Demolition_Unlimited
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=Liz Ryder's Engineering workshop, a surface base on Makalu in the Eurybia system.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced station record
+}}
+
+'''Demolition Unlimited''' is a surface Engineer base in the '''[[Eurybia]]''' system, and the workshop of '''[[Liz Ryder]]'''.<ref name="inara-demolition">[https://inara.cz/elite/station/52147/ Demolition Unlimited in Eurybia — Station], Inara.</ref>
+
+== Location ==
+
+* '''System:''' [[Eurybia]]
+* '''Body:''' Makalu
+* '''Landing pad:''' Large
+* '''Permit required:''' No<ref name="inara-demolition" />
+
+== Engineer ==
+
+Demolition Unlimited is operated by '''[[Liz Ryder]]'''. See [[Liz Ryder]] for the full discovery, invitation, and unlock requirements to access her workshop.
+
+== Station Services ==
+
+Demolition Unlimited offers a commodity market, outfitting, rearmament, refuelling, repairs, and shipyard services, in addition to Liz's Engineering workshop.<ref name="inara-demolition" />
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Liz Ryder]] [[Eurybia]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

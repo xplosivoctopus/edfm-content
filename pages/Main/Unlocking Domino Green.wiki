@@ -1,0 +1,66 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Domino Green
+Namespace: 0
+Page ID: 646
+Revision ID: 1503
+Timestamp: 2026-08-21T14:40:51Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Domino_Green
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Domino Green — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Domino Green]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Domino Green]].
+
+== Objective ==
+Gain access to [[Domino Green]]'s Engineer services in Orishis.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Domino Green is '''common knowledge''' and does not require a referral from another Engineer.
+* '''Invitation:''' There is no separate invitation requirement for Domino Green.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Push'''
+Push is a physical Odyssey '''Good''' described as a recreational drug.
+
+Current material data lists Push at:
+
+* '''Irregular Markers''' points of interest; and
+* '''surface crash sites'''.
+
+Because Push is a physical Good rather than Data, the five doses must be carried and handed directly to Domino.
+
+Push is not currently used in ordinary suit or weapon modification recipes; its Engineering-progression use is Domino's referral to Kit Fowler.
+
+{{Tip|If you intend to continue this branch, reserve the first '''5 Push''' you obtain rather than selling or discarding them.}}
+
+Bartender trade offers may also provide a way to obtain Push when appropriate offers are available, but bartender inventories and trade opportunities can vary.
+
+Once the five doses have been provided, [[Kit Fowler]] becomes known.
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Visit a station or settlement with an Apex Interstellar counter.
+# Book an Apex shuttle to another system.
+# Continue using Apex until your cumulative shuttle travel reaches at least '''100 light-years'''.
+# Travel to '''The Jackrabbit''' on '''Orishis 4'''.
+# Access Domino Green's Engineer workshop.
+}}
+
+== Expected Result ==
+{{Expected result|[[Domino Green]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Domino Green]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] Apex Interstellar Orishis The Jackrabbit}}
+
+== Sources ==
+This procedure was extracted from the current [[Domino Green]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey Engineers]]

@@ -1,0 +1,57 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Selene Jean
+Namespace: 828
+Page ID: 413
+Revision ID: 1167
+Timestamp: 2026-08-20T22:09:04Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Selene_Jean
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Selene Jean",
+	"engineer_scope": "ship",
+	"image": "Selenejean.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Kuk",
+	"body": "Kuk B 3",
+	"facility": "Prospector's Rest",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Armour",
+		"Hull Reinforcement Package",
+		"Module Reinforcement Package"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Tod \"The Blaster\" McQuinn",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Tod \"The Blaster\" McQuinn",
+	"invitation_requirement": "Mine and refine at least 500 tonnes of ore",
+	"meeting_requirement": "Mine and refine at least 500 tonnes of ore.",
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 10,
+		"item": "Painite"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Armour",
+				"Hull Reinforcement Package"
+			]
+		},
+		{
+			"grade": 5,
+			"live_only": true,
+			"merc": true,
+			"modules": [
+				"Module Reinforcement Package"
+			]
+		}
+	],
+	"colonia": false
+}

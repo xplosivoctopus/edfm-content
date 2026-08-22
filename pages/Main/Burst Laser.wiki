@@ -1,0 +1,43 @@
+<!--
+EDFM current-content archive export.
+Title: Burst Laser
+Namespace: 0
+Page ID: 376
+Revision ID: 1013
+Timestamp: 2026-08-20T01:38:42Z
+Source URL: https://edfieldmanual.com/wiki/Burst_Laser
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Weapon
+ |deck=A burst-fire energy weapon balancing heat, power draw, and damage between the Pulse Laser and Beam Laser.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+'''Burst Lasers''' fire a short burst of several shots per trigger pull, sitting between the single-shot [[Pulse Laser]] and the continuous [[Beam Laser]] in both heat generation and sustained damage output.
+
+== Overview ==
+
+Because each trigger pull fires multiple rounds, Burst Lasers can land more total damage per pull than a Pulse Laser without the constant capacitor and thermal load of a Beam Laser, making them a common middle-ground choice for Commanders balancing sustained damage against heat management. As a thermal weapon, ammunition is unlimited and governed by the ship's Power Distributor rather than a physical magazine.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Broo Tarquin]] || Grade 5
+|-
+| [[The Dweller]] || Grade 3
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

@@ -1,0 +1,34 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Updating Game Statistics
+Namespace: 4
+Page ID: 213
+Revision ID: 310
+Timestamp: 2026-08-07T22:18:25Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Updating_Game_Statistics
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How to update an article after a game change, and how to record what changed.
+
+== Update the fact, then the metadata ==
+Change the actual figure/behaviour in the article body first. Then update {{tl|Article status}}'s <code>version</code> and <code>reviewed</code> fields to reflect when and against what version you checked — never leave stale defaults after making a substantive change, even a small one.
+
+== When Live and Legacy diverge ==
+If a change only applies to Live and Legacy keeps the old behaviour, don't just overwrite the old figure — state both explicitly in the prose ("On Live, X; Legacy retains Y") and fill in the <code>legacy_differences</code> field on {{tl|Article status}}. See [[Elite Dangerous Field Manual:Content Style Guide]] for how to phrase this.
+
+== Recording the change: Patch history ==
+For anything more than a one-line note, add a row to that article's {{tl|Patch history}} table (create the section near the bottom, in the same position as {{tl|Engineering nav}}, if the article doesn't have one yet):
+<pre>
+{{Patch history|
+! Update !! Date !! Change
+|-
+| [[Trailblazers]] (Update 3) || 2025-04-30 || Colonisation economy reworked.
+}}
+</pre>
+Link the Update name to its own Game Update article where one exists ({{tl|Game update infobox}}) — that link is what lets <code>Special:WhatLinksHere</code> on the Update's own page answer "which articles did this update affect," with no separate per-update category needed. If the article's own <code>version</code> field also names that update, link it the same way — see [[Trailblazers]] and [[Colonisation]] for a worked example of both sides of this connection.
+
+== Use <code>recent_changes</code> for a one-line pointer ==
+If a change is genuinely minor and doesn't need a full Patch history entry, the optional <code>recent_changes</code> field on {{tl|Article status}} is enough — a short sentence, not a table.
+
+{{Related articles|[[Elite Dangerous Field Manual:Verification Policy]] [[Trailblazers]] [[Colonisation]]}}

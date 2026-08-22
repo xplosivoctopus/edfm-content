@@ -1,0 +1,63 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Hera Tani
+Namespace: 828
+Page ID: 171
+Revision ID: 1156
+Timestamp: 2026-08-20T22:08:58Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Hera_Tani
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Hera Tani",
+	"engineer_scope": "ship",
+	"image": null,
+	"engineer_type": "Ship (power systems / sensors)",
+	"system": "Kuwemaki",
+	"body": "Kuwemaki A 3 a",
+	"facility": "The Jet's Hole",
+	"region": null,
+	"allegiance": "Empire",
+	"specialties": [
+		"Power Plant",
+		"Power Distributor",
+		"Sensors",
+		"Detailed Surface Scanner"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Liz Ryder",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Liz Ryder",
+	"invitation_requirement": "Imperial Navy rank Outsider or higher",
+	"meeting_requirement": "Reach Imperial Navy rank Outsider or higher.",
+	"meeting_links": [
+		{
+			"text": "Imperial Navy rank",
+			"target": "Imperial Navy Rank"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 50,
+		"item": "Kamitra Cigars"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Power Plant",
+				"Detailed Surface Scanner"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Power Distributor",
+				"Sensors"
+			]
+		}
+	],
+	"colonia": false
+}

@@ -1,0 +1,44 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking The Dweller
+Namespace: 0
+Page ID: 624
+Revision ID: 1523
+Timestamp: 2026-08-21T14:41:13Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_The_Dweller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to The Dweller — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[The Dweller]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[The Dweller]].
+
+== Objective ==
+Gain access to [[The Dweller]]'s Engineer services at [[Black Hide]] in [[Wyrd]].
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' The Dweller's whereabouts are '''public knowledge'''.
+* '''Invitation:''' Sell commodities at '''at least 5 unique Black Markets'''.
+* Sell commodities at '''5 unique Black Markets'''.
+}}
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Sell commodities at '''5 unique Black Markets'''.
+# Travel to '''Black Hide''' in [[Wyrd]].
+# Pay The Dweller '''500,000 CR'''.
+# Enter the Engineer workshop and begin increasing your reputation with The Dweller.
+}}
+
+== Expected Result ==
+{{Expected result|[[The Dweller]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[The Dweller]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] Black Markets [[Wyrd]] Engineer Reputation [[Black Hide]]}}
+
+== Sources ==
+This procedure was extracted from the current [[The Dweller]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Detailed Surface Scanner
+Namespace: 828
+Page ID: 470
+Revision ID: 1257
+Timestamp: 2026-08-20T23:59:12Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Detailed_Surface_Scanner
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Detailed Surface Scanner",
+}

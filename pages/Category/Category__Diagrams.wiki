@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Diagrams
+Namespace: 14
+Page ID: 267
+Revision ID: 413
+Timestamp: 2026-08-08T15:50:50Z
+Source URL: https://edfieldmanual.com/wiki/Category:Diagrams
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Diagrams and infographics, whether EDFM-created or sourced under a compatible license — see [[Elite Dangerous Field Manual:Image Use Policy]].
+
+[[Category:Media]]

@@ -1,0 +1,21 @@
+<!--
+EDFM current-content archive export.
+Title: File:Stationinterface.webp
+Namespace: 6
+Page ID: 328
+Revision ID: 707
+Timestamp: 2026-08-12T21:28:41Z
+Source URL: https://edfieldmanual.com/wiki/File:Stationinterface.webp
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |copyright_holder = Frontier Developments plc
+}}
+
+== Licensing ==
+{{License-ED screenshot}}

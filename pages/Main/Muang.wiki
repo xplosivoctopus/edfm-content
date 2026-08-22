@@ -1,0 +1,51 @@
+<!--
+EDFM current-content archive export.
+Title: Muang
+Namespace: 0
+Page ID: 351
+Revision ID: 988
+Timestamp: 2026-08-20T01:37:37Z
+Source URL: https://edfieldmanual.com/wiki/Muang
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=A Cooperative-controlled Core Systems world hosting Broo Tarquin's workshop, Broo's Legacy.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced star system and station records
+}}
+
+'''Muang''' is an independent system in the Core Systems, reached by Commanders pursuing '''[[Broo Tarquin]]''''s laser-weapon Engineering after a referral from [[Hera Tani]]. It hosts '''[[Broo's Legacy]]''', Broo's workshop.<ref name="inara-muang">[https://inara.cz/elite/starsystem/16530/ Muang — Star System], Inara.</ref>
+
+== Overview ==
+
+* '''Star:''' Class K (scoopable)
+* '''Allegiance:''' Independent
+* '''Government:''' Cooperative
+* '''Security:''' High
+* '''Economy:''' Extraction / Industrial<ref name="inara-muang" />
+
+== Engineer Facility ==
+
+'''[[Broo's Legacy]]''' is a surface Engineer base on Muang 5 a, operated by '''[[Broo Tarquin]]'''.<ref name="inara-broos-legacy">[https://inara.cz/elite/station/52402/ Broo's Legacy in Muang — Station], Inara.</ref>
+
+No system permit is required to enter Muang. See [[Broo Tarquin]] for the full discovery, invitation, and unlock requirements for his workshop.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Broo Tarquin]] [[Broo's Legacy]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

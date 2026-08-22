@@ -1,0 +1,74 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Selene Jean
+Namespace: 0
+Page ID: 631
+Revision ID: 1521
+Timestamp: 2026-08-21T14:41:11Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Selene_Jean
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Selene Jean — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Selene Jean]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Selene Jean]].
+
+== Objective ==
+Gain access to [[Selene Jean]]'s Engineer services at Prospector's Rest in Kuk.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Selene Jean is discovered through [[Tod "The Blaster" McQuinn]].
+* '''Invitation:''' Mine and refine at least '''500 tonnes of ore'''.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Tod "The Blaster" McQuinn]].
+* Obtain '''10 units of Painite'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Painite'''
+Painite is produced through '''mining'''.
+
+For Selene's unlock, the simplest approach is to collect at least '''10 tonnes''' while working on the 500-tonne mining requirement.
+
+Painite can be laser-mined from suitable asteroids in '''metallic rings'''. A [[Detailed Surface Scanner]] can be used to locate Painite hotspots within planetary rings, and an A-rated [[Prospector Limpet Controller]] improves fragment yield while also showing the contents of the asteroid.
+
+A basic laser-mining setup normally includes:
+
+* one or more [[Mining Laser|Mining Lasers]];
+* a [[Refinery]];
+* a [[Prospector Limpet Controller]];
+* a [[Collector Limpet Controller]];
+* limpets; and
+* enough cargo space for the commodities you intend to keep.
+
+See Painite for current mining methods and [[Mining]] for the full mining workflow.
+
+{{Tip|Once you have mined the 10 Painite required for Selene, keep it in your cargo hold while finishing the remainder of the 500-tonne requirement. Other mined commodities can be sold or discarded as needed.}}
+
+{{Field note|Current Engineer data specifically lists Selene's unlock requirement as '''10 units of mined Painite'''. Mining the required Painite yourself while completing the 500-tonne requirement avoids relying on alternative acquisition methods whose behavior may differ between game versions.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Selene is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Tod "The Blaster" McQuinn]].
+# Receive Tod's referral to Selene Jean.
+# Mine and refine at least '''500 tonnes of ore'''.
+# Obtain '''10 units of Painite'''.
+# Travel to '''Prospector's Rest''' in Kuk.
+# Donate the 10 Painite to Selene Jean.
+# Enter the Engineer workshop and begin increasing your reputation with Selene.
+}}
+
+== Expected Result ==
+{{Expected result|[[Selene Jean]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Selene Jean]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Tod "The Blaster" McQuinn]] [[Mining]] Painite Kuk Engineer Reputation [[Detailed Surface Scanner]]}}
+
+== Sources ==
+This procedure was extracted from the current [[Selene Jean]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

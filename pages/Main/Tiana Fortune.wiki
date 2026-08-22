@@ -1,0 +1,76 @@
+<!--
+EDFM current-content archive export.
+Title: Tiana Fortune
+Namespace: 0
+Page ID: 118
+Revision ID: 1460
+Timestamp: 2026-08-21T14:38:54Z
+Source URL: https://edfieldmanual.com/wiki/Tiana_Fortune
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Engineer|deck=Scanner and limpet controller specialist based in the Achenar system, reachable through Hera Tani.}}
+{{Article status|status=Needs review|mode=Both|version=Live and Legacy; exact patch scope not yet directly verified|reviewed=2026-08-07|reviewer=Desk research; pending direct in-game verification — see Sources|source_quality=Location and specialty cross-referenced against Inara's Engineers listing; prerequisite/discovery/invitation/unlock detail drawn primarily from a single community unlock-chain guide — see Sources|uncertainty=Maximum engineering grade and full blueprint names were not found in the sources checked.}}
+
+{{Engineer infobox}}
+
+Tiana Fortune specialises in scanners, limpet controllers modifications. They're reached through [[Hera Tani]].<ref name="inara-list" />
+
+== Location ==
+* '''System:''' Achenar
+* '''Facility:''' Fortune's Loss
+
+== How to Discover This Engineer ==
+Referral from Hera Tani.<ref name="wanderer-chain">[https://wanderer-toolbox.com/guides/engineering-unlock/ Engineering Unlock Guide], Wanderer's Toolbox.</ref><ref name="inara-list">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+== How to Receive an Invitation ==
+Not yet confirmed.<ref name="wanderer-chain" />
+
+== How to Unlock This Engineer ==
+Unlock requirements summary:
+* Have [[Hera Tani]] unlocked and build reputation with them to trigger the referral.
+* Meet the invitation requirement: not yet confirmed.
+* Deliver '''50 units of Decoded Emission Data''' — a data-type material rather than a cargo commodity.
+
+For the complete step-by-step process, see [[Unlocking Tiana Fortune]].
+
+== Engineer Unlock Chain ==
+''No verified multi-Engineer chain to display for this Engineer.''
+
+Tiana Fortune is listed as reachable through [[Hera Tani]] alongside [[Broo Tarquin]], but that specific relationship still needs direct verification — see the note on [[Hera Tani]]'s own page.<ref name="wanderer-chain" />
+
+== Available Engineering ==
+{| class="wikitable"
+! Module !! Notes !! Maximum grade
+|-
+| Scanners || Range and other variants || To be confirmed
+|-
+| Limpet Controller || Range and other variants || To be confirmed
+|}
+Full blueprint names and maximum grades were not confirmed to the same depth as the core chain pages for this pass — see [[Elite Dangerous Field Manual:Engineering Architecture]] for the site's policy on not inventing unconfirmed specifics.<ref name="wanderer-chain" />
+
+== Experimental Effects ==
+To be added — not confirmed in the sources checked for this pass.
+
+== Increasing Engineer Reputation ==
+Reputation increases through crafting modifications at their workshop, in line with the general mechanic covered on the main [[Engineering]] page.
+
+== Blueprint Pinning ==
+'''Fact:''' Tiana Fortune's confirmed specialties are Scanners, Limpet Controllers, per [[#Available Engineering|Available Engineering]] above.
+
+'''EDFM recommendation:''' Not yet made. A pinning recommendation needs the maximum-grade and full blueprint data above filled in first — see [[Elite Dangerous Field Manual:Engineering Architecture]] for why EDFM treats pinning guidance as editorial judgement, not a database fact.
+
+== Related Engineers ==
+{{Related articles|label=Related Engineers|[[Hera Tani]]}}
+
+== Related Guides ==
+{{Related articles|[[Engineering]] [[Engineer Unlock Guide]]}}
+
+== Sources ==
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Utility Engineering]]
+[[Category:Engineering]]

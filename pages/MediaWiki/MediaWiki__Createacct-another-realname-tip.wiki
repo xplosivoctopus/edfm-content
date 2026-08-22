@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Createacct-another-realname-tip
+Namespace: 8
+Page ID: 314
+Revision ID: 677
+Timestamp: 2026-08-11T21:56:50Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Createacct-another-realname-tip
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+CMDR name is optional. If provided, it can be used for attribution on Elite Dangerous Field Manual edits.

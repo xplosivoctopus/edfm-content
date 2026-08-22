@@ -1,0 +1,25 @@
+<!--
+EDFM current-content archive export.
+Title: Template:What next
+Namespace: 10
+Page ID: 326
+Revision ID: 701
+Timestamp: 2026-08-12T16:01:15Z
+Source URL: https://edfieldmanual.com/wiki/Template:What_next
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-what-next" role="navigation" aria-label="What next">
+<div class="edfm-what-next-title">{{{title|What next?}}}</div>
+<div class="edfm-what-next-body">
+{{{1|}}}
+</div>
+</div><noinclude>
+== Usage ==
+Progressive navigation from reference into guidance, or from a guide into deeper articles.
+<pre>{{What next|
+* New to mining? Continue to [[Laser Mining]].
+* Need the module details? Read [[Prospector Limpet Controller]].
+}}</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>

@@ -1,0 +1,23 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Common mistakes
+Namespace: 10
+Page ID: 30
+Revision ID: 103
+Timestamp: 2026-08-07T16:32:59Z
+Source URL: https://edfieldmanual.com/wiki/Template:Common_mistakes
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-warning">'''Common mistakes'''
+{{{1}}}
+</div><noinclude>
+== Usage ==
+<pre>
+{{Common mistakes|
+* Mistake one
+* Mistake two
+}}
+</pre>
+[[Category:Templates]]
+</noinclude>

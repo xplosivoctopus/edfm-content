@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Lore and History
+Namespace: 0
+Page ID: 62
+Revision ID: 922
+Timestamp: 2026-08-18T13:17:39Z
+Source URL: https://edfieldmanual.com/wiki/Lore_and_History
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Historical|noindex=yes}}
+
+Index for in-universe lore and background content — see [[:Category:Lore]] and [[:Category:Galactic Archive]].
+
+{{Draft warning}}
+No individual lore articles exist yet.
+
+{{Related articles|[[Elite Dangerous Field Manual:About the Field Manual]]}}

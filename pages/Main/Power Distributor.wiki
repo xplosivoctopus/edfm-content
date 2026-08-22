@@ -1,0 +1,44 @@
+<!--
+EDFM current-content archive export.
+Title: Power Distributor
+Namespace: 0
+Page ID: 363
+Revision ID: 1000
+Timestamp: 2026-08-20T01:37:46Z
+Source URL: https://edfieldmanual.com/wiki/Power_Distributor
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The core internal module that allocates power between the SYS, ENG, and WEP capacitors.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+The '''Power Distributor''' is a core internal module fitted to every ship. It draws from the [[Power Plant]] and divides that power between three capacitors — '''SYS''' (shields), '''ENG''' (engines/boost), and '''WEP''' (weapons) — each of which the Commander can manage in real time during flight.
+
+== Overview ==
+
+Power Distributor capacity and recharge rate determine how often a Commander can boost, how quickly shields recover after dropping, and how long weapons can be fired before their capacitor runs dry. Because it affects three different subsystems at once, Power Distributor Engineering choices are usually made around a specific build's priorities rather than one universal "best" configuration.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Hera Tani]] || Grade 3
+|-
+| [[The Dweller]] || Grade 5
+|}
+
+[[The Dweller]], based at [[Black Hide]] in [[Wyrd]], is EDFM's currently documented Grade 5 Power Distributor Engineer.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

@@ -1,0 +1,62 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Liz Ryder
+Namespace: 0
+Page ID: 626
+Revision ID: 1512
+Timestamp: 2026-08-21T14:41:01Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Liz_Ryder
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Liz Ryder — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Liz Ryder]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Liz Ryder]].
+
+== Objective ==
+Gain access to [[Liz Ryder]]'s Engineer services at [[Demolition Unlimited]] in [[Eurybia]].
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Liz Ryder is known through '''public sources''' and does not require a referral from another Engineer.
+* '''Invitation:''' Reach at least '''Cordial reputation''' with the Eurybia Blue Mafia.
+* Obtain '''200 units of [[Landmines]]'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Landmines'''
+[[Landmines]] are a Weapons commodity that can be purchased through commodity markets.
+
+Current commodity data lists them as normally produced by '''Military surface economies'''.
+
+You do '''not''' need to manufacture, salvage, or destroy anything to obtain Liz's unlock cargo.
+
+{{Tip|Use current commodity-market information to locate a nearby source with enough supply rather than relying on an old fixed station. Liz requires 200 units, so check both the available supply and your ship's cargo capacity before departing.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also offer Landmines when another Commander has placed them on the carrier market. Carrier inventory and prices are player-controlled and can change.
+
+{{Field note|Landmines are prohibited in some jurisdictions. Check the legal status of your cargo where relevant when transporting them.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Liz is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach at least '''Cordial reputation''' with the Eurybia Blue Mafia.
+# Obtain '''200 units of [[Landmines]]'''.
+# Travel to '''Demolition Unlimited''' on '''Makalu''' in [[Eurybia]].
+# Donate the 200 Landmines to Liz Ryder.
+# Enter the Engineer workshop and begin increasing your reputation with Liz.
+}}
+
+== Expected Result ==
+{{Expected result|[[Liz Ryder]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Liz Ryder]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] Eurybia Blue Mafia Minor Faction Reputation [[Landmines]] [[Eurybia]] Engineer Reputation [[Demolition Unlimited]]}}
+
+== Sources ==
+This procedure was extracted from the current [[Liz Ryder]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

@@ -1,0 +1,35 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Content Style Guide
+Namespace: 4
+Page ID: 207
+Revision ID: 302
+Timestamp: 2026-08-07T22:15:52Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Content_Style_Guide
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Voice, terminology, and phrasing conventions for EDFM articles. See [[Elite Dangerous Field Manual:Editorial Policy]] for the higher-level content principles this builds on — this page is about how to write a sentence, not what an article should contain.
+
+== Voice ==
+Write like a field manual, not an encyclopedia entry about an encyclopedia entry. Prefer direct, active instructions over passive, hedged description.
+* '''Prefer:''' "To unlock Broo Tarquin, first reach Combat rank Competent."
+* '''Avoid:''' "Broo Tarquin can be unlocked through the fulfillment of certain reputation-based prerequisites."
+
+Reference articles can be a little more descriptive than guides, but should still favour plain statements over throat-clearing ("This module is used for..." rather than "It should be noted that this module serves the purpose of...").
+
+== "Commander" ==
+Address the reader as '''Commander''' where it reads naturally — a guide's Objective or Expected result line is a good spot ("You'll need Combat rank Competent"; "Commander" works too if it fits the sentence). Don't force it into every paragraph; one natural use per section is plenty. Never use it inside a reference article's factual statements (infobox rows, blueprint tables) — it belongs in prose, not data.
+
+== Terminology ==
+* Use full names on first mention in an article (Frame Shift Drive, not FSD) and the common abbreviation afterward if the article is long enough to benefit — both should exist as searchable terms; see [[Elite Dangerous Field Manual:Redirect and Disambiguation Policy]] for how abbreviations become redirects.
+* Use "Colonisation" (British spelling), matching Frontier's own in-game spelling — "Colonization" redirects here for readers who type the American spelling, per the redirect policy.
+* Use exact in-game rank/status names as capitalised proper nouns (Combat rank '''Competent''', Exploration rank '''Scout'''), not paraphrased equivalents.
+
+== Live, Legacy, and Historical phrasing ==
+Don't let these blur together in a sentence:
+* '''Live-only fact:''' state it plainly, no qualifier needed if the article's {{tl|Article status}} mode is already <code>Live</code>.
+* '''Differs between Live and Legacy:''' say so explicitly in the sentence itself ("On Live, X; on Legacy, Y remains true"), and use the <code>legacy_differences</code> field on {{tl|Article status}} to summarise it in the metadata too.
+* '''Legacy-exclusive or Historical:''' lead with that fact ("This mechanic is no longer present on Live — ..."), not as an afterthought at the end of the paragraph, and use {{tl|Legacy warning}} or {{tl|Historical warning}} so a skimming reader can't miss it.
+
+{{Related articles|[[Elite Dangerous Field Manual:Editorial Policy]] [[Elite Dangerous Field Manual:Verification Policy]] [[Elite Dangerous Field Manual:Source Quality Guide]]}}

@@ -1,0 +1,36 @@
+<!--
+EDFM current-content archive export.
+Title: Supercruise Assist
+Namespace: 0
+Page ID: 610
+Revision ID: 1397
+Timestamp: 2026-08-21T00:00:55Z
+Source URL: https://edfieldmanual.com/wiki/Supercruise_Assist
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Ship Module
+ |deck=Structured stub page for the Supercruise Assist ship module.
+}}
+
+{{Ship module infobox
+ |name = Supercruise Assist
+ |image =
+ |module_class =
+ |slot_type =
+ |mount =
+ |manufacturer =
+ |availability =
+ |engineering =
+ |related_modules =
+}}
+
+{{Draft warning}}
+
+== Overview ==
+
+This ship module page is a structured stub. Source-backed module details have not been filled yet.
+
+[[Category:Modules]]
+[[Category:Ship modules]]

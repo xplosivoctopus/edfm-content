@@ -1,0 +1,488 @@
+<!--
+EDFM current-content archive export.
+Title: Terra Velasquez
+Namespace: 0
+Page ID: 135
+Revision ID: 1478
+Timestamp: 2026-08-21T14:39:07Z
+Source URL: https://edfieldmanual.com/wiki/Terra_Velasquez
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Odyssey Engineer
+ |deck=A mobility, combat-handling, and stealth specialist based at Rascal's Choice in Shou Xing, reached through Jude Navarro and leading to Oden Geiger.
+}}
+
+{{Engineer infobox}}
+
+'''Terra Velasquez''' is an Odyssey Engineer based at '''Rascal's Choice''' in the [[Shou Xing]] system. She is discovered through [[Jude Navarro]] and specialises in mobility, weapon handling, suit endurance, and stealth-oriented weapon Engineering.<ref name="inara-terra">[https://inara.cz/elite/engineer/31/ Terra Velasquez — Engineer], Inara.</ref>
+
+Terra provides [[Combat Movement Speed]], [[Improved Hip Fire Accuracy]], [[Increased Air Reserves]], [[Increased Sprint Duration]], and [[Noise Suppressor]].<ref name="inara-terra" />
+
+{{Field note|Odyssey Engineering does '''not''' use the Grade 1–5 Engineer-reputation progression used by ship Engineers. Suits and weapons have equipment grades and modification slots; Terra installs individual modifications into those slots.}}
+
+== Location ==
+
+* '''System:''' [[Shou Xing]]
+* '''Settlement:''' [[Rascal's Choice]]
+* '''Body:''' Shou Xing 1
+* '''Engineer type:''' Odyssey Engineer
+* '''Prerequisite Engineer:''' [[Jude Navarro]]
+* '''System permit required:''' No
+
+Rascal's Choice is a surface Engineer base on '''Shou Xing 1''', approximately 410 Ls from the system arrival point.<ref name="inara-rascals-choice">[https://inara.cz/elite/station/315179/ Rascal's Choice — Station], Inara.</ref>
+
+The base includes a concourse, Pioneer Supplies, a bartender, Frontline Solutions, and Terra's Engineer workshop.<ref name="inara-rascals-choice" />
+
+== How to Discover Terra Velasquez ==
+
+Terra Velasquez is discovered through [[Jude Navarro]].<ref name="inara-terra" />
+
+After unlocking Jude, provide him with '''5 [[Genetic Repair Meds]]''' to receive Terra's referral.<ref name="inara-jude">[https://inara.cz/elite/engineer/26/ Jude Navarro — Engineer], Inara.</ref>
+
+{{Important|Do not confuse Jude's own unlock with Terra's referral:
+
+* '''Unlock Jude Navarro:''' complete 10 Restore or Reactivation missions.
+* '''Discover Terra Velasquez:''' provide Jude with '''5 Genetic Repair Meds'''.}}
+
+[[Genetic Repair Meds]] are physical Odyssey Goods found at settlements. See [[Jude Navarro]] and [[Genetic Repair Meds]] for the complete preceding step.
+
+== How to Receive an Invitation ==
+
+There is no separate invitation requirement after receiving Terra's referral from [[Jude Navarro]].
+
+Once Terra has been discovered, complete her covert-mission requirement to unlock her workshop.<ref name="inara-terra" />
+
+== How to Unlock Terra Velasquez ==
+
+Unlock requirements summary:
+* Unlock [[Jude Navarro]].
+* Provide Jude with '''5 [[Genetic Repair Meds]]''' to discover Terra Velasquez.
+{{Important|Ordinary Theft, Heist, Larceny, or other settlement missions do '''not''' automatically satisfy Terra's requirement. The mission must be a qualifying '''Covert Theft''' or '''Covert Heist''' mission.}}
+
+For the complete step-by-step process, see [[Unlocking Terra Velasquez]].
+
+== Covert Theft and Covert Heist Missions ==
+
+Both qualifying mission types involve stealing a specified target from a settlement while avoiding the conditions that would fail the covert objective.
+
+=== Covert Theft ===
+
+A Covert Theft mission generally requires stealing an item from settlement storage.
+
+The mission's covert condition means the settlement alarm must not be successfully raised during the operation.
+
+=== Covert Heist ===
+
+A Covert Heist generally requires stealing material from a secured sample containment unit.
+
+Sample containment units require time to open and can trigger settlement alarms, making the settlement's alarm system particularly important during these missions.
+
+{{Tip|Locating and disabling the '''Settlement Alarm System''' before performing the actual theft can greatly reduce the risk of failing a covert mission once illegal activity begins.}}
+
+See [[Covert Missions]], [[Settlement Infiltration]], and [[Settlement Alarm System]] for the full stealth workflow.
+
+== Historical Tracking Bug ==
+
+Terra's unlock requirement has a history of tracking problems.
+
+Frontier's Update 13 notes specifically state that an issue was fixed where '''Covert Theft missions failed to count toward Terra Velasquez's prerequisite'''.<ref name="frontier-update13">[https://www.elitedangerous.com/en-US/news/elite-dangerous-update-13-notes Elite Dangerous — Update 13 Notes], Frontier Developments.</ref>
+
+The corrected intended requirement is six total qualifying Covert Theft and/or Covert Heist missions.<ref name="frontier-terra-issue" />
+
+=== Current 2026 reports ===
+
+There are also current Frontier Issue Tracker reports from 2026 describing Commanders who completed six or more qualifying missions without receiving Terra's unlock.<ref name="frontier-terra-2026a">[https://issues.frontierstore.net/issue-detail/83341 Terra Velasquez still not unlocking after completing more than 6 covert thefts], Frontier Issue Tracker.</ref><ref name="frontier-terra-2026b">[https://issues.frontierstore.net/issue-detail/87186 Trouble Unlocking Terra Velasquez], Frontier Issue Tracker.</ref>
+
+{{Important|These reports do '''not''' establish a new unlock requirement. Current Engineer data still lists '''6 Covert Theft and Covert Heist missions'''.<ref name="inara-terra" />
+
+If six qualifying missions do not trigger Terra's unlock:
+
+# Confirm that [[Jude Navarro]] has already referred Terra.
+# Confirm that the completed missions were explicitly qualifying '''Covert Theft''' or '''Covert Heist''' missions.
+# Log out and back in to force Engineer-status data to refresh.
+# If Terra still does not unlock, check the current Frontier Issue Tracker before grinding additional missions under the assumption that the requirement has changed.}}
+
+EDFM does not recommend treating twelve missions, six of each type, or another larger number as the normal requirement unless Frontier changes the documented unlock condition.
+
+{{Field note|Current Engineer data also notes that station services may not become available immediately after the Engineer itself is unlocked. If Terra is unlocked but expected services at Rascal's Choice are missing, relogging may make them available.<ref name="inara-terra" />}}
+
+== Odyssey Engineering at Terra Velasquez ==
+
+Odyssey Engineering works differently from ship Engineering.
+
+Suits and handheld weapons have an '''equipment grade'''. Higher grades provide additional modification slots.
+
+Terra installs individual modifications into those available slots.
+
+Her modifications do '''not''' progress through Grade 1–5 Engineer reputation.
+
+{{Important|A Grade 5 suit does not receive a "Grade 5 Combat Movement Speed" modification. Grade 5 refers to the suit itself and provides four modification slots; Combat Movement Speed occupies one of those slots as a single permanent modification.}}
+
+See [[Odyssey Engineering]] for equipment upgrading, modification slots, Engineering materials, and Pioneer Supplies.
+
+== Available Engineering ==
+
+Terra currently provides five Odyssey modifications.<ref name="inara-terra" />
+
+{| class="wikitable"
+! Modification
+! Equipment
+! Primary effect
+|-
+| [[Combat Movement Speed]]
+| Suit
+| Removes the movement-speed penalty while aiming down sights
+|-
+| [[Improved Hip Fire Accuracy]]
+| Handheld weapon
+| Improves hip-fire accuracy by 45%
+|-
+| [[Increased Air Reserves]]
+| Suit
+| Doubles emergency oxygen capacity
+|-
+| [[Increased Sprint Duration]]
+| Suit
+| Extends effective sprint endurance
+|-
+| [[Noise Suppressor]]
+| Handheld weapon
+| Reduces weapon sound in pressurised environments
+|}
+
+== Combat Movement Speed ==
+
+'''Combat Movement Speed''' removes the movement penalty normally applied while aiming down sights.<ref name="inara-terra" />
+
+The current recipe is:
+
+* 5 [[Evacuation Protocols]]
+* 3 [[Genetic Research]]
+* 5 [[Epinephrine]]
+* 8 [[pH Neutraliser]]
+* '''750,000 CR'''<ref name="inara-terra" />
+
+Other Engineers currently providing Combat Movement Speed include:
+
+* [[Yarden Bond]]
+* [[Baltanos]]<ref name="inara-terra" />
+
+{{Tip|'''EDFM recommendation:''' Combat Movement Speed is particularly useful on a [[Dominator Suit]] intended for active ground combat.
+
+Maintaining normal movement while aiming makes it easier to strafe, reposition, and remain mobile while engaging targets through a weapon's sights.}}
+
+Its value is lower on a suit used primarily for activities where weapons are rarely aimed during movement.
+
+== Improved Hip Fire Accuracy ==
+
+'''Improved Hip Fire Accuracy''' reduces weapon sway and improves accuracy when firing without aiming down sights.<ref name="inara-terra" />
+
+The current modifier is:
+
+* '''+45% hip-fire accuracy'''<ref name="inara-terra" />
+
+The material recipe varies by weapon manufacturer.
+
+=== Kinematic Armaments weapons ===
+
+* 10 [[Extraction Yield Data]]
+* 5 [[Biometric Data]]
+* 10 [[Combatant Performance]]
+* 10 [[Viscoelastic Polymer]]
+* 10 [[RDX]]
+* '''500,000 CR'''<ref name="inara-terra" />
+
+=== Manticore weapons ===
+
+* 5 [[Chemical Patents]]
+* 10 [[Combatant Performance]]
+* 10 [[Chemical Catalyst]]
+* 10 [[Electromagnet]]
+* 10 [[Metal Coil]]
+* '''500,000 CR'''<ref name="inara-terra" />
+
+=== Takada weapons ===
+
+* 3 [[Radioactivity Data]]
+* 5 [[Combatant Performance]]
+* 5 [[Metal Coil]]
+* 3 [[Optical Lens]]
+* 8 [[Electrical Wiring]]
+* '''500,000 CR'''<ref name="inara-terra" />
+
+Other Engineers currently providing Improved Hip Fire Accuracy include:
+
+* [[Yarden Bond]]
+* [[Baltanos]]<ref name="inara-terra" />
+
+{{Tip|'''EDFM recommendation:''' Improved Hip Fire Accuracy is most useful on weapons intended for close- or medium-range combat where firing quickly without aiming down sights is common.
+
+It is less valuable on a weapon deliberately built around careful aimed fire at longer distances.}}
+
+== Increased Air Reserves ==
+
+'''Increased Air Reserves''' doubles the suit's emergency oxygen capacity after normal powered life support is no longer available.<ref name="inara-terra" />
+
+The current modifier is:
+
+* '''+100% air capacity'''<ref name="inara-terra" />
+
+The current recipe is:
+
+* 3 [[Pharmaceutical Patents]]
+* 8 [[Air Quality Reports]]
+* 5 [[Oxygenic Bacteria]]
+* 8 [[pH Neutraliser]]
+* '''750,000 CR'''<ref name="inara-terra" />
+
+Other Engineers currently providing Increased Air Reserves include:
+
+* [[Hero Ferrari]]
+* [[Baltanos]]<ref name="inara-terra" />
+
+{{Field note|Increased Air Reserves affects '''emergency life-support endurance'''. It does not increase the suit's main battery capacity; [[Improved Battery Capacity]] is a separate modification.}}
+
+{{Tip|'''EDFM recommendation:''' Increased Air Reserves is situational.
+
+It provides additional safety when suit energy is exhausted, but a combat or general-purpose build may gain more frequent benefit from mobility, defensive, battery, or inventory modifications.}}
+
+== Increased Sprint Duration ==
+
+'''Increased Sprint Duration''' reduces the limitations imposed by exhaustion during prolonged sprinting.<ref name="inara-terra" />
+
+The current recipe is:
+
+* 3 [[Troop Deployment Records]]
+* 3 [[Gene Sequencing Data]]
+* 3 [[Clinical Trial Records]]
+* 5 [[Oxygenic Bacteria]]
+* 8 [[Chemical Catalyst]]
+* '''750,000 CR'''<ref name="inara-terra" />
+
+Other Engineers currently providing Increased Sprint Duration include:
+
+* [[Hero Ferrari]]
+* [[Baltanos]]<ref name="inara-terra" />
+
+{{Tip|'''EDFM recommendation:''' Increased Sprint Duration is a strong general-purpose mobility modification.
+
+It is useful for moving through large settlements, repositioning in combat, crossing open terrain, and reaching objectives more quickly.}}
+
+It can pair well with [[Combat Movement Speed]] on a suit deliberately configured around mobility, although the two modifications improve different phases of movement:
+
+* Increased Sprint Duration improves sustained traversal.
+* Combat Movement Speed improves mobility while aiming during combat.
+
+== Noise Suppressor ==
+
+'''Noise Suppressor''' reduces the physical sound produced when a weapon is fired in a '''pressurised environment'''.<ref name="inara-terra" />
+
+The current recipe is:
+
+* 5 [[Atmospheric Data]]
+* 5 [[Mining Analytics]]
+* 8 [[Viscoelastic Polymer]]
+* 3 [[Weapon Component]]
+* '''1,000,000 CR'''<ref name="inara-terra" />
+
+Other Engineers currently providing Noise Suppressor include:
+
+* [[Hero Ferrari]]
+* [[Baltanos]]<ref name="inara-terra" />
+
+Odyssey has two different sound-related firearm modifications:
+
+* '''Noise Suppressor''' — reduces the physical sound of gunfire in '''pressurised''' environments.
+* [[Audio Masking]] — suppresses the weapon's simulated sound signature in '''unpressurised''' environments.
+
+{{Important|Noise Suppressor and [[Audio Masking]] solve different problems. Noise Suppressor is primarily relevant inside pressurised settlement buildings; Audio Masking is the corresponding modification for unpressurised environments.}}
+
+{{Tip|'''EDFM recommendation:''' Noise Suppressor is valuable on a weapon specifically intended for covert settlement operations.
+
+It is much less useful on a weapon built almost exclusively for surface conflict zones or other open combat.}}
+
+== Engineer Unlock Chain ==
+
+Terra Velasquez belongs to the [[Jude Navarro]] branch of the Odyssey Engineer network.
+
+The complete branch is:
+
+<pre>
+Jude Navarro
+└── Terra Velasquez
+    └── Oden Geiger
+</pre>
+
+The progression is:
+
+# Unlock [[Jude Navarro]] by completing 10 Restore or Reactivation missions.
+# Give Jude '''5 [[Genetic Repair Meds]]''' to discover Terra Velasquez.
+# Complete '''6 Covert Theft and/or Covert Heist missions''' to unlock Terra.
+# Give Terra '''15 [[Financial Projections]]''' to discover [[Oden Geiger]].<ref name="inara-jude" /><ref name="inara-terra" />
+
+== Referring Oden Geiger ==
+
+After Terra Velasquez has been unlocked, provide her with '''15 [[Financial Projections]]''' to receive the referral to [[Oden Geiger]].<ref name="inara-terra" />
+
+[[Financial Projections]] are Odyssey '''Data'''.<ref name="inara-financial">[https://inara.cz/elite/componentitem/10329/ Financial Projections — Component], Inara.</ref>
+
+Current material data lists them as obtainable from:
+
+* '''HAB buildings'''
+* '''AGRI buildings'''
+* '''IND buildings'''
+* '''mission rewards'''<ref name="inara-financial" />
+
+Because Financial Projections are Data rather than physical Goods, they do not occupy the Goods section of the suit backpack.
+
+{{Important|Terra's two progression requirements are separate:
+
+* '''Unlock Terra Velasquez:''' complete six qualifying Covert Theft and/or Covert Heist missions.
+* '''Discover Oden Geiger:''' provide Terra with '''15 Financial Projections'''.}}
+
+{{Tip|Financial Projections are not consumed by any currently listed suit or weapon modification recipe; their principal Engineering-progression use is Terra's referral to Oden.<ref name="inara-financial" />
+
+If you intend to continue this branch, reserve the first 15 you collect rather than discarding them.}}
+
+Once the 15 Financial Projections have been provided, [[Oden Geiger]] becomes the next Engineer in this branch.
+
+== Increasing Engineer Reputation ==
+
+'''Not applicable to Odyssey Engineers in the same way as ship Engineers.'''
+
+Terra Velasquez does not use the Grade 1–5 Engineer-reputation progression found at ship Engineer workshops.
+
+Once Terra has been unlocked, her modifications can be installed provided that:
+
+* the equipment is compatible;
+* the suit or weapon has an unused modification slot; and
+* you possess the required Odyssey materials and credits.
+
+The suit or weapon itself is upgraded separately through [[Pioneer Supplies]].
+
+Likewise, Terra's referral to Oden Geiger is not obtained by increasing Engineer reputation. It is triggered by providing '''15 Financial Projections'''.<ref name="inara-terra" />
+
+See [[Odyssey Engineering]] for the complete system.
+
+== Experimental Effects ==
+
+'''Not applicable.'''
+
+Odyssey suit and handheld-weapon Engineering does not use the separate ship-module [[Experimental Effects]] system.
+
+Terra's five modifications are themselves the permanent modifications installed onto the equipment.
+
+== Blueprint Pinning ==
+
+'''Not applicable.'''
+
+Odyssey modifications cannot be pinned for [[Remote Engineering]] in the same manner as ship Engineering blueprints.
+
+A suit or weapon must be taken to Terra Velasquez or another Odyssey Engineer offering the required modification.
+
+{{Field note|Unlocking Terra therefore does not make Combat Movement Speed, Improved Hip Fire Accuracy, Increased Sprint Duration, or her other modifications remotely available from another station.}}
+
+== Recommended Engineering ==
+
+Terra's modification set divides naturally between combat mobility, general mobility, and stealth.
+
+=== Dominator Suit ===
+
+For a [[Dominator Suit]] used primarily for ground combat:
+
+{{Tip|'''EDFM recommendation:''' [[Combat Movement Speed]] is Terra's most distinctive combat-oriented suit modification.
+
+Removing the movement penalty while aiming allows the Commander to maintain mobility while delivering accurate aimed fire.}}
+
+[[Increased Sprint Duration]] is also useful for rapidly moving between objectives and repositioning across large surface conflict zones.
+
+[[Increased Air Reserves]] is generally more situational on a dedicated combat suit.
+
+=== Maverick Suit ===
+
+For a [[Maverick Suit]] used for settlement infiltration and missions:
+
+* [[Increased Sprint Duration]] provides broadly useful movement.
+* [[Increased Air Reserves]] provides additional emergency life-support margin.
+
+Combat Movement Speed can still be useful if the suit is regularly used for armed settlement operations, but it competes with valuable Maverick utility modifications for limited slots.
+
+=== Stealth weapon ===
+
+For a weapon intended for covert settlement use:
+
+{{Tip|'''EDFM recommendation:''' [[Noise Suppressor]] is one of Terra's most useful specialist modifications.
+
+It directly supports covert combat inside pressurised settlement interiors.}}
+
+A weapon intended to operate quietly in both pressurised and unpressurised environments may ultimately benefit from combining Noise Suppressor with [[Audio Masking]], provided the weapon's limited modification slots justify using both.
+
+=== Close-range combat weapon ===
+
+[[Improved Hip Fire Accuracy]] is valuable for a weapon that is frequently fired without aiming down sights.
+
+It pairs particularly naturally with aggressive close-range movement, while a weapon intended for deliberate ranged aiming may gain more from modifications such as [[Scope]], [[Greater Range]], or [[Stability]].
+
+== What Terra Cannot Modify ==
+
+Terra currently provides five modification types:
+
+* '''Combat Movement Speed''' — suit
+* '''Improved Hip Fire Accuracy''' — weapon
+* '''Increased Air Reserves''' — suit
+* '''Increased Sprint Duration''' — suit
+* '''Noise Suppressor''' — weapon<ref name="inara-terra" />
+
+Other commonly useful modifications require different Engineers.
+
+Examples include:
+
+* '''Night Vision:''' [[Oden Geiger]] or [[Yi Shen]]
+* '''Scope:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Stability:''' [[Domino Green]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Improved Battery Capacity:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Damage Resistance:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Faster Shield Regen:''' [[Kit Fowler]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Extra Ammo Capacity:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Magazine Size:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Reload Speed:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Audio Masking:''' [[Yarden Bond]] or [[Yi Shen]]
+
+See [[Odyssey Engineer Modifications]] for the complete Engineer-by-modification matrix.
+
+== What Next? ==
+
+Terra Velasquez leads directly to [[Oden Geiger]].
+
+Oden provides several modifications unavailable from Terra, including [[Night Vision]], [[Scope]], [[Stability]], [[Improved Battery Capacity]], and [[Enhanced Tracking]].<ref name="inara-oden">[https://inara.cz/elite/engineer/34/ Oden Geiger — Engineer], Inara.</ref>
+
+{{What next|title=Continue Odyssey Engineering|
+* '''Next Engineer in this branch:''' [[Oden Geiger]]
+* '''Previous Engineer:''' [[Jude Navarro]]
+* '''Get Oden's referral material:''' [[Financial Projections]]
+* '''Complete Terra's unlock:''' [[Covert Missions]]
+* '''Learn covert settlement operations:''' [[Settlement Infiltration]]
+* '''Control settlement alarms:''' [[Settlement Alarm System]]
+* '''Plan combat suits:''' [[Dominator Suit Engineering]]
+* '''Plan stealth equipment:''' [[Stealth Engineering]]
+* '''Plan suit modifications:''' [[Suit Engineering]]
+* '''Plan weapon modifications:''' [[Weapon Engineering (Odyssey)]]
+* '''See the complete network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Odyssey Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineers]]
+[[Category:Suit Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Stealth Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

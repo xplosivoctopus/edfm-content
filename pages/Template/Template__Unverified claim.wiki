@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Unverified claim
+Namespace: 10
+Page ID: 35
+Revision ID: 1117
+Timestamp: 2026-08-20T03:29:40Z
+Source URL: https://edfieldmanual.com/wiki/Template:Unverified_claim
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-draft noexcerpt">'''Unverified claim:''' {{{1|This claim has not yet been verified.}}}</div><noinclude>
+== Usage ==
+<pre>{{Unverified claim|The claim that needs verification}}</pre>
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

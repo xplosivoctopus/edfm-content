@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: File:Eleanorbresa.png
+Namespace: 6
+Page ID: 249
+Revision ID: 380
+Timestamp: 2026-08-08T14:41:40Z
+Source URL: https://edfieldmanual.com/wiki/File:Eleanorbresa.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Eleanor Bresa Engineer Headshot
+== Licensing ==
+{{License-ED screenshot}}

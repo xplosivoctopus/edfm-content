@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Pages Needing Review
+Namespace: 14
+Page ID: 19
+Revision ID: 19
+Timestamp: 2026-08-06T19:51:22Z
+Source URL: https://edfieldmanual.com/wiki/Category:Pages_Needing_Review
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Tracking category for articles whose {{tl|Article status}} is ''Needs review''. See also [[Elite Dangerous Field Manual:Pages Needing Review]] for the working list.

@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Unofficial disclaimer
+Namespace: 10
+Page ID: 40
+Revision ID: 1126
+Timestamp: 2026-08-20T03:29:46Z
+Source URL: https://edfieldmanual.com/wiki/Template:Unofficial_disclaimer
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-reference noexcerpt">''Elite Dangerous Field Manual'' is an unofficial, non-commercial community project. It is not affiliated with or endorsed by Frontier Developments plc. Game assets and imagery from ''Elite Dangerous'' are used with permission of Frontier Developments plc. ''Elite Dangerous'' and related trademarks and assets remain the property of their respective owners. See [[Elite Dangerous Field Manual:Legal and Trademark Notice]] for details.</div><noinclude>
+== Usage ==
+<pre>{{Unofficial disclaimer}}</pre>
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

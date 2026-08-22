@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Important
+Namespace: 10
+Page ID: 322
+Revision ID: 690
+Timestamp: 2026-08-12T15:58:31Z
+Source URL: https://edfieldmanual.com/wiki/Template:Important
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Callout|type=important|label=Important|{{{1|}}}}}<noinclude>
+== Usage ==
+Use for must-understand information that is not necessarily a danger warning.
+<pre>{{Important|The roadmap is guidance, not a mandatory progression path.}}</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>

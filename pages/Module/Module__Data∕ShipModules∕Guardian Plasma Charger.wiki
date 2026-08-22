@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Guardian Plasma Charger
+Namespace: 828
+Page ID: 508
+Revision ID: 1295
+Timestamp: 2026-08-20T23:59:39Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Plasma_Charger
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Guardian Plasma Charger",
+}

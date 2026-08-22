@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Frontier assets notice
+Namespace: 10
+Page ID: 227
+Revision ID: 1125
+Timestamp: 2026-08-20T03:29:45Z
+Source URL: https://edfieldmanual.com/wiki/Template:Frontier_assets_notice
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-warning noexcerpt">This image was captured from ''Elite Dangerous''. ''Elite Dangerous'' and the underlying game assets shown in it belong to Frontier Developments plc and/or their respective rights holders. ''Elite Dangerous Field Manual'' is an unofficial community project and is not affiliated with or endorsed by Frontier Developments plc. '''Selecting this classification does not place Frontier-owned material under a Creative Commons license''' — it is not "own work," and it is not available for reuse under this wiki's CC BY-SA 4.0 text license. See [[Elite Dangerous Field Manual:Legal and Trademark Notice]] and [[Elite Dangerous Field Manual:Image Use Policy]].</div><noinclude>
+== Usage ==
+'''Centralized wording, not meant to be used directly on a file page.''' This template exists so the Frontier attribution/non-CC wording lives in exactly one place — {{tl|License-ED screenshot}}, {{tl|License-Official Frontier media}}, and {{tl|Elite Dangerous screenshot}} all transclude it. If this wording ever needs to change, edit it here once rather than on every file page or every downstream template.
+
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

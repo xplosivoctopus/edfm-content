@@ -1,0 +1,41 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Verification Policy
+Namespace: 4
+Page ID: 45
+Revision ID: 248
+Timestamp: 2026-08-07T22:01:41Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Verification_Policy
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How article accuracy is tracked on EDFM.
+
+== Verification statuses ==
+Recorded via {{tl|Article status}}, always as visible text (never colour alone):
+
+* '''Verified''' — checked directly against current Live gameplay by a named reviewer.
+* '''Partially verified''' — some claims checked, others not; the article should say which.
+* '''Needs review''' — drafted but not yet checked. Tracked in [[Elite Dangerous Field Manual:Pages Needing Review]].
+* '''Draft''' — incomplete, use {{tl|Draft warning}}.
+* '''Historical''' — describes a past state of the game; use {{tl|Historical warning}}.
+* '''Legacy only''' — applies to ''Elite Dangerous: Legacy'', not current Live; use {{tl|Legacy warning}}.
+* '''Upcoming''' — describes an announced-but-not-yet-released feature; must not be presented as current fact.
+
+== Game modes ==
+* '''Live''' — the actively developed, current game.
+* '''Legacy''' — the frozen pre-Odyssey-update client, still operated separately.
+* '''Both''' — confirmed true in both.
+* '''Historical''' — no longer applicable to either; kept for record only.
+
+=== Status "Legacy only" vs. mode "Legacy" ===
+These are two different axes and are not redundant with each other:
+* '''Mode "Legacy"''' is the routine, per-fact tag — use it any time part of an article's subject differs between Live and Legacy, at any verification status. Pair it with the optional <code>|legacy_differences=</code> field on {{tl|Article status}} to say what actually differs.
+* '''Status "Legacy only"''' is reserved for articles that are entirely about a Legacy-exclusive mechanic with no Live counterpart at all — the same relationship "Historical" already has as a status vs. as something you'd note in passing on a Live article.
+An article can be Live-mode with a noted Legacy difference; it should not usually be both "Legacy only" status and "Both" mode, since that would mean claiming universal applicability for something defined as Legacy-exclusive.
+
+== What a review means ==
+A reviewer records: verification status, game mode, game version/update, last-reviewed date, reviewer identity, an assessment of source quality, and any known uncertainty. These seven fields are always part of {{tl|Article status}}. Two more are optional and used only when relevant: <code>|legacy_differences=</code> (what specifically differs from Live, when mode isn't simply "Both") and <code>|recent_changes=</code> (a one-line pointer to a recent, significant change — for anything longer, use {{tl|Patch history}} instead).
+
+== Uncertain content ==
+Use {{tl|Unverified claim}}, {{tl|Estimated information}}, or {{tl|Community observation}} inline rather than stating something as settled fact. A page can be genuinely useful while honestly marking its own gaps.

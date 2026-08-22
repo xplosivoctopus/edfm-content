@@ -1,0 +1,59 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Elvira Martuuk
+Namespace: 0
+Page ID: 623
+Revision ID: 1504
+Timestamp: 2026-08-21T14:40:52Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Elvira_Martuuk
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Elvira Martuuk — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Elvira Martuuk]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Elvira Martuuk]].
+
+== Objective ==
+Gain access to [[Elvira Martuuk]]'s Engineer services at Long Sight Base in Khun.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Elvira Martuuk's whereabouts are '''public knowledge'''.
+* '''Invitation:''' Reach a '''maximum distance of at least 300 light-years from your career start location'''.
+* Reach a maximum distance of at least '''300 Ly from your career start location'''.
+* Obtain '''3 units of Soontill Relics'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Soontill Relics'''
+The normal source of Soontill Relics is '''Cheranovsky City''' in the '''Ngurii''' system, where they are produced as a rare commodity.
+
+Only three units are required for Elvira's unlock.
+
+{{Tip|If you are collecting the Relics specifically for Elvira, make sure your ship has at least '''3 tonnes of cargo capacity''' before travelling to Ngurii.}}
+
+Fleet Carriers may also resell Soontill Relics, but carrier stock and prices are controlled by individual Commanders and can change. Cheranovsky City is the commodity's normal production source.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Elvira is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach a maximum distance of at least '''300 Ly from your career start location'''.
+# Obtain '''3 units of Soontill Relics'''.
+# Travel to '''Long Sight Base''' in Khun.
+# Donate the three Soontill Relics to Elvira Martuuk.
+# Enter the Engineer workshop and begin increasing your reputation with her.
+}}
+
+== Expected Result ==
+{{Expected result|[[Elvira Martuuk]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Elvira Martuuk]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] Soontill Relics Khun Long Sight Base}}
+
+== Sources ==
+This procedure was extracted from the current [[Elvira Martuuk]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

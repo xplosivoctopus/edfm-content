@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Community observation
+Namespace: 10
+Page ID: 34
+Revision ID: 1119
+Timestamp: 2026-08-20T03:29:41Z
+Source URL: https://edfieldmanual.com/wiki/Template:Community_observation
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-info noexcerpt">'''Community observation''' (not officially confirmed by Frontier Developments): {{{1}}}</div><noinclude>
+== Usage ==
+<pre>{{Community observation|What players have observed}}</pre>
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

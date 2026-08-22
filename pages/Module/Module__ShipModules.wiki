@@ -1,0 +1,113 @@
+<!--
+EDFM current-content archive export.
+Title: Module:ShipModules
+Namespace: 828
+Page ID: 431
+Revision ID: 1218
+Timestamp: 2026-08-20T23:58:45Z
+Source URL: https://edfieldmanual.com/wiki/Module:ShipModules
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Module:ShipModules
+-- Structured ship module helpers.
+-- Canonical ship module stub data lives in Module:Data/ShipModules/<Name>.
+-- These pages are intentionally skeletal until module facts are filled.
+
+local p = {}
+
+local FIELD_ORDER = {
+	{ key = 'module_class', label = 'Module class', group = 'MODULE' },
+	{ key = 'slot_type', label = 'Slot type' },
+	{ key = 'mount', label = 'Mount' },
+	{ key = 'manufacturer', label = 'Manufacturer' },
+	{ key = 'availability', label = 'Availability' },
+	{ key = 'engineering', label = 'Engineering' },
+	{ key = 'related_modules', label = 'Related modules' },
+}
+
+local function isNonEmpty(value)
+	return value ~= nil and value ~= ''
+end
+
+local function dataTitleFor(name)
+	return 'Module:Data/ShipModules/' .. name
+end
+
+local function loadRecord(name)
+	local ok, data = pcall(mw.loadData, dataTitleFor(name))
+	if ok and type(data) == 'table' then
+		return data
+	end
+	return { name = name }
+end
+
+local function loadIndex()
+	local ok, data = pcall(mw.loadData, 'Module:Data/ShipModules/index')
+	if ok and type(data) == 'table' then
+		return data
+	end
+	return {}
+end
+
+local function fmt(value)
+	if not isNonEmpty(value) then
+		return '—'
+	end
+	if type(value) == 'table' then
+		if #value == 0 then return '—' end
+		return table.concat(value, '<br>')
+	end
+	return tostring(value)
+end
+
+function p.infobox(frame)
+	local args = frame:getParent() and frame:getParent().args or frame.args
+	local title = mw.title.getCurrentTitle()
+	local name = args.name or title.text
+	local record = loadRecord(name)
+	local fields = {}
+	for _, f in ipairs(FIELD_ORDER) do
+		fields[f.key] = record[f.key]
+		if isNonEmpty(args[f.key]) then
+			fields[f.key] = args[f.key]
+		end
+	end
+	local params = {
+		name = name,
+		image = args.image or record.image or '',
+	}
+	local row = 1
+	for _, f in ipairs(FIELD_ORDER) do
+		if isNonEmpty(fields[f.key]) then
+			if f.group then params['group' .. row] = f.group end
+			params['label' .. row] = f.label
+			params['row' .. row] = fmt(fields[f.key])
+			row = row + 1
+		end
+	end
+	return frame:expandTemplate{ title = 'Infobox', args = params }
+end
+
+function p.directory(frame)
+	local out = {}
+	table.insert(out, '{| class="wikitable sortable" style="width:100%;"')
+	table.insert(out, '! style="width:28%;" | Module')
+	table.insert(out, '! style="width:18%;" | Module class')
+	table.insert(out, '! style="width:18%;" | Slot type')
+	table.insert(out, '! style="width:18%;" | Mount')
+	table.insert(out, '! style="width:18%;" | Status')
+	for _, name in ipairs(loadIndex()) do
+		local record = loadRecord(name)
+		table.insert(out, '|-')
+		table.insert(out, '| data-sort-value="' .. name:gsub('"', '&quot;') .. '" | {{Ship module table entry|' .. name .. '}}')
+		table.insert(out, '| ' .. fmt(record.module_class))
+		table.insert(out, '| ' .. fmt(record.slot_type))
+		table.insert(out, '| ' .. fmt(record.mount))
+		table.insert(out, '| Structured stub')
+	end
+	table.insert(out, '|}')
+	return table.concat(out, '\n')
+end
+
+return p

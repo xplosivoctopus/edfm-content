@@ -1,0 +1,80 @@
+<!--
+EDFM current-content archive export.
+Title: Main Page
+Namespace: 0
+Page ID: 1
+Revision ID: 932
+Timestamp: 2026-08-18T16:11:54Z
+Source URL: https://edfieldmanual.com/
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{DISPLAYTITLE:Elite Dangerous Field Manual}}{{SEO
+ |title = Elite Dangerous Field Manual - Wiki, Guides & Reference
+ |description = An independent, community-maintained Elite Dangerous wiki with practical guides, engineering references, and up-to-date information for commanders.
+}}
+<div class="edfm-home-hero">
+<div class="edfm-home-hero-kicker">Commander reference hub</div>
+<div class="edfm-home-hero-title">Elite Dangerous Field Manual</div>
+<div class="edfm-home-hero-text">Current answers, practical procedures, and reliable reference for ''Elite Dangerous'' commanders.</div>
+</div>
+
+== Start here ==
+<div class="edfm-home-grid edfm-home-grid-four">
+<div class="edfm-home-card edfm-home-card-primary">
+<div class="edfm-home-card-kicker">New commander</div>
+<div class="edfm-home-card-title">[[New Commander Roadmap|Follow the roadmap]]</div>
+<div class="edfm-home-card-text">Start with the core path: controls, ship basics, early money, survival, and the first systems worth learning.</div>
+</div>
+<div class="edfm-home-card">
+<div class="edfm-home-card-kicker">Returning player</div>
+<div class="edfm-home-card-title">[[Returning Commander Overview|Catch up fast]]</div>
+<div class="edfm-home-card-text">Jump back in after time away with the major systems, changed mechanics, and practical next steps.</div>
+</div>
+<div class="edfm-home-card">
+<div class="edfm-home-card-kicker">Need direction</div>
+<div class="edfm-home-card-title">[[Start Here|Pick a first objective]]</div>
+<div class="edfm-home-card-text">Not sure what to do next? Choose a goal and follow a clear commander-friendly route.</div>
+</div>
+<div class="edfm-home-card">
+<div class="edfm-home-card-kicker">Experienced</div>
+<div class="edfm-home-card-title">[[Game Reference|Browse reference]]</div>
+<div class="edfm-home-card-text">Go straight to structured reference pages, mechanics, unlocks, tools, and comparison data.</div>
+</div>
+</div>
+
+== Browse by topic ==
+<div class="edfm-home-grid edfm-home-grid-topics">
+<div class="edfm-home-card">
+<div class="edfm-home-card-kicker">Reference</div>
+<div class="edfm-home-card-title">Core knowledge</div>
+<div class="edfm-home-link-list">[[Game Reference]] · [[Ships and Equipment]] · [[Engineering]] · [[Odyssey]]</div>
+</div>
+<div class="edfm-home-card">
+<div class="edfm-home-card-kicker">Guides</div>
+<div class="edfm-home-card-title">Practical procedures</div>
+<div class="edfm-home-link-list">[[Field Procedures]] · [[Engineer Unlock Guide]] · [[Unlocking Broo Tarquin]]</div>
+</div>
+<div class="edfm-home-card">
+<div class="edfm-home-card-kicker">Data</div>
+<div class="edfm-home-card-title">Lists and comparisons</div>
+<div class="edfm-home-link-list">[[List of Engineers]] · [[Engineer Capability Comparison]] · [[Tools and Resources]]</div>
+</div>
+<div class="edfm-home-card">
+<div class="edfm-home-card-kicker">Game systems</div>
+<div class="edfm-home-card-title">Active mechanics</div>
+<div class="edfm-home-link-list">[[Powerplay]] · [[Colonisation]] · [[Operations]] · [[Lore and History]]</div>
+</div>
+</div>
+
+== News and updates ==
+{{Frontier News}}
+
+== About EDFM ==
+
+<div class="edfm-home-card edfm-home-card-about">
+<div class="edfm-home-card-kicker">Independent, community-maintained field manual</div>
+<div class="edfm-home-card-title">About the Elite Dangerous Field Manual</div>
+<div class="edfm-home-card-text">'''Elite Dangerous Field Manual''' '''is an independent, community-maintained Elite Dangerous wiki and practical reference. EDFM is actively being developed, with new articles, guides, templates, and reference material added as the project grows.'''</div>
+<div class="edfm-home-link-list">[[Elite Dangerous Field Manual:About the Field Manual|About]] · [[Elite Dangerous Field Manual:Contributing|Contributing]] · [[Elite Dangerous Field Manual:Editorial Policy|Editorial Policy]] · [[Elite Dangerous Field Manual:Legal and Trademark Notice|Legal notice]]</div>
+</div>

@@ -1,0 +1,24 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Guide step
+Namespace: 10
+Page ID: 321
+Revision ID: 699
+Timestamp: 2026-08-12T16:01:14Z
+Source URL: https://edfieldmanual.com/wiki/Template:Guide_step
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-guide-step">
+<div class="edfm-guide-step-heading"><span class="edfm-guide-step-number">{{{1|Step}}}</span><span class="edfm-guide-step-title">{{{2|Untitled step}}}</span></div>
+<div class="edfm-guide-step-body">
+{{{3|}}}
+</div>
+</div><noinclude>
+== Usage ==
+Numbered walkthrough step. Keep each step focused on one player action or small objective.
+<pre>{{Guide step|1|Plot a route|
+Open the Galaxy Map, choose a nearby inhabited system, and select Plot Route.
+}}</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>

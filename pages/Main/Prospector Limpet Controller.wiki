@@ -1,0 +1,40 @@
+<!--
+EDFM current-content archive export.
+Title: Prospector Limpet Controller
+Namespace: 0
+Page ID: 388
+Revision ID: 1025
+Timestamp: 2026-08-20T01:38:51Z
+Source URL: https://edfieldmanual.com/wiki/Prospector_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Optional Internal Module
+ |deck=Deploys limpets that analyse an asteroid's mineral content before mining it — the standard companion to any mining laser.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+The '''Prospector Limpet Controller''' launches limpets that scan an asteroid and reveal its mineral composition and yield potential before a Commander commits to mining it.
+
+== Overview ==
+
+Prospector limpets are one of four original Limpet Controller types (alongside [[Collector Limpet Controller|Collector]], [[Fuel Transfer Limpet Controller|Fuel Transfer]], and [[Hatch Breaker Limpet Controller|Hatch Breaker]]), and are considered essential for efficient mining: without one, a Commander is mining asteroids blind, with no way to tell a rich deposit from a low-value one before spending time and Mining Laser cargo-hold-space on it. A Prospector scan is normally paired with a [[Collector Limpet Controller]] to actually retrieve whatever the mining process breaks loose.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Ram Tah]] || Grade 5
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Mining]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]

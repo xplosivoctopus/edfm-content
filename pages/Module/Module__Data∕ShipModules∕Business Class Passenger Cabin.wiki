@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Business Class Passenger Cabin
+Namespace: 828
+Page ID: 455
+Revision ID: 1242
+Timestamp: 2026-08-20T23:59:01Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Business_Class_Passenger_Cabin
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Business Class Passenger Cabin",
+}

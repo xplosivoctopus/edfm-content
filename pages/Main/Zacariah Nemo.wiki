@@ -1,0 +1,462 @@
+<!--
+EDFM current-content archive export.
+Title: Zacariah Nemo
+Namespace: 0
+Page ID: 117
+Revision ID: 1450
+Timestamp: 2026-08-21T14:38:46Z
+Source URL: https://edfieldmanual.com/wiki/Zacariah_Nemo
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 Fragment Cannon specialist based at Nemo Cyber Party Base in Yoru, reached through Elvira Martuuk.
+}}
+
+{{Engineer infobox}}
+
+'''Zacariah Nemo''' is a ship Engineer based at '''Nemo Cyber Party Base''' in the [[Yoru]] system. He is reached through [[Elvira Martuuk]] and specialises primarily in projectile weapons.<ref name="inara-nemo">[https://inara.cz/elite/engineer/9/ Zacariah Nemo — Engineer], Inara.</ref>
+
+Nemo provides '''Grade 5 Fragment Cannon Engineering''', Multi-Cannon Engineering through Grade 3, and Plasma Accelerator Engineering through Grade 2.<ref name="inara-nemo" />
+
+In Live, his Fragment Cannon coverage also includes the Operations-era '''Double Screaming''' blueprint through Grade 5, while his Multi-Cannon coverage includes '''Rapid Phase''' through Grade 3.<ref name="inara-double-screaming">[https://inara.cz/elite/blueprint/215/ Fragment Cannon — Double Screaming], Inara.</ref><ref name="inara-rapid-phase">[https://inara.cz/elite/blueprint/223/ Multi-Cannon — Rapid Phase], Inara.</ref>
+
+{{Field note|Nemo's primary maximum-grade specialty is the '''Fragment Cannon'''. His Multi-Cannon and Plasma Accelerator Engineering can be useful during progression or for applying Experimental Effects, but both stop below Grade 5.}}
+
+== Location ==
+
+* '''System:''' [[Yoru]]
+* '''Facility:''' [[Nemo Cyber Party Base]]
+* '''Body:''' Yoru 4
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Elvira Martuuk]]
+* '''System permit required:''' No
+
+Nemo Cyber Party Base is a surface Engineer base on '''Yoru 4''', approximately 89 Ls from the system arrival point.<ref name="inara-nemo-base">[https://inara.cz/elite/station/52321/ Nemo Cyber Party Base — Station], Inara.</ref>
+
+== How to Discover Zacariah Nemo ==
+
+Zacariah Nemo is discovered through [[Elvira Martuuk]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Elvira to receive her referral to Nemo.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Elvira also provides referrals to [[Marco Qwent]] and [[Mel Brandon]]. These are parallel branches rather than sequential unlocks.
+
+{{Field note|Receiving Elvira's referral makes Nemo known to you. You must still obtain the separate invitation from the [[Party of Yoru]] before his workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Gain an '''invitation from the [[Party of Yoru]]'''.<ref name="inara-nemo" />
+
+Current Engineering guidance identifies the practical requirement as reaching at least '''Friendly reputation with the Party of Yoru''' so that the Engineer invitation mission becomes available.<ref name="newp-engineers" />
+
+The Party of Yoru is an independent minor faction whose home system is Yoru.<ref name="inara-party-yoru">[https://inara.cz/elite/minorfaction/24660/ Party of Yoru — Minor Faction], Inara.</ref>
+
+Reputation can be raised through ordinary minor-faction activities such as completing missions for the faction and selecting reputation rewards where available.
+
+{{Field note|The Party of Yoru can be present outside Yoru because minor factions expand through the Background Simulation. You do not necessarily need to perform every reputation-building activity in Yoru itself.}}
+
+Because minor-faction presence and station control can change, use current faction information when choosing where to work for the Party of Yoru rather than relying on a permanently fixed station list.
+
+See [[Minor Faction Reputation]] for how faction reputation and Engineer invitation missions work.
+
+== How to Unlock Zacariah Nemo ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Elvira Martuuk]].
+* Reach at least '''Friendly reputation''' with the [[Party of Yoru]].
+* Obtain the Party of Yoru Engineer invitation.
+* Obtain '''25 units of [[Xihe Biomorphic Companions]]'''.
+* Donate the 25 Xihe Biomorphic Companions to Zacariah Nemo.
+{{Important|'''Xihe Biomorphic Companions are a rare commodity.''' They are not Raw, Manufactured, or Encoded Engineering materials. Each unit occupies one tonne of cargo space.}}
+
+For the complete step-by-step process, see [[Unlocking Zacariah Nemo]].
+
+== Obtaining Xihe Biomorphic Companions ==
+
+The normal production source for [[Xihe Biomorphic Companions]] is:
+
+* '''System:''' [[Xihe]]
+* '''Station:''' [[Zhen Dock]]
+* '''Commodity type:''' Rare commodity<ref name="inara-xihe" />
+
+Nemo requires '''25 units''' in total.
+
+Because Xihe Biomorphic Companions are a rare commodity, Zhen Dock offers a limited allocation rather than the large market supply normally associated with ordinary commodities.
+
+The available quantity can vary, so check the current allocation when preparing the unlock rather than planning around a fixed number from an older guide.
+
+{{Tip|Nemo only requires 25 units, but the available rare-good allocation may still be lower than the full requirement. If that happens, additional purchases may be necessary.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also offer Xihe Biomorphic Companions if another Commander has stocked them for resale. Carrier availability and prices are player-controlled and can change.
+
+{{Field note|Xihe Biomorphic Companions have legal restrictions in some jurisdictions. If transporting them somewhere other than Yoru, check whether the commodity is legal in the destination system.<ref name="inara-xihe" />}}
+
+See [[Xihe Biomorphic Companions]] for current acquisition details and [[Rare Commodities]] for how rare-good allocations work.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Nemo is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-nemo" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Zacariah Nemo can be increased by:
+
+* crafting Engineering modifications at Nemo Cyber Party Base; or
+* selling commodities at Nemo Cyber Party Base.<ref name="inara-nemo" />
+
+Higher Engineer reputation gives access to the higher grades Nemo supports for each blueprint.
+
+Current Engineer listings do '''not''' identify another ship Engineer whose discovery requirement comes from Zacariah Nemo.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have ordinary trade cargo available after unlocking Nemo, selling commodities at Nemo Cyber Party Base can help raise your Engineer reputation without relying entirely on repeated Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Zacariah Nemo belongs to the [[Elvira Martuuk]] branch of the ship Engineer network.
+
+The direct route is:
+
+<pre>
+Elvira Martuuk
+└── Zacariah Nemo
+</pre>
+
+Elvira's broader branch is:
+
+<pre>
+Elvira Martuuk
+├── Zacariah Nemo
+├── Marco Qwent
+│   ├── Chloe Sedesi
+│   ├── Lori Jameson
+│   └── Professor Palin
+└── Mel Brandon [Colonia]
+</pre>
+
+No current Engineer listing identifies Zacariah Nemo as the prerequisite for another ship Engineer.<ref name="inara-engineers" />
+
+{{Field note|[[Marco Qwent]] and [[Mel Brandon]] are separate referrals from [[Elvira Martuuk]]. Unlocking Nemo is not required before either of them.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Nemo's current Engineering coverage is shown below. The listed grade is the highest grade he can apply to that module or blueprint.<ref name="inara-nemo" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Fragment Cannon]]
+|
+* Double Screaming <small>(Live only; compatible Merc modules)</small>
+* Double Shot
+* Efficient
+* High Capacity
+* Lightweight
+* Overcharged
+* Rapid Fire
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Multi-Cannon]]
+|
+* Efficient
+* High Capacity
+* Lightweight
+* Long Range
+* Overcharged
+* Rapid Fire
+* Rapid Phase <small>(Live only; compatible Merc modules)</small>
+* Short Range
+* Sturdy
+| '''Grade 3'''
+|-
+| [[Plasma Accelerator]]
+|
+* Efficient
+* Focused
+* Lightweight
+* Long Range
+* Overcharged
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 2'''
+|}
+
+Nemo's maximum-grade specialty is therefore the '''Fragment Cannon'''.
+
+== Operations-era Engineering ==
+
+The Operations-era Engineering additions expanded Nemo's weapon coverage with two specialised blueprints:<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+* [[Double Screaming Fragment Cannon]]
+* [[Rapid Phase Multi-Cannon]]
+
+Both are available only in '''Live''', require compatible '''Merc modules''', and use [[Merc Coin]] as part of their Engineering cost.<ref name="inara-double-screaming" /><ref name="inara-rapid-phase" />
+
+=== Double Screaming Fragment Cannon ===
+
+'''Double Screaming''' changes Fragment Cannon firing behaviour by increasing ammunition capacity, magazine size, burst size, and reload performance while reducing maximum range and adding mass and power draw.<ref name="inara-double-screaming" />
+
+Nemo can apply Double Screaming through '''Grade 5'''.
+
+At Grade 5, the current blueprint provides:
+
+* '''+1 burst size'''
+* '''+166.7% magazine capacity'''
+* '''+67.8% maximum ammunition'''
+* '''-50% reload time'''
+* '''+58.1% rate of fire'''
+* '''-7.5% maximum range'''
+* '''+60% mass'''
+* '''+20% power draw'''<ref name="inara-double-screaming" />
+
+[[Marsha Hicks]] also provides Double Screaming through Grade 5, while [[Tod "The Blaster" McQuinn]] provides it through Grade 3.<ref name="inara-double-screaming" />
+
+{{Important|Double Screaming can only be applied to compatible '''Merc Fragment Cannons'''.}}
+
+=== Rapid Phase Multi-Cannon ===
+
+'''Rapid Phase''' dramatically changes Multi-Cannon firing behaviour by increasing projectiles per shot, ammunition capacity, magazine size, and rate of fire while reducing range and adding substantial jitter.<ref name="inara-rapid-phase" />
+
+Nemo can apply Rapid Phase through '''Grade 3'''.
+
+At Grade 3, the current blueprint provides:
+
+* '''+100% rounds per shot'''
+* '''+110% damage per second'''
+* '''-10% damage per projectile'''
+* '''+16.7% rate of fire'''
+* '''+102.4% maximum ammunition'''
+* '''+150% magazine capacity'''
+* '''-25% maximum range'''
+* increased jitter<ref name="inara-rapid-phase" />
+
+[[Tod "The Blaster" McQuinn]] and [[Marsha Hicks]] can take Rapid Phase beyond Nemo's Grade 3 limit to Grade 5.<ref name="inara-rapid-phase" />
+
+{{Important|Rapid Phase can only be applied to compatible '''Merc Multi-Cannons'''.}}
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint.
+
+Nemo can apply Experimental Effects to all three weapon families he supports.
+
+=== Fragment Cannon ===
+
+Available Fragment Cannon Experimental Effects include:<ref name="inara-frag-overcharged">[https://inara.cz/elite/blueprint/52/ Fragment Cannon — Overcharged], Inara.</ref>
+
+* [[Corrosive Shell]]
+* [[Dazzle Shell]]
+* [[Double Braced]]
+* [[Drag Munitions]]
+* [[Flow Control]]
+* [[Incendiary Rounds]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Screening Shell]]
+* [[Stripped Down]]
+
+These effects are also available to compatible Fragment Cannons using the Live-only Double Screaming blueprint.<ref name="inara-double-screaming" />
+
+=== Multi-Cannon ===
+
+Available Multi-Cannon Experimental Effects include:<ref name="inara-multicannon">[https://inara.cz/elite/blueprint/57/ Multi-Cannon — Overcharged], Inara.</ref>
+
+* [[Auto Loader]]
+* [[Corrosive Shell]]
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Incendiary Rounds]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Smart Rounds]]
+* [[Stripped Down]]
+* [[Thermal Shock]]
+
+These effects are also available to compatible Rapid Phase Multi-Cannons.<ref name="inara-rapid-phase" />
+
+=== Plasma Accelerator ===
+
+Available Plasma Accelerator Experimental Effects include:<ref name="inara-plasma">[https://inara.cz/elite/blueprint/87/ Plasma Accelerator — Efficient], Inara.</ref>
+
+* [[Dazzle Shell]]
+* [[Dispersal Field]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Phasing Sequence]]
+* [[Plasma Slug]]
+* [[Stripped Down]]
+* [[Target Lock Breaker]]
+* [[Thermal Conduit]]
+
+{{Field note|Nemo can apply compatible Experimental Effects to a Multi-Cannon or Plasma Accelerator even when its main blueprint has been engineered beyond Nemo's Grade 3 or Grade 2 limit by another Engineer.}}
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Important|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The weapon must be taken to an Engineer who works on that weapon type.}}
+
+== Recommended Engineering ==
+
+Nemo's main value is his '''Grade 5 Fragment Cannon Engineering'''.
+
+Fragment Cannons are short-range weapons that can deliver very high burst damage when enough pellets strike the target. Blueprint choice therefore depends heavily on whether the build prioritises raw damage, burst behaviour, ammunition endurance, or specialised effects.
+
+=== Overcharged Fragment Cannon ===
+
+[[Overcharged Fragment Cannon]] increases direct damage at the cost of additional distributor draw and thermal load.<ref name="inara-frag-overcharged" />
+
+At Grade 5, Overcharged provides:
+
+* '''+70% damage'''
+* '''+35% distributor draw'''
+* '''+15% thermal load'''<ref name="inara-frag-overcharged" />
+
+{{Tip|'''Common general-purpose damage choice: Overcharged'''
+
+For a conventional Fragment Cannon intended primarily to deal heavy close-range damage, [[Overcharged Fragment Cannon|Overcharged]] is a strong general-purpose starting point.
+
+It increases damage without fundamentally changing the weapon's firing pattern, making it easier to fit into a wide range of Fragment Cannon builds.}}
+
+Useful Experimental Effects include:
+
+* [[Screening Shell]] for dramatically faster reloads and improved effectiveness against munitions;
+* [[Drag Munitions]] for disrupting the target's ability to gain thrust from ENG distribution;
+* [[Corrosive Shell]] for reducing target armour hardness and increasing incoming hull damage;
+* [[Incendiary Rounds]] for converting part of the weapon's damage to thermal; and
+* [[Oversized]] for a small additional direct-damage increase.
+
+The best Experimental Effect depends on the role of that particular hardpoint.
+
+=== Double Shot Fragment Cannon ===
+
+[[Double Shot Fragment Cannon|Double Shot]] dramatically increases burst firing behaviour while reducing maximum range.<ref name="inara-double-shot">[https://inara.cz/elite/blueprint/48/ Fragment Cannon — Double Shot], Inara.</ref>
+
+At Grade 5, it provides:
+
+* '''+1400% burst rate of fire'''
+* '''+2 burst size'''
+* '''+6 magazine capacity'''
+* '''-10% maximum range'''<ref name="inara-double-shot" />
+
+{{Field note|Double Shot can produce extremely concentrated bursts, but the additional shots also consume ammunition more rapidly. It is therefore better suited to builds prioritising short-duration burst damage than long combat endurance.}}
+
+=== High Capacity Fragment Cannon ===
+
+[[High Capacity Fragment Cannon|High Capacity]] sacrifices module mass and power draw in exchange for a larger ammunition reserve and magazine.
+
+This can be useful for prolonged PvE sessions where ammunition endurance matters more than maximum damage per shot.
+
+=== Live: Double Screaming ===
+
+For compatible Merc Fragment Cannons, [[Double Screaming Fragment Cannon|Double Screaming]] provides a different high-volume firing profile with substantially increased ammunition and magazine capacity.
+
+It should be treated as a specialised Live-only alternative rather than an automatic replacement for conventional Fragment Cannon blueprints.
+
+== Multi-Cannons ==
+
+Nemo provides conventional Multi-Cannon Engineering only through '''Grade 3'''.
+
+For intermediate Engineering, [[Overcharged Multi-Cannon|Overcharged]] remains useful for increasing direct damage.
+
+For full Grade 5 conventional Multi-Cannon Engineering, use:
+
+* [[Tod "The Blaster" McQuinn]]; or
+* [[Marsha Hicks]] in Colonia.
+
+Nemo remains useful for applying Multi-Cannon Experimental Effects even when another Engineer performs the Grade 5 blueprint work.
+
+== Plasma Accelerators ==
+
+Nemo's Plasma Accelerator Engineering stops at '''Grade 2'''.
+
+This can be useful early in progression or for applying Experimental Effects, but maximum-grade Plasma Accelerator Engineering should normally be performed by:
+
+* [[Bill Turner]] in the Bubble; or
+* [[Etienne Dorn]] in Colonia.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Nemo, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Overcharged Fragment Cannon]] is a strong general-purpose blueprint to consider pinning at Nemo.
+
+Nemo provides it through '''Grade 5''', while his conventional Multi-Cannon and Plasma Accelerator Engineering stops at lower grades.
+
+For Commanders who regularly use a different Fragment Cannon configuration, [[Double Shot Fragment Cannon|Double Shot]], [[High Capacity Fragment Cannon|High Capacity]], or another Grade 5 Fragment blueprint may be a better fit.}}
+
+Nemo is one of only two current Engineers providing conventional Fragment Cannon Engineering through Grade 5; the other is [[Marsha Hicks]] in Colonia.<ref name="inara-engineers" />
+
+This makes one of Nemo's Fragment Cannon blueprints the most natural long-term use of his pin.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Effects such as [[Screening Shell]], [[Drag Munitions]], and [[Corrosive Shell]] still require visiting an appropriate Engineer workshop.}}
+
+== What Nemo Cannot Fully Engineer ==
+
+Nemo provides maximum-grade Engineering for Fragment Cannons but not for his other conventional weapon families.
+
+His maximum grades are:
+
+* '''Fragment Cannon:''' Grade 5
+* '''Multi-Cannon:''' Grade 3
+* '''Plasma Accelerator:''' Grade 2<ref name="inara-nemo" />
+
+For higher-grade Multi-Cannon Engineering:
+
+* [[Tod "The Blaster" McQuinn]] provides '''Grade 5 Multi-Cannon''' Engineering in the Bubble.
+* [[Marsha Hicks]] provides '''Grade 5 Multi-Cannon''' Engineering in Colonia.<ref name="inara-engineers" />
+
+For higher-grade Plasma Accelerator Engineering:
+
+* [[Bill Turner]] provides '''Grade 5 Plasma Accelerator''' Engineering in the Bubble.
+* [[Etienne Dorn]] provides '''Grade 5 Plasma Accelerator''' Engineering in Colonia.<ref name="inara-engineers" />
+
+For Grade 5 Fragment Cannon Engineering:
+
+* Zacariah Nemo provides Grade 5 in the Bubble.
+* [[Marsha Hicks]] provides Grade 5 in Colonia.
+* [[Tod "The Blaster" McQuinn]] stops at Grade 3.<ref name="inara-engineers" />
+
+In Live, [[Marsha Hicks]] also provides Grade 5 Double Screaming Fragment Cannon Engineering, while Nemo provides the same blueprint through Grade 5.<ref name="inara-double-screaming" />
+
+Nemo is therefore primarily valuable as the '''Bubble's Grade 5 Fragment Cannon specialist'''.
+
+== What Next? ==
+
+Zacariah Nemo is currently the end of his active Engineer referral branch and does not lead to another ship Engineer.
+
+The other branches from [[Elvira Martuuk]] lead to [[Marco Qwent]] and [[Mel Brandon]].
+
+{{What next|title=Continue Engineering|
+* '''Power Plant progression and further Bubble Engineers:''' [[Marco Qwent]]
+* '''Broad Grade 5 Engineering in Colonia:''' [[Mel Brandon]]
+* '''Previous Engineer:''' [[Elvira Martuuk]]
+* '''Grade 5 Multi-Cannons:''' [[Tod "The Blaster" McQuinn]]
+* '''Grade 5 Plasma Accelerators:''' [[Bill Turner]]
+* '''Alternative Grade 5 Fragment Cannons in Colonia:''' [[Marsha Hicks]]
+* '''Gain the invitation:''' [[Party of Yoru]]
+* '''Raise faction reputation:''' [[Minor Faction Reputation]]
+* '''Get the unlock commodity:''' [[Xihe Biomorphic Companions]]
+* '''Engineer Fragment Cannons:''' [[Fragment Cannon Engineering]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

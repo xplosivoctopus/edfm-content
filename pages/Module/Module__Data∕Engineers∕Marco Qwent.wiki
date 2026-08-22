@@ -1,0 +1,66 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Marco Qwent
+Namespace: 828
+Page ID: 399
+Revision ID: 1161
+Timestamp: 2026-08-20T22:09:01Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Marco_Qwent
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Marco Qwent",
+	"engineer_scope": "ship",
+	"image": "Marcoqwent.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Sirius",
+	"body": null,
+	"facility": "Qwent Research Base",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Power Plant",
+		"Power Distributor"
+	],
+	"max_grade": "Grade 4",
+	"prerequisite_engineer": "Elvira Martuuk",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Elvira Martuuk",
+	"invitation_requirement": "Allied reputation with Sirius Corporation; Sirius system permit required",
+	"meeting_requirement": "Become Allied with Sirius Corporation and obtain the Sirius system permit.",
+	"meeting_links": [
+		{
+			"text": "Sirius system",
+			"target": "Sirius"
+		}
+	],
+	"access_note": "Sirius is a permit-locked system — the system permit is required in addition to Sirius Corporation's Engineer invitation.",
+	"access_note_links": [
+		{
+			"text": "Sirius",
+			"target": "Sirius"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 25,
+		"item": "Modular Terminals"
+	},
+	"engineering": [
+		{
+			"grade": 4,
+			"modules": [
+				"Power Plant"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Power Distributor"
+			]
+		}
+	],
+	"colonia": false
+}

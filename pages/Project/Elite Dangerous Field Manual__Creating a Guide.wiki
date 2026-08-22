@@ -1,0 +1,29 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Creating a Guide
+Namespace: 4
+Page ID: 209
+Revision ID: 312
+Timestamp: 2026-08-07T22:20:39Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Creating_a_Guide
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How to write a Field Procedure (guide) article on EDFM.
+
+== A guide is not a second encyclopedia article ==
+If the subject already has a Main-namespace reference article (e.g. [[Broo Tarquin]], [[Multi-Cannon]]), don't re-explain what it is, what it specialises in, or its lore here — link to the reference article and keep this page to the actionable checklist. [[Unlocking Broo Tarquin]] is the worked example: it never restates Broo Tarquin's specialties, only what a commander needs to do to reach him.
+
+== Title ==
+Flat, human-readable, action-shaped title — e.g. <code>[[Unlocking Broo Tarquin]]</code>, not <code>Guide:Unlocking Broo Tarquin</code>. Same no-namespace convention as every other article on EDFM.
+
+== Starting from the skeleton ==
+Create the page and, as your first edit, enter <code><nowiki>{{subst:New guide page}}</nowiki></code>, then fill in the placeholders. The skeleton's sections are: Objective, Prerequisites, Required Materials/Equipment/Access, Estimated Time, Step-by-Step Procedure, Expected Result, Common Mistakes, Troubleshooting, Related Reference Pages, Relevant External Tools, Sources. Only include a section if it actually applies — an empty "Estimated Time" saying "not applicable" is fine, but don't pad a section that has nothing real to say.
+
+== Cross-link both ways ==
+Once your guide exists, add a link to it from the reference article's Related Guides section (see how [[Broo Tarquin]] links to [[Unlocking Broo Tarquin]]) — a guide that nothing points to won't get found.
+
+== Don't invent steps ==
+Same rule as everywhere else on EDFM: leave a step, quantity, or requirement as "to be added" until it's actually checked, rather than guessing at something plausible. See [[Elite Dangerous Field Manual:Source Quality Guide]].
+
+{{Related articles|[[Elite Dangerous Field Manual:Creating an Article]] [[Elite Dangerous Field Manual:Editorial Policy]] [[Unlocking Broo Tarquin]]}}

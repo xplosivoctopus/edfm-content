@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Thargoid Pulse Neutraliser
+Namespace: 828
+Page ID: 611
+Revision ID: 1398
+Timestamp: 2026-08-21T00:00:56Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Thargoid_Pulse_Neutraliser
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Thargoid Pulse Neutraliser",
+}

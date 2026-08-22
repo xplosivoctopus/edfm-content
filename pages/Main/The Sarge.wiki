@@ -1,0 +1,411 @@
+<!--
+EDFM current-content archive export.
+Title: The Sarge
+Namespace: 0
+Page ID: 120
+Revision ID: 1458
+Timestamp: 2026-08-21T14:38:52Z
+Source URL: https://edfieldmanual.com/wiki/The_Sarge
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 Cannon and limpet-controller specialist based at The Beach in Beta-3 Tucani, reached through Juri Ishmaak.
+}}
+
+{{Engineer infobox}}
+
+'''The Sarge''' is a ship Engineer based at '''The Beach''' in the [[Beta-3 Tucani]] system. He is reached through [[Juri Ishmaak]] and specialises in Cannons and several types of limpet controller.<ref name="inara-sarge">[https://inara.cz/elite/engineer/17/ The Sarge — Engineer], Inara.</ref>
+
+The Sarge provides '''Grade 5 Cannon Engineering''' and '''Grade 5 Engineering for Collector, Fuel Transfer, Hatch Breaker, and Prospector Limpet Controllers'''. He also provides Rail Gun Engineering through Grade 3.<ref name="inara-sarge" />
+
+In Live, his Rail Gun coverage includes the Operations-era '''Enduring Feedback''' blueprint through Grade 3 for compatible Merc modules.<ref name="inara-enduring">[https://inara.cz/elite/blueprint/216/ Rail Gun — Enduring Feedback], Inara.</ref>
+
+== Location ==
+
+* '''System:''' [[Beta-3 Tucani]]
+* '''Facility:''' [[The Beach]]
+* '''Body:''' Beta-3 Tucani 2 b a
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Juri Ishmaak]]
+* '''System permit required:''' No
+
+The Beach is a surface Engineer base on '''Beta-3 Tucani 2 b a'''.<ref name="inara-beach">[https://inara.cz/elite/station/55497/ The Beach — Station], Inara.</ref>
+
+== How to Discover The Sarge ==
+
+The Sarge is discovered through [[Juri Ishmaak]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Juri to receive his referral to The Sarge.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Juri can also refer Commanders to [[Colonel Bris Dekker]]. The Sarge and Bris Dekker are therefore parallel referrals rather than one being required for the other.
+
+{{Field note|Receiving Juri's referral makes The Sarge known to you. His separate Federal Navy rank requirement must still be satisfied before his workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Reach the '''Federal Navy rank of Midshipman''' or higher.<ref name="inara-sarge" />
+
+This is a Federal Navy progression requirement, not simply reputation with a Federation-aligned minor faction.
+
+See [[Federal Navy Rank]] for how Federal Navy progression works, how rank progress is earned, and how to check your current rank.
+
+{{Important|The requirement is specifically '''Midshipman or higher with the Federal Navy'''. Ordinary Federation reputation by itself does not replace the naval-rank requirement.}}
+
+== How to Unlock The Sarge ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Juri Ishmaak]].
+* Reach '''Midshipman''' or higher in [[Federal Navy Rank]].
+* Obtain '''50 units of [[Aberrant Shield Pattern Analysis]]'''.
+* Donate the 50 Aberrant Shield Pattern Analysis to The Sarge.
+{{Important|'''Aberrant Shield Pattern Analysis is Encoded Engineering data.''' It is not a commodity and does '''not''' occupy cargo space.}}
+
+For the complete step-by-step process, see [[Unlocking The Sarge]].
+
+== Obtaining Aberrant Shield Pattern Analysis ==
+
+[[Aberrant Shield Pattern Analysis]] is an '''Encoded''' material in the Shield Data family.<ref name="inara-aberrant" />
+
+Current material data lists its normal acquisition sources as:
+
+* scanning combat-oriented ships; and
+* mission rewards.<ref name="inara-aberrant" />
+
+It has a higher chance of appearing from appropriate ship scans in systems in a '''Boom''' state.<ref name="inara-aberrant" />
+
+Because it is an Encoded material, it can also be obtained by trading other Encoded materials at an [[Encoded Material Trader]].
+
+{{Tip|If you already have a large stock of higher-value or unwanted Encoded data, using an Encoded Material Trader can be considerably faster than attempting to gather all 50 Aberrant Shield Pattern Analysis directly from ship scans.}}
+
+See [[Aberrant Shield Pattern Analysis]] for acquisition methods and [[Material Traders]] for material-conversion mechanics.
+
+{{Field note|You can collect the required data before travelling to Beta-3 Tucani. Unlike commodity-based Engineer unlocks, no cargo rack is required to transport it.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after The Sarge is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-sarge" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with The Sarge can be increased by:
+
+* crafting Engineering modifications at The Beach;
+* selling exploration data at The Beach; or
+* handing in bounty vouchers at The Beach.<ref name="inara-sarge" />
+
+Higher Engineer reputation gives access to the higher grades The Sarge supports for each blueprint.
+
+The Sarge does '''not''' currently provide a referral to another Engineer.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|Selling exploration data at The Beach can be useful if you want to increase The Sarge's reputation without spending Engineering materials exclusively on repeated modifications.}}
+
+== Engineer Unlock Chain ==
+
+The Sarge belongs to the [[Felicity Farseer]] branch of the ship Engineer network.
+
+The route to The Sarge is:
+
+<pre>
+Felicity Farseer
+└── Juri Ishmaak
+    └── The Sarge
+</pre>
+
+Juri also provides a referral to [[Colonel Bris Dekker]]:
+
+<pre>
+Felicity Farseer
+└── Juri Ishmaak
+    ├── Colonel Bris Dekker
+    └── The Sarge
+</pre>
+
+The Sarge does '''not''' currently lead to another Engineer in the active ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|The Sarge and [[Colonel Bris Dekker]] are parallel referrals from [[Juri Ishmaak]]. Unlocking one is not required before unlocking the other.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+The Sarge's current Engineering coverage is shown below. The listed grade is the highest grade he can apply to that module.<ref name="inara-sarge" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Cannon]]
+|
+* Efficient
+* High Capacity
+* Lightweight
+* Long Range
+* Overcharged
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Collector Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Fuel Transfer Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Hatch Breaker Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Prospector Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Rail Gun]]
+|
+* Enduring Feedback <small>(Live only; compatible Merc modules)</small>
+* High Capacity
+* Lightweight
+* Long Range
+* Short Range
+* Sturdy
+| '''Grade 3'''
+|}
+
+The Sarge's maximum-grade specialties are therefore '''Cannons and four types of limpet controller'''.
+
+His Rail Gun Engineering stops at Grade 3.
+
+== Operations-era Enduring Feedback Rail Gun ==
+
+The Operations-era Engineering system added the '''Enduring Feedback''' Rail Gun blueprint.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+Enduring Feedback trades damage, mass, and power requirements for changes to firing rate, thermal load, range, ammunition capacity, and reload behaviour. It also incorporates a '''Feedback Cascade''' effect.<ref name="inara-enduring" />
+
+The Sarge can apply Enduring Feedback through '''Grade 3'''.
+
+For Grade 4 and Grade 5 Enduring Feedback Engineering, use:
+
+* [[Tod "The Blaster" McQuinn]]; or
+* [[Etienne Dorn]].<ref name="inara-enduring" />
+
+{{Important|'''Live only:''' Enduring Feedback can only be applied to compatible '''Merc Rail Guns''' and requires [[Merc Coin]] as part of its Engineering cost.<ref name="inara-enduring" />}}
+
+{{Field note|The built-in Feedback Cascade property is part of the Enduring Feedback blueprint itself. [[Feedback Cascade]] also exists separately as a conventional Rail Gun Experimental Effect.}}
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint.
+
+Among The Sarge's supported module types, '''Cannons and Rail Guns''' support Experimental Effects.
+
+Collector, Fuel Transfer, Hatch Breaker, and Prospector Limpet Controllers do not currently have Experimental Effects.<ref name="inara-collector-light">[https://inara.cz/elite/blueprint/108/ Collector Limpet Controller — Lightweight], Inara.</ref>
+
+=== Cannon ===
+
+Available Cannon Experimental Effects include:<ref name="inara-cannon">[https://inara.cz/elite/blueprint/47/ Cannon — Overcharged], Inara.</ref>
+
+* [[Auto Loader]]
+* [[Dispersal Field]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Force Shell]]
+* [[High Yield Shell]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Smart Rounds]]
+* [[Stripped Down]]
+* [[Thermal Cascade]]
+
+=== Rail Gun ===
+
+Available Rail Gun Experimental Effects include:<ref name="inara-railgun">[https://inara.cz/elite/blueprint/62/ Rail Gun — Long Range], Inara.</ref>
+
+* [[Double Braced]]
+* [[Feedback Cascade]]
+* [[Flow Control]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Plasma Slug]]
+* [[Stripped Down]]
+* [[Super Penetrator]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|The Sarge can apply a compatible Rail Gun Experimental Effect even to a Rail Gun whose main blueprint has been engineered beyond his Grade 3 limit by another Rail Gun Engineer.}}
+
+{{Important|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The weapon must be taken to an Engineer who works on that weapon type.}}
+
+== Recommended Engineering ==
+
+The Sarge has two distinct roles: maximum-grade Cannon Engineering and maximum-grade limpet-controller Engineering.
+
+== Cannons ==
+
+The Sarge provides every conventional Cannon blueprint through '''Grade 5'''.
+
+Cannons have high individual shot damage and armour penetration but relatively slow projectiles, so blueprint choice depends heavily on the intended range and weapon role.
+
+=== Overcharged ===
+
+[[Overcharged Cannon]] increases direct damage at the cost of additional distributor draw and thermal load.
+
+{{Tip|'''Common damage-focused choice: Overcharged'''
+
+For a Cannon intended primarily to deliver heavy direct damage, Overcharged is a strong general-purpose starting point.
+
+The best Experimental Effect then depends on what the Cannon is intended to do.}}
+
+Useful Cannon Experimental Effects include:
+
+* [[Auto Loader]] for reloading while firing;
+* [[Dispersal Field]] for disrupting enemy gimbal and turret tracking;
+* [[Force Shell]] for physically pushing targets;
+* [[High Yield Shell]] for specialised internal-module damage;
+* [[Oversized]] for a small additional damage increase; and
+* [[Thermal Cascade]] for applying heat pressure to shielded targets.
+
+=== Long Range ===
+
+[[Long Range Cannon]] is useful where the Cannon's relatively slow projectile velocity and limited effective engagement distance are a problem.
+
+Increasing projectile speed can make it easier to land shots against manoeuvring targets, particularly at greater distances.
+
+The appropriate choice between Long Range and a direct-damage blueprint therefore depends on how the weapon is actually being used.
+
+== Limpet Controllers ==
+
+The Sarge provides Grade 5 Engineering for:
+
+* Collector Limpet Controllers;
+* Fuel Transfer Limpet Controllers;
+* Hatch Breaker Limpet Controllers; and
+* Prospector Limpet Controllers.
+
+All four use the same three conventional blueprint families:
+
+* '''Lightweight'''
+* '''Reinforced'''
+* '''Shielded'''
+
+=== Lightweight ===
+
+[[Lightweight Collector Limpet Controller|Lightweight]] substantially reduces controller mass at the cost of module integrity.
+
+For a Collector Limpet Controller, Grade 5 Lightweight currently provides:
+
+* '''-85% mass'''
+* '''-50% integrity'''<ref name="inara-collector-light" />
+
+{{Tip|'''Common utility choice: Lightweight'''
+
+For mining, exploration, salvage, and other ships where the limpet controller is not expected to take significant direct damage, Lightweight is often the most practically useful modification.
+
+Large limpet controllers can contribute substantial module mass, so the Grade 5 mass reduction can be significant.}}
+
+Reinforced and Shielded are more specialised options for builds where controller survivability matters more than reducing mass.
+
+{{Field note|Each limpet-controller type has its own blueprint. Pinning Lightweight Collector Limpet Controller does not allow Remote Engineering of a Prospector, Fuel Transfer, or Hatch Breaker Limpet Controller.}}
+
+== Rail Guns ==
+
+The Sarge provides conventional Rail Gun Engineering only through '''Grade 3'''.
+
+He can still be useful for intermediate Rail Gun Engineering or for applying Experimental Effects, but maximum-grade conventional Rail Gun builds should normally use [[Tod "The Blaster" McQuinn]] or [[Etienne Dorn]].
+
+Common specialised Rail Gun Experimental Effects include:
+
+* [[Feedback Cascade]] for disrupting Shield Cell Bank operation;
+* [[Super Penetrator]] for damaging modules along the projectile's path; and
+* [[Plasma Slug]] for drawing ammunition from the ship's fuel supply.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with The Sarge, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' If you use Cannons, [[Overcharged Cannon]] is a strong blueprint to consider pinning at The Sarge.
+
+The Sarge is the primary Bubble Engineer providing conventional Cannon Engineering through '''Grade 5''', while his Grade 5 limpet-controller blueprints are also available from several other Engineers.
+
+For Commanders who rarely or never use Cannons, a frequently used Grade 5 limpet-controller blueprint — particularly [[Lightweight Collector Limpet Controller]] — may provide more practical value instead.}}
+
+The best pin therefore depends strongly on whether Cannons form part of your normal ship builds.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Cannon and Rail Gun Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What The Sarge Cannot Fully Engineer ==
+
+The Sarge provides maximum-grade Engineering for most of the module types he supports.
+
+His maximum grades are:
+
+* '''Cannon:''' Grade 5
+* '''Collector Limpet Controller:''' Grade 5
+* '''Fuel Transfer Limpet Controller:''' Grade 5
+* '''Hatch Breaker Limpet Controller:''' Grade 5
+* '''Prospector Limpet Controller:''' Grade 5
+* '''Rail Gun:''' Grade 3<ref name="inara-sarge" />
+
+For Grade 5 Rail Gun Engineering:
+
+* [[Tod "The Blaster" McQuinn]] provides Grade 5 conventional Rail Gun Engineering in the Bubble.
+* [[Etienne Dorn]] provides Grade 5 Rail Gun Engineering in Colonia.<ref name="inara-engineers" />
+
+For alternative Grade 5 limpet-controller Engineering:
+
+* [[Tiana Fortune]] provides Grade 5 Collector, Fuel Transfer, Hatch Breaker, and Prospector Limpet Controller Engineering.
+* [[Marsha Hicks]] provides Grade 5 Collector, Fuel Transfer, Hatch Breaker, and Prospector Limpet Controller Engineering in Colonia.<ref name="inara-engineers" />
+
+For Grade 5 Cannon Engineering, [[Marsha Hicks]] is the principal Colonia alternative.
+
+The Sarge is therefore particularly valuable as the '''Bubble's Grade 5 Cannon specialist''' while also providing maximum-grade access to four major limpet-controller types.
+
+== What Next? ==
+
+The Sarge is the end of his Engineer referral branch and does not currently introduce another Engineer.
+
+The other branch from Juri Ishmaak leads to [[Colonel Bris Dekker]].
+
+{{What next|title=Continue Engineering|
+* '''Parallel referral from Juri Ishmaak:''' [[Colonel Bris Dekker]]
+* '''Previous Engineer:''' [[Juri Ishmaak]]
+* '''Grade 5 Rail Guns:''' [[Tod "The Blaster" McQuinn]]
+* '''Alternative Grade 5 limpet and Cannon Engineering in Colonia:''' [[Marsha Hicks]]
+* '''Alternative Grade 5 limpet Engineering:''' [[Tiana Fortune]]
+* '''Reach the invitation requirement:''' [[Federal Navy Rank]]
+* '''Get the unlock material:''' [[Aberrant Shield Pattern Analysis]]
+* '''Find an Encoded Material Trader:''' [[Material Traders]]
+* '''Engineer Cannons:''' [[Cannon Engineering]]
+* '''Engineer limpet controllers:''' [[Limpet Controller Engineering]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Weapon Engineering]]
+[[Category:Optional Internal Engineering]]
+[[Category:Mining Engineering]]
+[[Category:Engineering]]

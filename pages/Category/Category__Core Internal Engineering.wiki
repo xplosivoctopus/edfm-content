@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Core Internal Engineering
+Namespace: 14
+Page ID: 91
+Revision ID: 163
+Timestamp: 2026-08-07T20:12:41Z
+Source URL: https://edfieldmanual.com/wiki/Category:Core_Internal_Engineering
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Engineering blueprints and modules for core internal compartments, such as power plants, thrusters, and frame shift drives.
+
+[[Category:Engineering]]

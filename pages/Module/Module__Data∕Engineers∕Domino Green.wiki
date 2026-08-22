@@ -1,0 +1,58 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Domino Green
+Namespace: 828
+Page ID: 418
+Revision ID: 1202
+Timestamp: 2026-08-20T23:54:15Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Domino_Green
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Domino Green",
+	"image": "Dominogreen.png",
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Orishis",
+	"body": "Orishis 4",
+	"facility": "The Jackrabbit",
+	"region": null,
+	"allegiance": null,
+	"discovery": {
+		"type": "public"
+	},
+	"unlock": {
+		"type": "travel",
+		"distance": 100,
+		"unit": "ly",
+		"method": {
+			"name": "shuttles",
+			"target": "Apex Interstellar"
+		}
+	},
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_display": "None — independent starting Odyssey Engineer",
+	"referrals": [
+		{
+			"engineer": "Kit Fowler",
+			"requirement": {
+				"type": "provide",
+				"quantity": 5,
+				"item": "Push"
+			}
+		}
+	],
+	"modifications": {
+		"suit": [
+			"Extra Backpack Capacity",
+			"Reduced Tool Battery Consumption",
+			"Enhanced Tracking"
+		],
+		"weapon": [
+			"Greater Range",
+			"Stability"
+		]
+	},
+	"colonia": false
+}

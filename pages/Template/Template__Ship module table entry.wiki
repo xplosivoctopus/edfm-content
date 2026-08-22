@@ -1,0 +1,21 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Ship module table entry
+Namespace: 10
+Page ID: 433
+Revision ID: 1220
+Timestamp: 2026-08-20T23:58:46Z
+Source URL: https://edfieldmanual.com/wiki/Template:Ship_module_table_entry
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<includeonly><span class="edfm-ship-module-entry">[[{{{1}}}]]</span></includeonly><noinclude>
+== Usage ==
+Formats a ship module name for sortable directory tables.
+
+<pre>{{Ship module table entry|Beam Laser}}</pre>
+
+Use the table cell's <code>data-sort-value</code> attribute so rows sort by the module name.
+
+[[Category:Templates]]
+</noinclude>

@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Thargoids
+Namespace: 0
+Page ID: 202
+Revision ID: 297
+Timestamp: 2026-08-07T22:14:19Z
+Source URL: https://edfieldmanual.com/wiki/Thargoids
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Thargoid]]

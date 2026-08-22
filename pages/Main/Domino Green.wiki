@@ -1,0 +1,541 @@
+<!--
+EDFM current-content archive export.
+Title: Domino Green
+Namespace: 0
+Page ID: 131
+Revision ID: 1470
+Timestamp: 2026-08-21T14:39:01Z
+Source URL: https://edfieldmanual.com/wiki/Domino_Green
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Odyssey Engineer
+ |deck=A suit-utility and weapon-performance specialist based at The Jackrabbit in Orishis, and the starting point of the Kit Fowler referral chain.
+}}
+
+{{Engineer infobox}}
+
+'''Domino Green''' is an Odyssey Engineer based at '''The Jackrabbit''' in the [[Orishis]] system. She is an independent starting Engineer and does not require a referral from another Engineer.<ref name="inara-domino">[https://inara.cz/elite/engineer/27/ Domino Green — Engineer], Inara.</ref>
+
+Domino provides [[Enhanced Tracking]], [[Extra Backpack Capacity]], [[Greater Range]], [[Reduced Tool Battery Consumption]], and [[Stability]].<ref name="inara-domino" />
+
+{{Field note|Domino is one of '''three independent starting Odyssey Engineers in the Bubble''', alongside [[Hero Ferrari]] and [[Jude Navarro]]. All three are common knowledge and can be pursued without first unlocking another Odyssey Engineer.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>}}
+
+Odyssey Engineering is separate from ship Engineering. Suits and handheld weapons have equipment grades and modification slots rather than the Grade 1–5 Engineer-reputation progression used by ship Engineers.
+
+== Location ==
+
+* '''System:''' [[Orishis]]
+* '''Settlement:''' [[The Jackrabbit]]
+* '''Body:''' Orishis 4
+* '''Distance from arrival:''' approximately 988 Ls
+* '''Engineer type:''' Odyssey Engineer
+* '''Prerequisite Engineer:''' None
+* '''System permit required:''' No
+
+The Jackrabbit is a surface Engineer base on '''Orishis 4'''.<ref name="inara-jackrabbit">[https://inara.cz/elite/station/237312/ The Jackrabbit — Station], Inara.</ref>
+
+The facility includes a concourse, Pioneer Supplies, bartender, Frontline Solutions, ship services, and Domino's Engineer workshop.<ref name="inara-jackrabbit" />
+
+== How to Discover Domino Green ==
+
+Domino Green is '''common knowledge''' and does not require a referral from another Engineer.<ref name="inara-domino" />
+
+She can therefore be pursued independently of the other starting Odyssey Engineer branches.
+
+{{Field note|Hero Ferrari, Jude Navarro, and Domino Green do not need to be unlocked in any particular order. Progress toward their requirements can be worked on independently.}}
+
+== How to Receive an Invitation ==
+
+There is no separate invitation requirement for Domino Green.
+
+Her access requirement is to travel at least '''100 light-years in shuttles'''.<ref name="inara-domino" />
+
+== How to Unlock Domino Green ==
+
+The unlock requirements are summarized in the discovery and invitation sections above.
+{{Important|The requirement is '''100 light-years travelled by shuttle'''. Flying the same distance in your own ship, travelling in an SRV, or walking on a planetary surface does not substitute for the shuttle requirement.}}
+{{Field note|The 100 light-years are cumulative. They do not need to be completed as a single 100-light-year booking.}}
+
+For the complete step-by-step process, see [[Unlocking Domino Green]].
+
+== Odyssey Engineering at Domino Green ==
+
+Odyssey Engineering works differently from ship Engineering.
+
+Suits and handheld weapons have an '''equipment grade'''. Higher grades provide additional modification slots:
+
+{| class="wikitable"
+! Equipment grade
+! Modification slots
+|-
+| Grade 1
+| 0
+|-
+| Grade 2
+| 1
+|-
+| Grade 3
+| 2
+|-
+| Grade 4
+| 3
+|-
+| Grade 5
+| 4
+|}
+
+Domino installs individual modifications into those available slots.
+
+Her modifications do '''not''' progress through Grade 1–5 Engineer reputation.
+
+{{Important|A Grade 5 Maverick Suit does not receive a "Grade 5 Extra Backpack Capacity" modification. Grade 5 describes the suit itself and provides four modification slots; Extra Backpack Capacity occupies one of those slots as a single permanent modification.}}
+
+See [[Odyssey Engineering]] for equipment grades, modification slots, upgrading, and Engineering-material mechanics.
+
+== Available Engineering ==
+
+Domino currently provides five Odyssey modifications.<ref name="inara-domino" />
+
+{| class="wikitable"
+! Modification
+! Equipment
+! Primary effect
+|-
+| [[Enhanced Tracking]]
+| Suit
+| Increases the range and speed of the suit's basic scan function
+|-
+| [[Extra Backpack Capacity]]
+| Suit
+| Doubles carried Data, Component, and Item capacity
+|-
+| [[Greater Range]]
+| Handheld weapon
+| Increases effective weapon range by 50%
+|-
+| [[Reduced Tool Battery Consumption]]
+| Suit
+| Reduces energy consumption from applicable suit-tool functions
+|-
+| [[Stability]]
+| Handheld weapon
+| Reduces weapon recoil
+|}
+
+== Enhanced Tracking ==
+
+'''Enhanced Tracking''' improves the suit's basic line-of-sight analysis function, allowing NPCs to be analysed from farther away and improving the speed of that analysis.<ref name="inara-domino" />
+
+The current unambiguous range modifier is:
+
+* '''+100% line-of-sight analysis range'''<ref name="inara-domino" />
+
+The current recipe is:
+
+* 5 [[Topographical Surveys]]
+* 5 [[Stellar Activity Logs]]
+* 5 [[Spectral Analysis Data]]
+* 3 [[Transmitter]]
+* 3 [[Circuit Board]]
+* '''750,000 CR'''<ref name="inara-domino" />
+
+Other Engineers currently providing Enhanced Tracking include:
+
+* [[Oden Geiger]]
+* [[Rosa Dayette]]<ref name="inara-domino" />
+
+{{Tip|'''EDFM recommendation:''' Enhanced Tracking is primarily a settlement-operations and infiltration modification.
+
+Its doubled analysis range makes it easier to identify and track NPCs from a safer distance before moving through an occupied settlement.}}
+
+Once an NPC has been analysed, the suit can continue displaying useful information about that person through the radar interface.
+
+This can be helpful when:
+
+* locating a mission target;
+* identifying guards before entering restricted areas;
+* planning a covert route;
+* keeping track of settlement personnel; or
+* identifying an NPC before attempting to clone an access profile.
+
+{{Field note|Current external blueprint data describes Enhanced Tracking as increasing both '''range and speed'''. The +100% analysis-range value is clear, but the displayed analysis-time field is internally inconsistent with the stated faster-analysis effect. EDFM therefore does not assign a numerical scan-speed percentage here.<ref name="inara-domino" />}}
+
+Enhanced Tracking affects the suit's personnel-analysis function; it should not be treated as a general increase to every scanner or tool carried by the suit.
+
+== Extra Backpack Capacity ==
+
+'''Extra Backpack Capacity''' doubles the capacity of all three sections of the suit's material backpack.<ref name="inara-domino" />
+
+The current modifiers are:
+
+* '''+100% Data capacity'''
+* '''+100% Component capacity'''
+* '''+100% Item capacity'''<ref name="inara-domino" />
+
+The current recipe is:
+
+* 5 [[Weapon Inventory]]
+* 5 [[Chemical Inventory]]
+* 5 [[Digital Designs]]
+* 5 [[Epoxy Adhesive]]
+* 3 [[Memory Chip]]
+* '''750,000 CR'''<ref name="inara-domino" />
+
+Other Engineers currently providing Extra Backpack Capacity include:
+
+* [[Wellington Beck]]
+* [[Rosa Dayette]]<ref name="inara-domino" />
+
+{{Tip|'''EDFM recommendation:''' Extra Backpack Capacity is one of Domino's strongest general-purpose modifications for a [[Maverick Suit]].
+
+A Maverick used for settlement looting, material collection, salvage, and Restore missions regularly fills its backpack. Doubling all three material-capacity categories substantially reduces trips back to a ship, SRV, or storage interface.}}
+
+The modification increases the suit's Engineering-material backpack. It does not increase weapon ammunition; [[Extra Ammo Capacity]] is a separate suit modification.
+
+=== Material collection ===
+
+Extra Backpack Capacity is particularly valuable while gathering Odyssey Engineering materials because it allows more:
+
+* physical Goods and Assets;
+* Components; and
+* downloaded Data
+
+to be carried before transferring them to storage.
+
+{{Field note|The modification affects the suit's '''temporary carried backpack capacity'''. It does not increase the Commander's total material-storage limits.}}
+
+== Greater Range ==
+
+'''Greater Range''' increases a handheld weapon's effective range by '''50%'''.<ref name="inara-domino" />
+
+The material recipe depends on the weapon manufacturer.
+
+=== Kinematic Armaments weapons ===
+
+The current recipe is:
+
+* 10 [[Ballistics Data]]
+* 10 [[Topographical Surveys]]
+* 10 [[Metal Coil]]
+* 10 [[RDX]]
+* 5 [[Weapon Component]]
+* '''500,000 CR'''<ref name="inara-domino" />
+
+=== Manticore weapons ===
+
+The current recipe is:
+
+* 10 [[Chemical Formulae]]
+* 15 [[Mineral Survey]]
+* 10 [[Motor]]
+* 10 [[Electromagnet]]
+* 5 [[Electrical Fuse]]
+* '''500,000 CR'''<ref name="inara-domino" />
+
+=== Takada weapons ===
+
+The current recipe is:
+
+* 5 [[Stellar Activity Logs]]
+* 8 [[Risk Assessments]]
+* 8 [[Micro Transformer]]
+* 3 [[Optical Lens]]
+* 3 [[Circuit Board]]
+* '''500,000 CR'''<ref name="inara-domino" />
+
+Other Engineers currently providing Greater Range include:
+
+* [[Wellington Beck]]
+* [[Rosa Dayette]]<ref name="inara-domino" />
+
+{{Tip|'''EDFM recommendation:''' Greater Range is most useful on weapons whose normal effective range limits the way they are intended to be used.
+
+It is particularly relevant to weapons configured for outdoor settlement combat or deliberate ranged engagement.}}
+
+Greater Range does not automatically make every weapon better. A close-range weapon whose normal engagement distance is already well inside its effective range may gain more practical value from another modification.
+
+=== Manticore weapons ===
+
+Greater Range can be particularly useful on Manticore plasma weapons because their effective engagement envelope is comparatively important to their handling.
+
+For a weapon deliberately built for distance, Greater Range can also pair with [[Scope]].
+
+{{Important|Odyssey weapon modification slots are permanent and limited. Decide the weapon's intended role before committing a slot solely to extending its range.}}
+
+== Reduced Tool Battery Consumption ==
+
+'''Reduced Tool Battery Consumption''' reduces the suit energy consumed by applicable tool functions.<ref name="inara-domino" />
+
+The current recipe is:
+
+* 5 [[Reactor Output Review]]
+* 3 [[Electrical Fuse]]
+* 5 [[Micro Transformer]]
+* 8 [[Electrical Wiring]]
+* '''500,000 CR'''<ref name="inara-domino" />
+
+Other Engineers currently providing Reduced Tool Battery Consumption include:
+
+* [[Wellington Beck]]
+* [[Rosa Dayette]]<ref name="inara-domino" />
+
+{{Tip|'''EDFM recommendation:''' Reduced Tool Battery Consumption is particularly useful on a [[Maverick Suit]] used heavily for settlement work.
+
+The Maverick's [[Arc Cutter]] and other powered-tool activity make suit-energy management more relevant during prolonged salvage, infiltration, Restore, and material-collection sessions.}}
+
+The modification can also have value on other suits whose powered tools are used frequently.
+
+{{Field note|Current external blueprint data correctly describes the modification as '''reducing tool energy consumption''', but its displayed numerical "tool energy drain multiplier" field does not provide a reliable literal percentage for the reduction. EDFM therefore describes the verified functional effect without assigning an unsupported percentage.<ref name="inara-domino" />}}
+
+=== Reduced Tool Consumption vs Improved Battery Capacity ===
+
+[[Improved Battery Capacity]] and Reduced Tool Battery Consumption solve related but different problems:
+
+* '''Improved Battery Capacity''' increases the suit's entire energy reserve by 50%.
+* '''Reduced Tool Battery Consumption''' specifically reduces energy spent by applicable tool functions.
+
+Improved Battery Capacity is therefore more broadly useful across all suit-energy use, while Reduced Tool Battery Consumption becomes more attractive when powered tools account for a significant portion of the suit's energy consumption.
+
+{{Tip|For a dedicated settlement-looting Maverick, combining '''Extra Backpack Capacity''' with '''Reduced Tool Battery Consumption''' creates a strong utility pairing: one extends how much can be collected, while the other improves endurance during tool-heavy work.}}
+
+== Stability ==
+
+'''Stability''' reduces recoil from a handheld weapon.<ref name="inara-domino" />
+
+The current modifier is:
+
+* '''+30% Stability'''<ref name="inara-domino" />
+
+The current recipe is:
+
+* 5 [[Mining Analytics]]
+* 8 [[Risk Assessments]]
+* 5 [[Viscoelastic Polymer]]
+* 5 [[Micro Hydraulics]]
+* '''500,000 CR'''<ref name="inara-domino" />
+
+Other Engineers currently providing Stability include:
+
+* [[Oden Geiger]]
+* [[Rosa Dayette]]<ref name="inara-domino" />
+
+{{Tip|'''EDFM recommendation:''' Stability is most useful on weapons whose recoil makes repeated shots difficult to keep on target.
+
+Automatic and rapid-fire weapons generally have more opportunity to benefit from recoil reduction than weapons used primarily for isolated deliberate shots.}}
+
+Stability can also complement [[Scope]] or [[Greater Range]] on a weapon intended for sustained accurate fire at longer distances.
+
+{{Field note|Stability addresses '''recoil'''. It is different from [[Improved Hip Fire Accuracy]], which improves the weapon's accuracy when fired without aiming down sights.}}
+
+== Engineer Unlock Chain ==
+
+Domino Green is an independent starting point in the Odyssey Engineer network.
+
+Her branch is:
+
+<pre>
+Domino Green
+└── Kit Fowler
+    └── Yarden Bond
+</pre>
+
+[[Kit Fowler]] is discovered through Domino Green.<ref name="inara-kit">[https://inara.cz/elite/engineer/29/ Kit Fowler — Engineer], Inara.</ref>
+
+Kit subsequently leads to [[Yarden Bond]].<ref name="inara-engineers" />
+
+== Referring Kit Fowler ==
+
+After Domino Green has been unlocked, provide her with '''5 doses of [[Push]]''' to receive the referral to [[Kit Fowler]].<ref name="inara-domino" />
+
+{{Important|Push is '''not required to unlock Domino herself'''.
+
+The two requirements are separate:
+
+* '''Unlock Domino Green:''' travel at least 100 light-years in shuttles.
+* '''Discover Kit Fowler:''' provide Domino with '''5 Push'''.}}
+
+== Obtaining Push ==
+
+[[Push]] is a physical Odyssey '''Good''' described as a recreational drug.<ref name="inara-push">[https://inara.cz/elite/componentitem/10396/ Push — Component], Inara.</ref>
+
+Current material data lists Push at:
+
+* '''Irregular Markers''' points of interest; and
+* '''surface crash sites'''.<ref name="inara-push" />
+
+Because Push is a physical Good rather than Data, the five doses must be carried and handed directly to Domino.
+
+Push is not currently used in ordinary suit or weapon modification recipes; its Engineering-progression use is Domino's referral to Kit Fowler.<ref name="inara-push" />
+
+{{Tip|If you intend to continue this branch, reserve the first '''5 Push''' you obtain rather than selling or discarding them.}}
+
+Bartender trade offers may also provide a way to obtain Push when appropriate offers are available, but bartender inventories and trade opportunities can vary.
+
+Once the five doses have been provided, [[Kit Fowler]] becomes known.
+
+== Continuing to Kit Fowler ==
+
+After Domino refers you to Kit, Kit has a separate unlock requirement.
+
+Current Engineer data lists:
+
+* '''Discover Kit Fowler:''' provide Domino Green with '''5 Push'''.
+* '''Unlock Kit Fowler:''' sell '''5 [[Opinion Polls]]''' to bartenders.
+* '''Discover Yarden Bond:''' provide Kit with '''5 [[Surveillance Equipment]]'''.<ref name="inara-kit" />
+
+{{Field note|Receiving Domino's referral does not automatically unlock Kit Fowler. It only reveals the Engineer and allows you to begin satisfying Kit's own unlock condition.}}
+
+See [[Kit Fowler]] for the complete next step.
+
+== Increasing Engineer Reputation ==
+
+'''Not applicable to Odyssey Engineers in the same way as ship Engineers.'''
+
+Domino Green does not use the Grade 1–5 Engineer-reputation progression found at ship Engineer workshops.
+
+Once Domino has been unlocked, her modifications can be installed provided that:
+
+* the equipment is compatible;
+* the suit or weapon has an unused modification slot; and
+* you possess the required Odyssey materials and credits.
+
+The suit or weapon itself is upgraded separately through [[Pioneer Supplies]].
+
+Likewise, Domino's referral to Kit Fowler is not triggered by increasing Engineer reputation. It is triggered specifically by providing '''5 Push'''.<ref name="inara-domino" />
+
+See [[Odyssey Engineering]] for the complete on-foot Engineering system.
+
+== Experimental Effects ==
+
+'''Not applicable.'''
+
+Odyssey suit and handheld-weapon Engineering does not use the separate ship-module [[Experimental Effects]] system.
+
+Domino's five modifications are themselves the permanent modifications installed onto the equipment.
+
+== Blueprint Pinning ==
+
+'''Not applicable.'''
+
+Odyssey modifications cannot be pinned for [[Remote Engineering]] in the same manner as ship Engineering blueprints.
+
+A suit or weapon must be taken directly to Domino Green or another Odyssey Engineer offering the desired modification.
+
+{{Field note|Unlocking Domino therefore does not make Extra Backpack Capacity, Greater Range, Stability, or her other modifications remotely available through Pioneer Supplies or another station.}}
+
+== Recommended Engineering ==
+
+Domino's modification set is especially useful for utility-focused Maverick suits and ranged weapons.
+
+=== Maverick Suit ===
+
+For a [[Maverick Suit]] used primarily for settlement missions, salvage, material collection, and infiltration:
+
+{{Tip|'''EDFM recommendation:''' [[Extra Backpack Capacity]] is Domino's strongest broadly useful Maverick modification.
+
+Doubling Data, Component, and Item capacity directly improves the suit's primary material-collection role and substantially reduces trips back to storage.}}
+
+[[Reduced Tool Battery Consumption]] is another strong utility choice for a Maverick that spends significant time cutting panels, manipulating settlement systems, and performing other tool-heavy work.
+
+[[Enhanced Tracking]] becomes more valuable on a Maverick designed specifically for occupied-settlement infiltration.
+
+A utility-oriented Maverick could therefore reasonably use all three, depending on the intended role:
+
+* '''Extra Backpack Capacity''' — material collection
+* '''Reduced Tool Battery Consumption''' — tool endurance
+* '''Enhanced Tracking''' — occupied-settlement awareness
+
+The fourth Grade 5 slot can then be reserved for another Engineer's modification such as [[Night Vision]], [[Improved Battery Capacity]], [[Improved Jump Assist]], or [[Quieter Footsteps]].
+
+=== Artemis Suit ===
+
+Domino's suit modifications are generally less central to an exploration-focused [[Artemis Suit]].
+
+Reduced Tool Battery Consumption can help with powered tool use, while Extra Backpack Capacity and Enhanced Tracking normally provide less direct exobiology value than modifications such as:
+
+* [[Night Vision]]
+* [[Improved Battery Capacity]]
+* [[Improved Jump Assist]]
+* [[Increased Sprint Duration]]
+
+=== Dominator Suit ===
+
+A combat-focused [[Dominator Suit]] generally has stronger combat-specific options than Domino's suit modifications.
+
+Enhanced Tracking can have some tactical value, but limited modification slots usually favour survivability, ammunition, mobility, or shield-related upgrades on a dedicated combat suit.
+
+=== Weapons ===
+
+Domino provides two weapon modifications:
+
+* [[Greater Range]]
+* [[Stability]]
+
+{{Tip|'''EDFM recommendation:''' Choose between Greater Range and Stability based on the actual limitation of the weapon.
+
+Use '''Greater Range''' when effective range is constraining the build. Use '''Stability''' when recoil is the larger problem.}}
+
+A ranged automatic weapon may benefit from both, but using two permanent modification slots on range and recoil should be a deliberate build choice.
+
+== What Domino Cannot Modify ==
+
+Domino currently provides five modification types:
+
+* '''Enhanced Tracking''' — suit
+* '''Extra Backpack Capacity''' — suit
+* '''Greater Range''' — weapon
+* '''Reduced Tool Battery Consumption''' — suit
+* '''Stability''' — weapon<ref name="inara-domino" />
+
+Other commonly useful modifications require different Engineers.
+
+Examples include:
+
+* '''Improved Battery Capacity:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Night Vision:''' [[Oden Geiger]] or [[Yi Shen]]
+* '''Improved Jump Assist:''' [[Hero Ferrari]], [[Yarden Bond]], or [[Baltanos]]
+* '''Increased Sprint Duration:''' [[Hero Ferrari]], [[Terra Velasquez]], or [[Baltanos]]
+* '''Quieter Footsteps:''' [[Yarden Bond]] or [[Yi Shen]]
+* '''Damage Resistance:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Extra Ammo Capacity:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Faster Shield Regen:''' [[Kit Fowler]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Combat Movement Speed:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Improved Hip Fire Accuracy:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Noise Suppressor:''' [[Hero Ferrari]], [[Terra Velasquez]], or [[Baltanos]]
+* '''Scope:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]<ref name="inara-engineers" />
+
+See [[Odyssey Engineer Modifications]] for the complete Engineer-by-modification matrix.
+
+== What Next? ==
+
+Domino Green opens the [[Kit Fowler]] branch of the Odyssey Engineer network.
+
+{{What next|title=Continue Odyssey Engineering|
+* '''Next Engineer in this branch:''' [[Kit Fowler]]
+* '''Engineer after Kit Fowler:''' [[Yarden Bond]]
+* '''Get Kit's referral item:''' [[Push]]
+* '''Complete Domino's unlock activity:''' [[Apex Interstellar]]
+* '''Kit Fowler's unlock material:''' [[Opinion Polls]]
+* '''Plan utility suits:''' [[Maverick Suit Engineering]]
+* '''Plan suit modifications:''' [[Suit Engineering]]
+* '''Plan weapon modifications:''' [[Weapon Engineering (Odyssey)]]
+* '''Other starting branch:''' [[Hero Ferrari]]
+* '''Other starting branch:''' [[Jude Navarro]]
+* '''See the complete network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Odyssey Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineers]]
+[[Category:Suit Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

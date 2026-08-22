@@ -1,0 +1,45 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Uma Laszlo
+Namespace: 828
+Page ID: 425
+Revision ID: 1210
+Timestamp: 2026-08-20T23:54:19Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Uma_Laszlo
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Uma Laszlo",
+	"image": null,
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Xuane",
+	"body": "Xuane A 3",
+	"facility": "Laszlo's Resolve",
+	"region": null,
+	"allegiance": null,
+	"discovery": {
+		"type": "referral"
+	},
+	"unlock": {
+		"type": "reputation",
+		"level": "Unfriendly",
+		"comparison": "or lower",
+		"faction": "Sirius Corporation"
+	},
+	"prerequisite_engineer": "Wellington Beck",
+	"referrals": [],
+	"modifications": {
+		"suit": [
+			"Damage Resistance",
+			"Faster Shield Regen"
+		],
+		"weapon": [
+			"Headshot Damage",
+			"Reload Speed",
+			"Stowed Reloading"
+		]
+	},
+	"colonia": false
+}

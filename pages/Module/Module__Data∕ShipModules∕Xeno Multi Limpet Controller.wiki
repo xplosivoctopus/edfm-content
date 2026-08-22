@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Xeno Multi Limpet Controller
+Namespace: 828
+Page ID: 617
+Revision ID: 1404
+Timestamp: 2026-08-21T00:01:00Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Xeno_Multi_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Xeno Multi Limpet Controller",
+}

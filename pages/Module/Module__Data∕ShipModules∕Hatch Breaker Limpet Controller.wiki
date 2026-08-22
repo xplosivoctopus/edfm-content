@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Hatch Breaker Limpet Controller
+Namespace: 828
+Page ID: 512
+Revision ID: 1299
+Timestamp: 2026-08-20T23:59:42Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Hatch_Breaker_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Hatch Breaker Limpet Controller",
+}

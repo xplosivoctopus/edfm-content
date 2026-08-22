@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Passenger Cabin
+Namespace: 828
+Page ID: 552
+Revision ID: 1339
+Timestamp: 2026-08-21T00:00:12Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Passenger_Cabin
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Passenger Cabin",
+}

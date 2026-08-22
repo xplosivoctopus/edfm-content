@@ -1,0 +1,94 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Infobox
+Namespace: 10
+Page ID: 71
+Revision ID: 402
+Timestamp: 2026-08-08T15:20:07Z
+Source URL: https://edfieldmanual.com/wiki/Template:Infobox
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<div class="edfm-infobox">
+<div class="edfm-infobox-title">{{{name|{{PAGENAME}}}}}</div>
+<div class="edfm-infobox-image">{{#if:{{{image|}}}|[[File:{{{image}}}|220px]]|<div class="edfm-infobox-image-placeholder">No image available</div>}}</div>{{#if:{{{group1|}}}|
+<div class="edfm-infobox-group">{{{group1}}}</div>}}{{#if:{{{row1|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label1|}}}</div><div class="edfm-infobox-value">{{{row1|}}}</div></div>}}{{#if:{{{group2|}}}|
+<div class="edfm-infobox-group">{{{group2}}}</div>}}{{#if:{{{row2|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label2|}}}</div><div class="edfm-infobox-value">{{{row2|}}}</div></div>}}{{#if:{{{group3|}}}|
+<div class="edfm-infobox-group">{{{group3}}}</div>}}{{#if:{{{row3|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label3|}}}</div><div class="edfm-infobox-value">{{{row3|}}}</div></div>}}{{#if:{{{group4|}}}|
+<div class="edfm-infobox-group">{{{group4}}}</div>}}{{#if:{{{row4|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label4|}}}</div><div class="edfm-infobox-value">{{{row4|}}}</div></div>}}{{#if:{{{group5|}}}|
+<div class="edfm-infobox-group">{{{group5}}}</div>}}{{#if:{{{row5|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label5|}}}</div><div class="edfm-infobox-value">{{{row5|}}}</div></div>}}{{#if:{{{group6|}}}|
+<div class="edfm-infobox-group">{{{group6}}}</div>}}{{#if:{{{row6|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label6|}}}</div><div class="edfm-infobox-value">{{{row6|}}}</div></div>}}{{#if:{{{group7|}}}|
+<div class="edfm-infobox-group">{{{group7}}}</div>}}{{#if:{{{row7|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label7|}}}</div><div class="edfm-infobox-value">{{{row7|}}}</div></div>}}{{#if:{{{group8|}}}|
+<div class="edfm-infobox-group">{{{group8}}}</div>}}{{#if:{{{row8|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label8|}}}</div><div class="edfm-infobox-value">{{{row8|}}}</div></div>}}{{#if:{{{group9|}}}|
+<div class="edfm-infobox-group">{{{group9}}}</div>}}{{#if:{{{row9|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label9|}}}</div><div class="edfm-infobox-value">{{{row9|}}}</div></div>}}{{#if:{{{group10|}}}|
+<div class="edfm-infobox-group">{{{group10}}}</div>}}{{#if:{{{row10|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label10|}}}</div><div class="edfm-infobox-value">{{{row10|}}}</div></div>}}{{#if:{{{group11|}}}|
+<div class="edfm-infobox-group">{{{group11}}}</div>}}{{#if:{{{row11|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label11|}}}</div><div class="edfm-infobox-value">{{{row11|}}}</div></div>}}{{#if:{{{group12|}}}|
+<div class="edfm-infobox-group">{{{group12}}}</div>}}{{#if:{{{row12|}}}|
+<div class="edfm-infobox-row"><div class="edfm-infobox-label">{{{label12|}}}</div><div class="edfm-infobox-value">{{{row12|}}}</div></div>}}
+</div><noinclude>
+== Usage ==
+A generic, right-floated reference infobox — styling lives in
+[[MediaWiki:Common.css]] (<code>.edfm-infobox</code>), not inline, so it
+stays consistent and easy to retheme later.
+
+<pre>
+{{Infobox
+ |name = Display title (defaults to the page name)
+ |image = Filename.png (optional)
+ |label1 = Type     |row1 = Multipurpose
+ |label2 = Manufacturer |row2 = ...
+ |label3 = ...      |row3 = ...
+}}
+</pre>
+
+Up to 12 label/row pairs (extended 2026-08-07 for the Engineer infobox,
+which needs around 10 — see [[Elite Dangerous Field Manual:Engineering
+Architecture]]). No matching CSS change was needed to extend this: the
+<code>.edfm-infobox-row</code> class in Common.css isn't numbered per-row,
+so any number of rows renders correctly with the existing styles. If a
+future article genuinely needs more than 12, add further
+<code>rowN</code>/<code>labelN</code> pairs here the same way.
+
+The image slot always renders directly under the title, whether or not
+<code>|image=</code> is set (added 2026-08-07 for the Engineer roster,
+none of which have portrait images yet). With no <code>|image=</code>, it
+shows a dashed-border "No image available" placeholder
+(<code>.edfm-infobox-image-placeholder</code> in Common.css) instead of
+disappearing, so editors can see at a glance where a portrait belongs and
+readers aren't left wondering if something failed to load.
+
+'''Optional group headers''' (2026-08-08, backward compatible — omit
+entirely and the infobox renders exactly as before): <code>|groupN=</code>
+inserts a small section label immediately before <code>rowN</code>. Use
+this to break a long infobox into scannable groups, e.g. an Engineer
+infobox split into "ENGINEER" (type/system/facility/specialties/grade)
+and "ACCESS" (prerequisite/discovery/invitation/unlock):
+
+<pre>
+{{Infobox
+ |name = The Dweller
+ |group1 = ENGINEER
+ |label1 = Engineer type |row1 = ...
+ |label2 = System |row2 = ...
+ |group6 = ACCESS
+ |label6 = Prerequisite |row6 = ...
+}}
+</pre>
+
+Only add a <code>groupN</code> where a new group genuinely starts — most
+infoboxes on this wiki don't need grouping at all, and adding one to
+every single row would just add visual noise.
+
+[[Category:Templates]]
+</noinclude>

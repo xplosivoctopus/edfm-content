@@ -1,0 +1,45 @@
+<!--
+EDFM current-content archive export.
+Title: Missile Rack
+Namespace: 0
+Page ID: 371
+Revision ID: 1008
+Timestamp: 2026-08-20T01:38:39Z
+Source URL: https://edfieldmanual.com/wiki/Missile_Rack
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Weapon
+ |deck=A dumbfire missile hardpoint valued for high burst damage against shields and hull, at the cost of a small ammunition reserve.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+'''Missile Racks''' are unguided, dumbfire missile hardpoints. Unlike [[Seeker Missile Rack|Seeker Missile Racks]], their missiles travel in a straight line once fired and don't lock onto a target, trading tracking for reliability against a target's own countermeasures.
+
+== Overview ==
+
+Each Missile Rack carries a small, fixed number of missiles rather than drawing from the ship's weapon capacitor, so ammunition management matters more than heat management for this weapon. A single hit can do serious damage to shields or hull, making Missile Racks a common choice for burst-damage builds and for finishing off a target that has already been worn down by sustained weapons fire.
+
+Because they don't track, Missile Racks reward a Commander who can line up a shot manually, and they are unaffected by an enemy [[Chaff Launcher]] (which only disrupts gimballed and turreted tracking).
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Liz Ryder]] || Grade 5
+|}
+
+Liz Ryder is the primary Bubble Engineer for conventional Missile Rack Engineering, alongside her other explosive-weapon specialties.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

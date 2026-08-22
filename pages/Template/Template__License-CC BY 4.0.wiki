@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Template:License-CC BY 4.0
+Namespace: 10
+Page ID: 231
+Revision ID: 1123
+Timestamp: 2026-08-20T03:29:44Z
+Source URL: https://edfieldmanual.com/wiki/Template:License-CC_BY_4.0
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-info noexcerpt">This file is original work by an EDFM contributor, licensed under the '''Creative Commons Attribution 4.0 International License (CC BY 4.0)'''. Anyone may copy, redistribute, and adapt it, including commercially, as long as they give appropriate attribution to the creator. Full license text: https://creativecommons.org/licenses/by/4.0/. Not a screenshot of ''Elite Dangerous'' — an in-game screenshot should use {{tl|License-ED screenshot}} instead, since the underlying game assets aren't the uploader's to license.</div><includeonly>[[Category:Original EDFM media]]
+[[Category:Creative Commons media]]</includeonly><noinclude>
+== Usage ==
+The license value inserted when a contributor picks '''"CC BY 4.0"''' from the Licensing dropdown on <code>Special:Upload</code>. Only use for original work the uploader created and is deliberately licensing under CC BY — not for game screenshots.
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

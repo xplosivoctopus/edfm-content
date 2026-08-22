@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Guardian Frame Shift Drive Booster
+Namespace: 828
+Page ID: 501
+Revision ID: 1288
+Timestamp: 2026-08-20T23:59:34Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Frame_Shift_Drive_Booster
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Guardian Frame Shift Drive Booster",
+}

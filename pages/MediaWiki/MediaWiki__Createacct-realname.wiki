@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Createacct-realname
+Namespace: 8
+Page ID: 312
+Revision ID: 675
+Timestamp: 2026-08-11T21:56:49Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Createacct-realname
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+CMDR Name (optional)

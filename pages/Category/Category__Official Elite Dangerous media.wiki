@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Official Elite Dangerous media
+Namespace: 14
+Page ID: 219
+Revision ID: 330
+Timestamp: 2026-08-07T23:58:18Z
+Source URL: https://edfieldmanual.com/wiki/Category:Official_Elite_Dangerous_media
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Official media released by Frontier Developments plc (press kit assets, official screenshots, promotional art), classified under {{tl|License-Official Frontier media}}.
+
+[[Category:Media]]

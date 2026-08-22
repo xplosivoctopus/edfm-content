@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Aboutpage
+Namespace: 8
+Page ID: 65
+Revision ID: 66
+Timestamp: 2026-08-06T19:51:26Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Aboutpage
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Elite Dangerous Field Manual:About the Field Manual

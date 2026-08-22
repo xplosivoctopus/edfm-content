@@ -1,0 +1,437 @@
+<!--
+EDFM current-content archive export.
+Title: Uma Laszlo
+Namespace: 0
+Page ID: 136
+Revision ID: 1484
+Timestamp: 2026-08-21T14:39:12Z
+Source URL: https://edfieldmanual.com/wiki/Uma_Laszlo
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Odyssey Engineer
+ |deck=A combat-focused suit and weapon specialist based at Laszlo's Resolve in Xuane, reached through Wellington Beck.
+}}
+
+{{Engineer infobox}}
+
+'''Uma Laszlo''' is an Odyssey Engineer based at '''Laszlo's Resolve''' in the [[Xuane]] system. She is reached through [[Wellington Beck]] and specialises in combat-oriented suit protection, shield recovery, and handheld-weapon performance.<ref name="inara-uma">[https://inara.cz/elite/engineer/32/ Uma Laszlo — Engineer], Inara.</ref>
+
+Uma provides [[Damage Resistance]], [[Faster Shield Regen]], [[Headshot Damage]], [[Reload Speed]], and [[Stowed Reloading]].<ref name="inara-uma" />
+
+{{Field note|Odyssey Engineering does '''not''' use the Grade 1–5 Engineer-reputation progression used by ship Engineers. Suits and weapons have equipment grades and modification slots; Uma installs individual modifications into those slots.}}
+
+== Location ==
+
+* '''System:''' [[Xuane]]
+* '''Settlement:''' [[Laszlo's Resolve]]
+* '''Body:''' Xuane A 3
+* '''Engineer type:''' Odyssey Engineer
+* '''Prerequisite Engineer:''' [[Wellington Beck]]
+* '''System permit required:''' No
+
+Laszlo's Resolve is a surface Engineer base on '''Xuane A 3''', approximately 310 Ls from the system arrival point.<ref name="inara-laszlo-resolve">[https://inara.cz/elite/station-outfitting/?search=Laszlo%27s+Resolve%5BXuane%5D Laszlo's Resolve — Station], Inara.</ref>
+
+== How to Discover Uma Laszlo ==
+
+Uma Laszlo is discovered through [[Wellington Beck]].<ref name="inara-uma" />
+
+After unlocking Wellington, provide him with '''5 [[Insight Entertainment Suite|Insight Entertainment Suites]]''' to receive the referral to Uma.<ref name="inara-beck">[https://inara.cz/elite/engineer/30/ Wellington Beck — Engineer], Inara.</ref>
+
+[[Insight Entertainment Suite|Insight Entertainment Suites]] are Odyssey '''Goods''' found at settlements.<ref name="inara-insight-suite">[https://inara.cz/elite/componentitem/10294/ Insight Entertainment Suite — Component], Inara.</ref>
+
+{{Important|Do not confuse Wellington's own unlock requirement with Uma's referral:
+
+* '''Unlock Wellington Beck:''' sell a combined total of 15 Cat Media, Classic Entertainment, and Multimedia Entertainment to bartenders.
+* '''Discover Uma Laszlo:''' provide '''5 Insight Entertainment Suites''' directly to Wellington.}}
+
+See [[Wellington Beck]] for the complete preceding Engineer unlock.
+
+== How to Receive an Invitation ==
+
+There is no separate invitation requirement after Wellington Beck has revealed Uma.
+
+Once she has been discovered, her remaining access requirement is to reduce your reputation with [[Sirius Corporation]] to '''Unfriendly or lower'''.<ref name="inara-uma" />
+
+== How to Unlock Uma Laszlo ==
+
+Unlock requirements summary:
+* Unlock [[Hero Ferrari]].
+* Provide Hero with '''5 [[Settlement Defence Plans]]''' to discover [[Wellington Beck]].
+* Complete Wellington's unlock requirement.
+* Provide Wellington with '''5 [[Insight Entertainment Suite|Insight Entertainment Suites]]'''.
+* Reduce your reputation with [[Sirius Corporation]] to '''Unfriendly or lower'''.
+{{Important|Uma's requirement is unusual because it requires '''negative faction reputation'''. Being Neutral, Cordial, Friendly, or Allied with Sirius Corporation does not satisfy it. Your standing must reach '''Unfriendly''' or lower.}}
+
+For the complete step-by-step process, see [[Unlocking Uma Laszlo]].
+
+== Lowering Sirius Corporation Reputation ==
+
+[[Sirius Corporation]] is an independent minor faction present in multiple inhabited systems.<ref name="inara-sirius-corp">[https://inara.cz/elite/minorfaction/27615/ Sirius Corporation — Minor Faction], Inara.</ref>
+
+To satisfy Uma's requirement, your reputation specifically with '''Sirius Corporation''' must fall to Unfriendly or lower.
+
+Actions that negatively affect your standing with the faction can be used to reduce it. Because Sirius Corporation's system presence, missions, and conflicts can change through the [[Background Simulation]], use current faction information when choosing where to work against the faction rather than relying on an old fixed-location guide.
+
+{{Important|Reducing Sirius Corporation reputation may interfere with other progression that requires good standing with the faction.
+
+In particular, [[Marco Qwent]]'s access path involves Sirius Corporation reputation and the [[Sirius Permit]]. If you still need to complete that progression, consider doing so '''before''' deliberately reducing your Sirius Corporation standing for Uma.}}
+
+{{Tip|Check your current Sirius Corporation reputation before beginning. Uma does not merely require you to lose some reputation; your final standing must actually reach '''Unfriendly''' or lower.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Uma is unlocked. If her expected services do not appear after reaching the required reputation and visiting Laszlo's Resolve, logging out and back in may make them available.<ref name="inara-uma" />}}
+
+== Odyssey Engineering at Uma Laszlo ==
+
+Odyssey Engineering works differently from ship Engineering.
+
+Suits and handheld weapons have an '''equipment grade'''. Higher equipment grades provide additional modification slots.
+
+Uma then installs individual modifications into those slots.
+
+Her modifications do '''not''' progress through Grade 1–5 Engineer reputation.
+
+{{Important|A Grade 5 Dominator Suit does not receive a "Grade 5 Damage Resistance" modification. The Grade 5 equipment has four Engineer modification slots; Damage Resistance occupies one of those slots as a single permanent modification.}}
+
+See [[Odyssey Engineering]] for suit and weapon upgrades, modification slots, material storage, and Engineering mechanics.
+
+== Available Engineering ==
+
+Uma currently provides five Odyssey modifications.<ref name="inara-uma" />
+
+{| class="wikitable"
+! Modification
+! Equipment
+! Primary effect
+|-
+| [[Damage Resistance]]
+| Suit
+| Reduces kinetic, thermal, plasma, and explosive damage taken
+|-
+| [[Faster Shield Regen]]
+| Suit
+| Increases personal-shield regeneration rate by approximately 25%
+|-
+| [[Headshot Damage]]
+| Handheld weapon
+| Increases damage inflicted by headshots
+|-
+| [[Reload Speed]]
+| Handheld weapon
+| Reduces weapon reload time
+|-
+| [[Stowed Reloading]]
+| Handheld weapon
+| Automatically reloads the weapon while it is stowed
+|}
+
+== Damage Resistance ==
+
+'''Damage Resistance''' reduces incoming damage from the four principal on-foot weapon damage types.<ref name="inara-uma" />
+
+The current modification provides:
+
+* '''+10% kinetic damage reduction'''
+* '''+10% thermal damage reduction'''
+* '''+10% plasma damage reduction'''
+* '''+10% explosive damage reduction'''<ref name="inara-uma" />
+
+The current recipe is:
+
+* 5 [[Weapon Inventory]]
+* 5 [[Ballistics Data]]
+* 3 [[Titanium Plating]]
+* 3 [[Carbon Fibre Plating]]
+* 8 [[Epoxy Adhesive]]
+* '''750,000 CR'''<ref name="inara-uma" />
+
+Other Engineers currently providing Damage Resistance include:
+
+* [[Jude Navarro]]
+* [[Eleanor Bresa]]<ref name="inara-uma" />
+
+{{Tip|'''EDFM recommendation:''' Damage Resistance is one of Uma's strongest general-purpose modifications for a combat-oriented [[Dominator Suit]].
+
+It reduces damage across kinetic, thermal, plasma, and explosive attacks rather than protecting against only one weapon family.}}
+
+The modification is still useful on other suits when improved survivability is worth one of their limited modification slots.
+
+== Faster Shield Regen ==
+
+'''Faster Shield Regen''' increases the regeneration rate of the suit's personal shield.<ref name="inara-uma" />
+
+Independent in-game testing measures the modification at approximately '''+25% shield regeneration rate'''.<ref name="shield-regen-testing">[https://www.reddit.com/r/EliteDangerous/comments/or36h9/dominator_faster_shield_regen_2525/ Dominator + Faster Shield Regen (+25.25%)], r/EliteDangerous.</ref>
+
+Testing across multiple Dominator Suit grades produced the following regeneration-rate changes:<ref name="shield-regen-testing" />
+
+* '''Grade 3:''' approximately 1.65 → 2.06
+* '''Grade 4:''' approximately 2.02 → 2.53
+* '''Grade 5:''' approximately 2.48 → 3.10
+
+These results correspond to an increase of roughly '''25%''' at each tested equipment grade.
+
+The current recipe is:
+
+* 5 [[Reactor Output Review]]
+* 3 [[Ion Battery]]
+* 8 [[Micro Transformer]]
+* 8 [[Electrical Wiring]]
+* '''750,000 CR'''<ref name="inara-uma" />
+
+Other Engineers currently providing Faster Shield Regen include:
+
+* [[Kit Fowler]]
+* [[Eleanor Bresa]]<ref name="inara-uma" />
+
+{{Tip|'''EDFM recommendation:''' Faster Shield Regen is particularly useful on a [[Dominator Suit]] intended for sustained ground combat.
+
+Faster shield recovery reduces downtime between engagements and allows the Commander to return to combat sooner after taking shield damage.}}
+
+{{Field note|Current Inara data describes Faster Shield Regen as increasing personal-shield regeneration but displays its numerical modifier as '''Shield health +25%'''.<ref name="inara-uma" /> Independent in-game testing instead shows an approximately '''25% increase in shield regeneration rate''' without supporting a 25% increase in maximum shield capacity.<ref name="shield-regen-testing" /> EDFM therefore treats the current "Shield health" label as a database-display discrepancy.}}
+
+== Headshot Damage ==
+
+'''Headshot Damage''' increases the damage inflicted when a handheld weapon strikes an enemy's head.<ref name="inara-uma" />
+
+The required materials depend on the weapon manufacturer.
+
+=== Kinematic Armaments weapons ===
+
+The current recipe is:
+
+* 10 [[Weapon Test Data]]
+* 5 [[Medical Records]]
+* 10 [[Chemical Catalyst]]
+* 15 [[RDX]]
+* 5 [[Weapon Component]]
+* '''500,000 CR'''<ref name="inara-uma" />
+
+=== Manticore weapons ===
+
+The current recipe is:
+
+* 10 [[Chemical Experiment Data]]
+* 5 [[Blood Test Results]]
+* 10 [[Ion Battery]]
+* 10 [[Electromagnet]]
+* 15 [[Micro Supercapacitor]]
+* '''500,000 CR'''<ref name="inara-uma" />
+
+=== Takada weapons ===
+
+The current recipe is:
+
+* 5 [[Spectral Analysis Data]]
+* 3 [[Biometric Data]]
+* 5 [[Ion Battery]]
+* 3 [[Optical Lens]]
+* 5 [[Scrambler]]
+* '''750,000 CR'''<ref name="inara-uma" />
+
+[[Yi Shen]] also provides Headshot Damage.<ref name="inara-uma" />
+
+{{Tip|'''EDFM recommendation:''' Headshot Damage is strongest on weapons and playstyles where accurate headshots can be landed consistently.
+
+If most of your fire is directed at centre mass during chaotic close-range combat, a modification that improves weapon handling, reload behaviour, or ammunition endurance may produce more consistent value.}}
+
+== Reload Speed ==
+
+'''Reload Speed''' shortens the time required to reload a handheld weapon.<ref name="inara-uma" />
+
+The current recipe is:
+
+* 5 [[Operational Manual]]
+* 5 [[Production Reports]]
+* 5 [[Combat Training Material]]
+* 5 [[Micro Hydraulics]]
+* 5 [[Electromagnet]]
+* '''500,000 CR'''<ref name="inara-uma" />
+
+Other Engineers currently providing Reload Speed include:
+
+* [[Jude Navarro]]
+* [[Eleanor Bresa]]<ref name="inara-uma" />
+
+{{Tip|'''EDFM recommendation:''' Reload Speed is one of Uma's most broadly useful weapon modifications.
+
+Unlike Headshot Damage, its benefit does not depend on accuracy against a specific body part. It is particularly useful on weapons whose reload cycle frequently interrupts sustained combat.}}
+
+== Stowed Reloading ==
+
+'''Stowed Reloading''' automatically reloads a weapon while that weapon is stowed.<ref name="inara-uma" />
+
+The current recipe is:
+
+* 5 [[Digital Designs]]
+* 5 [[Operational Manual]]
+* 5 [[Production Schedule]]
+* 3 [[Circuit Board]]
+* 8 [[Encrypted Memory Chip]]
+* '''1,000,000 CR'''<ref name="inara-uma" />
+
+Other Engineers currently providing Stowed Reloading include:
+
+* [[Kit Fowler]]
+* [[Eleanor Bresa]]<ref name="inara-uma" />
+
+{{Tip|Stowed Reloading is particularly useful on loadouts that regularly alternate between two weapons.
+
+A weapon can reload while the other weapon is being used, reducing the amount of combat time spent performing manual reload animations.}}
+
+This makes the modification especially compatible with Odyssey loadouts that frequently switch between weapons suited to shields and weapons suited to unshielded targets.
+
+== Engineer Unlock Chain ==
+
+Uma Laszlo belongs to the [[Hero Ferrari]] branch of the Odyssey Engineer network.
+
+The complete branch is:
+
+<pre>
+Hero Ferrari
+└── Wellington Beck
+    └── Uma Laszlo
+</pre>
+
+The progression is:
+
+# Unlock [[Hero Ferrari]] by completing 10 surface conflict zones.
+# Give Hero '''5 [[Settlement Defence Plans]]''' to discover [[Wellington Beck]].
+# Unlock Wellington by selling a combined total of 15 qualifying entertainment Data items to bartenders.
+# Give Wellington '''5 [[Insight Entertainment Suite|Insight Entertainment Suites]]''' to discover Uma Laszlo.
+# Reach '''Unfriendly reputation or lower with [[Sirius Corporation]]''' to unlock Uma.<ref name="inara-beck" /><ref name="inara-uma" />
+
+Uma Laszlo does '''not''' currently refer the Commander to another Odyssey Engineer.
+
+She is therefore the endpoint of this branch.
+
+== Increasing Engineer Reputation ==
+
+'''Not applicable to Odyssey Engineers in the same way as ship Engineers.'''
+
+Uma Laszlo does not use the Grade 1–5 Engineer-reputation progression found at ship Engineer workshops.
+
+Once she has been unlocked, her modifications can be installed provided that:
+
+* the equipment is compatible;
+* the suit or weapon has an unused modification slot; and
+* you possess the required Odyssey materials and credits.
+
+Equipment itself is upgraded separately through [[Pioneer Supplies]].
+
+See [[Odyssey Engineering]] for the complete system.
+
+== Experimental Effects ==
+
+'''Not applicable.'''
+
+Odyssey suit and handheld-weapon Engineering does not use the separate ship-module [[Experimental Effects]] system.
+
+Uma's five modifications are themselves the permanent modifications installed onto the suit or weapon.
+
+== Blueprint Pinning ==
+
+'''Not applicable.'''
+
+Odyssey modifications cannot be pinned for [[Remote Engineering]] in the same manner as ship Engineering blueprints.
+
+A suit or weapon must be taken to Uma Laszlo or another Engineer offering the desired modification.
+
+{{Field note|Unlocking Uma therefore does not make Damage Resistance, Faster Shield Regen, Reload Speed, or her other modifications remotely available from another station.}}
+
+== Recommended Engineering ==
+
+Uma's modification set is heavily oriented toward ground combat.
+
+=== Dominator Suit ===
+
+For a [[Dominator Suit]] intended primarily for surface conflict zones or combat missions:
+
+{{Tip|'''EDFM recommendation:''' [[Damage Resistance]] and [[Faster Shield Regen]] are both strong combat-oriented choices.
+
+Damage Resistance reduces incoming kinetic, thermal, plasma, and explosive damage, while Faster Shield Regen improves recovery between engagements. Together, they improve both survivability while taking fire and the speed at which the suit can recover afterward.}}
+
+A combat suit fitted with both modifications gains:
+
+* improved resistance while under fire; and
+* approximately 25% faster shield regeneration between periods of incoming damage.<ref name="shield-regen-testing" />
+
+{{Field note|Odyssey suit modification slots are limited. A Grade 5 suit has four slots, so even strong combat modifications need to be considered as part of the complete intended suit build.}}
+
+=== Combat weapons ===
+
+Uma offers three weapon modifications:
+
+* [[Headshot Damage]]
+* [[Reload Speed]]
+* [[Stowed Reloading]]
+
+For a conventional general-purpose combat weapon:
+
+{{Tip|'''EDFM recommendation:''' [[Reload Speed]] is generally the safest all-purpose choice of Uma's three weapon modifications.
+
+Its benefit applies whenever the weapon needs to reload and does not depend on consistently landing headshots or regularly switching away from the weapon.}}
+
+[[Headshot Damage]] becomes more attractive for accurate weapons and players deliberately building around precision fire.
+
+[[Stowed Reloading]] becomes more attractive for loadouts where two weapons are switched frequently.
+
+== What Uma Cannot Modify ==
+
+Uma currently provides five modification types:
+
+* '''Damage Resistance''' — suit
+* '''Faster Shield Regen''' — suit
+* '''Headshot Damage''' — weapon
+* '''Reload Speed''' — weapon
+* '''Stowed Reloading''' — weapon<ref name="inara-uma" />
+
+Other combat modifications require different Engineers.
+
+Examples include:
+
+* '''Extra Ammo Capacity:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Magazine Size:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Added Melee Damage:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Combat Movement Speed:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Improved Hip Fire Accuracy:''' [[Terra Velasquez]], [[Yarden Bond]], or [[Baltanos]]
+* '''Faster Handling:''' [[Hero Ferrari]], [[Yarden Bond]], or [[Baltanos]]
+* '''Greater Range:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Scope:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Stability:''' [[Domino Green]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Night Vision:''' [[Oden Geiger]] or [[Yi Shen]]
+
+See [[Odyssey Engineer Modifications]] for the complete Engineer-by-modification matrix.
+
+== What Next? ==
+
+Uma Laszlo is the end of her Odyssey Engineer referral branch and does not currently introduce another Engineer.
+
+After unlocking her, further Odyssey Engineering progression requires following one of the other independent Engineer branches.
+
+{{What next|title=Continue Odyssey Engineering|
+* '''Previous Engineer:''' [[Wellington Beck]]
+* '''Starting point of this branch:''' [[Hero Ferrari]]
+* '''Other combat-focused branch:''' [[Jude Navarro]]
+* '''Utility and exploration branch:''' [[Domino Green]]
+* '''Get Uma's referral item:''' [[Insight Entertainment Suite]]
+* '''Manage the unlock faction:''' [[Sirius Corporation]]
+* '''Plan combat suits:''' [[Dominator Suit Engineering]]
+* '''Plan suit modifications:''' [[Suit Engineering]]
+* '''Plan weapon modifications:''' [[Weapon Engineering (Odyssey)]]
+* '''See the complete network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Odyssey Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineers]]
+[[Category:Suit Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

@@ -1,0 +1,61 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Rosa Dayette
+Namespace: 828
+Page ID: 426
+Revision ID: 1215
+Timestamp: 2026-08-20T23:55:11Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Rosa_Dayette
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Rosa Dayette",
+	"image": null,
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Kojeara",
+	"body": null,
+	"facility": "Rosa's Shop",
+	"region": "Colonia",
+	"allegiance": null,
+	"discovery": {
+		"type": "public"
+	},
+	"unlock": {
+		"type": "sell_combined",
+		"quantity": 10,
+		"items": [
+			"Culinary Recipes",
+			"Cocktail Recipes"
+		],
+		"conjunction": "and/or",
+		"destination": "stations in the Colonia system"
+	},
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_display": "None — independent Odyssey Engineer",
+	"referrals": [
+		{
+			"engineer": "Yi Shen",
+			"requirement": {
+				"type": "provide",
+				"quantity": 10,
+				"item": "Manufacturing Instructions"
+			}
+		}
+	],
+	"modifications": {
+		"suit": [
+			"Extra Backpack Capacity",
+			"Enhanced Tracking",
+			"Reduced Tool Battery Consumption",
+			"Improved Battery Capacity"
+		],
+		"weapon": [
+			"Greater Range",
+			"Scope",
+			"Stability"
+		]
+	},
+	"colonia": true
+}

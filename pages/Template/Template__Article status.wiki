@@ -1,0 +1,141 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Article status
+Namespace: 10
+Page ID: 21
+Revision ID: 1098
+Timestamp: 2026-08-20T02:58:18Z
+Source URL: https://edfieldmanual.com/wiki/Template:Article_status
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#if:{{{noindex|}}}|{{SEO|noindex={{{noindex}}}}}}}<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-status noexcerpt edfm-status--{{#switch: {{{status|Needs review}}}
+ | Verified = positive
+ | Partially verified = positive
+ | Needs review = attention
+ | Upcoming = attention
+ | Draft = neutral
+ | Historical = neutral
+ | Legacy only = neutral
+ | #default = attention
+}}">
+<div class="edfm-status-banner">
+<div class="edfm-status-icon" aria-hidden="true">{{#switch: {{{status|Needs review}}}
+ | Verified = &#10003;
+ | Partially verified = &#10003;
+ | Needs review = !
+ | Upcoming = !
+ | Draft = i
+ | Historical = i
+ | Legacy only = i
+ | #default = !
+}}</div>
+<div class="edfm-status-banner-body">
+<div class="edfm-status-heading">{{{status|Needs review}}}</div>
+<p class="edfm-status-message">{{#switch: {{{status|Needs review}}}
+ | Verified = This article has been checked directly against current gameplay.
+ | Partially verified = Some information in this article has been directly verified; other parts have not.
+ | Needs review = Some information in this article still needs to be checked for accuracy.
+ | Draft = This article is still being written and may be incomplete.
+ | Historical = This article describes a past state of the game, not current gameplay.
+ | Legacy only = This article applies to ''Elite Dangerous: Legacy'', not the current Live game.
+ | Upcoming = This article describes an announced feature that is not yet released.
+ | #default = Some information in this article still needs to be checked for accuracy.
+}}</p>{{#if:{{{uncertainty|}}}|
+<p class="edfm-status-uncertain"><span class="edfm-status-uncertain-label">Uncertain:</span> {{{uncertainty}}}</p>}}
+</div>
+</div>
+<div class="mw-collapsible mw-collapsed edfm-status-expand" data-expandtext="View verification details" data-collapsetext="Hide verification details">
+<dl class="edfm-status-details">
+<div class="edfm-status-row"><dt>Status</dt><dd>{{{status|Needs review}}}</dd></div>
+<div class="edfm-status-row"><dt>Last reviewed</dt><dd>{{{reviewed|never}}}</dd></div>
+<div class="edfm-status-row"><dt>Reviewer</dt><dd>{{{reviewer|none}}}</dd></div>
+<div class="edfm-status-row"><dt>Game mode</dt><dd>{{{mode|Live}}}</dd></div>
+<div class="edfm-status-row"><dt>Version coverage</dt><dd>{{{version|unspecified}}}</dd></div>
+<div class="edfm-status-row"><dt>Source quality</dt><dd>{{{source_quality|unassessed}}}</dd></div>
+<div class="edfm-status-row"><dt>Known uncertainty</dt><dd>{{{uncertainty|none noted}}}</dd></div>{{#if:{{{legacy_differences|}}}|
+<div class="edfm-status-row"><dt>Legacy differences</dt><dd>{{{legacy_differences}}}</dd></div>}}{{#if:{{{recent_changes|}}}|
+<div class="edfm-status-row"><dt>Recent changes</dt><dd>{{{recent_changes}}}</dd></div>}}{{#if:{{{notes|}}}|
+<div class="edfm-status-row"><dt>Verification notes</dt><dd>{{{notes}}}</dd></div>}}
+</dl>
+</div>
+</div>{{#switch: {{{status|Needs review}}}
+| Verified = [[Category:Verified Articles]]
+| Partially verified = [[Category:Partially Verified Articles]]
+| Needs review = [[Category:Pages Needing Review]]
+| Draft = [[Category:Draft Articles]]
+| Upcoming = [[Category:Upcoming Content]]
+| Legacy only = [[Category:Legacy-Only Content]]
+| #default =
+}}{{#switch: {{{mode|Live}}}
+| Legacy = [[Category:Legacy Content]]
+| Historical = [[Category:Historical Content]]
+| #default =
+}}<noinclude>
+== Usage ==
+Place at the top of any gameplay-facing article. Status must be text, not
+colour alone — see [[Elite Dangerous Field Manual:Verification Policy]].
+
+The entire status panel uses the <code>noexcerpt</code> class so maintenance
+and verification information is excluded from article excerpts and Page
+Previews. This allows previews to begin with the article's actual introductory
+content rather than its verification status.
+
+'''Compact maintenance-banner form''' (2026-08-08 second revision): the
+always-visible state is a short banner — a status icon, the status
+word itself (no mode/version appended to it), one standard sentence for
+that status, and a concise "Uncertain: ..." line '''only when
+<code>|uncertainty=</code> is actually supplied'''. Everything else
+(Reviewer, Game mode, Version coverage, Source quality, the full Known
+uncertainty text again for the record, and the optional Legacy
+differences/Recent changes/Verification notes fields) sits behind the
+same native <code>mw-collapsible</code> "View verification details"
+toggle as before (still core MediaWiki, still no new dependency). No
+parameters were removed or renamed from the previous revision — this is a
+rendering change only, so every existing call site upgrades automatically.
+
+<pre>
+{{Article status
+ |status=Verified|Partially verified|Needs review|Draft|Historical|Legacy only|Upcoming
+ |mode=Live|Legacy|Both|Historical
+ |version=
+ |reviewed=
+ |reviewer=
+ |source_quality=
+ |uncertainty=
+ |legacy_differences= (optional)
+ |recent_changes= (optional)
+ |notes= (optional — extra verification detail beyond the standard fields)
+}}
+</pre>
+
+Keep <code>uncertainty</code> genuinely concise (a short list of what's
+uncertain, e.g. "discovery, invitation, and complete blueprint
+availability") — it renders directly in the banner, not just inside
+the details panel, so a long paragraph there defeats the point. If a
+claim needs a longer explanation, put that explanation in the article
+body (near the claim itself, using {{tl|Unverified claim}}/{{tl|Estimated
+information}}/{{tl|Community observation}} or a plain
+<code>.edfm-inline-flag</code> note) rather than in this template.
+
+Status tiers (left accent + icon colour, from
+[[Template:EDFM style/styles.css]]): '''positive''' (cyan, restrained —
+Verified, Partially verified), '''attention''' (orange — Needs review,
+Upcoming), '''neutral''' (dim — Draft, Historical, Legacy only). Draft
+uses the neutral tier because an in-progress article is not a verification
+concern in the same way an unchecked or announced-but-unreleased article is.
+
+<code>|legacy_differences=</code>, <code>|recent_changes=</code>, and
+<code>|notes=</code> are optional — omit them and nothing renders, using the
+same <code>{{#if:}}</code> pattern as the other optional fields. Use
+<code>legacy_differences</code> when a fact on this article genuinely
+differs between Live and Legacy (routine, can apply at any status);
+reserve <code>status=Legacy only</code> itself for articles that are
+entirely about a Legacy-exclusive mechanic with no Live counterpart at
+all — see [[Elite Dangerous Field Manual:Verification Policy]] for the
+full distinction. <code>status=Upcoming</code> and <code>status=Legacy
+only</code> populate their own maintenance categories
+([[:Category:Upcoming Content]], [[:Category:Legacy-Only Content]]).
+
+[[Category:Templates]]
+</noinclude>

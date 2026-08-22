@@ -1,0 +1,79 @@
+<!--
+EDFM current-content archive export.
+Title: Yi Shen
+Namespace: 0
+Page ID: 142
+Revision ID: 1494
+Timestamp: 2026-08-21T14:39:19Z
+Source URL: https://edfieldmanual.com/wiki/Yi_Shen
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Odyssey Engineer|deck=Stealth and perception specialist at Eidolon Hold in the Einheriar system, Colonia region.}}
+{{Article status|status=Needs review|mode=Live|version=Odyssey on-foot Engineering; exact patch scope not yet directly verified|reviewed=2026-08-20|reviewer=Structured-data migration pass — discovery/invitation/unlock/prerequisite now sourced from the Engineers directory table|source_quality=Location, referral structure, and unlock condition cross-referenced against Inara's Engineers listing; specific modification effect descriptions and engineering costs have not yet been researched|uncertainty=Specific modification effect descriptions, engineering costs (materials/credits), and maximum grade are not yet researched. Location, the three-Engineer referral structure, and the unlock condition are confirmed.}}
+
+{{Engineer infobox}}
+
+Yi Shen specialises in stealth and perception modifications for suits and handheld weapons.<ref name="inara-list" />
+
+Odyssey Engineering is a separate system from ship Engineering — it modifies suits and handheld weapons rather than ship modules, and exists only in Live (there is no Legacy equivalent). See [[Engineers]] for how the two systems are organised.
+
+== Location ==
+* '''System:''' Einheriar
+* '''Settlement:''' Eidolon Hold
+* '''Region:''' Colonia — this Engineer is only reachable after making the long journey to the Colonia region, separate from the core bubble.
+
+== How to Discover This Engineer ==
+Yi Shen is discovered by completing the separate referral task at each of [[Baltanos]], [[Eleanor Bresa]], and [[Rosa Dayette]].<ref name="inara-list">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+Unlike the other twelve Odyssey Engineers, Yi Shen has no single prerequisite Engineer — all three referral tasks must be completed, in any order, before Yi Shen becomes known.
+
+== How to Receive an Invitation ==
+There is no separate invitation requirement distinct from the unlock requirement below.
+
+== How to Unlock This Engineer ==
+Unlock requirements summary:
+* Complete the referral task at [[Baltanos]] (deliver 10 Faction Associates data).
+* Complete the referral task at [[Eleanor Bresa]] (deliver 10 Digital Designs).
+* Complete the referral task at [[Rosa Dayette]] (deliver 10 Manufacturing Instructions data).
+
+For the complete step-by-step process, see [[Unlocking Yi Shen]].
+
+== Engineer Unlock Chain ==
+Yi Shen is the convergent target of all three independent Colonia Odyssey Engineers:
+
+* [[Baltanos]] → Yi Shen
+* [[Eleanor Bresa]] → Yi Shen
+* [[Rosa Dayette]] → Yi Shen
+
+All three referral tasks are independent of each other and can be completed in any order.<ref name="inara-list" />
+
+== Available Engineering ==
+{{Draft warning}}
+Specific suit/weapon modification names and maximum grades were not confirmed in the sources checked for this pass — see [[Elite Dangerous Field Manual:Engineering Architecture]] for the site's policy on not inventing unconfirmed specifics. Confirmed specialty area: Stealth and perception.
+
+== Experimental Effects ==
+To be added — not confirmed in the sources checked for this pass.
+
+== Increasing Engineer Reputation ==
+Reputation increases through crafting modifications at their workshop, in line with the general mechanic covered on the main [[Engineering]] page.
+
+== Blueprint Pinning ==
+'''Fact:''' Yi Shen's confirmed specialty area is Stealth and perception.
+
+'''EDFM recommendation:''' Not yet made. A pinning recommendation needs the specific modification and maximum-grade data above filled in first — see [[Elite Dangerous Field Manual:Engineering Architecture]] for why EDFM treats pinning guidance as editorial judgement, not a database fact.
+
+== Related Engineers ==
+[[Baltanos]], [[Eleanor Bresa]], and [[Rosa Dayette]] are the three independent Colonia Odyssey Engineers whose referral tasks converge on Yi Shen.
+
+== Related Guides ==
+{{Related articles|[[Engineering]] [[Engineer Unlock Guide]]}}
+
+== Sources ==
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

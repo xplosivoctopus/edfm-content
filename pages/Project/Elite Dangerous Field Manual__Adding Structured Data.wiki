@@ -1,0 +1,31 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Adding Structured Data
+Namespace: 4
+Page ID: 212
+Revision ID: 309
+Timestamp: 2026-08-07T22:18:25Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Adding_Structured_Data
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How EDFM's structured game data works, and how to add to it without writing Lua.
+
+== The idea ==
+For data genuinely reused in more than one place (an Engineer's own infobox, [[List of Engineers]], and [[Engineer Capability Comparison]] all need the same facts about that Engineer), EDFM stores the canonical value '''once''', as a JSON page, and lets a small Scribunto (Lua) module read and format it everywhere it's needed. This means an Engineer's infobox and the list/comparison pages can never quietly drift out of sync — there's only one place the fact actually lives.
+
+This is deliberately '''not''' used for everything — most of an article (its prose, its walkthrough steps, its sourcing) stays as normal wikitext. Structured data is specifically for facts that get reused across multiple pages. See [[Elite Dangerous Field Manual:Content Style Guide]] and the project's general preference for plain templates over Lua wherever plain templates are enough.
+
+== Adding a new Engineer's data record ==
+This is the only structured-data type live so far (Engineers) — the same pattern will extend to other entity types later.
+# Create a new page named <code>Module:Data/Engineers/&lt;Engineer name&gt;</code> (matching the Engineer's own Main-namespace article title exactly), with content model '''JSON'''. The <code>Module:</code> namespace defaults to Lua/Scribunto, not JSON, so you'll need to set the content model explicitly — either via <code>Special:ChangeContentModel</code> right after creating the page, or by appending <code>&amp;contentmodel=json</code> to the edit URL before your first save.
+# Copy the shape of an existing record — e.g. <code>Module:Data/Engineers/Broo Tarquin</code> — field for field. Fields: <code>name</code>, <code>engineer_type</code>, <code>system</code>, <code>body</code>, <code>facility</code>, <code>region</code>, <code>allegiance</code>, <code>specialties</code> (a list), <code>max_grade</code>, <code>prerequisite_engineer</code>, <code>prerequisite_engineer_note</code>, <code>discovery_requirement</code>, <code>invitation_requirement</code>, <code>unlock_requirement</code>, <code>colonia</code> (true/false). Use <code>null</code> for anything genuinely not yet confirmed — never invent a value just to fill the field.
+# Add the Engineer's name to the list in <code>Module:Data/Engineers/index</code>.
+# On the Engineer's own article, replace a bare {{tl|Infobox}} call with {{tl|Engineer infobox|name=Engineer name}} — it will automatically pick up the new JSON record.
+
+'''Don't edit <code>Module:Engineers</code>''' (the Lua module itself) unless you're changing the schema everyone's data depends on — adding a record is a JSON-only, no-Lua-required task.
+
+== Checking your work ==
+After saving, revisit the Engineer's own page and confirm the infobox still looks right, then check [[List of Engineers]] and [[Engineer Capability Comparison]] picked up the new row automatically. If a Lua error appears instead, the JSON is probably malformed (check for a missing comma or unescaped quote) — Special:ChangeContentModel can confirm the page actually saved as JSON rather than plain wikitext.
+
+{{Related articles|[[List of Engineers]] [[Engineer Capability Comparison]] [[Elite Dangerous Field Manual:Editorial Policy]]}}

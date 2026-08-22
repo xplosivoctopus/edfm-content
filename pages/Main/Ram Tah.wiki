@@ -1,0 +1,368 @@
+<!--
+EDFM current-content archive export.
+Title: Ram Tah
+Namespace: 0
+Page ID: 122
+Revision ID: 1446
+Timestamp: 2026-08-21T14:38:42Z
+Source URL: https://edfieldmanual.com/wiki/Ram_Tah
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A limpet, defensive utility, and Guardian-technology specialist based at Phoenix Base in Meene, reached through Lei Cheung.
+}}
+
+{{Needs review}}
+
+{{Engineer infobox}}
+
+'''Ram Tah''' is a ship Engineer based at '''Phoenix Base''' in the [[Meene]] system. He is reached through [[Lei Cheung]] and specialises in limpet controllers, defensive utility modules, and Guardian technology.<ref name="inara-ram">[https://inara.cz/elite/engineer/18/ Ram Tah — Engineer], Inara.</ref>
+
+His current Engineering coverage includes Grade 5 work on several utility modules and limpet controllers, along with specialised modifications for Guardian technology and, in Live, the Operations-era Extended Cargo Rack.<ref name="inara-ram" />
+
+{{Field note|Ram Tah is not primarily a scanner Engineer despite his unlock requiring Encoded scan data. His Engineering specialties are focused on limpets, defensive utilities, cargo capacity, and Guardian technology.}}
+
+== Location ==
+
+* '''System:''' [[Meene]]
+* '''Facility:''' [[Phoenix Base]]
+* '''Body:''' Meene AB 5 d
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Lei Cheung]]
+* '''System permit required:''' No
+
+Phoenix Base is a surface Engineer base on '''Meene AB 5 d'''.<ref name="inara-phoenix">[https://inara.cz/elite/station/55499/ Phoenix Base — Station], Inara.</ref>
+
+== How to Discover Ram Tah ==
+
+Ram Tah is discovered through [[Lei Cheung]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Lei to receive his referral to Ram Tah.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+{{Field note|Receiving Lei's referral makes Ram Tah known to you. His separate Exploration-rank requirement must still be satisfied before his workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Reach the Pilots Federation '''Exploration rank of Surveyor''' or higher.<ref name="inara-ram" />
+
+The early Exploration-rank progression is:
+
+<pre>
+Aimless
+└── Mostly Aimless
+    └── Scout
+        └── Surveyor
+</pre>
+
+If your Exploration rank is already Surveyor, Trailblazer, Pathfinder, Ranger, Pioneer, Elite, or a higher Elite tier, Ram Tah's Exploration-rank requirement has been satisfied.
+
+See [[Exploration Rank]] for how Exploration rank is earned and how to check your current progress.
+
+{{Tip|Ram Tah can gain Engineer reputation from exploration-data sales after he is unlocked. If you are close to Surveyor, the exploration activity used to reach the required rank may also leave you with data that can later be sold at Phoenix Base.}}
+
+== How to Unlock Ram Tah ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Lei Cheung]].
+* Reach '''Surveyor''' or higher in [[Exploration Rank]].
+* Obtain '''50 [[Classified Scan Databanks]]'''.
+* Provide the 50 Classified Scan Databanks to Ram Tah.
+{{Important|'''Classified Scan Databanks are Encoded Engineering materials.''' They are not commodities and do not occupy normal cargo space.}}
+
+For the complete step-by-step process, see [[Unlocking Ram Tah]].
+
+== Obtaining Classified Scan Databanks ==
+
+Classified Scan Databanks are '''Encoded''' materials in the Data Archives category.<ref name="inara-csd" />
+
+Current material data lists them as obtainable from:
+
+* basic ship scans, particularly transport vessels;
+* certain surface points of interest; or
+* trading other Encoded materials through an [[Encoded Material Trader]].<ref name="inara-csd" />
+
+See [[Classified Scan Databanks]] for current collection methods and efficient ways to obtain the full 50 units.
+
+{{Tip|Because Classified Scan Databanks are stored in your Engineering-material inventory rather than your cargo hold, you do '''not''' need to fit cargo racks to transport them to Phoenix Base.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Ram Tah is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-ram" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Ram Tah can be increased by:
+
+* crafting Engineering modifications at Phoenix Base; or
+* selling exploration data at Phoenix Base.<ref name="inara-ram" />
+
+Higher Engineer reputation gives access to the higher grades Ram Tah supports for each blueprint.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have unsold exploration data when Ram Tah is unlocked, selling it through Universal Cartographics at Phoenix Base can help raise your Engineer reputation without relying entirely on repeated Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Ram Tah belongs to [[The Dweller]] branch of the ship Engineer network.
+
+The route to Ram Tah is:
+
+<pre>
+The Dweller
+└── Lei Cheung
+    └── Ram Tah
+</pre>
+
+Ram Tah does '''not''' currently lead to another Engineer in the ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|Ram Tah is the end of this referral branch. Increasing his reputation is still necessary to gain access to his higher Engineering grades, but it does not currently unlock another Engineer.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Ram Tah's current Engineering coverage is shown below. Where individual blueprints have different maximum grades, those grades are shown separately.<ref name="inara-ram" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Cargo Rack]]
+|
+* Extended <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Chaff Launcher]]
+|
+* Ammo Capacity — Grade 1
+* Lightweight — Grade 5
+* Reinforced — Grade 5
+* Shielded — Grade 5
+| '''Grade 5'''
+|-
+| [[Collector Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Electronic Countermeasure]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Fuel Transfer Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Hatch Breaker Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 3'''
+|-
+| [[Heat Sink Launcher]]
+|
+* Ammo Capacity — Grade 1
+* Lightweight — Grade 5
+* Reinforced — Grade 5
+* Shielded — Grade 5
+| '''Grade 5'''
+|-
+| [[Point Defence]]
+|
+* Ammo Capacity — Grade 1
+* Lightweight — Grade 5
+* Reinforced — Grade 5
+* Shielded — Grade 5
+| '''Grade 5'''
+|-
+| [[Prospector Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Guardian Gauss Cannon]]
+|
+* Anti-Guardian Zone Resistance <small>(Live only)</small>
+| '''Grade 1'''
+|-
+| [[Guardian Plasma Charger]]
+|
+* Anti-Guardian Zone Resistance <small>(Live only)</small>
+| '''Grade 1'''
+|-
+| [[Guardian Shard Cannon]]
+|
+* Anti-Guardian Zone Resistance <small>(Live only)</small>
+| '''Grade 1'''
+|}
+
+Current blueprint data lists Ram Tah through '''Grade 5''' for Collector, Fuel Transfer, and Prospector Limpet Controllers.<ref name="inara-collector">[https://inara.cz/elite/blueprint/108/ Collector Limpet Controller — Lightweight], Inara.</ref><ref name="inara-fuel-transfer">[https://inara.cz/elite/blueprint/111/ Fuel Transfer Limpet Controller — Lightweight], Inara.</ref><ref name="inara-prospector">[https://inara.cz/elite/blueprint/117/ Prospector Limpet Controller — Lightweight], Inara.</ref>
+
+== Operations-era Cargo Rack Engineering ==
+
+The '''Extended Cargo Rack''' was introduced with the Operations update.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+The blueprint increases cargo capacity, with Ram Tah able to apply it through '''Grade 5'''.<ref name="inara-extended-cargo">[https://inara.cz/elite/blueprint/206/ Cargo Rack — Extended], Inara.</ref>
+
+At Grade 5, the blueprint increases the rack's cargo capacity by '''34.4%'''.<ref name="inara-extended-cargo" />
+
+{{Important|'''Live only:''' Extended Cargo Rack Engineering is part of the Operations-era system and can only be applied to compatible '''Merc modules'''. It also uses [[Merc Coin]] as part of its Engineering cost.<ref name="inara-extended-cargo" />}}
+
+== Guardian Technology Engineering ==
+
+Ram Tah has a special role in modifying Guardian technology.
+
+=== Anti-Guardian Zone Resistance ===
+
+'''Anti-Guardian Zone Resistance''' provides resistance to the Anti-Guardian field used by certain Thargoid threats.
+
+Frontier expanded Ram Tah's work in Update 18.07 so Guardian technology could receive Anti-Guardian Zone Resistance without the previous weapon-damage penalty.<ref name="frontier-agzr">[https://www.elitedangerous.com/update-notes/4-0-18-07 Elite Dangerous — Update 18.07], Frontier Developments.</ref>
+
+Current Engineer data explicitly lists the modification for:
+
+* [[Guardian Gauss Cannon]]
+* [[Guardian Plasma Charger]]
+* [[Guardian Shard Cannon]]<ref name="inara-ram" />
+
+The modification provides '''+100% Anti-Guardian Zone Resistance''' on the supported Guardian weapon.<ref name="inara-agzr">[https://inara.cz/elite/blueprint/182/ Guardian Gauss Cannon — Anti-Guardian Zone Resistance], Inara.</ref>
+
+{{Important|'''Live only:''' Anti-Guardian Zone Resistance was introduced after the Live/Legacy split and is not part of the Legacy Engineering system.}}
+
+See [[Anti-Guardian Zone Resistance]] and [[Guardian Engineering]] for the current Guardian equipment that can receive the modification, its material requirements, and when the modification is useful.
+
+== Experimental Effects ==
+
+Ram Tah's current Engineering specialties do '''not''' use the ordinary Experimental Effect system.
+
+Current blueprint data lists no Experimental Effects for his:
+
+* Cargo Rack Engineering;
+* Chaff Launcher Engineering;
+* limpet-controller Engineering;
+* Electronic Countermeasure Engineering;
+* Heat Sink Launcher Engineering;
+* Point Defence Engineering; or
+* Anti-Guardian Zone Resistance modifications.<ref name="inara-extended-cargo" /><ref name="inara-collector" /><ref name="inara-agzr" />
+
+{{Important|Do not confuse '''Ammo Capacity''' with an Experimental Effect. On Chaff Launchers, Heat Sink Launchers, and Point Defence, Ammo Capacity is a normal Grade 1 Engineering blueprint.}}
+
+See [[Experimental Effects]] for modules that do support the separate Experimental Effect system.
+
+== Recommended Engineering ==
+
+Ram Tah's Engineering is less centered on one universally dominant module than many other Engineers. His usefulness depends strongly on the role of the ship.
+
+=== Heat Sink Launcher — Ammo Capacity ===
+
+The Grade 1 '''Ammo Capacity''' blueprint is a practical option for ships where additional heat sinks are more valuable than minimizing module mass.
+
+The modification increases maximum Heat Sink ammunition by '''50%''', while increasing module mass and reload time.<ref name="inara-heatsink-ammo">[https://inara.cz/elite/blueprint/147/ Heat Sink Launcher — Ammo Capacity], Inara.</ref>
+
+{{Tip|Additional Heat Sink ammunition can be particularly useful on ships that expect repeated high-heat situations, but the increased mass makes the blueprint less attractive on very mass-sensitive builds.}}
+
+=== Lightweight utility modules ===
+
+Ram Tah can apply '''Grade 5 Lightweight''' Engineering to several utility modules and limpet controllers.
+
+Lightweight Engineering is particularly useful where the module's normal mass is undesirable and additional integrity is not a priority.
+
+For exploration and other mass-sensitive builds, this can make Ram Tah useful for reducing the mass of support equipment such as:
+
+* Collector Limpet Controllers;
+* Fuel Transfer Limpet Controllers;
+* Prospector Limpet Controllers;
+* Heat Sink Launchers;
+* Chaff Launchers; and
+* Electronic Countermeasures.
+
+=== Extended Cargo Racks ===
+
+Live Commanders using compatible Merc Cargo Racks can apply '''Extended''' through Grade 5 to increase cargo capacity.<ref name="inara-extended-cargo" />
+
+This is particularly relevant to ships where maximizing usable cargo space is more important than using the internal slot for another module.
+
+=== Guardian equipment ===
+
+For Commanders operating against Thargoid threats that deploy Anti-Guardian effects, Ram Tah's [[Anti-Guardian Zone Resistance]] capability can be more important than his conventional utility Engineering.
+
+See [[Anti-Guardian Zone Resistance]] before modifying Guardian equipment, as this Engineering serves a specialized anti-xeno purpose rather than a general ship-build role.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Ram Tah, one of his ordinary blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Heat Sink Launcher#Ammo Capacity|Ammo Capacity]] is a practical blueprint to consider pinning at Ram Tah.
+
+The modification is useful on many ships that rely heavily on Heat Sinks, and because Ammo Capacity is only a Grade 1 blueprint, it is inexpensive to apply remotely when needed.
+
+If your fleet places greater value on reducing module mass, a Grade 5 '''Lightweight''' blueprint for one of Ram Tah's supported utility or limpet modules may be a more useful pin instead.}}
+
+Blueprint pinning should reflect the modules and ships you actually use; there is no requirement to use the suggested pin.
+
+{{Important|Pinned blueprints only provide ordinary Remote Engineering. Special Guardian modifications and other workshop-specific work may still require visiting the appropriate Engineer.}}
+
+== What Ram Tah Cannot Fully Engineer ==
+
+Ram Tah provides Grade 5 Engineering for most of his current conventional specialties, but not all individual blueprints reach Grade 5.
+
+Notable limits include:
+
+* '''Hatch Breaker Limpet Controller:''' Grade 3
+* '''Chaff Launcher — Ammo Capacity:''' Grade 1
+* '''Heat Sink Launcher — Ammo Capacity:''' Grade 1
+* '''Point Defence — Ammo Capacity:''' Grade 1
+* '''Anti-Guardian Zone Resistance:''' Grade 1 special modification<ref name="inara-ram" />
+
+The Grade 1 limit on Ammo Capacity is a property of the blueprint itself; there are no higher grades of that modification to pursue.
+
+Likewise, Anti-Guardian Zone Resistance is a specialized one-grade modification rather than an incomplete Grade 1–5 progression.
+
+For other limpet-controller specialties:
+
+* [[The Sarge]] provides Grade 5 Engineering for Hatch Breaker Limpet Controllers.
+* [[Tiana Fortune]] provides Grade 5 Engineering for several limpet-controller types.
+* [[Marsha Hicks]] provides extensive Grade 5 limpet-controller Engineering in Colonia.<ref name="inara-engineers" />
+
+== What Next? ==
+
+Ram Tah is the end of his Engineer referral branch and does not currently introduce another Engineer.
+
+After unlocking him, your next target depends on the modules and activities you want to pursue.
+
+{{What next|title=Continue Engineering|
+* '''Higher-grade Hatch Breaker Limpet Engineering:''' [[The Sarge]] or [[Tiana Fortune]]
+* '''More Grade 5 utility Engineering:''' [[Tiana Fortune]]
+* '''Colonia limpet Engineering:''' [[Marsha Hicks]]
+* '''Guardian technology:''' [[Guardian Engineering]]
+* '''Anti-xeno Guardian protection:''' [[Anti-Guardian Zone Resistance]]
+* '''Previous Engineer:''' [[Lei Cheung]]
+* '''Get the unlock material:''' [[Classified Scan Databanks]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Utility Engineering]]
+[[Category:Limpet Controller Engineering]]
+[[Category:Guardian Engineering]]
+[[Category:Engineering]]

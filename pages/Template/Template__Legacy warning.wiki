@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Legacy warning
+Namespace: 10
+Page ID: 24
+Revision ID: 1121
+Timestamp: 2026-08-20T03:29:42Z
+Source URL: https://edfieldmanual.com/wiki/Template:Legacy_warning
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-warning noexcerpt">'''Legacy notice:''' This information relates to ''Elite Dangerous: Legacy'' and may not apply to the current Live game. See [[Elite Dangerous Field Manual:Verification Policy]] for how Live/Legacy differences are tracked.</div><noinclude>
+== Usage ==
+<pre>{{Legacy warning}}</pre>
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

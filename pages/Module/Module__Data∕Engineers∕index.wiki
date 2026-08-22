@@ -1,0 +1,51 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/index
+Namespace: 828
+Page ID: 168
+Revision ID: 1186
+Timestamp: 2026-08-20T22:09:42Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/index
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+[
+	"Felicity Farseer",
+	"Elvira Martuuk",
+	"Marco Qwent",
+	"Professor Palin",
+	"Chloe Sedesi",
+	"Lori Jameson",
+	"The Dweller",
+	"Lei Cheung",
+	"Ram Tah",
+	"Marsha Hicks",
+	"Tod \"The Blaster\" McQuinn",
+	"Selene Jean",
+	"Bill Turner",
+	"Didi Vatermann",
+	"Petra Olmanova",
+	"Liz Ryder",
+	"Hera Tani",
+	"Broo Tarquin",
+	"Tiana Fortune",
+	"Etienne Dorn",
+	"Juri Ishmaak",
+	"The Sarge",
+	"Colonel Bris Dekker",
+	"Mel Brandon",
+	"Zacariah Nemo",
+	"Hero Ferrari",
+	"Wellington Beck",
+	"Uma Laszlo",
+	"Jude Navarro",
+	"Terra Velasquez",
+	"Oden Geiger",
+	"Domino Green",
+	"Kit Fowler",
+	"Yarden Bond",
+	"Baltanos",
+	"Eleanor Bresa",
+	"Rosa Dayette",
+	"Yi Shen"
+]

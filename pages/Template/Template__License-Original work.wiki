@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:License-Original work
+Namespace: 10
+Page ID: 230
+Revision ID: 1128
+Timestamp: 2026-08-20T03:29:47Z
+Source URL: https://edfieldmanual.com/wiki/Template:License-Original_work
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-info noexcerpt">This file is original work — a diagram, graphic, or other creation by an EDFM contributor, '''not''' a screenshot of ''Elite Dangerous''. The creator retains copyright; it is not released under this wiki's CC BY-SA 4.0 text license unless explicitly stated. All rights reserved unless otherwise noted — contact the creator for reuse permission beyond using it on this wiki.</div><includeonly>[[Category:Original EDFM media]]</includeonly><noinclude>
+== Usage ==
+The license value inserted when a contributor picks '''"Original work — creator retains copyright"''' from the Licensing dropdown on <code>Special:Upload</code>. Use for original diagrams/graphics you made yourself that are '''not''' a screenshot of the game — an in-game screenshot should use {{tl|License-ED screenshot}} instead, even though you captured it, since the underlying game assets aren't yours to license.
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

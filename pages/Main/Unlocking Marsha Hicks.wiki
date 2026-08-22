@@ -1,0 +1,77 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Marsha Hicks
+Namespace: 0
+Page ID: 643
+Revision ID: 1515
+Timestamp: 2026-08-21T14:41:04Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Marsha_Hicks
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Marsha Hicks — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Marsha Hicks]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Marsha Hicks]].
+
+== Objective ==
+Gain access to [[Marsha Hicks]]'s Engineer services at The Watchtower in Tir.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Marsha Hicks is discovered through [[The Dweller]].
+* '''Invitation:''' Reach the Pilots Federation '''Exploration rank of Surveyor''' or higher.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[The Dweller]].
+* Reach '''Surveyor''' or higher in Exploration Rank.
+* Obtain '''10 units of mined Osmium'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Osmium'''
+Osmium is a metal commodity produced through '''mining'''. It does not have ordinary NPC-market production, and current commodity data lists its source as mining only.
+
+For Marsha's unlock, you need '''10 units'''.
+
+A reliable method is to use conventional laser mining:
+
+# Fit a ship with a [[Mining Laser]].
+# Fit a [[Refinery]].
+# Fit an A-rated Prospector Limpet Controller if available.
+# Fit a [[Collector Limpet Controller]] and carry limpets.
+# Enter a '''metallic or metal-rich planetary ring'''.
+# Prospect asteroids until you find one containing Osmium.
+# Laser-mine the asteroid and refine at least '''10 tonnes''' of Osmium.
+
+Osmium does not have a dedicated Osmium hotspot; it is found by prospecting suitable asteroids in metallic or metal-rich rings.
+
+{{Tip|You only need 10 tonnes for Marsha, so a dedicated large mining ship is unnecessary. A medium or small ship with a Mining Laser, Refinery, Prospector Limpet Controller, Collector Limpet Controller, and at least 10 tonnes of cargo capacity is sufficient.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may sometimes offer Osmium for sale, but carrier stock and prices are controlled by individual Commanders and can change. Mining it locally remains the predictable way to obtain Marsha's unlock commodity.
+
+{{Field note|Do not sell the 10 Osmium after mining it. It must remain in your cargo hold so it can be donated through Marsha's Engineer workshop.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Marsha is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[The Dweller]].
+# Receive The Dweller's referral to Marsha Hicks.
+# Reach '''Surveyor''' or higher in Exploration Rank.
+# Obtain '''10 units of mined Osmium'''.
+# Travel to '''The Watchtower''' in Tir.
+# Donate the 10 Osmium to Marsha Hicks.
+# Enter the Engineer workshop and begin increasing your reputation with Marsha.
+}}
+
+== Expected Result ==
+{{Expected result|[[Marsha Hicks]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Marsha Hicks]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[The Dweller]] Exploration Rank Osmium Tir Engineer Reputation The Watchtower}}
+
+== Sources ==
+This procedure was extracted from the current [[Marsha Hicks]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Colonia Engineers]]
+[[Category:Engineering]]

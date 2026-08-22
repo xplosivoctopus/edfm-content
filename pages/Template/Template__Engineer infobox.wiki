@@ -1,0 +1,149 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Engineer infobox
+Namespace: 10
+Page ID: 174
+Revision ID: 949
+Timestamp: 2026-08-19T18:36:15Z
+Source URL: https://edfieldmanual.com/wiki/Template:Engineer_infobox
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#invoke:Engineers|infobox}}<noinclude>
+== Usage ==
+Infobox for Elite Dangerous Engineer articles.
+
+When structured data exists for an Engineer, the template automatically uses
+the canonical values stored in [[Module:Data/Engineers]]. Parameters supplied
+directly on the article override those values when needed.
+
+<pre>
+{{Engineer infobox
+ |name = Broo Tarquin
+ |image =
+ |engineer_type = Ship (weapons)
+ |system = Muang
+ |body =
+ |facility = Broo's Legacy
+ |region =
+ |allegiance =
+ |specialties = Beam, Burst, and Pulse Laser modifications
+ |max_grade =
+ |prerequisite_engineer =
+ |discovery_requirement = Referral from Hera Tani
+ |invitation_requirement = Combat rank Competent or higher
+ |unlock_requirement = Deliver 50 units of Fujin Tea
+}}
+</pre>
+
+Empty parameters are hidden automatically.
+
+For information about adding or updating canonical structured data, see
+[[Elite Dangerous Field Manual:Adding Structured Data]].
+
+<templatedata>
+{
+	"description": "Engineer infobox for Elite Dangerous Engineer articles. Article parameters override structured Engineer data defaults.",
+	"format": "block",
+	"params": {
+		"name": {
+			"label": "Name",
+			"description": "Engineer display name. Defaults to the page title.",
+			"type": "string",
+			"suggested": true
+		},
+		"image": {
+			"label": "Image",
+			"description": "Portrait or relevant image filename, without the File: prefix. Leave blank to show the No image available placeholder.",
+			"type": "wiki-file-name",
+			"suggested": true
+		},
+		"engineer_type": {
+			"label": "Engineer type",
+			"description": "Broad type or category of Engineer.",
+			"type": "string",
+			"suggested": true
+		},
+		"system": {
+			"label": "System",
+			"description": "System where the Engineer is located.",
+			"type": "wiki-page-name",
+			"suggested": true
+		},
+		"body": {
+			"label": "Body",
+			"description": "Planet, moon, or other body if applicable.",
+			"type": "string"
+		},
+		"facility": {
+			"label": "Facility",
+			"description": "Engineer base or facility name.",
+			"type": "string",
+			"suggested": true
+		},
+		"region": {
+			"label": "Region",
+			"description": "Region if applicable.",
+			"type": "string"
+		},
+		"allegiance": {
+			"label": "Allegiance",
+			"description": "Faction or superpower allegiance if applicable.",
+			"type": "string"
+		},
+		"specialties": {
+			"label": "Specialties",
+			"description": "Modules or engineering areas handled by this Engineer.",
+			"type": "string",
+			"suggested": true
+		},
+		"max_grade": {
+			"label": "Maximum grade",
+			"description": "Highest engineering grade offered, when useful as a summary.",
+			"type": "string"
+		},
+		"prerequisite_engineer": {
+			"label": "Prerequisite Engineer",
+			"description": "Engineer referral prerequisite. Omit if no prerequisite Engineer is required.",
+			"type": "string"
+		},
+		"discovery_requirement": {
+			"label": "Discovery requirement",
+			"description": "How the Commander discovers this Engineer.",
+			"type": "string",
+			"suggested": true
+		},
+		"invitation_requirement": {
+			"label": "Invitation requirement",
+			"description": "Requirement for receiving an invitation from this Engineer.",
+			"type": "string",
+			"suggested": true
+		},
+		"unlock_requirement": {
+			"label": "Unlock requirement",
+			"description": "Commodity, material, or task required to unlock workshop access.",
+			"type": "string",
+			"suggested": true
+		}
+	},
+	"paramOrder": [
+		"name",
+		"image",
+		"engineer_type",
+		"system",
+		"body",
+		"facility",
+		"region",
+		"allegiance",
+		"specialties",
+		"max_grade",
+		"prerequisite_engineer",
+		"discovery_requirement",
+		"invitation_requirement",
+		"unlock_requirement"
+	]
+}
+</templatedata>
+
+[[Category:Templates]]
+</noinclude>

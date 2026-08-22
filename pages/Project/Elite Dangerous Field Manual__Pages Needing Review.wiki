@@ -1,0 +1,49 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Pages Needing Review
+Namespace: 4
+Page ID: 50
+Revision ID: 318
+Timestamp: 2026-08-07T22:23:30Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Pages_Needing_Review
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Working list of pages that need editorial attention. This is a manually maintained starting point — {{PAGESINCATEGORY:Pages Needing Review}} pages carry the {{tl|Article status}} tracking category automatically once tagged; this page is for human notes that don't fit neatly into that.
+
+== Engineering section — populated (2026-08-07) ==
+All 25 Ship Engineers and 13 Odyssey Engineers now have real, sourced content (locations, unlock requirements, specialties — see each page's own Sources section), not structural placeholders. Depth varies: [[Broo Tarquin]], [[Felicity Farseer]], [[Liz Ryder]], and [[Hera Tani]] got full research passes and are the quality-gate examples; the rest are researched at an "achievable depth" with single-sourced items explicitly flagged inline. All carry <code>status=Needs review</code> — none should be moved to ''Verified'' without a named reviewer checking claims directly against the live game, per [[Elite Dangerous Field Manual:Verification Policy]].
+
+== Content architecture phase — demonstration content (2026-08-07) ==
+Structural backbone (categories, templates, JSON/Lua data pipeline, topic hubs, redirects, editor docs) built this pass. The following are proof-of-concept pages, deliberately small and marked Draft, not yet complete:
+* [[List of Engineers]], [[Engineer Capability Comparison]] — structured-data proof of concept, only 4 of 38 Engineers backed by a JSON record so far.
+* [[Unlocking Broo Tarquin]] — the only guide built so far demonstrating the encyclopedia/guide split.
+* [[Thargoid War History]] — Galactic Archive structural placeholder, no researched history yet.
+* [[Trailblazers]] — Game Update proof of concept; date/version corroborated by two sources but Frontier's own update-notes page couldn't be fetched directly to confirm the exact client version string.
+* [[Exploration]], [[Exobiology]], [[Combat]], [[Trade]], [[Mining]], [[Background Simulation]], [[Fleet Carriers]], [[Guardian]], [[Thargoid]] — new topic hub stubs, no individual articles yet.
+
+== Still structural placeholders, no gameplay content yet ==
+* [[Start Here]]
+* [[New Commander Roadmap]]
+* [[Returning Commander Overview]]
+* [[Field Procedures]]
+* [[Game Reference]]
+* [[Ships and Equipment]]
+* [[Odyssey]]
+* [[Powerplay]]
+* [[Colonisation]]
+* [[Operations]]
+* [[Lore and History]]
+* [[Engineering Blueprints]], [[Experimental Effects]], [[Engineering Materials]] — browse hubs, thin.
+
+== Pages with real content, not yet human-reviewed ==
+* [[Tools and Resources]] — populated with a categorised list of established third-party community tools/sites; needs a named reviewer to confirm current URLs and that nothing has shut down or been superseded before it carries a ''Verified'' status. The new EDEngineer entry (2026-08-07) hasn't been independently checked beyond its GitHub page being live.
+* All 38 Engineer pages (see above) — need a named reviewer with in-game access, not desk research, before ''Verified'' is appropriate.
+
+== Open project decisions ==
+* Structured-data approach: '''resolved''' this pass — Scribunto/Lua + JSON content-model pages, no new extension. Cargo was considered and explicitly deferred; revisit only if list/comparison generation genuinely outgrows this.
+* Namespaces: '''resolved''' this pass — no new namespaces added; guides and archive content stay flat-titled in Main namespace, matching the existing site convention.
+* 18 of 19 requested infobox wrapper types (Ship, Module, Weapon, Material, Commodity, Power, Faction, Station type, Settlement type, Colonisation facility, Equipment, Guardian technology, Thargoid entity, Location, Character, Organization, Event) are not yet built — only {{tl|Engineer infobox}} and {{tl|Game update infobox}} exist. Build each on-demand, the first time that entity family gets a real content pass.
+* Whether/when to enable public registration — see [[Elite Dangerous Field Manual:Contributing]].
+* Whether/when to enable SVG uploads — see [[Elite Dangerous Field Manual:Screenshot Policy]].
+* Whether/when to lift the sysop-only upload restriction — uploads themselves are technically enabled (PNG/JPEG/WebP, 30MB), just not yet available to non-admin accounts.

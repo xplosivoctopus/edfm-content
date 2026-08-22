@@ -1,0 +1,42 @@
+<!--
+EDFM current-content archive export.
+Title: Electronic Countermeasure
+Namespace: 0
+Page ID: 382
+Revision ID: 1019
+Timestamp: 2026-08-20T01:38:47Z
+Source URL: https://edfieldmanual.com/wiki/Electronic_Countermeasure
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Utility Module
+ |deck=A defensive utility module that disables incoming seeker missiles, torpedoes, mines, and Hatch Breaker limpets in range.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+The '''Electronic Countermeasure''' (ECM) is a defensive utility module that disrupts hostile tracking munitions — [[Seeker Missile Rack|seeker missiles]], [[Torpedo Pylon|torpedoes]], mines, and Hatch Breaker limpets — throwing them off their target when triggered within range.
+
+== Overview ==
+
+Holding the trigger extends the ECM's effective radius, and there is no hard limit on how many separate hostile munitions it can disrupt in a single activation, making it a strong answer to a missile-heavy attacker or a pirate deploying [[Hatch Breaker Limpet Controller|Hatch Breaker limpets]]. Like other defensive utilities, it has a cooldown between uses rather than being available continuously.
+
+{{Field note|ECM affects tracking munitions and limpets, not weapon fire itself. It does not stop laser or projectile damage, and it does not disrupt gimballed/turreted tracking the way a [[Chaff Launcher]] does.}}
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Ram Tah]] || Grade 5
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Utility Engineering]]
+[[Category:Engineering]]

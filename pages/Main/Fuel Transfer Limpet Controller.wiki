@@ -1,0 +1,42 @@
+<!--
+EDFM current-content archive export.
+Title: Fuel Transfer Limpet Controller
+Namespace: 0
+Page ID: 386
+Revision ID: 1023
+Timestamp: 2026-08-20T01:38:50Z
+Source URL: https://edfieldmanual.com/wiki/Fuel_Transfer_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Optional Internal Module
+ |deck=Deploys limpets that draw fuel from the controlling ship's tank and transfer it to a targeted ship.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+The '''Fuel Transfer Limpet Controller''' launches limpets that draw fuel out of the controlling ship's own tank and deliver it to a targeted ship, refuelling it in flight.
+
+== Overview ==
+
+Fuel Transfer limpets are one of four original Limpet Controller types (alongside [[Collector Limpet Controller|Collector]], [[Hatch Breaker Limpet Controller|Hatch Breaker]], and [[Prospector Limpet Controller|Prospector]]), and are the tool behind community fuel-rescue operations for Commanders stranded with an empty tank, as well as general fleet support for wingmates running low on fuel far from a station.
+
+{{Field note|A Fuel Transfer limpet moves fuel from '''your''' tank to the target's — it does not create fuel, so the donor ship needs enough reserve fuel to spare before offering a transfer.}}
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Ram Tah]] || Grade 5
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]

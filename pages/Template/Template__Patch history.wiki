@@ -1,0 +1,36 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Patch history
+Namespace: 10
+Page ID: 166
+Revision ID: 249
+Timestamp: 2026-08-07T22:01:42Z
+Source URL: https://edfieldmanual.com/wiki/Template:Patch_history
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-reference">'''Patch history'''
+{{{1}}}
+</div><noinclude>
+== Usage ==
+A concise changelog for this article's subject — write the table body
+directly as normal wikitable syntax; this template just wraps it in a
+styled, labelled panel.
+
+<pre>
+{{Patch history|
+! Update !! Date !! Change
+|-
+| [[Trailblazers]] || 2025-04-30 || Colonisation economy significantly reworked (Update 3).
+}}
+</pre>
+
+Place near the bottom of an article, in the same position as
+{{tl|Engineering nav}} or other footer-level templates. Link the Update
+name to its own article where one exists — see [[:Category:Updates]] and
+[[Elite Dangerous Field Manual:Updating Game Statistics]]. Linking the
+Update name is also what lets <code>Special:WhatLinksHere</code> on that
+Update's own page answer "which articles were affected by this update,"
+with no separate per-update category needed.
+[[Category:Templates]]
+</noinclude>

@@ -1,0 +1,443 @@
+<!--
+EDFM current-content archive export.
+Title: Marsha Hicks
+Namespace: 0
+Page ID: 127
+Revision ID: 1464
+Timestamp: 2026-08-21T14:38:57Z
+Source URL: https://edfieldmanual.com/wiki/Marsha_Hicks
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 projectile-weapon, limpet-controller, Fuel Scoop, and Refinery Engineer based at The Watchtower in the Colonia region, reached through The Dweller.
+}}
+
+{{Engineer infobox}}
+
+'''Marsha Hicks''' is a ship Engineer based at '''The Watchtower''' in the [[Tir]] system of the Colonia region. She is reached through [[The Dweller]] and specialises in projectile weapons, limpet controllers, Fuel Scoops, and Refineries.<ref name="inara-marsha">[https://inara.cz/elite/engineer/21/ Marsha Hicks — Engineer], Inara.</ref>
+
+Marsha currently provides '''Grade 5 Engineering for every module type she supports''', including Cannons, Fragment Cannons, Multi-Cannons, Collector, Fuel Transfer, Hatch Breaker, and Prospector Limpet Controllers, Fuel Scoops, and Refineries.<ref name="inara-marsha" /><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+{{Field note|Marsha is located in the '''Colonia region''', far from the core inhabited Bubble. If you are travelling to Colonia specifically for Engineering, consider preparing the unlock requirements for the other Colonia Engineers before leaving the Bubble.}}
+
+== Location ==
+
+* '''System:''' [[Tir]]
+* '''Facility:''' [[The Watchtower]]
+* '''Body:''' Tir A 2
+* '''Region:''' Colonia
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[The Dweller]]
+* '''System permit required:''' No
+
+The Watchtower is a surface Engineer base on '''Tir A 2'''.<ref name="inara-watchtower">[https://inara.cz/elite/station/?search=The+Watchtower%5BTir%5D The Watchtower — Station], Inara.</ref>
+
+{{Important|Marsha is one of the four ship Engineers located in the Colonia region. Receiving her referral does not move her workshop or provide a remote unlock; you must travel to Tir to complete the unlock.}}
+
+== How to Discover Marsha Hicks ==
+
+Marsha Hicks is discovered through [[The Dweller]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with The Dweller to receive his referral to Marsha.<ref name="newp-engineers" />
+
+{{Field note|Receiving The Dweller's referral makes Marsha known to you. Her separate Exploration-rank requirement must still be satisfied before her workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Reach the Pilots Federation '''Exploration rank of Surveyor''' or higher.<ref name="inara-marsha" />
+
+The early Exploration-rank progression is:
+
+<pre>
+Aimless
+└── Mostly Aimless
+    └── Scout
+        └── Surveyor
+</pre>
+
+If your Exploration rank is already Surveyor, Trailblazer, Pathfinder, Ranger, Pioneer, Elite, or a higher Elite tier, Marsha's Exploration-rank requirement has already been satisfied.
+
+See [[Exploration Rank]] for how Exploration rank is earned and how to check your current rank.
+
+{{Tip|The trip to Colonia itself can generate substantial exploration data if you scan systems along the route. However, Marsha does '''not''' use exploration-data sales as an alternative Engineer-reputation method after she is unlocked.}}
+
+== How to Unlock Marsha Hicks ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[The Dweller]].
+* Reach '''Surveyor''' or higher in [[Exploration Rank]].
+* Obtain '''10 units of mined [[Osmium]]'''.
+* Donate the 10 Osmium to Marsha Hicks.
+{{Important|'''Osmium is a commodity, not an Engineering material.''' Each unit occupies one tonne of cargo space, so transporting all 10 units requires at least '''10 tonnes of cargo capacity'''.}}
+
+For the complete step-by-step process, see [[Unlocking Marsha Hicks]].
+
+== Obtaining Osmium ==
+
+Osmium is a metal commodity produced through '''mining'''. It does not have ordinary NPC-market production, and current commodity data lists its source as mining only.<ref name="inara-osmium" />
+
+For Marsha's unlock, you need '''10 units'''.
+
+A reliable method is to use conventional laser mining:
+
+# Fit a ship with a [[Mining Laser]].
+# Fit a [[Refinery]].
+# Fit an [[A-rated Prospector Limpet Controller]] if available.
+# Fit a [[Collector Limpet Controller]] and carry limpets.
+# Enter a '''metallic or metal-rich planetary ring'''.
+# Prospect asteroids until you find one containing Osmium.
+# Laser-mine the asteroid and refine at least '''10 tonnes''' of Osmium.
+
+Osmium does not have a dedicated Osmium hotspot; it is found by prospecting suitable asteroids in metallic or metal-rich rings.<ref name="elite-miners-osmium">[https://www.reddit.com/r/EliteMiners/wiki/engineers/ Mining Resources for Engineers], r/EliteMiners community guide.</ref>
+
+{{Tip|You only need 10 tonnes for Marsha, so a dedicated large mining ship is unnecessary. A medium or small ship with a Mining Laser, Refinery, Prospector Limpet Controller, Collector Limpet Controller, and at least 10 tonnes of cargo capacity is sufficient.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may sometimes offer Osmium for sale, but carrier stock and prices are controlled by individual Commanders and can change. Mining it locally remains the predictable way to obtain Marsha's unlock commodity.
+
+{{Field note|Do not sell the 10 Osmium after mining it. It must remain in your cargo hold so it can be donated through Marsha's Engineer workshop.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Marsha is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-marsha" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Marsha Hicks is increased by:
+
+* crafting Engineering modifications at The Watchtower.<ref name="inara-marsha" />
+
+Unlike several Bubble Engineers, current Engineer data does not list commodity sales, exploration data, bounty vouchers, or another secondary reputation-gain method for Marsha.
+
+Higher Engineer reputation gives access to the higher grades Marsha supports for each blueprint.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|Because Marsha's reputation is raised through Engineering itself, consider arriving with enough Engineering materials to perform several useful modifications rather than making the journey with only the Osmium required for her unlock.}}
+
+== Engineer Unlock Chain ==
+
+Marsha Hicks belongs to [[The Dweller]] branch of the ship Engineer network.
+
+The route to Marsha is:
+
+<pre>
+The Dweller
+└── Marsha Hicks [Colonia]
+</pre>
+
+The Dweller can also refer Commanders to [[Lei Cheung]], who leads onward to [[Ram Tah]]:
+
+<pre>
+The Dweller
+├── Lei Cheung
+│   └── Ram Tah
+└── Marsha Hicks [Colonia]
+</pre>
+
+Marsha Hicks does '''not''' currently lead to another Engineer in the ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|Marsha's location in Colonia does not make the other Colonia Engineers part of her referral chain. [[Mel Brandon]], [[Petra Olmanova]], and [[Etienne Dorn]] are reached through other Bubble Engineers.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Marsha's current Engineering coverage is shown below. She provides '''Grade 5''' access for every module type she supports.<ref name="inara-marsha" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Cannon]]
+|
+* Efficient
+* High Capacity
+* Lightweight
+* Long Range
+* Overcharged
+* Rapid Fire
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Fragment Cannon]]
+|
+* Double Screaming <small>(Live only; Merc modules)</small>
+* Double Shot
+* Efficient
+* High Capacity
+* Lightweight
+* Overcharged
+* Rapid Fire
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Multi-Cannon]]
+|
+* Efficient
+* High Capacity
+* Lightweight
+* Long Range
+* Overcharged
+* Rapid Fire
+* Rapid Phase <small>(Live only; Merc modules)</small>
+* Short Range
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Collector Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Fuel Scoop]]
+|
+* Scoop Rate Enhanced <small>(Live only)</small>
+* Shielded
+| '''Grade 5'''
+|-
+| [[Fuel Transfer Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Hatch Breaker Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Prospector Limpet Controller]]
+|
+* Lightweight
+* Reinforced
+* Shielded
+| '''Grade 5'''
+|-
+| [[Refinery]]
+|
+* Shielded
+| '''Grade 5'''
+|}
+
+== Operations-era Engineering ==
+
+Several current Marsha Hicks blueprints were introduced or made available through the Operations-era Engineering system.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+These blueprints are available only in '''Live''' and are not part of Legacy Engineering.
+
+=== Double Screaming Fragment Cannon ===
+
+'''Double Screaming''' is a Fragment Cannon blueprint that increases ammunition capacity, magazine size, burst size, and reload performance while introducing tradeoffs including reduced range and increased mass and power draw.<ref name="inara-double-screaming">[https://inara.cz/elite/blueprint/215/ Fragment Cannon — Double Screaming], Inara.</ref>
+
+Marsha can apply Double Screaming through '''Grade 5'''.
+
+{{Important|Double Screaming can only be applied to compatible '''Merc Fragment Cannons''' and requires [[Merc Coin]] as part of its Engineering cost.<ref name="inara-double-screaming" />}}
+
+=== Rapid Phase Multi-Cannon ===
+
+'''Rapid Phase''' is a Multi-Cannon blueprint focused on greatly increasing projectile output, ammunition capacity, magazine capacity, and rate of fire, with tradeoffs including reduced effective range and increased weapon jitter.<ref name="inara-rapid-phase">[https://inara.cz/elite/blueprint/223/ Multi-Cannon — Rapid Phase], Inara.</ref>
+
+Marsha can apply Rapid Phase through '''Grade 5'''.
+
+{{Important|Rapid Phase can only be applied to compatible '''Merc Multi-Cannons''' and requires [[Merc Coin]] as part of its Engineering cost.<ref name="inara-rapid-phase" />}}
+
+=== Scoop Rate Enhanced Fuel Scoop ===
+
+'''Scoop Rate Enhanced''' increases a Fuel Scoop's collection rate at the cost of increased power draw.<ref name="inara-scoop">[https://inara.cz/elite/blueprint/201/ Fuel Scoop — Scoop Rate Enhanced], Inara.</ref>
+
+Marsha can apply Scoop Rate Enhanced through '''Grade 5'''.
+
+At Grade 5, the blueprint provides:
+
+* '''+50% Scoop Rate'''
+* '''+15% Power Draw'''<ref name="inara-scoop" />
+
+Current blueprint data lists:
+
+* [[Bill Turner]] — through Grade 3
+* [[Lori Jameson]] — through Grade 4
+* '''Marsha Hicks — through Grade 5'''<ref name="inara-scoop" />
+
+Marsha is therefore currently the only Engineer capable of applying '''Grade 5 Scoop Rate Enhanced'''.
+
+{{Important|Scoop Rate Enhanced requires [[Merc Coin]] as part of its Engineering cost. Unlike Double Screaming and Rapid Phase, the current blueprint is not restricted to a special Merc-only Fuel Scoop.<ref name="inara-scoop" />}}
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint.
+
+Among Marsha's supported modules, her projectile weapons — Cannons, Fragment Cannons, and Multi-Cannons — support Experimental Effects.
+
+Her limpet controllers, Fuel Scoops, and Refineries do not currently have Experimental Effects.
+
+=== Cannon ===
+
+Available Cannon Experimental Effects include:<ref name="inara-cannon">[https://inara.cz/elite/blueprint/43/ Cannon — Efficient], Inara.</ref>
+
+* [[Auto Loader]]
+* [[Dispersal Field]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Force Shell]]
+* [[High Yield Shell]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Smart Rounds]]
+* [[Stripped Down]]
+* [[Thermal Cascade]]
+
+=== Fragment Cannon ===
+
+Available Fragment Cannon Experimental Effects include:<ref name="inara-fragment">[https://inara.cz/elite/blueprint/48/ Fragment Cannon — Double Shot], Inara.</ref>
+
+* [[Corrosive Shell]]
+* [[Dazzle Shell]]
+* [[Double Braced]]
+* [[Drag Munitions]]
+* [[Flow Control]]
+* [[Incendiary Rounds]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Screening Shell]]
+* [[Stripped Down]]
+
+=== Multi-Cannon ===
+
+Available Multi-Cannon Experimental Effects include:<ref name="inara-multicannon">[https://inara.cz/elite/blueprint/57/ Multi-Cannon — Overcharged], Inara.</ref>
+
+* [[Auto Loader]]
+* [[Corrosive Shell]]
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Incendiary Rounds]]
+* [[Multi-servos]]
+* [[Oversized]]
+* [[Smart Rounds]]
+* [[Stripped Down]]
+* [[Thermal Shock]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. A weapon must be taken to an Engineer who works on that weapon type to have an Experimental Effect applied.}}
+
+== Recommended Engineering ==
+
+Marsha's broad Grade 5 coverage makes her useful for several different ship roles.
+
+=== Multi-Cannons ===
+
+Marsha provides all conventional Multi-Cannon blueprints through Grade 5.
+
+{{Tip|'''Common general-purpose choice: Overcharged'''
+
+[[Overcharged Multi-Cannon]] is a strong general-purpose choice for increasing weapon damage when the additional distributor draw and thermal load are acceptable.
+
+The best Experimental Effect depends on the weapon's role. For example, one Multi-Cannon in a weapon group may use [[Corrosive Shell]] to weaken hull resistance, while other weapons use effects such as [[Auto Loader]] or [[Incendiary Rounds]].
+
+This is build guidance rather than a universal requirement.}}
+
+=== Fuel Scoop ===
+
+For Live Commanders, Marsha's Grade 5 [[Scoop Rate Enhanced]] capability is particularly notable because no other current Engineer provides the blueprint through Grade 5.<ref name="inara-scoop" />
+
+A 50% increase in scoop rate can significantly reduce refuelling time on ships that frequently make long-distance journeys.
+
+The tradeoff is a 15% increase in Fuel Scoop power draw at Grade 5.
+
+=== Limpet controllers ===
+
+Marsha provides Grade 5 Lightweight, Reinforced, and Shielded Engineering for all four of her supported limpet-controller types:
+
+* Collector
+* Fuel Transfer
+* Hatch Breaker
+* Prospector
+
+Lightweight can be useful on exploration or other mass-sensitive ships, while Reinforced or Shielded may be more appropriate where module survivability matters.
+
+=== Refinery ===
+
+Marsha provides Grade 5 [[Shielded Refinery]] Engineering.
+
+Shielded Engineering increases module integrity while also increasing its power requirements. Its usefulness therefore depends on whether protection for the Refinery is worth the additional power draw for the intended build.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Marsha, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation — Live:''' [[Scoop Rate Enhanced Fuel Scoop]] is a particularly useful blueprint to consider pinning at Marsha.
+
+Marsha is currently the only Engineer who provides Scoop Rate Enhanced through '''Grade 5'''. Because her workshop is located in Colonia, pinning the blueprint also avoids making another trip to Colonia each time you want to engineer a new Fuel Scoop.
+
+If Fuel Scoop performance is not important to your fleet, one of Marsha's Grade 5 weapon or limpet-controller blueprints may be more useful instead.}}
+
+For Legacy Commanders, Scoop Rate Enhanced is not available. A frequently used Grade 5 blueprint such as [[Overcharged Multi-Cannon]] can instead be considered, although the best pin depends on which blueprints are already pinned through other Engineers.
+
+Blueprint pinning should reflect the modules and ships you actually use; there is no requirement to use the suggested pin.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Weapon Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What Marsha Cannot Fully Engineer ==
+
+Unlike many ship Engineers, Marsha currently provides '''Grade 5 access for every module type she supports'''.<ref name="inara-marsha" />
+
+Her maximum grades are:
+
+* '''Cannon:''' Grade 5
+* '''Fragment Cannon:''' Grade 5
+* '''Multi-Cannon:''' Grade 5
+* '''Collector Limpet Controller:''' Grade 5
+* '''Fuel Scoop:''' Grade 5
+* '''Fuel Transfer Limpet Controller:''' Grade 5
+* '''Hatch Breaker Limpet Controller:''' Grade 5
+* '''Prospector Limpet Controller:''' Grade 5
+* '''Refinery:''' Grade 5
+
+This does not mean Marsha can engineer every projectile weapon or every mining module. Her workshop does not, for example, provide Engineering for Rail Guns, Plasma Accelerators, Mining Lasers, Abrasion Blasters, or other module types not listed above.
+
+For alternative Grade 5 projectile-weapon Engineers:
+
+* [[Tod "The Blaster" McQuinn]] provides Grade 5 Multi-Cannon and Rail Gun Engineering.
+* [[Zacariah Nemo]] provides Grade 5 Fragment Cannon Engineering.
+* [[The Sarge]] provides Grade 5 Cannon Engineering.<ref name="inara-engineers" />
+
+Marsha's distinguishing feature is the combination of multiple Grade 5 projectile weapons with Grade 5 limpet, Fuel Scoop, and Refinery Engineering in a single workshop.
+
+== What Next? ==
+
+Marsha Hicks is the end of her referral branch and does not currently introduce another Engineer.
+
+If you have already travelled to Colonia, it is worth considering the other three Colonia ship Engineers before returning to the Bubble.
+
+{{What next|title=Continue Engineering|
+* '''Lasers, shields, FSDs, Thrusters, and Shield Cell Banks:''' [[Mel Brandon]]
+* '''Armour, weapons, and defensive utilities:''' [[Petra Olmanova]]
+* '''Power systems, scanners, Life Support, Rail Guns, and Plasma Accelerators:''' [[Etienne Dorn]]
+* '''Previous Engineer:''' [[The Dweller]]
+* '''Get the unlock commodity:''' [[Osmium]]
+* '''Learn about Colonia Engineering:''' [[Colonia Engineers]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Colonia Engineers]]
+[[Category:Weapon Engineering]]
+[[Category:Limpet Controller Engineering]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]

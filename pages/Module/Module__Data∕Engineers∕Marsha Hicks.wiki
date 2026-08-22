@@ -1,0 +1,69 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Marsha Hicks
+Namespace: 828
+Page ID: 406
+Revision ID: 1162
+Timestamp: 2026-08-20T22:09:01Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Marsha_Hicks
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Marsha Hicks",
+	"engineer_scope": "ship",
+	"image": "Marshahicks.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Tir",
+	"body": "Tir A 2",
+	"facility": "The Watchtower",
+	"region": "Colonia",
+	"allegiance": null,
+	"specialties": [
+		"Cannon",
+		"Fragment Cannon",
+		"Multi-Cannon",
+		"Collector Limpet Controller",
+		"Fuel Scoop",
+		"Fuel Transfer Limpet Controller",
+		"Hatch Breaker Limpet Controller",
+		"Prospector Limpet Controller",
+		"Refinery"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "The Dweller",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from The Dweller",
+	"invitation_requirement": "Exploration rank Surveyor or higher",
+	"meeting_requirement": "Reach Exploration rank Surveyor or higher.",
+	"meeting_links": [
+		{
+			"text": "Exploration rank",
+			"target": "Exploration Rank"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 10,
+		"unit": "unit",
+		"item": "Osmium"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Cannon",
+				"Fragment Cannon",
+				"Multi-Cannon",
+				"Collector Limpet Controller",
+				"Fuel Scoop",
+				"Fuel Transfer Limpet Controller",
+				"Hatch Breaker Limpet Controller",
+				"Prospector Limpet Controller",
+				"Refinery"
+			]
+		}
+	],
+	"colonia": true
+}

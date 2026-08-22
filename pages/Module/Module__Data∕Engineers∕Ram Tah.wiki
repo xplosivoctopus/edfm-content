@@ -1,0 +1,92 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Ram Tah
+Namespace: 828
+Page ID: 343
+Revision ID: 1166
+Timestamp: 2026-08-20T22:09:04Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Ram_Tah
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Ram Tah",
+	"engineer_scope": "ship",
+	"image": "Ramtah.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Meene",
+	"body": "Meene AB 5 d",
+	"facility": "Phoenix Base",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Chaff Launcher",
+		"Collector Limpet Controller",
+		"Electronic Countermeasure",
+		"Fuel Transfer Limpet Controller",
+		"Heat Sink Launcher",
+		"Point Defence",
+		"Prospector Limpet Controller",
+		"Cargo Rack",
+		"Hatch Breaker Limpet Controller",
+		"Guardian Gauss Cannon",
+		"Guardian Plasma Charger",
+		"Guardian Shard Cannon"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Lei Cheung",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Lei Cheung",
+	"invitation_requirement": "Exploration rank Surveyor or higher",
+	"meeting_requirement": "Reach Exploration rank Surveyor or higher.",
+	"meeting_links": [
+		{
+			"text": "Exploration rank",
+			"target": "Exploration Rank"
+		}
+	],
+	"unlock": {
+		"action": "Provide",
+		"quantity": 50,
+		"item": "Classified Scan Databanks"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Chaff Launcher",
+				"Collector Limpet Controller",
+				"Electronic Countermeasure",
+				"Fuel Transfer Limpet Controller",
+				"Heat Sink Launcher",
+				"Point Defence",
+				"Prospector Limpet Controller"
+			]
+		},
+		{
+			"grade": 5,
+			"live_only": true,
+			"merc": true,
+			"modules": [
+				"Cargo Rack"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Hatch Breaker Limpet Controller"
+			]
+		},
+		{
+			"grade": 1,
+			"live_only": true,
+			"modules": [
+				"Guardian Gauss Cannon",
+				"Guardian Plasma Charger",
+				"Guardian Shard Cannon"
+			]
+		}
+	],
+	"colonia": false
+}

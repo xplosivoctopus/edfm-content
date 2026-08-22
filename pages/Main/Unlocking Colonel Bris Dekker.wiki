@@ -1,0 +1,50 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Colonel Bris Dekker
+Namespace: 0
+Page ID: 639
+Revision ID: 1501
+Timestamp: 2026-08-21T14:40:49Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Colonel_Bris_Dekker
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Colonel Bris Dekker — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Colonel Bris Dekker]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Colonel Bris Dekker]].
+
+== Objective ==
+Gain access to [[Colonel Bris Dekker]]'s Engineer services at Dekker's Yard in Sol.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Colonel Bris Dekker is discovered through [[Juri Ishmaak]].
+* '''Invitation:''' Reach at least '''Friendly reputation with the Federation'''.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Juri Ishmaak]].
+* Obtain the Sol Permit by reaching '''Petty Officer''' or higher in Federal Navy Rank.
+* Provide the required value of Federal combat bonds.
+}}
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Juri Ishmaak]].
+# Receive Juri's referral to Colonel Bris Dekker.
+# Reach at least '''Friendly reputation with the Federation'''.
+# Obtain the Sol Permit by reaching '''Petty Officer''' or higher in Federal Navy Rank.
+# Accumulate enough '''Federal combat bonds''' for Bris's unlock requirement.
+# Travel to '''Dekker's Yard''' on '''Iapetus''' in Sol.
+# Provide the required value of Federal combat bonds.
+# Enter the Engineer workshop and begin increasing your reputation with Bris.
+}}
+
+== Expected Result ==
+{{Expected result|[[Colonel Bris Dekker]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Colonel Bris Dekker]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Juri Ishmaak]] [[The Sarge]] Federal Navy Rank Federation Reputation Sol Permit Sol}}
+
+== Sources ==
+This procedure was extracted from the current [[Colonel Bris Dekker]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

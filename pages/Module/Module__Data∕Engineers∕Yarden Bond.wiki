@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Yarden Bond
+Namespace: 828
+Page ID: 422
+Revision ID: 1212
+Timestamp: 2026-08-20T23:54:20Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Yarden_Bond
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Yarden Bond",
+	"image": null,
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Bayan",
+	"body": "Bayan 7 b",
+	"facility": "Salamander Bank",
+	"region": null,
+	"allegiance": null,
+	"discovery": {
+		"type": "referral"
+	},
+	"unlock": {
+		"type": "sell",
+		"quantity": 5,
+		"item": "Smear Campaign Plans",
+		"destination": "bartenders"
+	},
+	"prerequisite_engineer": "Kit Fowler",
+	"referrals": [],
+	"modifications": {
+		"suit": [
+			"Combat Movement Speed",
+			"Improved Jump Assist",
+			"Quieter Footsteps"
+		],
+		"weapon": [
+			"Audio Masking",
+			"Faster Handling",
+			"Improved Hip Fire Accuracy"
+		]
+	},
+	"colonia": false
+}

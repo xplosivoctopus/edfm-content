@@ -1,0 +1,444 @@
+<!--
+EDFM current-content archive export.
+Title: Wellington Beck
+Namespace: 0
+Page ID: 134
+Revision ID: 1482
+Timestamp: 2026-08-21T14:39:10Z
+Source URL: https://edfieldmanual.com/wiki/Wellington_Beck
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Odyssey Engineer
+ |deck=A suit-utility and weapon specialist based at Beck Facility in Jolapa, reached through Hero Ferrari and leading to Uma Laszlo.
+}}
+
+{{Engineer infobox}}
+
+'''Wellington Beck''' is an Odyssey Engineer based at '''Beck Facility''' in the [[Jolapa]] system. He is discovered through [[Hero Ferrari]] and specialises in a mixture of suit utility and handheld-weapon modifications.<ref name="inara-beck">[https://inara.cz/elite/engineer/30/ Wellington Beck — Engineer], Inara.</ref>
+
+Wellington provides [[Extra Backpack Capacity]], [[Greater Range]], [[Improved Battery Capacity]], [[Reduced Tool Battery Consumption]], and [[Scope]].<ref name="inara-beck" />
+
+{{Field note|Odyssey Engineering does '''not''' use the Grade 1–5 Engineer-reputation system used by ship Engineers. Suits and weapons have equipment grades and modification slots, while Wellington installs individual modifications into those slots.}}
+
+== Location ==
+
+* '''System:''' [[Jolapa]]
+* '''Settlement:''' [[Beck Facility]]
+* '''Body:''' Jolapa 6 a
+* '''Engineer type:''' Odyssey Engineer
+* '''Prerequisite Engineer:''' [[Hero Ferrari]]
+* '''System permit required:''' No
+
+Beck Facility is a surface Engineer base on '''Jolapa 6 a'''.<ref name="inara-beck-facility">[https://inara.cz/elite/station/275264/ Beck Facility — Station], Inara.</ref>
+
+The facility has a concourse and the services needed to access Wellington's Engineering workshop.<ref name="inara-beck-facility" />
+
+== How to Discover Wellington Beck ==
+
+Wellington Beck is discovered through [[Hero Ferrari]].<ref name="inara-beck" />
+
+After unlocking Hero, provide her with '''5 [[Settlement Defence Plans]]''' to receive Wellington's referral.<ref name="inara-hero">[https://inara.cz/elite/engineer/28/ Hero Ferrari — Engineer], Inara.</ref>
+
+[[Settlement Defence Plans]] are Odyssey '''Data''' and can currently be found at:
+
+* [[Irregular Markers]];
+* data ports in '''CMD buildings'''; and
+* mission rewards.<ref name="inara-sdp">[https://inara.cz/elite/componentitem/10365/ Settlement Defence Plans — Component], Inara.</ref>
+
+{{Important|'''The current referral requirement is 5 Settlement Defence Plans.'''
+
+Older guides may list 15. Frontier reduced Hero Ferrari's requirement to '''5''' in Update 18.08.<ref name="frontier-1808">[https://forums.frontier.co.uk/threads/elite-dangerous-type-8-update-18-08-wednesday-7th-august.627151/ Elite Dangerous — Type-8 Update 18.08], Frontier Developments.</ref>}}
+
+See [[Hero Ferrari]] for the complete preceding Engineer unlock.
+
+== How to Receive an Invitation ==
+
+There is no separate invitation requirement after receiving Wellington's referral from [[Hero Ferrari]].
+
+Once Wellington has been discovered, complete his bartender-sales requirement to unlock his workshop.<ref name="inara-beck" />
+
+== How to Unlock Wellington Beck ==
+
+Unlock requirements summary:
+* Unlock [[Hero Ferrari]].
+* Provide Hero with '''5 [[Settlement Defence Plans]]''' to receive Wellington Beck's referral.
+* Obtain any combination of [[Cat Media]], [[Classic Entertainment]], and [[Multimedia Entertainment]].
+* Sell a combined total of '''15''' qualifying items to bartenders.
+{{Important|'''15 is the current total requirement.'''
+
+For the complete step-by-step process, see [[Unlocking Wellington Beck]].
+
+== Obtaining the Entertainment Data ==
+
+All three qualifying unlock items are Odyssey '''Data''', rather than Goods or Assets.
+
+=== Cat Media ===
+
+[[Cat Media]] can currently be obtained from:
+
+* data ports in '''HAB buildings'''; and
+* mission rewards.<ref name="inara-cat">[https://inara.cz/elite/componentitem/10300/ Cat Media — Component], Inara.</ref>
+
+=== Classic Entertainment ===
+
+[[Classic Entertainment]] can currently be obtained from:
+
+* data ports in '''HAB buildings'''; and
+* mission rewards.<ref name="inara-classic">[https://inara.cz/elite/componentitem/10290/ Classic Entertainment — Component], Inara.</ref>
+
+=== Multimedia Entertainment ===
+
+[[Multimedia Entertainment]] can currently be obtained from:
+
+* data ports in '''HAB buildings'''; and
+* mission rewards.<ref name="inara-multimedia">[https://inara.cz/elite/componentitem/10368/ Multimedia Entertainment — Component], Inara.</ref>
+
+{{Tip|You do not need to farm one particular media type. Keep all three while preparing Wellington's unlock, because any combination counts toward the same 15-item total.}}
+
+Because these are Data items, they do not use the physical Goods inventory carried in the suit backpack.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Wellington is unlocked. If his expected services do not appear after completing the bartender-sales requirement, logging out and back in may make them available.<ref name="inara-beck" />}}
+
+== Odyssey Engineering at Wellington Beck ==
+
+Odyssey Engineering works differently from ship Engineering.
+
+Suits and handheld weapons have an equipment grade. Higher equipment grades provide additional modification slots, into which Engineers install individual modifications.
+
+Wellington's modifications do '''not''' progress from Grade 1 through Grade 5.
+
+{{Important|A Grade 5 suit or weapon does not receive a "Grade 5 Wellington Beck modification." The equipment grade determines available modification slots; modifications such as [[Greater Range]] or [[Improved Battery Capacity]] are installed as individual upgrades.}}
+
+See [[Odyssey Engineering]] for suit and weapon grades, modification slots, materials, and Engineering mechanics.
+
+== Available Engineering ==
+
+Wellington currently provides five modification types.<ref name="inara-beck" />
+
+{| class="wikitable"
+! Modification
+! Equipment
+! Primary effect
+|-
+| [[Extra Backpack Capacity]]
+| Suit
+| Doubles backpack Data, Component, and Item capacity
+|-
+| [[Greater Range]]
+| Handheld weapon
+| Increases effective weapon range by 50%
+|-
+| [[Improved Battery Capacity]]
+| Suit
+| Increases suit battery energy capacity by 50%
+|-
+| [[Reduced Tool Battery Consumption]]
+| Suit
+| Reduces energy consumption from applicable suit-tool functions
+|-
+| [[Scope]]
+| Handheld weapon
+| Adds a scope or improves the weapon's existing optic
+|}
+
+== Extra Backpack Capacity ==
+
+'''Extra Backpack Capacity''' increases all three sections of the suit's carried-material inventory.<ref name="inara-beck" />
+
+The current modification provides:
+
+* '''+100% Data capacity'''
+* '''+100% Component capacity'''
+* '''+100% Item capacity'''<ref name="inara-beck" />
+
+The current recipe is:
+
+* 5 [[Weapon Inventory]]
+* 5 [[Chemical Inventory]]
+* 5 [[Digital Designs]]
+* 5 [[Epoxy Adhesive]]
+* 3 [[Memory Chip]]
+* '''750,000 CR'''<ref name="inara-beck" />
+
+{{Tip|'''EDFM recommendation:''' Extra Backpack Capacity is one of Wellington's most broadly useful modifications for a [[Maverick Suit]] used for settlement scavenging and Engineering-material collection.
+
+Doubling the suit's carried inventory reduces how often you need to return to a ship, SRV, or station while looting settlements.}}
+
+Other Engineers currently providing Extra Backpack Capacity include:
+
+* [[Domino Green]]
+* [[Rosa Dayette]]<ref name="inara-beck" />
+
+== Greater Range ==
+
+'''Greater Range''' increases the effective range of a handheld weapon by '''50%'''.<ref name="inara-beck" />
+
+The exact Engineering recipe depends on the weapon manufacturer.
+
+=== Kinematic Armaments weapons ===
+
+The current recipe is:
+
+* 10 [[Ballistics Data]]
+* 10 [[Topographical Surveys]]
+* 10 [[Metal Coil]]
+* 10 [[RDX]]
+* 5 [[Weapon Component]]
+* '''500,000 CR'''<ref name="inara-beck" />
+
+=== Manticore weapons ===
+
+The current recipe is:
+
+* 10 [[Chemical Formulae]]
+* 15 [[Mineral Survey]]
+* 10 [[Motor]]
+* 10 [[Electromagnet]]
+* 5 [[Electrical Fuse]]
+* '''500,000 CR'''<ref name="inara-beck" />
+
+=== Takada weapons ===
+
+The current recipe is:
+
+* 5 [[Stellar Activity Logs]]
+* 8 [[Risk Assessments]]
+* 8 [[Micro Transformer]]
+* 3 [[Optical Lens]]
+* 3 [[Circuit Board]]
+* '''500,000 CR'''<ref name="inara-beck" />
+
+Other Engineers currently providing Greater Range include:
+
+* [[Domino Green]]
+* [[Rosa Dayette]]<ref name="inara-beck" />
+
+{{Tip|'''EDFM recommendation:''' Greater Range is most valuable on weapons whose normal effective range limits how you use them.
+
+It is useful for outdoor settlement combat and engagements where maintaining distance is preferable to pushing into a weapon's normal falloff range.}}
+
+== Improved Battery Capacity ==
+
+'''Improved Battery Capacity''' increases suit battery capacity by '''50%'''.<ref name="inara-beck" />
+
+The current recipe is:
+
+* 5 [[Reactor Output Review]]
+* 8 [[Maintenance Logs]]
+* 3 [[Ion Battery]]
+* 5 [[Micro Supercapacitor]]
+* 5 [[Electrical Wiring]]
+* '''750,000 CR'''<ref name="inara-beck" />
+
+Other Engineers currently providing Improved Battery Capacity include:
+
+* [[Oden Geiger]]
+* [[Rosa Dayette]]<ref name="inara-beck" />
+
+{{Tip|'''EDFM recommendation:''' Improved Battery Capacity is one of Wellington's strongest general-purpose suit modifications.
+
+Additional suit energy benefits extended settlement operations, exploration, salvage, infiltration, and other activities where repeated Energy Cell use would otherwise be necessary.}}
+
+It pairs particularly well with energy-intensive suit use and can reduce the frequency with which environmental charging points or Energy Cells are needed.
+
+== Reduced Tool Battery Consumption ==
+
+'''Reduced Tool Battery Consumption''' reduces the suit energy consumed by applicable tool functions.<ref name="inara-beck" />
+
+The current recipe is:
+
+* 5 [[Reactor Output Review]]
+* 3 [[Electrical Fuse]]
+* 5 [[Micro Transformer]]
+* 8 [[Electrical Wiring]]
+* '''500,000 CR'''<ref name="inara-beck" />
+
+Other Engineers currently providing Reduced Tool Battery Consumption include:
+
+* [[Domino Green]]
+* [[Rosa Dayette]]<ref name="inara-beck" />
+
+{{Tip|Reduced Tool Battery Consumption is particularly useful on a [[Maverick Suit]] used heavily for cutting, charging, overloading, and other tool-based settlement activities.
+
+For a suit whose tools see little use, another modification may provide more value from the limited modification slots.}}
+
+== Scope ==
+
+'''Scope''' adds a magnified optic to a compatible handheld weapon or improves its existing sight.<ref name="inara-beck" />
+
+The current recipe is:
+
+* 5 [[Spectral Analysis Data]]
+* 3 [[Biometric Data]]
+* 5 [[Optical Lens]]
+* 3 [[Optical Fibre]]
+* '''500,000 CR'''<ref name="inara-beck" />
+
+Other Engineers currently providing Scope include:
+
+* [[Oden Geiger]]
+* [[Rosa Dayette]]<ref name="inara-beck" />
+
+{{Tip|'''EDFM recommendation:''' Scope is most useful on a weapon intended for deliberate medium- or longer-range fire.
+
+It pairs naturally with [[Greater Range]] where both modifications suit the weapon's intended role, but spending two modification slots on range-oriented upgrades should be planned before modifying the weapon.}}
+
+== Engineer Unlock Chain ==
+
+Wellington Beck belongs to the [[Hero Ferrari]] branch of the Odyssey Engineer network.
+
+The branch is:
+
+<pre>
+Hero Ferrari
+└── Wellington Beck
+    └── Uma Laszlo
+</pre>
+
+Hero refers Commanders to Wellington after receiving '''5 Settlement Defence Plans'''.<ref name="inara-hero" />
+
+Wellington then refers Commanders to [[Uma Laszlo]].<ref name="inara-uma">[https://inara.cz/elite/engineer/32/ Uma Laszlo — Engineer], Inara.</ref>
+
+== Referring Uma Laszlo ==
+
+After Wellington Beck has been unlocked, provide him with '''5 [[Insight Entertainment Suite|Insight Entertainment Suites]]''' to receive the referral to [[Uma Laszlo]].<ref name="inara-beck" />
+
+[[Insight Entertainment Suite|Insight Entertainment Suites]] are Odyssey '''Goods''', rather than Data.<ref name="inara-insight-suite">[https://inara.cz/elite/componentitem/10294/ Insight Entertainment Suite — Component], Inara.</ref>
+
+Current material data lists them as obtainable from '''settlements'''.<ref name="inara-insight-suite" />
+
+{{Important|Do not confuse Wellington's two entertainment-related requirements:
+
+* '''Unlock Wellington:''' sell a combined total of '''15 Cat Media, Classic Entertainment, and Multimedia Entertainment''' to bartenders.
+* '''Discover Uma Laszlo:''' provide '''5 Insight Entertainment Suites''' to Wellington.
+
+The first group consists of Data. Insight Entertainment Suites are Goods.}}
+
+{{Tip|Once Wellington has been unlocked, keep any Insight Entertainment Suites you find until you have the five needed for Uma's referral rather than selling or trading them away.}}
+
+See [[Insight Entertainment Suite]] for acquisition details.
+
+== Increasing Engineer Reputation ==
+
+'''Not applicable to Odyssey Engineers in the same way as ship Engineers.'''
+
+Wellington Beck does not use the Grade 1–5 Engineer-reputation progression found at ship Engineer workshops.
+
+Once he is unlocked, his available modifications can be installed provided that:
+
+* the equipment is compatible;
+* the suit or weapon has an unused modification slot; and
+* you possess the required Odyssey materials and credits.
+
+The suit or weapon's equipment grade is upgraded separately through [[Pioneer Supplies]].
+
+See [[Odyssey Engineering]] for the complete system.
+
+== Experimental Effects ==
+
+'''Not applicable.'''
+
+Odyssey suit and handheld-weapon Engineering does not use the separate ship-module Experimental Effect system.
+
+Wellington's modifications are themselves the permanent upgrades applied to the equipment.
+
+== Blueprint Pinning ==
+
+'''Not applicable.'''
+
+Odyssey modifications cannot be pinned for [[Remote Engineering]] in the same manner as ship Engineering blueprints.
+
+A compatible suit or weapon must be taken to an Odyssey Engineer who offers the required modification.
+
+{{Field note|Unlocking Wellington therefore does not make Greater Range, Scope, or Improved Battery Capacity remotely available from another station.}}
+
+== Recommended Engineering ==
+
+Wellington has several modifications that are useful across very different equipment roles.
+
+=== Maverick Suit ===
+
+For a suit primarily used for settlement missions, scavenging, and Engineering-material collection:
+
+{{Tip|'''EDFM recommendation:''' [[Extra Backpack Capacity]] is one of the strongest choices available from Wellington for a general-purpose [[Maverick Suit]].
+
+Doubling carried Data, Component, and Item capacity directly improves settlement-looting efficiency and reduces trips back to storage.}}
+
+[[Improved Battery Capacity]] is also broadly useful, while [[Reduced Tool Battery Consumption]] becomes increasingly valuable on a Maverick build that makes heavy use of the Arc Cutter and Energylink.
+
+=== Artemis Suit ===
+
+For exploration-focused use, [[Improved Battery Capacity]] is generally the most broadly relevant Wellington modification.
+
+Longer battery life can extend operations away from the SRV or ship and reduce dependence on Energy Cells.
+
+Extra Backpack Capacity has less direct value to an Artemis build whose primary purpose is exobiology rather than settlement looting.
+
+=== Weapons ===
+
+For weapons, Wellington's two options are:
+
+* [[Greater Range]]
+* [[Scope]]
+
+Both are strongest when the weapon is intentionally configured for longer-distance engagement.
+
+{{Important|Odyssey weapon modification slots are permanent and limited. Decide whether a weapon is actually intended for ranged use before committing both Greater Range and Scope to the same weapon.}}
+
+== What Wellington Cannot Modify ==
+
+Wellington currently provides five modification types:
+
+* '''Extra Backpack Capacity''' — suit
+* '''Greater Range''' — weapon
+* '''Improved Battery Capacity''' — suit
+* '''Reduced Tool Battery Consumption''' — suit
+* '''Scope''' — weapon<ref name="inara-beck" />
+
+Other modifications require different Engineers.
+
+Examples include:
+
+* '''Damage Resistance:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Faster Shield Regen:''' [[Kit Fowler]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Improved Jump Assist:''' [[Hero Ferrari]], [[Yarden Bond]], or [[Baltanos]]
+* '''Increased Sprint Duration:''' [[Hero Ferrari]], [[Terra Velasquez]], or [[Baltanos]]
+* '''Noise Suppressor:''' [[Hero Ferrari]], [[Terra Velasquez]], or [[Baltanos]]
+* '''Audio Masking:''' [[Yarden Bond]] or [[Yi Shen]]
+* '''Night Vision:''' [[Oden Geiger]] or [[Yi Shen]]
+* '''Reload Speed:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Headshot Damage:''' [[Uma Laszlo]] or [[Yi Shen]]<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+See [[Odyssey Engineer Modifications]] for the complete Engineer-by-modification matrix.
+
+== What Next? ==
+
+Wellington Beck leads directly to [[Uma Laszlo]].
+
+{{What next|title=Continue Odyssey Engineering|
+* '''Next Engineer in this branch:''' [[Uma Laszlo]]
+* '''Previous Engineer:''' [[Hero Ferrari]]
+* '''Get Wellington's referral items:''' [[Settlement Defence Plans]]
+* '''Complete Wellington's unlock:''' [[Cat Media]], [[Classic Entertainment]], and [[Multimedia Entertainment]]
+* '''Get Uma's referral items:''' [[Insight Entertainment Suite]]
+* '''Upgrade suits and weapons:''' [[Pioneer Supplies]]
+* '''Plan suit modifications:''' [[Suit Engineering]]
+* '''Plan weapon modifications:''' [[Weapon Engineering (Odyssey)]]
+* '''See the complete network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Odyssey Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineers]]
+[[Category:Suit Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

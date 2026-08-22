@@ -1,0 +1,13 @@
+<!--
+EDFM current-content archive export.
+Title: File:Frontier News - beneath-surface-your-first-look-rhino.jpg
+Namespace: 6
+Page ID: 293
+Revision ID: 821
+Timestamp: 2026-08-15T09:17:05Z
+Source URL: https://edfieldmanual.com/wiki/File:Frontier_News_-_beneath-surface-your-first-look-rhino.jpg
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Frontier Developments article preview image for the auto-updating news module.

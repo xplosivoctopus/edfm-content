@@ -1,0 +1,111 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Privacy Policy
+Namespace: 4
+Page ID: 47
+Revision ID: 1417
+Timestamp: 2026-08-21T13:56:42Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Privacy_Policy
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How EDFM handles visitor and contributor data. This page is intended to describe the site's actual operation and planned Frontier integration, not a generic template.
+
+== Summary ==
+* EDFM is an independent community project, not an advertising network.
+* EDFM does not sell personal information and does not share personal information for behavioural advertising.
+* EDFM uses Google Analytics 4 on ordinary public pages, only after optional site-improvement cookies are accepted, to understand anonymous/pseudonymous site usage, traffic sources, navigation, search, scroll, outbound-click, download, and public-content engagement trends.
+* EDFM does not use Google Analytics as an account/user tracking system and does not intentionally send EDFM usernames, CMDR names, Frontier identifiers, email addresses, account IDs, authentication tokens, or equivalent user-linked identifiers to Google Analytics.
+* Anonymous reading normally does not require a persistent EDFM account cookie, though Google Analytics may use its own analytics cookies where analytics is allowed and consented.
+* Account, editing, upload, anti-abuse, security, analytics, and optional site-improvement features do involve limited data collection as described below.
+
+{{EDFM policy commitments}}
+
+== Who operates EDFM ==
+''Elite Dangerous Field Manual'' is operated as an independent community project. It is not affiliated with, endorsed by, sponsored by, or reviewed by Frontier Developments plc. See [[Elite Dangerous Field Manual:Legal and Trademark Notice]].
+
+== Information collected automatically ==
+When you visit the site, the web server and Cloudflare may process normal connection and request metadata, including IP address, timestamp, requested URL, response status, user agent, and similar technical information. EDFM uses this information for security, abuse prevention, debugging, uptime, and operational diagnostics.
+
+Server access and error logs are rotated automatically. The intended operational retention target is about '''60 days''' unless a longer period is temporarily needed to investigate abuse, security incidents, or outages.
+
+== Cloudflare ==
+EDFM is served through Cloudflare for DNS, TLS, reverse proxying, caching, and security filtering. Cloudflare receives request and connection metadata as part of providing those services. Login and account-creation pages may load Cloudflare Turnstile from <code>challenges.cloudflare.com</code> to reduce spam and abuse. EDFM configures Turnstile without intentionally sending the visitor IP from MediaWiki's server-side Turnstile integration, but Cloudflare will still receive information normally sent by a browser loading a Turnstile challenge. See [https://www.cloudflare.com/privacypolicy/ Cloudflare's privacy policy].
+
+== Google Analytics ==
+EDFM uses Google Analytics 4, provided by Google LLC, to understand how public EDFM content is being used after a visitor allows optional site-improvement cookies. This helps with content planning, navigation improvements, search-term analysis, broken-content discovery, downloads, outbound-link review, and public engagement trends.
+
+Analytics is optional and is not loaded until the visitor grants consent through EDFM's Cookie Preferences. Analytics is intended for aggregate public-site usage, not account tracking. EDFM's site code is configured so the Google Analytics tag is not emitted on sensitive account, authentication, Frontier OAuth, or user/profile pages. Google Analytics is also not intentionally given MediaWiki usernames, MediaWiki numeric user IDs, email addresses, CMDR names, Frontier/FDev identifiers, Discord IDs, OAuth codes, access tokens, refresh tokens, session identifiers, or comparable account-specific identifiers. EDFM does not hash those identifiers and send the hash to Analytics.
+
+EDFM does not enable Google Signals, advertising personalization, remarketing, enhanced conversions, user-provided data, Google Ads audiences, AdSense, advertising IDs, or cross-device advertising features for the site Analytics integration.
+
+When Analytics is accepted, Google Analytics may still process normal browser and request metadata for eligible public pages, such as approximate location inferred by Google from network information, device/browser information, page URL, page title, referrer, events, and analytics cookies or identifiers controlled by Google. See [https://policies.google.com/privacy Google's privacy policy] and [https://support.google.com/analytics/answer/6004245 Google Analytics privacy information].
+
+== Analytics exclusions for account and profile information ==
+Google Analytics is not loaded on pages or requests involving login, logout, account creation, password reset/recovery, email confirmation, credential changes, preferences/account settings, Frontier/PluggableAuth login or callback handling, authentication token handling, old revisions, diffs, redirects, non-existent pages, or URLs containing sensitive authentication/account parameters.
+
+Google Analytics is also not loaded on MediaWiki <code>User:</code> or <code>User talk:</code> pages, or on equivalent profile/commander-style namespaces or pseudo-namespaces if present. This avoids sending a username, CMDR name, or profile title as an Analytics page URL or page title.
+
+Public wiki search remains eligible for Analytics because search-term trends are useful for content planning. EDFM does not deliberately enrich search analytics with usernames or account data, and account/authentication/private interfaces remain excluded regardless of any cookie or analytics consent choice.
+
+== Accounts ==
+If you create or use a local EDFM account, MediaWiki stores account information needed to operate the wiki, including username, password hash, registration timestamp, edit count, account preferences, and, if provided or later enabled, an email address and email verification status.
+
+Account creation may also offer an optional '''CMDR Name''' field. EDFM stores this in MediaWiki's real-name/profile field. A CMDR Name is optional game-facing identity data, but EDFM treats it as personal data because it may identify a commander or be associated with an account. If provided, it may be used for attribution or account/profile display depending on MediaWiki behavior and EDFM site configuration. Do not enter a real-world name in this field unless you intentionally want that name associated with your EDFM account.
+
+Email may be used for account recovery, account notices, optional notifications, and possible future newsletters or announcements if EDFM enables those features. Newsletter or marketing-style email, if added later, should be optional.
+
+== Public wiki activity ==
+If you edit the wiki, upload files, or post on discussion pages, that activity may be public. Public wiki records can include your username, edit summaries, page histories, uploaded files, comments, timestamps, and other contribution metadata. Public contribution history is part of how a wiki preserves attribution and accountability.
+
+If you later request account removal, EDFM's normal approach is to disable or rename the account where appropriate while preserving public edits, file history, and logs needed for attribution, licensing, security, and wiki integrity.
+
+== Uploads ==
+Uploaded files and file pages may include uploader name, upload timestamp, file metadata, descriptions, source/licensing information, and any information the uploader includes. Contributors should avoid uploading images containing real-world personal information, private chat logs, private identifiers, or other people's information without permission. See [[Elite Dangerous Field Manual:Image Use Policy]] and [[Elite Dangerous Field Manual:Screenshot Policy]].
+
+== Popular and trending guide data ==
+EDFM uses first-party, aggregate site-improvement data to power the '''Trending Guides''' sidebar.
+
+This includes:
+* daily page-view counts by wiki page;
+* search-to-landing counts that associate a search term with the article a visitor later opens;
+* a cached ranked list of popular/trending pages.
+
+The Trending Guides tables are designed to store page IDs, normalized search terms, dates, and aggregate counts. They are not designed to store visitor IP addresses, account IDs, or usernames.
+
+Search-to-landing attribution uses a short-lived first-party cookie only when site-improvement/analytics cookies are accepted. Page-view counts may continue as aggregate, first-party site functionality even if optional cookies are rejected.
+
+== Frontier OAuth and CAPI ==
+EDFM supports Frontier OAuth login as an alternative sign-in/register method. Frontier Auth is handled through an OAuth2 authorization-code flow: the visitor is sent to Frontier to approve sign-in, then Frontier returns the visitor to EDFM's authentication callback.
+
+EDFM uses Frontier authentication data only as needed to sign users in and connect a Frontier identity to an EDFM account. Data stored or handled for this login flow may include:
+* a stable Frontier customer/account identifier, which EDFM uses to derive an internal wiki username rather than displaying the raw Frontier identifier;
+* email address, if Frontier provides it and the user authorizes it;
+* Frontier account name fields, if required for account display or support;
+* linked platform information, such as platform name and third-party user ID, if the user signs in through a linked platform;
+* short-lived access-token data held server-side for the login/session flow rather than as a public profile item.
+
+EDFM does not intentionally make Frontier customer IDs, OAuth codes, access tokens, refresh tokens, or linked platform IDs public. Frontier OAuth callback pages and URLs containing OAuth codes or state values are excluded from Google Analytics regardless of cookie consent.
+
+Frontier states that real names, email addresses, commander names, gamertags, Steam nicknames, Online IDs, and similar game/platform identities are personally identifiable information. EDFM therefore treats Frontier account, commander, and linked-platform identity data as personal data, even when the identifier is game-facing rather than a real-world name.
+
+EDFM's current Frontier login requests the minimal <code>auth</code> scope for account sign-in/linking only. EDFM does not request the <code>capi</code> scope during normal login and does not query Frontier's Companion API as part of signing in. Commander-name verification through CAPI is a separate opt-in Preferences action. If a logged-in user chooses '''Attach CMDR Name''', EDFM requests <code>auth capi</code>, queries Frontier's Companion API once to read the Commander name, and stores the verified Commander name plus a verification timestamp. The Commander name is private by default unless the user later enables the public display preference. EDFM does not store ship data, location data, or other Companion API content for this verification flow. See [[Elite Dangerous Field Manual:Verified Commanders]] for what verification does and does not mean.
+
+EDFM does not currently store Frontier refresh tokens for CAPI sync. If EDFM later stores refresh tokens, they should be stored only server-side, protected from public access, replaced when Frontier rotates them, and removed when the user disconnects Frontier access or when continued refresh is no longer authorized.
+
+If EDFM later changes Frontier/CAPI use beyond login/linking and the optional Commander-name verification described here, this policy and the cookie/data audit should be updated before or alongside that change.
+
+== Cookies and local storage ==
+See [[Elite Dangerous Field Manual:Cookie Policy]] for the cookie categories, current cookies, Analytics cookies, and consent controls. Necessary cookies are always on; the optional Analytics category can be changed later through Cookie Preferences.
+
+== Backups ==
+EDFM takes a full backup (database, uploaded files, and site configuration) once daily. Backups are retained for the last 7 daily backups plus one older snapshot from each of the preceding 4 weeks, then are automatically deleted &mdash; backups are not kept indefinitely. Backup archives are stored on the same server with access restricted to server administrators; they are not published, shared, or sent to a third party. An offsite/secondary-location backup copy is not currently configured. Data removed from the live site (for example, as part of an account-removal request) may still exist in an already-taken backup until that specific backup ages out under this retention schedule.
+
+== Third parties ==
+EDFM may link to external websites such as Frontier, Creative Commons, MediaWiki, community tools, and source references. Visiting external links is governed by those sites' own policies. Eligible public pages may also load Google Analytics from Google as described above.
+
+== Contact ==
+For privacy questions or data requests, contact: <code>contact@edfieldmanual.com</code>.
+
+== Changes to this policy ==
+This policy may be updated as EDFM's features change. Material changes should be reflected here and, where appropriate, in [[Elite Dangerous Field Manual:Cookie Policy]] and [[Elite Dangerous Field Manual:Terms of Use]].

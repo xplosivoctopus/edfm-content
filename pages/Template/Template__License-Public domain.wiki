@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:License-Public domain
+Namespace: 10
+Page ID: 234
+Revision ID: 1120
+Timestamp: 2026-08-20T03:29:42Z
+Source URL: https://edfieldmanual.com/wiki/Template:License-Public_domain
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-info noexcerpt">This file is in the public domain. State '''why''' in the file description (e.g. expired copyright, a public-domain government work, or the creator's own explicit public-domain dedication) — "public domain" is a specific legal status, not a default for anything without an obvious owner. This is not the correct classification for ''Elite Dangerous'' game assets, which are not public domain — use {{tl|License-ED screenshot}} for those.</div><includeonly>[[Category:Public domain media]]</includeonly><noinclude>
+== Usage ==
+The license value inserted when a contributor picks '''"Public domain"''' from the Licensing dropdown on <code>Special:Upload</code>. Genuinely rare on this wiki — almost nothing related to ''Elite Dangerous'' itself qualifies. Don't use this as a fallback for "I don't know the license."
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

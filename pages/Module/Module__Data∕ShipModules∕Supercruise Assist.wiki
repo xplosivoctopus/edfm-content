@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Supercruise Assist
+Namespace: 828
+Page ID: 609
+Revision ID: 1396
+Timestamp: 2026-08-21T00:00:54Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Supercruise_Assist
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Supercruise Assist",
+}

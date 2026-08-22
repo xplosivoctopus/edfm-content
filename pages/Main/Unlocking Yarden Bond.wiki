@@ -1,0 +1,70 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Yarden Bond
+Namespace: 0
+Page ID: 651
+Revision ID: 1528
+Timestamp: 2026-08-21T14:41:18Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Yarden_Bond
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Yarden Bond — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Yarden Bond]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Yarden Bond]].
+
+== Objective ==
+Gain access to [[Yarden Bond]]'s Engineer services in Bayan.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Yarden Bond is discovered through [[Kit Fowler]].
+* '''Invitation:''' There is no separate invitation requirement after [[Kit Fowler]] has referred Yarden.
+* Unlock [[Domino Green]].
+* Provide Domino with Push to discover [[Kit Fowler]].
+* Provide Kit with '''5 Surveillance Equipment''' to discover Yarden Bond.
+* Obtain '''5 Smear Campaign Plans'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Smear Campaign Plans'''
+Smear Campaign Plans are Odyssey '''Data'''.
+
+Current material data lists them as obtainable from:
+
+* data ports in '''HAB buildings''';
+* data ports in '''CMD buildings'''; and
+* '''mission rewards'''.
+
+Because Smear Campaign Plans are Data, they do not occupy the physical Goods section of the suit backpack.
+
+They currently have no known suit or weapon modification recipe and are used for Engineer progression.
+
+{{Tip|HAB and CMD data ports contain large possible Data pools, so a single settlement visit is not guaranteed to provide a Smear Campaign Plan. Check mission rewards as well rather than relying entirely on random settlement downloads.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Unlock [[Domino Green]].
+# Provide Domino with Push to discover [[Kit Fowler]].
+# Complete Kit Fowler's unlock requirement.
+# Provide Kit with '''5 Surveillance Equipment''' to discover Yarden Bond.
+# Obtain '''5 Smear Campaign Plans'''.
+# Sell the Smear Campaign Plans to bartenders.
+# Travel to '''Salamander Bank''' on '''Bayan 7 b'''.
+# Access Yarden Bond's Engineer workshop.
+}}
+
+== Expected Result ==
+{{Expected result|[[Yarden Bond]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Yarden Bond]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Kit Fowler]] Surveillance Equipment Night Vision Smear Campaign Plans [[Domino Green]] Push}}
+
+== Sources ==
+This procedure was extracted from the current [[Yarden Bond]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey Engineers]]

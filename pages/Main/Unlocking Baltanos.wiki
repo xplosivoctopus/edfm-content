@@ -1,0 +1,44 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Baltanos
+Namespace: 0
+Page ID: 655
+Revision ID: 1487
+Timestamp: 2026-08-21T14:39:14Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Baltanos
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Baltanos — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Baltanos]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Baltanos]].
+
+== Objective ==
+Gain access to [[Baltanos]]'s Engineer services in Deriso.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Baltanos is independently available and does not require a referral from another Engineer.
+* '''Invitation:''' There is no separate invitation requirement distinct from the unlock requirement below.
+* Reach '''Friendly''' reputation with the '''Colonia Council'''.
+}}
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Friendly''' reputation with the '''Colonia Council'''.
+# Travel to The Divine Apparatus in Deriso.
+# Confirm access at the Engineer's terminal.
+}}
+
+== Expected Result ==
+{{Expected result|[[Baltanos]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Baltanos]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]]}}
+
+== Sources ==
+This procedure was extracted from the current [[Baltanos]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]

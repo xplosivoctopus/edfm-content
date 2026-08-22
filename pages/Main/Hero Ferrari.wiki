@@ -1,0 +1,381 @@
+<!--
+EDFM current-content archive export.
+Title: Hero Ferrari
+Namespace: 0
+Page ID: 133
+Revision ID: 1472
+Timestamp: 2026-08-21T14:39:03Z
+Source URL: https://edfieldmanual.com/wiki/Hero_Ferrari
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Odyssey Engineer
+ |deck=A suit-mobility and weapon-handling specialist based at Nevermore Terrace in Siris, and the starting point of the Wellington Beck referral chain.
+}}
+
+{{Engineer infobox}}
+
+'''Hero Ferrari''' is an Odyssey Engineer based at '''Nevermore Terrace''' in the [[Siris]] system. She is an independent starting Engineer and does not require a referral from another Engineer.<ref name="inara-hero">[https://inara.cz/elite/engineer/28/ Hero Ferrari — Engineer], Inara.</ref>
+
+Hero specialises in a mixture of '''suit mobility and endurance''' modifications and '''weapon handling and suppression'''. Her available modifications are [[Faster Handling]], [[Noise Suppressor]], [[Improved Jump Assist]], [[Increased Air Reserves]], and [[Increased Sprint Duration]].<ref name="inara-hero" />
+
+{{Field note|Odyssey Engineering works differently from ship Engineering. On-foot Engineers do '''not''' use the ship Engineer Grade 1–5 reputation progression. Suit and weapon grades determine how many modification slots the equipment has; Engineers install individual modifications into those slots.}}
+
+== Location ==
+
+* '''System:''' [[Siris]]
+* '''Settlement:''' [[Nevermore Terrace]]
+* '''Body:''' Siris 5 c
+* '''Engineer type:''' Odyssey Engineer
+* '''Prerequisite Engineer:''' None
+* '''System permit required:''' No
+
+Nevermore Terrace is a surface Engineer base on '''Siris 5 c''', approximately 1,500 Ls from the system arrival point.<ref name="inara-nevermore">[https://inara.cz/elite/station/242745/ Nevermore Terrace — Station], Inara.</ref>
+
+The settlement includes a concourse and the services required to access Hero's Engineering workshop.<ref name="inara-nevermore" />
+
+== How to Discover Hero Ferrari ==
+
+Hero Ferrari is '''common knowledge''' and does not require a referral from another Engineer.<ref name="inara-hero" />
+
+She is therefore one of the independent starting points in the Odyssey Engineer network.
+
+{{Field note|This is different from Engineers such as [[Wellington Beck]], who only become known after completing a referral requirement for another Engineer.}}
+
+== How to Receive an Invitation ==
+
+There is no separate invitation requirement for Hero Ferrari.
+
+Her access requirement is simply to complete '''10 surface conflict zones'''.<ref name="inara-hero" />
+
+== How to Unlock Hero Ferrari ==
+
+Unlock requirements summary:
+* Repeat until you have completed '''10 surface conflict zones'''.
+{{Important|Hero's requirement is based on '''surface conflict zones'''. Ordinary ship Combat Zones do not satisfy this Odyssey Engineer unlock.}}
+{{Field note|Current Engineer data lists the requirement simply as '''10 surface conflict zones'''. EDFM does not impose an additional Low-, Medium-, or High-intensity requirement that is not present in the current Engineer listing.}}
+
+For the complete step-by-step process, see [[Unlocking Hero Ferrari]].
+
+== Odyssey Engineering at Hero Ferrari ==
+
+Odyssey suit and weapon Engineering is structurally different from ship-module Engineering.
+
+Suits and handheld weapons have an equipment grade, with higher grades providing additional modification slots. The Engineer then installs individual modifications into those available slots.
+
+The modification itself does '''not''' have a Grade 1–5 progression at Hero's workshop.
+
+{{Important|Do not confuse '''equipment grade''' with '''Engineer modification grade'''. A Grade 5 suit or weapon has more modification slots, but [[Improved Jump Assist]] or [[Faster Handling]] is installed as a single modification rather than being rolled from Grade 1 through Grade 5.}}
+
+See [[Odyssey Engineering]] for suit and weapon upgrading, modification slots, Engineering materials, and the distinction between equipment upgrades and Engineer modifications.
+
+== Available Engineering ==
+
+Hero currently provides five Odyssey modifications.<ref name="inara-hero" />
+
+{| class="wikitable"
+! Modification
+! Equipment
+! Effect
+! Engineering cost
+|-
+| [[Faster Handling]]
+| Handheld weapon
+| Reduces weapon draw/stow time and improves aiming-down-sights handling.
+|
+* 5 [[Operational Manual]]
+* 5 [[Combatant Performance]]
+* 5 [[Combat Training Material]]
+* 3 [[Viscoelastic Polymer]]
+* 500,000 CR
+|-
+| [[Noise Suppressor]]
+| Handheld weapon
+| Reduces the audible sound produced by the weapon when fired in a '''pressurised''' environment.
+|
+* 5 [[Atmospheric Data]]
+* 5 [[Mining Analytics]]
+* 8 [[Viscoelastic Polymer]]
+* 3 [[Weapon Component]]
+* 1,000,000 CR
+|-
+| [[Improved Jump Assist]]
+| Suit
+| Extends the effective operating duration of the suit's Jump Assist system.
+|
+* 5 [[G-Meds]]
+* 5 [[Topographical Surveys]]
+* 3 [[Micro Thrusters]]
+* 5 [[Motor]]
+* 750,000 CR
+|-
+| [[Increased Air Reserves]]
+| Suit
+| Increases emergency oxygen capacity after suit power is depleted.
+|
+* 3 [[Pharmaceutical Patents]]
+* 8 [[Air Quality Reports]]
+* 5 [[Oxygenic Bacteria]]
+* 8 [[pH Neutraliser]]
+* 750,000 CR
+|-
+| [[Increased Sprint Duration]]
+| Suit
+| Reduces the limitation imposed by exhaustion during sustained sprinting.
+|
+* 3 [[Troop Deployment Records]]
+* 3 [[Gene Sequencing Data]]
+* 3 [[Clinical Trial Records]]
+* 5 [[Oxygenic Bacteria]]
+* 8 [[Chemical Catalyst]]
+* 750,000 CR
+|}
+
+The listed costs are the current modification recipes.<ref name="inara-hero" />
+
+== Faster Handling ==
+
+'''Faster Handling''' is a weapon modification that reduces the delay involved in drawing and stowing a weapon and improves its handling while aiming down sights.<ref name="inara-hero" />
+
+It can be applied to compatible handheld weapons, including sidearms.<ref name="inara-tormentor">[https://inara.cz/elite/equipment-blueprint/15/ Manticore Tormentor — Equipment Blueprints], Inara.</ref>
+
+{{Tip|'''EDFM recommendation:''' Faster Handling is particularly useful on weapons where quickly switching between weapons matters.
+
+It can be valuable on loadouts that frequently alternate between shield-stripping and armour-damage weapons, and on sidearms that need to be brought into action quickly.}}
+
+Other Engineers providing Faster Handling include:
+
+* [[Yarden Bond]]
+* [[Baltanos]]<ref name="inara-hero" />
+
+== Noise Suppressor ==
+
+'''Noise Suppressor''' reduces the audible sound produced when a weapon is fired in a '''pressurised environment'''.<ref name="inara-hero" />
+
+This distinction matters because Odyssey has two separate sound-related weapon modifications:
+
+* '''Noise Suppressor''' — suppresses the physical sound of gunfire in pressurised environments.
+* [[Audio Masking]] — suppresses the simulated sound signature of gunfire in unpressurised environments.
+
+{{Important|Noise Suppressor and [[Audio Masking]] are '''not interchangeable'''. Noise Suppressor is the modification relevant to pressurised interiors, while Audio Masking addresses unpressurised environments.}}
+
+Noise Suppressor is therefore especially useful on weapons intended for stealth-oriented settlement operations.
+
+Other Engineers providing Noise Suppressor include:
+
+* [[Terra Velasquez]]
+* [[Baltanos]]<ref name="inara-hero" />
+
+{{Tip|'''EDFM recommendation:''' Noise Suppressor is most valuable on a weapon specifically intended for covert settlement work.
+
+Do not spend a modification slot on it automatically for a weapon used almost entirely in open combat or surface conflict zones.}}
+
+== Improved Jump Assist ==
+
+'''Improved Jump Assist''' extends the effective operating duration of a suit's Jump Assist system.<ref name="inara-hero" />
+
+This improves vertical mobility and makes it easier to:
+
+* reach rooftops and elevated settlement structures;
+* cross uneven terrain;
+* reposition during combat;
+* climb structures during salvage or infiltration; and
+* move efficiently in low-gravity environments.
+
+Other Engineers providing Improved Jump Assist include:
+
+* [[Yarden Bond]]
+* [[Baltanos]]<ref name="inara-hero" />
+
+{{Tip|'''EDFM recommendation:''' Improved Jump Assist is one of Hero's most broadly useful suit modifications.
+
+Unlike modifications built around a particular mission type, improved mobility can benefit combat, salvage, exploration, infiltration, and general settlement movement.}}
+
+== Increased Air Reserves ==
+
+'''Increased Air Reserves''' increases suit emergency air capacity by '''100%'''.<ref name="inara-hero" />
+
+Emergency air becomes relevant when the suit no longer has enough power to operate its normal life-support systems.
+
+Other Engineers providing Increased Air Reserves include:
+
+* [[Terra Velasquez]]
+* [[Baltanos]]<ref name="inara-hero" />
+
+{{Field note|Increased Air Reserves affects emergency life-support endurance. It does not increase the suit's main energy capacity; that is handled by the separate [[Improved Battery Capacity]] modification.}}
+
+{{Tip|'''EDFM recommendation:''' Increased Air Reserves is situational.
+
+It can provide additional safety during prolonged operations where suit energy may be exhausted, but most general-purpose builds will normally gain more day-to-day value from mobility, battery, defensive, or inventory modifications.}}
+
+== Increased Sprint Duration ==
+
+'''Increased Sprint Duration''' improves sustained on-foot mobility by reducing the limitations imposed by exhaustion during sprinting.<ref name="inara-hero" />
+
+Other Engineers providing Increased Sprint Duration include:
+
+* [[Terra Velasquez]]
+* [[Baltanos]]<ref name="inara-hero" />
+
+{{Tip|'''EDFM recommendation:''' Increased Sprint Duration is a strong general-purpose mobility modification.
+
+It is useful for traversing large settlements, moving between objectives, escaping hostile NPCs, and repositioning during ground combat.}}
+
+Improved Jump Assist and Increased Sprint Duration can also be combined on the same sufficiently upgraded suit if both modification slots are available.
+
+== Engineer Unlock Chain ==
+
+Hero Ferrari is an independent starting point in the Odyssey Engineer network.
+
+Her branch is:
+
+<pre>
+Hero Ferrari
+└── Wellington Beck
+    └── Uma Laszlo
+</pre>
+
+[[Wellington Beck]] is discovered through Hero Ferrari.<ref name="inara-wellington">[https://inara.cz/elite/engineer/30/ Wellington Beck — Engineer], Inara.</ref>
+
+Wellington subsequently leads to [[Uma Laszlo]].<ref name="inara-uma">[https://inara.cz/elite/engineer/32/ Uma Laszlo — Engineer], Inara.</ref>
+
+== Referring Wellington Beck ==
+
+After Hero Ferrari has been unlocked, provide her with '''5 [[Settlement Defence Plans]]''' to receive the referral to [[Wellington Beck]].<ref name="inara-hero" />
+
+{{Important|'''The current requirement is 5 Settlement Defence Plans, not 15.'''
+
+Older Odyssey guides may still state that Hero requires 15 plans. Frontier reduced the requirement to '''5''' as part of Update 18.08.<ref name="frontier-1808">[https://forums.frontier.co.uk/threads/elite-dangerous-type-8-update-18-08-wednesday-7th-august.627151/ Elite Dangerous — Type-8 Update 18.08], Frontier Developments.</ref>}}
+
+=== Obtaining Settlement Defence Plans ==
+
+[[Settlement Defence Plans]] are an Odyssey '''Data''' material.<ref name="inara-sdp">[https://inara.cz/elite/componentitem/10365/ Settlement Defence Plans — Component], Inara.</ref>
+
+Current material data lists them as obtainable from:
+
+* '''Irregular Markers''' points of interest;
+* data ports in '''CMD buildings'''; and
+* '''mission rewards'''.<ref name="inara-sdp" />
+
+Because Settlement Defence Plans are Data rather than a ship commodity, they do '''not''' require cargo-rack capacity.
+
+{{Tip|Only five plans are now required. Before following an older farming guide built around collecting 15, check whether you already have enough in your Odyssey material storage.}}
+
+Once the five plans have been provided to Hero, [[Wellington Beck]] becomes the next Engineer in this branch.
+
+== Increasing Engineer Reputation ==
+
+'''Not applicable to Odyssey Engineers in the same way as ship Engineers.'''
+
+Hero Ferrari does not use the Grade 1–5 Engineer-reputation progression found at ship Engineer workshops.
+
+Once Hero has been unlocked, her available suit and weapon modifications are available subject to:
+
+* having compatible equipment;
+* having an available modification slot; and
+* possessing the required Odyssey materials and credits.
+
+Equipment itself is upgraded separately through [[Pioneer Supplies]].
+
+See [[Odyssey Engineering]] for the full distinction between suit/weapon grades and Engineer modifications.
+
+== Experimental Effects ==
+
+'''Not applicable.'''
+
+Odyssey suit and handheld-weapon Engineering does not use the separate ship-module '''Experimental Effect''' system.
+
+Hero's Faster Handling, Noise Suppressor, Improved Jump Assist, Increased Air Reserves, and Increased Sprint Duration are themselves the modifications applied to the equipment.
+
+See [[Odyssey Engineering]] rather than [[Experimental Effects]] for on-foot modification mechanics.
+
+== Blueprint Pinning ==
+
+'''Not applicable to Hero Ferrari's Odyssey modifications.'''
+
+The conventional ship-Engineering system allows certain blueprints to be pinned for [[Remote Engineering]]. Hero's on-foot modifications do not use that blueprint-pinning workflow.
+
+A suit or weapon must be taken to an appropriate Odyssey Engineer to have the desired modification installed.
+
+{{Field note|This is why Engineer location still matters after an Odyssey Engineer has been unlocked. Unlocking Hero does not create a remotely accessible Faster Handling or Improved Jump Assist blueprint.}}
+
+== Recommended Engineering ==
+
+Hero offers several useful modifications, but no single configuration is correct for every suit or weapon.
+
+For general use, EDFM would prioritise her modifications roughly by the role of the equipment rather than treating every modification as mandatory.
+
+=== General-purpose suit ===
+
+{{Tip|'''EDFM recommendation:''' [[Improved Jump Assist]] is Hero's strongest broadly applicable suit modification.
+
+It improves movement in settlements and rough terrain and remains useful during combat, exploration, salvage, and mission-running.}}
+
+[[Increased Sprint Duration]] is another strong mobility choice when the suit is frequently used for settlement work or ground combat.
+
+[[Increased Air Reserves]] is more specialised and is usually most valuable when emergency life-support endurance is an intentional part of the build.
+
+=== Covert weapon ===
+
+For a weapon intended for stealth-oriented settlement work:
+
+* [[Noise Suppressor]] can be highly useful inside pressurised buildings.
+* [[Faster Handling]] can improve rapid weapon switching and general responsiveness.
+
+{{Important|Plan the final purpose of an Odyssey weapon before consuming its modification slots. A modification useful on a covert weapon may provide little value on a weapon built purely for surface conflict zones.}}
+
+== What Hero Cannot Modify ==
+
+Hero's modification portfolio is limited to five modifications:
+
+* '''Faster Handling''' — weapon
+* '''Noise Suppressor''' — weapon
+* '''Improved Jump Assist''' — suit
+* '''Increased Air Reserves''' — suit
+* '''Increased Sprint Duration''' — suit<ref name="inara-hero" />
+
+For other commonly used modifications, other Engineers are required.
+
+Examples include:
+
+* '''Greater Range:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Scope:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Audio Masking:''' [[Yarden Bond]] or [[Yi Shen]]
+* '''Quieter Footsteps:''' [[Yarden Bond]] or [[Yi Shen]]
+* '''Damage Resistance:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Extra Ammo Capacity:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Improved Battery Capacity:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Night Vision:''' [[Oden Geiger]] or [[Yi Shen]]<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+See [[Odyssey Engineer Modifications]] for the complete Engineer-by-modification matrix.
+
+== What Next? ==
+
+Hero Ferrari opens the [[Wellington Beck]] branch of the Odyssey Engineer network.
+
+{{What next|title=Continue Odyssey Engineering|
+* '''Next Engineer in this branch:''' [[Wellington Beck]]
+* '''Engineer after Wellington Beck:''' [[Uma Laszlo]]
+* '''Get the referral material:''' [[Settlement Defence Plans]]
+* '''Complete the unlock activity:''' [[Surface Conflict Zones]]
+* '''Enter ground conflicts:''' [[Frontline Solutions]]
+* '''Upgrade suits and weapons:''' [[Pioneer Supplies]]
+* '''Plan suit modifications:''' [[Suit Engineering]]
+* '''Plan weapon modifications:''' [[Weapon Engineering (Odyssey)]]
+* '''See the complete network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Odyssey Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineers]]
+[[Category:Suit Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

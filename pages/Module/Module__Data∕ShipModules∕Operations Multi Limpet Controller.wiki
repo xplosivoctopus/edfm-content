@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Operations Multi Limpet Controller
+Namespace: 828
+Page ID: 546
+Revision ID: 1333
+Timestamp: 2026-08-21T00:00:08Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Operations_Multi_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Operations Multi Limpet Controller",
+}

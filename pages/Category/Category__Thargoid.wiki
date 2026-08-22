@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Thargoid
+Namespace: 14
+Page ID: 154
+Revision ID: 235
+Timestamp: 2026-08-07T21:59:17Z
+Source URL: https://edfieldmanual.com/wiki/Category:Thargoid
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Thargoid encounters, technology, and the Thargoid War.
+
+[[Category:Gameplay]]

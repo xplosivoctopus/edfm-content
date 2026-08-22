@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Exobiology
+Namespace: 14
+Page ID: 148
+Revision ID: 229
+Timestamp: 2026-08-07T21:59:16Z
+Source URL: https://edfieldmanual.com/wiki/Category:Exobiology
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Sampling and cataloguing alien organisms found on planetary surfaces.
+
+[[Category:Exploration]]

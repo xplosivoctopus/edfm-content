@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Screenshot caption
+Namespace: 10
+Page ID: 39
+Revision ID: 39
+Timestamp: 2026-08-06T19:51:23Z
+Source URL: https://edfieldmanual.com/wiki/Template:Screenshot_caption
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<span class="edfm-inline-flag">{{{1}}}{{#if:{{{credit|}}}|&#32;(screenshot: {{{credit}}})}}</span><noinclude>
+== Usage ==
+<pre>{{Screenshot caption|What the screenshot shows|credit=Commander name or "uploader"}}</pre>
+See [[Elite Dangerous Field Manual:Screenshot Policy]].
+[[Category:Templates]]
+</noinclude>

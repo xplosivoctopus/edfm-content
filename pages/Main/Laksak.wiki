@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Laksak
+Namespace: 0
+Page ID: 357
+Revision ID: 994
+Timestamp: 2026-08-20T01:37:41Z
+Source URL: https://edfieldmanual.com/wiki/Laksak
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=A Federation Core Systems world hosting Lei Cheung's workshop, Trader's Rest.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced star system and station records
+}}
+
+'''Laksak''' is a Federation system in the Core Systems, reached by Commanders pursuing '''[[Lei Cheung]]'''<nowiki>'</nowiki>s shield and sensor Engineering after a referral from [[The Dweller]]. It hosts '''[[Trader's Rest]]''', Lei Cheung's workshop.<ref name="inara-laksak">[https://inara.cz/elite/starsystem/4169/ Laksak — Star System], Inara.</ref>
+
+== Overview ==
+
+* '''Star:''' Class F (scoopable)
+* '''Allegiance:''' Federation
+* '''Government:''' Democracy
+* '''Security:''' High
+* '''Economy:''' Agriculture / Refinery<ref name="inara-laksak" />
+
+Unlike most of the systems in this branch of the Engineer network, Laksak is Federation territory rather than independent — worth knowing if you're tracking Federation reputation or superpower-aligned missions while you're there.
+
+== Engineer Facility ==
+
+'''[[Trader's Rest]]''' is a surface Engineer base on Laksak A 1, operated by '''[[Lei Cheung]]'''.<ref name="inara-traders-rest">[https://inara.cz/elite/station/52146/ Trader's Rest in Laksak — Station], Inara.</ref>
+
+No system permit is required to enter Laksak. See [[Lei Cheung]] for the full discovery, invitation, and unlock requirements for his workshop.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Lei Cheung]] [[Trader's Rest]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

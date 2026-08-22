@@ -1,0 +1,595 @@
+<!--
+EDFM current-content archive export.
+Title: Yarden Bond
+Namespace: 0
+Page ID: 137
+Revision ID: 1480
+Timestamp: 2026-08-21T14:39:09Z
+Source URL: https://edfieldmanual.com/wiki/Yarden_Bond
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Odyssey Engineer
+ |deck=A mobility, weapon-handling, and stealth specialist based at Salamander Bank in Bayan, reached through Kit Fowler.
+}}
+
+{{Engineer infobox}}
+
+'''Yarden Bond''' is an Odyssey Engineer based at '''Salamander Bank''' in the [[Bayan]] system. She is discovered through [[Kit Fowler]] and specialises in stealth, mobility, and weapon-handling modifications.<ref name="inara-yarden">[https://inara.cz/elite/engineer/33/ Yarden Bond — Engineer], Inara.</ref>
+
+Yarden provides [[Audio Masking]], [[Combat Movement Speed]], [[Faster Handling]], [[Improved Hip Fire Accuracy]], [[Improved Jump Assist]], and [[Quieter Footsteps]].<ref name="inara-yarden" />
+
+{{Field note|Yarden is particularly important for stealth-focused equipment in the Bubble. [[Audio Masking]] and [[Quieter Footsteps]] are otherwise available from [[Yi Shen]] in the Colonia region.<ref name="inara-yarden" />}}
+
+{{Field note|Odyssey Engineering does '''not''' use the Grade 1–5 Engineer-reputation progression used by ship Engineers. Suits and weapons have equipment grades and modification slots; Yarden installs individual modifications into those slots.}}
+
+== Location ==
+
+* '''System:''' [[Bayan]]
+* '''Settlement:''' [[Salamander Bank]]
+* '''Body:''' Bayan 7 b
+* '''Distance from arrival:''' approximately 722 Ls
+* '''Engineer type:''' Odyssey Engineer
+* '''Prerequisite Engineer:''' [[Kit Fowler]]
+* '''System permit required:''' No
+
+Salamander Bank is a surface Engineer base on '''Bayan 7 b'''.<ref name="inara-salamander">[https://inara.cz/elite/station/366283/ Salamander Bank — Station], Inara.</ref>
+
+The base currently provides a full Odyssey concourse alongside ship services, including a bartender, Frontline Solutions, Pioneer Supplies, and Yarden's Engineer workshop.<ref name="inara-salamander" />
+
+== How to Discover Yarden Bond ==
+
+Yarden Bond is discovered through [[Kit Fowler]].<ref name="inara-yarden" />
+
+After unlocking Kit, provide him with '''5 [[Surveillance Equipment]]''' to receive the referral to Yarden.<ref name="inara-kit">[https://inara.cz/elite/engineer/29/ Kit Fowler — Engineer], Inara.</ref>
+
+[[Surveillance Equipment]] is physical Odyssey '''Goods'''.<ref name="inara-surveillance">[https://inara.cz/elite/componentitem/10335/ Surveillance Equipment — Component], Inara.</ref>
+
+Current material data lists it as obtainable from:
+
+* '''STO buildings'''
+* '''EXT buildings'''
+* '''CMD buildings'''
+* '''mission rewards'''<ref name="inara-surveillance" />
+
+{{Important|Surveillance Equipment is given to '''Kit Fowler''' to obtain Yarden's referral. It is not Yarden's own unlock material.}}
+
+Surveillance Equipment is also used for [[Night Vision]] Engineering, so it can be worth collecting more than the amount required for the referral.<ref name="inara-surveillance" />
+
+See [[Kit Fowler]] for the complete preceding Engineer progression.
+
+== How to Receive an Invitation ==
+
+There is no separate invitation requirement after [[Kit Fowler]] has referred Yarden.
+
+Once Yarden becomes known, complete her bartender-sales requirement to unlock her workshop.<ref name="inara-yarden" />
+
+== How to Unlock Yarden Bond ==
+
+Unlock requirements summary:
+* Unlock [[Domino Green]].
+* Provide Domino with [[Push]] to discover [[Kit Fowler]].
+* Complete Kit Fowler's unlock requirement.
+* Provide Kit with '''5 [[Surveillance Equipment]]''' to discover Yarden Bond.
+* Obtain '''5 [[Smear Campaign Plans]]'''.
+* Sell the Smear Campaign Plans to bartenders.
+{{Important|The current requirement is '''5 Smear Campaign Plans'''. Frontier reduced Yarden's requirement from 8 to 5 in Update 18.08.
+{{Tip|Wait until Yarden has been discovered through Kit before selling the required Data so the Engineer progression is already active.}}
+
+For the complete step-by-step process, see [[Unlocking Yarden Bond]].
+
+== Obtaining Smear Campaign Plans ==
+
+[[Smear Campaign Plans]] are Odyssey '''Data'''.<ref name="inara-smear">[https://inara.cz/elite/componentitem/10430/ Smear Campaign Plans — Component], Inara.</ref>
+
+Current material data lists them as obtainable from:
+
+* data ports in '''HAB buildings''';
+* data ports in '''CMD buildings'''; and
+* '''mission rewards'''.<ref name="inara-smear" />
+
+Because Smear Campaign Plans are Data, they do not occupy the physical Goods section of the suit backpack.
+
+They currently have no known suit or weapon modification recipe and are used for Engineer progression.<ref name="inara-smear" />
+
+{{Tip|HAB and CMD data ports contain large possible Data pools, so a single settlement visit is not guaranteed to provide a Smear Campaign Plan. Check mission rewards as well rather than relying entirely on random settlement downloads.}}
+
+== Odyssey Engineering at Yarden Bond ==
+
+Odyssey Engineering works differently from ship Engineering.
+
+Suits and handheld weapons have an '''equipment grade'''. Higher equipment grades provide additional modification slots:
+
+{| class="wikitable"
+! Equipment grade
+! Modification slots
+|-
+| Grade 1
+| 0
+|-
+| Grade 2
+| 1
+|-
+| Grade 3
+| 2
+|-
+| Grade 4
+| 3
+|-
+| Grade 5
+| 4
+|}
+
+Yarden installs individual modifications into those available slots.
+
+Her modifications do '''not''' progress through Grade 1–5 Engineer reputation.
+
+{{Important|A Grade 5 Maverick Suit does not receive a "Grade 5 Quieter Footsteps" modification. Grade 5 describes the suit itself and provides four modification slots; Quieter Footsteps occupies one of those slots as a single permanent modification.}}
+
+See [[Odyssey Engineering]] for equipment grades, modification slots, upgrading, and Engineering-material mechanics.
+
+== Available Engineering ==
+
+Yarden currently provides six Odyssey modifications.<ref name="inara-yarden" />
+
+{| class="wikitable"
+! Modification
+! Equipment
+! Primary effect
+|-
+| [[Audio Masking]]
+| Handheld weapon
+| Reduces the weapon's simulated sound in unpressurised environments
+|-
+| [[Combat Movement Speed]]
+| Suit
+| Removes the movement penalty while aiming down sights
+|-
+| [[Faster Handling]]
+| Handheld weapon
+| Improves weapon draw, stow, and aiming handling
+|-
+| [[Improved Hip Fire Accuracy]]
+| Handheld weapon
+| Improves hip-fire accuracy by 45%
+|-
+| [[Improved Jump Assist]]
+| Suit
+| Extends Jump Assist thrust duration
+|-
+| [[Quieter Footsteps]]
+| Suit
+| Reduces the audible range of footsteps by 50%
+|}
+
+== Audio Masking ==
+
+'''Audio Masking''' reduces the simulated sound signature produced by a weapon when fired in an '''unpressurised environment'''.<ref name="inara-yarden" />
+
+The current recipe is:
+
+* 3 [[Audio Logs]]
+* 5 [[Patrol Routes]]
+* 5 [[Scrambler]]
+* 8 [[Transmitter]]
+* 3 [[Circuit Board]]
+* '''1,000,000 CR'''<ref name="inara-yarden" />
+
+Only two current Odyssey Engineers provide Audio Masking:
+
+* '''Yarden Bond''' — Bubble
+* [[Yi Shen]] — Colonia<ref name="inara-yarden" />
+
+{{Tip|'''EDFM recommendation:''' Audio Masking is one of Yarden's most important modifications for covert weapons.
+
+It is designed for stealth operations in unpressurised environments, including settlement exteriors and depressurised interiors.}}
+
+=== Audio Masking vs Noise Suppressor ===
+
+Odyssey uses two separate firearm-sound modifications:
+
+* '''[[Audio Masking]]''' — suppresses the weapon's simulated sound in '''unpressurised''' environments.
+* '''[[Noise Suppressor]]''' — reduces weapon sound in '''pressurised''' environments.
+
+The two are therefore complementary rather than interchangeable.
+
+{{Important|A weapon fitted only with Noise Suppressor does not gain the same stealth benefit outdoors on an airless world. Likewise, Audio Masking is not the modification intended to suppress gunfire inside a normally pressurised settlement interior.}}
+
+For a weapon intended to be used covertly both inside and outside settlement buildings, installing both can provide the broadest environmental coverage if the weapon's limited modification slots allow it.
+
+{{Tip|A dedicated covert sidearm or precision weapon is a stronger candidate for Audio Masking than a firearm used almost exclusively in [[Surface Conflict Zones]], where remaining undetected is generally not the objective.}}
+
+== Combat Movement Speed ==
+
+'''Combat Movement Speed''' removes the movement-speed penalty normally imposed while aiming down sights.<ref name="inara-yarden" />
+
+The current recipe is:
+
+* 5 [[Evacuation Protocols]]
+* 3 [[Genetic Research]]
+* 5 [[Epinephrine]]
+* 8 [[pH Neutraliser]]
+* '''750,000 CR'''<ref name="inara-yarden" />
+
+Other Engineers currently providing Combat Movement Speed include:
+
+* [[Terra Velasquez]]
+* [[Baltanos]]<ref name="inara-yarden" />
+
+{{Tip|'''EDFM recommendation:''' Combat Movement Speed is a strong modification for a [[Dominator Suit]] or any suit regularly used for armed settlement work.
+
+It allows the Commander to retain normal movement while aiming, improving the ability to strafe, track targets, and reposition without giving up aimed fire.}}
+
+It is particularly useful for weapons whose normal use involves remaining in ADS for significant portions of an engagement.
+
+For a suit used primarily for non-combat activity, other mobility or utility modifications may provide more frequent value.
+
+== Faster Handling ==
+
+'''Faster Handling''' improves the speed and responsiveness of drawing, stowing, and handling a handheld weapon.<ref name="inara-yarden" />
+
+The current recipe is:
+
+* 5 [[Operational Manual]]
+* 5 [[Combatant Performance]]
+* 5 [[Combat Training Material]]
+* 3 [[Viscoelastic Polymer]]
+* '''500,000 CR'''<ref name="inara-yarden" />
+
+Other Engineers currently providing Faster Handling include:
+
+* [[Hero Ferrari]]
+* [[Baltanos]]<ref name="inara-yarden" />
+
+{{Tip|'''EDFM recommendation:''' Faster Handling is especially useful on loadouts that switch between weapons frequently.
+
+Odyssey combat often rewards using different damage types against shields and unshielded targets, so reducing weapon-switching delay can improve the responsiveness of a two-weapon loadout.}}
+
+Faster Handling can also be useful on a covert weapon that needs to be drawn and stowed quickly while moving through a settlement.
+
+It should not be treated as mandatory for every firearm; a weapon that remains equipped for most of an engagement may gain more value from another modification.
+
+== Improved Hip Fire Accuracy ==
+
+'''Improved Hip Fire Accuracy''' reduces weapon sway and improves accuracy when firing without aiming down sights.<ref name="inara-yarden" />
+
+The current modifier is:
+
+* '''+45% hip-fire accuracy'''<ref name="inara-yarden" />
+
+The required materials depend on the weapon manufacturer.
+
+=== Kinematic Armaments weapons ===
+
+The current recipe is:
+
+* 10 [[Extraction Yield Data]]
+* 5 [[Biometric Data]]
+* 10 [[Combatant Performance]]
+* 10 [[Viscoelastic Polymer]]
+* 10 [[RDX]]
+* '''500,000 CR'''<ref name="inara-yarden" />
+
+=== Manticore weapons ===
+
+The current recipe is:
+
+* 5 [[Chemical Patents]]
+* 10 [[Combatant Performance]]
+* 10 [[Chemical Catalyst]]
+* 10 [[Electromagnet]]
+* 10 [[Metal Coil]]
+* '''500,000 CR'''<ref name="inara-yarden" />
+
+=== Takada weapons ===
+
+The current recipe is:
+
+* 3 [[Radioactivity Data]]
+* 5 [[Combatant Performance]]
+* 5 [[Metal Coil]]
+* 3 [[Optical Lens]]
+* 8 [[Electrical Wiring]]
+* '''500,000 CR'''<ref name="inara-yarden" />
+
+Other Engineers currently providing Improved Hip Fire Accuracy include:
+
+* [[Terra Velasquez]]
+* [[Baltanos]]<ref name="inara-yarden" />
+
+{{Tip|'''EDFM recommendation:''' Improved Hip Fire Accuracy is most useful on weapons intended for close- or medium-range fighting where firing quickly without entering ADS is common.
+
+A weapon primarily used for deliberate aimed shots at longer distance will normally gain less from this modification.}}
+
+=== Hip Fire Accuracy vs Combat Movement Speed ===
+
+These two Yarden modifications affect different combat styles:
+
+* '''Improved Hip Fire Accuracy''' improves firing while '''not aiming down sights'''.
+* '''Combat Movement Speed''' improves mobility while '''aiming down sights'''.
+
+The better choice therefore depends on how the weapon and suit are actually used.
+
+{{Field note|Combat Movement Speed is installed on the '''suit''', while Improved Hip Fire Accuracy is installed on the '''weapon'''. A build can therefore use both without consuming two weapon modification slots.}}
+
+== Improved Jump Assist ==
+
+'''Improved Jump Assist''' extends the thrust duration of the suit's Jump Assist system.<ref name="inara-yarden" />
+
+The current recipe is:
+
+* 5 [[G-Meds]]
+* 5 [[Topographical Surveys]]
+* 3 [[Micro Thrusters]]
+* 5 [[Motor]]
+* '''750,000 CR'''<ref name="inara-yarden" />
+
+Other Engineers currently providing Improved Jump Assist include:
+
+* [[Hero Ferrari]]
+* [[Baltanos]]<ref name="inara-yarden" />
+
+{{Tip|'''EDFM recommendation:''' Improved Jump Assist is one of the most broadly useful mobility modifications available for on-foot activity.
+
+It makes it easier to reach roofs, cross settlement structures, climb difficult terrain, and reposition vertically during combat or infiltration.}}
+
+Its value extends across several suit roles:
+
+* '''Maverick Suit''' — settlement access and salvage
+* '''Dominator Suit''' — vertical combat movement
+* '''Artemis Suit''' — planetary terrain traversal
+
+The practical effect also varies with local gravity, so the same modified suit can feel substantially different on different planetary bodies.
+
+{{Field note|Current Inara data clearly describes the modification as extending Jump Assist thrust duration, but its displayed numerical fields do not provide a useful positive percentage for that effect. EDFM therefore describes the verified function without assigning an unsupported numeric increase.<ref name="inara-yarden" />}}
+
+== Quieter Footsteps ==
+
+'''Quieter Footsteps''' reduces the distance from which NPCs can hear the Commander's footsteps.<ref name="inara-yarden" />
+
+The current modifier is:
+
+* '''-50% footstep audible range'''<ref name="inara-yarden" />
+
+The current recipe is:
+
+* 3 [[Settlement Assault Plans]]
+* 5 [[Tactical Plans]]
+* 5 [[Patrol Routes]]
+* 3 [[Micro Hydraulics]]
+* 8 [[Viscoelastic Polymer]]
+* '''1,000,000 CR'''<ref name="inara-yarden" />
+
+Only two current Odyssey Engineers provide Quieter Footsteps:
+
+* '''Yarden Bond''' — Bubble
+* [[Yi Shen]] — Colonia<ref name="inara-yarden" />
+
+{{Tip|'''EDFM recommendation:''' Quieter Footsteps is one of Yarden's strongest modifications for a dedicated stealth [[Maverick Suit]].
+
+Reducing footstep detection range makes movement around occupied settlements more forgiving when attempting to remain unnoticed.}}
+
+It is particularly useful during:
+
+* covert theft and heist missions;
+* settlement infiltration;
+* illegal salvage;
+* assassination operations;
+* access-profile cloning; and
+* movement through restricted settlement areas.
+
+=== Quieter Footsteps and crouching ===
+
+Quieter Footsteps reduces the audible range generated by movement. It does not eliminate the need to control movement around nearby NPCs.
+
+Use the modification as an additional stealth tool rather than assuming the Commander becomes inaudible.
+
+=== Combining Yarden's stealth modifications ===
+
+Yarden can provide both sides of a strong covert-equipment setup:
+
+* '''Quieter Footsteps''' — reduces the sound generated by the suit's movement.
+* '''Audio Masking''' — reduces the sound signature of a weapon in unpressurised environments.
+
+A separate Engineer offering [[Noise Suppressor]] can then modify a suitable weapon for pressurised interiors.
+
+{{Tip|A stealth-oriented Maverick paired with an appropriately suppressed weapon can therefore address both movement noise and weapon noise, rather than relying on only one part of the detection system.}}
+
+== Engineer Unlock Chain ==
+
+Yarden Bond belongs to the [[Domino Green]] branch of the Odyssey Engineer network.
+
+The complete branch is:
+
+<pre>
+Domino Green
+└── Kit Fowler
+    └── Yarden Bond
+</pre>
+
+The progression is:
+
+# Unlock [[Domino Green]].
+# Provide Domino with [[Push]] to discover [[Kit Fowler]].
+# Complete Kit Fowler's unlock requirement.
+# Provide Kit with '''5 [[Surveillance Equipment]]''' to discover Yarden Bond.
+# Complete Yarden Bond's bartender-sales requirement.<ref name="inara-kit" /><ref name="inara-yarden" />
+
+Yarden Bond does '''not''' currently refer the Commander to another Odyssey Engineer.<ref name="inara-yarden" />
+
+She is therefore the endpoint of this branch.
+
+== Increasing Engineer Reputation ==
+
+'''Not applicable to Odyssey Engineers in the same way as ship Engineers.'''
+
+Yarden Bond does not use the Grade 1–5 Engineer-reputation progression found at ship Engineer workshops.
+
+Once Yarden has been unlocked, her modifications can be installed provided that:
+
+* the equipment is compatible;
+* the suit or weapon has an unused modification slot; and
+* you possess the required Odyssey materials and credits.
+
+The suit or weapon itself is upgraded separately through [[Pioneer Supplies]].
+
+Yarden has no onward Engineer referral requirement.
+
+See [[Odyssey Engineering]] for the complete on-foot Engineering system.
+
+== Experimental Effects ==
+
+'''Not applicable.'''
+
+Odyssey suit and handheld-weapon Engineering does not use the separate ship-module [[Experimental Effects]] system.
+
+Yarden's modifications are themselves the permanent modifications installed onto the equipment.
+
+== Blueprint Pinning ==
+
+'''Not applicable.'''
+
+Odyssey modifications cannot be pinned for [[Remote Engineering]] in the same manner as ship Engineering blueprints.
+
+A suit or weapon must be taken directly to Yarden Bond or another Odyssey Engineer offering the desired modification.
+
+{{Field note|Unlocking Yarden therefore does not make Audio Masking, Quieter Footsteps, Improved Jump Assist, or her other modifications remotely available through Pioneer Supplies or another station.}}
+
+== Recommended Engineering ==
+
+Yarden's portfolio divides naturally into '''stealth''', '''mobility''', and '''weapon handling'''.
+
+=== Stealth Maverick Suit ==
+
+For a [[Maverick Suit]] intended primarily for covert settlement operations:
+
+{{Tip|'''EDFM recommendation:''' [[Quieter Footsteps]] is Yarden's standout suit modification for a dedicated stealth build.
+
+Its 50% reduction in footstep audible range directly supports infiltration and is only available in the Bubble from Yarden.}}
+
+A stealth-focused Maverick can combine Quieter Footsteps with modifications from other Engineers such as:
+
+* [[Night Vision]]
+* [[Improved Battery Capacity]]
+* [[Extra Backpack Capacity]]
+* [[Reduced Tool Battery Consumption]]
+
+The exact combination depends on whether the suit is intended primarily for infiltration, theft, salvage, or general settlement work.
+
+=== Covert weapon ==
+
+{{Tip|'''EDFM recommendation:''' [[Audio Masking]] is Yarden's standout weapon modification for operations in unpressurised environments.
+
+It is particularly useful for a dedicated stealth weapon used outdoors or inside depressurised structures.}}
+
+For a weapon expected to operate both inside pressurised buildings and outside them, consider pairing:
+
+* '''Audio Masking''' — unpressurised environments
+* [[Noise Suppressor]] — pressurised environments
+
+This uses two modification slots, so it is most appropriate for a weapon deliberately built around covert use.
+
+=== General mobility ==
+
+[[Improved Jump Assist]] is Yarden's most broadly useful general-purpose suit modification.
+
+It benefits:
+
+* settlement movement;
+* rough-terrain traversal;
+* combat repositioning;
+* rooftop access;
+* salvage; and
+* exploration.
+
+{{Tip|For a Commander who has no interest in stealth, Improved Jump Assist may provide more everyday value than Quieter Footsteps.}}
+
+=== Combat suit ==
+
+For a [[Dominator Suit]], [[Combat Movement Speed]] can provide a direct combat benefit by removing the movement penalty while aiming.
+
+This is most useful for an ADS-heavy playstyle.
+
+Yarden's other suit choices are generally more mobility- or stealth-oriented than defensive; protection-focused Dominator builds will normally obtain modifications such as [[Damage Resistance]], [[Faster Shield Regen]], or [[Extra Ammo Capacity]] from other Engineers.
+
+=== Combat weapons ==
+
+Yarden offers two general handling modifications:
+
+* [[Faster Handling]]
+* [[Improved Hip Fire Accuracy]]
+
+Use Faster Handling when weapon switching and responsiveness are important.
+
+Use Improved Hip Fire Accuracy when a weapon is deliberately fired from the hip frequently.
+
+Neither should be installed automatically without considering the weapon's intended use.
+
+== What Yarden Cannot Modify ==
+
+Yarden currently provides six modification types:
+
+* '''Audio Masking''' — weapon
+* '''Combat Movement Speed''' — suit
+* '''Faster Handling''' — weapon
+* '''Improved Hip Fire Accuracy''' — weapon
+* '''Improved Jump Assist''' — suit
+* '''Quieter Footsteps''' — suit<ref name="inara-yarden" />
+
+Other commonly useful modifications require different Engineers.
+
+Examples include:
+
+* '''Noise Suppressor:''' [[Hero Ferrari]], [[Terra Velasquez]], or [[Baltanos]]
+* '''Night Vision:''' [[Oden Geiger]] or [[Yi Shen]]
+* '''Improved Battery Capacity:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Extra Backpack Capacity:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Reduced Tool Battery Consumption:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Damage Resistance:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Faster Shield Regen:''' [[Kit Fowler]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Extra Ammo Capacity:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Magazine Size:''' [[Jude Navarro]], [[Kit Fowler]], or [[Eleanor Bresa]]
+* '''Reload Speed:''' [[Jude Navarro]], [[Uma Laszlo]], or [[Eleanor Bresa]]
+* '''Greater Range:''' [[Domino Green]], [[Wellington Beck]], or [[Rosa Dayette]]
+* '''Scope:''' [[Wellington Beck]], [[Oden Geiger]], or [[Rosa Dayette]]
+* '''Stability:''' [[Domino Green]], [[Oden Geiger]], or [[Rosa Dayette]]<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+See [[Odyssey Engineer Modifications]] for the complete Engineer-by-modification matrix.
+
+== What Next? ==
+
+Yarden Bond is the endpoint of the [[Domino Green]] Odyssey Engineer branch and does not currently introduce another Engineer.
+
+After unlocking Yarden, further Odyssey Engineering progression requires working through another Bubble branch or travelling to the Colonia Odyssey Engineers.
+
+{{What next|title=Continue Odyssey Engineering|
+* '''Previous Engineer:''' [[Kit Fowler]]
+* '''Starting point of this branch:''' [[Domino Green]]
+* '''Yarden's Bubble-exclusive stealth option:''' [[Audio Masking]]
+* '''Yarden's Bubble-exclusive suit stealth option:''' [[Quieter Footsteps]]
+* '''Referral material from Kit:''' [[Surveillance Equipment]]
+* '''Unlock material:''' [[Smear Campaign Plans]]
+* '''Plan stealth equipment:''' [[Stealth Engineering]]
+* '''Plan Maverick builds:''' [[Maverick Suit Engineering]]
+* '''Plan combat suits:''' [[Dominator Suit Engineering]]
+* '''Plan suit modifications:''' [[Suit Engineering]]
+* '''Plan weapon modifications:''' [[Weapon Engineering (Odyssey)]]
+* '''Alternative stealth specialist in Colonia:''' [[Yi Shen]]
+* '''See the complete network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Odyssey Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineers]]
+[[Category:Suit Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Stealth Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Engineering]]

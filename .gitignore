@@ -1,0 +1,13 @@
+# Do not add private/full-history/live data here
+*.sql
+*.sql.gz
+*.tar.gz
+*.zip
+*.env
+*secret*
+*credential*
+LocalSettings.php
+logs/
+database/
+backups/
+private/

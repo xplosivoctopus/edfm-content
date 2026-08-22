@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Module Reinforcement Package
+Namespace: 828
+Page ID: 541
+Revision ID: 1328
+Timestamp: 2026-08-21T00:00:04Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Module_Reinforcement_Package
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Module Reinforcement Package",
+}

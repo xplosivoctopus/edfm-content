@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: File:Juriishmaak.png
+Namespace: 6
+Page ID: 254
+Revision ID: 387
+Timestamp: 2026-08-08T14:48:39Z
+Source URL: https://edfieldmanual.com/wiki/File:Juriishmaak.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Juri Ishmaak Engineer Headshot
+== Licensing ==
+{{License-ED screenshot}}

@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Field note
+Namespace: 10
+Page ID: 319
+Revision ID: 687
+Timestamp: 2026-08-12T15:58:29Z
+Source URL: https://edfieldmanual.com/wiki/Template:Field_note
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Callout|type=field-note|label=Field note|{{{1|}}}}}<noinclude>
+== Usage ==
+Context that explains the game without interrupting the walkthrough.
+<pre>{{Field note|Main-sequence stars of classes O, B, A, F, G, K and M can be fuel-scooped.}}</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>

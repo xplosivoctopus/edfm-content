@@ -1,0 +1,334 @@
+<!--
+EDFM current-content archive export.
+Title: Selene Jean
+Namespace: 0
+Page ID: 114
+Revision ID: 1440
+Timestamp: 2026-08-21T14:38:37Z
+Source URL: https://edfieldmanual.com/wiki/Selene_Jean
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 Armour and reinforcement specialist based at Prospector's Rest in Kuk, reached through Tod "The Blaster" McQuinn.
+}}
+
+{{Engineer infobox}}
+
+'''Selene Jean''' is a ship Engineer based at '''Prospector's Rest''' in the [[Kuk]] system. She is reached through [[Tod "The Blaster" McQuinn]] and specialises in strengthening a ship's hull and internal-module protection.<ref name="inara-selene">[https://inara.cz/elite/engineer/8/ Selene Jean — Engineer], Inara.</ref>
+
+Selene provides '''Grade 5 Armour''' and '''Grade 5 Hull Reinforcement Package Engineering'''. In Live, she also provides the Operations-era '''Heavy Duty Module Reinforcement Package''' blueprint through Grade 5 for compatible Merc modules.<ref name="inara-selene" /><ref name="inara-mrp-heavy">[https://inara.cz/elite/blueprint/214/ Module Reinforcement Package — Heavy Duty], Inara.</ref>
+
+{{Field note|Receiving Tod McQuinn's referral does not automatically unlock Selene. You must also complete her mining requirement and provide the Painite requested for the final unlock.}}
+
+== Location ==
+
+* '''System:''' [[Kuk]]
+* '''Facility:''' [[Prospector's Rest]]
+* '''Body:''' Kuk B 3
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Tod "The Blaster" McQuinn]]
+* '''System permit required:''' No
+
+Prospector's Rest is a surface Engineer base on '''Kuk B 3'''.<ref name="inara-prospectors-rest">[https://inara.cz/elite/station-market/52192/ Prospector's Rest — Station], Inara.</ref>
+
+== How to Discover Selene Jean ==
+
+Selene Jean is discovered through [[Tod "The Blaster" McQuinn]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Tod to receive his referral to Selene.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+{{Field note|Receiving Tod's referral makes Selene known to you. Her separate 500-tonne mining requirement must still be completed before her workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Mine and refine at least '''500 tonnes of ore'''.<ref name="inara-selene" /><ref name="newp-engineers" />
+
+This is a cumulative mining requirement. You do '''not''' need to keep or deliver the full 500 tonnes to Selene. The material only needs to be mined and refined; the separate Painite requirement is the cargo that must actually be taken to Prospector's Rest.
+
+The 500 tonnes do not have to consist of a single mineral or metal.
+
+=== Checking your mining progress ===
+
+The relevant in-game mining statistic is '''Minerals Refined'''.
+
+To check it:
+
+# Open the '''right-hand cockpit panel'''.
+# Select '''Codex'''.
+# Open the '''Commander''' section.
+# Select '''Stats'''.
+# Open the '''Mining''' statistics.
+# Find '''Minerals Refined'''.
+
+Community testing of Selene's requirement identifies this counter as the value used for her 500-tonne mining threshold.<ref name="frontier-selene-mining">[https://forums.frontier.co.uk/threads/selene-jean-advice.527792/ Selene Jean advice], Frontier Forums.</ref>
+
+{{Important|The requirement is based on material that has actually passed through your ship's '''Refinery'''. Simply collecting mining fragments without refining them into commodities does not complete the 500-tonne requirement.}}
+
+{{Tip|Because Selene also requires 10 Painite for her final unlock, you can save time by mining Painite during the same mining session rather than completing the 500 tonnes first and looking for Painite afterward.}}
+
+See [[Mining]] for ship outfitting, ring selection, prospecting, refining, and collection mechanics.
+
+== How to Unlock Selene Jean ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Tod "The Blaster" McQuinn]].
+* Mine and refine at least '''500 tonnes of ore'''.
+* Obtain '''10 units of [[Painite]]'''.
+* Donate the 10 Painite to Selene Jean.
+{{Important|'''Painite is a mined commodity.''' It is not a Raw, Manufactured, or Encoded Engineering material. Each unit occupies one tonne of cargo space, so transporting the full unlock requirement requires at least '''10 tonnes of cargo capacity'''.}}
+{{Tip|Once you have mined the 10 Painite required for Selene, keep it in your cargo hold while finishing the remainder of the 500-tonne requirement. Other mined commodities can be sold or discarded as needed.}}
+
+For the complete step-by-step process, see [[Unlocking Selene Jean]].
+
+== Increasing Engineer Reputation ==
+
+Reputation with Selene Jean can be increased by:
+
+* crafting Engineering modifications at Prospector's Rest;
+* selling commodities at Prospector's Rest; or
+* selling exploration data at Prospector's Rest.<ref name="inara-selene" />
+
+Higher Engineer reputation gives access to the higher grades Selene supports for each blueprint.
+
+Reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' also allows Selene to provide referrals to [[Bill Turner]] and [[Didi Vatermann]].<ref name="newp-engineers" />
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have commodities left from the mining used to unlock Selene, selling appropriate cargo at Prospector's Rest can help increase your Engineer reputation after the unlock is complete.}}
+
+== Engineer Unlock Chain ==
+
+Selene Jean belongs to the [[Tod "The Blaster" McQuinn]] branch of the ship Engineer network.
+
+The route to Selene is:
+
+<pre>
+Tod "The Blaster" McQuinn
+└── Selene Jean
+</pre>
+
+After reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with Selene, she can provide referrals to:<ref name="newp-engineers" />
+
+* [[Bill Turner]]
+* [[Didi Vatermann]]
+
+The complete branch is:
+
+<pre>
+Tod "The Blaster" McQuinn
+├── Selene Jean
+│   ├── Bill Turner
+│   └── Didi Vatermann
+└── Petra Olmanova [Colonia]
+</pre>
+
+Current Engineer data independently lists both Bill Turner and Didi Vatermann as being discovered through Selene Jean.<ref name="inara-bill">[https://inara.cz/elite/engineer/19/ Bill Turner — Engineer], Inara.</ref><ref name="inara-didi">[https://inara.cz/elite/engineer/11/ Didi Vatermann — Engineer], Inara.</ref>
+
+{{Field note|A referral from Selene does not automatically unlock the referred Engineer. [[Bill Turner]] and [[Didi Vatermann]] each have additional meeting and unlock requirements of their own.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Selene's current Engineering coverage is shown below. She provides Grade 5 access for each module type she supports.<ref name="inara-selene" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Armour]]
+|
+* Blast Resistant
+* Heavy Duty
+* Kinetic Resistant
+* Lightweight
+* Thermal Resistant
+| '''Grade 5'''
+|-
+| [[Hull Reinforcement Package]]
+|
+* Blast Resistant
+* Heavy Duty
+* Kinetic Resistant
+* Lightweight
+* Thermal Resistant
+| '''Grade 5'''
+|-
+| [[Module Reinforcement Package]]
+|
+* Heavy Duty <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|}
+
+== Operations-era Module Reinforcement Engineering ==
+
+The '''Heavy Duty Module Reinforcement Package''' blueprint was introduced with the Operations update.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+It increases Module Reinforcement Package integrity and damage protection at the cost of significantly increased module mass.<ref name="inara-mrp-heavy" />
+
+Selene can apply Heavy Duty Module Reinforcement Package Engineering through '''Grade 5'''.
+
+At Grade 5, the current blueprint provides:
+
+* '''+25% integrity'''
+* '''+25% damage protection'''
+* '''+100% mass'''<ref name="inara-mrp-heavy" />
+
+{{Important|'''Live only:''' Heavy Duty Module Reinforcement Package Engineering is part of the Operations-era Engineering system and can only be applied to compatible '''Merc modules'''. It also requires [[Merc Coin]] as part of its Engineering cost.<ref name="inara-mrp-heavy" />}}
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+
+Selene's Armour and Hull Reinforcement Package Engineering supports the same four plating Experimental Effects.
+
+The current Heavy Duty Module Reinforcement Package blueprint also supports these effects in Live.<ref name="inara-mrp-heavy" />
+
+=== Armour ===
+
+Available Armour Experimental Effects include:<ref name="inara-armour-heavy">[https://inara.cz/elite/blueprint/38/ Armour — Heavy Duty], Inara.</ref>
+
+* [[Angled Plating]]
+* [[Deep Plating]]
+* [[Layered Plating]]
+* [[Reflective Plating]]
+
+=== Hull Reinforcement Package ===
+
+Available Hull Reinforcement Package Experimental Effects include:<ref name="inara-hrp-heavy">[https://inara.cz/elite/blueprint/25/ Hull Reinforcement Package — Heavy Duty], Inara.</ref>
+
+* [[Angled Plating]]
+* [[Deep Plating]]
+* [[Layered Plating]]
+* [[Reflective Plating]]
+
+=== Module Reinforcement Package ===
+
+In Live, a compatible Heavy Duty Module Reinforcement Package can use:<ref name="inara-mrp-heavy" />
+
+* [[Angled Plating]]
+* [[Deep Plating]]
+* [[Layered Plating]]
+* [[Reflective Plating]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Engineering ==
+
+Selene's most important role is building hull durability.
+
+The correct Armour and Hull Reinforcement configuration depends on whether a build is prioritising raw hull integrity, resistance balance, mass reduction, or protection against a particular damage type.
+
+=== Heavy Duty Armour ===
+
+[[Heavy Duty Armour]] increases hull integrity and provides a small increase to all resistances at the cost of increased Armour mass.<ref name="inara-armour-heavy" />
+
+{{Tip|'''Lightweight Alloy exception'''
+
+The mass increase from Heavy Duty Engineering is not applied to a ship's stock '''Lightweight Alloy''' Armour.<ref name="inara-armour-heavy" />
+
+This makes Heavy Duty particularly attractive on many ships that keep their standard Lightweight Alloy bulkheads: the ship gains additional hull integrity without receiving the normal Armour-mass penalty from the blueprint.}}
+
+A common general-purpose pairing is:
+
+* '''Heavy Duty Armour'''
+* '''Deep Plating'''
+
+[[Deep Plating]] further increases hull integrity while slightly reducing kinetic, thermal, and explosive resistances.
+
+This combination is useful when raw hull strength is the priority, but resistance-focused builds may benefit from a different Experimental Effect.
+
+=== Hull Reinforcement Packages ===
+
+For general-purpose hull tanks, [[Heavy Duty Hull Reinforcement Package|Heavy Duty]] is a common starting point because it substantially increases the hull reinforcement provided by the module.
+
+[[Deep Plating]] can then further increase the reinforcement value.
+
+{{Tip|'''Common general-purpose choice: Heavy Duty + Deep Plating'''
+
+For many combat ships, Heavy Duty Hull Reinforcement Packages with Deep Plating provide a large increase in raw hull integrity.
+
+That is not the only useful configuration. Mixing resistance-oriented Hull Reinforcement Packages into the build can improve overall effective durability where the ship's hull resistances are poorly balanced.}}
+
+=== Resistance Engineering ===
+
+Selene also provides dedicated:
+
+* Blast Resistant;
+* Kinetic Resistant; and
+* Thermal Resistant
+
+blueprints for both Armour and Hull Reinforcement Packages.
+
+These can be used to correct weaknesses in a hull's resistance profile rather than simply maximizing its raw integrity.
+
+See [[Hull Tanking]] for how hull integrity, armour hardness, resistances, Hull Reinforcement Packages, and Module Reinforcement Packages interact.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Selene, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Heavy Duty Hull Reinforcement Package]] is a strong general-purpose blueprint to consider pinning at Selene.
+
+Selene provides it through '''Grade 5''', and combat-oriented ships commonly fit more than one Hull Reinforcement Package. Pinning the blueprint makes it possible to perform the main Heavy Duty modification remotely on multiple HRPs without returning to Kuk for every module.
+
+If your fleet uses fewer Hull Reinforcement Packages and you frequently modify ship bulkheads instead, [[Heavy Duty Armour]] is also a practical Grade 5 pin.}}
+
+The best choice depends on which modules you engineer most frequently.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Effects such as [[Deep Plating]] still require visiting an appropriate Engineer workshop.}}
+
+== What Selene Cannot Fully Engineer ==
+
+Selene provides '''Grade 5 Engineering for every module type she currently supports'''.<ref name="inara-selene" />
+
+Her maximum grades are:
+
+* '''Armour:''' Grade 5
+* '''Hull Reinforcement Package:''' Grade 5
+* '''Module Reinforcement Package:''' Grade 5 <small>(Live-only Heavy Duty Merc blueprint)</small>
+
+This does not mean every type of defensive internal module can be engineered by Selene. Her workshop does not provide Shield Generator, Shield Booster, or Shield Cell Bank Engineering.
+
+For alternative maximum-grade hull Engineering:
+
+* [[Petra Olmanova]] provides Grade 5 Armour and Hull Reinforcement Package Engineering in Colonia.
+* [[Liz Ryder]] provides lower-grade Armour and Hull Reinforcement Package Engineering but is available independently earlier in the Engineer network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+In Live, [[Petra Olmanova]] also supports Grade 5 Heavy Duty Module Reinforcement Package Engineering.<ref name="inara-mrp-heavy" />
+
+Selene is therefore the primary Bubble Engineer for commanders who want maximum-grade conventional Armour and Hull Reinforcement Engineering.
+
+== What Next? ==
+
+Progressing Selene's reputation opens two additional Engineer paths.
+
+{{What next|title=Continue Engineering|
+* '''Plasma Accelerators and utility modules:''' [[Bill Turner]]
+* '''Grade 5 Shield Boosters:''' [[Didi Vatermann]]
+* '''Alternative Grade 5 hull Engineering in Colonia:''' [[Petra Olmanova]]
+* '''Previous Engineer:''' [[Tod "The Blaster" McQuinn]]
+* '''Learn how to mine:''' [[Mining]]
+* '''Find the unlock commodity:''' [[Painite]]
+* '''Build stronger hulls:''' [[Hull Tanking]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Core Internal Engineering]]
+[[Category:Optional Internal Engineering]]
+[[Category:Defensive Engineering]]
+[[Category:Engineering]]

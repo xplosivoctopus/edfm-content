@@ -1,0 +1,22 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Context media
+Namespace: 10
+Page ID: 318
+Revision ID: 686
+Timestamp: 2026-08-12T15:58:29Z
+Source URL: https://edfieldmanual.com/wiki/Template:Context_media
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-context-media edfm-context-media--{{{align|right}}}">
+<div class="edfm-context-media-body">{{{1|}}}</div>{{#if:{{{image|}}}|
+<figure class="edfm-context-media-figure">[[File:{{{image}}}|frameless|{{{alt|{{{caption|Context image}}}}}}]]{{#if:{{{caption|}}}|<figcaption class="edfm-context-media-caption">{{{caption}}}</figcaption>}}</figure>}}
+</div><noinclude>
+== Usage ==
+Place screenshots beside the step where they matter. On mobile, text and media stack.
+<pre>{{Context media|image=Example.png|caption=Galaxy Map route plotting.|alt=Galaxy Map with a plotted route|
+Open the Galaxy Map and choose a nearby destination.
+}}</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>

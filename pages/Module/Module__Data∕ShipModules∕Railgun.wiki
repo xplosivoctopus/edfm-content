@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Railgun
+Namespace: 828
+Page ID: 571
+Revision ID: 1358
+Timestamp: 2026-08-21T00:00:27Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Railgun
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Railgun",
+}

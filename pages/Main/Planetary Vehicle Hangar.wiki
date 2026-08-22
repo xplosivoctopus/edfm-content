@@ -1,0 +1,36 @@
+<!--
+EDFM current-content archive export.
+Title: Planetary Vehicle Hangar
+Namespace: 0
+Page ID: 555
+Revision ID: 1342
+Timestamp: 2026-08-21T00:00:14Z
+Source URL: https://edfieldmanual.com/wiki/Planetary_Vehicle_Hangar
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Ship Module
+ |deck=Structured stub page for the Planetary Vehicle Hangar ship module.
+}}
+
+{{Ship module infobox
+ |name = Planetary Vehicle Hangar
+ |image =
+ |module_class =
+ |slot_type =
+ |mount =
+ |manufacturer =
+ |availability =
+ |engineering =
+ |related_modules =
+}}
+
+{{Draft warning}}
+
+== Overview ==
+
+This ship module page is a structured stub. Source-backed module details have not been filled yet.
+
+[[Category:Modules]]
+[[Category:Ship modules]]

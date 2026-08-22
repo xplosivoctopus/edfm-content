@@ -1,0 +1,57 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Hero Ferrari
+Namespace: 828
+Page ID: 420
+Revision ID: 1204
+Timestamp: 2026-08-20T23:54:16Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Hero_Ferrari
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Hero Ferrari",
+	"image": "Heroferrari.png",
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Siris",
+	"body": "Siris 5 c",
+	"facility": "Nevermore Terrace",
+	"region": null,
+	"allegiance": null,
+	"discovery": {
+		"type": "public"
+	},
+	"unlock": {
+		"type": "activity",
+		"quantity": 10,
+		"activity": {
+			"name": "Surface Conflict Zones",
+			"target": "Surface Conflict Zone"
+		}
+	},
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_display": "None — independent starting Odyssey Engineer",
+	"referrals": [
+		{
+			"engineer": "Wellington Beck",
+			"requirement": {
+				"type": "provide",
+				"quantity": 5,
+				"item": "Settlement Defence Plans"
+			}
+		}
+	],
+	"modifications": {
+		"suit": [
+			"Increased Sprint Duration",
+			"Improved Jump Assist",
+			"Increased Air Reserves"
+		],
+		"weapon": [
+			"Faster Handling",
+			"Noise Suppressor"
+		]
+	},
+	"colonia": false
+}

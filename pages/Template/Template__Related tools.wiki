@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Related tools
+Namespace: 10
+Page ID: 38
+Revision ID: 108
+Timestamp: 2026-08-07T16:33:00Z
+Source URL: https://edfieldmanual.com/wiki/Template:Related_tools
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-reference">'''Related tools:''' {{{1}}}</div><noinclude>
+== Usage ==
+<pre>{{Related tools|[https://example.invalid Tool name] &bull; ...}}</pre>
+[[Category:Templates]]
+</noinclude>

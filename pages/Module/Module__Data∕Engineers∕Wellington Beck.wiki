@@ -1,0 +1,59 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Wellington Beck
+Namespace: 828
+Page ID: 428
+Revision ID: 1211
+Timestamp: 2026-08-20T23:54:19Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Wellington_Beck
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Wellington Beck",
+	"image": null,
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Jolapa",
+	"body": "Jolapa 6 a",
+	"facility": "Beck Facility",
+	"region": null,
+	"allegiance": null,
+	"discovery": {
+		"type": "referral"
+	},
+	"unlock": {
+		"type": "sell_combined",
+		"quantity": 15,
+		"items": [
+			"Multimedia Entertainment",
+			"Classic Entertainment",
+			"Cat Media"
+		],
+		"destination": "bartenders"
+	},
+	"prerequisite_engineer": "Hero Ferrari",
+	"referrals": [
+		{
+			"engineer": "Uma Laszlo",
+			"requirement": {
+				"type": "provide",
+				"quantity": 5,
+				"item": "Insight Entertainment Suites",
+				"item_target": "Insight Entertainment Suite"
+			}
+		}
+	],
+	"modifications": {
+		"suit": [
+			"Extra Backpack Capacity",
+			"Improved Battery Capacity",
+			"Reduced Tool Battery Consumption"
+		],
+		"weapon": [
+			"Greater Range",
+			"Scope"
+		]
+	},
+	"colonia": false
+}

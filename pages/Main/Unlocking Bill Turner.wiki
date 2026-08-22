@@ -1,0 +1,70 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Bill Turner
+Namespace: 0
+Page ID: 632
+Revision ID: 1499
+Timestamp: 2026-08-21T14:40:46Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Bill_Turner
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Bill Turner — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Bill Turner]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Bill Turner]].
+
+== Objective ==
+Gain access to [[Bill Turner]]'s Engineer services at Turner Metallics Inc in Alioth.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Bill Turner is discovered through [[Selene Jean]].
+* '''Invitation:''' Current Engineer data lists the following meeting requirements for Bill Turner: * reach at least '''Friendly''' reputation with the '''Alliance'''; and * obtain the permit required to enter Alioth, which is associated with '''Allied''' 
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Selene Jean]].
+* Reach at least '''Friendly''' reputation with the '''Alliance'''.
+* Obtain the Alioth Permit.
+* Obtain '''50 units of Bromellite'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Bromellite'''
+Bromellite is a mineral commodity whose normal production source is '''mining'''.
+
+Bill requires '''50 units'''.
+
+If you know you intend to unlock Bill while working toward [[Selene Jean]], it can be efficient to collect and retain the Bromellite while completing Selene's '''500-tonne mining requirement'''.
+
+{{Tip|Selene requires you to mine 500 tonnes before meeting her, while Bill later asks for 50 tonnes of Bromellite. Planning for both Engineers at the same time can avoid having to begin a second dedicated mining session after Selene is complete.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also offer Bromellite through their commodity markets when a Commander has placed stock for sale. Carrier availability and prices are player-controlled and can change.
+
+See Bromellite for current mining methods and [[Mining]] for the complete mining workflow.
+
+{{Field note|Unlike Selene Jean's unlock, which explicitly calls for '''mined Painite''', Bill's current unlock requirement is listed simply as providing '''50 units of Bromellite'''.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Bill is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Selene Jean]].
+# Receive Selene's referral to Bill Turner.
+# Reach at least '''Friendly''' reputation with the '''Alliance'''.
+# Obtain the Alioth Permit.
+# Obtain '''50 units of Bromellite'''.
+# Travel to '''Turner Metallics Inc''' on '''Alioth 4 a'''.
+# Donate the 50 Bromellite to Bill Turner.
+# Enter the Engineer workshop and begin increasing your reputation with Bill.
+}}
+
+== Expected Result ==
+{{Expected result|[[Bill Turner]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Bill Turner]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Selene Jean]] [[Didi Vatermann]] Alioth Permit Alioth Alioth Independents Bromellite}}
+
+== Sources ==
+This procedure was extracted from the current [[Bill Turner]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

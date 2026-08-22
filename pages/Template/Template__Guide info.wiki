@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Guide info
+Namespace: 10
+Page ID: 320
+Revision ID: 697
+Timestamp: 2026-08-12T16:01:13Z
+Source URL: https://edfieldmanual.com/wiki/Template:Guide_info
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-guide-info" role="complementary">
+<div class="edfm-guide-info-title">{{{title|At a glance}}}</div>
+<div class="edfm-guide-info-body">
+{{{1|}}}
+</div>
+</div><noinclude>
+== Usage ==
+Flexible quick-reference panel for Guided Encyclopedia articles. Use only fields relevant to the page.
+<pre>{{Guide info|title=At a glance|
+; Designed for : Brand-new Commanders
+; Starting point : Immediately after training
+; Required ship : Starter ship
+}}</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>

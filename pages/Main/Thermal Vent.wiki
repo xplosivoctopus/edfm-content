@@ -1,0 +1,55 @@
+<!--
+EDFM current-content archive export.
+Title: Thermal Vent
+Namespace: 0
+Page ID: 102
+Revision ID: 175
+Timestamp: 2026-08-07T20:12:42Z
+Source URL: https://edfieldmanual.com/wiki/Thermal_Vent
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Experimental Effect|deck=To be added: a one-line summary of what this Experimental Effect does.}}
+{{Article status|status=Draft|mode=Both}}
+
+{{Draft warning}}
+This is a demonstration page showing the Experimental Effect page structure — see [[Elite Dangerous Field Manual:Engineering Architecture]]. No effect, compatibility, or requirement data has been verified yet.
+
+== What It Does ==
+Engineering data to be added.
+
+== Advantages ==
+Engineering data to be added.
+
+== Disadvantages / Tradeoffs ==
+Engineering data to be added.
+
+== Compatible Modules ==
+Engineering data to be added. See [[Multi-Cannon]] for an example of how a module page cross-references back to this one.
+
+== Compatible Blueprints ==
+Engineering data to be added. See [[Overcharged]] for an example blueprint page.
+
+== Engineers Offering It ==
+{| class="wikitable"
+! Engineer !! Notes
+|-
+| colspan="2" | Engineering data to be added.
+|}
+
+== Engineering Requirements ==
+Engineering data to be added.
+
+== Recommended Uses ==
+Editorial guidance to be added once this effect's behaviour is verified.
+
+== Related Effects ==
+Engineering data to be added.
+
+== Related Guides ==
+{{Related articles|[[Engineering]] [[Experimental Effects]]}}
+
+{{Engineering nav}}
+
+[[Category:Experimental Effects]]
+[[Category:Engineering]]

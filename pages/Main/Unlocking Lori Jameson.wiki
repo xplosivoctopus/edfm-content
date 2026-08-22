@@ -1,0 +1,68 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Lori Jameson
+Namespace: 0
+Page ID: 635
+Revision ID: 1513
+Timestamp: 2026-08-21T14:41:02Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Lori_Jameson
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Lori Jameson — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Lori Jameson]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Lori Jameson]].
+
+== Objective ==
+Gain access to [[Lori Jameson]]'s Engineer services at Jameson Base in Shinrarta Dezhra.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Lori Jameson is discovered through [[Marco Qwent]].
+* '''Invitation:''' Reach '''Combat rank Dangerous''' or higher.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Marco Qwent]].
+* Reach '''Dangerous''' or higher in Combat Rank.
+* Obtain the permit required to enter Shinrarta Dezhra.
+* Obtain '''25 units of Kongga Ale'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Kongga Ale'''
+The normal production source for Kongga Ale is:
+
+* '''System:''' Kongga
+* '''Station:''' Laplace Ring
+* '''Commodity type:''' Rare commodity
+
+Only 25 units are required for Lori's unlock.
+
+{{Tip|Rare-commodity availability can vary. Check the current supply before assuming that all '''25 units''' will be available in a single purchase.}}
+
+Fleet Carriers may also resell Kongga Ale, but carrier inventories and prices are controlled by individual Commanders and can change. Laplace Ring is the commodity's normal production source.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Lori is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Marco Qwent]].
+# Receive Marco's referral to Lori Jameson.
+# Reach '''Dangerous''' or higher in Combat Rank.
+# Obtain the permit required to enter Shinrarta Dezhra.
+# Obtain '''25 units of Kongga Ale'''.
+# Travel to '''Jameson Base''' in Shinrarta Dezhra.
+# Donate the 25 Kongga Ale to Lori Jameson.
+# Enter the Engineer workshop and begin increasing your reputation with Lori.
+}}
+
+== Expected Result ==
+{{Expected result|[[Lori Jameson]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Lori Jameson]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Marco Qwent]] Combat Rank Shinrarta Dezhra Shinrarta Dezhra Permit Kongga Ale Engineer Reputation}}
+
+== Sources ==
+This procedure was extracted from the current [[Lori Jameson]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

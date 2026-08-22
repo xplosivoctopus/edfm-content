@@ -1,0 +1,43 @@
+<!--
+EDFM current-content archive export.
+Title: Seeker Missile Rack
+Namespace: 0
+Page ID: 372
+Revision ID: 1009
+Timestamp: 2026-08-20T01:38:40Z
+Source URL: https://edfieldmanual.com/wiki/Seeker_Missile_Rack
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Weapon
+ |deck=A lock-on missile hardpoint that tracks its target after launch, at the cost of a longer lock-on time than dumbfire weapons.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+'''Seeker Missile Racks''' fire guided missiles that lock onto a target before launch and then actively track it, unlike the straight-line missiles fired by an ordinary [[Missile Rack]].
+
+== Overview ==
+
+Because Seeker Missiles actively home in on their target, they are more forgiving to aim than dumbfire weapons, but the lock-on process takes time and the missiles themselves can be defeated by an enemy [[Point Defence]] turret or a well-timed [[Electronic Countermeasure]]. Like other missile weapons, ammunition is limited rather than capacitor-drawn, so magazine capacity and reload discipline matter more than heat management.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Liz Ryder]] || Grade 5 <small>(conventional blueprints)</small>
+|}
+
+Liz Ryder provides Grade 5 conventional Seeker Missile Rack Engineering as one of her primary explosive-weapon specialties.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

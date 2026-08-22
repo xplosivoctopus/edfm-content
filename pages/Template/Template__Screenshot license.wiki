@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Screenshot license
+Namespace: 10
+Page ID: 216
+Revision ID: 1114
+Timestamp: 2026-08-20T03:29:38Z
+Source URL: https://edfieldmanual.com/wiki/Template:Screenshot_license
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-warning noexcerpt">'''Deprecated.''' Use {{tl|EDFM image information}} instead, under a separate <code>== Summary ==</code> section — keep licensing in its own <code>== Licensing ==</code> section via {{tl|License-ED screenshot}} rather than the combined notice this template used to render. See [[Elite Dangerous Field Manual:Image Use Policy]]. This template predates EDFM's licensing system and is kept only so old links/history aren't broken; it isn't used on any file page.</div><noinclude>
+== Usage ==
+Do not use this template on new uploads — see {{tl|EDFM image information}}.
+
+The outer notice uses the <code>noexcerpt</code> class so maintenance/editorial
+text is excluded from article excerpts and Page Previews.
+[[Category:Templates]]
+</noinclude>

@@ -1,0 +1,52 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Oden Geiger
+Namespace: 828
+Page ID: 424
+Revision ID: 1207
+Timestamp: 2026-08-20T23:54:17Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Oden_Geiger
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Oden Geiger",
+	"image": null,
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Candiaei",
+	"body": "Candiaei 9 c",
+	"facility": "Ankh's Promise",
+	"region": null,
+	"allegiance": null,
+	"discovery": {
+		"type": "referral"
+	},
+	"unlock": {
+		"type": "sell_combined",
+		"quantity": 20,
+		"items": [
+			{
+				"name": "Biological Samples",
+				"target": "Biological Sample"
+			},
+			"Employee Genetic Data",
+			"Genetic Research"
+		],
+		"destination": "bartenders"
+	},
+	"prerequisite_engineer": "Terra Velasquez",
+	"referrals": [],
+	"modifications": {
+		"suit": [
+			"Enhanced Tracking",
+			"Improved Battery Capacity",
+			"Night Vision"
+		],
+		"weapon": [
+			"Scope",
+			"Stability"
+		]
+	},
+	"colonia": false
+}

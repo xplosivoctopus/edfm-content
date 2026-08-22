@@ -1,0 +1,42 @@
+<!--
+EDFM current-content archive export.
+Title: Chaff Launcher
+Namespace: 0
+Page ID: 381
+Revision ID: 1018
+Timestamp: 2026-08-20T01:38:46Z
+Source URL: https://edfieldmanual.com/wiki/Chaff_Launcher
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Utility Module
+ |deck=A defensive utility module that disrupts gimballed and turreted weapon tracking, doing nothing against fixed weapons.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+The '''Chaff Launcher''' deploys a burst of signal-disrupting chaff that confuses the tracking systems used by gimballed and turreted weapons.
+
+== Overview ==
+
+Because chaff specifically interferes with the sensor-assisted tracking that gimballed and turreted mounts depend on, it has no effect against fixed weapons, which a pilot aims manually. A Chaff Launcher is a short-duration defensive tool with limited charges and a cooldown between uses, best timed to cover a vulnerable moment — a turn, a low-shield window, or an escape attempt — rather than run continuously.
+
+{{Field note|Chaff protects against tracking-dependent weapons only. It is not a substitute for [[Electronic Countermeasure]], which instead defends against missiles, torpedoes, and Hatch Breaker limpets.}}
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Ram Tah]] || Grade 5
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Utility Engineering]]
+[[Category:Engineering]]

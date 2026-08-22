@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Bi-Weave Shield Generator
+Namespace: 828
+Page ID: 450
+Revision ID: 1237
+Timestamp: 2026-08-20T23:58:58Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Bi-Weave_Shield_Generator
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Bi-Weave Shield Generator",
+}

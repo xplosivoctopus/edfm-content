@@ -1,0 +1,41 @@
+<!--
+EDFM current-content archive export.
+Title: Torpedo Pylon
+Namespace: 0
+Page ID: 373
+Revision ID: 1010
+Timestamp: 2026-08-20T01:38:40Z
+Source URL: https://edfieldmanual.com/wiki/Torpedo_Pylon
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Weapon
+ |deck=An extremely limited-ammunition launcher for the single hardest-hitting munition available to ship weapons.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+'''Torpedo Pylons''' launch guided torpedoes: slow-moving munitions with a long target-lock time, but capable of very heavy damage to both shields and hull in a single hit.
+
+== Overview ==
+
+Torpedoes are the slowest tracked munition in the game and require a long lock-on before they can be fired, which makes them impractical against an alert, maneuvering target without support from other weapons or a wingmate. Ammunition capacity is extremely small and scales with hardpoint class rather than with any Engineering blueprint, and torpedo ammunition cannot be replenished by ordinary synthesis the way many other munitions can. Check current in-game outfitting for the exact ammunition count on a given hardpoint size. Because of this, Torpedo Pylons are a specialised, high-commitment weapon rather than a general-purpose one.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Liz Ryder]] || Grade 5
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Baltanos
+Namespace: 828
+Page ID: 423
+Revision ID: 1201
+Timestamp: 2026-08-20T23:54:14Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Baltanos
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Baltanos",
+	"image": "Baltanos.png",
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Deriso",
+	"body": null,
+	"facility": "The Divine Apparatus",
+	"region": "Colonia",
+	"allegiance": null,
+	"discovery": {
+		"type": "public"
+	},
+	"unlock": {
+		"type": "reputation",
+		"level": "Friendly",
+		"faction": "the Colonia Council"
+	},
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_display": "None — independent Odyssey Engineer",
+	"referrals": [
+		{
+			"engineer": "Yi Shen",
+			"requirement": {
+				"type": "provide",
+				"quantity": 10,
+				"item": "Faction Associates"
+			}
+		}
+	],
+	"modifications": {
+		"suit": [
+			"Improved Jump Assist",
+			"Increased Air Reserves",
+			"Increased Sprint Duration",
+			"Combat Movement Speed"
+		],
+		"weapon": [
+			"Noise Suppressor",
+			"Improved Hip Fire Accuracy",
+			"Faster Handling"
+		]
+	},
+	"colonia": true
+}

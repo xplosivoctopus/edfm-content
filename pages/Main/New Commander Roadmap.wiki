@@ -1,0 +1,504 @@
+<!--
+EDFM current-content archive export.
+Title: New Commander Roadmap
+Namespace: 0
+Page ID: 52
+Revision ID: 854
+Timestamp: 2026-08-16T04:07:25Z
+Source URL: https://edfieldmanual.com/wiki/New_Commander_Roadmap
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+The '''Commander Roadmap''' is a guided progression for a Commander who has completed the introductory tutorial and has just been released into the wider galaxy.
+
+It is not a mandatory path, and it is not a checklist that must be completed before the rest of the game becomes available. ''Elite Dangerous'' is deliberately open-ended. The purpose of this roadmap is to answer the question most new Commanders have once the game stops telling them what to do:
+
+'''Now what?'''
+
+Use this page in two ways:
+
+* as a reference for the broad early-game skills worth learning; and
+* as a practical walkthrough for getting established before choosing your own direction.
+
+{{Guide info|title=Roadmap at a glance|
+; Designed for : Brand-new Commanders
+; Starting point : Immediately after completing the introductory tutorial
+; Required credits : None
+; Required ship : Starter ship or any early ship
+; Recommended : Complete your introductory mission and learn where to find your ship's rebuy cost
+; End state : A Commander who can travel, earn credits, outfit a ship, and decide what they want to pursue next
+; Progression length : Open-ended; move forward when you feel comfortable
+; Related pages : [[Start Here]], [[Field Procedures]], [[Game Reference]], [[Ships and Equipment]], [[Engineering]]
+}}
+
+{{Important|This roadmap is guidance, not a required progression route. If you discover an activity you enjoy, follow it. You can always return here later.}}
+
+== Phase 1 — Welcome to the Galaxy ==
+You've finished the tutorial. Congratulations, Commander!
+
+The galaxy is now wide open to you. When we say ''wide'', we mean it. Elite Dangerous represents the Milky Way on a roughly 1:1 scale, with around 400 billion star systems containing stars, planets, moons, asteroid belts, black holes, neutron stars, and much more.
+
+That amount of freedom can definitely be overwhelming to a new player.
+
+You may already be asking questions such as:
+
+* '''What do I do now?'''
+* '''Where do I get missions?'''
+* '''How do I make credits?'''
+* '''Where should I go?'''
+* '''What ship should I buy?'''
+
+These are all very reasonable questions.
+
+The important thing to understand is that there is no single correct path through Elite Dangerous. You can become a trader, miner, bounty hunter, explorer, exobiologist, mercenary, pirate, Powerplay operative, colonist, or spend your time doing a little bit of everything.
+
+Before worrying about any of that, though, let's get you established.
+
+{{Guide step|1|Finish your first mission|
+After the tutorial, the game will normally give you an initial mission to complete before fully turning you loose.
+
+Finish it.
+
+This is your first opportunity to learn how missions work in the live galaxy rather than inside a tutorial.
+
+Pay attention to:
+
+* where the mission destination is shown;
+* how the route is plotted;
+* whether the mission requires cargo or another objective;
+* where the mission information appears in your Transactions panel; and
+* what you need to do to actually complete and turn in the mission.
+
+{{Field note|Completing the objective is not always the same thing as completing the mission. Many missions require you to return to a station, settlement, or mission giver and formally turn them in before receiving your reward.}}
+
+Once you finish, take a moment to look at the Mission Board rather than immediately accepting everything that pays well.
+}}
+
+{{Guide step|2|Learn how to read a mission|
+Before accepting another mission, open one and read it carefully.
+
+Look for:
+
+* '''Destination''' — where you actually need to go.
+* '''Distance''' — including both the jump distance and the distance from the arrival star.
+* '''Requirements''' — cargo capacity, equipment, combat ability, suit requirements, or other conditions.
+* '''Legality''' — some missions involve illegal cargo, trespassing, theft, smuggling, or hostile actions.
+* '''Threat level''' — higher-paying work may also be considerably more dangerous.
+* '''Time limit''' — some missions expire if you take too long.
+* '''Reward''' — credits are not always the only useful reward.
+
+{{Tip|Early on, simple courier and delivery missions are useful because they let you practise travelling between systems while earning credits at the same time.}}
+
+Do not worry about maximizing credits per hour yet. The goal is to understand what you are agreeing to before you accept it.
+
+See [[Missions]] for a full explanation of mission types, rewards, reputation, and failure conditions.
+}}
+
+{{Guide step|3|Find your rebuy cost|
+Before you start spending your first real credits, learn where to find your ship's '''rebuy cost'''.
+
+If your ship is destroyed, insurance normally allows you to recover it by paying only part of its total value instead of purchasing the entire ship again.
+
+That cost is not fixed. As you move into more expensive ships and install more valuable modules, the value of your ship increases, and so does its rebuy cost.
+
+{{Important|
+'''Never fly without rebuy.'''
+
+Before leaving the station, make sure your current credit balance can cover your ship's rebuy cost.
+
+If losing the ship would leave you unable to replace it, you are taking a much larger risk than you may realize.
+
+This may not seem especially important while flying your inexpensive starter ship, but it becomes one of the most important habits you can develop as your fleet grows.
+
+For now, simply get into the habit of checking your rebuy before you launch.
+}}
+
+{{Field note|Certain [[Powerplay]] benefits can reduce rebuy costs under specific circumstances. You do not need to understand Powerplay yet; just know that these benefits exist if you decide to explore that system later.}}
+}}
+
+{{Guide step|4|Build a small credit reserve|
+Complete a few straightforward missions and begin building a reserve of credits.
+
+You do not need millions before moving forward.
+
+Your immediate goals are simply to:
+
+* keep enough credits available for rebuy;
+* have some money available for fuel, repairs, and basic equipment;
+* learn how mission rewards work; and
+* become comfortable travelling between nearby systems.
+
+Avoid spending every credit the moment you earn it.
+
+{{Field note|Having enough credits to ''purchase'' a ship does not necessarily mean you can comfortably ''afford'' that ship. A new ship may also need upgraded modules, equipment for its intended role, and enough credits left over to cover its rebuy.}}
+}}
+
+== Phase 2 — Get Established ==
+Your starter location is only the beginning.
+
+The next goal is to find an area where you can comfortably operate, earn credits, experiment with ships, and access the services you need.
+
+{{Guide step|1|Find a useful inhabited system|
+Look for a nearby inhabited system with access to several useful services.
+
+A good early operating area will usually have some combination of:
+
+* multiple stations or settlements;
+* several local factions offering missions;
+* a shipyard;
+* outfitting;
+* commodity markets;
+* contacts;
+* refuel, repair, and restock services; and
+* nearby inhabited systems within comfortable jump range.
+
+You are not choosing a permanent home.
+
+You are simply looking for somewhere useful to operate while you learn the game.
+}}
+
+{{Guide step|2|Learn the station services|
+When you arrive, spend a few minutes deliberately looking through the station interface.
+
+[[File:stationinterface.webp{{!}}thumb{{!}}right{{!}}350px{{!}}Station Services provides access to missions, markets, outfitting, ship services, contacts, and other facilities available at the current port.]]
+
+Find:
+
+* Mission Board
+* Passenger Lounge, if available
+* Commodities Market
+* Universal Cartographics, if available
+* Vista Genomics, if available
+* Contacts
+* Shipyard
+* Outfitting
+* Advanced Maintenance
+* Refuel
+* Repair
+* Restock
+
+You do not need to understand every menu yet.
+
+The objective is to know where these services are so you are not searching for them later when you actually need them.
+}}
+
+{{Guide step|3|Understand your range and fuel|
+Before travelling farther from your starting area, pay attention to your fuel gauge and jump range.
+
+Learn the difference between:
+
+* the maximum distance your ship can travel in a single jump;
+* the route plotted by the [[Galaxy Map]];
+* how far your current fuel supply can actually carry you; and
+* your laden and unladen jump range.
+
+Your ship's jump range changes with its mass. An empty cargo hold gives you more range than a full one, and the difference can become significant on ships carrying large amounts of cargo.
+
+{{Field note|'''Laden''' means your ship is carrying cargo, while '''unladen''' refers to its range without that cargo load. If you accept or load a large amount of cargo, check your route again before departing — a jump that was possible with an empty hold may no longer be within range once the ship is loaded.}}
+
+{{Warning|Running out of fuel can leave your ship stranded between populated systems. Always check your route before committing to a long journey.}}
+
+A [[Fuel Scoop]] allows your ship to replenish fuel from suitable stars while travelling.
+
+{{Field note|The commonly scoopable main-sequence star classes are '''O, B, A, F, G, K, and M'''. Many Commanders remember these with the mnemonic '''KGB FOAM'''. See [[Fuel Scooping]] for the full procedure.}}
+
+{{Tip|'''Out of fuel? Don't self-destruct.''' The [[Fuel Rats]] are a player-run emergency refueling service dedicated to rescuing stranded Commanders. If you run out of fuel and cannot reach a station or scoopable star, they may be able to come to you and get you moving again.
+
+If your ship has already run completely dry and you see an oxygen countdown, take note of which system you are currently in and exit to the main menu immediately to preserve your remaining life support time while you request assistance. See [[Fuel Rats]] for rescue instructions.}}
+}}
+
+{{Guide step|4|Make your first outfitting decisions|
+Open [[Outfitting]] and look at the modules installed in your ship.
+
+Do not immediately replace everything.
+
+Instead, think about what is actually limiting you.
+
+*; It takes me too many jumps to get where I want to go.
+: First, check your route settings in the [[Galaxy Map]]. '''Economical Routes''' use shorter jumps to conserve fuel, while '''Fastest Routes''' favour longer jumps and usually require fewer jumps. If you are already using Fastest Routes, look at your [[Frame Shift Drive]], total ship mass, and current cargo load. For longer journeys, external route-planning tools such as [[Spansh]] can also help calculate more efficient routes.
+
+*; I cannot carry enough cargo.
+: Check how much space your [[Cargo Rack|Cargo Racks]] provide and which optional internal compartments they occupy. Larger compartments can hold larger cargo racks, but that space then cannot be used for other equipment. Remember that cargo also adds mass and can reduce your jump range.
+
+*; I cannot power everything I want to install.
+: Every module draws power from your [[Power Plant]]. Adding or upgrading equipment can eventually push your ship beyond what it can supply. A more capable Power Plant may help, but [[Module Priorities|power priorities]] also allow you to decide which systems remain active when power is limited. See [[Power Management]] for the full mechanic.
+
+*; My ship feels weak in combat.
+: Weapons are only one part of a combat-capable ship. Shields or armour, [[Thrusters]], [[Power Distributor]], [[Power Plant]], weapons, and utilities all work together. For traders and explorers, being able to survive and escape may be more useful than trying to turn the ship into a dedicated fighter.
+
+{{Important|Choose modules for the job, not simply by price.}}
+}}
+
+{{Guide step|5|Decide whether to upgrade or save|
+At this point you have two perfectly valid choices:
+
+* improve the ship you already have; or
+* begin saving for another ship.
+
+There is no need to rush into a larger or more expensive vessel.
+
+A smaller ship fitted properly for its role can be considerably more useful than a larger ship filled with expensive modules that do not work well together.
+
+More expensive does not automatically mean better for every build. Modules come with tradeoffs involving performance, mass, power consumption, heat, and cost. An explorer may deliberately choose lighter equipment to preserve jump range, while a combat ship may accept additional mass and power draw in exchange for stronger defenses or better weapon performance.
+
+The goal is not to install the most expensive equipment you can afford. It is to choose the ship and modules that best support what you want to do.
+
+If you decide to buy another ship, remember:
+
+* the purchase price is only the beginning;
+* outfitting can substantially increase the total cost;
+* more expensive modules can also increase the ship's rebuy cost; and
+* you should still have enough credits left over to comfortably cover at least one rebuy.
+
+{{Field note|Having enough credits to purchase a ship does not necessarily mean you can afford to properly outfit and operate it.}}
+
+See [[Ships and Equipment]] when you are ready to start comparing vessels and modules.
+}}
+
+== Phase 3 — Find Out What Kind of Commander You Are ==
+Now that you can travel, complete missions, manage your credits, and understand the basics of your ship, it is time to see what the galaxy actually offers.
+
+You do '''not''' need to try everything below.
+
+The purpose of this phase is to experiment until you discover something that makes you want to keep playing.
+
+{{Important|There is no single "best" activity in Elite Dangerous. Profitability, difficulty, equipment requirements, and personal enjoyment are all different things. Try what interests you.}}
+
+{{Guide step|1|Try trading|
+Move legal cargo between two markets and attempt to make a profit.
+
+Trading introduces commodity markets, supply and demand, cargo capacity, market prices, jump range, and route planning.
+
+You can begin through cargo missions or by purchasing commodities yourself.
+
+Continue to [[Trading]] when you want to learn how markets, trade routes, and specialized cargo ships work.
+}}
+
+{{Guide step|2|Try combat|
+Find a low-risk opportunity to fight an NPC ship.
+
+Early combat should be about learning:
+
+* target selection;
+* identifying wanted ships;
+* deploying hardpoints;
+* managing '''SYS / ENG / WEP''' power distribution;
+* shields and hull;
+* weapon range;
+* maneuvering; and
+* when to disengage.
+
+{{Warning|Do not fire on a ship simply because other ships are attacking it. Scan your target and confirm its legal status before opening fire.}}
+
+Low-risk combat and assisting system security can be useful ways to practise before accepting serious combat missions.
+
+Continue to [[Combat]] when you are ready to learn about dedicated combat ships, weapons, shields, armour, and bounty hunting.
+}}
+
+{{Warning|'''Do not go looking for Thargoids yet.'''
+
+Seriously.
+
+Thargoid combat is not simply a harder version of normal NPC combat. [[Anti-Xeno Combat]] uses specialized equipment, specialized builds, and different tactics that an ordinary early-game ship is generally not prepared to handle.
+
+If you encounter Thargoid-related content while you are still getting established, there is nothing wrong with leaving it alone and coming back later.
+
+'''You are not ready yet. Trust us.'''
+
+When you eventually decide to pursue them deliberately, start with [[Anti-Xeno Combat]] and prepare for the job properly.}}
+
+{{Guide step|3|Try mining|
+Mining lets you extract valuable commodities directly from asteroids.
+
+Your first goal is not to build an optimized mining vessel. Learn the basic loop:
+
+# Find a suitable location.
+# Locate a resource.
+# Extract it.
+# Collect the material.
+# Refine it into cargo.
+# Return safely.
+# Sell it.
+
+There are several forms of mining, each with different equipment and procedures.
+
+Continue to [[Mining]] for an overview or [[Laser Mining]] for a guided introduction to the most straightforward mining method.
+}}
+
+{{Guide step|4|Try exploration|
+Pick a destination outside your immediate operating area and deliberately explore along the way.
+
+Pay attention to:
+
+* system scanning;
+* fuel;
+* jump range;
+* route plotting;
+* the Full Spectrum System Scanner;
+* the Detailed Surface Scanner; and
+* selling exploration data.
+
+You do not need to travel thousands of light-years away to begin exploring.
+
+Continue to [[Exploration]] when you want to go deeper.
+}}
+
+{{Guide step|5|Try exobiology|
+If you own ''Odyssey'', exobiology allows you to search planetary surfaces for biological life.
+
+Your first objective is simple:
+
+# Find a landable world containing biological signals.
+# Land near a suitable biological specimen.
+# Equip an [[Artemis Suit]].
+# Use the Genetic Sampler to collect the required samples.
+# Return the data to [[Vista Genomics]].
+
+Continue to [[Exobiology]] for the full guided procedure.
+}}
+
+{{Guide step|6|Try on-foot gameplay|
+If you own ''Odyssey'', visit a station concourse or settlement and explore the on-foot side of the game.
+
+You can accept missions, visit settlements, use Apex Interstellar, participate in ground combat, salvage equipment, and upgrade suits and weapons.
+
+Start with straightforward legal work while you learn how settlement security, restricted areas, trespassing, alarms, and crime work.
+
+Continue to [[Odyssey]] for the broader on-foot guide.
+}}
+
+{{What next|title=You do not need to choose permanently|
+Enjoyed one of these activities? Follow its linked guide and keep going.
+
+Did not enjoy it? Try something else.
+
+Most Commanders eventually own several ships and participate in more than one activity. Your first choice does not lock you into a career.
+}}
+
+== Phase 4 — Build Around What You Enjoy ==
+Once you have found an activity you enjoy, you can start building ships around what you actually want to do.
+
+{{Guide step|1|Choose a job for the ship|
+Decide what the ship is supposed to do before you begin buying modules.
+
+Examples include:
+
+* trading;
+* exploration;
+* exobiology;
+* mining;
+* combat;
+* mission running;
+* passenger transport; or
+* general-purpose travel.
+
+The clearer the job, the easier the outfitting decisions become.
+}}
+
+{{Guide step|2|Identify what matters for that role|
+Different activities place different demands on a ship.
+
+* '''[[Trading]]''' — cargo capacity, jump range, and survivability.
+* '''[[Exploration]]''' — jump range, fuel, heat management, scanners, and recovery equipment.
+* '''[[Exobiology]]''' — range, planetary handling, landing footprint, and surface access.
+* '''[[Mining]]''' — hardpoints, limpets, refinery capacity, cargo space, and distributor performance.
+* '''[[Combat]]''' — weapons, shields or armour, distributor, power, heat, and maneuverability.
+
+Use the activity's EDFM page to determine what equipment actually matters for that role.
+}}
+
+{{Guide step|3|Plan before you spend|
+You do not have to buy modules in-game simply to find out whether a build works on paper.
+
+{{Tip|Third-party ship builders such as [[EDSY]] and [[Coriolis]] allow you to design or recreate a ship in your browser and experiment with different modules before spending any credits. You can compare jump range, mass, power usage, shields, weapons, cargo capacity, heat, and total build cost before deciding what to actually purchase.}}
+
+These tools are excellent for planning, but numbers do not tell you everything.
+
+Once you have an idea of what you want, build it gradually and actually fly the ship. A build can look excellent on paper and still not feel right for the way you play.
+
+And, as always, keep enough credits available for rebuy.
+}}
+
+== You're Established — Where Next? ==
+If you have made it this far, you do not need a beginner roadmap telling you what to do next.
+
+You should now have enough experience to:
+
+* find and complete basic missions;
+* understand your rebuy cost;
+* maintain a credit reserve;
+* travel between systems;
+* understand basic fuel and jump-range limitations;
+* use station services;
+* make basic outfitting decisions;
+* try several major activities; and
+* decide what kind of gameplay interests you.
+
+From here, the roadmap branches.
+
+Choose a direction and let the rest of the Field Manual take over.
+
+{{What next|title=Where do you want to go next?|
+* '''I want to explore:''' [[Exploration]], [[Exobiology]], [[Fuel Scooping]], [[Route Plotting]]
+* '''I want to trade:''' [[Trading]], cargo ships, market tools
+* '''I want to mine:''' [[Mining]], [[Laser Mining]], core mining
+* '''I want to fight:''' [[Combat]], bounty hunting, conflict zones
+* '''I eventually want to fight Thargoids:''' [[Anti-Xeno Combat]]
+* '''I want better ships:''' [[Ships and Equipment]], [[Outfitting]], [[Engineering]]
+* '''I want to modify modules:''' [[Engineers]], [[Engineering Materials]], [[Material Trading]]
+* '''I want alien technology:''' Guardian technology
+* '''I want to join galactic politics:''' [[Powerplay]]
+* '''I want to influence systems:''' Background Simulation
+* '''I want to play with others:''' Squadrons and Operations
+* '''I want to help build new systems:''' [[System Colonisation]]
+* '''I want military progression:''' Federal and Imperial naval ranks
+* '''I want a mobile base of operations:''' Fleet Carriers
+}}
+
+There is no final destination.
+
+At this point, the Field Manual stops telling you what you should do next and starts helping you accomplish whatever you decide to do.
+
+== Common problems ==
+; I do not know where to get more missions.
+: Dock at an inhabited station or settlement and open the Mission Board. Different local factions offer different missions, and available work changes with location, reputation, economy, and system conditions.
+
+; My route says unavailable.
+: Check your [[Galaxy Map]] route settings and your ship's current jump range. Cargo and other added mass can reduce your range, while some destinations may also require permits.
+
+; I keep running out of fuel.
+: Watch your fuel gauge before longer journeys, refuel whenever practical, and learn [[Fuel Scooping]]. If you are already stranded, see [[Fuel Rats]] before considering self-destruct.
+
+; I accepted a mission I cannot complete.
+: Read the mission details again and identify what requirement was missed. Check the destination, cargo requirements, legality, threat level, required equipment, and time limit. If the mission is impractical, abandoning it may be better than risking your ship.
+
+; The station will not let me dock.
+: Make sure you are within docking-request range, have requested docking through the Contacts panel, and are attempting to use a port that can accommodate your ship.
+
+== When are you no longer a new Commander? ==
+There is no rank, ship, credit balance, or achievement that officially marks the point where a Commander stops being new.
+
+A more useful measure is independence.
+
+You are becoming self-sufficient when you can:
+
+* decide what you want to do;
+* determine what ship and equipment are appropriate;
+* understand whether you can afford that ship;
+* travel where you need to go;
+* manage your fuel;
+* recover from common mistakes;
+* recognize when a mission or activity is beyond your current preparation;
+* find the information you need; and
+* understand enough of the game's systems to make your own decisions.
+
+{{What next|title=Continue exploring EDFM|
+* Browse the [[Main Page]] for the full Field Manual.
+* Browse [[Field Procedures]] when you need instructions for a specific task.
+* Browse [[Game Reference]] when you need mechanics or factual information.
+* Continue to [[Ships and Equipment]] when building your fleet.
+* Continue to [[Engineering]] when you are ready to push those ships further.
+}}
+
+[[Category:Guides]]
+[[Category:New Commander Content]]

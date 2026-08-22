@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Universal Limpet Controller
+Namespace: 828
+Page ID: 615
+Revision ID: 1402
+Timestamp: 2026-08-21T00:00:59Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Universal_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Universal Limpet Controller",
+}

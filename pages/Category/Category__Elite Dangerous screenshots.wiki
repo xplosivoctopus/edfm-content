@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Elite Dangerous screenshots
+Namespace: 14
+Page ID: 218
+Revision ID: 329
+Timestamp: 2026-08-07T23:58:18Z
+Source URL: https://edfieldmanual.com/wiki/Category:Elite_Dangerous_screenshots
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Screenshots captured in-game by EDFM contributors, classified under {{tl|License-ED screenshot}} or {{tl|Elite Dangerous screenshot}}. The underlying game assets remain the property of Frontier Developments plc — see [[Elite Dangerous Field Manual:Legal and Trademark Notice]].
+
+[[Category:Media]]

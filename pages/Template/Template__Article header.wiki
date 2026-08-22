@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Article header
+Namespace: 10
+Page ID: 73
+Revision ID: 965
+Timestamp: 2026-08-19T22:24:16Z
+Source URL: https://edfieldmanual.com/wiki/Template:Article_header
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<p class="edfm-eyebrow noexcerpt">{{{eyebrow|{{{1|}}}}}}</p>{{#if:{{{deck|}}}|<p class="edfm-deck">{{{deck|}}}</p>}}<noinclude>
+== Usage ==
+Optional. Adds a small category "eyebrow" label above the page's real
+title, and/or a muted one-line description ("deck") directly under it —
+see the redesign brief's Article header mockup:
+
+<pre>
+EDFM // COMMANDER REFERENCE
+
+TOOLS & RESOURCES
+
+Community tools, applications and services commonly used by commanders.
+</pre>
+
+Placement in the wikitext doesn't matter (top of the article is
+conventional) — a small script in [[MediaWiki:Common.js]] moves the
+eyebrow line to sit visually above [[MediaWiki:Common.css|#firstHeading]]
+on page load. The real page title stays the genuine, semantic H1 the whole
+time; this only adds text before/after it, it never replaces it. If a
+reader has JavaScript disabled, the eyebrow still renders — directly under
+the title instead of above it — so nothing is lost, only the exact
+placement changes.
+
+<pre>
+{{Article header
+ |eyebrow=EDFM // Commander Reference
+ |deck=Optional one-line description shown under the title.
+}}
+</pre>
+
+Both parameters are optional; using just <code>eyebrow=</code> or just
+<code>deck=</code> is fine.
+
+[[Category:Templates]]
+</noinclude>

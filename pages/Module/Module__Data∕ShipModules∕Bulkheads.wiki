@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Bulkheads
+Namespace: 828
+Page ID: 452
+Revision ID: 1239
+Timestamp: 2026-08-20T23:58:59Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Bulkheads
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Bulkheads",
+}

@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Encoded Materials
+Namespace: 14
+Page ID: 89
+Revision ID: 161
+Timestamp: 2026-08-07T20:12:40Z
+Source URL: https://edfieldmanual.com/wiki/Category:Encoded_Materials
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Engineering materials in data form, obtained from signal sources and similar.
+
+[[Category:Engineering Materials]]

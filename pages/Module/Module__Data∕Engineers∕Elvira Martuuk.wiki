@@ -1,0 +1,67 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Elvira Martuuk
+Namespace: 828
+Page ID: 398
+Revision ID: 1153
+Timestamp: 2026-08-20T22:08:57Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Elvira_Martuuk
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Elvira Martuuk",
+	"engineer_scope": "ship",
+	"image": "Elviramartuuk.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Khun",
+	"body": null,
+	"facility": "Long Sight Base",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Frame Shift Drive",
+		"Shield Generator",
+		"Thrusters",
+		"Shield Cell Bank"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_note": null,
+	"prerequisite_engineer_display": "None — independent starting Engineer",
+	"discovery_requirement": "None — public knowledge",
+	"invitation_requirement": "Reach a maximum distance of at least 300 Ly from your career start location",
+	"meeting_requirement": "Reach a maximum distance of at least 300 light-years from your career start location.",
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 3,
+		"item": "Soontill Relics"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Frame Shift Drive"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Shield Generator"
+			]
+		},
+		{
+			"grade": 2,
+			"modules": [
+				"Thrusters"
+			]
+		},
+		{
+			"grade": 1,
+			"modules": [
+				"Shield Cell Bank"
+			]
+		}
+	],
+	"colonia": false
+}

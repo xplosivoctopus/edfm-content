@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Equipment
+Namespace: 14
+Page ID: 144
+Revision ID: 225
+Timestamp: 2026-08-07T21:59:16Z
+Source URL: https://edfieldmanual.com/wiki/Category:Equipment
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Ship modules, weapons, and utilities that can be fitted to a ship.
+
+[[Category:Gameplay]]

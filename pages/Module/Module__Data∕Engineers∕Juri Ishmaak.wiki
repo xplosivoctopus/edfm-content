@@ -1,0 +1,77 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Juri Ishmaak
+Namespace: 828
+Page ID: 407
+Revision ID: 1157
+Timestamp: 2026-08-20T22:08:59Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Juri_Ishmaak
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Juri Ishmaak",
+	"engineer_scope": "ship",
+	"image": "Juriishmaak.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Giryak",
+	"body": "Giryak 2 a",
+	"facility": "Pater's Memorial",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Detailed Surface Scanner",
+		"Mine Launcher",
+		"Sensors",
+		"Abrasion Blaster",
+		"Enzyme Missile Rack",
+		"Mining Laser",
+		"Seeker Missile Rack",
+		"Frame Shift Wake Scanner",
+		"Kill Warrant Scanner",
+		"Manifest Scanner",
+		"Missile Rack",
+		"Torpedo Pylon"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Felicity Farseer",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Felicity Farseer",
+	"invitation_requirement": "Claim more than 50 Federal combat bonds",
+	"meeting_requirement": "Claim more than 50 Federal combat bonds.",
+	"unlock_requirement": "100,000 CR or 1,000,000 CR worth of Federal Combat Bonds — the determining condition is not established, so treat the value shown on your own Engineer invitation as authoritative",
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Detailed Surface Scanner",
+				"Mine Launcher",
+				"Sensors"
+			]
+		},
+		{
+			"grade": 5,
+			"live_only": true,
+			"merc": true,
+			"modules": [
+				"Abrasion Blaster",
+				"Enzyme Missile Rack",
+				"Mining Laser",
+				"Seeker Missile Rack"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Frame Shift Wake Scanner",
+				"Kill Warrant Scanner",
+				"Manifest Scanner",
+				"Missile Rack",
+				"Seeker Missile Rack",
+				"Torpedo Pylon"
+			]
+		}
+	],
+	"colonia": false
+}

@@ -1,0 +1,65 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Professor Palin
+Namespace: 0
+Page ID: 629
+Revision ID: 1519
+Timestamp: 2026-08-21T14:41:08Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Professor_Palin
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Professor Palin — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Professor Palin]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Professor Palin]].
+
+== Objective ==
+Gain access to [[Professor Palin]]'s Engineer services at Abel Laboratory in Arque.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Professor Palin is discovered through [[Marco Qwent]].
+* '''Invitation:''' Reach a '''maximum distance of at least 5,000 light-years from your career start location'''.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Marco Qwent]].
+* Reach a maximum distance of at least '''5,000 Ly from your career start location'''.
+* Obtain '''25 Sensor Fragments'''.
+* Provide the 25 Sensor Fragments to Professor Palin.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Sensor Fragments'''
+Sensor Fragments are Thargoid-related Manufactured materials. Current material data lists them as obtainable from sources including:
+
+* destroyed Thargoid Sensors;
+* Non-Human Signal Sources; and
+* Thargoid surface sites.
+
+See Sensor Fragments for current collection methods and recommended locations.
+
+{{Field note|[[Chloe Sedesi]] has the same 25-Sensor-Fragment unlock requirement. If you intend to unlock both Engineers, plan your collection accordingly.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Palin is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Marco Qwent]].
+# Receive Marco's referral to Professor Palin.
+# Reach a maximum distance of at least '''5,000 Ly from your career start location'''.
+# Obtain '''25 Sensor Fragments'''.
+# Travel to '''Abel Laboratory''' in Arque.
+# Provide the 25 Sensor Fragments to Professor Palin.
+# Enter the Engineer workshop and begin increasing your reputation with Palin.
+}}
+
+== Expected Result ==
+{{Expected result|[[Professor Palin]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Professor Palin]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Marco Qwent]] Engineer Reputation Sensor Fragments Arque [[Chloe Sedesi]] Abel Laboratory}}
+
+== Sources ==
+This procedure was extracted from the current [[Professor Palin]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

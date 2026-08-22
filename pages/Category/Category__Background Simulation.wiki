@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Background Simulation
+Namespace: 14
+Page ID: 152
+Revision ID: 233
+Timestamp: 2026-08-07T21:59:16Z
+Source URL: https://edfieldmanual.com/wiki/Category:Background_Simulation
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+The BGS: faction influence, states, and their effects on systems.
+
+[[Category:Gameplay]]

@@ -1,0 +1,42 @@
+<!--
+EDFM current-content archive export.
+Title: Thrusters
+Namespace: 0
+Page ID: 361
+Revision ID: 998
+Timestamp: 2026-08-20T01:37:44Z
+Source URL: https://edfieldmanual.com/wiki/Thrusters
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Module
+ |deck=The core internal module governing a ship's speed, boost, and handling — one of the most build-defining core internals to Engineer.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+
+'''Thrusters''' are a core internal module fitted to every ship, controlling normal-space movement: forward/lateral/vertical speed, boost speed, and pitch/yaw/roll handling.
+
+== Overview ==
+
+Thruster performance is strongly affected by the ship's total mass, including cargo, fitted modules, and fuel — a heavily laden ship will handle and boost noticeably worse than an empty one with the same thrusters fitted. This makes Thrusters a common Engineering target for both combat builds (handling) and exploration/trade builds (efficiency, boost).
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Felicity Farseer]] || Grade 3
+|}
+
+Felicity Farseer, based at [[Farseer Inc]] in [[Deciat]], is EDFM's currently documented Thruster Engineer, offering coverage through Grade 3.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

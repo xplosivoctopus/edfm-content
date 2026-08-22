@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Authmanager-realname-help
+Namespace: 8
+Page ID: 316
+Revision ID: 679
+Timestamp: 2026-08-11T21:56:51Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Authmanager-realname-help
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Elite Dangerous commander name for attribution.

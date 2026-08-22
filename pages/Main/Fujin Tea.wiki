@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Fujin Tea
+Namespace: 0
+Page ID: 393
+Revision ID: 1030
+Timestamp: 2026-08-20T01:40:06Z
+Source URL: https://edfieldmanual.com/wiki/Fujin_Tea
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Rare Commodity
+ |deck=A Food rare commodity produced at Futen Spaceport in Fujin, and Broo Tarquin's unlock requirement.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Inara commodity data; no direct EDFM testing yet
+}}
+
+'''Fujin Tea''' is a '''Food''' rare commodity produced exclusively by '''Futen Spaceport''' in the Fujin system (not to be confused with Broo Tarquin's own system, [[Muang]]).<ref name="inara-fujin">[https://inara.cz/elite/commodity/10055/ Fujin Tea — Commodity], Inara.</ref> It is legal to carry in every system.<ref name="inara-fujin" />
+
+== Why it matters for Engineering ==
+
+[[Broo Tarquin]] requires '''50 units of Fujin Tea''' to unlock his Engineering workshop at [[Broo's Legacy]] in [[Muang]]. As a commodity, each unit occupies one tonne of cargo space.
+
+== Acquisition ==
+
+Like all rare commodities, Fujin Tea has a single fixed production source — Futen Spaceport in Fujin — and follows rare-goods stocking rules rather than an ordinary market's supply:<ref name="inara-fujin" />
+
+* Only a small batch is available at any one time (allocation is typically around 5 units per visit, not the full 50).
+* Stock replenishes gradually while docked, up to a per-visit cap, so waiting at the station between purchases can extend a single trip's total.
+* Rares stop restocking once your hold already contains your maximum allocation, so reaching 50 units normally means either waiting out several restock cycles in one visit or making repeat visits to Futen Spaceport.
+
+{{Tip|Because Fujin Tea only originates from Futen Spaceport, plan the trip around that one station rather than searching general commodity markets — ordinary market searches will not turn up rare goods the way they do standard commodities.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also carry Fujin Tea if another Commander has stocked them for resale; carrier inventory and prices are player-controlled and can change.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Broo Tarquin]] [[Broo's Legacy]] [[Muang]] [[Engineering Materials]]}}
+
+{{Engineering nav}}
+
+[[Category:Commodities]]
+[[Category:Engineering]]

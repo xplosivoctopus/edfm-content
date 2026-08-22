@@ -1,0 +1,63 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Jude Navarro
+Namespace: 828
+Page ID: 417
+Revision ID: 1205
+Timestamp: 2026-08-20T23:54:16Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Jude_Navarro
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Jude Navarro",
+	"image": "Judenavarro.png",
+	"engineer_type": "Odyssey Engineer",
+	"engineer_scope": "odyssey",
+	"system": "Aurai",
+	"body": "Aurai 1 a",
+	"facility": "Marshall's Drift",
+	"region": null,
+	"allegiance": null,
+	"discovery": {
+		"type": "public"
+	},
+	"unlock": {
+		"type": "missions",
+		"quantity": 10,
+		"mission_types": [
+			{
+				"name": "Restore",
+				"target": "Restore Missions"
+			},
+			{
+				"name": "Reactivation",
+				"target": "Settlement Reactivation"
+			}
+		]
+	},
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_display": "None — independent starting Odyssey Engineer",
+	"referrals": [
+		{
+			"engineer": "Terra Velasquez",
+			"requirement": {
+				"type": "provide",
+				"quantity": 5,
+				"item": "Genetic Repair Meds"
+			}
+		}
+	],
+	"modifications": {
+		"suit": [
+			"Added Melee Damage",
+			"Damage Resistance"
+		],
+		"weapon": [
+			"Extra Ammo Capacity",
+			"Magazine Size",
+			"Reload Speed"
+		]
+	},
+	"colonia": false
+}

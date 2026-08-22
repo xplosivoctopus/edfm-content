@@ -1,0 +1,52 @@
+<!--
+EDFM current-content archive export.
+Title: The Jet's Hole
+Namespace: 0
+Page ID: 350
+Revision ID: 987
+Timestamp: 2026-08-20T01:37:36Z
+Source URL: https://edfieldmanual.com/wiki/The_Jet%27s_Hole
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=Hera Tani's Engineering workshop, a surface base on Kuwemaki A 3 a.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced station record
+}}
+
+'''The Jet's Hole''' is a surface Engineer base in the '''[[Kuwemaki]]''' system, and the workshop of '''[[Hera Tani]]'''.<ref name="inara-jets-hole">[https://inara.cz/elite/station/52289/ The Jet's Hole in Kuwemaki — Station], Inara.</ref>
+
+== Location ==
+
+* '''System:''' [[Kuwemaki]]
+* '''Body:''' Kuwemaki A 3 a
+* '''Landing pad:''' Large
+* '''Permit required:''' No<ref name="inara-jets-hole" />
+
+== Engineer ==
+
+The Jet's Hole is operated by '''[[Hera Tani]]'''. Hera is reached through a referral from [[Liz Ryder]] — see [[Hera Tani]] for the full discovery, invitation, and unlock requirements to access her workshop.
+
+== Station Services ==
+
+The Jet's Hole offers a commodity market, outfitting, rearmament, refuelling, repairs, shipyard services, and a black market, in addition to Hera's Engineering workshop.<ref name="inara-jets-hole" />
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Hera Tani]] [[Kuwemaki]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

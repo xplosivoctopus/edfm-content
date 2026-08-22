@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: Broo's Legacy
+Namespace: 0
+Page ID: 352
+Revision ID: 989
+Timestamp: 2026-08-20T01:37:38Z
+Source URL: https://edfieldmanual.com/wiki/Broo%27s_Legacy
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Location
+ |deck=Broo Tarquin's Engineering workshop, a surface base on Muang 5 a.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Community database (Inara), cross-referenced station record
+}}
+
+'''Broo's Legacy''' is a surface Engineer base in the '''[[Muang]]''' system, and the workshop of '''[[Broo Tarquin]]'''.<ref name="inara-broos-legacy">[https://inara.cz/elite/station/52402/ Broo's Legacy in Muang — Station], Inara.</ref>
+
+== Location ==
+
+* '''System:''' [[Muang]]
+* '''Body:''' Muang 5 a
+* '''Landing pad:''' Large
+* '''Permit required:''' No<ref name="inara-broos-legacy" />
+* '''Government:''' Workshop <small>(Colony economy)</small><ref name="inara-broos-legacy" />
+
+== Engineer ==
+
+Broo's Legacy is operated by '''[[Broo Tarquin]]'''. Broo is reached through a referral from [[Hera Tani]] — see [[Broo Tarquin]] for the full discovery, invitation, and unlock requirements to access his workshop.
+
+== Station Services ==
+
+Broo's Legacy offers a commodity market, outfitting, rearmament, refuelling, repairs, shipyard services, black market, contacts, Fleet Carrier administration, interstellar factors, a material trader, and a technology broker, in addition to Broo's Engineering workshop.<ref name="inara-broos-legacy" />
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Broo Tarquin]] [[Muang]] [[Engineers]]}}
+
+{{Engineering nav}}
+
+[[Category:Locations]]
+[[Category:Engineering]]

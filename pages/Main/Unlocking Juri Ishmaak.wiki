@@ -1,0 +1,48 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Juri Ishmaak
+Namespace: 0
+Page ID: 638
+Revision ID: 1509
+Timestamp: 2026-08-21T14:40:57Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Juri_Ishmaak
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Juri Ishmaak — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Juri Ishmaak]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Juri Ishmaak]].
+
+== Objective ==
+Gain access to [[Juri Ishmaak]]'s Engineer services at Pater's Memorial in Giryak.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Juri Ishmaak is discovered through [[Felicity Farseer]].
+* '''Invitation:''' Current Engineer data requires you to claim '''more than 50 Federal combat bonds'''.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Felicity Farseer]].
+* Provide the required value of Federal combat bonds to Juri.
+}}
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Felicity Farseer]].
+# Receive Felicity's referral to Juri Ishmaak.
+# Claim more than '''50 Federal combat bonds'''.
+# Retain enough Federal combat bonds to satisfy Juri's credit-value hand-in.
+# Travel to '''Pater's Memorial''' on '''Giryak 2 a''' in Giryak.
+# Provide the required value of Federal combat bonds to Juri.
+# Enter the Engineer workshop and begin increasing your reputation with Juri.
+}}
+
+== Expected Result ==
+{{Expected result|[[Juri Ishmaak]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Juri Ishmaak]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Felicity Farseer]] Combat Zone Combat Bonds Combat Zones Giryak Engineer Reputation}}
+
+== Sources ==
+This procedure was extracted from the current [[Juri Ishmaak]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

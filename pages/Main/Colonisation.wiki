@@ -1,0 +1,24 @@
+<!--
+EDFM current-content archive export.
+Title: Colonisation
+Namespace: 0
+Page ID: 60
+Revision ID: 916
+Timestamp: 2026-08-18T13:17:35Z
+Source URL: https://edfieldmanual.com/wiki/Colonisation
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Live|noindex=yes}}
+
+Index for system-colonisation content — see [[:Category:Colonisation]].
+
+No individual colonisation articles exist yet.
+
+{{Patch history|
+! Update !! Date !! Change
+|-
+| [[Trailblazers]] (Update 3) || 2025-04-30 || System-economy rework: economy development, population growth, and automatic construction linking within a system.
+}}
+
+{{Related articles|[[Operations]] [[Field Procedures]] [[Trailblazers]]}}

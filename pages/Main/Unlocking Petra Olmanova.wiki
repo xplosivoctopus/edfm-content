@@ -1,0 +1,69 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Petra Olmanova
+Namespace: 0
+Page ID: 644
+Revision ID: 1518
+Timestamp: 2026-08-21T14:41:07Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Petra_Olmanova
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Petra Olmanova — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Petra Olmanova]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Petra Olmanova]].
+
+== Objective ==
+Gain access to [[Petra Olmanova]]'s Engineer services at Sanctuary in Asura.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Petra Olmanova is discovered through [[Tod "The Blaster" McQuinn]].
+* '''Invitation:''' Reach the Pilots Federation '''Combat rank of Expert''' or higher.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Tod "The Blaster" McQuinn]].
+* Reach '''Expert''' or higher in Combat Rank.
+* Obtain '''200 units of Progenitor Cells'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Progenitor Cells'''
+Progenitor Cells are a Medicine commodity normally produced by '''High Tech''' economies.
+
+They can be purchased through ordinary commodity markets, so you do '''not''' need to mine, salvage, or collect them as Engineering materials.
+
+Petra requires '''200 units''' in total.
+
+{{Tip|Because Petra is in Colonia, buy the Progenitor Cells from a current market in or near the Colonia region rather than transporting 200 tonnes all the way from the Bubble.}}
+
+Market supply changes over time, so use current market information when choosing where to purchase them rather than relying on a permanently listed station.
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also sell Progenitor Cells when another Commander has placed them on the carrier market. Carrier stock and prices are player-controlled and can change.
+
+See Progenitor Cells for current acquisition methods.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Petra is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Tod "The Blaster" McQuinn]].
+# Receive Tod's referral to Petra Olmanova.
+# Reach '''Expert''' or higher in Combat Rank.
+# Obtain '''200 units of Progenitor Cells'''.
+# Travel to '''Sanctuary''' on '''Asura 1 d''' in Asura.
+# Donate the 200 Progenitor Cells to Petra Olmanova.
+# Enter the Engineer workshop and begin increasing your reputation with Petra.
+}}
+
+== Expected Result ==
+{{Expected result|[[Petra Olmanova]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Petra Olmanova]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Tod "The Blaster" McQuinn]] [[Selene Jean]] Combat Rank [[Lori Jameson]] Progenitor Cells Asura}}
+
+== Sources ==
+This procedure was extracted from the current [[Petra Olmanova]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Colonia Engineers]]
+[[Category:Engineering]]

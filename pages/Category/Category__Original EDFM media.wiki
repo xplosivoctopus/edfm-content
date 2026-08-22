@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Original EDFM media
+Namespace: 14
+Page ID: 220
+Revision ID: 331
+Timestamp: 2026-08-07T23:58:18Z
+Source URL: https://edfieldmanual.com/wiki/Category:Original_EDFM_media
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Original diagrams, graphics, or other work created by contributors that is not a screenshot of Elite Dangerous — classified under {{tl|License-Original work}} or a Creative Commons license template.
+
+[[Category:Media]]

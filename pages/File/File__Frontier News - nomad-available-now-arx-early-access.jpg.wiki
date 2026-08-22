@@ -1,0 +1,13 @@
+<!--
+EDFM current-content archive export.
+Title: File:Frontier News - nomad-available-now-arx-early-access.jpg
+Namespace: 6
+Page ID: 295
+Revision ID: 566
+Timestamp: 2026-08-10T03:16:39Z
+Source URL: https://edfieldmanual.com/wiki/File:Frontier_News_-_nomad-available-now-arx-early-access.jpg
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Frontier Developments article preview image for the auto-updating news module.

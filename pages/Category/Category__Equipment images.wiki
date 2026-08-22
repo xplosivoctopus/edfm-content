@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Equipment images
+Namespace: 14
+Page ID: 264
+Revision ID: 410
+Timestamp: 2026-08-08T15:50:50Z
+Source URL: https://edfieldmanual.com/wiki/Category:Equipment_images
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Images identifying modules, weapons, and other fittable equipment.
+
+[[Category:Media]]

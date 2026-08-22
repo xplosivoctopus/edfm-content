@@ -1,0 +1,74 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Felicity Farseer
+Namespace: 828
+Page ID: 169
+Revision ID: 1155
+Timestamp: 2026-08-20T22:08:58Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Felicity_Farseer
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Felicity Farseer",
+	"engineer_scope": "ship",
+	"image": "Felicityfarseer.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Deciat",
+	"body": null,
+	"facility": "Farseer Inc",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Frame Shift Drive",
+		"Detailed Surface Scanner",
+		"Sensors",
+		"Thrusters",
+		"Frame Shift Drive Interdictor",
+		"Power Plant",
+		"Shield Booster"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_note": null,
+	"prerequisite_engineer_display": "None — independent starting Engineer",
+	"discovery_requirement": "None — public data sources",
+	"invitation_requirement": "Exploration rank Scout or higher",
+	"meeting_requirement": "Reach Exploration rank Scout or higher.",
+	"meeting_links": [
+		{
+			"text": "Exploration rank",
+			"target": "Exploration Rank"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 1,
+		"item": "Meta-Alloys"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Frame Shift Drive"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Detailed Surface Scanner",
+				"Sensors",
+				"Thrusters"
+			]
+		},
+		{
+			"grade": 1,
+			"modules": [
+				"Frame Shift Drive Interdictor",
+				"Power Plant",
+				"Shield Booster"
+			]
+		}
+	],
+	"colonia": false
+}

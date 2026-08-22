@@ -1,0 +1,70 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Hera Tani
+Namespace: 0
+Page ID: 627
+Revision ID: 1506
+Timestamp: 2026-08-21T14:40:54Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Hera_Tani
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Hera Tani — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Hera Tani]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Hera Tani]].
+
+== Objective ==
+Gain access to [[Hera Tani]]'s Engineer services at [[The Jet's Hole]] in [[Kuwemaki]].
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Hera Tani is discovered through [[Liz Ryder]].
+* '''Invitation:''' Reach the Imperial Navy rank of '''Outsider''' or higher.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Liz Ryder]].
+* Reach '''Outsider''' or higher in Imperial Navy Rank.
+* Obtain a total of '''50 units of [[Kamitra Cigars]]'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Kamitra Cigars'''
+The normal production source for [[Kamitra Cigars]] is:
+
+* '''System:''' Kamitra
+* '''Station:''' Hammel Terminal
+* '''Commodity type:''' Rare commodity
+
+Hera requires '''50 units''' in total.
+
+Because Kamitra Cigars are a rare commodity, the quantity available directly from Hammel Terminal can be limited. If fewer than 50 are available, multiple purchases may be required.
+
+{{Tip|Check your available allocation at Hammel Terminal before planning around a single 50-tonne trip. Rare-commodity availability is not the same as the large supply figures normally seen for ordinary market commodities.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also offer Kamitra Cigars if another Commander has stocked them for resale. Carrier inventory and prices are player-controlled and can change.
+
+See [[Kamitra Cigars]] for current acquisition details and rare-commodity mechanics.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Hera is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Liz Ryder]].
+# Receive Liz's referral to Hera Tani.
+# Reach '''Outsider''' or higher in Imperial Navy Rank.
+# Obtain a total of '''50 units of [[Kamitra Cigars]]'''.
+# Travel to '''The Jet's Hole''' on '''Kuwemaki A 3 a''' in [[Kuwemaki]].
+# Donate the 50 Kamitra Cigars to Hera Tani.
+# Enter the Engineer workshop and begin increasing your reputation with Hera.
+}}
+
+== Expected Result ==
+{{Expected result|[[Hera Tani]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Hera Tani]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Liz Ryder]] [[Etienne Dorn]] Imperial Navy Rank [[Kamitra Cigars]] [[Kuwemaki]] Engineer Reputation}}
+
+== Sources ==
+This procedure was extracted from the current [[Hera Tani]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

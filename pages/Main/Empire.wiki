@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Empire
+Namespace: 0
+Page ID: 396
+Revision ID: 1033
+Timestamp: 2026-08-20T01:40:08Z
+Source URL: https://edfieldmanual.com/wiki/Empire
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Superpower
+ |deck=One of the galaxy's three player-facing superpowers, and the allegiance behind Hera Tani's Imperial Navy rank requirement.
+}}
+
+{{Article status
+ |status=Needs review
+ |mode=Live
+ |version=Elite Dangerous, current Live version
+ |reviewed=2026-08-20
+ |reviewer=EDFM Engineer link-graph pass
+ |source_quality=Official Frontier Galnet sources for leadership/succession; general superpower structure is well-established community knowledge
+ |uncertainty=Current Galnet political state can move; treat leadership details as a snapshot rather than a permanently fixed fact
+}}
+
+The '''Empire''' is one of the three major player-facing superpowers in ''Elite Dangerous'', alongside the Federation and the Alliance. It is an aristocratic, feudal-style government tracing its roots to Achenar, currently led by Empress Arissa Lavigny-Duval, the 16th Emperor of the Empire.<ref name="galnet-empire">[https://www.elitedangerous.com/news/galnet/arissa-retakes-imperial-throne Arissa Retakes the Imperial Throne], Elite Dangerous Galnet, Frontier Developments.</ref>
+
+== Why it matters for Engineering ==
+
+Some Engineers gate their invitation requirement behind reputation or rank with a specific superpower rather than an activity or another Engineer's referral. [[Hera Tani]] is one of these: her invitation requires reaching '''Imperial Navy rank Outsider''' or higher — the first earned rank in Empire naval progression — rather than a generic reputation score with an arbitrary faction.
+
+Imperial Navy rank is distinct from ordinary reputation with an individual Empire-aligned minor faction; it is earned through service to the Empire itself and tracked separately.
+
+== Where next ==
+
+{{Related articles|[[Hera Tani]] [[Engineer Unlock Guide]] [[Engineering]]}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Factions]]
+[[Category:Engineering]]

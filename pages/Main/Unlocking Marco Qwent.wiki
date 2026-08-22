@@ -1,0 +1,65 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Marco Qwent
+Namespace: 0
+Page ID: 628
+Revision ID: 1514
+Timestamp: 2026-08-21T14:41:03Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Marco_Qwent
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Marco Qwent — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Marco Qwent]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Marco Qwent]].
+
+== Objective ==
+Gain access to [[Marco Qwent]]'s Engineer services at Qwent Research Base in Sirius.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Marco Qwent is discovered through [[Elvira Martuuk]].
+* '''Invitation:''' Marco requires an invitation from '''Sirius Corporation'''.
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Elvira Martuuk]].
+* Become '''Allied with Sirius Corporation'''.
+* Obtain the '''Sirius system permit'''.
+* Obtain '''25 units of Modular Terminals'''.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Modular Terminals'''
+Modular Terminals are primarily obtained as '''mission rewards'''.
+
+They may also be sold by player-owned [[Fleet Carrier|Fleet Carriers]], although carrier supply and pricing are controlled by individual Commanders and can change at any time.
+
+{{Tip|If you plan to collect all 25 Modular Terminals before travelling to Sirius, fit at least '''25 tonnes of cargo capacity''' before beginning the final part of Marco's unlock.}}
+
+Because Fleet Carrier inventories can change quickly, use current market information rather than relying on a carrier location listed in an older guide.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Marco is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Elvira Martuuk]].
+# Receive Elvira's referral to Marco.
+# Become '''Allied with Sirius Corporation'''.
+# Obtain the '''Sirius system permit'''.
+# Complete the Sirius Corporation invitation requirement for Marco.
+# Obtain '''25 units of Modular Terminals'''.
+# Travel to '''Qwent Research Base''' in Sirius.
+# Donate the 25 Modular Terminals.
+# Enter the Engineer workshop and begin increasing your reputation with Marco.
+}}
+
+== Expected Result ==
+{{Expected result|[[Marco Qwent]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Marco Qwent]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Elvira Martuuk]] Sirius Gaining Sirius Corporation Reputation for Marco Qwent Modular Terminals Qwent Research Base}}
+
+== Sources ==
+This procedure was extracted from the current [[Marco Qwent]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

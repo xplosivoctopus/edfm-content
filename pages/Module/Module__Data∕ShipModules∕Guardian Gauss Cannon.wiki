@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Guardian Gauss Cannon
+Namespace: 828
+Page ID: 503
+Revision ID: 1290
+Timestamp: 2026-08-20T23:59:35Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Gauss_Cannon
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Guardian Gauss Cannon",
+}

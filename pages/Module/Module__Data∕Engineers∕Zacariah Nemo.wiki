@@ -1,0 +1,66 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/Zacariah Nemo
+Namespace: 828
+Page ID: 403
+Revision ID: 1172
+Timestamp: 2026-08-20T22:09:07Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Zacariah_Nemo
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "Zacariah Nemo",
+	"engineer_scope": "ship",
+	"image": "Zachariahnemo.png",
+	"engineer_type": "Ship Engineer",
+	"system": "Yoru",
+	"body": "Yoru 4",
+	"facility": "Nemo Cyber Party Base",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Fragment Cannon",
+		"Multi-Cannon",
+		"Plasma Accelerator"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": "Elvira Martuuk",
+	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
+	"prerequisite_engineer_display": null,
+	"discovery_requirement": "Referral from Elvira Martuuk",
+	"invitation_requirement": "Friendly reputation with the Party of Yoru",
+	"meeting_requirement": "Reach at least Friendly reputation with the Party of Yoru and obtain its Engineer invitation.",
+	"meeting_links": [
+		{
+			"text": "reputation",
+			"target": "Reputation"
+		}
+	],
+	"unlock": {
+		"action": "Deliver",
+		"quantity": 25,
+		"item": "Xihe Biomorphic Companions"
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Fragment Cannon"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Multi-Cannon"
+			]
+		},
+		{
+			"grade": 2,
+			"modules": [
+				"Plasma Accelerator"
+			]
+		}
+	],
+	"colonia": false
+}

@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Gameplay
+Namespace: 14
+Page ID: 143
+Revision ID: 224
+Timestamp: 2026-08-07T21:59:16Z
+Source URL: https://edfieldmanual.com/wiki/Category:Gameplay
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Umbrella category for articles about ''Elite Dangerous'' game mechanics and systems.

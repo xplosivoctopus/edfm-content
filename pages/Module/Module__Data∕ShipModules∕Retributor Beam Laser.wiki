@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Retributor Beam Laser
+Namespace: 828
+Page ID: 587
+Revision ID: 1374
+Timestamp: 2026-08-21T00:00:38Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Retributor_Beam_Laser
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Retributor Beam Laser",
+}

@@ -1,0 +1,23 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Prerequisites
+Namespace: 10
+Page ID: 27
+Revision ID: 110
+Timestamp: 2026-08-07T16:33:00Z
+Source URL: https://edfieldmanual.com/wiki/Template:Prerequisites
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-info">'''Before you begin'''
+{{{1}}}
+</div><noinclude>
+== Usage ==
+<pre>
+{{Prerequisites|
+* Item one
+* Item two
+}}
+</pre>
+[[Category:Templates]]
+</noinclude>

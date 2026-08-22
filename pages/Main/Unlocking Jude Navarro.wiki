@@ -1,0 +1,72 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Jude Navarro
+Namespace: 0
+Page ID: 648
+Revision ID: 1508
+Timestamp: 2026-08-21T14:40:56Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Jude_Navarro
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Jude Navarro — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Jude Navarro]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Jude Navarro]].
+
+== Objective ==
+Gain access to [[Jude Navarro]]'s Engineer services in Aurai.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Jude Navarro is '''common knowledge''' and does not require a referral from another Engineer.
+* '''Invitation:''' There is no separate invitation requirement for Jude Navarro.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining Genetic Repair Meds'''
+Genetic Repair Meds are Odyssey '''Goods'''.
+
+Current material data lists them in several settlement loot pools, including:
+
+* '''MED rooms'''
+* '''STO buildings'''
+* '''RES buildings'''
+* '''IND buildings'''
+* '''EXT buildings'''
+* '''AGRI buildings'''
+
+Medical areas are therefore an obvious place to check when searching settlements for them.
+
+{{Tip|Only '''5 Genetic Repair Meds''' are required. Once Jude is unlocked, keep the first five you find if you intend to continue immediately into the Terra Velasquez branch.}}
+
+Because Genetic Repair Meds are physical Odyssey Goods rather than Data, they occupy Goods storage and must be physically provided to Jude.
+
+Once the five units have been handed over, [[Terra Velasquez]] becomes the next Engineer in the branch.
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Visit an inhabited station or settlement offering Odyssey missions.
+# Look for missions specifically requiring a settlement to be '''restored''' or '''reactivated'''.
+# Accept the mission.
+# Travel to the designated settlement.
+# Restore the settlement's power and complete any other mission objectives.
+# Return and complete the mission.
+# Repeat until '''10 qualifying missions''' have been completed.
+# Travel to '''Marshall's Drift''' on '''Aurai 1 a'''.
+# Access Jude Navarro's Engineer workshop.
+}}
+
+== Expected Result ==
+{{Expected result|[[Jude Navarro]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Jude Navarro]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] Restore Missions Settlement Reactivation Aurai Marshall's Drift}}
+
+== Sources ==
+This procedure was extracted from the current [[Jude Navarro]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey Engineers]]

@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Guardian Gauss Cannon
+Namespace: 0
+Page ID: 378
+Revision ID: 1015
+Timestamp: 2026-08-20T01:38:44Z
+Source URL: https://edfieldmanual.com/wiki/Guardian_Gauss_Cannon
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Guardian Weapon
+ |deck=A charge-up Guardian weapon prized for concentrated hull damage, especially against Thargoid targets.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles|uncertainty=Exact damage figures and charge-time values are not stated here and should be checked in-game before being treated as current}}
+
+'''Guardian Gauss Cannons''' are fixed-mount weapons built from Guardian technology rather than conventional manufacturing. Firing requires a brief charge-up, releasing a single powerful kinetic-thermal shot rather than a sustained stream of fire.
+
+== Overview ==
+
+Along with the [[Guardian Plasma Charger]] and [[Guardian Shard Cannon]], the Gauss Cannon is part of the family of weapons reverse-engineered from Guardian ruins. It is widely regarded as one of the strongest available weapons against Thargoid hull, which is part of why it sees heavy use in anti-Thargoid (AX) combat builds. See [[Guardian]] and [[Guardian Tech]] for the broader Guardian technology background — this article covers the weapon itself, not Guardian lore or site archaeology.
+
+Unlocking the base (non-Engineered) weapon for purchase requires collecting Guardian materials and unlocking it through a Guardian Technology Broker; this is separate from the Engineering coverage below, which applies blueprints to a Gauss Cannon you already own.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Ram Tah]] || Grade 1 <small>(Live only)</small>
+|}
+
+Ram Tah's Guardian weapon Engineering was added to his workshop after Guardian tech itself had already been introduced; check his own article for the specific update this was added in before treating the grade ceiling as long-standing.
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Guardian]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Guardian]]
+[[Category:Engineering]]

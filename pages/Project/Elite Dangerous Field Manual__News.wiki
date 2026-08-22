@@ -1,0 +1,30 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:News
+Namespace: 4
+Page ID: 289
+Revision ID: 557
+Timestamp: 2026-08-10T02:20:05Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:News
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Project News|deck=Field-manual updates, editorial milestones, and review priorities for the Elite Dangerous Field Manual.}}
+
+== Latest updates ==
+<div class="edfm-home-news">
+<div class="edfm-news-list">
+<div class="edfm-news-list-heading">Recent dispatches</div>
+* '''10 August 2026''' — News hub opened for EDFM project updates and homepage dispatches.
+* '''10 August 2026''' — Main page now includes a compact news section inspired by community wiki homepages, adapted for EDFM's dark field-manual theme.
+* '''10 August 2026''' — The [[Elite Dangerous Field Manual:Pages Needing Review|review queue]] remains the primary place to find pages needing verification, cleanup, or expansion.
+</div>
+</div>
+
+== What belongs here ==
+Use this page for site/project news: major article launches, new templates, review drives, policy changes, and community maintenance notes. Game news should only be summarized when it directly affects field-manual coverage and can be backed by reliable sources.
+
+== Related project pages ==
+* [[Elite Dangerous Field Manual:Current Project Status]]
+* [[Elite Dangerous Field Manual:Pages Needing Review]]
+* [[Elite Dangerous Field Manual:Contributing]]

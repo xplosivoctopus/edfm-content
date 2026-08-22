@@ -1,0 +1,277 @@
+<!--
+EDFM current-content archive export.
+Title: Felicity Farseer
+Namespace: 0
+Page ID: 105
+Revision ID: 1422
+Timestamp: 2026-08-21T14:38:24Z
+Source URL: https://edfieldmanual.com/wiki/Felicity_Farseer
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=An independent starting Engineer based in Deciat, best known for Grade 5 Frame Shift Drive engineering and several useful early ship upgrades.
+}}
+
+{{Engineer infobox}}
+
+'''Felicity Farseer''' is a ship Engineer based at '''Farseer Inc''' in the [[Deciat]] system. She is one of the independent starting Engineers: no referral from another Engineer is required before a Commander can meet and unlock her.<ref name="inara-farseer">[https://inara.cz/elite/engineer/1/ Felicity Farseer — Engineer], Inara.</ref>
+
+Farseer is particularly notable for providing '''Grade 5 Frame Shift Drive engineering''', making her a common early destination for Commanders who want to increase the jump range of their ships. She also engineers Thrusters, Sensors, Detailed Surface Scanners, Power Plants, Shield Boosters, and Frame Shift Drive Interdictors, although those modules do not all reach the same maximum grade.<ref name="inara-farseer" />
+
+{{Field note|Felicity is a '''starting Engineer''', but that does not mean she is automatically unlocked. You must still meet her Exploration-rank requirement and provide the requested unlock commodity.}}
+
+== Location ==
+
+* '''System:''' [[Deciat]]
+* '''Facility:''' [[Farseer Inc]]
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' No
+
+{{Warning|If you are playing in '''Open''', other Commanders can interdict and attack you. You are not required to visit Farseer Inc in Open; Solo and Private Group use the same Engineer progression if you prefer to avoid unwanted player combat.}}
+
+== How to Discover Felicity Farseer ==
+
+Felicity Farseer is listed through '''public data sources''' and does not require a referral from another Engineer.<ref name="inara-farseer" />
+
+This makes her one of the independent entry points into the ship Engineering network.
+
+== How to Receive an Invitation ==
+
+Reach the Pilots Federation '''Exploration rank of Scout''' or higher.<ref name="inara-farseer" />
+
+Once this requirement has been met, Felicity can be visited at Farseer Inc in Deciat.
+
+See [[Exploration Rank]] if you have not yet reached Scout.
+
+== How to Unlock Felicity Farseer ==
+
+Unlock requirements summary:
+* Reach '''Scout''' or higher in [[Exploration Rank]].
+* Obtain '''1 unit of [[Meta-Alloys]]'''.
+* Donate the Meta-Alloy to Felicity Farseer.
+{{Important|'''Meta-Alloys are a commodity.''' They are not Raw, Manufactured, or Encoded Engineering materials. A Meta-Alloy occupies cargo space and must be physically transported to Farseer Inc.}}
+{{Field note|Current Engineer data notes that station services may not become available immediately after Felicity is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.}}
+
+For the complete step-by-step process, see [[Unlocking Felicity Farseer]].
+
+== Increasing Engineer Reputation ==
+
+Reputation with Felicity Farseer can be increased by:
+
+* crafting Engineering modifications at her workshop; or
+* selling exploration data at Farseer Inc.<ref name="inara-farseer" />
+
+Higher Engineer reputation gives access to the higher grades Felicity supports for each blueprint.
+
+{{Tip|If you already have exploration data to sell, turning it in at Farseer Inc can help raise your reputation with Felicity without relying entirely on repeated Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Felicity Farseer is one of the independent starting points in the ship Engineer network.
+
+She directly leads to:
+
+* [[Juri Ishmaak]]
+
+Juri Ishmaak is discovered after reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with Felicity Farseer.<ref name="newp-engineering">[https://newp.io/engineeringguide Engineering Guide], New Pilots Initiative.</ref><ref name="inara-juri">[https://inara.cz/elite/engineer/13/ Juri Ishmaak — Engineer], Inara.</ref>
+
+Juri Ishmaak subsequently leads farther into the same branch:
+
+<pre>
+Felicity Farseer
+└── Juri Ishmaak
+    ├── Colonel Bris Dekker
+    └── The Sarge
+</pre>
+
+{{Field note|[[Elvira Martuuk]], [[Liz Ryder]], [[Tod "The Blaster" McQuinn]], and [[The Dweller]] are separate starting Engineers. They are not unlocked through Felicity Farseer.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Felicity's Engineering coverage is shown below. The listed grade is the highest grade she can apply to that module.<ref name="inara-farseer" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Detailed Surface Scanner]]
+|
+* Expanded Probe Scanning Radius
+* Long Range Detailed <small>(Live only; compatible Merc modules)</small>
+| '''Grade 3'''
+|-
+| [[Frame Shift Drive]]
+|
+* Faster Boot Sequence
+* Increased Range
+* Shielded
+| '''Grade 5'''
+|-
+| [[Frame Shift Drive Interdictor]]
+|
+* Expanded Capture Arc
+* Long Range
+| '''Grade 1'''
+|-
+| [[Power Plant]]
+|
+* Armoured
+* Low Emissions
+* Overcharged
+| '''Grade 1'''
+|-
+| [[Sensors]]
+|
+* Lightweight
+* Long Range
+* Wide Angle
+| '''Grade 3'''
+|-
+| [[Shield Booster]]
+|
+* Blast Resistant
+* Heavy Duty
+* Kinetic Resistant
+* Resistance Augmented
+* Thermal Resistant
+| '''Grade 1'''
+|-
+| [[Thrusters]]
+|
+* Clean
+* Dirty
+* Reinforced
+| '''Grade 3'''
+|}
+
+=== Detailed Surface Scanner Engineering ===
+
+Felicity can provide two Detailed Surface Scanner blueprints in the current Live game:
+
+* '''Expanded Probe Scanning Radius''' — up to Grade 3
+* '''Long Range Detailed''' — up to Grade 3
+
+'''Long Range Detailed''' is an Operations-era blueprint and can only be applied to compatible '''Merc modules'''.<ref name="inara-dss-long">[https://inara.cz/elite/blueprint/205/ Detailed Surface Scanner — Long Range Detailed], Inara.</ref>
+
+{{Important|'''Live only:''' Long Range Detailed was introduced as part of the Operations-era module additions and is not available in Legacy. Legacy Commanders still have access to Felicity's existing Detailed Surface Scanner Engineering, but not this newer blueprint.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>}}
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+
+Felicity can apply Experimental Effects to modules she engineers even when her maximum blueprint grade for that module is lower than Grade 5.<ref name="newp-engineering" />
+
+This means, for example, that a Power Plant engineered to Grade 5 by another Engineer can still be taken to Felicity for a compatible Power Plant Experimental Effect, despite Felicity herself only providing Grade 1 Power Plant blueprints.
+
+=== Frame Shift Drive ===
+
+Available Frame Shift Drive Experimental Effects include:
+
+* [[Deep Charge]]
+* [[Double Braced]]
+* [[Mass Manager]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+=== Power Plant ===
+
+Available Power Plant Experimental Effects include:
+
+* [[Double Braced]]
+* [[Monstered]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+=== Shield Booster ===
+
+Available Shield Booster Experimental Effects include:
+
+* [[Blast Block]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Force Block]]
+* [[Super Capacitors]]
+* [[Thermo Block]]
+
+=== Thrusters ===
+
+Available Thruster Experimental Effects include:
+
+* [[Double Braced]]
+* [[Drag Drives]]
+* [[Drive Distributors]]
+* [[Stripped Down]]
+* [[Thermal Spread]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.<ref name="inara-experimentals">[https://inara.cz/elite/experimentaleffects/ Engineering — Experimental Effects], Inara.</ref>
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Early Engineering ==
+
+For many new Commanders, Felicity's most immediately useful capability is her '''Grade 5 Frame Shift Drive''' Engineering.
+
+{{Tip|'''Common general-purpose choice: Increased Range + Mass Manager'''
+
+For many ships, [[Increased Range Frame Shift Drive]] combined with the [[Mass Manager]] Experimental Effect is a strong general-purpose choice for increasing jump range.
+
+This is a recommendation rather than a requirement. Different ships and specialized builds may benefit from different Engineering choices.}}
+
+Felicity's Grade 3 Thruster access can also be useful early in Engineering progression, particularly because she can apply Thruster Experimental Effects without requiring the Commander to first unlock a Grade 5 Thruster Engineer.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Felicity, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Increased Range Frame Shift Drive]] is a practical default blueprint to pin at Felicity because she provides it through Grade 5 and it is useful across a large number of ships.
+
+However, [[Elvira Martuuk]] also provides Grade 5 Frame Shift Drive Engineering. If Increased Range is already pinned through another Engineer, Felicity's pin can instead be used for another blueprint that better fits your Engineering plan.}}
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What Felicity Cannot Fully Engineer ==
+
+Felicity works on several useful modules, but only her Frame Shift Drive Engineering reaches Grade 5.
+
+Her other maximum grades are:
+
+* '''Thrusters:''' Grade 3
+* '''Sensors:''' Grade 3
+* '''Detailed Surface Scanner:''' Grade 3
+* '''Power Plant:''' Grade 1
+* '''Shield Booster:''' Grade 1
+* '''Frame Shift Drive Interdictor:''' Grade 1<ref name="inara-farseer" />
+
+This makes Felicity useful early in Engineering progression, but she does not replace Engineers who provide higher-grade modifications for those modules.
+
+For example, a Commander seeking Grade 5 Thruster Engineering will eventually need [[Professor Palin]] or [[Chloe Sedesi]], while higher-grade Power Plant or Shield Booster Engineering is available from other Engineers in the network.
+== What Next? ==
+
+After unlocking Felicity, you do not need to immediately follow her referral branch.
+
+Depending on which modules you want to improve, another independent starting Engineer may be more useful first.
+
+{{What next|title=Continue Engineering|
+* '''Continue Felicity's branch:''' [[Juri Ishmaak]]
+* '''Another Grade 5 FSD Engineer:''' [[Elvira Martuuk]]
+* '''Weapons:''' [[Tod "The Blaster" McQuinn]]
+* '''Power Distributor and energy weapons:''' [[The Dweller]]
+* '''Missiles and armour:''' [[Liz Ryder]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

@@ -1,0 +1,329 @@
+<!--
+EDFM current-content archive export.
+Title: Didi Vatermann
+Namespace: 0
+Page ID: 116
+Revision ID: 1452
+Timestamp: 2026-08-21T14:38:47Z
+Source URL: https://edfieldmanual.com/wiki/Didi_Vatermann
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 Shield Booster specialist based at Vatermann LLC in Leesti, reached through Selene Jean.
+}}
+
+{{Engineer infobox}}
+
+'''Didi Vatermann''' is a ship Engineer based at '''Vatermann LLC''' in the [[Leesti]] system. She is reached through [[Selene Jean]] and specialises in defensive shield systems.<ref name="inara-didi">[https://inara.cz/elite/engineer/11/ Didi Vatermann — Engineer], Inara.</ref>
+
+Didi provides '''Grade 5 Shield Booster Engineering''' and '''Grade 3 Shield Generator Engineering'''. Her maximum-grade Shield Booster access makes her one of the primary Engineers for building high-strength or resistance-focused shield configurations.<ref name="inara-didi" />
+
+{{Field note|Didi's primary specialty is the '''Shield Booster'''. Although she also engineers Shield Generators, that capability stops at Grade 3; [[Lei Cheung]] and [[Mel Brandon]] can take Shield Generator blueprints to Grade 5.}}
+
+== Location ==
+
+* '''System:''' [[Leesti]]
+* '''Facility:''' [[Vatermann LLC]]
+* '''Body:''' Leesti 1 a
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Selene Jean]]
+* '''System permit required:''' No
+
+Vatermann LLC is a surface Engineer base on '''Leesti 1 a'''.<ref name="inara-vatermann-base">[https://inara.cz/elite/station/52304/ Vatermann LLC — Station], Inara.</ref>
+
+== How to Discover Didi Vatermann ==
+
+Didi Vatermann is discovered through [[Selene Jean]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Selene to receive her referral to Didi.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Selene can also refer Commanders to [[Bill Turner]]. Didi and Bill are therefore parallel referrals rather than one being required for the other.
+
+{{Field note|Receiving Selene's referral makes Didi known to you. Her separate Trade-rank requirement must still be satisfied before her workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Reach the Pilots Federation '''Trade rank of Merchant''' or higher.<ref name="inara-didi" />
+
+The Trade ranks leading to Merchant are:
+
+<pre>
+Penniless
+└── Mostly Penniless
+    └── Peddler
+        └── Dealer
+            └── Merchant
+</pre>
+
+If your Trade rank is already Merchant or higher, Didi's meeting requirement has been satisfied.
+
+See [[Trade Rank]] for how Trade rank is earned and how to check your current progress.
+
+{{Field note|The Trade-rank requirement and the 50-unit Lavian Brandy donation are separate. Reaching Merchant allows you to meet Didi; the Brandy is then required to unlock her workshop.}}
+
+== How to Unlock Didi Vatermann ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Selene Jean]].
+* Reach '''Merchant''' or higher in [[Trade Rank]].
+* Obtain a total of '''50 units of [[Lavian Brandy]]'''.
+* Donate the 50 Lavian Brandy to Didi Vatermann.
+{{Important|'''Lavian Brandy is a rare commodity.''' It is not a Raw, Manufactured, or Encoded Engineering material. Each unit occupies one tonne of cargo space.}}
+
+For the complete step-by-step process, see [[Unlocking Didi Vatermann]].
+
+== Obtaining Lavian Brandy ==
+
+The normal production source for [[Lavian Brandy]] is:
+
+* '''System:''' [[Lave]]
+* '''Station:''' [[Lave Station]]
+* '''Commodity type:''' Rare commodity<ref name="inara-lavian-brandy" />
+
+Didi requires '''50 units''' in total.
+
+Rare commodities have limited availability, and Lave Station may not have all 50 units available to you at once. If necessary, the unlock can be completed through multiple deliveries to Vatermann LLC.
+
+{{Tip|Lave and Leesti are neighbouring systems, so multiple deliveries are considerably less inconvenient here than for rare-good unlocks whose source and Engineer are much farther apart.}}
+
+Player-owned [[Fleet Carrier|Fleet Carriers]] may also offer Lavian Brandy through their commodity markets when stock has been made available by another Commander. Carrier inventories and prices are player-controlled and can change.<ref name="inara-lavian-brandy" />
+
+See [[Lavian Brandy]] for current acquisition details and rare-commodity mechanics.
+
+{{Field note|Do not rely on an old guide's exact Lavian Brandy allocation. Rare-good availability can vary; check the current stock at Lave Station when preparing the unlock.}}
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Didi is unlocked. If the workshop or other expected services do not appear after completing the unlock, logging out and back in may make them available.<ref name="inara-didi" />}}
+
+== Increasing Engineer Reputation ==
+
+Reputation with Didi Vatermann can be increased by:
+
+* crafting Engineering modifications at Vatermann LLC; or
+* selling commodities at Vatermann LLC.<ref name="inara-didi" />
+
+Higher Engineer reputation gives access to the higher grades Didi supports for each blueprint.
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have ordinary commodities to sell after unlocking Didi, selling them through the commodity market at Vatermann LLC can help increase your Engineer reputation without relying entirely on Engineering rolls.}}
+
+== Engineer Unlock Chain ==
+
+Didi Vatermann belongs to the [[Tod "The Blaster" McQuinn]] branch of the ship Engineer network.
+
+The route to Didi is:
+
+<pre>
+Tod "The Blaster" McQuinn
+└── Selene Jean
+    └── Didi Vatermann
+</pre>
+
+Selene also provides a referral to [[Bill Turner]]:
+
+<pre>
+Tod "The Blaster" McQuinn
+├── Selene Jean
+│   ├── Bill Turner
+│   └── Didi Vatermann
+└── Petra Olmanova [Colonia]
+</pre>
+
+Didi Vatermann does '''not''' currently lead to another Engineer in the active ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+{{Field note|Didi Vatermann and [[Bill Turner]] are parallel referrals from [[Selene Jean]]. Unlocking either one is not required before unlocking the other.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Didi's current Engineering coverage is shown below. The listed grade is the highest grade she can apply to that module.<ref name="inara-didi" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Shield Booster]]
+|
+* Blast Resistant
+* Heavy Duty
+* Kinetic Resistant
+* Resistance Augmented
+* Thermal Resistant
+| '''Grade 5'''
+|-
+| [[Shield Generator]]
+|
+* Enhanced Low Power
+* Kinetic Resistant
+* Reinforced
+* Thermal Resistant
+| '''Grade 3'''
+|}
+
+Didi's maximum-grade specialty is therefore the '''Shield Booster'''. Her Shield Generator Engineering is still useful for lower-grade modifications and Experimental Effects, but Commanders seeking Grade 4 or Grade 5 Shield Generator Engineering need another Engineer.
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+
+Didi can apply Experimental Effects to both Shield Boosters and Shield Generators.
+
+This remains useful even for Shield Generators engineered beyond Didi's Grade 3 blueprint limit: an Engineer who works on the module type can apply a compatible Experimental Effect without needing to provide the module's highest blueprint grade.
+
+=== Shield Booster ===
+
+Available Shield Booster Experimental Effects include:<ref name="inara-booster-heavy">[https://inara.cz/elite/blueprint/8/ Shield Booster — Heavy Duty], Inara.</ref>
+
+* [[Blast Block]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Force Block]]
+* [[Super Capacitors]]
+* [[Thermo Block]]
+
+=== Shield Generator ===
+
+Available Shield Generator Experimental Effects include:<ref name="inara-shield-thermal">[https://inara.cz/elite/blueprint/22/ Shield Generator — Thermal Resistant], Inara.</ref>
+
+* [[Double Braced]]
+* [[Fast Charge]]
+* [[Force Block]]
+* [[Hi-Cap]]
+* [[Lo-Draw]]
+* [[Multi-Weave]]
+* [[Stripped Down]]
+* [[Thermo Block]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
+
+== Recommended Engineering ==
+
+Didi's most important capability is her '''Grade 5 Shield Booster Engineering'''.
+
+Unlike many modules, Shield Boosters are commonly fitted in groups. A well-designed shield build may therefore use several differently engineered boosters rather than applying the same modification to every utility slot.
+
+=== Heavy Duty Shield Boosters ===
+
+[[Heavy Duty Shield Booster|Heavy Duty]] increases the raw shield-strength bonus provided by the booster while increasing its mass and power draw.<ref name="inara-booster-heavy" />
+
+At Grade 5, Heavy Duty provides:
+
+* '''+38% Shield Boost'''
+* '''+15% Integrity'''
+* '''+25% Power Draw'''
+* '''+300% Mass'''<ref name="inara-booster-heavy" />
+
+A common pairing is:
+
+* '''Heavy Duty'''
+* '''Super Capacitors'''
+
+[[Super Capacitors]] further increases the booster's shield-strength contribution while slightly reducing its kinetic, thermal, and explosive resistances.
+
+{{Tip|'''Common raw-strength choice: Heavy Duty + Super Capacitors'''
+
+This combination is useful when the goal is maximizing overall shield capacity.
+
+It is especially common on builds where raw megajoules matter more than minimizing utility mass or power draw.}}
+
+=== Resistance Augmented Shield Boosters ===
+
+[[Resistance Augmented Shield Booster|Resistance Augmented]] improves resistance against all three conventional damage types at the cost of increased power draw and reduced module integrity.<ref name="inara-booster-resistance">[https://inara.cz/elite/blueprint/10/ Shield Booster — Resistance Augmented], Inara.</ref>
+
+At Grade 5, Resistance Augmented provides:
+
+* '''+17% Kinetic Resistance'''
+* '''+17% Thermal Resistance'''
+* '''+17% Explosive Resistance'''
+* '''+25% Power Draw'''
+* '''-12% Integrity'''<ref name="inara-booster-resistance" />
+
+{{Tip|'''Do not engineer every Shield Booster automatically as Heavy Duty.'''
+
+Many effective shield builds combine '''Heavy Duty''' boosters for additional raw strength with '''Resistance Augmented''' boosters to improve the shield's resistance profile.
+
+The best balance depends on the Shield Generator blueprint, the number of utility slots available, and the role of the ship.}}
+
+=== Damage-specific Shield Boosters ===
+
+Didi also provides:
+
+* [[Blast Resistant Shield Booster|Blast Resistant]];
+* [[Kinetic Resistant Shield Booster|Kinetic Resistant]]; and
+* [[Thermal Resistant Shield Booster|Thermal Resistant]]
+
+through Grade 5.
+
+These are useful when a shield build has a specific resistance weakness that is better corrected directly rather than through Resistance Augmented.
+
+See [[Shield Engineering]] for how Shield Generators, Shield Boosters, resistances, regeneration, and raw shield strength interact.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Didi, one of her blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Heavy Duty Shield Booster]] is a strong general-purpose blueprint to consider pinning at Didi.
+
+Didi provides Heavy Duty through '''Grade 5''', and ships built around strong shields commonly require several engineered Shield Boosters. Pinning Heavy Duty therefore makes it convenient to prepare the primary raw-strength boosters for multiple ships through Remote Engineering.
+
+If your builds use resistance-oriented boosters more frequently, [[Resistance Augmented Shield Booster]] is an equally reasonable alternative pin.}}
+
+The best pin depends on how you normally configure your shields.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Effects such as [[Super Capacitors]] still require visiting an appropriate Engineer workshop.}}
+
+== What Didi Cannot Fully Engineer ==
+
+Didi provides maximum-grade Shield Booster Engineering, but her Shield Generator capability stops at Grade 3.
+
+Her maximum grades are:
+
+* '''Shield Booster:''' Grade 5
+* '''Shield Generator:''' Grade 3<ref name="inara-didi" />
+
+For Grade 5 Shield Generator Engineering:
+
+* [[Lei Cheung]] provides '''Grade 5 Shield Generator''' Engineering.
+* [[Mel Brandon]] provides '''Grade 5 Shield Generator''' Engineering in Colonia.<ref name="inara-engineers" />
+
+For Grade 5 Shield Booster Engineering, [[Mel Brandon]] is the other current maximum-grade alternative.<ref name="inara-booster-heavy" />
+
+Didi is therefore primarily a maximum-grade Shield Booster Engineer rather than a replacement for Lei Cheung or Mel Brandon when engineering the Shield Generator itself.
+
+== What Next? ==
+
+Didi Vatermann is the end of her referral branch and does not currently introduce another Engineer.
+
+After unlocking her, your next target depends on which parts of your shield or defensive build still need work.
+
+{{What next|title=Continue Engineering|
+* '''Grade 5 Shield Generators:''' [[Lei Cheung]]
+* '''Alternative Grade 5 Shield Boosters and Shield Generators:''' [[Mel Brandon]]
+* '''Parallel referral from Selene Jean:''' [[Bill Turner]]
+* '''Armour and Hull Reinforcement:''' [[Selene Jean]]
+* '''Previous Engineer:''' [[Selene Jean]]
+* '''Reach the invitation requirement:''' [[Trade Rank]]
+* '''Get the unlock commodity:''' [[Lavian Brandy]]
+* '''Build stronger shields:''' [[Shield Engineering]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Optional Internal Engineering]]
+[[Category:Utility Engineering]]
+[[Category:Defensive Engineering]]
+[[Category:Engineering]]

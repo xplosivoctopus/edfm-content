@@ -1,0 +1,499 @@
+<!--
+EDFM current-content archive export.
+Title: Juri Ishmaak
+Namespace: 0
+Page ID: 119
+Revision ID: 1454
+Timestamp: 2026-08-21T14:38:49Z
+Source URL: https://edfieldmanual.com/wiki/Juri_Ishmaak
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Engineer
+ |deck=A Grade 5 mine, sensor, and explosive-weapon Engineer based at Pater's Memorial in Giryak, reached through Felicity Farseer.
+}}
+
+{{Engineer infobox}}
+
+'''Juri Ishmaak''' is a ship Engineer based at '''Pater's Memorial''' in the [[Giryak]] system. He is reached through [[Felicity Farseer]] and has broad Engineering coverage spanning mines, Sensors, Detailed Surface Scanners, utility scanners, missiles, and — in Live — several Operations-era mining and explosive-weapon modifications.<ref name="inara-juri">[https://inara.cz/elite/engineer/13/ Juri Ishmaak — Engineer], Inara.</ref>
+
+His conventional maximum-grade specialties include '''Grade 5 Mine Launcher, Sensors, and Detailed Surface Scanner Engineering'''. In Live, Juri also provides several specialised Operations-era blueprints through Grade 5, including Engineering for Mining Lasers, Abrasion Blasters, Enzyme Missile Racks, and specialised Seeker Missile Racks.<ref name="inara-juri" />
+
+{{Field note|Juri's current Engineering coverage is much broader than his older reputation as primarily a mine and utility Engineer. Several of his newer Grade 5 capabilities are specific to the Live Operations-era Engineering system and compatible Merc modules.}}
+
+== Location ==
+
+* '''System:''' [[Giryak]]
+* '''Facility:''' [[Pater's Memorial]]
+* '''Body:''' Giryak 2 a
+* '''Engineer type:''' Ship Engineer
+* '''Referral required:''' [[Felicity Farseer]]
+* '''System permit required:''' No
+
+Pater's Memorial is a surface Engineer base on '''Giryak 2 a'''.<ref name="edsm-pater">[https://www.edsm.net/en/system/stations/id/3475/name/Giryak/details/idS/1255/nameS/Pater%27s%2BMemorial Pater's Memorial — Station], EDSM.</ref>
+
+== How to Discover Juri Ishmaak ==
+
+Juri Ishmaak is discovered through [[Felicity Farseer]].
+
+Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Felicity to receive her referral to Juri.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+
+Juri is the only direct Engineer referral from Felicity.
+
+{{Field note|Receiving Felicity's referral makes Juri known to you. His separate Federal combat-bond requirement must still be completed before his workshop can be unlocked.}}
+
+== How to Receive an Invitation ==
+
+Current Engineer data requires you to claim '''more than 50 Federal combat bonds'''.<ref name="inara-juri" />
+
+Combat bonds are earned by participating in [[Combat Zone|Combat Zones]] and fighting for one of the factions involved in the conflict.
+
+For Juri, current Engineer data specifically identifies '''Federal combat bonds'''. When working toward the requirement, fight on behalf of an appropriate Federation-aligned side rather than assuming that every combat bond will necessarily satisfy the stricter current wording.
+
+{{Important|The meeting requirement is based on the '''number of qualifying combat bonds''', while Juri's final unlock is based on their '''credit value'''. These are separate requirements.}}
+
+Current sources differ slightly in how they phrase the count: some list 50 combat bonds, while current Inara data states '''more than 50'''.<ref name="inara-juri" /><ref name="newp-engineers" />
+
+{{Tip|For practical purposes, earn at least '''51 qualifying Federal combat bonds''' rather than stopping exactly at 50. This satisfies the stricter wording of the current Engineer listing.}}
+
+See [[Combat Bonds]] and [[Combat Zones]] for how to choose a side, identify valid targets, earn bonds, and return safely.
+
+== How to Unlock Juri Ishmaak ==
+
+Unlock requirements summary:
+* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Felicity Farseer]].
+* Provide the required value of Federal combat bonds to Juri.
+{{Important|Juri is one of the unusual Engineer unlocks where the required credit value can differ between Commanders. EDFM therefore does '''not''' treat either 100,000 CR or 1,000,000 CR as the universal requirement.}}
+{{Tip|If you want to avoid returning to a Combat Zone after reaching Pater's Memorial, accumulate at least '''1,000,000 CR worth of Federal combat bonds''' before making the trip. If your unlock requires the lower amount, the additional bonds can be retained or redeemed afterward.}}
+
+For the complete step-by-step process, see [[Unlocking Juri Ishmaak]].
+
+== Increasing Engineer Reputation ==
+
+Reputation with Juri Ishmaak can be increased by:
+
+* crafting Engineering modifications at Pater's Memorial; or
+* handing in bounty vouchers or combat bonds at Pater's Memorial.<ref name="inara-juri" />
+
+Higher Engineer reputation gives access to the higher grades Juri supports for each blueprint.
+
+Reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' allows Juri to provide referrals to [[The Sarge]] and [[Colonel Bris Dekker]].<ref name="newp-engineers" /><ref name="inara-sarge">[https://inara.cz/elite/engineer/17/ The Sarge — Engineer], Inara.</ref><ref name="inara-dekker">[https://inara.cz/elite/engineer/14/ Colonel Bris Dekker — Engineer], Inara.</ref>
+
+See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
+
+{{Tip|If you have combat bonds left after Juri's unlock, handing them in at Pater's Memorial can also contribute toward increasing your Engineer reputation with him.}}
+
+== Engineer Unlock Chain ==
+
+Juri Ishmaak belongs to the [[Felicity Farseer]] branch of the ship Engineer network.
+
+The route to Juri is:
+
+<pre>
+Felicity Farseer
+└── Juri Ishmaak
+</pre>
+
+After reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with Juri, he provides referrals to:
+
+* [[Colonel Bris Dekker]]
+* [[The Sarge]]
+
+The complete branch is:
+
+<pre>
+Felicity Farseer
+└── Juri Ishmaak
+    ├── Colonel Bris Dekker
+    └── The Sarge
+</pre>
+
+Current Engineer data independently lists both Colonel Bris Dekker and The Sarge as being discovered through Juri Ishmaak.<ref name="inara-dekker" /><ref name="inara-sarge" />
+
+Neither currently leads to another Engineer in the active ship Engineer referral network.
+
+{{Field note|A referral from Juri does not automatically unlock either Engineer. [[Colonel Bris Dekker]] and [[The Sarge]] have separate military, permit, material, and/or combat-bond requirements of their own.}}
+
+See [[Engineer Unlock Guide]] for the complete referral network.
+
+== Available Engineering ==
+
+Juri's current Engineering coverage is shown below. Several module types have different maximum grades between their conventional and Live-only Operations-era blueprints.<ref name="inara-juri" />
+
+{| class="wikitable"
+! Module
+! Available blueprints
+! Maximum grade
+|-
+| [[Detailed Surface Scanner]]
+|
+* Expanded Probe Scanning Radius
+* Long Range Detailed <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Mine Launcher]]
+|
+* High Capacity
+* Lightweight
+* Rapid Fire
+* Sturdy
+| '''Grade 5'''
+|-
+| [[Sensors]]
+|
+* Lightweight
+* Long Range
+* Wide Angle
+| '''Grade 5'''
+|-
+| [[Abrasion Blaster]]
+|
+* Far-reaching <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Enzyme Missile Rack]]
+|
+* High-yield <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Mining Laser]]
+|
+* Long Range <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5'''
+|-
+| [[Frame Shift Wake Scanner]]
+|
+* Fast Scan
+* Lightweight
+* Long Range
+* Reinforced
+* Shielded
+* Wide Angle
+| '''Grade 3'''
+|-
+| [[Kill Warrant Scanner]]
+|
+* Fast Scan
+* Lightweight
+* Long Range
+* Reinforced
+* Shielded
+* Wide Angle
+| '''Grade 3'''
+|-
+| [[Manifest Scanner]]
+|
+* Fast Scan
+* Lightweight
+* Long Range
+* Reinforced
+* Shielded
+* Wide Angle
+| '''Grade 3'''
+|-
+| [[Missile Rack]]
+|
+* High Capacity
+* Lightweight
+* Rapid Fire
+* Sturdy
+| '''Grade 3'''
+|-
+| [[Seeker Missile Rack]]
+|
+* High Capacity — Grade 3
+* Lightweight — Grade 3
+* Rapid Fire — Grade 3
+* Sturdy — Grade 3
+* Drag — Grade 5 <small>(Live only; compatible Merc modules)</small>
+* Lightweight Thermal — Grade 5 <small>(Live only; compatible Merc modules)</small>
+* Lockdown — Grade 5 <small>(Live only; compatible Merc modules)</small>
+| '''Grade 5 Live; Grade 3 conventional'''
+|-
+| [[Torpedo Pylon]]
+|
+* Lightweight
+* Sturdy
+| '''Grade 3'''
+|}
+
+Juri's conventional maximum-grade specialties are therefore '''Detailed Surface Scanners, Mine Launchers, and Sensors'''.
+
+His Operations-era Engineering significantly expands that Grade 5 coverage in Live.
+
+== Operations-era Engineering ==
+
+The Operations update introduced several blueprints now available through Juri Ishmaak.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+
+Juri is particularly notable because he provides '''Grade 5''' access to a number of these specialised modifications.
+
+These blueprints are available only in '''Live'''.
+
+Most require a compatible '''Merc module''' and use [[Merc Coin]] as part of the Engineering cost.
+
+=== Far-reaching Abrasion Blaster ===
+
+'''Far-reaching''' increases Abrasion Blaster range and projectile speed while reducing power draw, distributor draw, and thermal load, at the cost of reduced integrity.<ref name="inara-abrasion">[https://inara.cz/elite/blueprint/217/ Abrasion Blaster — Far-reaching], Inara.</ref>
+
+Juri can apply Far-reaching through '''Grade 5'''.
+
+[[Liz Ryder]] provides the same blueprint only through Grade 3.
+
+{{Important|Far-reaching can only be applied to compatible '''Merc Abrasion Blasters'''.}}
+
+=== Long Range Mining Laser ===
+
+'''Long Range''' greatly increases Mining Laser range while changing its power, distributor, thermal, integrity, and damage characteristics.<ref name="inara-mining-long">[https://inara.cz/elite/blueprint/218/ Mining Laser — Long Range], Inara.</ref>
+
+Juri can apply Long Range through '''Grade 5'''.
+
+At Grade 5, the current blueprint provides a very large increase in maximum range while reducing power and distributor draw, with reduced integrity and a small damage penalty.<ref name="inara-mining-long" />
+
+[[Liz Ryder]] provides the same blueprint through Grade 3.
+
+{{Important|Long Range Mining Laser Engineering can only be applied to compatible '''Merc Mining Lasers'''.}}
+
+=== High-yield Enzyme Missile Rack ===
+
+'''High-yield''' increases Enzyme Missile Rack ammunition and magazine capacity while increasing module mass and power draw.<ref name="inara-enzyme">[https://inara.cz/elite/blueprint/224/ Enzyme Missile Rack — High-yield], Inara.</ref>
+
+Juri can apply High-yield through '''Grade 5'''.
+
+[[Liz Ryder]] provides the same blueprint through Grade 3.
+
+{{Important|High-yield can only be applied to compatible '''Merc Enzyme Missile Racks'''.}}
+
+=== Long Range Detailed Surface Scanner ===
+
+'''Long Range Detailed''' increases Detailed Surface Scanner probe radius at the cost of increased module mass and power draw.<ref name="inara-dss-long">[https://inara.cz/elite/blueprint/205/ Detailed Surface Scanner — Long Range Detailed], Inara.</ref>
+
+Juri can apply Long Range Detailed through '''Grade 5'''.
+
+{{Important|Long Range Detailed can only be applied to compatible '''Merc Detailed Surface Scanners'''.}}
+
+=== Drag Seeker Missile Rack ===
+
+'''Drag''' increases ammunition capacity, magazine capacity, and firing rate at the cost of increased mass, power draw, and distributor draw.<ref name="inara-seeker-drag">[https://inara.cz/elite/blueprint/219/ Seeker Missile Rack — Drag], Inara.</ref>
+
+Juri can apply Drag through '''Grade 5'''.
+
+[[Liz Ryder]] provides the same blueprint through Grade 3.
+
+{{Important|Drag can only be applied to compatible '''Merc Seeker Missile Racks'''.}}
+
+{{Field note|The '''Drag''' blueprint is separate from the [[Drag Munitions]] Experimental Effect. The two names refer to different parts of the Engineering system.}}
+
+=== Lightweight Thermal Seeker Missile Rack ===
+
+'''Lightweight Thermal''' increases ammunition capacity, magazine capacity, and firing rate while reducing mass, power draw, and distributor draw. The tradeoff is reduced module integrity.<ref name="inara-seeker-lightthermal">[https://inara.cz/elite/blueprint/220/ Seeker Missile Rack — Lightweight Thermal], Inara.</ref>
+
+Juri can apply Lightweight Thermal through '''Grade 5'''.
+
+[[Liz Ryder]] provides the same blueprint through Grade 3.
+
+{{Important|Lightweight Thermal can only be applied to compatible '''Merc Seeker Missile Racks'''.}}
+
+=== Lockdown Seeker Missile Rack ===
+
+'''Lockdown''' increases ammunition, magazine capacity, integrity, and armour penetration while reducing thermal load. Its tradeoffs include increased mass and power draw and reduced firing rate and damage.<ref name="inara-seeker-lockdown">[https://inara.cz/elite/blueprint/221/ Seeker Missile Rack — Lockdown], Inara.</ref>
+
+Juri can apply Lockdown through '''Grade 5'''.
+
+[[Liz Ryder]] provides the same blueprint through Grade 3.
+
+{{Important|Lockdown can only be applied to compatible '''Merc Seeker Missile Racks'''.}}
+
+== Experimental Effects ==
+
+Experimental Effects are separate from the main Engineering blueprint.
+
+Among Juri's conventional specialties, Mine Launchers, Missile Racks, Seeker Missile Racks, and Torpedo Pylons support Experimental Effects.
+
+Sensors, Detailed Surface Scanners, Frame Shift Wake Scanners, Kill Warrant Scanners, and Manifest Scanners do not currently use ordinary Experimental Effects.
+
+The current Far-reaching Abrasion Blaster, Long Range Mining Laser, and High-yield Enzyme Missile Rack blueprints also do not have Experimental Effects.<ref name="inara-abrasion" /><ref name="inara-mining-long" /><ref name="inara-enzyme" />
+
+=== Mine Launcher ===
+
+Available Mine Launcher Experimental Effects include:<ref name="inara-mine">[https://inara.cz/elite/blueprint/28/ Mine Launcher — High Capacity], Inara.</ref>
+
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Ion Disruption]]
+* [[Overload Munitions]]
+* [[Oversized]]
+* [[Radiant Canister]]
+* [[Reverberating Cascade]]
+* [[Shift-lock Canister]]
+* [[Stripped Down]]
+
+=== Missile Rack ===
+
+Available Missile Rack Experimental Effects include:<ref name="inara-missile">[https://inara.cz/elite/blueprint/174/ Missile Rack — High Capacity], Inara.</ref>
+
+* [[Double Braced]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[FSD Interrupt]]
+* [[Multi-servos]]
+* [[Overload Munitions]]
+* [[Oversized]]
+* [[Penetrator Munitions]]
+* [[Stripped Down]]
+* [[Thermal Cascade]]
+
+=== Seeker Missile Rack ===
+
+Available Seeker Missile Rack Experimental Effects include:<ref name="inara-seeker-drag" />
+
+* [[Double Braced]]
+* [[Drag Munitions]]
+* [[Emissive Munitions]]
+* [[Flow Control]]
+* [[Multi-servos]]
+* [[Overload Munitions]]
+* [[Oversized]]
+* [[Stripped Down]]
+* [[Thermal Cascade]]
+
+These Experimental Effects are also listed for the Live-only Drag, Lightweight Thermal, and Lockdown Seeker Missile blueprints.<ref name="inara-seeker-drag" /><ref name="inara-seeker-lightthermal" /><ref name="inara-seeker-lockdown" />
+
+=== Torpedo Pylon ===
+
+Available Torpedo Pylon Experimental Effects include:
+
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Mass Lock Munition]]
+* [[Oversized]]
+* [[Penetrator Payload]]
+* [[Reverberating Cascade]]
+* [[Stripped Down]]
+
+See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
+
+{{Important|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. A compatible weapon must be taken to an Engineer who works on that module type.}}
+
+== Recommended Engineering ==
+
+Juri's unusually broad coverage means his most useful Engineering depends strongly on the ship and activity.
+
+=== Sensors ===
+
+Juri provides all three conventional Sensor blueprints through '''Grade 5'''.
+
+[[Lightweight Sensors]] is broadly useful on ships where reducing mass matters more than maximizing Sensor integrity or passive detection angle.
+
+{{Tip|'''Common mass-saving choice: Lightweight Sensors'''
+
+Grade 5 Lightweight Sensors can remove a substantial amount of mass from large Sensor modules, making the blueprint particularly useful on exploration ships and other mass-sensitive builds.}}
+
+[[Long Range Sensors]] and [[Wide Angle Sensors]] remain useful when improved detection capability is more important than mass.
+
+=== Mine Launchers ===
+
+Juri provides all conventional Mine Launcher blueprints through '''Grade 5'''.
+
+Mine Launchers are specialized weapons, and their Experimental Effects often define their purpose more strongly than the base blueprint.
+
+For example:
+
+* [[Reverberating Cascade]] can be used for specialised attacks against shield generators;
+* [[Ion Disruption]] interferes with target thrusters;
+* [[Shift-lock Canister]] affects Frame Shift Drive operation; and
+* [[Overload Munitions]] converts part of the weapon's explosive damage to thermal damage.
+
+These are specialised applications rather than a universal weapon recommendation.
+
+=== Operations-era mining equipment ===
+
+In Live, Juri is the maximum-grade Engineer for both:
+
+* [[Far-reaching Abrasion Blaster]]; and
+* [[Long Range Mining Laser]].
+
+These modifications can be useful on specialised mining builds using compatible Merc equipment.
+
+They should not be treated as mandatory upgrades for ordinary mining ships; standard Mining Lasers and Abrasion Blasters continue to function without Operations Engineering.
+
+== Blueprint Pinning ==
+
+After earning sufficient reputation with Juri, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
+
+{{Tip|'''EDFM recommendation:''' [[Lightweight Sensors]] is a strong general-purpose blueprint to consider pinning at Juri.
+
+Juri provides Lightweight Sensors through '''Grade 5''', and the modification is useful across exploration, racing, combat, and other builds where Sensor mass can be reduced without needing increased detection range.
+
+If Lightweight Sensors is already pinned through another Grade 5 Sensor Engineer, Juri's Grade 5 Mine Launcher, Detailed Surface Scanner, or Live-only Operations-era Engineering may provide a more useful alternative depending on your fleet.}}
+
+Juri has an unusually large number of potential Grade 5 pins, so there is no single correct choice for every Commander.
+
+{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Weapon Experimental Effects still require visiting an appropriate Engineer workshop.}}
+
+== What Juri Cannot Fully Engineer ==
+
+Juri provides several Grade 5 specialties, but some of his conventional weapons and scanners stop at Grade 3.
+
+His current maximum grades include:
+
+* '''Detailed Surface Scanner:''' Grade 5
+* '''Mine Launcher:''' Grade 5
+* '''Sensors:''' Grade 5
+* '''Abrasion Blaster — Far-reaching:''' Grade 5 <small>(Live only)</small>
+* '''Enzyme Missile Rack — High-yield:''' Grade 5 <small>(Live only)</small>
+* '''Mining Laser — Long Range:''' Grade 5 <small>(Live only)</small>
+* '''Seeker Missile Rack — Drag:''' Grade 5 <small>(Live only)</small>
+* '''Seeker Missile Rack — Lightweight Thermal:''' Grade 5 <small>(Live only)</small>
+* '''Seeker Missile Rack — Lockdown:''' Grade 5 <small>(Live only)</small>
+* '''Frame Shift Wake Scanner:''' Grade 3
+* '''Kill Warrant Scanner:''' Grade 3
+* '''Manifest Scanner:''' Grade 3
+* '''Missile Rack:''' Grade 3
+* '''Conventional Seeker Missile Rack blueprints:''' Grade 3
+* '''Torpedo Pylon:''' Grade 3<ref name="inara-juri" />
+
+For higher-grade conventional missile Engineering:
+
+* [[Liz Ryder]] provides '''Grade 5 Missile Rack, Seeker Missile Rack, and Torpedo Pylon''' Engineering.
+* [[Petra Olmanova]] provides '''Grade 5 Missile Rack, Seeker Missile Rack, and Torpedo Pylon''' Engineering in Colonia.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+
+For higher-grade utility scanners:
+
+* [[Tiana Fortune]] provides '''Grade 5 Frame Shift Wake Scanner, Kill Warrant Scanner, and Manifest Scanner''' Engineering.
+
+Juri is therefore strongest as a Grade 5 Sensor, Detailed Surface Scanner, Mine Launcher, and Live Operations-era Engineer rather than as a maximum-grade source for every conventional explosive weapon he supports.
+
+== What Next? ==
+
+Progressing Juri's reputation opens two additional Engineer paths.
+
+Both lead into Federal requirements, so this is a useful point to begin working on [[Federal Navy Rank]] and Federation reputation if you have not already done so.
+
+{{What next|title=Continue Engineering|
+* '''Cannons and limpet controllers:''' [[The Sarge]]
+* '''Frame Shift Drive Interdictors:''' [[Colonel Bris Dekker]]
+* '''Previous Engineer:''' [[Felicity Farseer]]
+* '''Higher-grade conventional missiles and torpedoes:''' [[Liz Ryder]]
+* '''Higher-grade utility scanners:''' [[Tiana Fortune]]
+* '''Earn the invitation and unlock currency:''' [[Combat Bonds]]
+* '''Find and fight in conflicts:''' [[Combat Zones]]
+* '''Prepare for Juri's referrals:''' [[Federal Navy Rank]]
+* '''Learn about Operations Engineering:''' [[Operations Engineering]]
+* '''See the whole network:''' [[Engineer Unlock Guide]]
+* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
+* '''Learn the system:''' [[Engineering]]
+}}
+
+== Sources ==
+
+<references />
+
+{{Engineering nav}}
+
+[[Category:Engineers]]
+[[Category:Weapon Engineering]]
+[[Category:Utility Engineering]]
+[[Category:Mining Engineering]]
+[[Category:Engineering]]

@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Felicity Farseer
+Namespace: 0
+Page ID: 622
+Revision ID: 1505
+Timestamp: 2026-08-21T14:40:53Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Felicity_Farseer
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Felicity Farseer — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Felicity Farseer]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Felicity Farseer]].
+
+== Objective ==
+Gain access to [[Felicity Farseer]]'s Engineer services at [[Farseer Inc]] in [[Deciat]].
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Felicity Farseer is listed through '''public data sources''' and does not require a referral from another Engineer.
+* '''Invitation:''' Reach the Pilots Federation '''Exploration rank of Scout''' or higher.
+* Reach '''Scout''' or higher in Exploration Rank.
+* Obtain '''1 unit of [[Meta-Alloys]]'''.
+}}
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Reach '''Scout''' or higher in Exploration Rank.
+# Obtain '''1 unit of [[Meta-Alloys]]'''.
+# Travel to '''Farseer Inc''' in [[Deciat]].
+# Donate the Meta-Alloy to Felicity Farseer.
+# Enter the Engineer workshop and begin increasing your reputation with her.
+}}
+
+== Expected Result ==
+{{Expected result|[[Felicity Farseer]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Felicity Farseer]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] Exploration Rank [[Meta-Alloys]] [[Deciat]] [[Farseer Inc]]}}
+
+== Sources ==
+This procedure was extracted from the current [[Felicity Farseer]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]

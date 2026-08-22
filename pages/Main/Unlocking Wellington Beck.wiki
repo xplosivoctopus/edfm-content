@@ -1,0 +1,82 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Wellington Beck
+Namespace: 0
+Page ID: 652
+Revision ID: 1527
+Timestamp: 2026-08-21T14:41:17Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Wellington_Beck
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Wellington Beck — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+
+This Field Procedure covers only the steps to unlock [[Wellington Beck]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Wellington Beck]].
+
+== Objective ==
+Gain access to [[Wellington Beck]]'s Engineer services in Jolapa.
+
+== Prerequisites ==
+{{Prerequisites|
+* '''Discovery:''' Wellington Beck is discovered through [[Hero Ferrari]].
+* '''Invitation:''' There is no separate invitation requirement after receiving Wellington's referral from [[Hero Ferrari]].
+* Unlock [[Hero Ferrari]].
+* Provide Hero with '''5 Settlement Defence Plans''' to receive Wellington Beck's referral.
+* Obtain any combination of Cat Media, Classic Entertainment, and Multimedia Entertainment.
+}}
+
+== Required Materials, Equipment, and Access ==
+'''Obtaining the Entertainment Data'''
+All three qualifying unlock items are Odyssey '''Data''', rather than Goods or Assets.
+
+=== Cat Media ===
+
+Cat Media can currently be obtained from:
+
+* data ports in '''HAB buildings'''; and
+* mission rewards.
+
+=== Classic Entertainment ===
+
+Classic Entertainment can currently be obtained from:
+
+* data ports in '''HAB buildings'''; and
+* mission rewards.
+
+=== Multimedia Entertainment ===
+
+Multimedia Entertainment can currently be obtained from:
+
+* data ports in '''HAB buildings'''; and
+* mission rewards.
+
+{{Tip|You do not need to farm one particular media type. Keep all three while preparing Wellington's unlock, because any combination counts toward the same 15-item total.}}
+
+Because these are Data items, they do not use the physical Goods inventory carried in the suit backpack.
+
+{{Field note|Current Engineer data notes that station services may not become available immediately after Wellington is unlocked. If his expected services do not appear after completing the bartender-sales requirement, logging out and back in may make them available.}}
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Unlock [[Hero Ferrari]].
+# Provide Hero with '''5 Settlement Defence Plans''' to receive Wellington Beck's referral.
+# Obtain any combination of Cat Media, Classic Entertainment, and Multimedia Entertainment.
+# Sell a combined total of '''15''' qualifying items to bartenders.
+# Travel to '''Beck Facility''' on '''Jolapa 6 a'''.
+# Access Wellington Beck's Engineer workshop.
+}}
+
+== Expected Result ==
+{{Expected result|[[Wellington Beck]] is unlocked and available for Engineering services at their workshop.}}
+
+== Related Reference Pages ==
+{{Related articles|[[Wellington Beck]] [[Engineer Unlock Guide]] [[Engineering]] [[Engineers]] [[Hero Ferrari]] Settlement Defence Plans Irregular Markers Cat Media Classic Entertainment Multimedia Entertainment}}
+
+== Sources ==
+This procedure was extracted from the current [[Wellington Beck]] reference article. See that article's Sources section for the source citations that support the unlock requirements.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey Engineers]]

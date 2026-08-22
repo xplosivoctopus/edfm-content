@@ -1,0 +1,61 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Engineers/The Dweller
+Namespace: 828
+Page ID: 286
+Revision ID: 1168
+Timestamp: 2026-08-20T22:09:05Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/The_Dweller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"name": "The Dweller",
+	"engineer_scope": "ship",
+	"image": "Dweller.png",
+	"engineer_type": "Ship (core internal)",
+	"system": "Wyrd",
+	"body": "Wyrd A 2",
+	"facility": "Black Hide",
+	"region": null,
+	"allegiance": null,
+	"specialties": [
+		"Power Distributor",
+		"Pulse Laser",
+		"Beam Laser",
+		"Burst Laser"
+	],
+	"max_grade": "Grade 5",
+	"prerequisite_engineer": null,
+	"prerequisite_engineer_note": null,
+	"prerequisite_engineer_display": "None — independent starting Engineer",
+	"discovery_requirement": "Professor Palin",
+	"invitation_requirement": "Sell commodities at 5 unique Black Markets",
+	"meeting_requirement": "Sell commodities at 5 unique Black Markets.",
+	"unlock": {
+		"action": "Pay",
+		"credits": 500000
+	},
+	"engineering": [
+		{
+			"grade": 5,
+			"modules": [
+				"Power Distributor"
+			]
+		},
+		{
+			"grade": 4,
+			"modules": [
+				"Pulse Laser"
+			]
+		},
+		{
+			"grade": 3,
+			"modules": [
+				"Beam Laser",
+				"Burst Laser"
+			]
+		}
+	],
+	"colonia": false
+}

@@ -1,0 +1,44 @@
+<!--
+EDFM current-content archive export.
+Title: Guardian Plasma Charger
+Namespace: 0
+Page ID: 379
+Revision ID: 1016
+Timestamp: 2026-08-20T01:38:45Z
+Source URL: https://edfieldmanual.com/wiki/Guardian_Plasma_Charger
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Guardian Weapon
+ |deck=A fixed-mount Guardian plasma weapon offering a balance of shield and hull damage.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles|uncertainty=Exact damage figures are not stated here and should be checked in-game before being treated as current}}
+
+'''Guardian Plasma Chargers''' are fixed-mount weapons built from Guardian technology, firing charged plasma bolts.
+
+== Overview ==
+
+Alongside the [[Guardian Gauss Cannon]] and [[Guardian Shard Cannon]], the Plasma Charger is one of the three weapons reverse-engineered from Guardian ruins. It's generally treated as a more balanced option between the two — less specialised than the Gauss Cannon's anti-hull focus or the Shard Cannon's close-range burst role. See [[Guardian]] and [[Guardian Tech]] for the broader technology background this weapon comes from.
+
+As with the other Guardian weapons, unlocking the base weapon for purchase requires collecting Guardian materials and unlocking it through a Guardian Technology Broker, separately from the Engineering coverage below.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Ram Tah]] || Grade 1 <small>(Live only)</small>
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Guardian]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Guardian]]
+[[Category:Engineering]]

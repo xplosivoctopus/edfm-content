@@ -1,0 +1,65 @@
+<!--
+EDFM current-content archive export.
+Title: Unlocking Broo Tarquin
+Namespace: 0
+Page ID: 178
+Revision ID: 1530
+Timestamp: 2026-08-21T14:42:12Z
+Source URL: https://edfieldmanual.com/wiki/Unlocking_Broo_Tarquin
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for reaching Broo Tarquin — for what he specialises in and his full blueprint list, see his own article.}}
+
+This guide covers only the steps to reach [[Broo Tarquin]]. For what he specialises in, his full blueprint catalogue, and his place in the wider Engineer network, see his own article here: [[Broo Tarquin]].
+
+== Objective ==
+Gain access to [[Broo Tarquin]]'s services at Broo's Legacy in the Muang system.
+
+== Prerequisites ==
+{{Prerequisites|
+* [[Hera Tani]] already unlocked, with enough reputation built up with her to trigger the referral (roughly grade 3–4 standing).
+* Combat rank '''Competent''' or higher.
+}}
+
+== Required Materials, Equipment, and Access ==
+A ship with enough cargo capacity to carry 50 units of Fujin Tea, purchased from Futen Spaceport in the Fujin system — it's typically sold only 5 tons at a time, so plan on several supply runs rather than one trip.
+
+== Estimated Time ==
+Not yet confirmed — depends heavily on how far Fujin is from your current location and how much Fujin Tea is in stock per visit. Not stated in the sources checked for [[Broo Tarquin]].
+
+== Step-by-Step Procedure ==
+{{Procedure steps|
+# Unlock and build reputation with [[Hera Tani]] until Broo Tarquin appears as a referral.
+# Reach Combat rank Competent or higher, if not already there.
+# Travel to Futen Spaceport in the Fujin system and buy Fujin Tea, a few tons at a time, until you have 50 units.
+# Travel to Broo's Legacy in the Muang system.
+# Deliver the 50 units of Fujin Tea at his terminal.
+}}
+
+== Expected Result ==
+{{Expected result|[[Broo Tarquin]] is unlocked and available for Engineering services at Broo's Legacy.}}
+
+== Common Mistakes ==
+{{Common mistakes|Many players think you can buy all 50 units of Fujin Tea at once, but it's limited to 5 tons per purchase. You have to do multiple trips.
+}}
+
+== Troubleshooting ==
+{{Troubleshooting|
+; Broo Tarquin doesn't appear as a referral even with Hera Tani unlocked
+: Reputation with Hera Tani may not yet be high enough — keep engineering through her until the referral triggers.
+; Engineering options don't appear at Broo's Legacy after delivering the commodity
+: Try relogging — this is commonly reported to be needed before newly unlocked Engineer services become available.
+}}
+
+== Related Reference Pages ==
+{{Related articles|[[Broo Tarquin]] [[Hera Tani]] [[Engineer Unlock Guide]]}}
+
+== Relevant External Tools ==
+{{Related tools|[https://inara.cz/elite/engineers/ Inara's Engineers listing] }}
+
+== Sources ==
+Same sources as [[Broo Tarquin]]; see that article's Sources section for the full citation list.
+
+[[Category:Field Procedures]]
+[[Category:Engineers]]

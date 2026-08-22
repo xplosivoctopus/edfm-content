@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Missile Rack
+Namespace: 828
+Page ID: 534
+Revision ID: 1321
+Timestamp: 2026-08-20T23:59:58Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Missile_Rack
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Missile Rack",
+}

@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Luxury Passenger Cabin
+Namespace: 828
+Page ID: 521
+Revision ID: 1308
+Timestamp: 2026-08-20T23:59:49Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Luxury_Passenger_Cabin
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Luxury Passenger Cabin",
+}

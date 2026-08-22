@@ -1,0 +1,2134 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Engineers
+Namespace: 828
+Page ID: 173
+Revision ID: 1214
+Timestamp: 2026-08-20T23:55:11Z
+Source URL: https://edfieldmanual.com/wiki/Module:Engineers
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Module:Engineers
+--
+-- Canonical Engineer facts are stored in:
+-- Module:Data/Engineers/<Name>
+--
+-- This module provides structured Engineer data to:
+--
+--   * Template:Engineer infobox
+--   * Engineer directory tables
+--   * Engineer Capability Comparison
+--   * Other generated Engineer reference views
+--
+-- Structured JSON records should contain plain data rather than presentation
+-- wikitext wherever practical. This module adds internal links and formatting.
+--
+-- Adding a new Engineer:
+--   1. Create Module:Data/Engineers/<Name> using the JSON content model
+--   2. Add the Engineer's name to Module:Data/Engineers/index
+--   3. Use {{Engineer infobox}} on the Engineer article
+--
+-- See Elite Dangerous Field Manual:Adding Structured Data.
+
+local p = {}
+
+
+------------------------------------------------------------------------
+-- Infobox field configuration
+------------------------------------------------------------------------
+
+local FIELD_ORDER = {
+	{ key = 'engineer_type', label = 'Engineer type', group = 'ENGINEER' },
+	{ key = 'system', label = 'System' },
+	{ key = 'body', label = 'Body' },
+	{ key = 'facility', label = 'Facility' },
+	{ key = 'region', label = 'Region' },
+	{ key = 'allegiance', label = 'Allegiance' },
+	{ key = 'specialties', label = 'Specialties' },
+	{ key = 'max_grade', label = 'Maximum grade' },
+
+	{ key = 'prerequisite_engineer', label = 'Prerequisite', group = 'ACCESS' },
+	{ key = 'discovery_requirement', label = 'Discovery' },
+	{ key = 'invitation_requirement', label = 'Invitation' },
+	{ key = 'unlock_requirement', label = 'Unlock' },
+
+	-- Odyssey-only. Ship records never populate modifications_suit/
+	-- modifications_weapon, so this group never appears for them; Odyssey
+	-- records populate these instead of specialties/max_grade (see
+	-- buildFields), so the two groups never collide within the 12-row
+	-- Template:Infobox limit -- each scope uses a disjoint subset.
+	{ key = 'modifications_suit', label = 'Suit modifications', group = 'MODIFICATIONS' },
+	{ key = 'modifications_weapon', label = 'Weapon modifications' },
+}
+
+
+------------------------------------------------------------------------
+-- General helpers
+------------------------------------------------------------------------
+
+local function isNonEmpty(value)
+	return value ~= nil and value ~= ''
+end
+
+
+-- Escape a value before inserting it into an HTML-style attribute inside
+-- generated wikitext.
+local function escapeAttribute(value)
+	if value == nil then
+		return ''
+	end
+
+	value = tostring(value)
+
+	value = value:gsub('&', '&amp;')
+	value = value:gsub('"', '&quot;')
+	value = value:gsub('<', '&lt;')
+	value = value:gsub('>', '&gt;')
+
+	return value
+end
+
+
+-- Convert a number to a display value with thousands separators.
+local function formatNumber(value)
+	if value == nil then
+		return nil
+	end
+
+	local text = tostring(value)
+
+	local sign, integer, fraction =
+		text:match('^([%-]?)(%d+)(%.?%d*)$')
+
+	if not integer then
+		return text
+	end
+
+	local reversed =
+		integer
+			:reverse()
+			:gsub('(%d%d%d)', '%1,')
+			:reverse()
+
+	if reversed:sub(1, 1) == ',' then
+		reversed = reversed:sub(2)
+	end
+
+	return sign .. reversed .. fraction
+end
+
+
+------------------------------------------------------------------------
+-- Internal link helpers
+------------------------------------------------------------------------
+
+-- Converts a plain value into an internal wiki link.
+--
+-- Examples:
+--
+--   wikilink('Deciat')
+--       -> [[Deciat]]
+--
+--   wikilink('Drag', 'Drag Seeker Missile Rack')
+--       -> [[Drag Seeker Missile Rack|Drag]]
+--
+-- Existing wikitext links are left unchanged so article overrides remain
+-- backwards-compatible.
+local function wikilink(value, target)
+	if not isNonEmpty(value) then
+		return value
+	end
+
+	if type(value) ~= 'string' then
+		return value
+	end
+
+	if value:find('%[%[') then
+		return value
+	end
+
+	target = target or value
+
+	if target == value then
+		return '[[' .. value .. ']]'
+	end
+
+	return '[[' .. target .. '|' .. value .. ']]'
+end
+
+
+-- Is this single character an ASCII/Unicode letter? Used by linkifyText's
+-- word-boundary check so a declared phrase never matches as part of a
+-- longer word (e.g. "Alliance" inside "Alliances").
+local function isWordChar(char)
+	if not char then
+		return false
+	end
+
+	return char:match('%a') ~= nil
+end
+
+
+-- Finds the first word-boundary-safe occurrence of `needle` in `text`
+-- that doesn't overlap any span already reserved in `claimed`
+-- ({ {startPos, endPos}, ... }).
+local function findUnclaimedOccurrence(text, needle, claimed)
+	local searchFrom = 1
+
+	while true do
+		local s, e =
+			text:find(needle, searchFrom, true)
+
+		if not s then
+			return nil
+		end
+
+		local before =
+			s > 1 and text:sub(s - 1, s - 1) or nil
+
+		local after =
+			e < #text and text:sub(e + 1, e + 1) or nil
+
+		local boundaryOk =
+			not isWordChar(before)
+			and not isWordChar(after)
+
+		local overlapsClaimed = false
+
+		for _, span in ipairs(claimed) do
+			if s <= span[2] and e >= span[1] then
+				overlapsClaimed = true
+				break
+			end
+		end
+
+		if boundaryOk and not overlapsClaimed then
+			return s, e
+		end
+
+		searchFrom = s + 1
+	end
+end
+
+
+-- Converts only explicitly declared phrases in a prose requirement string
+-- into internal wikilinks, leaving everything else untouched byte-for-byte.
+-- This is deliberately NOT a blind entity scanner: a phrase becomes a link
+-- only when the JSON record's own *_links array names it, so a minor
+-- faction or other undesired term never gets linked just because it
+-- appears in the text.
+--
+-- text: a plain prose string, e.g. "Reach Imperial Navy rank Outsider or
+--       higher."
+-- links: a list of { text = 'display phrase', target = 'Page name' }, e.g.
+--
+--   "meeting_links": [
+--       { "text": "Imperial Navy rank", "target": "Imperial Navy Rank" }
+--   ]
+--
+-- Each declared phrase is linked at most once — its first unclaimed,
+-- word-boundary-safe occurrence — processed longest declared phrase
+-- first. This means:
+--   * a longer declared phrase always wins a shared/overlapping match
+--     over a shorter one (e.g. "Imperial Navy rank" over "Imperial Navy"
+--     if both were ever declared for the same record), and
+--   * an *undeclared* longer phrase that happens to contain a declared
+--     shorter one (e.g. "Alioth Independents" containing "Alioth") is
+--     safe: only the first genuinely standalone occurrence of the
+--     shorter phrase gets linked, matching how the site's own Content
+--     Style Guide already prefers a single natural first-use link over
+--     repeated/indiscriminate linking.
+--
+-- The canonical JSON never contains [[wikilink]] markup itself — this is
+-- the presentation layer that adds it, matching every other structured
+-- field this module already auto-links (system, facility, specialties,
+-- unlock items, ...).
+local function linkifyText(text, links)
+	if not isNonEmpty(text) then
+		return text
+	end
+
+	if type(links) ~= 'table' or #links == 0 then
+		return text
+	end
+
+	-- Copy before sorting so the canonical decoded data (and its
+	-- original declaration order) is never mutated.
+	local sorted = {}
+
+	for _, link in ipairs(links) do
+		table.insert(sorted, link)
+	end
+
+	table.sort(sorted, function(a, b)
+		return #(a.text or '') > #(b.text or '')
+	end)
+
+	local spans = {}
+
+	for _, link in ipairs(sorted) do
+		local display = link.text
+		local target = link.target or display
+
+		if isNonEmpty(display) and isNonEmpty(target) then
+			local s, e =
+				findUnclaimedOccurrence(text, display, spans)
+
+			if s then
+				table.insert(spans, { s, e, target = target })
+			end
+		end
+	end
+
+	if #spans == 0 then
+		return text
+	end
+
+	table.sort(spans, function(a, b)
+		return a[1] < b[1]
+	end)
+
+	local parts = {}
+	local cursor = 1
+
+	for _, span in ipairs(spans) do
+		table.insert(parts, text:sub(cursor, span[1] - 1))
+
+		-- Reuse the existing wikilink() helper rather than duplicating
+		-- link-generation logic; the matched substring (not the
+		-- declared link.text) becomes the display, so capitalization
+		-- and punctuation in the source text are preserved exactly.
+		table.insert(
+			parts,
+			wikilink(text:sub(span[1], span[2]), span.target)
+		)
+
+		cursor = span[2] + 1
+	end
+
+	table.insert(parts, text:sub(cursor))
+
+	return table.concat(parts)
+end
+
+
+-- Supports either a simple string:
+--
+-- "Frame Shift Drive"
+--
+-- or an object:
+--
+-- {
+--     "name": "Drag",
+--     "target": "Drag Seeker Missile Rack"
+-- }
+--
+-- This gives structured data the ability to use a short display name while
+-- linking to a differently named article.
+local function formatLinkedValue(value)
+	if value == nil then
+		return nil
+	end
+
+	if type(value) == 'string' then
+		return wikilink(value)
+	end
+
+	if type(value) ~= 'table' then
+		return tostring(value)
+	end
+
+	local display =
+		value.display
+		or value.name
+		or value.item
+		or value.target
+
+	if not display then
+		return nil
+	end
+
+	if value.link == false then
+		return display
+	end
+
+	local target =
+		value.target
+		or value.name
+		or value.item
+		or display
+
+	local result = wikilink(display, target)
+
+	if isNonEmpty(value.note) then
+		result = result .. ' ' .. value.note
+	end
+
+	return result
+end
+
+
+local function joinLinkedList(values)
+	if values == nil then
+		return nil
+	end
+
+	if type(values) ~= 'table' then
+		return formatLinkedValue(values)
+	end
+
+	local result = {}
+
+	for _, value in ipairs(values) do
+		local formatted = formatLinkedValue(value)
+
+		if isNonEmpty(formatted) then
+			table.insert(result, formatted)
+		end
+	end
+
+	if #result == 0 then
+		return nil
+	end
+
+	return table.concat(result, ', ')
+end
+
+
+-- Natural-English list join with a conjunction before the last item, e.g.
+-- joinLinkedListWithConjunction({"A","B","C"}, 'and') -> "A, B, and C"
+-- joinLinkedListWithConjunction({"A","B"}, 'or')       -> "A or B"
+-- Each value is linked exactly like joinLinkedList (plain strings or
+-- {display|name|item|target} objects) -- this is purely a different
+-- separator/conjunction, reusing the same per-item formatter.
+local function joinLinkedListWithConjunction(values, conjunction)
+	if type(values) ~= 'table' then
+		return nil
+	end
+
+	local formatted = {}
+
+	for _, value in ipairs(values) do
+		local item = formatLinkedValue(value)
+
+		if isNonEmpty(item) then
+			table.insert(formatted, item)
+		end
+	end
+
+	local n = #formatted
+
+	if n == 0 then
+		return nil
+	end
+
+	if n == 1 then
+		return formatted[1]
+	end
+
+	if n == 2 then
+		return formatted[1] .. ' ' .. conjunction .. ' ' .. formatted[2]
+	end
+
+	local head =
+		table.concat(formatted, ', ', 1, n - 1)
+
+	return head .. ', ' .. conjunction .. ' ' .. formatted[n]
+end
+
+
+------------------------------------------------------------------------
+-- Data loading
+------------------------------------------------------------------------
+
+local function loadRecord(name)
+	local title =
+		mw.title.new('Data/Engineers/' .. name, 'Module')
+
+	if not title then
+		return nil
+	end
+
+	local content = title:getContent()
+
+	if not content then
+		return nil
+	end
+
+	local ok, data =
+		pcall(mw.text.jsonDecode, content)
+
+	if not ok or type(data) ~= 'table' then
+		return nil
+	end
+
+	return data
+end
+
+
+local function loadIndex()
+	local title =
+		mw.title.new('Data/Engineers/index', 'Module')
+
+	local content =
+		title and title:getContent()
+
+	if not content then
+		return {}
+	end
+
+	local ok, data =
+		pcall(mw.text.jsonDecode, content)
+
+	if not ok or type(data) ~= 'table' then
+		return {}
+	end
+
+	return data
+end
+
+
+------------------------------------------------------------------------
+-- Specialty formatting
+------------------------------------------------------------------------
+
+local function joinSpecialties(d, linked)
+	if not d or not d.specialties then
+		return nil
+	end
+
+	-- Legacy string values are preserved as-is. A string could contain
+	-- descriptive prose rather than one clean module/entity name.
+	if type(d.specialties) ~= 'table' then
+		return d.specialties
+	end
+
+	if linked then
+		return joinLinkedList(d.specialties)
+	end
+
+	local values = {}
+
+	for _, specialty in ipairs(d.specialties) do
+		if type(specialty) == 'string' then
+			table.insert(values, specialty)
+		elseif type(specialty) == 'table' then
+			local display =
+				specialty.display
+				or specialty.name
+				or specialty.item
+				or specialty.target
+
+			if display then
+				table.insert(values, display)
+			end
+		end
+	end
+
+	if #values == 0 then
+		return nil
+	end
+
+	return table.concat(values, ', ')
+end
+
+
+------------------------------------------------------------------------
+-- Prerequisite formatting
+------------------------------------------------------------------------
+
+-- Joins a convergent multi-Engineer prerequisite (e.g. Yi Shen, who requires
+-- completing separate referral tasks from three independent Engineers) into
+-- "A + B + C", each wikilinked. Returns nil when d.prerequisite_engineers
+-- isn't a non-empty array, so callers can fall back to the ordinary
+-- singular d.prerequisite_engineer case -- every record other than a
+-- convergent-referral target keeps using that singular field unchanged.
+local function formatConvergentPrerequisite(d)
+	if not d or type(d.prerequisite_engineers) ~= 'table' then
+		return nil
+	end
+
+	local names = {}
+
+	for _, name in ipairs(d.prerequisite_engineers) do
+		if isNonEmpty(name) then
+			table.insert(names, wikilink(name))
+		end
+	end
+
+	if #names == 0 then
+		return nil
+	end
+
+	return table.concat(names, ' + ')
+end
+
+
+-- Infobox version: includes the optional prerequisite note.
+local function formatPrerequisite(d)
+	if not d then
+		return nil
+	end
+
+	local convergent =
+		formatConvergentPrerequisite(d)
+
+	if convergent then
+		if isNonEmpty(d.prerequisite_engineer_note) then
+			convergent =
+				convergent
+				.. ' '
+				.. d.prerequisite_engineer_note
+		end
+
+		return convergent
+	end
+
+	if d.prerequisite_engineer then
+		local result =
+			wikilink(d.prerequisite_engineer)
+
+		if isNonEmpty(d.prerequisite_engineer_note) then
+			result =
+				result
+				.. ' '
+				.. d.prerequisite_engineer_note
+		end
+
+		return result
+	end
+
+	return
+		d.prerequisite_engineer_display
+		or 'None — available from the start'
+end
+
+
+-- Directory version: the table already explains the general referral rule,
+-- so it keeps the individual row concise.
+local function formatDirectoryReferral(d)
+	if not d then
+		return 'None'
+	end
+
+	local convergent =
+		formatConvergentPrerequisite(d)
+
+	if convergent then
+		return convergent
+	end
+
+	if d.prerequisite_engineer then
+		return wikilink(d.prerequisite_engineer)
+	end
+
+	return
+		d.directory_prerequisite_display
+		or 'None'
+end
+
+
+------------------------------------------------------------------------
+-- Discovery formatting (infobox only -- the generated directories fold
+-- discovery into the "Referral:" line via formatDirectoryReferral, since
+-- for every Engineer on this wiki discovery is fully determined by
+-- whether a prerequisite Engineer is set; a separate Discovery line there
+-- would just restate the same fact).
+------------------------------------------------------------------------
+--
+-- Ship records: plain d.discovery_requirement string, unchanged.
+--
+-- Odyssey records: structured object --
+--
+-- "discovery": { "type": "public", "display": "Common knowledge" }
+-- "discovery": { "type": "referral" }
+--
+-- An explicit "display" always wins when present, so a genuinely unusual
+-- case can still be described in prose without forcing an inaccurate
+-- type. "referral"-type discovery deliberately does not restate the
+-- prerequisite Engineer's own referral-task requirement text (e.g. "after
+-- providing 5 Settlement Defence Plans") -- that fact is already fully
+-- and correctly represented exactly once, as the *prerequisite* Engineer's
+-- own "Referral onward" line, rather than duplicated here.
+local function formatDiscovery(d)
+	if not d then
+		return nil
+	end
+
+	if type(d.discovery) == 'table' then
+		if isNonEmpty(d.discovery.display) then
+			return d.discovery.display
+		end
+
+		if d.discovery.type == 'public' then
+			return 'Common knowledge — no referral required.'
+		end
+
+		if d.discovery.type == 'referral' then
+			local prerequisite =
+				formatPrerequisite(d)
+
+			if isNonEmpty(prerequisite) then
+				return 'Referral from ' .. prerequisite .. '.'
+			end
+
+			return 'Referral from another Engineer.'
+		end
+
+		return nil
+	end
+
+	return d.discovery_requirement
+end
+
+
+------------------------------------------------------------------------
+-- Unlock formatting
+------------------------------------------------------------------------
+
+-- Preferred simple structured format:
+--
+-- "unlock": {
+--     "action": "Deliver",
+--     "quantity": 1,
+--     "item": "Meta-Alloys"
+-- }
+--
+-- Output:
+--
+-- Deliver 1 unit of [[Meta-Alloys]]
+--
+--
+-- Quantity > 1:
+--
+-- "unlock": {
+--     "action": "Provide",
+--     "quantity": 50,
+--     "item": "Classified Scan Databanks"
+-- }
+--
+-- Output:
+--
+-- Provide 50 [[Classified Scan Databanks]]
+--
+--
+-- Credit-only requirement:
+--
+-- "unlock": {
+--     "action": "Pay",
+--     "credits": 500000
+-- }
+--
+-- Output:
+--
+-- Pay 500,000 CR
+--
+--
+-- Credit-value item requirement:
+--
+-- "unlock": {
+--     "action": "Deliver",
+--     "credits": 100000,
+--     "item": "Bounty Vouchers",
+--     "credits_worth": true
+-- }
+--
+-- Output:
+--
+-- Deliver 100,000 CR worth of [[Bounty Vouchers]]
+--
+--
+-- Complex requirements may continue using unlock_requirement until they are
+-- given a richer structured representation.
+--
+-- Shared by both d.unlock (this Engineer's own unlock) and d.referral_task
+-- (Odyssey's separate "deliver X to refer the next Engineer" step) --
+-- structurally the same action/quantity/item/credits shape, so both call
+-- this one formatter rather than duplicating it.
+local function formatUnlockLike(unlock)
+	if type(unlock) ~= 'table' then
+		return nil
+	end
+
+	----------------------------------------------------------------------
+	-- Item-based requirement
+	----------------------------------------------------------------------
+
+	if unlock.item then
+		local action =
+			unlock.action
+			or 'Deliver'
+
+		local item =
+			formatLinkedValue {
+				display =
+					unlock.item_display
+					or unlock.item,
+
+				target =
+					unlock.item_target
+					or unlock.item
+			}
+
+		-- Credit value of an item/voucher.
+		if unlock.credits and unlock.credits_worth then
+			return string.format(
+				'%s %s CR worth of %s',
+				action,
+				formatNumber(unlock.credits),
+				item
+			)
+		end
+
+		local quantity = unlock.quantity
+
+		if quantity ~= nil then
+			local quantityNumber =
+				tonumber(quantity)
+
+			-- A singular item defaults to the natural "1 unit of X".
+			if quantityNumber == 1 then
+				local unit =
+					unlock.unit
+					or 'unit'
+
+				return string.format(
+					'%s %s %s of %s',
+					action,
+					tostring(quantity),
+					unit,
+					item
+				)
+			end
+
+			-- An explicit unit may still be supplied where wording such
+			-- as "10 units of mined Osmium" is important.
+			if isNonEmpty(unlock.unit) then
+				local plural =
+					unlock.unit_plural
+					or (unlock.unit .. 's')
+
+				return string.format(
+					'%s %s %s of %s',
+					action,
+					tostring(quantity),
+					plural,
+					item
+				)
+			end
+
+			-- Default plural form: "Deliver 50 Gold",
+			-- "Provide 50 Classified Scan Databanks", etc.
+			return string.format(
+				'%s %s %s',
+				action,
+				tostring(quantity),
+				item
+			)
+		end
+
+		return action .. ' ' .. item
+	end
+
+
+	----------------------------------------------------------------------
+	-- Credit-only requirement
+	----------------------------------------------------------------------
+
+	if unlock.credits then
+		local action =
+			unlock.action
+			or 'Pay'
+
+		return string.format(
+			'%s %s CR',
+			action,
+			formatNumber(unlock.credits)
+		)
+	end
+
+
+	----------------------------------------------------------------------
+	-- Explicit fallback display
+	----------------------------------------------------------------------
+
+	if isNonEmpty(unlock.display) then
+		return unlock.display
+	end
+
+	return nil
+end
+
+
+------------------------------------------------------------------------
+-- Typed Odyssey unlock/requirement formatting
+------------------------------------------------------------------------
+--
+-- Ship-style requirements (action/quantity/item/credits, see
+-- formatUnlockLike above) cover simple deliver/pay cases and remain fully
+-- supported and preferred for Odyssey's equivalent simple cases ("provide"
+-- and "sell"). Odyssey access requirements are otherwise more varied
+-- (one combined total across several items, a choice of mission types,
+-- a travel distance, a reputation threshold, ...) and need their own
+-- small set of typed shapes, selected by an explicit "type" key.
+-- formatTypedUnlockRaw returns nil for anything without a "type" key, so
+-- formatUnlock below falls through to the existing untyped
+-- formatUnlockLike path unchanged -- this is a pure addition, not a
+-- replacement, and ship records (which never set unlock.type) are
+-- unaffected byte-for-byte.
+--
+-- Every branch reuses the existing entity-linking helpers
+-- (formatLinkedValue / joinLinkedListWithConjunction / wikilink /
+-- formatUnlockLike) rather than hand-building link markup: one canonical
+-- entity formatter, many consumers.
+--
+-- Returns the requirement clause WITHOUT a trailing period -- callers
+-- decide how the clause is used: as a standalone sentence (formatUnlock,
+-- via the formatTypedUnlock wrapper below), or folded into "<clause> to
+-- receive the referral to [[Next Engineer]]." (formatOneReferral).
+local function formatTypedUnlockRaw(unlock)
+	if type(unlock) ~= 'table' or not isNonEmpty(unlock.type) then
+		return nil
+	end
+
+	local t = unlock.type
+
+	----------------------------------------------------------------------
+	-- provide / sell -- reuse formatUnlockLike's item/quantity formatting
+	-- with a fixed display action word for the type, plus an optional
+	-- plain-text destination ("to bartenders", "to stations in the
+	-- Colonia system", ...). Destinations are deliberately left as plain
+	-- text, matching how they render in the source data this schema was
+	-- built against -- see the module's own commentary on
+	-- formatTypedUnlockRaw for why this isn't auto-linked by default.
+	----------------------------------------------------------------------
+
+	if t == 'provide' or t == 'sell' then
+		local action =
+			unlock.action
+			or (t == 'sell' and 'Sell' or 'Deliver')
+
+		local clause =
+			formatUnlockLike {
+				action = action,
+				quantity = unlock.quantity,
+				unit = unlock.unit,
+				unit_plural = unlock.unit_plural,
+				item = unlock.item,
+				item_display = unlock.item_display,
+				item_target = unlock.item_target,
+				credits = unlock.credits,
+				credits_worth = unlock.credits_worth,
+			}
+
+		if not isNonEmpty(clause) then
+			return nil
+		end
+
+		if isNonEmpty(unlock.destination) then
+			clause = clause .. ' to ' .. unlock.destination
+		end
+
+		return clause
+	end
+
+	----------------------------------------------------------------------
+	-- sell_combined -- one combined total across several distinct items,
+	-- every item individually linked. Defaults to "and" (three or more
+	-- items reads naturally as a plain list); an explicit
+	-- unlock.conjunction overrides this, e.g. "and/or" for a two-item
+	-- "any combination counts" case, matching wording already used
+	-- elsewhere on this wiki for the equivalent missions case.
+	----------------------------------------------------------------------
+
+	if t == 'sell_combined' then
+		if unlock.quantity == nil then
+			return nil
+		end
+
+		local items =
+			joinLinkedListWithConjunction(unlock.items, unlock.conjunction or 'and')
+
+		if not isNonEmpty(items) then
+			return nil
+		end
+
+		local clause =
+			'Sell a combined total of '
+				.. tostring(unlock.quantity)
+				.. ' '
+				.. items
+
+		if isNonEmpty(unlock.destination) then
+			clause = clause .. ' to ' .. unlock.destination
+		end
+
+		return clause
+	end
+
+	----------------------------------------------------------------------
+	-- missions -- a choice of named mission types, each individually
+	-- linked. "combined" distinguishes "complete N of type A or B" (each
+	-- qualifying occurrence counts toward one shared total, but only one
+	-- type need ever be used) from "complete a combined total of N across
+	-- A and/or B" (explicitly calling out that any mix of the two types
+	-- counts toward the total) -- both phrasings are used verbatim
+	-- across EDFM's existing Odyssey Engineer articles.
+	----------------------------------------------------------------------
+
+	if t == 'missions' then
+		if unlock.quantity == nil then
+			return nil
+		end
+
+		local conjunction =
+			unlock.combined and 'and/or' or 'or'
+
+		local types =
+			joinLinkedListWithConjunction(unlock.mission_types, conjunction)
+
+		if not isNonEmpty(types) then
+			return nil
+		end
+
+		local prefix =
+			unlock.combined
+				and 'Complete a combined total of '
+				or 'Complete '
+
+		return
+			prefix
+				.. tostring(unlock.quantity)
+				.. ' '
+				.. types
+				.. ' missions'
+	end
+
+	----------------------------------------------------------------------
+	-- activity -- a single named repeatable activity/location concept.
+	----------------------------------------------------------------------
+
+	if t == 'activity' then
+		if unlock.quantity == nil then
+			return nil
+		end
+
+		local activity =
+			formatLinkedValue(unlock.activity)
+
+		if not isNonEmpty(activity) then
+			return nil
+		end
+
+		return
+			'Complete '
+				.. tostring(unlock.quantity)
+				.. ' '
+				.. activity
+	end
+
+	----------------------------------------------------------------------
+	-- travel -- a cumulative distance, optionally by a specific method.
+	----------------------------------------------------------------------
+
+	if t == 'travel' then
+		if unlock.distance == nil then
+			return nil
+		end
+
+		local unit =
+			unlock.unit or 'ly'
+
+		local unitDisplay =
+			unit:lower() == 'ly' and 'Ly' or unit
+
+		local clause =
+			'Travel at least '
+				.. tostring(unlock.distance)
+				.. ' '
+				.. unitDisplay
+
+		local method =
+			formatLinkedValue(unlock.method)
+
+		if isNonEmpty(method) then
+			clause = clause .. ' in ' .. method
+		end
+
+		return clause
+	end
+
+	----------------------------------------------------------------------
+	-- reputation -- a rank threshold with a named faction. Only the
+	-- generic word "reputation" links; the faction name is left exactly
+	-- as supplied and is never auto-linked here, so a minor-faction name
+	-- such as "Sirius Corporation" never becomes a misleading BGS link
+	-- just because it appears in a reputation requirement -- the calling
+	-- JSON record decides the faction display text (including whether it
+	-- reads "the X" or plain "X").
+	----------------------------------------------------------------------
+
+	if t == 'reputation' then
+		if not isNonEmpty(unlock.level) then
+			return nil
+		end
+
+		local clause =
+			'Reach '
+				.. unlock.level
+				.. ' '
+				.. wikilink('reputation', 'Reputation')
+
+		if isNonEmpty(unlock.comparison) then
+			clause = clause .. ' ' .. unlock.comparison
+		end
+
+		if isNonEmpty(unlock.faction) then
+			clause = clause .. ' with ' .. unlock.faction
+		end
+
+		return clause
+	end
+
+	----------------------------------------------------------------------
+	-- custom -- explicit fallback display, selectively linkified exactly
+	-- like unlock_requirement/unlock_links (declared-only linking, never
+	-- a blind scan). Used only when no other type genuinely fits.
+	----------------------------------------------------------------------
+
+	if t == 'custom' then
+		return linkifyText(unlock.display, unlock.links)
+	end
+
+	return nil
+end
+
+
+-- Public wrapper: same as formatTypedUnlockRaw, but always ends with a
+-- single trailing period (matching every worked Odyssey Unlock example
+-- this schema was built against), without ever doubling a period a
+-- "custom"/prose display string already supplied itself.
+local function formatTypedUnlock(unlock)
+	local raw =
+		formatTypedUnlockRaw(unlock)
+
+	if not isNonEmpty(raw) then
+		return nil
+	end
+
+	if raw:sub(-1) == '.' then
+		return raw
+	end
+
+	return raw .. '.'
+end
+
+
+local function formatUnlock(d)
+	if not d then
+		return nil
+	end
+
+	local typed =
+		formatTypedUnlock(d.unlock)
+
+	if isNonEmpty(typed) then
+		return typed
+	end
+
+	local formatted =
+		formatUnlockLike(d.unlock)
+
+	if isNonEmpty(formatted) then
+		return formatted
+	end
+
+
+	------------------------------------------------------------------------
+	-- Legacy/prose compatibility
+	------------------------------------------------------------------------
+	--
+	-- Odyssey unlock requirements that don't fit any typed or item shape
+	-- above can still use plain prose. unlock_links lets such prose still
+	-- get selective, declared-only links via the same linkifyText helper
+	-- used for meeting_requirement/access_note, without forcing an
+	-- awkward fit into a structured shape. A record with no unlock_links
+	-- behaves exactly as before (linkifyText is a no-op with no links
+	-- declared).
+	return linkifyText(d.unlock_requirement, d.unlock_links)
+end
+
+
+------------------------------------------------------------------------
+-- Referral formatting (Odyssey: the separate onward requirement that
+-- opens a referral to the *next* Engineer, distinct from this Engineer's
+-- own unlock). A record's referrals array supports more than one entry,
+-- though every Odyssey Engineer currently on this wiki has at most one.
+------------------------------------------------------------------------
+--
+-- "referrals": [
+--     {
+--         "engineer": "Wellington Beck",
+--         "requirement": { "type": "provide", "quantity": 5, "item": "Settlement Defence Plans" }
+--     }
+-- ]
+--
+-- or, when there is no further delivery required:
+--
+-- "referrals": [ { "engineer": "Engineer Name" } ]
+--
+-- Output:
+--
+-- Deliver 5 [[Settlement Defence Plans]] to receive the referral to [[Wellington Beck]].
+--
+-- Ship Engineers never set this field, so this is a no-op for them.
+local function formatOneReferral(entry)
+	if type(entry) ~= 'table' or not isNonEmpty(entry.engineer) then
+		return nil
+	end
+
+	local target =
+		wikilink(entry.engineer)
+
+	if type(entry.requirement) == 'table' then
+		local raw =
+			formatTypedUnlockRaw(entry.requirement)
+			or formatUnlockLike(entry.requirement)
+
+		if isNonEmpty(raw) then
+			return raw .. ' to receive the referral to ' .. target .. '.'
+		end
+	end
+
+	return 'Refer ' .. target .. '.'
+end
+
+
+local function formatReferrals(d)
+	if not d then
+		return nil
+	end
+
+	if type(d.referrals) == 'table' and #d.referrals > 0 then
+		local lines = {}
+
+		for _, entry in ipairs(d.referrals) do
+			local line =
+				formatOneReferral(entry)
+
+			if isNonEmpty(line) then
+				table.insert(lines, line)
+			end
+		end
+
+		if #lines > 0 then
+			return table.concat(lines, '<br>')
+		end
+
+		return nil
+	end
+
+
+	--------------------------------------------------------------------
+	-- Backward compatibility: the earlier singular referral_task field.
+	--------------------------------------------------------------------
+
+	local task = d.referral_task
+
+	if type(task) == 'table' then
+		local base =
+			formatUnlockLike(task)
+
+		local nextEngineer =
+			task.unlocks
+			or task.next_engineer
+
+		if isNonEmpty(base) and isNonEmpty(nextEngineer) then
+			return
+				base
+					.. ' to receive the referral to '
+					.. wikilink(nextEngineer)
+					.. '.'
+		end
+	end
+
+	return nil
+end
+
+
+------------------------------------------------------------------------
+-- Location formatting for generated directories
+------------------------------------------------------------------------
+
+local function formatLocation(d)
+	if not d then
+		return '—'
+	end
+
+	local lines = {}
+
+	if isNonEmpty(d.facility) then
+		table.insert(
+			lines,
+			wikilink(d.facility)
+		)
+	end
+
+	if isNonEmpty(d.system) then
+		table.insert(
+			lines,
+			"'''" .. wikilink(d.system) .. "'''"
+		)
+	end
+
+	------------------------------------------------------------------------
+	-- Optional location notes
+	------------------------------------------------------------------------
+
+	local notes = {}
+
+	if type(d.location_notes) == 'table' then
+		for _, note in ipairs(d.location_notes) do
+			if isNonEmpty(note) then
+				table.insert(notes, note)
+			end
+		end
+
+	elseif isNonEmpty(d.location_note) then
+		table.insert(notes, d.location_note)
+	end
+
+	-- Automatically identify Colonia records unless the record already
+	-- supplied a Colonia note explicitly.
+	if d.colonia then
+		local hasColonia = false
+
+		for _, note in ipairs(notes) do
+			if tostring(note):lower() == 'colonia' then
+				hasColonia = true
+				break
+			end
+		end
+
+		if not hasColonia then
+			table.insert(notes, 'Colonia')
+		end
+	end
+
+	for _, note in ipairs(notes) do
+		table.insert(
+			lines,
+			'<small>' .. note .. '</small>'
+		)
+	end
+
+	if #lines == 0 then
+		return '—'
+	end
+
+	return table.concat(lines, '<br>')
+end
+
+
+------------------------------------------------------------------------
+-- Access formatting for generated directories
+------------------------------------------------------------------------
+
+local function formatAccess(d)
+	if not d then
+		return '—'
+	end
+
+	local lines = {}
+
+	------------------------------------------------------------------------
+	-- Referral
+	------------------------------------------------------------------------
+
+	table.insert(
+		lines,
+		"'''Referral:''' "
+			.. formatDirectoryReferral(d)
+	)
+
+
+	------------------------------------------------------------------------
+	-- Meeting requirement
+	------------------------------------------------------------------------
+
+	local meetingText, meetingLinks
+
+	if isNonEmpty(d.meeting_requirement) then
+		meetingText = d.meeting_requirement
+		meetingLinks = d.meeting_links
+	else
+		meetingText = d.invitation_requirement
+		meetingLinks = d.invitation_links
+	end
+
+	local meeting =
+		linkifyText(meetingText, meetingLinks)
+
+	if isNonEmpty(meeting) then
+		table.insert(
+			lines,
+			"'''Meet:''' " .. meeting
+		)
+	end
+
+
+	------------------------------------------------------------------------
+	-- Unlock
+	------------------------------------------------------------------------
+
+	local unlock =
+		formatUnlock(d)
+
+	if isNonEmpty(unlock) then
+		table.insert(
+			lines,
+			"'''Unlock:''' " .. unlock
+		)
+	end
+
+
+	------------------------------------------------------------------------
+	-- Referral onward (Odyssey: the separate requirement that opens a
+	-- referral to the *next* Engineer). Ship records never set referrals
+	-- or referral_task, so this line simply never appears for them.
+	------------------------------------------------------------------------
+
+	local referrals =
+		formatReferrals(d)
+
+	if isNonEmpty(referrals) then
+		table.insert(
+			lines,
+			"'''Referral onward:''' " .. referrals
+		)
+	end
+
+
+	------------------------------------------------------------------------
+	-- Optional access note
+	------------------------------------------------------------------------
+
+	if isNonEmpty(d.access_note) then
+		table.insert(
+			lines,
+			'<small>'
+				.. linkifyText(d.access_note, d.access_note_links)
+				.. '</small>'
+		)
+	end
+
+	return table.concat(lines, '<br>')
+end
+
+
+------------------------------------------------------------------------
+-- Engineering formatting for generated directories
+------------------------------------------------------------------------
+
+-- Preferred schema:
+--
+-- "engineering": [
+--     {
+--         "grade": 5,
+--         "modules": [
+--             "Frame Shift Drive"
+--         ]
+--     },
+--     {
+--         "grade": 3,
+--         "modules": [
+--             "Sensors",
+--             "Thrusters"
+--         ]
+--     }
+-- ]
+--
+--
+-- Live/Merc example:
+--
+-- {
+--     "grade": 5,
+--     "live_only": true,
+--     "merc": true,
+--     "modules": [
+--         "Cargo Rack"
+--     ]
+-- }
+--
+--
+-- Custom-label example:
+--
+-- {
+--     "label": "G3 — Live only; Merc",
+--     "modules": [
+--         {
+--             "display": "Drag",
+--             "target": "Drag Seeker Missile Rack"
+--         }
+--     ]
+-- }
+local function formatEngineering(d)
+	if not d then
+		return '—'
+	end
+
+	if type(d.engineering) == 'table' then
+		local rows = {}
+
+		for _, entry in ipairs(d.engineering) do
+			if type(entry) == 'table' then
+				local items =
+					entry.modules
+					or entry.items
+
+				local linkedItems =
+					joinLinkedList(items)
+
+				if isNonEmpty(linkedItems) then
+					local label
+
+					if isNonEmpty(entry.label) then
+						label = entry.label
+
+					elseif entry.grade ~= nil then
+						label =
+							'G'
+							.. tostring(entry.grade)
+
+						if entry.live_only then
+							label =
+								label
+								.. ' — Live only'
+						end
+
+						if entry.merc then
+							label =
+								label
+								.. '; Merc'
+						end
+
+					else
+						label = 'Engineering'
+					end
+
+					local row =
+						"'''" .. label .. ":''' "
+							.. linkedItems
+
+					if isNonEmpty(entry.note) then
+						row =
+							row
+								.. ' '
+								.. entry.note
+					end
+
+					table.insert(rows, row)
+				end
+			end
+		end
+
+		if #rows > 0 then
+			return table.concat(rows, '<br>')
+		end
+	end
+
+
+	------------------------------------------------------------------------
+	-- Transitional fallbacks
+	------------------------------------------------------------------------
+
+	if isNonEmpty(d.engineering_display) then
+		return d.engineering_display
+	end
+
+	return
+		joinSpecialties(d, true)
+		or '—'
+end
+
+
+------------------------------------------------------------------------
+-- Modification formatting (Odyssey)
+------------------------------------------------------------------------
+--
+-- Odyssey Engineers install a flat, ungraded list of modifications rather
+-- than ship Engineering's Grade 1-5 blueprints -- this is the Odyssey
+-- sibling to formatEngineering above, grouping by equipment type instead
+-- of by grade.
+--
+-- Schema:
+--
+-- "modifications": {
+--     "suit": ["Improved Jump Assist"],
+--     "weapon": ["Faster Handling"]
+-- }
+--
+-- formatModificationGroup returns one linked, comma-joined list (suit or
+-- weapon alone) -- shared by the infobox's two separate MODIFICATIONS
+-- rows (buildFields) and the directory's single combined cell
+-- (formatModifications), so both render the exact same links from the
+-- exact same underlying data.
+local function formatModificationGroup(d, equipment)
+	if not d or type(d.modifications) ~= 'table' then
+		return nil
+	end
+
+	return joinLinkedList(d.modifications[equipment])
+end
+
+
+-- Directory version: both groups combined into one cell.
+--
+-- Output:
+--
+-- '''Suit:''' [[Improved Jump Assist]]<br>'''Weapon:''' [[Faster Handling]]
+local function formatModifications(d)
+	if not d then
+		return '—'
+	end
+
+	local rows = {}
+
+	local suit =
+		formatModificationGroup(d, 'suit')
+
+	if isNonEmpty(suit) then
+		table.insert(rows, "'''Suit:''' " .. suit)
+	end
+
+	local weapon =
+		formatModificationGroup(d, 'weapon')
+
+	if isNonEmpty(weapon) then
+		table.insert(rows, "'''Weapon:''' " .. weapon)
+	end
+
+	if #rows > 0 then
+		return table.concat(rows, '<br>')
+	end
+
+
+	------------------------------------------------------------------------
+	-- Transitional fallback (a record with no modifications object at all)
+	------------------------------------------------------------------------
+
+	return
+		joinSpecialties(d, true)
+		or '—'
+end
+
+
+------------------------------------------------------------------------
+-- Infobox field construction
+------------------------------------------------------------------------
+
+local function buildFields(d, pargs)
+	local fields = {}
+
+	if d then
+		for _, f in ipairs(FIELD_ORDER) do
+			fields[f.key] =
+				d[f.key]
+		end
+
+		--------------------------------------------------------------------
+		-- Automatically linked canonical fields
+		--------------------------------------------------------------------
+
+		fields.system =
+			wikilink(d.system)
+
+		fields.body =
+			wikilink(d.body)
+
+		fields.facility =
+			wikilink(d.facility)
+
+		fields.region =
+			wikilink(d.region)
+
+		fields.allegiance =
+			wikilink(d.allegiance)
+
+		fields.specialties =
+			joinSpecialties(d, true)
+
+		fields.prerequisite_engineer =
+			formatPrerequisite(d)
+
+		-- Ship: plain discovery_requirement string, unchanged. Odyssey:
+		-- structured discovery{type, display} object. See formatDiscovery.
+		fields.discovery_requirement =
+			formatDiscovery(d)
+
+		-- Same linkification helper as the generated directory's "Meet:"
+		-- line, so the infobox and directory never maintain two separate
+		-- linking systems for the same underlying requirement text. Falls
+		-- back to meeting_links when invitation_links isn't declared
+		-- separately, since invitation_requirement is normally just a
+		-- differently-phrased restatement of meeting_requirement and
+		-- shares the same key terms in every record so far.
+		fields.invitation_requirement =
+			linkifyText(
+				d.invitation_requirement,
+				d.invitation_links or d.meeting_links
+			)
+
+		fields.unlock_requirement =
+			formatUnlock(d)
+
+		-- Odyssey only. Ship records never set d.modifications, so both
+		-- stay empty and the MODIFICATIONS group never appears for them.
+		fields.modifications_suit =
+			formatModificationGroup(d, 'suit')
+
+		fields.modifications_weapon =
+			formatModificationGroup(d, 'weapon')
+
+	else
+		--------------------------------------------------------------------
+		-- No structured record: use article parameters
+		--------------------------------------------------------------------
+
+		for _, f in ipairs(FIELD_ORDER) do
+			fields[f.key] =
+				pargs[f.key]
+		end
+	end
+
+
+	------------------------------------------------------------------------
+	-- Explicit article overrides
+	------------------------------------------------------------------------
+	--
+	-- Example:
+	--
+	-- {{Engineer infobox
+	--  |image = Replacement.png
+	-- }}
+	--
+	-- Only explicitly populated values override canonical structured data.
+	-- Empty parameters do not erase defaults.
+	for _, f in ipairs(FIELD_ORDER) do
+		if isNonEmpty(pargs[f.key]) then
+			fields[f.key] =
+				pargs[f.key]
+		end
+	end
+
+	return fields
+end
+
+
+------------------------------------------------------------------------
+-- Engineer infobox
+------------------------------------------------------------------------
+
+-- {{#invoke:Engineers|infobox}}
+--
+-- Called by Template:Engineer infobox.
+function p.infobox(frame)
+	local parent =
+		frame:getParent()
+
+	local pargs =
+		parent and parent.args
+		or {}
+
+	local name =
+		pargs.name
+		or mw.title.getCurrentTitle().text
+
+	local d =
+		loadRecord(name)
+
+	local fields =
+		buildFields(d, pargs)
+
+
+	------------------------------------------------------------------------
+	-- Image
+	------------------------------------------------------------------------
+
+	local image =
+		pargs.image
+
+	if not isNonEmpty(image)
+		and d
+		and isNonEmpty(d.image) then
+
+		image = d.image
+	end
+
+
+	------------------------------------------------------------------------
+	-- Build Template:Infobox arguments
+	------------------------------------------------------------------------
+
+	local args = {
+		name = name,
+		image = image
+	}
+
+	local n = 0
+
+	for _, f in ipairs(FIELD_ORDER) do
+		local value =
+			fields[f.key]
+
+		if isNonEmpty(value) then
+			n = n + 1
+
+			if f.group then
+				args['group' .. n] =
+					f.group
+			end
+
+			args['label' .. n] =
+				f.label
+
+			args['row' .. n] =
+				value
+		end
+	end
+
+	return frame:expandTemplate {
+		title = 'Infobox',
+		args = args
+	}
+end
+
+
+------------------------------------------------------------------------
+-- Engineer directory cell
+------------------------------------------------------------------------
+
+local function formatEngineerCell(frame, d, fallbackName)
+	local name =
+		d.name
+		or fallbackName
+
+	-- Use the existing Engineer table entry template when an image exists.
+	if isNonEmpty(d.image) then
+		return frame:expandTemplate {
+			title = 'Engineer table entry',
+			args = {
+				[1] = name,
+				[2] = d.image
+			}
+		}
+	end
+
+	return wikilink(name)
+end
+
+
+------------------------------------------------------------------------
+-- Engineer type detection
+------------------------------------------------------------------------
+
+local function isShipEngineer(d)
+	if not d then
+		return false
+	end
+
+	if d.engineer_scope == 'ship' then
+		return true
+	end
+
+	if type(d.engineer_type) == 'string'
+		and d.engineer_type:lower():find('ship', 1, true) then
+
+		return true
+	end
+
+	return false
+end
+
+
+local function isOdysseyEngineer(d)
+	if not d then
+		return false
+	end
+
+	if d.engineer_scope == 'odyssey' then
+		return true
+	end
+
+	if type(d.engineer_type) == 'string'
+		and d.engineer_type:lower():find('odyssey', 1, true) then
+
+		return true
+	end
+
+	return false
+end
+
+
+------------------------------------------------------------------------
+-- Generated Ship Engineer directory
+------------------------------------------------------------------------
+
+-- Usage:
+--
+-- {{#invoke:Engineers|shipDirectory}}
+--
+-- Generates the full Ship Engineer reference table from the canonical JSON
+-- index. All entity-style values are linked automatically where the schema
+-- provides enough structure to identify them.
+function p.shipDirectory(frame)
+	local rows = {}
+
+	for _, name in ipairs(loadIndex()) do
+		local d =
+			loadRecord(name)
+
+		if d and isShipEngineer(d) then
+
+			local engineer =
+				formatEngineerCell(
+					frame,
+					d,
+					name
+				)
+
+			local location =
+				formatLocation(d)
+
+			local access =
+				formatAccess(d)
+
+			local engineering =
+				formatEngineering(d)
+
+			local sortName =
+				escapeAttribute(
+					d.name or name
+				)
+
+			table.insert(
+				rows,
+				string.format(
+					'|-\n'
+					.. '| data-sort-value="%s" | %s\n'
+					.. '| %s\n'
+					.. '| %s\n'
+					.. '| %s',
+					sortName,
+					engineer,
+					location,
+					access,
+					engineering
+				)
+			)
+		end
+	end
+
+	return
+		'{| class="wikitable sortable" style="width:100%;"\n'
+		.. '! style="width:18%;" | Engineer\n'
+		.. '! style="width:15%;" | Location\n'
+		.. '! style="width:32%;" | Access requirements\n'
+		.. '! style="width:35%;" | Engineering offered\n'
+		.. table.concat(rows, '\n')
+		.. '\n|}'
+end
+
+
+------------------------------------------------------------------------
+-- Generated Odyssey Engineer directory
+------------------------------------------------------------------------
+
+-- Usage:
+--
+-- {{#invoke:Engineers|odysseyDirectory}}
+--
+-- Odyssey sibling to p.shipDirectory above -- same location/access-cell
+-- reuse (formatLocation and formatAccess are already scope-agnostic: the
+-- Meet: line only appears when meeting/invitation text is set, and the
+-- Referral onward: line only appears when referrals/referral_task is set,
+-- so both naturally render correctly for Odyssey records with no
+-- Odyssey-specific branching needed in either helper). Only the last
+-- column differs: formatModifications' equipment-grouped list instead of
+-- formatEngineering's grade-grouped list, matching the column header the
+-- Engineers article's own manual Odyssey tables already use.
+--
+-- Optional |colonia= parameter restricts the table to just the
+-- core-region or just the Colonia roster, matching how the Engineers
+-- article presents them as two separate tables under two separate
+-- headings ({{#invoke:Engineers|odysseyDirectory|colonia=false}} /
+-- |colonia=true}}). Omit entirely (or any other value) for all 13.
+function p.odysseyDirectory(frame)
+	local coloniaFilter = nil
+
+	local rawColonia =
+		frame
+		and frame.args
+		and (frame.args.colonia or frame.args[1])
+
+	if rawColonia == 'true' or rawColonia == 'yes' then
+		coloniaFilter = true
+	elseif rawColonia == 'false' or rawColonia == 'no' then
+		coloniaFilter = false
+	end
+
+	local rows = {}
+
+	for _, name in ipairs(loadIndex()) do
+		local d =
+			loadRecord(name)
+
+		if d and isOdysseyEngineer(d)
+			and (
+				coloniaFilter == nil
+				or (d.colonia == true) == coloniaFilter
+			) then
+
+			local engineer =
+				formatEngineerCell(
+					frame,
+					d,
+					name
+				)
+
+			local location =
+				formatLocation(d)
+
+			local access =
+				formatAccess(d)
+
+			local modifications =
+				formatModifications(d)
+
+			local sortName =
+				escapeAttribute(
+					d.name or name
+				)
+
+			table.insert(
+				rows,
+				string.format(
+					'|-\n'
+					.. '| data-sort-value="%s" | %s\n'
+					.. '| %s\n'
+					.. '| %s\n'
+					.. '| %s',
+					sortName,
+					engineer,
+					location,
+					access,
+					modifications
+				)
+			)
+		end
+	end
+
+	return
+		'{| class="wikitable sortable" style="width:100%;"\n'
+		.. '! style="width:18%;" | Engineer\n'
+		.. '! style="width:15%;" | Location\n'
+		.. '! style="width:32%;" | Access requirements\n'
+		.. '! style="width:35%;" | Modifications available\n'
+		.. table.concat(rows, '\n')
+		.. '\n|}'
+end
+
+
+------------------------------------------------------------------------
+-- Simple Engineer list
+------------------------------------------------------------------------
+
+-- {{#invoke:Engineers|list}}
+function p.list()
+	local rows = {}
+
+	for _, name in ipairs(loadIndex()) do
+		local d =
+			loadRecord(name)
+
+		if d then
+			table.insert(
+				rows,
+				string.format(
+					'|-\n| %s || %s || %s || %s',
+					wikilink(d.name or name),
+					wikilink(d.system) or '—',
+					joinSpecialties(d, true) or '—',
+					d.max_grade
+						or 'Not yet confirmed'
+				)
+			)
+		end
+	end
+
+	return
+		'{| class="wikitable sortable"\n'
+		.. '! Engineer !! System !! Specialties !! Maximum grade\n'
+		.. table.concat(rows, '\n')
+		.. '\n|}'
+end
+
+
+------------------------------------------------------------------------
+-- Engineer capability comparison
+------------------------------------------------------------------------
+
+-- {{#invoke:Engineers|comparison}}
+function p.comparison()
+	local rows = {}
+
+	for _, name in ipairs(loadIndex()) do
+		local d =
+			loadRecord(name)
+
+		-- Scoped to ship Engineers only. Odyssey's unlock/prerequisite
+		-- shapes (activity-based unlocks, convergent multi-Engineer
+		-- prerequisites) don't compare apples-to-apples with ship
+		-- Engineers' grade-based unlock chains in one shared table; a
+		-- dedicated Odyssey comparison view is a clean separate addition
+		-- if wanted later, rather than silently changing this page's
+		-- existing output.
+		if d and isShipEngineer(d) then
+			table.insert(
+				rows,
+				string.format(
+					'|-\n| %s || %s || %s || %s',
+					wikilink(d.name or name),
+					joinSpecialties(d, true)
+						or '—',
+					formatDirectoryReferral(d)
+						or 'None',
+					formatUnlock(d)
+						or 'Not yet confirmed'
+				)
+			)
+		end
+	end
+
+	return
+		'{| class="wikitable sortable"\n'
+		.. '! Engineer !! Specialties !! Prerequisite Engineer !! Unlock requirement\n'
+		.. table.concat(rows, '\n')
+		.. '\n|}'
+end
+
+
+------------------------------------------------------------------------
+-- Engineer count
+------------------------------------------------------------------------
+
+-- {{#invoke:Engineers|count}}
+function p.count()
+	return tostring(
+		#loadIndex()
+	)
+end
+
+
+return p

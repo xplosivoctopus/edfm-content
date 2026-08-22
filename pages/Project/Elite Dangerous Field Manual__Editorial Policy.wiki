@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Editorial Policy
+Namespace: 4
+Page ID: 44
+Revision ID: 303
+Timestamp: 2026-08-07T22:15:52Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Editorial_Policy
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+How EDFM articles should be written.
+
+== Core principles ==
+# '''Practical first.''' Field-manual tone: what to do, in what order, what to expect. Lead with the procedure, not the lore.
+# '''No invented facts.''' If a gameplay detail (a number, a requirement, a mechanic's exact behaviour) isn't confirmed, say so explicitly using {{tl|Unverified claim}} or {{tl|Estimated information}} rather than stating it as fact.
+# '''Version-aware.''' Elite Dangerous changes. Every gameplay-facing article should carry {{tl|Article status}} recording the game version/mode it was last checked against.
+# '''Live vs Legacy vs Historical are different things''' and must not be silently merged. Use {{tl|Legacy warning}} / {{tl|Historical warning}} rather than mixing eras in one paragraph without a flag.
+# '''Plain, accessible language.''' Avoid unexplained jargon; where in-universe or community jargon is necessary, define it on first use.
+
+== Structure conventions ==
+* Procedure-style articles: {{tl|Prerequisites}}, then {{tl|Procedure steps}}, then {{tl|Expected result}}, then optionally {{tl|Common mistakes}} and {{tl|Troubleshooting}}.
+* Reference-style articles: state values plainly, cite {{tl|Source citation}} where the figure isn't from the article's own testing.
+* Every article: {{tl|Article status}} near the top.
+
+See also [[Elite Dangerous Field Manual:Verification Policy]], [[Elite Dangerous Field Manual:Source Quality Guide]], and [[Elite Dangerous Field Manual:Content Style Guide]].

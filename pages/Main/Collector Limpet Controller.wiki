@@ -1,0 +1,40 @@
+<!--
+EDFM current-content archive export.
+Title: Collector Limpet Controller
+Namespace: 0
+Page ID: 385
+Revision ID: 1022
+Timestamp: 2026-08-20T01:38:49Z
+Source URL: https://edfieldmanual.com/wiki/Collector_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header
+ |eyebrow=EDFM // Optional Internal Module
+ |deck=Deploys limpets that retrieve cargo, materials, and mining fragments floating in space — essential for mining and salvage.
+}}
+
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+
+The '''Collector Limpet Controller''' launches limpet drones that retrieve loose cargo canisters, materials, and refined mining fragments and bring them back to the ship's cargo hold.
+
+== Overview ==
+
+Collector limpets are one of four original Limpet Controller types (alongside [[Fuel Transfer Limpet Controller|Fuel Transfer]], [[Hatch Breaker Limpet Controller|Hatch Breaker]], and [[Prospector Limpet Controller|Prospector]]) and are core equipment for mining builds — picking up fragments blasted off asteroids — as well as for salvage, collecting cargo ejected from destroyed or looted ships. A Commander who wants to actually keep the proceeds of mining or salvage generally needs a Collector limpet running; without one, loose cargo simply drifts away unclaimed.
+
+== Engineering ==
+
+{| class="wikitable"
+! Engineer !! Maximum grade
+|-
+| [[Ram Tah]] || Grade 5
+|}
+
+=== Related Engineering Guides ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Mining]]}}
+
+{{Engineering nav}}
+
+[[Category:Modules]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]
