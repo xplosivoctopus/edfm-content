@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Remote Engineering
+Namespace: 0
+Page ID: 665
+Revision ID: 1557
+Timestamp: 2026-08-23T17:51:07Z
+Source URL: https://edfieldmanual.com/wiki/Remote_Engineering
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|Remote Engineering is planned as a focused guide to pinning engineer blueprints, applying remote modifications at stations, and understanding which experimental effects still require visiting an engineer base.}}
+
+Remote Engineering is the process of applying a pinned engineer blueprint from a station outfitting screen instead of travelling back to the engineer who offers that blueprint.
+
+This placeholder exists so current engineer pages can link to one consistent topic while the full guide is being written. The finished article should explain pinned blueprints, material use, reputation limits, experimental effects, and practical reasons to visit an engineer in person.

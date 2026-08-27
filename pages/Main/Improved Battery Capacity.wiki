@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Improved Battery Capacity
+Namespace: 0
+Page ID: 680
+Revision ID: 1573
+Timestamp: 2026-08-23T18:40:03Z
+Source URL: https://edfieldmanual.com/wiki/Improved_Battery_Capacity
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an Odyssey modification reference for Improved Battery Capacity, including compatible equipment and material planning notes.}}
+
+'''Improved Battery Capacity''' is an Odyssey Engineering modification. This planned reference will cover what equipment it applies to, what it changes, and how it fits into suit or weapon builds.
+
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey]]

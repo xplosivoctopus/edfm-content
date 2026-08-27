@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Cargo Rack
 Namespace: 828
 Page ID: 459
-Revision ID: 1246
-Timestamp: 2026-08-20T23:59:04Z
+Revision ID: 2224
+Timestamp: 2026-08-25T14:13:50Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Cargo_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Cargo Rack",
+	module_class = "Cargo storage module",
+	slot_type = "Optional internal",
+	mount = "",
+	manufacturer = "",
+	availability = "Standard outfitting module family",
+	engineering = "",
+	related_modules = "[[Collector Limpet Controller]], [[Hatch Breaker Limpet Controller]], [[Refinery]]",
 }

@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Merc Coin
+Namespace: 0
+Page ID: 670
+Revision ID: 1563
+Timestamp: 2026-08-23T18:07:34Z
+Source URL: https://edfieldmanual.com/wiki/Merc_Coin
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|An Engineering-material reference for Merc Coin, including where it is used and how Commanders should plan around it.}}
+
+'''Merc Coin''' is an Engineering material used in selected module modifications. This planned article will document its uses, sourcing notes, and related Engineer blueprint requirements.
+
+[[Category:Engineering Materials]]
+[[Category:Engineering]]

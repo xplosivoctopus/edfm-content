@@ -3,34 +3,39 @@ EDFM current-content archive export.
 Title: Sub-surface Displacement Missile
 Namespace: 0
 Page ID: 606
-Revision ID: 1393
-Timestamp: 2026-08-21T00:00:52Z
+Revision ID: 2204
+Timestamp: 2026-08-24T23:45:16Z
 Source URL: https://edfieldmanual.com/wiki/Sub-surface_Displacement_Missile
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Sub-surface Displacement Missile ship module.
+__NOINDEX__
+{{Article header|deck=A mining hardpoint used to extract sub-surface asteroid deposits.
 }}
 
-{{Ship module infobox
- |name = Sub-surface Displacement Missile
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and deposit timing details still need direct Live-game verification.}}
+
+{{Ship module infobox}}
+
+The '''Sub-surface Displacement Missile''' is the hardpoint used for [[Sub-surface Mining|sub-surface mining]]. It extracts internal asteroid deposits after a [[Prospector Limpet Controller|prospector limpet]] has identified a suitable deposit.
 
 {{Draft warning}}
 
-== Overview ==
+== Mining role ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{{#invoke:Mining|equipmentNote|page=Sub-surface Displacement Missile}}
 
+In practice, the commander targets a scanned sub-surface deposit, fires the missile, holds it while the deposit indicator moves, and releases it during the highlighted extraction band. The released chunks still need to be collected and refined.
+
+== Fit notes ==
+
+A displacement missile launcher is not enough by itself. A useful sub-surface setup also needs a prospector controller, collector support, a refinery, cargo space, and limpets.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Sub-surface Displacement Missile}}
+
+{{Related articles|[[Sub-surface Mining]] [[How to Sub-surface Mine]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Mining]]

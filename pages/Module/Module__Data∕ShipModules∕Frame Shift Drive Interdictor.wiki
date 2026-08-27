@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Frame Shift Drive Interdictor
 Namespace: 828
 Page ID: 493
-Revision ID: 1280
-Timestamp: 2026-08-20T23:59:28Z
+Revision ID: 2267
+Timestamp: 2026-08-25T14:14:28Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Frame_Shift_Drive_Interdictor
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Frame Shift Drive Interdictor",
+	module_class = "Interdiction module",
+	slot_type = "Optional internal",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Frame Shift Wake Scanner]], [[Kill Warrant Scanner]], [[Frame Shift Drive]]",
 }

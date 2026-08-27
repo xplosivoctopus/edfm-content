@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Kit Fowler
 Namespace: 0
 Page ID: 132
-Revision ID: 1476
-Timestamp: 2026-08-21T14:39:06Z
+Revision ID: 1950
+Timestamp: 2026-08-24T21:22:18Z
 Source URL: https://edfieldmanual.com/wiki/Kit_Fowler
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Odyssey Engineer
- |deck=A combat-endurance, ammunition, and weapon-reload specialist based at The Last Call in Capoya, reached through Domino Green and leading to Yarden Bond.
+{{Article header|deck=A combat-endurance, ammunition, and weapon-reload specialist based at The Last Call in Capoya, reached through Domino Green and leading to Yarden Bond.
 }}
 
 {{Engineer infobox}}

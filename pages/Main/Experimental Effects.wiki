@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Experimental Effects
 Namespace: 0
 Page ID: 97
-Revision ID: 170
-Timestamp: 2026-08-07T20:12:41Z
+Revision ID: 1918
+Timestamp: 2026-08-24T21:21:31Z
 Source URL: https://edfieldmanual.com/wiki/Experimental_Effects
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Engineering|deck=Browse individual Experimental Effect articles as they're written and verified.}}
+{{Article header|deck=Browse individual Experimental Effect articles as they're written and verified.}}
 {{Article status|status=Draft|mode=Both}}
 
 Index of individual Experimental Effect articles — see [[:Category:Experimental Effects]] for the full list as it grows. See [[Elite Dangerous Field Manual:Engineering Architecture]] for the page structure and [[Thermal Vent]] for a populated (but still placeholder-content) example.

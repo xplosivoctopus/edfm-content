@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Seeker Missile Rack
 Namespace: 828
 Page ID: 589
-Revision ID: 1376
-Timestamp: 2026-08-21T00:00:39Z
+Revision ID: 2258
+Timestamp: 2026-08-25T14:14:20Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Seeker_Missile_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Seeker Missile Rack",
+	module_class = "Explosive weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed variants",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Missile Rack]], [[Torpedo Pylon]], [[Electronic Countermeasure]]",
 }

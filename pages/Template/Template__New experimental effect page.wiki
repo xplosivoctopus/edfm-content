@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:New experimental effect page
 Namespace: 10
 Page ID: 81
-Revision ID: 154
-Timestamp: 2026-08-07T20:12:40Z
+Revision ID: 2093
+Timestamp: 2026-08-24T21:25:42Z
 Source URL: https://edfieldmanual.com/wiki/Template:New_experimental_effect_page
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -24,7 +24,7 @@ per-module duplicates. See [[Elite Dangerous Field Manual:Engineering
 Architecture]] and [[Thermal Vent]] for a populated (but still
 placeholder-content) example.
 [[Category:Templates]]
-</noinclude><includeonly>{{Article header|eyebrow=EDFM // Experimental Effect|deck=To be added: a one-line summary of what this Experimental Effect does.}}
+</noinclude><includeonly>{{Article header|deck=To be added: a one-line summary of what this Experimental Effect does.}}
 {{Article status|status=Draft|mode=Both}}
 
 == What It Does ==

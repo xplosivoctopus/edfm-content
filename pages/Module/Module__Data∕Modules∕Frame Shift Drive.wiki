@@ -1,0 +1,50 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Modules/Frame Shift Drive
+Namespace: 828
+Page ID: 660
+Revision ID: 1543
+Timestamp: 2026-08-23T01:51:37Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Modules/Frame_Shift_Drive
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"schema_version": 1,
+	"key": "frame_shift_drive",
+	"name": "Frame Shift Drive",
+	"page": "Frame Shift Drive",
+	"group": "Core Internal",
+	"subcategory": "Propulsion",
+	"required": true,
+	"storable": true,
+	"transferable": true,
+	"classes": [
+		2,
+		3,
+		4,
+		5,
+		6,
+		7
+	],
+	"ratings": [
+		"E",
+		"D",
+		"C",
+		"B",
+		"A"
+	],
+	"engineering": {
+		"eligible": true,
+		"blueprints": [],
+		"experimental_effects": []
+	},
+	"acquisition": [
+		{
+			"type": "Outfitting",
+			"standard": true
+		}
+	],
+	"variants": [],
+	"special_variants": []
+}

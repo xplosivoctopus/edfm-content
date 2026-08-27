@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Engineer Unlock Guide
 Namespace: 0
 Page ID: 99
-Revision ID: 1498
-Timestamp: 2026-08-21T14:39:22Z
+Revision ID: 1908
+Timestamp: 2026-08-24T21:21:17Z
 Source URL: https://edfieldmanual.com/wiki/Engineer_Unlock_Guide
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineering
- |deck=A high-level roadmap showing how Engineers connect to one another, which Engineers can be approached independently, and which referrals lead deeper into each Engineering network.
+{{Article header|deck=A high-level roadmap showing how Engineers connect to one another, which Engineers can be approached independently, and which referrals lead deeper into each Engineering network.
 }}
 
 This page is a roadmap of the '''Engineer referral network'''. It shows which Engineers can be approached independently and which Engineers are discovered through another Engineer.

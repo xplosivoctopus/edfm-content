@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Elvira Martuuk
 Namespace: 0
 Page ID: 108
-Revision ID: 1424
-Timestamp: 2026-08-21T14:38:25Z
+Revision ID: 1904
+Timestamp: 2026-08-24T21:21:12Z
 Source URL: https://edfieldmanual.com/wiki/Elvira_Martuuk
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=An independent starting Engineer based in Khun, providing Grade 5 Frame Shift Drive engineering along with lower-grade shield and thruster upgrades.
+{{Article header|deck=An independent starting Engineer based in Khun, providing Grade 5 Frame Shift Drive engineering along with lower-grade shield and thruster upgrades.
 }}
 
 {{Engineer infobox}}

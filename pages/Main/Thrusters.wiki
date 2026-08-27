@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Thrusters
 Namespace: 0
 Page ID: 361
-Revision ID: 998
-Timestamp: 2026-08-20T01:37:44Z
+Revision ID: 2040
+Timestamp: 2026-08-24T21:24:22Z
 Source URL: https://edfieldmanual.com/wiki/Thrusters
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Module
- |deck=The core internal module governing a ship's speed, boost, and handling — one of the most build-defining core internals to Engineer.
+{{Article header|deck=The core internal module governing a ship's speed, boost, and handling — one of the most build-defining core internals to Engineer.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}

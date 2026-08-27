@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Engineers
 Namespace: 0
 Page ID: 95
-Revision ID: 1217
-Timestamp: 2026-08-20T23:57:19Z
+Revision ID: 1912
+Timestamp: 2026-08-24T21:21:22Z
 Source URL: https://edfieldmanual.com/wiki/Engineers
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineering
- |deck=Directory of every currently available Engineer, including where to find them, how to unlock them, and what they can engineer.
+{{Article header|deck=Directory of every currently available Engineer, including where to find them, how to unlock them, and what they can engineer.
 }}
 
 '''Engineers''' are specialists who modify ship modules, suits, and handheld weapons beyond their standard specifications. Each Engineer has a fixed workshop, access requirements, and a defined set of modifications they can perform.

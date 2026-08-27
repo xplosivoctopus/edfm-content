@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Dominator Suit
+Namespace: 0
+Page ID: 675
+Revision ID: 1568
+Timestamp: 2026-08-23T18:39:59Z
+Source URL: https://edfieldmanual.com/wiki/Dominator_Suit
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|a suit reference page for the Dominator Suit, including combat role, upgrade path, and Engineering considerations.}}
+
+The '''Dominator Suit''' is the dedicated on-foot combat suit in Odyssey. This planned reference will cover its role, equipment slots, upgrade considerations, and relevant Engineering modifications.
+
+[[Category:Odyssey]]
+[[Category:Equipment]]

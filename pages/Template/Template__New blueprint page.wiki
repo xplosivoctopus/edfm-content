@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:New blueprint page
 Namespace: 10
 Page ID: 80
-Revision ID: 150
-Timestamp: 2026-08-07T20:06:40Z
+Revision ID: 2091
+Timestamp: 2026-08-24T21:25:39Z
 Source URL: https://edfieldmanual.com/wiki/Template:New_blueprint_page
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -31,7 +31,7 @@ below includes all five rows as a starting scaffold; delete any grade
 rows that don't apply once verified, rather than leaving guessed data in
 place of a deleted row.
 [[Category:Templates]]
-</noinclude><includeonly>{{Article header|eyebrow=EDFM // Engineering Blueprint|deck=To be added: a one-line summary of what this blueprint changes.}}
+</noinclude><includeonly>{{Article header|deck=To be added: a one-line summary of what this blueprint changes.}}
 {{Article status|status=Draft|mode=Both}}
 
 == Overview ==

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.js
 Namespace: 8
 Page ID: 72
-Revision ID: 1129
-Timestamp: 2026-08-20T09:20:22Z
+Revision ID: 2322
+Timestamp: 2026-08-26T19:06:54Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.js
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -621,4 +621,25 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		initCookiePrefs();
 	}
 	window.edfmShowCookiePreferences = showBanner;
+}());
+
+/* Keep readers on EDFM when opening official GalNet archive sources. */
+(function () {
+	function applyGalNetArchiveTargets($content) {
+		if (mw.config.get('wgPageName') !== 'GalNet') {
+			return;
+		}
+		$content.find('.edfm-galnet-panel-archive a.external').each(function () {
+			var currentRel = this.getAttribute('rel') || '';
+			var relParts = currentRel.split(/\s+/).filter(Boolean);
+			['nofollow', 'noopener', 'noreferrer'].forEach(function (part) {
+				if (relParts.indexOf(part) === -1) {
+					relParts.push(part);
+				}
+			});
+			this.setAttribute('target', '_blank');
+			this.setAttribute('rel', relParts.join(' '));
+		});
+	}
+	mw.hook('wikipage.content').add(applyGalNetArchiveTargets);
 }());

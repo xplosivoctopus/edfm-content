@@ -3,10 +3,12 @@ EDFM current-content archive export.
 Title: Unlocking Tiana Fortune
 Namespace: 0
 Page ID: 641
-Revision ID: 1534
-Timestamp: 2026-08-22T02:37:11Z
+Revision ID: 1596
+Timestamp: 2026-08-23T19:22:43Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Tiana_Fortune
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+{{Planned article|Planned unlock guide for Tiana Fortune, covering unlock prerequisites, invite steps, required items or reputation, and verification notes for commanders once source-backed details are added.}}
 
+[[Category:Engineers]]

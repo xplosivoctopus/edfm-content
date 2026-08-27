@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Kamitra Cigars
 Namespace: 0
 Page ID: 392
-Revision ID: 1029
-Timestamp: 2026-08-20T01:40:05Z
+Revision ID: 1948
+Timestamp: 2026-08-24T21:22:16Z
 Source URL: https://edfieldmanual.com/wiki/Kamitra_Cigars
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Rare Commodity
- |deck=A Legal Drugs rare commodity produced at Hammel Terminal in Kamitra, and Hera Tani's unlock requirement.
+{{Article header|deck=A Legal Drugs rare commodity produced at Hammel Terminal in Kamitra, and Hera Tani's unlock requirement.
 }}
 
 {{Article status

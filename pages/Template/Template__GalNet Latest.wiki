@@ -1,0 +1,34 @@
+<!--
+EDFM current-content archive export.
+Title: Template:GalNet Latest
+Namespace: 10
+Page ID: 735
+Revision ID: 2320
+Timestamp: 2026-08-26T19:04:52Z
+Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Latest
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-strip edfm-galnet-strip-latest edfm-galnet-marquee">
+<div class="edfm-galnet-marquee-window" aria-label="Latest GalNet transmissions">
+<div class="edfm-galnet-marquee-track-v2">
+<span class="edfm-galnet-marquee-segment">
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">24 AUG 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a8c1a983531540f830c1532 Research Sheds New Light on Industrial Mining]</span><span class="edfm-galnet-summary">A widespread review of current surface mining techniques has been sparked by recently published research. Wreaken Mining’s Chief Geologist, Dr. Ben…</span></span>
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">20 AUG 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a86ea112335b431e80bc9ff Colonia Celebrations Conclude with Megamarket Opening]</span><span class="edfm-galnet-summary">As anniversary celebrations begin to wind down, Colonia Council issued confirmation that a new megamarket has been established at Jaques Station…</span></span>
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">06 AUG 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a74632b3e1bab203a0c66ae Colonia Tenth Anniversary Celebrations Get Underway]</span><span class="edfm-galnet-summary">The festival marking the tenth anniversary of the founding of Colonia has begun in earnest. Colonists throughout the Colonia enclave are welcoming…</span></span>
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">30 JUL 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a6a1976f5b5a043e5020683 Colonia Plans to Distribute Celebration Commodities]</span><span class="edfm-galnet-summary">With huge numbers of commodities transferred from Brewer Corporation’s megaship fleet to Jaques Station, preparations for the tenth anniversary are…</span></span>
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">27 JUL 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a6719d5b43cce39c70a3bcd Pilots’ Federation Directs Members to Colonia]</span><span class="edfm-galnet-summary">The Pilots’ Federation has issued a reminder to all members that Colonia is beginning final preparations for its 10th anniversary celebrations. With…</span></span>
+</span>
+<span class="edfm-galnet-marquee-segment" aria-hidden="true">
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">24 AUG 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a8c1a983531540f830c1532 Research Sheds New Light on Industrial Mining]</span><span class="edfm-galnet-summary">A widespread review of current surface mining techniques has been sparked by recently published research. Wreaken Mining’s Chief Geologist, Dr. Ben…</span></span>
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">20 AUG 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a86ea112335b431e80bc9ff Colonia Celebrations Conclude with Megamarket Opening]</span><span class="edfm-galnet-summary">As anniversary celebrations begin to wind down, Colonia Council issued confirmation that a new megamarket has been established at Jaques Station…</span></span>
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">06 AUG 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a74632b3e1bab203a0c66ae Colonia Tenth Anniversary Celebrations Get Underway]</span><span class="edfm-galnet-summary">The festival marking the tenth anniversary of the founding of Colonia has begun in earnest. Colonists throughout the Colonia enclave are welcoming…</span></span>
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">30 JUL 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a6a1976f5b5a043e5020683 Colonia Plans to Distribute Celebration Commodities]</span><span class="edfm-galnet-summary">With huge numbers of commodities transferred from Brewer Corporation’s megaship fleet to Jaques Station, preparations for the tenth anniversary are…</span></span>
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">27 JUL 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a6719d5b43cce39c70a3bcd Pilots’ Federation Directs Members to Colonia]</span><span class="edfm-galnet-summary">The Pilots’ Federation has issued a reminder to all members that Colonia is beginning final preparations for its 10th anniversary celebrations. With…</span></span>
+</span>
+</div>
+</div>
+<div class="edfm-galnet-footer edfm-galnet-footer-compact">
+<span class="edfm-galnet-more">[[GalNet|View all GalNet →]]</span>
+</div>
+</div></includeonly>

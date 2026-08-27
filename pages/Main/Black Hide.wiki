@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Black Hide
 Namespace: 0
 Page ID: 356
-Revision ID: 993
-Timestamp: 2026-08-20T01:37:41Z
+Revision ID: 1877
+Timestamp: 2026-08-24T21:20:35Z
 Source URL: https://edfieldmanual.com/wiki/Black_Hide
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=The Dweller's Engineering workshop, a surface base on Wyrd A 2.
+{{Article header|deck=The Dweller's Engineering workshop, a surface base on Wyrd A 2.
 }}
 
 {{Article status

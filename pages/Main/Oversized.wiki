@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Oversized
+Namespace: 0
+Page ID: 683
+Revision ID: 1576
+Timestamp: 2026-08-23T18:40:05Z
+Source URL: https://edfieldmanual.com/wiki/Oversized
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an experimental-effect reference for Oversized, including compatible modules, trade-offs, and Engineer availability.}}
+
+'''Oversized''' is an Engineering experimental effect. This planned reference will document compatible blueprints, its performance trade-offs, and practical use cases.
+
+[[Category:Experimental Effects]]
+[[Category:Engineering]]

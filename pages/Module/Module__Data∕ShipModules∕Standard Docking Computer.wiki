@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Standard Docking Computer
 Namespace: 828
 Page ID: 603
-Revision ID: 1390
-Timestamp: 2026-08-21T00:00:50Z
+Revision ID: 2227
+Timestamp: 2026-08-25T14:13:53Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Standard_Docking_Computer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Standard Docking Computer",
+	module_class = "Flight-assist module",
+	slot_type = "Optional internal",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Docking Computer]], [[Advanced Docking Computer]], [[Supercruise Assist]]",
 }

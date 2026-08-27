@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Liz Ryder
 Namespace: 0
 Page ID: 106
-Revision ID: 1430
-Timestamp: 2026-08-21T14:38:30Z
+Revision ID: 1957
+Timestamp: 2026-08-24T21:22:28Z
 Source URL: https://edfieldmanual.com/wiki/Liz_Ryder
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=An independent explosive-weapons Engineer based at Demolition Unlimited in Eurybia, opening the branches to Hera Tani and Etienne Dorn.
+{{Article header|deck=An independent explosive-weapons Engineer based at Demolition Unlimited in Eurybia, opening the branches to Hera Tani and Etienne Dorn.
 }}
 
 {{Engineer infobox}}

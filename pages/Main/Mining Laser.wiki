@@ -3,34 +3,35 @@ EDFM current-content archive export.
 Title: Mining Laser
 Namespace: 0
 Page ID: 531
-Revision ID: 1318
-Timestamp: 2026-08-20T23:59:56Z
+Revision ID: 2168
+Timestamp: 2026-08-24T23:44:32Z
 Source URL: https://edfieldmanual.com/wiki/Mining_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Mining Laser ship module.
+__NOINDEX__
+{{Article header|deck=Mining lasers extract ordinary asteroid fragments for collection and refining.
 }}
 
-{{Ship module infobox
- |name = Mining Laser
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and engineering availability still need direct Live-game verification.}}
+
+{{Ship module infobox}}
+
+The '''Mining Laser''' is the primary hardpoint for [[Laser Mining|laser mining]]. It breaks ordinary fragments from suitable asteroids; those fragments still have to be collected and processed by a [[Refinery]] before they become cargo.
 
 {{Draft warning}}
 
-== Overview ==
+== Mining role ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{{#invoke:Mining|equipmentNote|page=Mining Laser}}
 
+Mining lasers are not used for every mining method. [[Core Mining]] uses seismic charges and abrasion blasting, while [[Sub-surface Mining]] uses displacement missiles. A commander fitting for laser mining should reserve enough optional space for collector support, a refinery, cargo, and limpets rather than filling only hardpoints.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Mining Laser}}
+
+{{Related articles|[[Laser Mining]] [[How to Laser Mine]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Mining]]

@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Recon Limpet Controller
 Namespace: 0
 Page ID: 574
-Revision ID: 1361
-Timestamp: 2026-08-21T00:00:29Z
+Revision ID: 2187
+Timestamp: 2026-08-24T23:44:56Z
 Source URL: https://edfieldmanual.com/wiki/Recon_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Recon Limpet Controller ship module.
+{{Article header|deck=Structured stub page for the Recon Limpet Controller ship module.
 }}
 
-{{Ship module infobox
- |name = Recon Limpet Controller
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

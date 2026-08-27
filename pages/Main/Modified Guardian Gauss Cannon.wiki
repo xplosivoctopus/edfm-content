@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Modified Guardian Gauss Cannon
 Namespace: 0
 Page ID: 536
-Revision ID: 1323
-Timestamp: 2026-08-21T00:00:00Z
+Revision ID: 2170
+Timestamp: 2026-08-24T23:44:35Z
 Source URL: https://edfieldmanual.com/wiki/Modified_Guardian_Gauss_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Modified Guardian Gauss Cannon ship module.
+{{Article header|deck=Structured stub page for the Modified Guardian Gauss Cannon ship module.
 }}
 
-{{Ship module infobox
- |name = Modified Guardian Gauss Cannon
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

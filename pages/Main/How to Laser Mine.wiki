@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: How to Laser Mine
+Namespace: 0
+Page ID: 706
+Revision ID: 1638
+Timestamp: 2026-08-23T23:51:55Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Laser_Mine
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-23|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Exact asteroid yields and best commodity targets still need direct Live-game verification.}}
+{{Field procedure|summary=Extract surface fragments from asteroids with mining lasers, collect them with limpets, and refine useful commodities.}}
+
+Use this procedure when the ship is fitted for [[Laser Mining|laser mining]] and the goal is to fill cargo with refined commodities from ordinary asteroid fragments.
+
+{{Draft warning}}
+
+== Required equipment ==
+
+* [[Mining Laser]]
+* [[Refinery]]
+* [[Prospector Limpet Controller]]
+* [[Collector Limpet Controller]]
+* Limpets and cargo space
+
+== Procedure ==
+
+{{Procedure steps|
+# Enter the target ring or hotspot and reduce speed before approaching the asteroid field.
+# Fire a prospector limpet at a candidate asteroid.
+# Read the prospector result and skip asteroids that do not contain useful material for the run.
+# Put pips and positioning where the mining lasers can run without constant overheating or drift.
+# Fire mining lasers until fragments break free.
+# Launch collector limpets without targeting a single fragment unless you deliberately want one-use collection.
+# Continue mining while collectors bring fragments to the refinery.
+# Stop or move on when the asteroid is depleted, the refinery is blocked, or cargo planning changes.
+}}
+
+== Completion check ==
+
+The asteroid is finished when useful fragments stop appearing or the prospector/mining display indicates depletion. The run is finished when the planned cargo amount is refined and ready to sell.
+
+== Common problems ==
+
+* '''Collectors die quickly:''' avoid scraping the asteroid surface and avoid launching collectors while a single fragment is targeted unless that is intentional.
+* '''Fragments are ignored or vanish:''' check refinery capacity, cargo capacity, and the ignore list for unwanted commodities.
+* '''The ship overheats:''' reduce sustained laser fire, adjust power management, or improve distance and positioning.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Laser Mine}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Laser Mine}}
+
+[[Category:Mining]]

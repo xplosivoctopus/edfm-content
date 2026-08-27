@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Modified Guardian Plasma Charger
 Namespace: 0
 Page ID: 538
-Revision ID: 1325
-Timestamp: 2026-08-21T00:00:02Z
+Revision ID: 2171
+Timestamp: 2026-08-24T23:44:36Z
 Source URL: https://edfieldmanual.com/wiki/Modified_Guardian_Plasma_Charger
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Modified Guardian Plasma Charger ship module.
+{{Article header|deck=Structured stub page for the Modified Guardian Plasma Charger ship module.
 }}
 
-{{Ship module infobox
- |name = Modified Guardian Plasma Charger
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

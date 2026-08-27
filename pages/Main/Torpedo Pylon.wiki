@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Torpedo Pylon
 Namespace: 0
 Page ID: 373
-Revision ID: 1010
-Timestamp: 2026-08-20T01:38:40Z
+Revision ID: 2044
+Timestamp: 2026-08-24T21:24:27Z
 Source URL: https://edfieldmanual.com/wiki/Torpedo_Pylon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Weapon
- |deck=An extremely limited-ammunition launcher for the single hardest-hitting munition available to ship weapons.
+{{Article header|deck=An extremely limited-ammunition launcher for the single hardest-hitting munition available to ship weapons.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}

@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Kill Warrant Scanner
 Namespace: 828
 Page ID: 517
-Revision ID: 1304
-Timestamp: 2026-08-20T23:59:46Z
+Revision ID: 2264
+Timestamp: 2026-08-25T14:14:25Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Kill_Warrant_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Kill Warrant Scanner",
+	module_class = "Scanner utility",
+	slot_type = "Utility mount",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Manifest Scanner]], [[Frame Shift Wake Scanner]]",
 }

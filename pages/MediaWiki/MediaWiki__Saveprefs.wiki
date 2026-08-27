@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Saveprefs
+Namespace: 8
+Page ID: 734
+Revision ID: 2281
+Timestamp: 2026-08-26T05:07:07Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Saveprefs
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Save changes

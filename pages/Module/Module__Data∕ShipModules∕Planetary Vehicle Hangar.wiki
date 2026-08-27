@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Planetary Vehicle Hangar
 Namespace: 828
 Page ID: 554
-Revision ID: 1341
-Timestamp: 2026-08-21T00:00:13Z
+Revision ID: 2230
+Timestamp: 2026-08-25T14:13:55Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Planetary_Vehicle_Hangar
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Planetary Vehicle Hangar",
+	module_class = "Vehicle hangar module",
+	slot_type = "Optional internal",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Cargo Rack]], [[Detailed Surface Scanner]]",
 }

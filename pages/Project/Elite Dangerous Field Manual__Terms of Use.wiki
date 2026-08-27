@@ -3,10 +3,72 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Terms of Use
 Namespace: 4
 Page ID: 329
-Revision ID: 1538
-Timestamp: 2026-08-22T02:37:14Z
+Revision ID: 1693
+Timestamp: 2026-08-24T12:47:52Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Terms_of_Use
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+These terms explain the basic rules for using and contributing to ''Elite Dangerous Field Manual'' (EDFM).
 
+== Summary ==
+* EDFM is an independent community wiki project for ''Elite Dangerous'' players.
+* EDFM is not affiliated with, endorsed by, sponsored by, or reviewed by Frontier Developments plc.
+* By contributing original text to EDFM, you agree to license that contribution under CC BY-SA 4.0.
+* Do not upload or post material you do not have the right to share.
+* Do not use EDFM for spam, harassment, malware, scraping abuse, impersonation, or unlawful activity.
+* EDFM may remove content, restrict accounts, or preserve records where needed for moderation, security, legal compliance, attribution, or site integrity.
+
+{{EDFM policy commitments}}
+
+== Independent community project ==
+EDFM is operated as an independent community project. It is not an official Frontier Developments site. ''Elite'', ''Elite Dangerous'', related names, marks, and game assets belong to Frontier Developments plc and/or their respective owners. See [[Elite Dangerous Field Manual:Legal and Trademark Notice]].
+
+== Accounts and eligibility ==
+You may browse EDFM without an account. Some features, including editing and uploading, require an account.
+
+EDFM is not intended for children under 13. If you are under 13, do not create an account or provide personal information. If local law requires a higher age for account creation or consent where you live, you are responsible for following that law.
+
+You are responsible for activity on your account and for keeping your login credentials secure.
+
+== Contribution license ==
+Unless a page clearly says otherwise, original text submitted to EDFM is licensed under the '''Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)'''. By submitting original text, you confirm that you have the right to contribute it under that license.
+
+Do not copy text from Fandom, Inara, Reddit, Discord, forums, other wikis, official websites, books, guides, AI outputs, or any other source unless you have verified permission and the license is compatible. Citing a source supports a fact; it does not grant permission to copy that source's wording.
+
+== Images and uploads ==
+Uploaded files must follow [[Elite Dangerous Field Manual:Image Use Policy]] and [[Elite Dangerous Field Manual:Screenshot Policy]].
+
+Contributor-created original media is normally licensed under CC BY-SA 4.0 unless a more specific permitted license/classification is selected or stated. ''Elite Dangerous'' screenshots and game imagery are not made CC-licensed by being uploaded here; the underlying game assets remain Frontier's or their owners' property and are handled under the site's Frontier/game-media classifications.
+
+Do not upload files containing private personal information, private chat logs, doxxing material, malware, copyrighted material you cannot use, or images copied from other sites without verified permission.
+
+== Public wiki records ==
+Wiki contributions are normally public and historical. Page histories, edit summaries, file histories, talk-page comments, logs, and timestamps may remain visible for attribution, accountability, licensing, anti-abuse, and site-integrity reasons.
+
+If you request account removal, EDFM may disable or rename the account while retaining public edits and logs where needed for attribution, moderation, security, and legal reasons. See [[Elite Dangerous Field Manual:Privacy Policy]].
+
+== Acceptable use ==
+Do not use EDFM to:
+* harass, threaten, impersonate, or target others;
+* post spam, scams, malware, phishing, or malicious links;
+* evade blocks, rate limits, or security systems;
+* abuse automated access or scrape in a way that harms the site;
+* post knowingly false claims as verified facts;
+* upload or publish unlawful, infringing, or privacy-invasive material;
+* interfere with the operation or security of the site.
+
+== Moderation and enforcement ==
+EDFM may edit, revert, hide, delete, block, rename, restrict, or otherwise moderate accounts and content where needed to protect the community, comply with law, preserve attribution, enforce these terms, prevent abuse, or maintain the wiki.
+
+== Frontier login and commander data ==
+Frontier login is available as an alternative sign-in/registration method (see [[Special:UserLogin]]). Normal Frontier sign-in is for account login/linking only and does not request Companion API (<code>capi</code>) access. Commander-name verification through CAPI is a separate optional Preferences action; if a user chooses '''Attach CMDR Name''', EDFM may request <code>auth capi</code>, read the Commander name once, and grant the '''Verified Commander''' badge &mdash; see [[Elite Dangerous Field Manual:Verified Commanders]] for exactly what that does and does not mean. Frontier account and Commander identities are personally identifiable information; see [[Elite Dangerous Field Manual:Privacy Policy]] for what EDFM stores and how Frontier data is, and is not, used.
+
+== No warranties ==
+EDFM is provided as a community reference. It may contain errors, outdated information, incomplete pages, downtime, or broken features. Use in-game judgement and verify important information.
+
+== Changes ==
+These terms may be updated as the site develops. Continued use of EDFM after changes means you accept the updated terms.
+
+== Contact ==
+For terms, copyright, privacy, or policy questions, contact: <code>contact@edfieldmanual.com</code>.

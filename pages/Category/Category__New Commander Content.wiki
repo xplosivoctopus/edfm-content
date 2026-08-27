@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Category:New Commander Content
+Namespace: 14
+Page ID: 694
+Revision ID: 1590
+Timestamp: 2026-08-23T18:43:03Z
+Source URL: https://edfieldmanual.com/wiki/Category:New_Commander_Content
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Hidden category}}
+
+Pages intended for new Commanders and early-game orientation.
+
+[[Category:Gameplay]]

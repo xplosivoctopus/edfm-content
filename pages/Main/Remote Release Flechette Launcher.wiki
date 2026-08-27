@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Remote Release Flechette Launcher
 Namespace: 0
 Page ID: 580
-Revision ID: 1367
-Timestamp: 2026-08-21T00:00:33Z
+Revision ID: 2191
+Timestamp: 2026-08-24T23:45:01Z
 Source URL: https://edfieldmanual.com/wiki/Remote_Release_Flechette_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Remote Release Flechette Launcher ship module.
+{{Article header|deck=Structured stub page for the Remote Release Flechette Launcher ship module.
 }}
 
-{{Ship module infobox
- |name = Remote Release Flechette Launcher
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

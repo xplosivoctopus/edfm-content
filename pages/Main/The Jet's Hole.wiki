@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: The Jet's Hole
 Namespace: 0
 Page ID: 350
-Revision ID: 987
-Timestamp: 2026-08-20T01:37:36Z
+Revision ID: 2037
+Timestamp: 2026-08-24T21:24:18Z
 Source URL: https://edfieldmanual.com/wiki/The_Jet%27s_Hole
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=Hera Tani's Engineering workshop, a surface base on Kuwemaki A 3 a.
+{{Article header|deck=Hera Tani's Engineering workshop, a surface base on Kuwemaki A 3 a.
 }}
 
 {{Article status

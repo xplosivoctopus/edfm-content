@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Domino Green
 Namespace: 0
 Page ID: 131
-Revision ID: 1470
-Timestamp: 2026-08-21T14:39:01Z
+Revision ID: 1900
+Timestamp: 2026-08-24T21:21:06Z
 Source URL: https://edfieldmanual.com/wiki/Domino_Green
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Odyssey Engineer
- |deck=A suit-utility and weapon-performance specialist based at The Jackrabbit in Orishis, and the starting point of the Kit Fowler referral chain.
+{{Article header|deck=A suit-utility and weapon-performance specialist based at The Jackrabbit in Orishis, and the starting point of the Kit Fowler referral chain.
 }}
 
 {{Engineer infobox}}

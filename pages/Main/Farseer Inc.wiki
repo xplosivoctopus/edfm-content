@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Farseer Inc
 Namespace: 0
 Page ID: 346
-Revision ID: 983
-Timestamp: 2026-08-20T01:37:33Z
+Revision ID: 1919
+Timestamp: 2026-08-24T21:21:33Z
 Source URL: https://edfieldmanual.com/wiki/Farseer_Inc
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=Felicity Farseer's Engineering workshop, a surface base in the Deciat system.
+{{Article header|deck=Felicity Farseer's Engineering workshop, a surface base in the Deciat system.
 }}
 
 {{Article status

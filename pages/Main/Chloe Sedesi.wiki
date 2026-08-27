@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Chloe Sedesi
 Namespace: 0
 Page ID: 128
-Revision ID: 1438
-Timestamp: 2026-08-21T14:38:36Z
+Revision ID: 1887
+Timestamp: 2026-08-24T21:20:47Z
 Source URL: https://edfieldmanual.com/wiki/Chloe_Sedesi
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 Thruster specialist based at Cinder Dock in Shenve, reached through Marco Qwent after travelling at least 5,000 light-years from your career start location.
+{{Article header|deck=A Grade 5 Thruster specialist based at Cinder Dock in Shenve, reached through Marco Qwent after travelling at least 5,000 light-years from your career start location.
 }}
 
 {{Engineer infobox}}

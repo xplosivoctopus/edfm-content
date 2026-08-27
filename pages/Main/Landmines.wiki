@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Landmines
 Namespace: 0
 Page ID: 391
-Revision ID: 1028
-Timestamp: 2026-08-20T01:40:05Z
+Revision ID: 1953
+Timestamp: 2026-08-24T21:22:22Z
 Source URL: https://edfieldmanual.com/wiki/Landmines
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Commodity
- |deck=A Weapons commodity produced by Military economies, and Liz Ryder's unlock requirement.
+{{Article header|deck=A Weapons commodity produced by Military economies, and Liz Ryder's unlock requirement.
 }}
 
 {{Article status

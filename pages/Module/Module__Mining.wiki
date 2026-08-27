@@ -1,0 +1,160 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Mining
+Namespace: 828
+Page ID: 721
+Revision ID: 1625
+Timestamp: 2026-08-23T23:49:29Z
+Source URL: https://edfieldmanual.com/wiki/Module:Mining
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Module:Mining
+-- Generated reference helpers for the EDFM Mining section.
+
+local p = {}
+
+local function loadData(title)
+	local ok, data = pcall(mw.loadData, title)
+	if ok and type(data) == 'table' then
+		return data
+	end
+	return {}
+end
+
+local function isNonEmpty(value)
+	return value ~= nil and value ~= ''
+end
+
+local function esc(value)
+	return mw.text.nowiki(tostring(value or ''))
+end
+
+local function link(page, label)
+	if not isNonEmpty(page) then return '' end
+	label = label or page
+	if page == label then return '[[' .. page .. ']]' end
+	return '[[' .. page .. '|' .. label .. ']]'
+end
+
+local function listLinks(values)
+	if type(values) ~= 'table' or #values == 0 then return '—' end
+	local out = {}
+	for _, value in ipairs(values) do
+		if isNonEmpty(value) then table.insert(out, link(value)) end
+	end
+	if #out == 0 then return '—' end
+	return table.concat(out, '<br>')
+end
+
+local function plainList(values)
+	if type(values) ~= 'table' or #values == 0 then return '—' end
+	local out = {}
+	for _, value in ipairs(values) do
+		if isNonEmpty(value) then table.insert(out, esc(value)) end
+	end
+	if #out == 0 then return '—' end
+	return table.concat(out, '<br>')
+end
+
+local function startTable(headers)
+	local out = { '{| class="wikitable sortable" style="width:100%;"' }
+	local row = {}
+	for _, header in ipairs(headers) do
+		table.insert(row, '! ' .. header)
+	end
+	table.insert(out, table.concat(row, '\n'))
+	return out
+end
+
+function p.methodsTable()
+	local records = loadData('Module:Data/Mining/Methods')
+	local out = startTable({ 'Method', 'What it does', 'Primary equipment', 'Location cue', 'Field Procedures' })
+	for _, record in ipairs(records) do
+		table.insert(out, '|-')
+		table.insert(out, '| data-sort-value="' .. esc(record.label or record.page) .. '" | ' .. link(record.page, record.label))
+		table.insert(out, '| ' .. esc(record.summary))
+		table.insert(out, '| ' .. listLinks(record.primary_equipment))
+		table.insert(out, '| ' .. esc(record.location_notes or ''))
+		table.insert(out, '| ' .. listLinks(record.field_procedures))
+	end
+	table.insert(out, '|}')
+	return table.concat(out, '\n')
+end
+
+function p.equipmentTable()
+	local records = loadData('Module:Data/Mining/Equipment')
+	local out = startTable({ 'Equipment', 'Group', 'Slot / mount', 'Mining role', 'Methods' })
+	for _, record in ipairs(records) do
+		table.insert(out, '|-')
+		table.insert(out, '| data-sort-value="' .. esc(record.page) .. '" | ' .. link(record.page))
+		table.insert(out, '| ' .. esc(record.group))
+		table.insert(out, '| ' .. esc(record.slot or record.mounts or ''))
+		table.insert(out, '| ' .. esc(record.role))
+		table.insert(out, '| ' .. listLinks(record.methods))
+	end
+	table.insert(out, '|}')
+	return table.concat(out, '\n')
+end
+
+function p.locationConcepts()
+	local records = loadData('Module:Data/Mining/Locations')
+	local out = startTable({ 'Concept', 'Use in mining', 'Working notes' })
+	for _, record in ipairs(records) do
+		table.insert(out, '|-')
+		table.insert(out, '| data-sort-value="' .. esc(record.label or record.page) .. '" | ' .. link(record.page, record.label))
+		table.insert(out, '| ' .. esc(record.role))
+		table.insert(out, '| ' .. esc(record.notes))
+	end
+	table.insert(out, '|}')
+	return table.concat(out, '\n')
+end
+
+function p.commodityConcepts()
+	local records = loadData('Module:Data/Mining/Commodities')
+	local out = startTable({ 'Planning group', 'Examples', 'How it is used', 'Notes' })
+	for _, record in ipairs(records) do
+		table.insert(out, '|-')
+		table.insert(out, '| data-sort-value="' .. esc(record.label) .. '" | ' .. esc(record.label))
+		table.insert(out, '| ' .. plainList(record.examples))
+		table.insert(out, '| ' .. esc(record.source))
+		table.insert(out, '| ' .. esc(record.notes))
+	end
+	table.insert(out, '|}')
+	return table.concat(out, '\n')
+end
+
+function p.sourceNotes()
+	local data = loadData('Module:Data/Mining/Sources')
+	local out = {}
+	for _, source in ipairs(data.sources or {}) do
+		local label = esc(source.label)
+		if isNonEmpty(source.url) then
+			label = '[' .. source.url .. ' ' .. label .. ']'
+		end
+		table.insert(out, '* ' .. label .. ' — ' .. esc(source.note))
+	end
+	return table.concat(out, '\n')
+end
+
+function p.equipmentNote(frame)
+	local args = frame:getParent() and frame:getParent().args or frame.args
+	local page = args.page or mw.title.getCurrentTitle().text
+	for _, record in ipairs(loadData('Module:Data/Mining/Equipment')) do
+		if record.page == page then
+			local out = {}
+			table.insert(out, '; Mining role')
+			table.insert(out, ': ' .. esc(record.role))
+			table.insert(out, '; Used by')
+			table.insert(out, ': ' .. listLinks(record.methods))
+			if isNonEmpty(record.notes) then
+				table.insert(out, '; Notes')
+				table.insert(out, ': ' .. esc(record.notes))
+			end
+			return table.concat(out, '\n')
+		end
+	end
+	return ''
+end
+
+return p

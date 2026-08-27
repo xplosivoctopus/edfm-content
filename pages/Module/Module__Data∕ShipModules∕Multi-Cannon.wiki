@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Multi-Cannon
 Namespace: 828
 Page ID: 543
-Revision ID: 1330
-Timestamp: 2026-08-21T00:00:05Z
+Revision ID: 2252
+Timestamp: 2026-08-25T14:14:15Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Multi-Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Multi-Cannon",
+	module_class = "Kinetic weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed, gimballed, and turreted variants",
+	manufacturer = "",
+	availability = "Standard outfitting module family",
+	engineering = "",
+	related_modules = "[[Cannon]], [[Fragment Cannon]]",
 }

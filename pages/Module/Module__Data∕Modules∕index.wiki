@@ -1,0 +1,51 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Modules/index
+Namespace: 828
+Page ID: 659
+Revision ID: 1541
+Timestamp: 2026-08-23T01:47:11Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Modules/index
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"schema_version": 1,
+	"modules": {
+		"frame_shift_drive": {
+			"name": "Frame Shift Drive",
+			"page": "Frame Shift Drive",
+			"data_page": "Module:Data/Modules/Frame Shift Drive",
+			"group": "Core Internal",
+			"subcategory": "Propulsion"
+		},
+		"power_plant": {
+			"name": "Power Plant",
+			"page": "Power Plant",
+			"data_page": "Module:Data/Modules/Power Plant",
+			"group": "Core Internal",
+			"subcategory": "Power"
+		},
+		"shield_generator": {
+			"name": "Shield Generator",
+			"page": "Shield Generator",
+			"data_page": "Module:Data/Modules/Shield Generator",
+			"group": "Optional Internal",
+			"subcategory": "Defence"
+		},
+		"fuel_scoop": {
+			"name": "Fuel Scoop",
+			"page": "Fuel Scoop",
+			"data_page": "Module:Data/Modules/Fuel Scoop",
+			"group": "Optional Internal",
+			"subcategory": "Fuel"
+		},
+		"multi_cannon": {
+			"name": "Multi-cannon",
+			"page": "Multi-cannon",
+			"data_page": "Module:Data/Modules/Multi-cannon",
+			"group": "Hardpoint",
+			"subcategory": "Weapon"
+		}
+	}
+}

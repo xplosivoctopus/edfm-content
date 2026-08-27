@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Railgun
 Namespace: 0
 Page ID: 572
-Revision ID: 1359
-Timestamp: 2026-08-21T00:00:27Z
+Revision ID: 2186
+Timestamp: 2026-08-24T23:44:55Z
 Source URL: https://edfieldmanual.com/wiki/Railgun
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Railgun ship module.
+{{Article header|deck=Structured stub page for the Railgun ship module.
 }}
 
-{{Ship module infobox
- |name = Railgun
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

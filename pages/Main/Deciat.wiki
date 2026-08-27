@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Deciat
 Namespace: 0
 Page ID: 345
-Revision ID: 982
-Timestamp: 2026-08-20T01:37:33Z
+Revision ID: 1894
+Timestamp: 2026-08-24T21:20:58Z
 Source URL: https://edfieldmanual.com/wiki/Deciat
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=An independent Core Systems world best known as the home of Farseer Inc, Felicity Farseer's Engineering workshop.
+{{Article header|deck=An independent Core Systems world best known as the home of Farseer Inc, Felicity Farseer's Engineering workshop.
 }}
 
 {{Article status

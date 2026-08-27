@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Colonia
+Namespace: 0
+Page ID: 666
+Revision ID: 1559
+Timestamp: 2026-08-23T18:07:31Z
+Source URL: https://edfieldmanual.com/wiki/Colonia
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|A location and gameplay hub for Colonia, covering its role in Engineering, travel planning, regional services, and related Commander activities.}}
+
+'''Colonia''' is a distant inhabited region that appears throughout Engineering and exploration planning. This planned article will summarize its significance, key services, Engineer access, and links to regional guides.
+
+[[Category:Locations]]
+[[Category:Exploration]]

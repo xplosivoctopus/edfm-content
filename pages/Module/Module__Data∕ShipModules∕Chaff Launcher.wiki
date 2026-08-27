@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Chaff Launcher
 Namespace: 828
 Page ID: 462
-Revision ID: 1249
-Timestamp: 2026-08-20T23:59:06Z
+Revision ID: 2261
+Timestamp: 2026-08-25T14:14:22Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Chaff_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Chaff Launcher",
+	module_class = "Defensive utility",
+	slot_type = "Utility mount",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Electronic Countermeasure]], [[Heat Sink Launcher]], [[Point Defence Turret]]",
 }

@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Ships
 Namespace: 0
 Page ID: 331
-Revision ID: 869
-Timestamp: 2026-08-17T05:05:15Z
+Revision ID: 2022
+Timestamp: 2026-08-24T21:23:57Z
 Source URL: https://edfieldmanual.com/wiki/Ships
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ships
- |deck=Directory of Commander-piloted starships, organized by landing-pad size with basic hull information and links to each ship.
+{{Article header|deck=Directory of Commander-piloted starships, organized by landing-pad size with basic hull information and links to each ship.
 }}
 
 '''Ships''' are the primary vessels flown by Commanders in [[Elite Dangerous]]. They range from small fighters and utility craft to large freighters, passenger liners, exploration vessels, and warships.

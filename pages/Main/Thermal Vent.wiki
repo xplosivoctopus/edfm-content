@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Thermal Vent
 Namespace: 0
 Page ID: 102
-Revision ID: 175
-Timestamp: 2026-08-07T20:12:42Z
+Revision ID: 2039
+Timestamp: 2026-08-24T21:24:21Z
 Source URL: https://edfieldmanual.com/wiki/Thermal_Vent
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Experimental Effect|deck=To be added: a one-line summary of what this Experimental Effect does.}}
+{{Article header|deck=To be added: a one-line summary of what this Experimental Effect does.}}
 {{Article status|status=Draft|mode=Both}}
 
 {{Draft warning}}

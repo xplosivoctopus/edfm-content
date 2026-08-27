@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Unlocking Jude Navarro
 Namespace: 0
 Page ID: 648
-Revision ID: 1508
-Timestamp: 2026-08-21T14:40:56Z
+Revision ID: 2060
+Timestamp: 2026-08-24T21:24:48Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Jude_Navarro
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Jude Navarro — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+{{Article header|deck=The actionable checklist for gaining access to Jude Navarro — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
 
 This Field Procedure covers only the steps to unlock [[Jude Navarro]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Jude Navarro]].
 

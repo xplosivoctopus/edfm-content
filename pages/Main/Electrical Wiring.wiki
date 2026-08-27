@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Electrical Wiring
+Namespace: 0
+Page ID: 676
+Revision ID: 1569
+Timestamp: 2026-08-23T18:40:00Z
+Source URL: https://edfieldmanual.com/wiki/Electrical_Wiring
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an Odyssey material reference for Electrical Wiring, including usage and sourcing notes once source-backed details are added.}}
+
+'''Electrical Wiring''' is an Odyssey material. This planned reference will document where it is used, how Commanders commonly source it, and which upgrades or modifications consume it.
+
+[[Category:Engineering Materials]]
+[[Category:Odyssey Engineering]]

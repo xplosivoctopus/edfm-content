@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Engineer Reputation
+Namespace: 0
+Page ID: 668
+Revision ID: 1561
+Timestamp: 2026-08-23T18:07:32Z
+Source URL: https://edfieldmanual.com/wiki/Engineer_Reputation
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|A focused guide to ship Engineer reputation, grade access, blueprint progression, referrals, and practical ways to raise access with individual Engineers.}}
+
+'''Engineer Reputation''' covers the Grade 1 through Grade 5 progression used by ship Engineers and how that progression affects available blueprint grades. This article is planned as the central reference for reputation gains, referrals, remote Engineering availability, and common unlock questions.
+
+[[Category:Engineering]]
+[[Category:Engineers]]

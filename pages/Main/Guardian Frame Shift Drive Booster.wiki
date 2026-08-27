@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Guardian Frame Shift Drive Booster
 Namespace: 0
 Page ID: 502
-Revision ID: 1289
-Timestamp: 2026-08-20T23:59:34Z
+Revision ID: 2156
+Timestamp: 2026-08-24T23:44:17Z
 Source URL: https://edfieldmanual.com/wiki/Guardian_Frame_Shift_Drive_Booster
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Guardian Frame Shift Drive Booster ship module.
+{{Article header|deck=Structured stub page for the Guardian Frame Shift Drive Booster ship module.
 }}
 
-{{Ship module infobox
- |name = Guardian Frame Shift Drive Booster
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

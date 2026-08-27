@@ -1,0 +1,18 @@
+<!--
+EDFM current-content archive export.
+Title: Extra Ammo Capacity
+Namespace: 0
+Page ID: 678
+Revision ID: 1571
+Timestamp: 2026-08-23T18:40:01Z
+Source URL: https://edfieldmanual.com/wiki/Extra_Ammo_Capacity
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an Odyssey weapon modification reference for Extra Ammo Capacity and weapon-build trade-offs.}}
+
+'''Extra Ammo Capacity''' is an Odyssey Engineering modification. This planned reference will cover compatible weapons, combat implications, and material-planning considerations.
+
+[[Category:Odyssey Engineering]]
+[[Category:Weapon Engineering]]
+[[Category:Odyssey]]

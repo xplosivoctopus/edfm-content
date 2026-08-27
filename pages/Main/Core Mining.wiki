@@ -1,0 +1,58 @@
+<!--
+EDFM current-content archive export.
+Title: Core Mining
+Namespace: 0
+Page ID: 723
+Revision ID: 1891
+Timestamp: 2026-08-24T21:20:54Z
+Source URL: https://edfieldmanual.com/wiki/Core_Mining
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Research-backed draft using current mining loop and EDCD mining equipment data|uncertainty=Candidate recognition details and commodity-specific advice still need direct Live-game verification.}}
+__NOINDEX__
+{{Article header|deck=Core mining identifies fissured asteroids, cracks them with seismic charges, and collects the exposed deposits.}}
+
+'''Core mining''' is the mining method built around finding an asteroid core, placing [[Seismic Charge Launcher|seismic charges]] into fissures, detonating the asteroid safely, and collecting the deposits exposed by the break-up.
+
+{{Draft warning}}
+
+== When to use core mining ==
+
+Core mining is more deliberate than laser mining. The commander searches for a promising asteroid, confirms that it has fissures and valuable contents, places charges, moves clear of the blast, then uses an [[Abrasion Blaster]] and collectors to recover the exposed deposits.
+
+It rewards careful target selection and timing. It also punishes wasted charges, poor positioning, and cargo/refinery neglect, so a new commander should learn the normal collector and refinery loop first.
+
+== Equipment ==
+
+Core mining normally uses:
+
+* [[Pulse Wave Analyser]] — highlights candidate asteroids worth inspecting.
+* [[Prospector Limpet Controller]] — confirms contents and deposits before charges are spent.
+* [[Seismic Charge Launcher]] — places charges into fissures.
+* [[Abrasion Blaster]] — removes exposed deposits after detonation.
+* [[Collector Limpet Controller]], [[Refinery]], cargo space, and limpets.
+* [[Detailed Surface Scanner]] — useful for finding mapped hotspots before the search begins.
+
+== Workflow summary ==
+
+# Search the ring for promising asteroids with the pulse wave analyser.
+# Inspect and prospect candidates rather than firing charges blindly.
+# Place seismic charges according to fissure strength and the detonation meter.
+# Move to a safe distance before the detonation timer completes.
+# Use an abrasion blaster on exposed deposits and collect the released resources.
+# Refine, keep or vent commodities according to the run plan.
+
+== Practical notes ==
+
+* A bright pulse-wave return is a clue, not proof of a valuable core.
+* The charge meter matters more than simply filling every fissure.
+* After detonation, the job is not finished until exposed deposits have been knocked loose and collected.
+* Core mining shares equipment with [[Surface Deposit Mining]], but the fissure-and-detonation stage is specific to core asteroids.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Core Mining}}
+
+{{Related articles|[[Mining]] [[Pulse Wave Analyser]] [[Seismic Charge Launcher]] [[Abrasion Blaster]] [[How to Core Mine]]}}
+[[Category:Mining]]

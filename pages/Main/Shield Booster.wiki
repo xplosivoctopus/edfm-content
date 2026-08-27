@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Shield Booster
 Namespace: 0
 Page ID: 370
-Revision ID: 1007
-Timestamp: 2026-08-20T01:37:50Z
+Revision ID: 2017
+Timestamp: 2026-08-24T21:23:51Z
 Source URL: https://edfieldmanual.com/wiki/Shield_Booster
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Module
- |deck=A utility-slot module that adds extra shield strength and resistances on top of a ship's Shield Generator.
+{{Article header|deck=A utility-slot module that adds extra shield strength and resistances on top of a ship's Shield Generator.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}

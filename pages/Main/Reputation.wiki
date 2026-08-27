@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Reputation
+Namespace: 0
+Page ID: 674
+Revision ID: 1567
+Timestamp: 2026-08-23T18:08:36Z
+Source URL: https://edfieldmanual.com/wiki/Reputation
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Engineer Reputation]]
+
+[[Category:Engineering]]

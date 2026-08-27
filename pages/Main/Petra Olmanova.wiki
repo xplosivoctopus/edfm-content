@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Petra Olmanova
 Namespace: 0
 Page ID: 125
-Revision ID: 1466
-Timestamp: 2026-08-21T14:38:58Z
+Revision ID: 1987
+Timestamp: 2026-08-24T21:23:11Z
 Source URL: https://edfieldmanual.com/wiki/Petra_Olmanova
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 armour, explosive-weapon, and defensive-utility Engineer based at Sanctuary in the Colonia region, reached through Tod "The Blaster" McQuinn.
+{{Article header|deck=A Grade 5 armour, explosive-weapon, and defensive-utility Engineer based at Sanctuary in the Colonia region, reached through Tod "The Blaster" McQuinn.
 }}
 
 {{Engineer infobox}}

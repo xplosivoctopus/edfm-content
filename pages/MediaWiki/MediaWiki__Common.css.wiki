@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.css
 Namespace: 8
 Page ID: 69
-Revision ID: 1411
-Timestamp: 2026-08-21T13:45:19Z
+Revision ID: 2349
+Timestamp: 2026-08-26T22:26:10Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -579,6 +579,24 @@ a.external { color: var( --edfm-link-external ); }
 }
 .edfm-eyebrow .edfm-orange-mark {
 	color: var( --edfm-orange );
+}
+.edfm-eyebrow a,
+.edfm-eyebrow a:visited {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-color: rgba( 255, 138, 0, 0.45 );
+	text-decoration-thickness: 0.08em;
+	text-underline-offset: 0.22em;
+}
+.edfm-eyebrow a:hover {
+	color: var( --edfm-orange );
+	text-decoration-color: currentColor;
+}
+.edfm-eyebrow a:focus-visible {
+	color: var( --edfm-orange );
+	outline: 2px solid var( --edfm-orange );
+	outline-offset: 0.18em;
+	border-radius: 2px;
 }
 .edfm-deck {
 	color: var( --edfm-text-muted );
@@ -3711,12 +3729,43 @@ body.mediawiki.mw-special-CreateAccount #wpRealName:focus {
 }
 
 /* ==========================================================================
-   EDFM Special:Preferences dark theme fix — 2026-08-16
-   Preferences is an OOUI/Codex-heavy special page. Core styles bring in a
-   light tab strip and sticky submit footer, so theme the actual preferences
-   wrapper rather than only generic form controls.
+   EDFM Commander Account / Preferences interface — 2026-08-26 (v1),
+   refined 2026-08-27 (v2, visual polish pass).
+   Special:Preferences is OOUI/Codex-heavy and structurally hard to change
+   safely (see EDFMPreferencesUI extension for the two PHP-level changes:
+   (1) regrouping fields into Commander Identity / Connected Accounts /
+   Account / Security via HTMLForm's native subsection mechanism, and
+   (2) adding 'edfm-setting-row'/'edfm-setting-row--inline'/'edfm-panel-row'
+   marker classes via the 'cssclass' field param, so this stylesheet has one
+   reusable selector per pattern instead of a pile of per-field :has()
+   overrides). Everything else here is presentation only. Selectors are
+   scoped to body.mw-special-Preferences throughout; nothing here touches
+   article pages.
+
+   v2 fixes (each tied to a real, verified root cause, not a guess):
+   - Tab bar showing light gray: OOUI's own `.oo-ui-tabSelectWidget-framed`
+     sets `background-color: var(--background-color-interactive, #eaecf0)`
+     (oojs-ui-widgets-wikimediaui.css) -- v1 never overrode it, only the
+     wrapper around it. Fixed below.
+   - Section spacing cut ~35%, section headings given the same left-border
+     accent treatment as the sidebar's .vector-menu-heading (same tokens,
+     same idea, for real cross-page consistency) plus a slightly larger size.
+   - Settings-row control ("floating in the middle of the page") now uses
+     the same reusable pattern (label/description left, control right) for
+     the CMDR toggle, password, and 2FA rows, via the new marker classes.
+   - Group badges: more vertical padding + line-height (the tight box was
+     reading as "text with a line through it").
+   - Connected Accounts and Account sections restructured (panel + grid).
+   - Width brought in from 1100px to 1000px.
    ========================================================================== */
-body.mediawiki.mw-special-Preferences #preferences,
+
+/* ---- 12. Content width: shared by tab bar, sections, and Save row ---- */
+body.mediawiki.mw-special-Preferences #preferences {
+	max-width: 62.5rem; /* ~1000px */
+	margin: 0 auto;
+}
+
+/* ---- Remove the "one giant card" impression ---- */
 body.mediawiki.mw-special-Preferences #mw-prefs-container,
 body.mediawiki.mw-special-Preferences .mw-prefs-tabs-wrapper,
 body.mediawiki.mw-special-Preferences .mw-prefs-tabs,
@@ -3726,42 +3775,121 @@ body.mediawiki.mw-special-Preferences .mw-prefs-tabs > .oo-ui-menuLayout-content
 body.mediawiki.mw-special-Preferences .mw-prefs-fieldset-wrapper,
 body.mediawiki.mw-special-Preferences .oo-ui-panelLayout,
 body.mediawiki.mw-special-Preferences .oo-ui-panelLayout-framed {
-	background: var( --edfm-surface-1 ) !important;
-	border-color: var( --edfm-border ) !important;
+	background: transparent !important;
+	border: 0 !important;
 	color: var( --edfm-text ) !important;
 }
 body.mediawiki.mw-special-Preferences .mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed {
-	box-shadow: 0 18px 36px rgba( 0, 0, 0, 0.32 );
+	box-shadow: none !important;
 }
-body.mediawiki.mw-special-Preferences .mw-prefs-tabs > .oo-ui-menuLayout-menu,
+
+/* ---- Page heading + intro line (native mw-specialpage-summary) ---- */
+body.mediawiki.mw-special-Preferences .mw-specialpage-summary {
+	color: var( --edfm-text-muted );
+	font-size: var( --edfm-fs-meta );
+	margin-bottom: 1rem;
+}
+
+/* ==========================================================================
+   1. Tab strip -- dark surface, underline nav, no boxed buttons
+   ========================================================================== */
 body.mediawiki.mw-special-Preferences .oo-ui-menuLayout-menu {
-	background: var( --edfm-surface-2 ) !important;
-	border-color: var( --edfm-border ) !important;
-	color: var( --edfm-text ) !important;
+	border-bottom: 1px solid var( --edfm-border );
+	margin-bottom: 1.25rem;
 }
+/* This is the actual fix for the light-gray bar: OOUI's own theme sets
+   `.oo-ui-tabSelectWidget-framed { background-color: #eaecf0 }` directly
+   (oojs-ui-widgets-wikimediaui.css) -- overriding only the wrapper around
+   it, as v1 did, left this showing through untouched. */
 body.mediawiki.mw-special-Preferences .oo-ui-tabSelectWidget,
+body.mediawiki.mw-special-Preferences .oo-ui-tabSelectWidget-framed,
+body.mediawiki.mw-special-Preferences .oo-ui-tabSelectWidget-frameless {
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+body.mediawiki.mw-special-Preferences .oo-ui-tabSelectWidget {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	gap: 0.15rem;
+	scrollbar-width: thin;
+}
 body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget,
 body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget > .oo-ui-labelElement-label,
 body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget.oo-ui-widget-enabled > .oo-ui-labelElement-label {
-	background: var( --edfm-surface-2 ) !important;
-	border-color: var( --edfm-border ) !important;
+	background: transparent !important;
+	border: 0 !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
 	color: var( --edfm-text-muted ) !important;
+}
+body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget {
+	flex: 0 0 auto;
+	margin: 0 !important;
+	padding: 0.7rem 1.1rem !important;
+	font-family: var( --edfm-mono );
+	font-size: 0.8rem;
+	font-weight: 800;
+	letter-spacing: 0.045em;
+	text-transform: uppercase;
+	white-space: nowrap;
+	transition: color 120ms ease, box-shadow 120ms ease;
 }
 body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget:hover,
 body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget.oo-ui-optionWidget-highlighted {
-	background: var( --edfm-surface-3 ) !important;
 	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget:focus-visible {
+	outline: 2px solid var( --edfm-cyan );
+	outline-offset: -2px;
+}
+/* OOUI's TabSelectWidget uses a roving-tabindex/ARIA tablist pattern --
+   Tab key focuses the *list* (role='tablist', tabindex='0'), not the
+   individual tab options (arrow keys move selection between those without
+   moving real DOM focus) -- confirmed by inspecting the actual focused
+   element in testing, not assumed. Without this rule there is no visible
+   indicator at all that keyboard focus has reached the tab bar. */
+body.mediawiki.mw-special-Preferences .oo-ui-tabSelectWidget:focus-visible {
+	outline: 2px solid var( --edfm-cyan );
+	outline-offset: -2px;
 }
 body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected,
 body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected > .oo-ui-labelElement-label,
 body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected.oo-ui-widget-enabled > .oo-ui-labelElement-label {
-	background: var( --edfm-surface-3 ) !important;
-	border-color: var( --edfm-orange ) !important;
-	box-shadow: inset 0 -3px 0 var( --edfm-orange ) !important;
+	background: transparent !important;
+	box-shadow: inset 0 -2px 0 var( --edfm-orange ) !important;
 	color: var( --edfm-text ) !important;
 }
-body.mediawiki.mw-special-Preferences .oo-ui-fieldsetLayout-header,
-body.mediawiki.mw-special-Preferences .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label,
+
+/* ==========================================================================
+   2 & 3. Section spacing (~35% tighter than v1) and section headings
+   (same left-border-accent language as the sidebar's .vector-menu-heading,
+   sized up slightly for prominence as its own structural level).
+   ========================================================================== */
+body.mediawiki.mw-special-Preferences .mw-prefs-fieldset-wrapper {
+	margin-top: 1.5rem;
+	padding-top: 1rem;
+	border-top: 1px solid var( --edfm-border-soft );
+}
+body.mediawiki.mw-special-Preferences .mw-prefs-fieldset-wrapper:first-child {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: 0;
+}
+body.mediawiki.mw-special-Preferences .oo-ui-fieldsetLayout-header {
+	margin-bottom: 0.85rem !important;
+}
+body.mediawiki.mw-special-Preferences .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label {
+	display: inline-block;
+	color: var( --edfm-text-muted ) !important;
+	font-family: var( --edfm-mono );
+	font-size: 0.85rem;
+	font-weight: 800;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	border-left: 2px solid var( --edfm-orange );
+	padding-left: 0.6em;
+}
 body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout-header,
 body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout-header label,
 body.mediawiki.mw-special-Preferences .oo-ui-labelElement-label,
@@ -3776,7 +3904,14 @@ body.mediawiki.mw-special-Preferences .htmlform-tip,
 body.mediawiki.mw-special-Preferences .mw-htmlform-help {
 	background: transparent !important;
 	color: var( --edfm-text-muted ) !important;
+	line-height: 1.5;
 }
+/* Vertical rhythm between individual setting rows within a subsection */
+body.mediawiki.mw-special-Preferences [ class^='mw-htmlform-field-' ] + [ class^='mw-htmlform-field-' ] {
+	margin-top: 0.7rem;
+}
+
+/* ---- Inputs / buttons (unchanged in substance from the v1 dark theme) ---- */
 body.mediawiki.mw-special-Preferences .oo-ui-textInputWidget .oo-ui-inputWidget-input,
 body.mediawiki.mw-special-Preferences .oo-ui-dropdownInputWidget select,
 body.mediawiki.mw-special-Preferences .oo-ui-dropdownWidget-handle,
@@ -3816,6 +3951,15 @@ body.mediawiki.mw-special-Preferences input[type='checkbox']:checked {
 	border-color: var( --edfm-orange ) !important;
 	accent-color: var( --edfm-orange );
 }
+/* Radio choices (Internationalisation's "how do you prefer to be
+   described" and similar) -- give each option breathing room; native
+   radio semantics/label-for association are untouched. */
+body.mediawiki.mw-special-Preferences .oo-ui-radioSelectWidget .oo-ui-radioOptionWidget {
+	margin-bottom: 0.55rem;
+}
+body.mediawiki.mw-special-Preferences .oo-ui-radioSelectWidget .oo-ui-radioOptionWidget:last-child {
+	margin-bottom: 0;
+}
 body.mediawiki.mw-special-Preferences .oo-ui-buttonElement-framed > .oo-ui-buttonElement-button,
 body.mediawiki.mw-special-Preferences .oo-ui-buttonElement-frameless > .oo-ui-buttonElement-button,
 body.mediawiki.mw-special-Preferences .mw-htmlform-submit,
@@ -3823,6 +3967,7 @@ body.mediawiki.mw-special-Preferences button,
 body.mediawiki.mw-special-Preferences input[type='submit'] {
 	background: var( --edfm-surface-3 ) !important;
 	border-color: var( --edfm-border ) !important;
+	border-radius: 0 !important;
 	color: var( --edfm-text ) !important;
 	box-shadow: none !important;
 }
@@ -3835,19 +3980,770 @@ body.mediawiki.mw-special-Preferences input[type='submit']:hover {
 	border-color: var( --edfm-orange ) !important;
 	color: var( --edfm-orange-bright ) !important;
 }
-body.mediawiki.mw-special-Preferences #preferences .mw-htmlform-submit-buttons,
-body.mediawiki.mw-special-Preferences .mw-htmlform-submit-buttons,
-body.mediawiki.mw-special-Preferences .oo-ui-window-foot .mw-htmlform-submit-buttons {
-	background: rgba( 16, 23, 27, 0.96 ) !important;
-	border-top: 1px solid var( --edfm-border ) !important;
-	box-shadow: 0 -10px 24px rgba( 0, 0, 0, 0.34 ) !important;
-	color: var( --edfm-text ) !important;
-}
 body.mediawiki.mw-special-Preferences .mw-prefs-search-highlight,
 body.mediawiki.mw-special-Preferences .mw-prefs-tabs:not( .mw-prefs-tabs-searching ) .oo-ui-fieldsetLayout:target > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label {
 	background: rgba( 66, 199, 217, 0.18 ) !important;
 	outline-color: rgba( 66, 199, 217, 0.32 ) !important;
 	color: var( --edfm-text ) !important;
+}
+
+
+/* ===========================================================================
+   Echo notification subscription matrix (Special:Preferences > Notifications)
+   ========================================================================== */
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix {
+	background: transparent !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0 0.35rem !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix th,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix th {
+	background: transparent !important;
+	color: var( --edfm-text ) !important;
+	font-weight: 700;
+}
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix td,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix td {
+	background: var( --edfm-surface-1 ) !important;
+	color: var( --edfm-text ) !important;
+	transition: background-color 120ms ease, color 120ms ease;
+}
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix tbody tr:nth-child( even ) td,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix tbody tr:nth-child( even ) td {
+	background: var( --edfm-bg-deep ) !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix tbody tr:hover td,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix tbody tr:hover td {
+	background: rgba( 255, 138, 0, 0.12 ) !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-fieldLayout-header,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-fieldLayout-header label,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-labelElement-label {
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-fieldLayout-help .oo-ui-iconElement-icon,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-tooltip {
+	background-color: var( --edfm-text ) !important;
+	opacity: 1 !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox'] + span,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox'] + span::before {
+	opacity: 1 !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox']:checked + span,
+body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox']:checked + span::before {
+	background-color: var( --edfm-orange ) !important;
+	border-color: var( --edfm-orange ) !important;
+}
+@media ( max-width: 700px ) {
+	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix,
+	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix {
+		font-size: 0.9rem;
+	}
+	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix td,
+	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix th,
+	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix td,
+	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix th {
+		padding: 0.55rem 0.45rem !important;
+	}
+}
+
+/* ==========================================================================
+   11. Save action -- primary EDFM action treatment, normal (non-sticky)
+   bottom row with a top divider, shares the same content width.
+   Button label itself comes from MediaWiki:Saveprefs ("Save changes"),
+   not CSS content -- see final report.
+   ========================================================================== */
+body.mediawiki.mw-special-Preferences #preferences .mw-htmlform-submit-buttons,
+body.mediawiki.mw-special-Preferences .mw-htmlform-submit-buttons,
+body.mediawiki.mw-special-Preferences .oo-ui-window-foot .mw-htmlform-submit-buttons {
+	position: static !important;
+	bottom: auto !important;
+	margin: 1.75rem 0 0 !important;
+	padding: 1rem 0 0 !important;
+	background: transparent !important;
+	border-top: 1px solid var( --edfm-border ) !important;
+	box-shadow: none !important;
+	color: var( --edfm-text ) !important;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+body.mediawiki.mw-special-Preferences .mw-htmlform-submit-buttons .mw-htmlform-submit {
+	background: rgba( 255, 138, 0, 0.12 ) !important;
+	border: 1px solid var( --edfm-orange ) !important;
+	color: var( --edfm-orange-bright ) !important;
+	font-weight: 800;
+	letter-spacing: 0.02em;
+	padding: 0.6rem 1.4rem !important;
+}
+body.mediawiki.mw-special-Preferences .mw-htmlform-submit-buttons .mw-htmlform-submit:hover,
+body.mediawiki.mw-special-Preferences .mw-htmlform-submit-buttons .mw-htmlform-submit:focus-visible {
+	background: var( --edfm-orange ) !important;
+	border-color: var( --edfm-orange-bright ) !important;
+	color: #10171b !important;
+}
+
+/* ==========================================================================
+   13. Reusable settings-row pattern: label/description on one side, a
+   single control on the other. Applied via the 'edfm-setting-row' marker
+   class (EDFMPreferencesUI's GetPreferences hook adds it to specific
+   fields: the CMDR toggle, password, and 2FA) rather than one bespoke
+   :has() selector per field as in v1. Only used where a field's native
+   shape genuinely fits it (a single label+control pair) -- not forced
+   onto every preference.
+
+   OOUI emits a *different* child order depending on field alignment:
+   'top'-aligned fields (password, 2FA -- both plain info fields) emit
+   [header, field], which already reads as label-then-control left-to-right
+   once flexed; 'inline'-aligned fields (the CMDR checkbox) emit
+   [field, header], so that variant needs flex-direction reversed --
+   that's what 'edfm-setting-row--inline' is for.
+   ========================================================================== */
+body.mediawiki.mw-special-Preferences .edfm-setting-row {
+	margin-top: 1rem !important;
+	padding-top: 0.85rem;
+	border-top: 1px solid var( --edfm-border-soft );
+}
+body.mediawiki.mw-special-Preferences .edfm-setting-row:first-child {
+	margin-top: 0 !important;
+	padding-top: 0;
+	border-top: 0;
+}
+body.mediawiki.mw-special-Preferences .edfm-setting-row .oo-ui-fieldLayout-body {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem 1.5rem;
+	width: 100%;
+}
+body.mediawiki.mw-special-Preferences .edfm-setting-row--inline .oo-ui-fieldLayout-body {
+	flex-direction: row-reverse;
+}
+body.mediawiki.mw-special-Preferences .edfm-setting-row .oo-ui-fieldLayout-header {
+	flex: 1 1 auto;
+	min-width: 14rem;
+}
+body.mediawiki.mw-special-Preferences .edfm-setting-row .oo-ui-fieldLayout-field {
+	flex: 0 0 auto;
+	/* OOUI's own CSS sets `width: 1px` here for align-inline fields (a
+	   display:table-cell shrink-to-fit trick -- see
+	   oojs-ui-core-wikimediaui.css's align-inline rules) which is harmless
+	   in OOUI's normal table layout but overflows badly once this row is
+	   forced into flex (a 1px-wide flex item doesn't shrink its child, so
+	   the checkbox/button inside just spills out of it). Confirmed via
+	   getBoundingClientRect() during testing: the field cell was ~1px wide
+	   while its checkbox child rendered at full size outside it. */
+	width: auto !important;
+}
+@media ( max-width: 700px ) {
+	body.mediawiki.mw-special-Preferences .edfm-setting-row .oo-ui-fieldLayout-body {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	body.mediawiki.mw-special-Preferences .edfm-setting-row--inline .oo-ui-fieldLayout-body {
+		flex-direction: column-reverse;
+	}
+}
+
+/* ==========================================================================
+   4. Commander Identity (#mw-prefsection-personal-commander)
+   ========================================================================== */
+/* Hide only the redundant field-level labels for the two rows whose
+   content is already self-describing ("CMDR X" / the bare username) --
+   scoped by :has() to the exact field, not the whole subsection, so the
+   toggle's own visible label further down is left untouched. */
+body.mediawiki.mw-special-Preferences .mw-htmlform-field-HTMLInfoField:has( #mw-input-wpedfm-commander-name-status ) .oo-ui-fieldLayout-header,
+body.mediawiki.mw-special-Preferences .mw-htmlform-field-HTMLInfoField:has( #mw-input-wpusername ) .oo-ui-fieldLayout-header {
+	display: none;
+}
+/* Username row becomes a single quiet "EDFM account: Sythan" caption
+   line instead of a separate "Username" label above the value. */
+body.mediawiki.mw-special-Preferences .mw-htmlform-field-HTMLInfoField:has( #mw-input-wpusername ) {
+	display: flex;
+	align-items: baseline;
+	gap: 0.35em;
+	color: var( --edfm-text-dim );
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-utility );
+	letter-spacing: 0.02em;
+}
+body.mediawiki.mw-special-Preferences .mw-htmlform-field-HTMLInfoField:has( #mw-input-wpusername )::before {
+	content: 'EDFM account:';
+}
+
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-status {
+	display: block;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-status strong {
+	color: var( --edfm-text );
+	font-family: var( --edfm-heading, var( --edfm-sans ) );
+	font-size: var( --edfm-fs-h2 );
+	font-weight: 900;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-status .edfm-muted {
+	display: inline-block;
+	margin-left: 0.65rem;
+	padding: 0.2rem 0.6rem;
+	border: 1px solid var( --edfm-border );
+	background: var( --edfm-status-neutral-bg );
+	color: var( --edfm-text-muted );
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-utility );
+	font-weight: 800;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+/* When a CMDR name is attached, the status field contains a <strong> --
+   give that specific badge the "verified" treatment. Progressive
+   enhancement: browsers without :has() just keep the neutral badge above. */
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-status:has( strong ) .edfm-muted {
+	border-color: var( --edfm-cyan );
+	background: var( --edfm-status-positive-bg );
+	color: var( --edfm-cyan );
+}
+body.mediawiki.mw-special-Preferences #mw-prefsection-personal-commander .edfm-frontier-attach-btn {
+	margin-top: 0.6rem;
+	margin-left: 0;
+}
+
+/* CMDR public/private toggle: real checkbox, styled as a switch, laid out
+   via the shared .edfm-setting-row(--inline) pattern above. */
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public {
+	flex: 0 0 auto;
+	width: 2.65rem;
+	height: 1.5rem;
+}
+/* The 'edfm-setting-row--inline' class EDFMPreferencesUI adds also lands on
+   OOUI's .oo-ui-checkboxInputWidget *wrapper* span (see field config in
+   Hooks.php) rather than the real <input type=checkbox> itself (that gets
+   a non-deterministic OOUI id) -- so every rule below reaches the real
+   input/visual sibling through that wrapper's stable id instead. OOUI
+   already renders the real input with opacity:0 positioned over a visible
+   `+ span` sibling (its normal accessible-custom-checkbox pattern, same
+   one the generic checkbox rules above rely on) -- this just reshapes that
+   existing sibling into a pill/thumb instead of a checkbox square; the
+   input itself stays fully native and keyboard-operable. */
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public input[ type='checkbox' ] {
+	width: 2.65rem !important;
+	height: 1.5rem !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public input[ type='checkbox' ] + span {
+	width: 2.65rem !important;
+	height: 1.5rem !important;
+	border: 1px solid var( --edfm-border ) !important;
+	border-radius: 999px !important;
+	background-color: var( --edfm-bg-deep ) !important;
+	background-image: none !important;
+	transition: background-color 120ms ease, border-color 120ms ease;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public input[ type='checkbox' ] + span::before {
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 50%;
+	background: var( --edfm-text-dim );
+	transition: transform 120ms ease, background 120ms ease;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public input[ type='checkbox' ]:checked + span {
+	background-color: rgba( 255, 138, 0, 0.16 ) !important;
+	border-color: var( --edfm-orange ) !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public input[ type='checkbox' ]:checked + span::before {
+	background: var( --edfm-orange );
+	transform: translateX( 1.15rem );
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public input[ type='checkbox' ]:focus-visible + span {
+	outline: 2px solid var( --edfm-cyan );
+	outline-offset: 2px;
+}
+
+/* ==========================================================================
+   5. Connected Accounts (#mw-prefsection-personal-connected) -- a real
+   integration row (subtle panel, not just text + a button), via the
+   'edfm-panel-row' marker class.
+   ========================================================================== */
+body.mediawiki.mw-special-Preferences .edfm-panel-row {
+	padding: 0.9rem 1.1rem;
+	background: var( --edfm-surface-1 );
+	border: 1px solid var( --edfm-border );
+}
+body.mediawiki.mw-special-Preferences .edfm-panel-row .oo-ui-fieldLayout-header {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	margin-bottom: 0.6rem;
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-utility );
+	font-weight: 800;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+/* Discord glyph (Font Awesome Free Brands "discord" path -- the same mark
+   already used on Special:UserLogin's provider tabs, see
+   ext.edfmFrontierOAuth.loginScripts.js -- reused here as a static CSS
+   icon since that module's JS can't run on this page; see the Technical
+   approach note in the final report about disallowUserJs(). ) */
+body.mediawiki.mw-special-Preferences #mw-prefsection-personal-connected .oo-ui-fieldLayout-header::before {
+	content: '';
+	display: inline-block;
+	width: 1.1rem;
+	height: 0.88rem;
+	background: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'%3E%3Cpath fill='%2398a5ad' d='M524.5 69.8a1.5 1.5 0 0 0-.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0-1.9.9 337.5 337.5 0 0 0-14.9 30.6 447.8 447.8 0 0 0-134.4 0 309.5 309.5 0 0 0-15.1-30.6 1.9 1.9 0 0 0-1.9-.9 483.7 483.7 0 0 0-119.8 37.1 1.7 1.7 0 0 0-.8.7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4 487.7 487.7 0 0 0 146.9 74.2 1.9 1.9 0 0 0 2.1-.7 348.2 348.2 0 0 0 30.1-49.1 1.9 1.9 0 0 0-1-2.6 321.2 321.2 0 0 1-45.9-21.9 1.9 1.9 0 0 1-.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9.2c3 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1-.2 3.1 301.4 301.4 0 0 1-45.9 21.8 1.9 1.9 0 0 0-1 2.6 391.1 391.1 0 0 0 30 49.2 1.9 1.9 0 0 0 2.1.7 486 486 0 0 0 147.1-74.2 1.9 1.9 0 0 0 .8-1.4c12.3-126.7-20.6-236.8-87.1-334.6ZM222.5 337.6c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2Zm195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2Z'/%3E%3C/svg%3E" ) center / contain no-repeat;
+	flex: 0 0 auto;
+}
+body.mediawiki.mw-special-Preferences .edfm-panel-row .oo-ui-fieldLayout-field {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.6rem 0.9rem;
+}
+body.mediawiki.mw-special-Preferences .edfm-panel-row .oo-ui-inline-help {
+	display: block;
+	margin-top: 0.6rem;
+	font-size: var( --edfm-fs-meta );
+	line-height: 1.5;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-discord-connect-status strong {
+	display: inline-block;
+	padding: 0.2rem 0.6rem;
+	border: 1px solid var( --edfm-cyan );
+	background: var( --edfm-status-positive-bg );
+	color: var( --edfm-cyan );
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-utility );
+	font-weight: 800;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpedfm-discord-connect-status .edfm-muted {
+	display: inline-block;
+	padding: 0.2rem 0.6rem;
+	border: 1px solid var( --edfm-border );
+	background: var( --edfm-status-neutral-bg );
+	color: var( --edfm-text-muted );
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-utility );
+	font-weight: 800;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+body.mediawiki.mw-special-Preferences .edfm-panel-row .edfm-frontier-attach-btn {
+	margin-left: auto;
+}
+
+/* ==========================================================================
+   7. Account (#mw-prefsection-personal-account) -- compact label/value
+   grid instead of one field per stacked block. Native structure already
+   gives each row [header, field] as the only two children of its own
+   .oo-ui-fieldLayout-body, so a fixed-width label column lines every row
+   up consistently without needing one shared container.
+   ========================================================================== */
+body.mediawiki.mw-special-Preferences #mw-prefsection-personal-account .oo-ui-fieldLayout-body {
+	display: grid;
+	grid-template-columns: 11rem 1fr;
+	column-gap: 1.25rem;
+	row-gap: 0.3rem;
+	align-items: baseline;
+}
+body.mediawiki.mw-special-Preferences #mw-prefsection-personal-account .oo-ui-fieldLayout-header {
+	color: var( --edfm-text-dim ) !important;
+	font-size: var( --edfm-fs-meta );
+}
+body.mediawiki.mw-special-Preferences #mw-prefsection-personal-account .oo-ui-fieldLayout-field {
+	color: var( --edfm-text ) !important;
+}
+/* Help text (e.g. "Access account data"'s explanation) spans both columns
+   on its own line under the row instead of squeezing into the label column. */
+body.mediawiki.mw-special-Preferences #mw-prefsection-personal-account .oo-ui-fieldLayout-messages,
+body.mediawiki.mw-special-Preferences #mw-prefsection-personal-account .oo-ui-inline-help {
+	grid-column: 1 / -1;
+}
+/* Group badge chips -- CSS only, deliberately not JS-driven. Core calls
+   $out->disallowUserJs() on Special:Preferences (see SpecialPreferences.php,
+   "Prevent hijacked user scripts from sniffing passwords etc.") which
+   strips MediaWiki:Common.js from this page entirely and unconditionally,
+   so a per-group hide/show enhancement can't run here at all -- confirmed
+   by direct testing, not a theoretical concern. This turns the plain
+   comma-separated <a> list into badge chips using only CSS: the field's
+   own font-size is zeroed and restored per-link, which collapses the
+   ", " text nodes between links to zero width without touching markup.
+   Every group therefore stays badge-styled and equally visible -- no
+   attempt to de-emphasize "boilerplate" groups, since doing that
+   selectively requires knowing which link is which, which is exactly the
+   part that needed JS. */
+body.mediawiki.mw-special-Preferences #mw-input-wpusergroups,
+body.mediawiki.mw-special-Preferences #mw-input-wpusergroups-disabled {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.4rem;
+	font-size: 0;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpusergroups a,
+body.mediawiki.mw-special-Preferences #mw-input-wpusergroups-disabled a {
+	display: inline-block;
+	padding: 0.3rem 0.6rem;
+	line-height: 1.3;
+	border: 1px solid var( --edfm-border );
+	background: var( --edfm-surface-2 );
+	color: var( --edfm-text-muted ) !important;
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-utility );
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-decoration: none !important;
+}
+body.mediawiki.mw-special-Preferences #mw-input-wpusergroups a:hover,
+body.mediawiki.mw-special-Preferences #mw-input-wpusergroups a:focus-visible,
+body.mediawiki.mw-special-Preferences #mw-input-wpusergroups-disabled a:hover,
+body.mediawiki.mw-special-Preferences #mw-input-wpusergroups-disabled a:focus-visible {
+	border-color: var( --edfm-orange );
+	color: var( --edfm-orange-bright ) !important;
+}
+
+/* ==========================================================================
+   8. Security (#mw-prefsection-personal-security) -- password + 2FA laid
+   out via the shared .edfm-setting-row pattern (see above); both fields
+   are 'top'-aligned info fields, so no row-reverse variant is needed here.
+   ========================================================================== */
+body.mediawiki.mw-special-Preferences #mw-prefsection-personal-security .oo-ui-fieldLayout-header {
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-utility );
+	font-weight: 800;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Sidebar: suppress "Trending Pages" on account/auth special pages -- it's
+   irrelevant while managing an account, and this is presentation-only
+   (the portlet still exists in the DOM/markup, just hidden here; main
+   navigation groups are untouched).
+   ========================================================================== */
+body.mw-special-Preferences #p-Trending_Pages,
+body.mw-special-Userlogin #p-Trending_Pages,
+body.mw-special-CreateAccount #p-Trending_Pages,
+body.mw-special-ChangeCredentials #p-Trending_Pages,
+body.mw-special-PasswordReset #p-Trending_Pages,
+body.mw-special-ConfirmEmail #p-Trending_Pages,
+body.mw-special-Userlogout #p-Trending_Pages,
+body.mw-special-DiscordConnect #p-Trending_Pages,
+body.mw-special-FrontierDisconnect #p-Trending_Pages,
+body.mw-special-FrontierChooseUsername #p-Trending_Pages,
+body.mw-special-FrontierCommanderVerify #p-Trending_Pages,
+body.mw-special-AccountSecurity #p-Trending_Pages,
+body.mw-special-OATHManage #p-Trending_Pages,
+body.mw-special-DisableTwoFactorAuthenticationForUser #p-Trending_Pages {
+	display: none;
+}
+
+/* ==========================================================================
+   16. Responsive: tab bar horizontal scroll, stacked rows, full-width
+   actions (the settings-row breakpoint lives with that pattern above)
+   ========================================================================== */
+@media ( max-width: 1024px ) {
+	body.mediawiki.mw-special-Preferences #preferences {
+		max-width: 100%;
+	}
+}
+@media ( max-width: 700px ) {
+	body.mediawiki.mw-special-Preferences #mw-prefsection-personal-account .oo-ui-fieldLayout-body {
+		display: block;
+	}
+	body.mediawiki.mw-special-Preferences #mw-prefsection-personal-account .oo-ui-fieldLayout-header {
+		margin-bottom: 0.2rem;
+	}
+}
+@media ( max-width: 480px ) {
+	body.mediawiki.mw-special-Preferences .oo-ui-tabOptionWidget {
+		font-size: 0.72rem;
+		padding: 0.6rem 0.75rem !important;
+	}
+	body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-status strong {
+		font-size: var( --edfm-fs-h3 );
+	}
+	body.mediawiki.mw-special-Preferences .mw-htmlform-submit-buttons {
+		justify-content: stretch;
+	}
+	body.mediawiki.mw-special-Preferences .mw-htmlform-submit-buttons .oo-ui-buttonElement,
+	body.mediawiki.mw-special-Preferences .mw-htmlform-submit-buttons button,
+	body.mediawiki.mw-special-Preferences .mw-htmlform-submit-buttons input[type='submit'] {
+		width: 100%;
+	}
+}
+
+
+/* ===========================================================================
+   Special:RecentChanges dark-theme filters and legend polish
+   ========================================================================== */
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-head,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-container,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget {
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget {
+	background: linear-gradient( 180deg, var( --edfm-surface-2 ), var( --edfm-surface-1 ) ) !important;
+	border: 1px solid var( --edfm-border ) !important;
+	box-shadow: 0 14px 28px rgba( 0, 0, 0, 0.25 ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-tagMultiselectWidget-handle,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-tagMultiselectWidget-content,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-top,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-filters,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-views,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-cell {
+	background: transparent !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-savedQueryTitle,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-emptyFilters,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-labelElement-label {
+	color: var( --edfm-text-muted ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-tagItemWidget,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagItemWidget {
+	background: var( --edfm-bg-deep ) !important;
+	border-color: var( --edfm-border-strong ) !important;
+	box-shadow: inset 0 0 0 1px rgba( 255, 255, 255, 0.035 ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-tagItemWidget .oo-ui-labelElement-label,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagItemWidget .oo-ui-labelElement-label {
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-tagItemWidget-highlight {
+	background: rgba( 255, 138, 0, 0.15 ) !important;
+	border-color: var( --edfm-orange ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-buttonElement-frameless .oo-ui-buttonElement-button,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-buttonElement-frameless .oo-ui-buttonElement-button,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-buttonElement-framed .oo-ui-buttonElement-button,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-buttonElement-framed .oo-ui-buttonElement-button {
+	background: var( --edfm-surface-3 ) !important;
+	border-color: var( --edfm-border ) !important;
+	box-shadow: none !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-buttonElement-frameless .oo-ui-buttonElement-button:hover,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-buttonElement-frameless .oo-ui-buttonElement-button:hover,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-buttonElement-framed .oo-ui-buttonElement-button:hover,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-buttonElement-framed .oo-ui-buttonElement-button:hover,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-buttonElement-frameless .oo-ui-buttonElement-button:focus,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-buttonElement-frameless .oo-ui-buttonElement-button:focus,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-buttonElement-framed .oo-ui-buttonElement-button:focus,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-buttonElement-framed .oo-ui-buttonElement-button:focus {
+	background: rgba( 255, 138, 0, 0.14 ) !important;
+	border-color: var( --edfm-orange ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget .oo-ui-buttonElement-button,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget .oo-ui-buttonOptionWidget.oo-ui-optionWidget-selected .oo-ui-buttonElement-button {
+	background: var( --edfm-surface-3 ) !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget .oo-ui-buttonOptionWidget.oo-ui-optionWidget-selected .oo-ui-buttonElement-button {
+	background: linear-gradient( 180deg, var( --edfm-surface-3 ), var( --edfm-surface-2 ) ) !important;
+	box-shadow: inset 0 -2px 0 var( --edfm-orange ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-iconElement-icon,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-indicatorElement-indicator,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-iconElement-icon,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-indicatorElement-indicator {
+	filter: invert( 1 ) hue-rotate( 180deg );
+	opacity: 0.92;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-textInputWidget .oo-ui-inputWidget-input,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-textInputWidget .oo-ui-inputWidget-input,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget input[type='search'],
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget input[type='text'] {
+	background: var( --edfm-bg-deep ) !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-inputWidget-input::placeholder,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget .oo-ui-inputWidget-input::placeholder {
+	color: var( --edfm-text-muted ) !important;
+	opacity: 1;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterMenuHeaderWidget-header,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-menuSelectWidget,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-menuSelectWidget .oo-ui-menuSelectWidget {
+	background: var( --edfm-surface-2 ) !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-itemMenuOptionWidget,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterMenuOptionWidget {
+	background: var( --edfm-surface-1 ) !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-itemMenuOptionWidget:hover,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterMenuOptionWidget:hover,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-itemMenuOptionWidget.oo-ui-optionWidget-selected {
+	background: var( --edfm-surface-3 ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-itemMenuOptionWidget .oo-ui-labelElement-label,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-itemMenuOptionWidget .mw-rcfilters-ui-filterMenuOptionWidget-label-title,
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-itemMenuOptionWidget .mw-rcfilters-ui-filterMenuOptionWidget-label-desc {
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-itemMenuOptionWidget .mw-rcfilters-ui-filterMenuOptionWidget-label-desc {
+	color: var( --edfm-text-muted ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-changeslist-legend {
+	background: linear-gradient( 180deg, var( --edfm-surface-2 ), var( --edfm-surface-1 ) ) !important;
+	border: 1px solid var( --edfm-border ) !important;
+	border-left: 3px solid var( --edfm-cyan ) !important;
+	box-shadow: 0 14px 28px rgba( 0, 0, 0, 0.24 ) !important;
+	color: var( --edfm-text-muted ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-changeslist-legend summary,
+body.mediawiki.mw-special-Recentchanges .mw-changeslist-legend summary strong,
+body.mediawiki.mw-special-Recentchanges .mw-changeslist-legend dt {
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-changeslist-legend dd {
+	color: var( --edfm-text-muted ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-changeslist-legend a {
+	color: var( --edfm-link ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .rcoptions,
+body.mediawiki.mw-special-Recentchanges .cloptions {
+	background: var( --edfm-surface-1 ) !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-text-muted ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .rcoptions legend,
+body.mediawiki.mw-special-Recentchanges .cloptions legend,
+body.mediawiki.mw-special-Recentchanges .mw-recentchanges-table label {
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-recentchanges-table input[type='text'],
+body.mediawiki.mw-special-Recentchanges .mw-recentchanges-table select,
+body.mediawiki.mw-special-Recentchanges .mw-recentchanges-table .mw-tagfilter-input {
+	background: var( --edfm-bg-deep ) !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-changeslist h4 {
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Recentchanges .mw-changeslist-line-inner,
+body.mediawiki.mw-special-Recentchanges .mw-changeslist-line-inner span,
+body.mediawiki.mw-special-Recentchanges .mw-enhanced-rc td {
+	color: var( --edfm-text ) !important;
+}
+@media ( max-width: 700px ) {
+	body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget,
+	body.mediawiki.mw-special-Recentchanges .mw-changeslist-legend {
+		box-sizing: border-box;
+		max-width: 100%;
+	}
+	body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-views-select,
+	body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget {
+		width: 100%;
+	}
+	body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-filterWrapperWidget-bottom {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 0.65rem;
+	}
+	body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-liveUpdateButtonWidget,
+	body.mediawiki.mw-special-Recentchanges .mw-rcfilters-ui-changesLimitAndDateButtonWidget {
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	body.mediawiki.mw-special-Recentchanges .mw-changeslist-legend {
+		float: none;
+		margin: 1rem 0;
+		padding: 0.85rem 1rem;
+	}
+}
+
+/* ===========================================================================
+   Special:SpecialPages dark-theme legend and search polish
+   ========================================================================== */
+body.mediawiki.mw-special-Specialpages .mw-specialpages-notes,
+body.mediawiki.mw-special-Specialpages .mw-changeslist-legend.mw-specialpages-notes {
+	float: right;
+	max-width: min( 28rem, 54vw );
+	margin: 0 0 1rem 1rem;
+	padding: 0.85rem 1rem;
+	background: linear-gradient( 180deg, var( --edfm-surface-2 ), var( --edfm-surface-1 ) ) !important;
+	border: 1px solid var( --edfm-border ) !important;
+	border-left: 3px solid var( --edfm-cyan ) !important;
+	box-shadow: 0 14px 28px rgba( 0, 0, 0, 0.28 ) !important;
+	color: var( --edfm-text-muted ) !important;
+}
+body.mediawiki.mw-special-Specialpages .mw-specialpages-notes strong,
+body.mediawiki.mw-special-Specialpages .mw-specialpages-notes b {
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Specialpages .mw-specialpages-notes ul,
+body.mediawiki.mw-special-Specialpages .mw-specialpages-notes li {
+	color: var( --edfm-text-muted ) !important;
+}
+body.mediawiki.mw-special-Specialpages .mw-specialpages-notes .mw-specialpagerestricted,
+body.mediawiki.mw-special-Specialpages .mw-specialpagerestricted {
+	color: var( --edfm-text ) !important;
+	font-weight: 800;
+}
+body.mediawiki.mw-special-Specialpages .mw-specialpages-notes a {
+	color: var( --edfm-link ) !important;
+}
+body.mediawiki.mw-special-Specialpages .mw-special-pages-search {
+	clear: left;
+}
+body.mediawiki.mw-special-Specialpages .mw-special-pages-search .oo-ui-inputWidget-input {
+	background: var( --edfm-bg-deep ) !important;
+	border-color: var( --edfm-border ) !important;
+	box-shadow: inset 0 0 0 1px rgba( 255, 255, 255, 0.025 ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Specialpages .mw-special-pages-search .oo-ui-inputWidget-input::placeholder {
+	color: var( --edfm-text-muted ) !important;
+	opacity: 1;
+}
+body.mediawiki.mw-special-Specialpages .mw-special-pages-search .oo-ui-iconElement-icon {
+	filter: invert( 1 ) hue-rotate( 180deg );
+	opacity: 0.9;
+}
+@media ( max-width: 700px ) {
+	body.mediawiki.mw-special-Specialpages .mw-specialpages-notes,
+	body.mediawiki.mw-special-Specialpages .mw-changeslist-legend.mw-specialpages-notes {
+		float: none;
+		max-width: none;
+		margin: 0 0 1rem 0;
+		box-sizing: border-box;
+	}
+	body.mediawiki.mw-special-Specialpages .mw-special-pages-search {
+		clear: both;
+		width: 100%;
+	}
 }
 
 /* Special:ChangeContentModel's "New content model" dropdown otherwise only
@@ -4014,4 +4910,928 @@ body.mediawiki.mw-special-ChangeContentModel #mw-input-model:focus {
 .mw-special-Notifications .mw-echo-ui-notificationItemWidget-content-actions-timestamp {
 	color: var( --edfm-text ) !important;
 	opacity: 1 !important;
+}
+/* ==========================================================================
+   Special:AllMessages dark-theme polish
+   Keep the MediaWiki system-message filter form and its filtered/search
+   results table aligned with the EDFM template palette instead of default
+   light TablePager/OOUI surfaces.
+   ========================================================================== */
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper {
+	background: linear-gradient( 180deg, var( --edfm-surface-2 ), var( --edfm-surface-1 ) ) !important;
+	border: 1px solid var( --edfm-border ) !important;
+	border-radius: var( --edfm-corner );
+	box-shadow: 0 14px 30px rgba( 0, 0, 0, 0.24 );
+	color: var( --edfm-text ) !important;
+	margin: 1.25rem 0;
+}
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-fieldsetLayout-header {
+	border-bottom-color: var( --edfm-border ) !important;
+	color: var( --edfm-orange-bright ) !important;
+}
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-labelElement-label,
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-fieldLayout-help,
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-fieldLayout-messages {
+	color: var( --edfm-text-muted ) !important;
+}
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-textInputWidget .oo-ui-inputWidget-input,
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-dropdownInputWidget select,
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-dropdownWidget-handle {
+	background-color: var( --edfm-bg-deep ) !important;
+	border-color: var( --edfm-border ) !important;
+	box-shadow: inset 0 0 0 1px rgba( 255, 255, 255, 0.02 );
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-textInputWidget .oo-ui-inputWidget-input:focus,
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:focus {
+	border-color: var( --edfm-cyan ) !important;
+	box-shadow: 0 0 0 2px rgba( 66, 199, 217, 0.18 ) !important;
+}
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-radioInputWidget [type='radio'] + span {
+	background-color: var( --edfm-bg-deep ) !important;
+	border-color: var( --edfm-border ) !important;
+}
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-radioInputWidget [type='radio']:checked + span {
+	background-color: var( --edfm-orange ) !important;
+	border-color: var( --edfm-orange-bright ) !important;
+	box-shadow: 0 0 0 2px rgba( 255, 138, 0, 0.18 );
+}
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-buttonElement-framed > .oo-ui-buttonElement-button,
+body.mediawiki.mw-special-Allmessages .mw-htmlform-submit-buttons .oo-ui-buttonElement-button {
+	background: linear-gradient( 180deg, var( --edfm-surface-4 ), var( --edfm-surface-3 ) ) !important;
+	border-color: var( --edfm-orange ) !important;
+	color: var( --edfm-orange-bright ) !important;
+	font-weight: 700;
+	text-shadow: none !important;
+}
+body.mediawiki.mw-special-Allmessages .mw-htmlform-ooui-wrapper .oo-ui-buttonElement-framed > .oo-ui-buttonElement-button:hover,
+body.mediawiki.mw-special-Allmessages .mw-htmlform-submit-buttons .oo-ui-buttonElement-button:hover {
+	background: rgba( 255, 138, 0, 0.14 ) !important;
+	color: var( --edfm-text ) !important;
+}
+
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable {
+	background: var( --edfm-surface-1 ) !important;
+	border: 1px solid var( --edfm-border ) !important;
+	border-collapse: separate;
+	border-radius: var( --edfm-corner );
+	border-spacing: 0;
+	box-shadow: 0 16px 34px rgba( 0, 0, 0, 0.30 );
+	color: var( --edfm-text ) !important;
+	overflow: hidden;
+	width: 100%;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable th {
+	background: linear-gradient( 180deg, var( --edfm-surface-4 ), var( --edfm-surface-3 ) ) !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-orange-bright ) !important;
+	font-weight: 800;
+	letter-spacing: 0.025em;
+	text-shadow: none !important;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable td {
+	background: var( --edfm-surface-1 ) !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-text ) !important;
+	vertical-align: top;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable tbody tr:nth-child( odd ) td {
+	background: #0d1418 !important;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable tbody tr:hover td {
+	background: rgba( 66, 199, 217, 0.10 ) !important;
+	box-shadow: inset 3px 0 0 var( --edfm-cyan );
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable td[dir],
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable td[lang] {
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable tr > td:first-child {
+	background: var( --edfm-surface-1 ) !important;
+	font-family: var( --edfm-mono );
+	font-size: 0.88rem;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable tr:nth-child( odd ) > td:first-child {
+	background: #0d1418 !important;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable a {
+	color: var( --edfm-link ) !important;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable a.external {
+	color: var( --edfm-link-external ) !important;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable a.new,
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable a.new:visited {
+	color: var( --edfm-link-new ) !important;
+}
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable .mw-allmessages-customised,
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable .mw-allmessages-modified,
+body.mediawiki.mw-special-Allmessages #mw-allmessagestable.mw-datatable .mw-allmessages-default {
+	background: rgba( 66, 199, 217, 0.12 ) !important;
+	color: var( --edfm-text ) !important;
+}
+body.mediawiki.mw-special-Allmessages .TablePager_nav {
+	margin: 0.85rem 0;
+}
+body.mediawiki.mw-special-Allmessages .TablePager_nav .oo-ui-buttonElement-button {
+	background-color: var( --edfm-surface-2 ) !important;
+	border-color: var( --edfm-border ) !important;
+	color: var( --edfm-link ) !important;
+}
+body.mediawiki.mw-special-Allmessages .TablePager_nav .oo-ui-widget-disabled .oo-ui-buttonElement-button {
+	background-color: var( --edfm-bg-deep ) !important;
+	color: var( --edfm-text-dim ) !important;
+	opacity: 0.78;
+}
+
+/* ========================================================================
+   EDFM mobile drawer Echo badge icon fix — 2026-08-26
+   ------------------------------------------------------------------------
+   MonoBook's mobile drawer moves the Echo alert/notice links around with JS.
+   The drawer's generic mobile link styling can make the OOUI badge anchors
+   expand and expose the underlying icon sprite sheet, which appears as giant
+   repeated bell/tray glyphs across the Personal tools drawer. Keep the two
+   icon-only Echo badges constrained while preserving the combined
+   "Notifications" drawer link.
+   ======================================================================== */
+@media screen and ( max-width: 550px ) {
+	#echo-hack-badges,
+	#echo-hack-badges li,
+	#echo-hack-badges #pt-notifications-alert,
+	#echo-hack-badges #pt-notifications-notice {
+		box-sizing: border-box !important;
+		list-style: none !important;
+		list-style-image: none !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	#echo-hack-badges #pt-notifications-alert,
+	#echo-hack-badges #pt-notifications-notice {
+		display: inline-block !important;
+		height: 22px !important;
+		line-height: 22px !important;
+		overflow: hidden !important;
+		vertical-align: top !important;
+		width: 22px !important;
+	}
+
+	#echo-hack-badges #pt-notifications-alert > a.mw-echo-notifications-badge,
+	#echo-hack-badges #pt-notifications-notice > a.mw-echo-notifications-badge,
+	#p-personal.mobile-menu-active #pt-notifications-alert > a.mw-echo-notifications-badge,
+	#p-personal.mobile-menu-active #pt-notifications-notice > a.mw-echo-notifications-badge {
+		background-position: 50% 50% !important;
+		background-repeat: no-repeat !important;
+		background-size: 20px 20px !important;
+		box-sizing: border-box !important;
+		color: transparent !important;
+		display: block !important;
+		font-size: 0 !important;
+		height: 22px !important;
+		line-height: 22px !important;
+		margin: 0 !important;
+		max-height: 22px !important;
+		max-width: 22px !important;
+		min-height: 22px !important;
+		min-width: 22px !important;
+		overflow: hidden !important;
+		padding: 0 !important;
+		text-indent: -9999px !important;
+		width: 22px !important;
+	}
+
+	#echo-hack-badges #pt-notifications-alert > a.mw-echo-notifications-badge > span,
+	#echo-hack-badges #pt-notifications-notice > a.mw-echo-notifications-badge > span,
+	#p-personal.mobile-menu-active #pt-notifications-alert > a.mw-echo-notifications-badge > span,
+	#p-personal.mobile-menu-active #pt-notifications-notice > a.mw-echo-notifications-badge > span {
+		display: none !important;
+	}
+
+	#echo-hack-badges #pt-notifications-alert > a.mw-echo-notifications-badge::before,
+	#echo-hack-badges #pt-notifications-notice > a.mw-echo-notifications-badge::before,
+	#p-personal.mobile-menu-active #pt-notifications-alert > a.mw-echo-notifications-badge::before,
+	#p-personal.mobile-menu-active #pt-notifications-notice > a.mw-echo-notifications-badge::before {
+		display: none !important;
+	}
+
+	#echo-hack-badges #pt-notifications-alert > a.mw-echo-notifications-badge::after,
+	#echo-hack-badges #pt-notifications-notice > a.mw-echo-notifications-badge::after,
+	#p-personal.mobile-menu-active #pt-notifications-alert > a.mw-echo-notifications-badge::after,
+	#p-personal.mobile-menu-active #pt-notifications-notice > a.mw-echo-notifications-badge::after {
+		font-size: 10px !important;
+		left: 10px !important;
+		line-height: 1 !important;
+		padding: 1px 3px !important;
+		top: 10px !important;
+	}
+
+	/* If Echo has not finished moving these two icon links into #echo-hack-badges,
+	   do not let them participate in the drawer's large text layout. */
+	#p-personal.mobile-menu-active > ul > #pt-notifications-alert,
+	#p-personal.mobile-menu-active > ul > #pt-notifications-notice,
+	#p-personal.mobile-menu-active .pBody > ul > #pt-notifications-alert,
+	#p-personal.mobile-menu-active .pBody > ul > #pt-notifications-notice,
+	#p-personal.mobile-menu-active .vector-menu-content-list > #pt-notifications-alert,
+	#p-personal.mobile-menu-active .vector-menu-content-list > #pt-notifications-notice {
+		display: inline-block !important;
+		height: 22px !important;
+		line-height: 22px !important;
+		margin: 0 0.45em 0 0 !important;
+		max-width: 22px !important;
+		overflow: hidden !important;
+		padding: 0 !important;
+		vertical-align: middle !important;
+		width: 22px !important;
+	}
+}
+
+/* ========================================================================
+   EDFM GALNET FEED MODULE
+   ======================================================================== */
+.edfm-galnet-panel {
+	position: relative;
+	margin: 1rem 0 1.8rem;
+	padding: 1rem 1.1rem;
+	box-sizing: border-box;
+	background:
+		linear-gradient( 135deg, rgba( 66, 199, 217, 0.10 ), transparent 36% ),
+		linear-gradient( 315deg, rgba( 255, 138, 0, 0.06 ), transparent 48% ),
+		var( --edfm-surface-2 );
+	border: 1px solid var( --edfm-border );
+	border-left: 4px solid var( --edfm-cyan );
+	box-shadow: 0 14px 28px rgba( 0, 0, 0, 0.24 );
+	overflow: hidden;
+}
+.edfm-galnet-panel::before {
+	content: '';
+	position: absolute;
+	inset: 0 0 auto 0;
+	height: 2px;
+	background: linear-gradient( 90deg, var( --edfm-cyan ), rgba( 255, 138, 0, 0.28 ), transparent );
+	pointer-events: none;
+}
+.edfm-galnet-feed,
+.edfm-galnet-archive-list {
+	display: grid;
+	gap: 0.8rem;
+}
+.edfm-galnet-feed {
+	grid-template-columns: 1fr;
+}
+.edfm-galnet-item,
+.edfm-galnet-archive-entry {
+	position: relative;
+	padding: 0.72rem 0.85rem;
+	background: rgba( 9, 14, 18, 0.58 );
+	border: 1px solid var( --edfm-border-soft );
+	border-left: 2px solid rgba( 66, 199, 217, 0.72 );
+	box-sizing: border-box;
+	transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.edfm-galnet-item:hover,
+.edfm-galnet-archive-entry:hover {
+	background: rgba( 13, 22, 28, 0.86 );
+	border-color: rgba( 66, 199, 217, 0.48 );
+	transform: translateY( -1px );
+}
+.edfm-galnet-date,
+.edfm-galnet-source {
+	color: var( --edfm-text-dim );
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-meta );
+	font-weight: 800;
+	letter-spacing: 0.09em;
+	line-height: 1.25;
+	text-transform: uppercase;
+}
+.edfm-galnet-headline,
+.edfm-galnet-headline a {
+	margin-top: 0.28rem;
+	color: var( --edfm-text ) !important;
+	font-family: var( --edfm-mono );
+	font-size: 1rem;
+	font-weight: 800;
+	line-height: 1.3;
+	text-decoration: none;
+	overflow-wrap: anywhere;
+}
+.edfm-galnet-headline a:hover,
+.edfm-galnet-headline a:focus {
+	color: var( --edfm-cyan-bright ) !important;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.18em;
+}
+.edfm-galnet-summary {
+	margin-top: 0.42rem;
+	color: var( --edfm-text-muted );
+	font-size: 0.94rem;
+	line-height: 1.55;
+	overflow-wrap: anywhere;
+}
+.edfm-galnet-source {
+	margin-top: 0.55rem;
+	letter-spacing: 0.04em;
+}
+.edfm-galnet-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-top: 0.9rem;
+	padding-top: 0.75rem;
+	border-top: 1px solid var( --edfm-border-soft );
+	color: var( --edfm-text-dim );
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-meta );
+	line-height: 1.45;
+}
+.edfm-galnet-more {
+	flex: 0 0 auto;
+	font-weight: 800;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+.edfm-galnet-more a,
+.edfm-galnet-source a {
+	color: var( --edfm-link ) !important;
+}
+.edfm-galnet-more a:hover,
+.edfm-galnet-more a:focus,
+.edfm-galnet-source a:hover,
+.edfm-galnet-source a:focus {
+	color: var( --edfm-orange-bright ) !important;
+}
+.edfm-galnet-panel-archive .edfm-galnet-archive-list {
+	gap: 0.95rem;
+}
+.edfm-galnet-official-note,
+.edfm-galnet-future-note {
+	margin: 1rem 0;
+	padding: 0.85rem 1rem;
+	background: var( --edfm-surface-2 );
+	border: 1px solid var( --edfm-border );
+	border-left: 3px solid var( --edfm-cyan );
+	color: var( --edfm-text-muted );
+	line-height: 1.55;
+}
+.edfm-galnet-future-note {
+	border-left-color: var( --edfm-orange );
+}
+@media ( min-width: 980px ) {
+	.edfm-galnet-panel-latest .edfm-galnet-feed {
+		grid-template-columns: repeat( 2, minmax( 0, 1fr ) );
+	}
+	.edfm-galnet-panel-latest .edfm-galnet-item:first-child {
+		grid-row: span 2;
+	}
+}
+@media ( max-width: 760px ) {
+	.edfm-galnet-panel {
+		padding: 0.85rem;
+	}
+	.edfm-galnet-item,
+	.edfm-galnet-archive-entry {
+		padding: 0.68rem 0.75rem;
+	}
+	.edfm-galnet-footer {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 0.45rem;
+	}
+	.edfm-galnet-more {
+		white-space: normal;
+	}
+}
+
+/* ========================================================================
+   EDFM GALNET MARQUEE OVERRIDE
+   ======================================================================== */
+.edfm-galnet-panel-marquee {
+	padding: 0.82rem 0.95rem 0.78rem;
+}
+.edfm-galnet-marquee-label {
+	margin-bottom: 0.55rem;
+	color: var( --edfm-text-dim );
+	font-family: var( --edfm-mono );
+	font-size: var( --edfm-fs-meta );
+	font-weight: 800;
+	letter-spacing: 0.14em;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.edfm-galnet-marquee-window {
+	position: relative;
+	width: 100%;
+	min-height: 2.65rem;
+	box-sizing: border-box;
+	background: rgba( 9, 14, 18, 0.72 );
+	border: 1px solid var( --edfm-border-soft );
+	border-left: 2px solid rgba( 66, 199, 217, 0.82 );
+	overflow: hidden;
+}
+.edfm-galnet-marquee-window::before,
+.edfm-galnet-marquee-window::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+	width: 2.25rem;
+	pointer-events: none;
+}
+.edfm-galnet-marquee-window::before {
+	left: 0;
+	background: linear-gradient( 90deg, rgba( 9, 14, 18, 0.98 ), transparent );
+}
+.edfm-galnet-marquee-window::after {
+	right: 0;
+	background: linear-gradient( 270deg, rgba( 9, 14, 18, 0.98 ), transparent );
+}
+.edfm-galnet-marquee-track {
+	display: inline-flex;
+	align-items: stretch;
+	gap: 1.05rem;
+	width: max-content;
+	min-width: 100%;
+	padding: 0.6rem 2.2rem;
+	box-sizing: border-box;
+	white-space: nowrap;
+	animation: edfm-galnet-marquee-scroll 72s linear infinite;
+}
+.edfm-galnet-panel-marquee:hover .edfm-galnet-marquee-track,
+.edfm-galnet-panel-marquee:focus-within .edfm-galnet-marquee-track {
+	animation-play-state: paused;
+}
+.edfm-galnet-marquee-segment {
+	display: inline-flex;
+	align-items: stretch;
+	gap: 1.05rem;
+	min-width: max-content;
+}
+.edfm-galnet-marquee-segment[aria-hidden="true"] {
+	margin-left: 1.05rem;
+}
+.edfm-galnet-ticker-item {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 0.55rem;
+	max-width: min( 68vw, 48rem );
+	color: var( --edfm-text-muted );
+	line-height: 1.35;
+}
+.edfm-galnet-ticker-item::after {
+	content: '//';
+	color: rgba( 255, 138, 0, 0.62 );
+	font-family: var( --edfm-mono );
+	font-weight: 800;
+	letter-spacing: 0.12em;
+}
+.edfm-galnet-ticker-item .edfm-galnet-date {
+	flex: 0 0 auto;
+	color: var( --edfm-cyan-bright );
+	font-size: 0.76rem;
+	letter-spacing: 0.1em;
+}
+.edfm-galnet-ticker-item .edfm-galnet-headline,
+.edfm-galnet-ticker-item .edfm-galnet-headline a {
+	margin-top: 0;
+	color: var( --edfm-text ) !important;
+	font-size: 0.95rem;
+	white-space: nowrap;
+}
+.edfm-galnet-ticker-item .edfm-galnet-headline a:hover,
+.edfm-galnet-ticker-item .edfm-galnet-headline a:focus {
+	color: var( --edfm-orange-bright ) !important;
+	outline: 1px solid rgba( 66, 199, 217, 0.55 );
+	outline-offset: 0.16rem;
+}
+.edfm-galnet-ticker-item .edfm-galnet-summary {
+	max-width: 24rem;
+	margin-top: 0;
+	font-size: 0.88rem;
+	line-height: 1.35;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+@keyframes edfm-galnet-marquee-scroll {
+	0% {
+		transform: translateX( 0 );
+	}
+	100% {
+		transform: translateX( -50% );
+	}
+}
+@media ( prefers-reduced-motion: reduce ) {
+	.edfm-galnet-marquee-track {
+		animation: none;
+		transform: none;
+	}
+	.edfm-galnet-marquee-window {
+		overflow-x: auto;
+	}
+}
+@media ( max-width: 760px ) {
+	.edfm-galnet-panel-marquee {
+		padding: 0.75rem 0.78rem;
+	}
+	.edfm-galnet-marquee-track {
+		gap: 0.9rem;
+		padding: 0.56rem 1.55rem;
+		animation-duration: 88s;
+	}
+	.edfm-galnet-ticker-item {
+		max-width: 33rem;
+		gap: 0.45rem;
+	}
+	.edfm-galnet-ticker-item .edfm-galnet-summary {
+		max-width: 14rem;
+	}
+}
+
+/* GalNet marquee v2: new class avoids stale browser-cached first marquee animation. */
+.edfm-galnet-marquee-track-v2 {
+	display: inline-flex;
+	align-items: stretch;
+	gap: 1.05rem;
+	width: max-content;
+	min-width: 100%;
+	padding: 0.6rem 2.2rem;
+	box-sizing: border-box;
+	white-space: nowrap;
+	animation: edfm-galnet-marquee-scroll-v2 84s linear infinite;
+}
+.edfm-galnet-panel-marquee:hover .edfm-galnet-marquee-track-v2,
+.edfm-galnet-panel-marquee:focus-within .edfm-galnet-marquee-track-v2,
+.edfm-galnet-marquee:hover .edfm-galnet-marquee-track-v2,
+.edfm-galnet-marquee:focus-within .edfm-galnet-marquee-track-v2,
+.edfm-galnet-marquee-window:hover .edfm-galnet-marquee-track-v2,
+.edfm-galnet-marquee-window:focus-within .edfm-galnet-marquee-track-v2 {
+	animation-play-state: paused;
+}
+@keyframes edfm-galnet-marquee-scroll-v2 {
+	0% { transform: translateX( 0 ); }
+	100% { transform: translateX( -50% ); }
+}
+@media ( prefers-reduced-motion: reduce ) {
+	.edfm-galnet-marquee-track-v2 {
+		animation: none;
+		transform: none;
+	}
+}
+@media ( max-width: 760px ) {
+	.edfm-galnet-marquee-track-v2 {
+		gap: 0.9rem;
+		padding: 0.56rem 1.55rem;
+		animation-duration: 96s;
+	}
+}
+
+/* GalNet marquee compact layout: heading + ticker + View All only. */
+.edfm-galnet-panel-marquee {
+	margin: 0.35rem 0 0.85rem;
+	padding: 0.42rem 0.55rem 0.46rem;
+	border-left-width: 3px;
+	box-shadow: 0 8px 18px rgba( 0, 0, 0, 0.18 );
+}
+.edfm-galnet-panel-marquee .edfm-galnet-marquee-label {
+	display: none;
+}
+.edfm-galnet-panel-marquee .edfm-galnet-marquee-window {
+	min-height: 2.25rem;
+}
+.edfm-galnet-panel-marquee .edfm-galnet-marquee-track-v2 {
+	padding-top: 0.46rem;
+	padding-bottom: 0.46rem;
+}
+.edfm-galnet-panel-marquee .edfm-galnet-footer-compact {
+	display: block;
+	margin-top: 0.42rem;
+	padding-top: 0;
+	border-top: 0;
+	line-height: 1.15;
+}
+.edfm-galnet-panel-marquee .edfm-galnet-footer-compact .edfm-galnet-more {
+	display: inline-block;
+	font-size: 0.78rem;
+	letter-spacing: 0.08em;
+}
+@media ( max-width: 760px ) {
+	.edfm-galnet-panel-marquee {
+		margin-bottom: 0.75rem;
+		padding: 0.38rem 0.45rem 0.44rem;
+	}
+	.edfm-galnet-panel-marquee .edfm-galnet-marquee-window {
+		min-height: 2.2rem;
+	}
+}
+
+/* GalNet marquee micro-compact: remove MediaWiki paragraph chrome inside generated ticker. */
+.edfm-galnet-panel-marquee .edfm-galnet-marquee-track-v2 > p {
+	display: contents;
+	margin: 0;
+}
+.edfm-galnet-panel-marquee .edfm-galnet-footer-compact p {
+	margin: 0;
+	line-height: 1;
+}
+.edfm-galnet-panel-marquee .edfm-galnet-marquee-track-v2 {
+	padding-top: 0.36rem;
+	padding-bottom: 0.36rem;
+}
+.edfm-galnet-panel-marquee .edfm-galnet-footer-compact {
+	margin-top: 0.28rem;
+}
+
+/* GalNet latest no-box strip: page heading, marquee, View All only. */
+.edfm-galnet-strip-latest {
+	margin: 0.15rem 0 1.1rem;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	box-shadow: none;
+}
+.edfm-galnet-strip-latest .edfm-galnet-marquee-window {
+	min-height: 1.8rem;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	overflow: hidden;
+}
+.edfm-galnet-strip-latest .edfm-galnet-marquee-track-v2 {
+	padding: 0.18rem 0;
+}
+.edfm-galnet-strip-latest .edfm-galnet-marquee-track-v2 > p {
+	display: contents;
+	margin: 0;
+}
+.edfm-galnet-strip-latest .edfm-galnet-ticker-item {
+	background: transparent;
+	border: 0;
+	box-shadow: none;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.edfm-galnet-strip-latest .edfm-galnet-footer-compact {
+	display: block;
+	margin-top: 0.2rem;
+	padding: 0;
+	border: 0;
+	line-height: 1;
+}
+.edfm-galnet-strip-latest .edfm-galnet-footer-compact p {
+	margin: 0;
+	line-height: 1;
+}
+.edfm-galnet-strip-latest .edfm-galnet-more {
+	display: inline-block;
+	font-size: 0.78rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+/* Topic-card section headings: make Browse-by-topic H3 anchors appear as card titles while remaining visible in the top contents list. */
+.edfm-home-grid-topics .edfm-home-card .mw-heading3 {
+	margin: 0 0 0.75rem;
+	padding: 0;
+	border: 0;
+	background: transparent;
+}
+
+.edfm-home-grid-topics .edfm-home-card .mw-heading3 h3 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-family: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace);
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.35;
+	color: var(--color-text, #e5edf0);
+}
+
+.edfm-home-grid-topics .edfm-home-card .mw-heading3::after {
+	display: none;
+}
+
+/* Homepage focused jump navigation and live-content sections. */
+.edfm-home-jump {
+	display: grid;
+	grid-template-columns: repeat( 4, minmax( 0, 1fr ) );
+	gap: 0.55rem;
+	margin: 1.2rem 0 1.9rem;
+}
+.edfm-home-jump a {
+	display: flex;
+	align-items: center;
+	gap: 0.55rem;
+	min-height: 2.7rem;
+	box-sizing: border-box;
+	padding: 0.62rem 0.8rem;
+	background: var( --edfm-surface-3 );
+	border-left: 4px solid var( --edfm-orange );
+	box-shadow: inset 1px 0 0 rgba( 255, 162, 26, 0.35 );
+	color: var( --edfm-text-muted );
+	font-family: var( --edfm-mono );
+	font-weight: 800;
+	letter-spacing: 0.055em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+.edfm-home-jump a:hover,
+.edfm-home-jump a:focus-visible {
+	background: var( --edfm-surface-4 );
+	border-left-color: var( --edfm-cyan );
+	box-shadow: inset 1px 0 0 rgba( 66, 199, 217, 0.45 );
+	color: var( --edfm-text );
+	transform: translateY( -1px );
+}
+.edfm-home-jump-number {
+	color: var( --edfm-orange );
+	font-size: 1.02rem;
+	line-height: 1;
+}
+.edfm-home-jump-text {
+	font-size: 0.82rem;
+	line-height: 1.25;
+}
+.edfm-home-section-intro {
+	max-width: 74rem;
+	margin: -0.25rem 0 1rem;
+	color: var( --edfm-text-muted );
+	font-size: 1rem;
+	line-height: 1.6;
+}
+.edfm-home-procedure-list {
+	display: grid;
+	grid-template-columns: repeat( 3, minmax( 0, 1fr ) );
+	gap: 0.85rem;
+	margin: 1rem 0 0.75rem;
+}
+.edfm-home-procedure-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 12.5rem;
+	padding: 0.95rem 1rem 1rem;
+	background: linear-gradient( 135deg, rgba( 66, 199, 217, 0.09 ), transparent 42% ), var( --edfm-surface-2 );
+	border: 1px solid var( --edfm-border );
+	border-top: 3px solid var( --edfm-cyan );
+	box-shadow: 0 12px 24px rgba( 0, 0, 0, 0.2 );
+	transition: background-color 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+}
+.edfm-home-procedure-card:hover,
+.edfm-home-procedure-card:focus-within {
+	background: linear-gradient( 135deg, rgba( 255, 138, 0, 0.12 ), rgba( 66, 199, 217, 0.05 ) 46%, transparent 76% ), var( --edfm-surface-2 );
+	border-color: rgba( 255, 162, 26, 0.72 );
+	border-top-color: var( --edfm-orange );
+	box-shadow: 0 16px 30px rgba( 0, 0, 0, 0.28 );
+	transform: translateY( -3px );
+}
+.edfm-home-procedure-card:hover .edfm-home-procedure-title a,
+.edfm-home-procedure-card:focus-within .edfm-home-procedure-title a,
+.edfm-home-procedure-card:hover .edfm-home-procedure-action a,
+.edfm-home-procedure-card:focus-within .edfm-home-procedure-action a {
+	color: var( --edfm-orange-bright ) !important;
+}
+.edfm-home-procedure-card::after {
+	content: "↗";
+	position: absolute;
+	right: 0.85rem;
+	top: 0.72rem;
+	color: rgba( 255, 162, 26, 0.68 );
+	font-family: var( --edfm-mono );
+	font-size: 1.05rem;
+	font-weight: 800;
+}
+.edfm-home-procedure-card-primary {
+	border-top-color: var( --edfm-orange );
+}
+.edfm-home-procedure-title,
+.edfm-home-procedure-title a {
+	margin-top: 0.38rem;
+	color: var( --edfm-text ) !important;
+	font-family: var( --edfm-mono );
+	font-size: 1.02rem;
+	font-weight: 800;
+	line-height: 1.32;
+	text-decoration: none;
+}
+.edfm-home-procedure-title a:hover,
+.edfm-home-procedure-title a:focus-visible {
+	color: var( --edfm-orange-bright ) !important;
+}
+.edfm-home-procedure-text {
+	margin-top: 0.6rem;
+	color: var( --edfm-text-muted );
+	line-height: 1.55;
+}
+
+.edfm-home-procedure-action {
+	margin-top: auto;
+	padding-top: 0.9rem;
+	font-family: var( --edfm-mono );
+	font-size: 0.76rem;
+	font-weight: 800;
+	letter-spacing: 0.065em;
+	text-transform: uppercase;
+}
+.edfm-home-procedure-action a {
+	color: var( --edfm-orange ) !important;
+	text-decoration: none;
+}
+.edfm-home-procedure-action a:hover,
+.edfm-home-procedure-action a:focus-visible {
+	color: var( --edfm-orange-bright ) !important;
+	text-decoration: underline;
+}
+.edfm-home-section-link {
+	margin: 0.8rem 0 2rem;
+	padding-top: 0.65rem;
+	border-top: 1px solid var( --edfm-border-soft );
+	text-align: right;
+	font-family: var( --edfm-mono );
+	font-size: 0.82rem;
+	font-weight: 800;
+	letter-spacing: 0.055em;
+	text-transform: uppercase;
+}
+.edfm-home-recent-list {
+	display: grid;
+	grid-template-columns: repeat( 2, minmax( 0, 1fr ) );
+	gap: 0.65rem;
+	margin: 0.95rem 0 0.75rem;
+}
+.edfm-home-recent-item {
+	padding: 0.72rem 0.85rem;
+	background: var( --edfm-surface-2 );
+	border: 1px solid var( --edfm-border-soft );
+	border-left: 3px solid var( --edfm-cyan );
+	box-sizing: border-box;
+	transition: background-color 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+}
+.edfm-home-recent-item:hover,
+.edfm-home-recent-item:focus-within {
+	background: var( --edfm-surface-3 );
+	border-color: rgba( 255, 162, 26, 0.62 );
+	border-left-color: var( --edfm-orange );
+	box-shadow: 0 14px 26px rgba( 0, 0, 0, 0.26 );
+	transform: translateY( -2px );
+}
+.edfm-home-recent-item:hover .edfm-home-recent-title a,
+.edfm-home-recent-item:focus-within .edfm-home-recent-title a {
+	color: var( --edfm-orange-bright ) !important;
+}
+.edfm-home-recent-title,
+.edfm-home-recent-title a {
+	color: var( --edfm-text ) !important;
+	font-family: var( --edfm-mono );
+	font-weight: 800;
+	line-height: 1.3;
+	text-decoration: none;
+}
+.edfm-home-recent-title a:hover,
+.edfm-home-recent-title a:focus-visible {
+	color: var( --edfm-orange-bright ) !important;
+}
+.edfm-home-recent-meta {
+	margin-top: 0.25rem;
+	color: var( --edfm-orange );
+	font-family: var( --edfm-mono );
+	font-size: 0.74rem;
+	font-weight: 800;
+	letter-spacing: 0.065em;
+	text-transform: uppercase;
+}
+.edfm-home-recent-summary {
+	margin-top: 0.55rem;
+	color: var( --edfm-text-muted );
+	font-size: 0.92rem;
+	line-height: 1.5;
+}
+@media ( max-width: 1100px ) {
+	.edfm-home-jump,
+	.edfm-home-procedure-list,
+	.edfm-home-recent-list {
+		grid-template-columns: repeat( 2, minmax( 0, 1fr ) );
+	}
+}
+@media ( max-width: 760px ) {
+	.edfm-home-jump,
+	.edfm-home-procedure-list,
+	.edfm-home-recent-list,
+	.edfm-home-recent-item {
+		grid-template-columns: 1fr;
+	}
+	.edfm-home-jump a {
+		min-height: 2.9rem;
+		padding: 0.72rem 0.9rem;
+	}
+	.edfm-home-section-link {
+		text-align: left;
+	}
 }

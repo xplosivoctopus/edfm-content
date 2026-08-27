@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Unlocking Bill Turner
 Namespace: 0
 Page ID: 632
-Revision ID: 1499
-Timestamp: 2026-08-21T14:40:46Z
+Revision ID: 2050
+Timestamp: 2026-08-24T21:24:35Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Bill_Turner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Bill Turner — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+{{Article header|deck=The actionable checklist for gaining access to Bill Turner — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
 
 This Field Procedure covers only the steps to unlock [[Bill Turner]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Bill Turner]].
 

@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Frame Shift Drive
 Namespace: 828
 Page ID: 490
-Revision ID: 1277
-Timestamp: 2026-08-20T23:59:26Z
+Revision ID: 2214
+Timestamp: 2026-08-25T14:13:41Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Frame_Shift_Drive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Frame Shift Drive",
+	module_class = "Core internal module",
+	slot_type = "Core internal",
+	mount = "",
+	manufacturer = "",
+	availability = "Standard core module family",
+	engineering = "",
+	related_modules = "[[Fuel Scoop]], [[Fuel Tank]], [[Frame Shift Wake Scanner]], [[Frame Shift Drive Interdictor]]",
 }

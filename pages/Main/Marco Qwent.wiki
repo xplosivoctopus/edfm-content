@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Marco Qwent
 Namespace: 0
 Page ID: 109
-Revision ID: 1434
-Timestamp: 2026-08-21T14:38:33Z
+Revision ID: 1961
+Timestamp: 2026-08-24T21:22:34Z
 Source URL: https://edfieldmanual.com/wiki/Marco_Qwent
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A power-systems Engineer based in Sirius, providing Grade 4 Power Plant and Grade 3 Power Distributor engineering and leading to several later Engineers.
+{{Article header|deck=A power-systems Engineer based in Sirius, providing Grade 4 Power Plant and Grade 3 Power Distributor engineering and leading to several later Engineers.
 }}
 
 {{Engineer infobox}}

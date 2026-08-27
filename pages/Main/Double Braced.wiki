@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Double Braced
+Namespace: 0
+Page ID: 667
+Revision ID: 1560
+Timestamp: 2026-08-23T18:07:32Z
+Source URL: https://edfieldmanual.com/wiki/Double_Braced
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|A ship Engineering experimental-effect reference for Double Braced, including compatible modules, trade-offs, and Engineer availability.}}
+
+'''Double Braced''' is a ship Engineering experimental effect. This planned reference will document where it can be applied, what it changes, and when it is worth choosing over other experimental effects.
+
+[[Category:Engineering]]
+[[Category:Experimental Effects]]

@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Marsha Hicks
 Namespace: 0
 Page ID: 127
-Revision ID: 1464
-Timestamp: 2026-08-21T14:38:57Z
+Revision ID: 1962
+Timestamp: 2026-08-24T21:22:35Z
 Source URL: https://edfieldmanual.com/wiki/Marsha_Hicks
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 projectile-weapon, limpet-controller, Fuel Scoop, and Refinery Engineer based at The Watchtower in the Colonia region, reached through The Dweller.
+{{Article header|deck=A Grade 5 projectile-weapon, limpet-controller, Fuel Scoop, and Refinery Engineer based at The Watchtower in the Colonia region, reached through The Dweller.
 }}
 
 {{Engineer infobox}}

@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: How to Use a Prospector Limpet
+Namespace: 0
+Page ID: 710
+Revision ID: 1678
+Timestamp: 2026-08-24T00:22:58Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Use_a_Prospector_Limpet
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current mining limpet workflow and EDFM Mining metadata|uncertainty=Exact cockpit labels and prospector-yield edge cases still need final in-game verification.}}
+__NOINDEX__
+{{Field procedure|summary=Launch and read prospector limpets to identify asteroid contents before committing time and collector limpets.}}
+
+Use this procedure whenever a mining run needs to choose worthwhile asteroids instead of extracting blindly.
+
+{{Draft warning}}
+
+== Before you start ==
+
+* Fit and power a [[Prospector Limpet Controller]].
+* Load limpets into cargo before leaving a station or carrier.
+* Decide what the run is looking for: a commodity, a core asteroid, sub-surface deposits, or general learning practice.
+* Keep enough distance from the asteroid that the limpet has a clear path.
+
+== Procedure ==
+
+{{Procedure steps|
+# Select a candidate asteroid visually, by hotspot position, or by the search pattern for the chosen method.
+# Point the ship so the prospector limpet has a clear launch path.
+# Launch one prospector limpet at the asteroid.
+# Wait for the limpet to attach and complete its scan.
+# Read the asteroid contents, deposit information, and any method-specific signals shown by the prospector result.
+# Decide whether the asteroid is worth mining before deploying collectors or spending ammunition.
+# Move to another asteroid if the contents do not match the run's goal.
+}}
+
+== Completion check ==
+
+The procedure is complete when the commander has a prospector result and has either committed to mining the asteroid or moved on deliberately.
+
+== Common problems ==
+
+* '''The limpet misses or dies:''' slow down, face the asteroid more cleanly, and avoid launching into nearby rock.
+* '''The asteroid has low-value contents:''' skip it; the prospector is doing its job by saving time.
+* '''The controller will not launch:''' check module power, fire group assignment, available limpets, and whether another active prospector is already using the controller's capacity.
+* '''Collectors are launched too early:''' prospect first, then collect after the asteroid is worth working.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Use a Prospector Limpet}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Use a Prospector Limpet}}
+
+[[Category:Mining]]

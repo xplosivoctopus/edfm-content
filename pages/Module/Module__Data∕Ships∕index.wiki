@@ -1,0 +1,62 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Ships/index
+Namespace: 828
+Page ID: 731
+Revision ID: 2120
+Timestamp: 2026-08-24T21:58:10Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Ships/index
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	-- Generated from the canonical [[Ships]] directory table; do not maintain as an eyebrow override list.
+	"Adder",
+	"Cobra Mk III",
+	"Cobra Mk IV",
+	"Cobra Mk V",
+	"Diamondback Explorer",
+	"Diamondback Scout",
+	"Dolphin",
+	"Eagle Mk II",
+	"Hauler",
+	"Imperial Courier",
+	"Imperial Eagle",
+	"Kestrel Mk II",
+	"Sidewinder Mk I",
+	"Viper Mk III",
+	"Viper Mk IV",
+	"Vulture",
+	"Alliance Challenger",
+	"Alliance Chieftain",
+	"Alliance Crusader",
+	"Asp Explorer",
+	"Asp Scout",
+	"Corsair",
+	"Federal Assault Ship",
+	"Federal Dropship",
+	"Federal Gunship",
+	"Fer-de-Lance",
+	"Keelback",
+	"Krait Mk II",
+	"Krait Phantom",
+	"Lynx Highliner",
+	"Mamba",
+	"Mandalay",
+	"Python",
+	"Python Mk II",
+	"Type-6 Transporter",
+	"Type-8 Transporter",
+	"Type-11 Prospector",
+	"Anaconda",
+	"Beluga Liner",
+	"Caspian Explorer",
+	"Federal Corvette",
+	"Imperial Clipper",
+	"Imperial Cutter",
+	"Orca",
+	"Panther Clipper Mk II",
+	"Type-7 Transporter",
+	"Type-9 Heavy",
+	"Type-10 Defender",
+}

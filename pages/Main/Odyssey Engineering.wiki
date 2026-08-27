@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Odyssey Engineering
+Namespace: 0
+Page ID: 671
+Revision ID: 1564
+Timestamp: 2026-08-23T18:07:34Z
+Source URL: https://edfieldmanual.com/wiki/Odyssey_Engineering
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|A central guide to Odyssey suit and handheld-weapon Engineering, equipment grades, modification slots, materials, and Engineer access.}}
+
+'''Odyssey Engineering''' covers on-foot suit and handheld-weapon upgrades in Live. This planned guide will explain equipment grades, modification slots, material planning, Engineer unlocks, and how Odyssey Engineering differs from ship Engineering.
+
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey]]

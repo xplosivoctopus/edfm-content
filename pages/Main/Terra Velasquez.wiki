@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Terra Velasquez
 Namespace: 0
 Page ID: 135
-Revision ID: 1478
-Timestamp: 2026-08-21T14:39:07Z
+Revision ID: 2033
+Timestamp: 2026-08-24T21:24:12Z
 Source URL: https://edfieldmanual.com/wiki/Terra_Velasquez
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Odyssey Engineer
- |deck=A mobility, combat-handling, and stealth specialist based at Rascal's Choice in Shou Xing, reached through Jude Navarro and leading to Oden Geiger.
+{{Article header|deck=A mobility, combat-handling, and stealth specialist based at Rascal's Choice in Shou Xing, reached through Jude Navarro and leading to Oden Geiger.
 }}
 
 {{Engineer infobox}}

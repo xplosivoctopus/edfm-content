@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Fuel Transfer Limpet Controller
 Namespace: 828
 Page ID: 500
-Revision ID: 1287
-Timestamp: 2026-08-20T23:59:33Z
+Revision ID: 2240
+Timestamp: 2026-08-25T14:14:04Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fuel_Transfer_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Fuel Transfer Limpet Controller",
+	module_class = "Limpet controller",
+	slot_type = "Optional internal",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Rescue Multi Limpet Controller]], [[Universal Limpet Controller]], [[Fuel Scoop]]",
 }

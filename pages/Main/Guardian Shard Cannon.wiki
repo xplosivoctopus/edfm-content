@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Guardian Shard Cannon
 Namespace: 0
 Page ID: 380
-Revision ID: 1017
-Timestamp: 2026-08-20T01:38:45Z
+Revision ID: 1938
+Timestamp: 2026-08-24T21:21:59Z
 Source URL: https://edfieldmanual.com/wiki/Guardian_Shard_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Guardian Weapon
- |deck=A short-range, fixed-mount Guardian weapon that fires a cluster of shards, most effective up close.
+{{Article header|deck=A short-range, fixed-mount Guardian weapon that fires a cluster of shards, most effective up close.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles|uncertainty=Exact damage figures and optimal range are not stated here and should be checked in-game before being treated as current}}

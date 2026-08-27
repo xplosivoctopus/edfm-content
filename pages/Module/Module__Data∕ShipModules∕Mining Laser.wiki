@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Mining Laser
 Namespace: 828
 Page ID: 530
-Revision ID: 1317
-Timestamp: 2026-08-20T23:59:56Z
+Revision ID: 2232
+Timestamp: 2026-08-25T14:13:57Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Mining_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Mining Laser",
+	module_class = "Mining tool",
+	slot_type = "Hardpoint",
+	mount = "Fixed and turreted variants",
+	manufacturer = "",
+	availability = "Standard outfitting module family",
+	engineering = "",
+	related_modules = "[[Refinery]], [[Collector Limpet Controller]], [[Prospector Limpet Controller]]",
 }

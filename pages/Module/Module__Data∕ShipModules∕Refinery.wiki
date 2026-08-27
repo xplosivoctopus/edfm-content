@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Refinery
 Namespace: 828
 Page ID: 575
-Revision ID: 1362
-Timestamp: 2026-08-21T00:00:30Z
+Revision ID: 2237
+Timestamp: 2026-08-25T14:14:01Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Refinery
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Refinery",
+	module_class = "Mining support module",
+	slot_type = "Optional internal",
+	mount = "",
+	manufacturer = "",
+	availability = "Standard outfitting module family",
+	engineering = "",
+	related_modules = "[[Mining Laser]], [[Collector Limpet Controller]], [[Cargo Rack]]",
 }

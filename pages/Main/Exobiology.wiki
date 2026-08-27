@@ -3,12 +3,13 @@ EDFM current-content archive export.
 Title: Exobiology
 Namespace: 0
 Page ID: 182
-Revision ID: 918
-Timestamp: 2026-08-18T13:17:36Z
+Revision ID: 2104
+Timestamp: 2026-08-24T21:27:32Z
 Source URL: https://edfieldmanual.com/wiki/Exobiology
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+{{Article header|deck=Index for surface bio-sampling content.}}
 {{Article status|status=Draft|mode=Both|noindex=yes}}
 
 Index for exobiology (surface bio-sampling) content — see [[:Category:Exobiology]].

@@ -1,0 +1,46 @@
+<!--
+EDFM current-content archive export.
+Title: Mining Hotspot
+Namespace: 0
+Page ID: 726
+Revision ID: 1969
+Timestamp: 2026-08-24T21:22:44Z
+Source URL: https://edfieldmanual.com/wiki/Mining_Hotspot
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Mining location draft grounded in EDFM Mining data modules and current ring-scanning workflow|uncertainty=Hotspot strength, overlap value, and commodity-specific recommendations still need direct Live-game verification.}}
+__NOINDEX__
+{{Article header|deck=Mining hotspots are mapped ring areas that help commanders target specific mined commodities.}}
+
+A '''mining hotspot''' is an area in a [[Planetary Rings|planetary ring]] associated with a named mined commodity. Hotspots are revealed by mapping a ring with a [[Detailed Surface Scanner]] and are used to guide mining runs toward better candidate areas.
+
+{{Draft warning}}
+
+== Mining role ==
+
+Hotspots are a search aid, not a guarantee. A commander still has to enter the ring, prospect asteroids, extract with the chosen method, collect fragments or deposits, refine them into cargo, and check the current market before selling.
+
+Hotspots matter most when the run has a target commodity. They are less useful for a commander who is simply learning the mining loop or collecting whatever valuable materials appear.
+
+== Finding hotspots ==
+
+# Fit a [[Detailed Surface Scanner]].
+# Travel to a system with ringed bodies.
+# Use the scanner to map the ringed body or ring region.
+# Select a hotspot marker that matches the intended commodity.
+# Drop into the ring safely and begin prospecting inside or near the hotspot.
+
+== Related methods ==
+
+* [[Laser Mining]] — benefits from hotspots when searching for a target commodity.
+* [[Core Mining]] — may use hotspots for target selection but still depends on finding valid core asteroids.
+* [[Sub-surface Mining]] — requires asteroids with sub-surface deposits even inside a hotspot.
+* [[Surface Deposit Mining]] — depends on visible deposits, often after core mining.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Mining Hotspot}}
+
+{{Related articles|[[Mining]] [[Planetary Rings]] [[Detailed Surface Scanner]] [[How to Scan Planetary Rings for Mining Hotspots]] [[How to Find a Mining Hotspot]]}}
+[[Category:Mining]]

@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Oden Geiger
 Namespace: 0
 Page ID: 138
-Revision ID: 1486
-Timestamp: 2026-08-21T14:39:13Z
+Revision ID: 1981
+Timestamp: 2026-08-24T21:23:01Z
 Source URL: https://edfieldmanual.com/wiki/Oden_Geiger
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Odyssey Engineer
- |deck=A strategic suit-utility and weapon-control specialist based at Ankh's Promise in Candiaei, reached through Terra Velasquez.
+{{Article header|deck=A strategic suit-utility and weapon-control specialist based at Ankh's Promise in Candiaei, reached through Terra Velasquez.
 }}
 
 {{Engineer infobox}}

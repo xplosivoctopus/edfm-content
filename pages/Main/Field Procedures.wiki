@@ -3,17 +3,17 @@ EDFM current-content archive export.
 Title: Field Procedures
 Namespace: 0
 Page ID: 54
-Revision ID: 1496
-Timestamp: 2026-08-21T14:39:21Z
+Revision ID: 1692
+Timestamp: 2026-08-24T02:05:08Z
 Source URL: https://edfieldmanual.com/wiki/Field_Procedures
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article status|status=Draft|mode=Both}}
 
-Field Procedures are practical, step-by-step instructions for completing specific tasks in ''Elite Dangerous''. They are intended to be followed while carrying out a task, from meeting an Engineer's unlock requirements to completing an operational workflow.
+Field Procedures are practical, step-by-step instructions for completing specific tasks in ''Elite Dangerous''. They are intended to be followed while carrying out a task, from preparing a mining ship to completing an Engineer unlock or another operational workflow.
 
-Unlike [[Game Reference|reference articles]], which explain mechanics, locations, equipment, requirements, and other factual information, Field Procedures focus on '''what to do and in what order'''.
+Unlike [[Game Reference|reference articles]], which explain mechanics, locations, equipment, requirements, and other factual information, Field Procedures focus on '''what to do and in what order'''. Reference articles should explain the background; procedures should help a commander complete a task.
 
 == How Field Procedures work ==
 
@@ -30,54 +30,8 @@ Depending on the task, a procedure may include:
 
 Field Procedures may link to reference articles for detailed background information rather than repeating material already documented elsewhere on EDFM.
 
-== Engineering ==
+{{#invoke:Procedures|directory}}
 
-Procedures for gaining access to Engineers and completing other Engineering-related tasks.
+== Complete category listing ==
 
-* [[Unlocking Bill Turner]] — Gain access to [[Bill Turner]] and their Engineering services.
-* [[Unlocking Broo Tarquin]] — Gain access to [[Broo Tarquin]] and their Engineering services.
-* [[Unlocking Chloe Sedesi]] — Gain access to [[Chloe Sedesi]] and their Engineering services.
-* [[Unlocking Colonel Bris Dekker]] — Gain access to [[Colonel Bris Dekker]] and their Engineering services.
-* [[Unlocking Didi Vatermann]] — Gain access to [[Didi Vatermann]] and their Engineering services.
-* [[Unlocking The Dweller]] — Gain access to [[The Dweller]] and their Engineering services.
-* [[Unlocking Elvira Martuuk]] — Gain access to [[Elvira Martuuk]] and their Engineering services.
-* [[Unlocking Etienne Dorn]] — Gain access to [[Etienne Dorn]] and their Engineering services.
-* [[Unlocking Felicity Farseer]] — Gain access to [[Felicity Farseer]] and their Engineering services.
-* [[Unlocking Hera Tani]] — Gain access to [[Hera Tani]] and their Engineering services.
-* [[Unlocking Juri Ishmaak]] — Gain access to [[Juri Ishmaak]] and their Engineering services.
-* [[Unlocking Lei Cheung]] — Gain access to [[Lei Cheung]] and their Engineering services.
-* [[Unlocking Liz Ryder]] — Gain access to [[Liz Ryder]] and their Engineering services.
-* [[Unlocking Lori Jameson]] — Gain access to [[Lori Jameson]] and their Engineering services.
-* [[Unlocking Marco Qwent]] — Gain access to [[Marco Qwent]] and their Engineering services.
-* [[Unlocking Marsha Hicks]] — Gain access to [[Marsha Hicks]] and their Engineering services.
-* [[Unlocking Mel Brandon]] — Gain access to [[Mel Brandon]] and their Engineering services.
-* [[Unlocking Petra Olmanova]] — Gain access to [[Petra Olmanova]] and their Engineering services.
-* [[Unlocking Professor Palin]] — Gain access to [[Professor Palin]] and their Engineering services.
-* [[Unlocking Ram Tah]] — Gain access to [[Ram Tah]] and their Engineering services.
-* [[Unlocking The Sarge]] — Gain access to [[The Sarge]] and their Engineering services.
-* [[Unlocking Selene Jean]] — Gain access to [[Selene Jean]] and their Engineering services.
-* [[Unlocking Tiana Fortune]] — Gain access to [[Tiana Fortune]] and their Engineering services.
-* [[Unlocking Tod "The Blaster" McQuinn]] — Gain access to [[Tod "The Blaster" McQuinn]] and their Engineering services.
-* [[Unlocking Zacariah Nemo]] — Gain access to [[Zacariah Nemo]] and their Engineering services.
-
-== Odyssey / On-foot ==
-
-Procedures for gaining access to Odyssey Engineers and completing on-foot Engineering-related tasks.
-
-* [[Unlocking Baltanos]] — Gain access to [[Baltanos]] and their Engineering services.
-* [[Unlocking Domino Green]] — Gain access to [[Domino Green]] and their Engineering services.
-* [[Unlocking Eleanor Bresa]] — Gain access to [[Eleanor Bresa]] and their Engineering services.
-* [[Unlocking Hero Ferrari]] — Gain access to [[Hero Ferrari]] and their Engineering services.
-* [[Unlocking Jude Navarro]] — Gain access to [[Jude Navarro]] and their Engineering services.
-* [[Unlocking Kit Fowler]] — Gain access to [[Kit Fowler]] and their Engineering services.
-* [[Unlocking Oden Geiger]] — Gain access to [[Oden Geiger]] and their Engineering services.
-* [[Unlocking Rosa Dayette]] — Gain access to [[Rosa Dayette]] and their Engineering services.
-* [[Unlocking Terra Velasquez]] — Gain access to [[Terra Velasquez]] and their Engineering services.
-* [[Unlocking Uma Laszlo]] — Gain access to [[Uma Laszlo]] and their Engineering services.
-* [[Unlocking Wellington Beck]] — Gain access to [[Wellington Beck]] and their Engineering services.
-* [[Unlocking Yarden Bond]] — Gain access to [[Yarden Bond]] and their Engineering services.
-* [[Unlocking Yi Shen]] — Gain access to [[Yi Shen]] and their Engineering services.
-
-== All Field Procedures ==
-
-For the complete automatically maintained list of procedure articles, see [[:Category:Field Procedures]].
+The curated procedure groups above are generated from canonical procedure metadata. For MediaWiki's complete category listing, see [[:Category:Field Procedures]].

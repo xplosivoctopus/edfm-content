@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Mel Brandon
 Namespace: 0
 Page ID: 124
-Revision ID: 1462
-Timestamp: 2026-08-21T14:38:55Z
+Revision ID: 1964
+Timestamp: 2026-08-24T21:22:38Z
 Source URL: https://edfieldmanual.com/wiki/Mel_Brandon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A broad Grade 5 laser, propulsion, shield, and Frame Shift Drive specialist based at The Brig in the Colonia region, reached through Elvira Martuuk.
+{{Article header|deck=A broad Grade 5 laser, propulsion, shield, and Frame Shift Drive specialist based at The Brig in the Colonia region, reached through Elvira Martuuk.
 }}
 
 {{Engineer infobox}}

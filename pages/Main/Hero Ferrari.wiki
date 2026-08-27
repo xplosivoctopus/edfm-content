@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Hero Ferrari
 Namespace: 0
 Page ID: 133
-Revision ID: 1472
-Timestamp: 2026-08-21T14:39:03Z
+Revision ID: 1943
+Timestamp: 2026-08-24T21:22:05Z
 Source URL: https://edfieldmanual.com/wiki/Hero_Ferrari
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Odyssey Engineer
- |deck=A suit-mobility and weapon-handling specialist based at Nevermore Terrace in Siris, and the starting point of the Wellington Beck referral chain.
+{{Article header|deck=A suit-mobility and weapon-handling specialist based at Nevermore Terrace in Siris, and the starting point of the Wellington Beck referral chain.
 }}
 
 {{Engineer infobox}}

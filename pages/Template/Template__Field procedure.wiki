@@ -1,0 +1,22 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Field procedure
+Namespace: 10
+Page ID: 702
+Revision ID: 2112
+Timestamp: 2026-08-24T21:39:16Z
+Source URL: https://edfieldmanual.com/wiki/Template:Field_procedure
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|type=Field Procedures|topic={{{topic|}}}|deck={{{summary|Step-by-step instructions for completing this task in Elite Dangerous.}}}}}<includeonly>[[Category:Field Procedures]]</includeonly><noinclude>
+== Usage ==
+Standard header/category marker for Field Procedure articles. Procedure listings are registered through [[Module:Procedures]] and the relevant data module rather than repeated manually on every index page.
+
+The template marks the page's content type as <code>Field Procedures</code>. The primary topic is normally resolved from structured procedure metadata. Use <code>topic=</code> only for a procedure that is not yet represented in the central procedure data.
+
+<pre>{{Field procedure|summary=Short description of the task.}}</pre>
+<pre>{{Field procedure|topic=Exploration|summary=Short description of the task.}}</pre>
+
+[[Category:Templates]]
+</noinclude>

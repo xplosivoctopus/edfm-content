@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: How to Core Mine
+Namespace: 0
+Page ID: 707
+Revision ID: 1639
+Timestamp: 2026-08-23T23:51:55Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Core_Mine
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-23|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Exact fissure-strength tuning and candidate recognition need direct Live-game verification.}}
+{{Field procedure|summary=Identify core asteroids, place seismic charges, crack the asteroid safely, and collect exposed deposits.}}
+
+Use this procedure for the core-mining loop: search, confirm, place charges, detonate, and collect the exposed deposits.
+
+{{Draft warning}}
+
+== Required equipment ==
+
+* [[Pulse Wave Analyser]]
+* [[Seismic Charge Launcher]]
+* [[Abrasion Blaster]]
+* [[Collector Limpet Controller]]
+* [[Refinery]]
+* Limpets and cargo space
+
+== Procedure ==
+
+{{Procedure steps|
+# Use the pulse wave analyser while moving through the ring to identify promising asteroids.
+# Inspect candidates closely and use a prospector where appropriate before committing charges.
+# Target fissures and place seismic charges while watching charge strength.
+# Keep the detonation meter in the safe range rather than stacking charges blindly.
+# Move clear before the timer completes.
+# After detonation, target exposed deposits and break them loose with the abrasion blaster.
+# Keep collector limpets active until the useful deposits and fragments have been collected.
+}}
+
+== Completion check ==
+
+A core asteroid is complete when the cracked remains no longer have useful exposed deposits or collectible fragments for the run.
+
+== Common problems ==
+
+* '''Detonation is too weak:''' add or replace charges before the timer expires if the meter allows it.
+* '''Detonation is too strong:''' disarm charges if needed and rebuild the charge pattern.
+* '''Deposits remain after the explosion:''' use the abrasion blaster; seismic charges only expose the deposits.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Core Mine}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Core Mine}}
+
+[[Category:Mining]]

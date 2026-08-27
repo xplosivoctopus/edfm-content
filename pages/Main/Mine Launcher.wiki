@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Mine Launcher
 Namespace: 0
 Page ID: 374
-Revision ID: 1011
-Timestamp: 2026-08-20T01:38:41Z
+Revision ID: 1967
+Timestamp: 2026-08-24T21:22:42Z
 Source URL: https://edfieldmanual.com/wiki/Mine_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Weapon
- |deck=A rear-deployed area-denial weapon, more often used to punish a pursuer than as a primary damage source.
+{{Article header|deck=A rear-deployed area-denial weapon, more often used to punish a pursuer than as a primary damage source.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}

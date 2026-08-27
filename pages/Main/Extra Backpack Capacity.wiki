@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Extra Backpack Capacity
+Namespace: 0
+Page ID: 679
+Revision ID: 1572
+Timestamp: 2026-08-23T18:40:02Z
+Source URL: https://edfieldmanual.com/wiki/Extra_Backpack_Capacity
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an Odyssey suit modification reference for Extra Backpack Capacity and collection-focused builds.}}
+
+'''Extra Backpack Capacity''' is an Odyssey Engineering modification. This planned reference will cover compatible suit use, material gathering implications, and build trade-offs.
+
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey]]

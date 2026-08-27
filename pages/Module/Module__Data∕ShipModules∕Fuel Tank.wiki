@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Fuel Tank
 Namespace: 828
 Page ID: 498
-Revision ID: 1285
-Timestamp: 2026-08-20T23:59:31Z
+Revision ID: 2220
+Timestamp: 2026-08-25T14:13:47Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fuel_Tank
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Fuel Tank",
+	module_class = "Fuel storage module",
+	slot_type = "Core internal / optional internal",
+	mount = "",
+	manufacturer = "",
+	availability = "Standard core module family",
+	engineering = "",
+	related_modules = "[[Fuel Scoop]], [[Frame Shift Drive]]",
 }

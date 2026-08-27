@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Luxury Passenger Cabin
 Namespace: 0
 Page ID: 522
-Revision ID: 1309
-Timestamp: 2026-08-20T23:59:49Z
+Revision ID: 2163
+Timestamp: 2026-08-24T23:44:27Z
 Source URL: https://edfieldmanual.com/wiki/Luxury_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Luxury Passenger Cabin ship module.
+{{Article header|deck=Structured stub page for the Luxury Passenger Cabin ship module.
 }}
 
-{{Ship module infobox
- |name = Luxury Passenger Cabin
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

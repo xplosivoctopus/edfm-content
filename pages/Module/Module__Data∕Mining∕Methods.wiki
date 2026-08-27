@@ -1,0 +1,57 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Mining/Methods
+Namespace: 828
+Page ID: 716
+Revision ID: 1620
+Timestamp: 2026-08-23T23:49:27Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Mining/Methods
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	{
+		key = "laser",
+		page = "Laser Mining",
+		label = "Laser mining",
+		summary = "Uses mining lasers to break ordinary surface fragments from an asteroid, then collector limpets and a refinery turn those fragments into cargo.",
+		primary_equipment = { "Mining Laser", "Prospector Limpet Controller", "Collector Limpet Controller", "Refinery", "Cargo Rack" },
+		optional_equipment = { "Detailed Surface Scanner", "Mining Multi Limpet Controller" },
+		location_notes = "Commonly performed in planetary rings, especially in mapped hotspots for the target commodity.",
+		field_procedures = { "How to Laser Mine", "How to Use a Prospector Limpet", "How to Use Collector Limpets", "How to Use a Refinery" },
+		status = "Draft"
+	},
+	{
+		key = "core",
+		page = "Core Mining",
+		label = "Core mining",
+		summary = "Uses a pulse wave analyser to locate candidate core asteroids, seismic charges to split fissures, and an abrasion blaster to dislodge exposed deposits after detonation.",
+		primary_equipment = { "Pulse Wave Analyser", "Seismic Charge Launcher", "Abrasion Blaster", "Collector Limpet Controller", "Refinery", "Cargo Rack" },
+		optional_equipment = { "Prospector Limpet Controller", "Detailed Surface Scanner" },
+		location_notes = "Tied to asteroids with fissures and visible deposits rather than every asteroid in a ring.",
+		field_procedures = { "How to Core Mine", "How to Mine Surface Deposits", "How to Use Collector Limpets", "How to Use a Refinery" },
+		status = "Draft"
+	},
+	{
+		key = "subsurface",
+		page = "Sub-surface Mining",
+		label = "Sub-surface mining",
+		summary = "Uses sub-surface displacement missiles against scanned deposits inside an asteroid, releasing chunks for collection and refining.",
+		primary_equipment = { "Sub-surface Displacement Missile", "Prospector Limpet Controller", "Collector Limpet Controller", "Refinery", "Cargo Rack" },
+		optional_equipment = { "Detailed Surface Scanner" },
+		location_notes = "Depends on asteroids that contain sub-surface deposits; prospectors identify deposits before firing.",
+		field_procedures = { "How to Sub-surface Mine", "How to Use a Prospector Limpet", "How to Use Collector Limpets", "How to Use a Refinery" },
+		status = "Draft"
+	},
+	{
+		key = "surface",
+		page = "Surface Deposit Mining",
+		label = "Surface deposit mining",
+		summary = "Uses an abrasion blaster to break visible surface deposits from an asteroid, usually as part of core mining or targeted deposit collection.",
+		primary_equipment = { "Abrasion Blaster", "Collector Limpet Controller", "Refinery", "Cargo Rack" },
+		optional_equipment = { "Prospector Limpet Controller", "Pulse Wave Analyser" },
+		location_notes = "Requires visible surface deposits on the asteroid rather than normal laser-mining fragments.",
+		field_procedures = { "How to Mine Surface Deposits", "How to Core Mine", "How to Use Collector Limpets", "How to Use a Refinery" },
+		status = "Draft"
+	}
+}

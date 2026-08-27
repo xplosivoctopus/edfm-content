@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Tiana Fortune
 Namespace: 0
 Page ID: 118
-Revision ID: 1460
-Timestamp: 2026-08-21T14:38:54Z
+Revision ID: 2041
+Timestamp: 2026-08-24T21:24:23Z
 Source URL: https://edfieldmanual.com/wiki/Tiana_Fortune
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Engineer|deck=Scanner and limpet controller specialist based in the Achenar system, reachable through Hera Tani.}}
+{{Article header|deck=Scanner and limpet controller specialist based in the Achenar system, reachable through Hera Tani.}}
 {{Article status|status=Needs review|mode=Both|version=Live and Legacy; exact patch scope not yet directly verified|reviewed=2026-08-07|reviewer=Desk research; pending direct in-game verification — see Sources|source_quality=Location and specialty cross-referenced against Inara's Engineers listing; prerequisite/discovery/invitation/unlock detail drawn primarily from a single community unlock-chain guide — see Sources|uncertainty=Maximum engineering grade and full blueprint names were not found in the sources checked.}}
 
 {{Engineer infobox}}

@@ -1,0 +1,59 @@
+<!--
+EDFM current-content archive export.
+Title: How to Sub-surface Mine
+Namespace: 0
+Page ID: 708
+Revision ID: 1668
+Timestamp: 2026-08-23T23:59:46Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Sub-surface_Mine
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Deposit timing and commodity-specific recommendations still need direct Live-game verification.}}
+__NOINDEX__
+{{Field procedure|summary=Extract sub-surface deposits from asteroids with displacement missiles and collect the released chunks.}}
+
+Use this procedure when a ship is fitted for [[Sub-surface Mining|sub-surface mining]] and the commander wants to extract internal asteroid deposits with a [[Sub-surface Displacement Missile]].
+
+{{Draft warning}}
+
+== Required equipment ==
+
+* [[Sub-surface Displacement Missile]]
+* [[Prospector Limpet Controller]]
+* [[Collector Limpet Controller]]
+* [[Refinery]]
+* Limpets and cargo space
+* Optional: [[Detailed Surface Scanner]] for hotspot planning
+
+== Procedure ==
+
+{{Procedure steps|
+# Enter the target ring or hotspot and approach candidate asteroids safely.
+# Fire a prospector limpet at the asteroid.
+# Check the prospector result for sub-surface deposits worth extracting.
+# Target the deposit and line up the ship so the missile can be held on course.
+# Fire and hold the displacement missile while watching the extraction indicator.
+# Release during the highlighted band to break material loose.
+# Keep collector limpets active while chunks are available.
+# Manage refinery bins and ignore or vent unwanted commodities if they block useful cargo.
+}}
+
+== Completion check ==
+
+A deposit is complete when the useful extraction windows have been used and no further chunks from that deposit are worth collecting. The run is complete when the planned cargo has been refined and sold or stored.
+
+== Common problems ==
+
+* '''No sub-surface deposits:''' move to another asteroid; the method depends on deposits revealed by prospecting.
+* '''Missile released outside the band:''' treat the attempt as practice and realign for the next deposit.
+* '''Collectors are idle:''' make sure limpets are available and the controller is active.
+* '''Refinery is blocked:''' use [[How to Resolve a Full Refinery]] or [[How to Ignore Unwanted Mining Commodities]].
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Sub-surface Mine}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Sub-surface Mine}}
+
+[[Category:Mining]]

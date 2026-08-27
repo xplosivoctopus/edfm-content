@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Suit Engineering
+Namespace: 0
+Page ID: 688
+Revision ID: 1581
+Timestamp: 2026-08-23T18:40:08Z
+Source URL: https://edfieldmanual.com/wiki/Suit_Engineering
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Odyssey Engineering]]
+
+[[Category:Odyssey Engineering]]

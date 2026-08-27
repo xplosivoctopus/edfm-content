@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Shield Generator
 Namespace: 828
 Page ID: 596
-Revision ID: 1383
-Timestamp: 2026-08-21T00:00:45Z
+Revision ID: 2222
+Timestamp: 2026-08-25T14:13:48Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shield_Generator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Shield Generator",
+	module_class = "Shield module",
+	slot_type = "Optional internal",
+	mount = "",
+	manufacturer = "",
+	availability = "Standard outfitting module family",
+	engineering = "",
+	related_modules = "[[Shield Booster]], [[Shield Cell Bank]]",
 }

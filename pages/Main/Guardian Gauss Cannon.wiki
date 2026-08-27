@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Guardian Gauss Cannon
 Namespace: 0
 Page ID: 378
-Revision ID: 1015
-Timestamp: 2026-08-20T01:38:44Z
+Revision ID: 1934
+Timestamp: 2026-08-24T21:21:54Z
 Source URL: https://edfieldmanual.com/wiki/Guardian_Gauss_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Guardian Weapon
- |deck=A charge-up Guardian weapon prized for concentrated hull damage, especially against Thargoid targets.
+{{Article header|deck=A charge-up Guardian weapon prized for concentrated hull damage, especially against Thargoid targets.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles|uncertainty=Exact damage figures and charge-time values are not stated here and should be checked in-game before being treated as current}}

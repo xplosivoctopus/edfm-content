@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: How to Mine Surface Deposits
+Namespace: 0
+Page ID: 709
+Revision ID: 1669
+Timestamp: 2026-08-23T23:59:47Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Mine_Surface_Deposits
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Commodity-specific deposit behavior still needs direct Live-game verification.}}
+__NOINDEX__
+{{Field procedure|summary=Break surface deposits from asteroids with an abrasion blaster and collect the resulting materials or commodities.}}
+
+Use this procedure for [[Surface Deposit Mining|surface deposit mining]], including the post-detonation cleanup stage of [[Core Mining|core mining]].
+
+{{Draft warning}}
+
+== Required equipment ==
+
+* [[Abrasion Blaster]]
+* [[Collector Limpet Controller]]
+* [[Refinery]]
+* Limpets and cargo space
+* Optional: [[Prospector Limpet Controller]] and [[Pulse Wave Analyser]] when searching for suitable asteroids
+
+== Procedure ==
+
+{{Procedure steps|
+# Identify an asteroid with visible surface deposits, or inspect a cracked core asteroid after detonation.
+# Target a visible deposit.
+# Fire the abrasion blaster until the deposit breaks free.
+# Keep collector limpets active so the released material is recovered.
+# Check the refinery and cargo hold before moving to the next deposit.
+# Repeat until no useful deposits remain or the run plan changes.
+}}
+
+== Completion check ==
+
+The asteroid is complete when useful visible deposits have been dislodged and collected, or when the remaining deposits are not worth the time, cargo, or refinery space for the run.
+
+== Common problems ==
+
+* '''Deposit will not break free:''' confirm that the visible deposit is targeted and that the abrasion blaster is hitting it directly.
+* '''Collectors keep dying:''' back away from jagged asteroid surfaces and avoid dragging limpets through rock.
+* '''Cargo does not appear:''' check refinery bins; fragments may still be processing or blocked.
+* '''No visible deposits after a core blast:''' inspect the cracked pieces before leaving, but do not assume every angle has a recoverable target.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Mine Surface Deposits}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Mine Surface Deposits}}
+
+[[Category:Mining]]

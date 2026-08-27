@@ -1,0 +1,53 @@
+<!--
+EDFM current-content archive export.
+Title: How to Use a Refinery
+Namespace: 0
+Page ID: 712
+Revision ID: 1640
+Timestamp: 2026-08-23T23:51:56Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Use_a_Refinery
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-23|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Exact UI labels and edge-case refinery behavior need direct Live-game verification.}}
+{{Field procedure|summary=Turn collected fragments into cargo by managing refinery bins and transferring completed tonnes into the cargo hold.}}
+
+Use this procedure when collected fragments are not becoming cargo, the refinery is filling with unwanted resources, or a mining run needs a clean refinery workflow.
+
+{{Draft warning}}
+
+== Required equipment ==
+
+* [[Refinery]]
+* Cargo space
+* Collectible mining fragments or chunks
+
+== Procedure ==
+
+{{Procedure steps|
+# Confirm the refinery is installed, powered, and not disabled by module priorities.
+# Confirm the cargo hold has free space for completed tonnes.
+# Let collector limpets deliver fragments to the refinery.
+# Watch refinery bins as each resource percentage rises toward a full tonne.
+# If a bin contains an unwanted resource, vent or clear that bin before it blocks preferred fragments.
+# If collectors keep bringing unwanted fragments, add that commodity to the ignore workflow for the run.
+# When a tonne completes, confirm it transfers into cargo and frees refinery space.
+}}
+
+== Completion check ==
+
+The refinery is working when useful fragments are increasing bin percentages, completed tonnes are moving into cargo, and unwanted bins are not blocking the desired commodity.
+
+== Common problems ==
+
+* '''Refinery full:''' clear unwanted bins or free cargo space.
+* '''Cargo full:''' sell, transfer, abandon, or make space before more tonnes can complete.
+* '''Wrong fragments keep arriving:''' see [[How to Ignore Unwanted Mining Commodities]].
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Use a Refinery}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Use a Refinery}}
+
+[[Category:Mining]]

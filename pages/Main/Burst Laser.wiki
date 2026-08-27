@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Burst Laser
 Namespace: 0
 Page ID: 376
-Revision ID: 1013
-Timestamp: 2026-08-20T01:38:42Z
+Revision ID: 1881
+Timestamp: 2026-08-24T21:20:40Z
 Source URL: https://edfieldmanual.com/wiki/Burst_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Weapon
- |deck=A burst-fire energy weapon balancing heat, power draw, and damage between the Pulse Laser and Beam Laser.
+{{Article header|deck=A burst-fire energy weapon balancing heat, power draw, and damage between the Pulse Laser and Beam Laser.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}

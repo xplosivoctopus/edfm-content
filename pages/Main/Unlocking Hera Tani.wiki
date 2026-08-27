@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Unlocking Hera Tani
 Namespace: 0
 Page ID: 627
-Revision ID: 1506
-Timestamp: 2026-08-21T14:40:54Z
+Revision ID: 2058
+Timestamp: 2026-08-24T21:24:46Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Hera_Tani
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Hera Tani — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+{{Article header|deck=The actionable checklist for gaining access to Hera Tani — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
 
 This Field Procedure covers only the steps to unlock [[Hera Tani]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Hera Tani]].
 

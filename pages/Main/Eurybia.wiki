@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Eurybia
 Namespace: 0
 Page ID: 347
-Revision ID: 984
-Timestamp: 2026-08-20T01:37:34Z
+Revision ID: 1917
+Timestamp: 2026-08-24T21:21:29Z
 Source URL: https://edfieldmanual.com/wiki/Eurybia
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=An anarchy system in the Core Systems, home to Liz Ryder's Demolition Unlimited workshop.
+{{Article header|deck=An anarchy system in the Core Systems, home to Liz Ryder's Demolition Unlimited workshop.
 }}
 
 {{Article status

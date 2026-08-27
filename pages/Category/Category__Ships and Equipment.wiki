@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Ships and Equipment
+Namespace: 14
+Page ID: 696
+Revision ID: 1592
+Timestamp: 2026-08-23T18:43:04Z
+Source URL: https://edfieldmanual.com/wiki/Category:Ships_and_Equipment
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Hidden category}}
+
+Pages covering ships, modules, weapons, outfitting, and related equipment.
+
+[[Category:Equipment]]

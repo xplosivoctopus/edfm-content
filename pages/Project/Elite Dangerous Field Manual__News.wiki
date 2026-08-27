@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:News
 Namespace: 4
 Page ID: 289
-Revision ID: 557
-Timestamp: 2026-08-10T02:20:05Z
+Revision ID: 2118
+Timestamp: 2026-08-24T21:45:47Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:News
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Project News|deck=Field-manual updates, editorial milestones, and review priorities for the Elite Dangerous Field Manual.}}
+{{Article header|section=Operations|deck=Field-manual updates, editorial milestones, and review priorities for the Elite Dangerous Field Manual.}}
 
 == Latest updates ==
 <div class="edfm-home-news">

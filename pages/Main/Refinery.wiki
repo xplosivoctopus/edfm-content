@@ -3,34 +3,41 @@ EDFM current-content archive export.
 Title: Refinery
 Namespace: 0
 Page ID: 576
-Revision ID: 1363
-Timestamp: 2026-08-21T00:00:30Z
+Revision ID: 2189
+Timestamp: 2026-08-24T23:44:58Z
 Source URL: https://edfieldmanual.com/wiki/Refinery
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Refinery ship module.
-}}
+__NOINDEX__
+{{Article header|deck=A refinery processes mined fragments into cargo.}}
 
-{{Ship module infobox
- |name = Refinery
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and bin-management edge cases still need direct Live-game verification.}}
+
+{{Ship module infobox}}
+
+The '''Refinery''' converts collected mining fragments into whole tonnes of cargo. It is required for ordinary mining profits because loose fragments are not saleable cargo until they have been processed.
 
 {{Draft warning}}
 
-== Overview ==
+== Mining role ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{{#invoke:Mining|equipmentNote|page=Refinery}}
 
+The refinery is shared by [[Laser Mining]], [[Core Mining]], [[Sub-surface Mining]], and [[Surface Deposit Mining]]. Collectors deliver fragments or chunks to the ship, and the refinery fills bins until a full tonne can be moved into cargo.
+
+== Operating notes ==
+
+* More bins make mixed-fragment mining easier because several partial commodities can be held at once.
+* A full cargo hold can stop the refinery from completing new tonnes.
+* Unwanted or low-priority fragments may need to be ignored or vented so useful commodities can continue processing.
+* The refinery does not choose profitable cargo by itself; the commander still has to plan the run and check market demand.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Refinery}}
+
+{{Related articles|[[Mining]] [[How to Use a Refinery]] [[How to Resolve a Full Refinery]] [[How to Ignore Unwanted Mining Commodities]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Mining]]

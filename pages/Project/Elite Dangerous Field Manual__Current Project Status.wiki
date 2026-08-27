@@ -3,14 +3,14 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Current Project Status
 Namespace: 4
 Page ID: 49
-Revision ID: 860
-Timestamp: 2026-08-16T04:32:37Z
+Revision ID: 2117
+Timestamp: 2026-08-24T21:45:46Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Current_Project_Status
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article header
- |eyebrow=EDFM // Project
+ |section=Operations
  |deck=Where the Field Manual stands today, which areas are being developed, and where contributors can help.
 }}
 

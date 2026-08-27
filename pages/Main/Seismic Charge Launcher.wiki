@@ -3,34 +3,34 @@ EDFM current-content archive export.
 Title: Seismic Charge Launcher
 Namespace: 0
 Page ID: 591
-Revision ID: 1378
-Timestamp: 2026-08-21T00:00:41Z
+Revision ID: 2197
+Timestamp: 2026-08-24T23:45:08Z
 Source URL: https://edfieldmanual.com/wiki/Seismic_Charge_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Seismic Charge Launcher ship module.
-}}
+__NOINDEX__
+{{Article header|deck=Seismic charge launchers place charges into asteroid fissures for core mining.}}
 
-{{Ship module infobox
- |name = Seismic Charge Launcher
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and fissure-strength details still need direct Live-game verification.}}
+
+{{Ship module infobox}}
+
+The '''Seismic Charge Launcher''' is the core-mining hardpoint used to place charges in asteroid fissures. Correct charge placement cracks a core asteroid and exposes deposits for collection.
 
 {{Draft warning}}
 
-== Overview ==
+== Mining role ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{{#invoke:Mining|equipmentNote|page=Seismic Charge Launcher}}
 
+The launcher is only one part of [[Core Mining]]. A complete core-mining fit also needs search support, collection support, a refinery, cargo space, and usually an [[Abrasion Blaster]] to remove deposits after the detonation.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Seismic Charge Launcher}}
+
+{{Related articles|[[Core Mining]] [[How to Core Mine]] [[Pulse Wave Analyser]] [[Abrasion Blaster]] [[Refinery]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Mining]]

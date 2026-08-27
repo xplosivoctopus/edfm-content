@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Docking Computer
 Namespace: 0
 Page ID: 472
-Revision ID: 1259
-Timestamp: 2026-08-20T23:59:14Z
+Revision ID: 2143
+Timestamp: 2026-08-24T23:44:02Z
 Source URL: https://edfieldmanual.com/wiki/Docking_Computer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Docking Computer ship module.
+{{Article header|deck=Structured stub page for the Docking Computer ship module.
 }}
 
-{{Ship module infobox
- |name = Docking Computer
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

@@ -1,0 +1,172 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Page section resolution
+Namespace: 4
+Page ID: 730
+Revision ID: 2124
+Timestamp: 2026-08-24T22:04:03Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Page_section_resolution
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|section=Operations|deck=How EDFM resolves article header eyebrows from page context instead of page-title duplication.}}
+
+EDFM article pages use a centralized context resolver so the eyebrow above the page title answers '''where in EDFM the reader is''', while the H1 answers '''what page the reader is reading'''.
+
+The resolver tracks three related but separate concepts:
+
+* '''primary section''' — the broad EDFM area, such as '''Engineering''', '''Mining''', or '''Ships & Equipment''';
+* '''secondary context''' — a narrower collection when EDFM has a meaningful one, such as '''Ships''', '''Modules''', '''Weapons''', or '''Engineers''';
+* '''content type''' — the format or purpose of the page, currently '''Field Procedures'''.
+
+The visible eyebrow stays compact and normally renders at most two contextual segments after the plain-text <code>EDFM //</code> label:
+
+<pre>
+EDFM // Ships & Equipment / Modules
+Frame Shift Drive
+</pre>
+
+For pages with a meaningful content type, the content type takes display priority over the ordinary secondary context:
+
+<pre>
+EDFM // Engineering / Field Procedures
+Unlocking Broo Tarquin
+</pre>
+
+Internally, <code>Unlocking Broo Tarquin</code> still resolves to secondary context '''Engineers'''; the eyebrow simply displays '''Field Procedures''' instead because content type is the more useful second visible segment.
+
+== Normal author workflow ==
+
+Most pages should use:
+
+<pre>
+{{Article header|deck=Optional one-line page summary.}}
+</pre>
+
+Field Procedure pages should normally use:
+
+<pre>
+{{Field procedure|summary=Short task summary.}}
+</pre>
+
+Do not normally set an eyebrow manually. The header calls [[Module:PageContext]], which resolves primary section, secondary context, and optional content type from structured data and central rules. Visible primary/secondary/type segments are rendered as ordinary MediaWiki internal links when [[Module:Data/PageSections]] defines a verified canonical destination. <code>EDFM //</code> itself remains plain text.
+
+== Display priority ==
+
+# Render the primary section if known; otherwise render fallback '''Reference'''.
+# For the second visible segment, render meaningful '''content type''' first.
+# If there is no content type, render meaningful '''secondary context'''.
+# If neither exists, render no second segment.
+
+The eyebrow is contextual navigation, not a complete breadcrumb trail. Do not expand it into long chains such as <code>EDFM // Engineering / Engineers / Field Procedures</code>.
+
+== Primary section resolution order ==
+
+# '''Explicit override''' — <code>{{Article header|section=Combat}}</code> or <code>topic=</code>.
+# '''Structured procedure metadata''' — for example mining procedure records carry a topic such as <code>Mining</code>.
+# '''Structured unlock target metadata''' — <code>Unlocking Name</code> resolves through the canonical Engineer data for <code>Name</code>.
+# '''Structured page/content type''' — existing canonical data/index pages, including Engineers, ships, ship modules, ship weapons, and mining datasets.
+# '''Exact central hub mappings''' — section and hub pages such as [[Engineering]], [[Mining]], [[Powerplay]], and [[Ships and Equipment]].
+# '''Conservative topic-family rules''' — Guardian, Thargoid/Xeno, and AX naming rules.
+# '''Small exceptional override map''' — currently empty.
+# '''Fallback''' — unknown pages resolve to <code>Reference</code>.
+
+== Secondary context resolution order ==
+
+# '''Explicit override''' — <code>{{Article header|context=Engineers}}</code> or <code>secondaryContext=</code>.
+# '''Exact central hub mappings''' — for hub/index pages and ordinary pages such as [[Engineer Unlock Guide]].
+# '''Structured unlock target metadata''' — <code>Unlocking Name</code> retains secondary context '''Engineers''' when <code>Name</code> is an Engineer.
+# '''Structured page/content type''' — mapped page types such as <code>ship</code>, <code>ship_module</code>, <code>ship_weapon</code>, and <code>engineer</code>.
+# '''Small exceptional override map''' — currently empty.
+# '''None''' — ordinary topical pages do not receive a manufactured second segment.
+
+== Content type resolution order ==
+
+# '''Explicit override''' — <code>{{Article header|type=Field Procedures}}</code>.
+# '''Structured/shared content-type signal''' — mining procedure data or Engineer-unlock procedure target data.
+# '''Centralized content-type family rule''' — conservative <code>How to ...</code> and <code>Unlocking ...</code> rules, after structured checks.
+# '''Small exceptional override map''' — currently empty.
+# '''None''' — normal articles do not receive a content-type segment.
+
+If a content type exists but the primary section falls all the way back to <code>Reference</code>, [[Template:Article header]] suppresses the suffix unless a primary section was explicitly provided. This avoids noisy output such as <code>EDFM // Reference / Field Procedures</code> for unresolved procedure pages.
+
+== Canonical destinations ==
+
+Canonical linked destinations are centralized in [[Module:Data/PageSections]]:
+
+* '''Reference''' → [[Game Reference]]
+* '''Ships & Equipment''' → [[Ships and Equipment]]
+* '''Ships''' → [[Ships]]
+* '''Modules''' → [[Ship Modules]]
+* '''Engineering''' → [[Engineering]]
+* '''Engineers''' → [[Engineers]]
+* '''Mining''' → [[Mining]]
+* '''Field Procedures''' → [[Field Procedures]]
+
+A context may intentionally have no linked destination. For example, '''Weapons''' is recognized as a secondary context, but there is currently no suitable live weapons hub page; until one exists, the label renders as plain text.
+
+The renderer suppresses self-links by comparing normalized MediaWiki titles, so the [[Ships]] page can show <code>EDFM // Ships & Equipment / Ships</code> while only linking the primary section.
+
+== Structured integrations ==
+
+Current integrations include:
+
+* Ship pages from <code>Module:Data/Ships/index</code>, generated from the canonical [[Ships]] directory table → '''Ships & Equipment / Ships'''
+* Engineer pages from <code>Module:Data/Engineers/index</code> → '''Engineering / Engineers'''
+* Engineer unlock procedure pages such as <code>Unlocking Broo Tarquin</code> → primary topic from the target Engineer record, secondary context '''Engineers''', content type '''Field Procedures'''
+* Ship module pages from <code>Module:Data/ShipModules/index</code> and <code>Module:Data/Modules/index</code> → '''Ships & Equipment / Modules'''
+* Ship weapon pages identified through <code>Module:Data/Modules/index</code> records with subcategory <code>Weapon</code> → '''Ships & Equipment / Weapons'''
+* Guardian module pages identified through the module index and Guardian naming → '''Guardian Technology'''
+* Thargoid/Xeno/AX module pages identified through the module index and xeno naming → '''Thargoids'''
+* Mining method/equipment/location/commodity datasets → '''Mining'''
+* Mining procedure records in <code>Module:Data/Procedures/Mining</code> → primary topic from the record, content type '''Field Procedures'''
+
+If EDFM adds a new canonical dataset, add a lightweight detector in [[Module:PageContext]] and map the resulting type in [[Module:Data/PageSections]]. Do not duplicate every individual page into a hand-maintained lookup table.
+
+== Manual overrides ==
+
+Use overrides only when a page is intentionally cross-topic or cannot be identified cleanly from data/rules:
+
+<pre>
+{{Article header
+ |section=Engineering
+ |context=Engineers
+ |type=Field Procedures
+ |deck=Optional one-line summary.
+}}
+</pre>
+
+If many pages require overrides, improve the structured data or page-family rules instead.
+
+== Public Lua interface ==
+
+[[Module:PageContext]] exposes semantic interfaces:
+
+* <code>getPrimarySection</code> — returns a plain section name such as <code>Engineering</code>.
+* <code>getSecondaryContext</code> — returns a plain context name such as <code>Engineers</code>, or blank.
+* <code>getContentType</code> — returns a type such as <code>Field Procedures</code>, or blank for normal articles.
+* <code>getContext</code> — returns encoded context with <code>primarySection</code>, optional <code>secondaryContext</code>, and optional <code>contentType</code> objects.
+* <code>getPageType</code> — returns an internal page type such as <code>engineer</code>, <code>ship</code>, <code>ship_module</code>, <code>ship_weapon</code>, or <code>field_procedure</code> where known.
+* <code>eyebrow</code> — returns complete plain presentation text for compatibility/testing.
+* <code>renderEyebrowBody</code> — used by [[Template:Article header]] to render linked primary/display context segments after plain <code>EDFM //</code>.
+
+== Testing ==
+
+Representative parser tests:
+
+<pre>
+{{#invoke:PageContext|getPrimarySection|page=Frame Shift Drive}}
+{{#invoke:PageContext|getSecondaryContext|page=Frame Shift Drive}}
+{{#invoke:PageContext|getPrimarySection|page=Felicity Farseer}}
+{{#invoke:PageContext|getSecondaryContext|page=Felicity Farseer}}
+{{#invoke:PageContext|getPrimarySection|page=Unlocking Broo Tarquin}}
+{{#invoke:PageContext|getSecondaryContext|page=Unlocking Broo Tarquin}}
+{{#invoke:PageContext|getContentType|page=Unlocking Broo Tarquin}}
+{{#invoke:PageContext|getContext|page=Unlocking Broo Tarquin}}
+{{#invoke:PageContext|eyebrow|page=Resolver Sandbox Unknown}}
+{{#invoke:PageContext|eyebrow|page=Frame Shift Drive|section=Combat|context=Modules|type=Field Procedures}}
+</pre>
+
+Then verify rendered pages include exactly one visible eyebrow, retain the semantic H1, and do not show Lua/script errors.
+
+[[Category:EDFM project documentation]]

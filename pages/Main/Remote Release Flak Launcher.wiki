@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Remote Release Flak Launcher
 Namespace: 0
 Page ID: 578
-Revision ID: 1365
-Timestamp: 2026-08-21T00:00:32Z
+Revision ID: 2190
+Timestamp: 2026-08-24T23:44:59Z
 Source URL: https://edfieldmanual.com/wiki/Remote_Release_Flak_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Remote Release Flak Launcher ship module.
+{{Article header|deck=Structured stub page for the Remote Release Flak Launcher ship module.
 }}
 
-{{Ship module infobox
- |name = Remote Release Flak Launcher
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

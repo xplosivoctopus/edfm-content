@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Unlocking Elvira Martuuk
 Namespace: 0
 Page ID: 623
-Revision ID: 1504
-Timestamp: 2026-08-21T14:40:52Z
+Revision ID: 2056
+Timestamp: 2026-08-24T21:24:43Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Elvira_Martuuk
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Elvira Martuuk — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+{{Article header|deck=The actionable checklist for gaining access to Elvira Martuuk — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
 
 This Field Procedure covers only the steps to unlock [[Elvira Martuuk]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Elvira Martuuk]].
 

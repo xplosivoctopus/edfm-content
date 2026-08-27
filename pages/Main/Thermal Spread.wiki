@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Thermal Spread
+Namespace: 0
+Page ID: 686
+Revision ID: 1579
+Timestamp: 2026-08-23T18:40:07Z
+Source URL: https://edfieldmanual.com/wiki/Thermal_Spread
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an experimental-effect reference for Thermal Spread, including compatible modules and heat-management trade-offs.}}
+
+'''Thermal Spread''' is an Engineering experimental effect. This planned reference will document compatible blueprints, heat-management effects, and when the effect is preferred over alternatives.
+
+[[Category:Experimental Effects]]
+[[Category:Engineering]]

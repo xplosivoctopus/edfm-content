@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Flow Control
+Namespace: 0
+Page ID: 669
+Revision ID: 1562
+Timestamp: 2026-08-23T18:07:33Z
+Source URL: https://edfieldmanual.com/wiki/Flow_Control
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|A ship Engineering experimental-effect reference for Flow Control, including compatible modules, power-draw effects, and Engineer availability.}}
+
+'''Flow Control''' is a ship Engineering experimental effect. This planned reference will explain its power-draw role, compatible module groups, and how it compares with other experimental choices.
+
+[[Category:Engineering]]
+[[Category:Experimental Effects]]

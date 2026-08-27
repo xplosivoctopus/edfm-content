@@ -1,0 +1,296 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Modules
+Namespace: 828
+Page ID: 661
+Revision ID: 1554
+Timestamp: 2026-08-23T02:19:56Z
+Source URL: https://edfieldmanual.com/wiki/Module:Modules
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+local p = {}
+
+local INDEX_PAGE = 'Module:Data/Modules/index'
+
+-------------------------------------------------------------------------------
+-- Data loading
+-------------------------------------------------------------------------------
+
+local function loadIndex()
+    return mw.loadJsonData(INDEX_PAGE)
+end
+
+local function findKeyByPage(pageName)
+    local index = loadIndex()
+
+    if not index.modules then
+        return nil
+    end
+
+    for key, entry in pairs(index.modules) do
+        if entry.page == pageName then
+            return key
+        end
+    end
+
+    return nil
+end
+
+local function loadModule(key)
+    local index = loadIndex()
+
+    if not index.modules then
+        return nil, 'Module index does not contain a "modules" object.'
+    end
+
+    local entry = index.modules[key]
+
+    if not entry then
+        return nil, 'Module "' .. tostring(key) .. '" was not found in the module index.'
+    end
+
+    if not entry.data_page then
+        return nil, 'Module "' .. tostring(key) .. '" does not have a data_page defined.'
+    end
+
+    return mw.loadJsonData(entry.data_page)
+end
+
+-------------------------------------------------------------------------------
+-- Formatting helpers
+-------------------------------------------------------------------------------
+
+local function yesNo(value)
+    if value == true then
+        return 'Yes'
+    elseif value == false then
+        return 'No'
+    end
+
+    return 'Unknown'
+end
+
+local function joinValues(values)
+    if not values then
+        return '—'
+    end
+
+    local output = {}
+
+    for _, value in ipairs(values) do
+        output[#output + 1] = tostring(value)
+    end
+
+    if #output == 0 then
+        return '—'
+    end
+
+    return table.concat(output, ', ')
+end
+
+local function countValues(values)
+    if not values then
+        return 0
+    end
+
+    local count = 0
+
+    for _ in ipairs(values) do
+        count = count + 1
+    end
+
+    return count
+end
+
+-------------------------------------------------------------------------------
+-- Internal-link helpers
+-------------------------------------------------------------------------------
+
+local GROUP_LINKS = {
+    ['Core Internal'] = 'Core Internals',
+    ['Optional Internal'] = 'Optional Internals',
+    ['Hardpoint'] = 'Hardpoints',
+    ['Utility'] = 'Utility Mounts'
+}
+
+local function linkGroup(group)
+    if not group or group == '' then
+        return nil
+    end
+
+    local target = GROUP_LINKS[group] or group
+
+    if target == group then
+        return '[[' .. target .. ']]'
+    end
+
+    return '[[' .. target .. '|' .. group .. ']]'
+end
+
+-------------------------------------------------------------------------------
+-- Tests
+-------------------------------------------------------------------------------
+
+function p.testIndex(frame)
+    local data = loadIndex()
+
+    if not data.modules then
+        return '<strong class="error">Module index loaded, but no "modules" object was found.</strong>'
+    end
+
+    local module = data.modules.frame_shift_drive
+
+    if not module then
+        return '<strong class="error">Module index loaded, but "frame_shift_drive" was not found.</strong>'
+    end
+
+    return string.format(
+        'Module database connected successfully: [[%s|%s]] — %s',
+        module.page,
+        module.name,
+        module.group
+    )
+end
+
+function p.testModule(frame)
+    local data, err = loadModule('frame_shift_drive')
+
+    if not data then
+        return '<strong class="error">' .. err .. '</strong>'
+    end
+
+    return string.format(
+        'Detailed module data loaded successfully: [[%s|%s]] — %s — %d classes — %d ratings',
+        data.page,
+        data.name,
+        data.group,
+        countValues(data.classes),
+        countValues(data.ratings)
+    )
+end
+
+-------------------------------------------------------------------------------
+-- Module infobox
+-------------------------------------------------------------------------------
+
+function p.infobox(frame)
+    local parent = frame:getParent()
+    local pargs = parent and parent.args or {}
+
+    local key = mw.text.trim(pargs.key or '')
+
+    -- If no key was supplied, determine it from the current article title.
+    if key == '' then
+        local currentPage = mw.title.getCurrentTitle().text
+        key = findKeyByPage(currentPage)
+    end
+
+    if not key then
+        return '<strong class="error">No module database entry could be found for this page.</strong>'
+    end
+
+    local data, err = loadModule(key)
+
+    if not data then
+        return '<strong class="error">' .. err .. '</strong>'
+    end
+
+    ---------------------------------------------------------------------------
+    -- Build parameters for EDFM's shared Template:Infobox
+    ---------------------------------------------------------------------------
+
+    local args = {
+        name = data.name
+    }
+
+    local rowNumber = 0
+
+    local function addRow(group, label, value)
+        if value == nil or value == '' then
+            return
+        end
+
+        rowNumber = rowNumber + 1
+
+        if group then
+            args['group' .. rowNumber] = group
+        end
+
+        args['label' .. rowNumber] = label
+        args['row' .. rowNumber] = value
+    end
+
+    ---------------------------------------------------------------------------
+    -- MODULE
+    ---------------------------------------------------------------------------
+
+    addRow(
+        'MODULE',
+        'Group',
+        linkGroup(data.group)
+    )
+
+    addRow(
+        nil,
+        'Subcategory',
+        data.subcategory
+    )
+
+    addRow(
+        nil,
+        'Classes',
+        joinValues(data.classes)
+    )
+
+    addRow(
+        nil,
+        'Ratings',
+        joinValues(data.ratings)
+    )
+
+    ---------------------------------------------------------------------------
+    -- OUTFITTING
+    ---------------------------------------------------------------------------
+
+    addRow(
+        'OUTFITTING',
+        'Required',
+        yesNo(data.required)
+    )
+
+    addRow(
+        nil,
+        'Storable',
+        yesNo(data.storable)
+    )
+
+    addRow(
+        nil,
+        'Transferable',
+        yesNo(data.transferable)
+    )
+
+    ---------------------------------------------------------------------------
+    -- ENGINEERING
+    ---------------------------------------------------------------------------
+
+    addRow(
+        'ENGINEERING',
+        'Eligible',
+        yesNo(
+            data.engineering and data.engineering.eligible
+        )
+    )
+
+    ---------------------------------------------------------------------------
+    -- Render with EDFM's existing shared infobox
+    ---------------------------------------------------------------------------
+
+    return frame:expandTemplate {
+        title = 'Infobox',
+        args = args
+    }
+end
+
+return p

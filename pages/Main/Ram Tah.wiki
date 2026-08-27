@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Ram Tah
 Namespace: 0
 Page ID: 122
-Revision ID: 1446
-Timestamp: 2026-08-21T14:38:42Z
+Revision ID: 2003
+Timestamp: 2026-08-24T21:23:32Z
 Source URL: https://edfieldmanual.com/wiki/Ram_Tah
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A limpet, defensive utility, and Guardian-technology specialist based at Phoenix Base in Meene, reached through Lei Cheung.
+{{Article header|deck=A limpet, defensive utility, and Guardian-technology specialist based at Phoenix Base in Meene, reached through Lei Cheung.
 }}
 
 {{Needs review}}

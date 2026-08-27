@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Unlocking Felicity Farseer
 Namespace: 0
 Page ID: 622
-Revision ID: 1505
-Timestamp: 2026-08-21T14:40:53Z
+Revision ID: 2057
+Timestamp: 2026-08-24T21:24:45Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Felicity_Farseer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Felicity Farseer — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+{{Article header|deck=The actionable checklist for gaining access to Felicity Farseer — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
 
 This Field Procedure covers only the steps to unlock [[Felicity Farseer]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Felicity Farseer]].
 

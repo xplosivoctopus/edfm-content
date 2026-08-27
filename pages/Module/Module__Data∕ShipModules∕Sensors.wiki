@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Sensors
 Namespace: 828
 Page ID: 592
-Revision ID: 1379
-Timestamp: 2026-08-21T00:00:42Z
+Revision ID: 2219
+Timestamp: 2026-08-25T14:13:46Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Sensors
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Sensors",
+	module_class = "Core internal module",
+	slot_type = "Core internal",
+	mount = "",
+	manufacturer = "",
+	availability = "Standard core module family",
+	engineering = "",
+	related_modules = "[[Life Support]], [[Frame Shift Wake Scanner]]",
 }

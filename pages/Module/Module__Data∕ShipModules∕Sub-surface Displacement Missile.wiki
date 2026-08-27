@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Sub-surface Displacement Missile
 Namespace: 828
 Page ID: 605
-Revision ID: 1392
-Timestamp: 2026-08-21T00:00:51Z
+Revision ID: 2236
+Timestamp: 2026-08-25T14:14:01Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Sub-surface_Displacement_Missile
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Sub-surface Displacement Missile",
+	module_class = "Mining tool",
+	slot_type = "Hardpoint",
+	mount = "Fixed and turreted variants",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Pulse Wave Analyser]], [[Prospector Limpet Controller]], [[Collector Limpet Controller]]",
 }

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:ShipModules
 Namespace: 828
 Page ID: 431
-Revision ID: 1218
-Timestamp: 2026-08-20T23:58:45Z
+Revision ID: 2272
+Timestamp: 2026-08-26T03:11:17Z
 Source URL: https://edfieldmanual.com/wiki/Module:ShipModules
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -96,16 +96,18 @@ function p.directory(frame)
 	table.insert(out, '! style="width:18%;" | Module class')
 	table.insert(out, '! style="width:18%;" | Slot type')
 	table.insert(out, '! style="width:18%;" | Mount')
-	table.insert(out, '! style="width:18%;" | Status')
 	for _, name in ipairs(loadIndex()) do
 		local record = loadRecord(name)
 		table.insert(out, '|-')
-		table.insert(out, '| data-sort-value="' .. name:gsub('"', '&quot;') .. '" | {{Ship module table entry|' .. name .. '}}')
+		local entry = frame:expandTemplate {
+			title = 'Ship module table entry',
+			args = { [1] = name }
+		}
+		table.insert(out, '| data-sort-value="' .. name:gsub('"', '&quot;') .. '" | ' .. entry)
 		table.insert(out, '| ' .. fmt(record.module_class))
 		table.insert(out, '| ' .. fmt(record.slot_type))
 		table.insert(out, '| ' .. fmt(record.mount))
-		table.insert(out, '| Structured stub')
-	end
+		end
 	table.insert(out, '|}')
 	return table.concat(out, '\n')
 end

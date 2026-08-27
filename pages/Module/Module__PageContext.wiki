@@ -1,0 +1,445 @@
+<!--
+EDFM current-content archive export.
+Title: Module:PageContext
+Namespace: 828
+Page ID: 729
+Revision ID: 2121
+Timestamp: 2026-08-24T21:58:11Z
+Source URL: https://edfieldmanual.com/wiki/Module:PageContext
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Module:PageContext
+-- Centralized EDFM page context resolver for Article header eyebrows.
+-- Resolves semantic dimensions separately: primary subject section, secondary context, and optional content type.
+
+local p = {}
+local config = mw.loadData('Module:Data/PageSections')
+
+local cache = {}
+
+local function trim(value)
+	return mw.text.trim(tostring(value or ''))
+end
+
+local function isNonEmpty(value)
+	return value ~= nil and trim(value) ~= ''
+end
+
+local function normalizeTitle(pageName)
+	if isNonEmpty(pageName) then
+		local t = mw.title.new(trim(pageName))
+		return t and t.text or trim(pageName)
+	end
+	return mw.title.getCurrentTitle().text
+end
+
+local function normalizeForCompare(pageName)
+	local title = normalizeTitle(pageName)
+	return mw.ustring.lower((title or ''):gsub('_', ' '))
+end
+
+local function loadLuaData(title)
+	local ok, data = pcall(mw.loadData, title)
+	if ok and type(data) == 'table' then return data end
+	return nil
+end
+
+local function loadJsonPage(titleText)
+	local title = mw.title.new(titleText)
+	local content = title and title:getContent()
+	if not content then return nil end
+	local ok, data = pcall(mw.text.jsonDecode, content)
+	if ok and type(data) == 'table' then return data end
+	return nil
+end
+
+local function sameTitle(a, b)
+	return isNonEmpty(a) and isNonEmpty(b) and normalizeForCompare(a) == normalizeForCompare(b)
+end
+
+local function listContains(list, title)
+	if type(list) ~= 'table' then return false end
+	for _, value in ipairs(list) do
+		if sameTitle(value, title) then return true end
+	end
+	return false
+end
+
+local function startsWith(value, prefix)
+	return value:sub(1, #prefix) == prefix
+end
+
+local function afterPrefix(value, prefix)
+	if startsWith(value, prefix) then return value:sub(#prefix + 1) end
+	return nil
+end
+
+local function pageInEngineers(title)
+	local index = loadJsonPage('Module:Data/Engineers/index')
+	return listContains(index, title)
+end
+
+local function engineerRecord(name)
+	if not isNonEmpty(name) or not pageInEngineers(name) then return nil end
+	return loadJsonPage('Module:Data/Engineers/' .. normalizeTitle(name))
+end
+
+local function pageInShips(title)
+	local index = loadLuaData('Module:Data/Ships/index')
+	return listContains(index, title)
+end
+
+local function pageInShipModules(title)
+	local index = loadLuaData('Module:Data/ShipModules/index')
+	return listContains(index, title)
+end
+
+local function moduleRecordInModulesJson(title)
+	local index = loadJsonPage('Module:Data/Modules/index')
+	if type(index) ~= 'table' or type(index.modules) ~= 'table' then return nil end
+	for _, record in pairs(index.modules) do
+		if type(record) == 'table' and (sameTitle(record.page, title) or sameTitle(record.name, title)) then
+			return record
+		end
+	end
+	return nil
+end
+
+local function findRecordInLuaList(title, dataTitle, fields)
+	local data = loadLuaData(dataTitle)
+	if type(data) ~= 'table' then return nil end
+	fields = fields or { 'page', 'title', 'label' }
+	for _, record in ipairs(data) do
+		if type(record) == 'table' then
+			for _, field in ipairs(fields) do
+				if sameTitle(record[field], title) then return record end
+			end
+		end
+	end
+	return nil
+end
+
+local function pageInMiningDataset(title, dataTitle, field)
+	return findRecordInLuaList(title, dataTitle, field and { field, 'page', 'label', 'title' } or nil) ~= nil
+end
+
+local function miningProcedureRecord(title)
+	return findRecordInLuaList(title, 'Module:Data/Procedures/Mining', { 'page', 'title' })
+end
+
+local function guardianLike(title)
+	return title:find('Guardian', 1, true) ~= nil or title:find('Nanite Torpedo', 1, true) ~= nil
+end
+
+local function thargoidLike(title)
+	return title:find('Thargoid', 1, true) ~= nil or title:find('Xeno', 1, true) ~= nil or title:find('AX ', 1, true) ~= nil or title:find('Caustic', 1, true) ~= nil
+end
+
+local function normalizeProcedureTopic(topic)
+	if topic == 'Odyssey / On-foot' then return 'Odyssey' end
+	return topic
+end
+
+local function typeToPrimarySection(pageType)
+	local map = config.typeToPrimarySection or config.typeToSection or {}
+	return map[pageType]
+end
+
+local function typeToSecondaryContext(pageType)
+	local map = config.typeToSecondaryContext or {}
+	return map[pageType]
+end
+
+local function contextObject(kind, label)
+	if not isNonEmpty(label) then return nil end
+	local maps = {
+		primary = config.primaryContexts or {},
+		secondary = config.secondaryContexts or {},
+		contentType = config.contentTypes or {},
+	}
+	local entry = maps[kind][label]
+	if type(entry) == 'table' then
+		return { label = entry.label or label, page = entry.page }
+	end
+	return { label = label }
+end
+
+local function contextLabel(value)
+	if type(value) == 'table' then return value.label end
+	return value
+end
+
+local function currentPageForRender(pageName)
+	return isNonEmpty(pageName) and normalizeTitle(pageName) or mw.title.getCurrentTitle().text
+end
+
+local function renderContextSegment(segment, currentPage)
+	if type(segment) ~= 'table' or not isNonEmpty(segment.label) then return '' end
+	local label = segment.label
+	local page = segment.page
+	if isNonEmpty(page) and not sameTitle(page, currentPage) then
+		return '[[' .. page .. '|' .. label .. ']]'
+	end
+	return label
+end
+
+function p.getPageTypeValue(pageName)
+	local title = normalizeTitle(pageName)
+	local key = 'type:' .. title
+	if cache[key] ~= nil then return cache[key] ~= '' and cache[key] or nil end
+	local pageType = nil
+
+	if pageInEngineers(title) then
+		pageType = 'engineer'
+	elseif pageInShips(title) then
+		pageType = 'ship'
+	elseif pageInMiningDataset(title, 'Module:Data/Mining/Methods') then
+		pageType = 'mining_method'
+	elseif pageInMiningDataset(title, 'Module:Data/Mining/Equipment') then
+		pageType = 'mining_equipment'
+	elseif pageInMiningDataset(title, 'Module:Data/Mining/Locations') then
+		pageType = 'mining_location'
+	elseif pageInMiningDataset(title, 'Module:Data/Mining/Commodities') then
+		pageType = 'mining_commodity'
+	elseif miningProcedureRecord(title) then
+		pageType = 'field_procedure'
+	else
+		local unlockTarget = afterPrefix(title, 'Unlocking ')
+		if unlockTarget and pageInEngineers(unlockTarget) then
+			pageType = 'field_procedure'
+		else
+			local moduleRecord = moduleRecordInModulesJson(title)
+			if moduleRecord and moduleRecord.subcategory == 'Weapon' then
+				pageType = 'ship_weapon'
+			elseif moduleRecord then
+				pageType = 'ship_module'
+			elseif pageInShipModules(title) then
+				if guardianLike(title) then
+					pageType = 'guardian_module'
+				elseif thargoidLike(title) then
+					pageType = 'thargoid_module'
+				else
+					pageType = 'ship_module'
+				end
+			end
+		end
+	end
+
+	cache[key] = pageType or ''
+	return pageType
+end
+
+function p.getContentTypeValue(pageName, override)
+	local title = normalizeTitle(pageName)
+	if isNonEmpty(override) then return trim(override) end
+	local key = 'contentType:' .. title
+	if cache[key] ~= nil then return cache[key] ~= '' and cache[key] or nil end
+
+	local contentType = nil
+	local overrides = config.contentTypeOverrides or {}
+	if overrides[title] then
+		contentType = overrides[title]
+	elseif miningProcedureRecord(title) then
+		contentType = config.defaultFieldProcedureContentType or 'Field Procedures'
+	else
+		local unlockTarget = afterPrefix(title, 'Unlocking ')
+		if unlockTarget and pageInEngineers(unlockTarget) then
+			contentType = config.defaultFieldProcedureContentType or 'Field Procedures'
+		else
+			for _, rule in ipairs(config.contentTypeFamilyRules or {}) do
+				if rule.prefix and startsWith(title, rule.prefix) then
+					contentType = rule.contentType
+					break
+				end
+			end
+		end
+	end
+
+	cache[key] = contentType or ''
+	return contentType
+end
+
+function p.getPrimarySectionValue(pageName, override)
+	local title = normalizeTitle(pageName)
+	if isNonEmpty(override) then return trim(override) end
+	local key = 'primary:' .. title
+	if cache[key] then return cache[key] end
+
+	local section = nil
+	local exact = config.exactPrimarySections or config.exactSections or {}
+	local overrides = config.primarySectionOverrides or {}
+
+	local proc = miningProcedureRecord(title)
+	if proc and isNonEmpty(proc.topic) then
+		section = normalizeProcedureTopic(proc.topic)
+	end
+
+	if not section then
+		local unlockTarget = afterPrefix(title, 'Unlocking ')
+		local record = unlockTarget and engineerRecord(unlockTarget) or nil
+		if record then
+			local scope = record.engineer_scope or 'ship'
+			section = scope == 'odyssey' and 'Odyssey' or 'Engineering'
+		end
+	end
+
+	if not section then
+		local pageType = p.getPageTypeValue(title)
+		section = typeToPrimarySection(pageType)
+	end
+
+	if not section and exact[title] then
+		section = exact[title]
+	end
+
+	if not section then
+		for _, rule in ipairs(config.topicFamilyRules or config.titleContainsRules or {}) do
+			local text = rule.text
+			if text and title:find(text, 1, true) then
+				section = rule.primarySection or rule.section
+				break
+			end
+		end
+	end
+
+	if not section and overrides[title] then
+		section = overrides[title]
+	end
+
+	section = section or config.fallbackPrimarySection or config.fallback or 'Reference'
+	cache[key] = section
+	return section
+end
+
+function p.getSecondaryContextValue(pageName, override)
+	local title = normalizeTitle(pageName)
+	if isNonEmpty(override) then return trim(override) end
+	local key = 'secondary:' .. title
+	if cache[key] ~= nil then return cache[key] ~= '' and cache[key] or nil end
+
+	local secondary = nil
+	local exact = config.exactSecondaryContexts or {}
+	local overrides = config.secondaryContextOverrides or {}
+
+	if exact[title] then
+		secondary = exact[title]
+	end
+
+	if not secondary then
+		local unlockTarget = afterPrefix(title, 'Unlocking ')
+		if unlockTarget and pageInEngineers(unlockTarget) then
+			secondary = 'Engineers'
+		end
+	end
+
+	if not secondary then
+		local pageType = p.getPageTypeValue(title)
+		secondary = typeToSecondaryContext(pageType)
+	end
+
+	if not secondary and overrides[title] then
+		secondary = overrides[title]
+	end
+
+	cache[key] = secondary or ''
+	return secondary
+end
+
+function p.getContextValue(pageName, sectionOverride, secondaryOverride, contentTypeOverride)
+	local primaryLabel = p.getPrimarySectionValue(pageName, sectionOverride)
+	local secondaryLabel = p.getSecondaryContextValue(pageName, secondaryOverride)
+	local contentTypeLabel = p.getContentTypeValue(pageName, contentTypeOverride)
+	return {
+		primarySection = contextObject('primary', primaryLabel),
+		secondaryContext = contextObject('secondary', secondaryLabel),
+		contentType = contextObject('contentType', contentTypeLabel),
+	}
+end
+
+function p.getDisplayContextObject(pageName, sectionOverride, secondaryOverride, contentTypeOverride)
+	local context = p.getContextValue(pageName, sectionOverride, secondaryOverride, contentTypeOverride)
+	local primaryLabel = contextLabel(context.primarySection) or config.fallbackPrimarySection or 'Reference'
+	if context.contentType and isNonEmpty(context.contentType.label) and (primaryLabel ~= (config.fallbackPrimarySection or 'Reference') or isNonEmpty(sectionOverride)) then
+		return context.contentType
+	end
+	return context.secondaryContext
+end
+
+function p.formatEyebrowValue(pageName, sectionOverride, secondaryOverride, contentTypeOverride)
+	local context = p.getContextValue(pageName, sectionOverride, secondaryOverride, contentTypeOverride)
+	local primary = context.primarySection and context.primarySection.label or config.fallbackPrimarySection or 'Reference'
+	local display = p.getDisplayContextObject(pageName, sectionOverride, secondaryOverride, contentTypeOverride)
+	local suffix = display and isNonEmpty(display.label) and (' / ' .. display.label) or ''
+	return 'EDFM // ' .. primary .. suffix
+end
+
+-- Public #invoke API. Lua callers may use the *Value functions above for semantic values/tables.
+function p.getPageType(frame)
+	local args = frame.args or {}
+	return p.getPageTypeValue(args.page or args[1]) or ''
+end
+
+function p.getPrimarySection(frame)
+	local args = frame.args or {}
+	return p.getPrimarySectionValue(args.page or args[1], args.section or args.primarySection or args.topic or args.override)
+end
+
+-- Backward-compatible alias.
+function p.getSection(frame)
+	return p.getPrimarySection(frame)
+end
+
+function p.getSecondaryContext(frame)
+	local args = frame.args or {}
+	return p.getSecondaryContextValue(args.page or args[1], args.context or args.secondaryContext)
+end
+
+function p.getContentType(frame)
+	local args = frame.args or {}
+	return p.getContentTypeValue(args.page or args[1], args.type or args.contentType)
+end
+
+function p.getDisplayContentType(frame)
+	local args = frame.args or {}
+	local display = p.getDisplayContextObject(args.page or args[1], args.section or args.primarySection or args.topic, args.context or args.secondaryContext, args.type or args.contentType)
+	return display and display.label or ''
+end
+
+function p.renderPrimarySection(frame)
+	local args = frame.args or {}
+	local pageName = args.page or args[1]
+	local context = p.getContextValue(pageName, args.section or args.primarySection or args.topic, args.context or args.secondaryContext, args.type or args.contentType)
+	return renderContextSegment(context.primarySection, currentPageForRender(pageName))
+end
+
+function p.renderDisplayContext(frame)
+	local args = frame.args or {}
+	local pageName = args.page or args[1]
+	local display = p.getDisplayContextObject(pageName, args.section or args.primarySection or args.topic, args.context or args.secondaryContext, args.type or args.contentType)
+	return renderContextSegment(display, currentPageForRender(pageName))
+end
+
+function p.renderEyebrowBody(frame)
+	local args = frame.args or {}
+	local pageName = args.page or args[1]
+	local currentPage = currentPageForRender(pageName)
+	local context = p.getContextValue(pageName, args.section or args.primarySection or args.topic, args.context or args.secondaryContext, args.type or args.contentType)
+	local primary = renderContextSegment(context.primarySection, currentPage)
+	local display = p.getDisplayContextObject(pageName, args.section or args.primarySection or args.topic, args.context or args.secondaryContext, args.type or args.contentType)
+	local suffix = display and isNonEmpty(display.label) and (' / ' .. renderContextSegment(display, currentPage)) or ''
+	return primary .. suffix
+end
+
+function p.getContext(frame)
+	local args = frame.args or {}
+	local context = p.getContextValue(args.page or args[1], args.section or args.primarySection or args.topic, args.context or args.secondaryContext, args.type or args.contentType)
+	return mw.text.jsonEncode(context)
+end
+
+function p.eyebrow(frame)
+	local args = frame.args or {}
+	return p.formatEyebrowValue(args.page or args[1], args.section or args.primarySection or args.topic or args.override, args.context or args.secondaryContext, args.type or args.contentType)
+end
+
+return p

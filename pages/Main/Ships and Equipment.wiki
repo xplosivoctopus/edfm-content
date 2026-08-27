@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Ships and Equipment
 Namespace: 0
 Page ID: 56
-Revision ID: 867
-Timestamp: 2026-08-17T05:02:27Z
+Revision ID: 2023
+Timestamp: 2026-08-24T21:23:59Z
 Source URL: https://edfieldmanual.com/wiki/Ships_and_Equipment
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ships & Equipment
- |deck=Ships, modules, weapons, outfitting, and the equipment used to build a vessel for the job.
+{{Article header|deck=Ships, modules, weapons, outfitting, and the equipment used to build a vessel for the job.
 }}
 
 '''Ships and Equipment''' covers the vessels Commanders fly and the modules, weapons, utilities, and support equipment used to outfit them.
@@ -34,6 +32,8 @@ Browse the complete '''[[Ships]]''' directory for every Commander-piloted starsh
 == Outfitting ==
 
 '''[[Outfitting]]''' covers how ship modules are installed, replaced, stored, and organized.
+
+For the current structured module directory, see '''[[Ship Modules]]'''.
 
 Use this section when you need to understand:
 

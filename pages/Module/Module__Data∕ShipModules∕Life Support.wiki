@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Life Support
 Namespace: 828
 Page ID: 519
-Revision ID: 1306
-Timestamp: 2026-08-20T23:59:47Z
+Revision ID: 2218
+Timestamp: 2026-08-25T14:13:45Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Life_Support
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Life Support",
+	module_class = "Core internal module",
+	slot_type = "Core internal",
+	mount = "",
+	manufacturer = "",
+	availability = "Standard core module family",
+	engineering = "",
+	related_modules = "[[Sensors]]",
 }

@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Multi-servos
+Namespace: 0
+Page ID: 681
+Revision ID: 1574
+Timestamp: 2026-08-23T18:40:03Z
+Source URL: https://edfieldmanual.com/wiki/Multi-servos
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an experimental-effect reference for Multi-servos, including compatible modules, effects, drawbacks, and Engineer availability.}}
+
+'''Multi-servos''' is an Engineering experimental effect. This planned reference will document what the effect changes, which blueprints can receive it, and when it is useful compared with other experimental effects.
+
+[[Category:Experimental Effects]]
+[[Category:Engineering]]

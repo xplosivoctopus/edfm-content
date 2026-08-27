@@ -1,0 +1,55 @@
+<!--
+EDFM current-content archive export.
+Title: Sub-surface Mining
+Namespace: 0
+Page ID: 724
+Revision ID: 2030
+Timestamp: 2026-08-24T21:24:08Z
+Source URL: https://edfieldmanual.com/wiki/Sub-surface_Mining
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Research-backed draft using current mining loop and EDCD mining equipment data|uncertainty=Deposit availability and commodity-specific recommendations still need direct Live-game verification.}}
+__NOINDEX__
+{{Article header|deck=Sub-surface mining uses displacement missiles to extract deposits inside an asteroid.}}
+
+'''Sub-surface mining''' uses a [[Sub-surface Displacement Missile]] against a deposit inside an asteroid. A prospector scan identifies the deposit, then the missile is fired and released during the extraction window to break material loose for collection.
+
+{{Draft warning}}
+
+== When to use sub-surface mining ==
+
+Sub-surface mining sits between laser mining and core mining in complexity. The commander still prospects asteroids and collects refined cargo, but extraction depends on a short timing interaction rather than a continuous laser beam or a seismic detonation.
+
+This method is useful when the target asteroid has sub-surface deposits worth extracting. It is not a replacement for prospecting: firing displacement missiles without a confirmed deposit wastes ammunition and time.
+
+== Equipment ==
+
+A sub-surface mining ship needs:
+
+* [[Sub-surface Displacement Missile]] — extracts the internal deposit.
+* [[Prospector Limpet Controller]] — identifies deposits and contents.
+* [[Collector Limpet Controller]] — retrieves the released chunks.
+* [[Refinery]], cargo space, and limpets.
+* [[Detailed Surface Scanner]] — useful when the run is aimed at a mapped hotspot.
+
+== Workflow summary ==
+
+# Prospect the asteroid and select a sub-surface deposit.
+# Fire and hold the displacement missile while tracking the deposit indicator.
+# Release during the highlighted extraction band.
+# Keep collector limpets active to retrieve the released chunks.
+# Manage refinery bins so mixed fragments do not stall collection.
+
+== Practical notes ==
+
+* Sub-surface deposits are target-specific; do not expect every asteroid in a hotspot to contain one.
+* Practice the release timing on low-risk targets before treating it as a profit run.
+* Collectors and refinery bins are still the bottleneck once chunks have been released.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Sub-surface Mining}}
+
+{{Related articles|[[Mining]] [[Sub-surface Displacement Missile]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[How to Sub-surface Mine]]}}
+[[Category:Mining]]

@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Trailblazers
 Namespace: 0
 Page ID: 180
-Revision ID: 808
-Timestamp: 2026-08-15T04:32:30Z
+Revision ID: 2046
+Timestamp: 2026-08-24T21:24:30Z
 Source URL: https://edfieldmanual.com/wiki/Trailblazers
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Game Update|deck=The Update 3 revision of the Trailblazers season, reworking Colonisation's system economy.}}
+{{Article header|deck=The Update 3 revision of the Trailblazers season, reworking Colonisation's system economy.}}
 {{Article status|status=Needs review|mode=Live|version=Update 3, released 2025-04-30|reviewed=2026-08-07|reviewer=Desk research cross-referencing Inara's Trailblazers coverage against a WebSearch summary corroborating the same date; Frontier's own update-notes page could not be fetched directly (HTTP 403, same access pattern already logged elsewhere on this wiki) — see Sources|source_quality=Date corroborated by two independent sources (Inara, a search-aggregated summary); the specific client version string (4.1.2.0) is inferred from Frontier's own update-notes URL slug rather than confirmed from readable page content|uncertainty=Exact client version string not independently confirmed from Frontier's own page text — see Article status reviewer note}}
 
 {{Game update infobox

@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Engineering
 Namespace: 0
 Page ID: 57
-Revision ID: 856
-Timestamp: 2026-08-16T04:11:51Z
+Revision ID: 1909
+Timestamp: 2026-08-24T21:21:19Z
 Source URL: https://edfieldmanual.com/wiki/Engineering
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Game Systems|deck=How Engineering works, and where to find blueprints, Experimental Effects, Engineers, and materials.}}
+{{Article header|deck=How Engineering works, and where to find blueprints, Experimental Effects, Engineers, and materials.}}
 
 Engineering is Elite Dangerous' long-term module customisation system. It lets commanders take ordinary ship modules, suits, and handheld weapons beyond their stock specifications by spending collected materials at specialist Engineer bases. The result is not one universal upgrade path: every modification has trade-offs, every Engineer has a limited set of specialties, and the best build usually comes from choosing the right blueprint, grade, and Experimental Effect for the job.
 

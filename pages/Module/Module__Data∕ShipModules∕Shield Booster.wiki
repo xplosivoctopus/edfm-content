@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Shield Booster
 Namespace: 828
 Page ID: 593
-Revision ID: 1380
-Timestamp: 2026-08-21T00:00:42Z
+Revision ID: 2263
+Timestamp: 2026-08-25T14:14:24Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shield_Booster
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Shield Booster",
+	module_class = "Shield utility",
+	slot_type = "Utility mount",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Shield Generator]], [[Shield Cell Bank]]",
 }

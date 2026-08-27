@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Power Distributor
 Namespace: 828
 Page ID: 561
-Revision ID: 1348
-Timestamp: 2026-08-21T00:00:19Z
+Revision ID: 2217
+Timestamp: 2026-08-25T14:13:44Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Power_Distributor
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Power Distributor",
+	module_class = "Core internal module",
+	slot_type = "Core internal",
+	mount = "",
+	manufacturer = "",
+	availability = "Standard core module family",
+	engineering = "",
+	related_modules = "[[Power Plant]], [[Thrusters]]",
 }

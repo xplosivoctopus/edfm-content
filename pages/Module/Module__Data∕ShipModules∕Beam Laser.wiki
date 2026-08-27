@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Beam Laser
 Namespace: 828
 Page ID: 449
-Revision ID: 1236
-Timestamp: 2026-08-20T23:58:57Z
+Revision ID: 2251
+Timestamp: 2026-08-25T14:14:14Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Beam_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Beam Laser",
+	module_class = "Energy weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed, gimballed, and turreted variants",
+	manufacturer = "",
+	availability = "Standard outfitting module family",
+	engineering = "",
+	related_modules = "[[Pulse Laser]], [[Burst Laser]]",
 }

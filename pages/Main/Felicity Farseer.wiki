@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Felicity Farseer
 Namespace: 0
 Page ID: 105
-Revision ID: 1422
-Timestamp: 2026-08-21T14:38:24Z
+Revision ID: 1920
+Timestamp: 2026-08-24T21:21:34Z
 Source URL: https://edfieldmanual.com/wiki/Felicity_Farseer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=An independent starting Engineer based in Deciat, best known for Grade 5 Frame Shift Drive engineering and several useful early ship upgrades.
+{{Article header|deck=An independent starting Engineer based in Deciat, best known for Grade 5 Frame Shift Drive engineering and several useful early ship upgrades.
 }}
 
 {{Engineer infobox}}

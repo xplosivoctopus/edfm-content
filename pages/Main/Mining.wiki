@@ -3,18 +3,86 @@ EDFM current-content archive export.
 Title: Mining
 Namespace: 0
 Page ID: 185
-Revision ID: 923
-Timestamp: 2026-08-18T13:17:40Z
+Revision ID: 1968
+Timestamp: 2026-08-24T21:22:43Z
 Source URL: https://edfieldmanual.com/wiki/Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes}}
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Research-backed draft architecture using current gameplay notes plus EDCD structured module and identifier data|uncertainty=Exact commodity profitability, current sell stations, and per-ring yields are intentionally not fixed in static text.}}
+__NOINDEX__
+{{Article header|deck=Mining turns asteroid resources into refined cargo through method-specific extraction, collection, refining, and market planning.}}
 
-Index for mining and refining content — see [[:Category:Mining]].
+'''Mining''' is the ship-based activity of extracting minerals, metals, and other commodities from asteroids, refining them into cargo, and selling them through commodity markets in ''Elite Dangerous''. This hub separates durable mining knowledge — methods, equipment, locations, and procedure flow — from time-sensitive information such as current best prices or high-demand sell stations.
 
-{{Draft warning}}
-No individual mining articles exist yet.
+== Start here ==
 
-{{Related articles|[[Trade]] [[Ships and Equipment]] [[Tools and Resources]]}}
+A mining run usually has five parts:
+
+# choose a mining method and fit the ship for that method;
+# bring enough limpets and cargo space for the planned run;
+# travel to a suitable [[Planetary Rings|planetary ring]], hotspot, or known mining location;
+# prospect, extract, collect, and refine the desired resources; and
+# check current market data before selling the cargo.
+
+New commanders should begin with [[How to Start Mining]]. Commanders who already understand the loop can use the method, equipment, and procedure tables below to jump to the relevant reference page.
+
+== Quick route by goal ==
+
+{| class="wikitable"
+! Goal !! Start with !! Main equipment !! Procedure
+|-
+| Simple asteroid-fragment mining || [[Laser Mining]] || [[Mining Laser]], [[Prospector Limpet Controller]], [[Collector Limpet Controller]], [[Refinery]] || [[How to Laser Mine]]
+|-
+| Cracking fissured asteroids || [[Core Mining]] || [[Pulse Wave Analyser]], [[Seismic Charge Launcher]], [[Abrasion Blaster]], collectors, refinery || [[How to Core Mine]]
+|-
+| Extracting internal deposits || [[Sub-surface Mining]] || [[Sub-surface Displacement Missile]], prospector, collectors, refinery || [[How to Sub-surface Mine]]
+|-
+| Breaking visible deposits || [[Surface Deposit Mining]] || [[Abrasion Blaster]], collectors, refinery || [[How to Mine Surface Deposits]]
+|-
+| Finding a target hotspot || [[Mining Hotspot]] || [[Detailed Surface Scanner]] || [[How to Scan Planetary Rings for Mining Hotspots]]
+|}
+
+== Field Procedures ==
+
+{{#invoke:Procedures|list|topic=Mining}}
+
+== Mining methods ==
+
+{{#invoke:Mining|methodsTable}}
+
+== Equipment map ==
+
+{{#invoke:Mining|equipmentTable}}
+
+A mining ship normally carries an extraction tool, collector support, a refinery, cargo space, and enough limpets for the planned run. The exact layout depends on the method: a laser miner does not need seismic charges, while a core miner generally does not need to spend hardpoints on mining lasers.
+
+== Locations and search concepts ==
+
+{{#invoke:Mining|locationConcepts}}
+
+Most ship-based mining happens in [[Planetary Rings|planetary rings]]. Ring hotspots revealed by a [[Detailed Surface Scanner]] are a planning aid rather than a guarantee; a commander still has to prospect individual asteroids and verify the current market before treating a run as profitable.
+
+== Commodity planning ==
+
+Mined commodities are useful only after they become cargo and reach a market with demand. EDFM should avoid hard-coding a permanent "best" commodity or station on this page: hotspots, routes, background simulation state, carrier markets, demand, and third-party data freshness all affect the practical answer.
+
+{{#invoke:Mining|commodityConcepts}}
+
+== Reference build notes ==
+
+The Mining section is being built from maintainable data modules so method pages, equipment pages, and Field Procedures can share the same canonical relationships instead of repeating hand-maintained lists. Current draft data lives in:
+
+* [[Module:Data/Mining/Methods]]
+* [[Module:Data/Mining/Equipment]]
+* [[Module:Data/Mining/Locations]]
+* [[Module:Data/Mining/Commodities]]
+* [[Module:Data/Mining/Sources]]
+* [[Module:Data/Procedures/Mining]]
+
+=== Source posture ===
+
+{{#invoke:Mining|sourceNotes}}
+
+{{Related articles|[[Trade]] [[Ships and Equipment]] [[Tools and Resources]] [[Field Procedures]] [[Planetary Rings]]}}
 [[Category:Mining]]

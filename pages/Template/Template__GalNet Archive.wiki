@@ -1,0 +1,106 @@
+<!--
+EDFM current-content archive export.
+Title: Template:GalNet Archive
+Namespace: 10
+Page ID: 736
+Revision ID: 2415
+Timestamp: 2026-08-27T20:20:02Z
+Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
+<div class="edfm-galnet-archive-list">
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">24 AUG 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a8c1a983531540f830c1532 Research Sheds New Light on Industrial Mining]</div>
+<div class="edfm-galnet-summary">A widespread review of current surface mining techniques has been sparked by recently published research. Wreaken Mining’s Chief Geologist, Dr. Ben Curtis, has written an essay suggesting that existing refinery methods inadvertently destroy valuable mineral resources due to their large-scale inefficiencies. “Typically, laser mining and…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a8c1a983531540f830c1532 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">20 AUG 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a86ea112335b431e80bc9ff Colonia Celebrations Conclude with Megamarket Opening]</div>
+<div class="edfm-galnet-summary">As anniversary celebrations begin to wind down, Colonia Council issued confirmation that a new megamarket has been established at Jaques Station. Magen Wolf, speaking on behalf of the Colonia Council, said "All of our local initiatives were successful, and we intend to recognise the considerable efforts of pilots who travelled all the…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a86ea112335b431e80bc9ff Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">06 AUG 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a74632b3e1bab203a0c66ae Colonia Tenth Anniversary Celebrations Get Underway]</div>
+<div class="edfm-galnet-summary">The festival marking the tenth anniversary of the founding of Colonia has begun in earnest. Colonists throughout the Colonia enclave are welcoming visitors with open arms, showcasing their achievements over the last decade in partnership with major corporations keen to invest. Meanwhile, major starports are hosting events and parties to…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a74632b3e1bab203a0c66ae Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">30 JUL 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a6a1976f5b5a043e5020683 Colonia Plans to Distribute Celebration Commodities]</div>
+<div class="edfm-galnet-summary">With huge numbers of commodities transferred from Brewer Corporation’s megaship fleet to Jaques Station, preparations for the tenth anniversary are in full swing. Colonia Council is calling for aid with the second logistical phase of the celebrations by helping to distribute the commodities across the region. “We’ve been up against the…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a6a1976f5b5a043e5020683 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">27 JUL 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a6719d5b43cce39c70a3bcd Pilots’ Federation Directs Members to Colonia]</div>
+<div class="edfm-galnet-summary">The Pilots’ Federation has issued a reminder to all members that Colonia is beginning final preparations for its 10th anniversary celebrations. With Colonia's loaded megaship fleet due to arrive within the next few days, the Pilots’ Federation has issued a statement encouraging a final push to support the distribution of cargo at the…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a6719d5b43cce39c70a3bcd Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">23 JUL 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a61d54e61f7728e390e9a06 Colonia Supply Initiative Deemed a Partial Success]</div>
+<div class="edfm-galnet-summary">The initiative to support Colonia’s tenth anniversary celebrations has been met with partial success according to organisers. The large fleet of cargo megaships provided by Brewer Corporation stationed in Facece have been loaded and their long trip to Colonia has begun, transporting the commodities and rare goods supplied. “The response…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a61d54e61f7728e390e9a06 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">16 JUL 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a5899da7cd35cc6cd062f3b Colonia Calls for Assistance as Celebrations Get Underway]</div>
+<div class="edfm-galnet-summary">Colonia is hosting a tenth anniversary celebration of its founding, beginning with a supply initiative located at where its historic story began. A fleet of cargo megaships provided by Brewer Corporation has arrived at Facece to support a massive logistics operation to transport commodities and rare goods from across the core system to…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a5899da7cd35cc6cd062f3b Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">13 JUL 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a54a4c453b181ed1103ebb4 Major Corporations Promote Colonia Celebrations]</div>
+<div class="edfm-galnet-summary">Multiple corporations have supported the recent announcement of Colonia’s tenth anniversary celebrations. Vox Galactica business correspondent Marlon Royce spoke to several representatives of major names from the technology, transport, mining and tourism industries. “Colonia stands as a beacon of human achievement in deep space,”…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a54a4c453b181ed1103ebb4 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">09 JUL 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a4e7998d2a025dadd057d33 Terri Tora Released by October Consortium in Surprise Move]</div>
+<div class="edfm-galnet-summary">Terri Tora, the xenobiologist credited with triggering widespread interest in the HIP 87621 system, has been released. Tora, who has been held in custody by October Consortium since her disappearance in late 3311, was investigating rumours of a significant xenobiological discovery when she stowed away on a Consortium megaship. She was…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a4e7998d2a025dadd057d33 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">09 JUL 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a4e78aa60d1daeedc073f54 Vista Genomics Exobiology Initiative Deemed a Success]</div>
+<div class="edfm-galnet-summary">Vista Genomics has confirmed the successful conclusion of its exobiology initiative across the Sanguineous Rim. In partnership with Faulcon DeLacy, both confirmed that pilots not only secured vast quantities of exobiological data needed to investigate genetic diversity across the region but also helped confirm that the Nomad improved…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a4e78aa60d1daeedc073f54 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">02 JUL 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a4627dffa7b55a446035378 Vista Genomics Seeks Exploration Data From Sanguineous Rim]</div>
+<div class="edfm-galnet-summary">A new exploration initiative from Vista Genomics is aiming to gather data to help assess genetic diversity across the Sanguineous Rim. To help celebrate the release of the new ship-launched exploration vessel, Faulcon DeLacy has partnered with Vista Genomics in the initiative, calling on independent pilots to help test the Nomad’s…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a4627dffa7b55a446035378 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">30 JUN 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a42939761e26db00b0f642b Faulcon DeLacy Announces New Ship-Launched ‘Nomad’]</div>
+<div class="edfm-galnet-summary">Faulcon DeLacy, the manufacturer behind the popular Python and Cobra ship designs, has announced the limited release of the Nomad. The Nomad is a ship-launched craft intended to aid explorers in larger ships, allowing them to explore planet surfaces and locations requiring tight manoeuvrability and speed. Chief of Design, Frank Endis…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a42939761e26db00b0f642b Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">30 JUN 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a4292538b6bdffc98029838 Frontline Solutions Officially Launches Anti-Crime Deployments]</div>
+<div class="edfm-galnet-summary">Frontline Solutions has announced that its expanded deployment service has started shipping mercenaries to anti-crime operations across the core systems. Following the successful manufacturing and test trials of the Runner transport, CEO Imogen le Ray confirmed in a press release that her corporation is ready to deploy strike teams…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a4292538b6bdffc98029838 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">29 JUN 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a3e983ccf9240818a050d97 Federation Breaks Silence on October Accords Exclusion]</div>
+<div class="edfm-galnet-summary">President Felicia Winters conveyed ‘disappointment’ at the Federation’s continued exclusion from Radicoida unica research. While careful not to criticise members of the October Accords directly, Winters made clear that denying the Federation any level of access to the research and its findings would force the superpower to act: “We…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a3e983ccf9240818a050d97 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">25 JUN 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a3bf6108ae8c275520fc5e8 Kestrel Fighter Enters Full Production]</div>
+<div class="edfm-galnet-summary">The Kestrel has received the green light for full distribution, having previously been available via limited release only. Shipments of Core Dynamics’s latest design have begun to arrive at markets. An accompanying press stated the Kestrel has been developed as a highly capable, dedicated combat ship. CEO Owen McKenna remarked: “The…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a3bf6108ae8c275520fc5e8 Read the official GalNet transmission]</div>
+</div>
+</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 27 Aug 2026 20:20 UTC.</div>
+</div></includeonly>

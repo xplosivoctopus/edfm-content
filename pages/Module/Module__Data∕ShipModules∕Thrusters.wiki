@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Thrusters
 Namespace: 828
 Page ID: 613
-Revision ID: 1400
-Timestamp: 2026-08-21T00:00:57Z
+Revision ID: 2216
+Timestamp: 2026-08-25T14:13:43Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Thrusters
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Thrusters",
+	module_class = "Core internal module",
+	slot_type = "Core internal",
+	mount = "",
+	manufacturer = "",
+	availability = "Standard core module family",
+	engineering = "",
+	related_modules = "[[Power Plant]], [[Power Distributor]]",
 }

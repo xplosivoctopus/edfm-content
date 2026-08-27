@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Weapon Engineering (Odyssey)
+Namespace: 0
+Page ID: 689
+Revision ID: 1582
+Timestamp: 2026-08-23T18:40:09Z
+Source URL: https://edfieldmanual.com/wiki/Weapon_Engineering_(Odyssey)
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Odyssey Engineering]]
+
+[[Category:Odyssey Engineering]]

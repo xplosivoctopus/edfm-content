@@ -3,11 +3,13 @@ EDFM current-content archive export.
 Title: Returning Commander Overview
 Namespace: 0
 Page ID: 53
-Revision ID: 940
-Timestamp: 2026-08-18T21:38:41Z
+Revision ID: 2096
+Timestamp: 2026-08-24T21:25:52Z
 Source URL: https://edfieldmanual.com/wiki/Returning_Commander_Overview
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
+
+{{Article header|deck=A catch-up overview for commanders returning after time away from Elite Dangerous.}}
 
 {{Draft warning}}
 

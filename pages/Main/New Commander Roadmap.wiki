@@ -3,11 +3,13 @@ EDFM current-content archive export.
 Title: New Commander Roadmap
 Namespace: 0
 Page ID: 52
-Revision ID: 854
-Timestamp: 2026-08-16T04:07:25Z
+Revision ID: 2095
+Timestamp: 2026-08-24T21:25:51Z
 Source URL: https://edfieldmanual.com/wiki/New_Commander_Roadmap
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
+
+{{Article header|deck=A guided early-game route for commanders who have just entered the wider galaxy.}}
 
 The '''Commander Roadmap''' is a guided progression for a Commander who has completed the introductory tutorial and has just been released into the wider galaxy.
 

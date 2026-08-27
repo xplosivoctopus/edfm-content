@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Guided Encyclopedia templates
+Namespace: 14
+Page ID: 692
+Revision ID: 1588
+Timestamp: 2026-08-23T18:43:02Z
+Source URL: https://edfieldmanual.com/wiki/Category:Guided_Encyclopedia_templates
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Hidden category}}
+
+Templates in this category support EDFM guided-encyclopedia article layouts and navigation components.
+
+[[Category:Templates]]

@@ -1,0 +1,55 @@
+<!--
+EDFM current-content archive export.
+Title: How to Ignore Unwanted Mining Commodities
+Namespace: 0
+Page ID: 713
+Revision ID: 1680
+Timestamp: 2026-08-24T00:22:59Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Ignore_Unwanted_Mining_Commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current mining collection and refinery workflow|uncertainty=Exact cockpit menu wording still needs final in-game verification.}}
+__NOINDEX__
+{{Field procedure|summary=Use the contacts and refinery workflow to stop collector limpets from repeatedly bringing in fragments you do not want to keep.}}
+
+Use this procedure during a mining run when collectors keep retrieving fragments that are not part of the current cargo plan.
+
+{{Draft warning}}
+
+== Before you start ==
+
+* Know which commodity or material the run is trying to keep.
+* Have active fragments, chunks, or canisters visible in the contacts list.
+* Check the [[Refinery]] before discarding anything valuable.
+
+== Procedure ==
+
+{{Procedure steps|
+# Open the contacts list while fragments or chunks are nearby.
+# Identify a fragment type that is not wanted for the current run.
+# Add that fragment or commodity to the ignore list using the available contact/refinery controls.
+# Check the refinery for existing partial bins of the same unwanted resource.
+# Vent or clear unwanted refinery bins if they are blocking useful fragments.
+# Relaunch or continue collectors only after the ignore choice is set.
+# Recheck the contacts list after the next asteroid, because a different unwanted commodity may need its own ignore action.
+}}
+
+== Completion check ==
+
+The procedure is complete when collector limpets stop prioritizing the unwanted fragment type and useful refinery bins can continue filling.
+
+== Common problems ==
+
+* '''Collectors still bring the wrong resource:''' verify the correct contact type was ignored and repeat the process for other unwanted commodities.
+* '''The refinery remains full:''' ignoring future fragments does not clear existing bins; vent or clear blocked bins separately.
+* '''A useful commodity was ignored by mistake:''' remove it from the ignore list before continuing the run.
+* '''The run target changes:''' review the ignore list before switching commodities or moving to a new hotspot.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Ignore Unwanted Mining Commodities}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Ignore Unwanted Mining Commodities}}
+
+[[Category:Mining]]

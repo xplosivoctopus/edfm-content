@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Unlocking Chloe Sedesi
 Namespace: 0
 Page ID: 630
-Revision ID: 1500
-Timestamp: 2026-08-21T14:40:47Z
+Revision ID: 2052
+Timestamp: 2026-08-24T21:24:38Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Chloe_Sedesi
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Chloe Sedesi — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+{{Article header|deck=The actionable checklist for gaining access to Chloe Sedesi — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
 
 This Field Procedure covers only the steps to unlock [[Chloe Sedesi]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Chloe Sedesi]].
 

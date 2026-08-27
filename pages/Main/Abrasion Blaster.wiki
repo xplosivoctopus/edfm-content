@@ -3,34 +3,35 @@ EDFM current-content archive export.
 Title: Abrasion Blaster
 Namespace: 0
 Page ID: 442
-Revision ID: 1229
-Timestamp: 2026-08-20T23:58:52Z
+Revision ID: 2131
+Timestamp: 2026-08-24T23:43:47Z
 Source URL: https://edfieldmanual.com/wiki/Abrasion_Blaster
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Abrasion Blaster ship module.
+__NOINDEX__
+{{Article header|deck=An abrasion blaster breaks visible surface deposits from asteroids.
 }}
 
-{{Ship module infobox
- |name = Abrasion Blaster
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and deposit behavior still need direct Live-game verification.}}
+
+{{Ship module infobox}}
+
+The '''Abrasion Blaster''' is used to dislodge visible surface deposits from an asteroid. It is commonly carried for [[Core Mining|core mining]], where a cracked asteroid exposes deposits that must be knocked loose before collection.
 
 {{Draft warning}}
 
-== Overview ==
+== Mining role ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{{#invoke:Mining|equipmentNote|page=Abrasion Blaster}}
 
+The abrasion blaster supports [[Surface Deposit Mining]] directly and often follows a successful core detonation. It does not replace a mining laser for ordinary fragments and does not collect anything by itself; collectors and a refinery still complete the loop.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Abrasion Blaster}}
+
+{{Related articles|[[Surface Deposit Mining]] [[Core Mining]] [[How to Mine Surface Deposits]] [[Collector Limpet Controller]] [[Refinery]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Mining]]

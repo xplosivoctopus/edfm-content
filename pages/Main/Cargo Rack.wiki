@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Cargo Rack
 Namespace: 0
 Page ID: 369
-Revision ID: 1006
-Timestamp: 2026-08-20T01:37:50Z
+Revision ID: 1884
+Timestamp: 2026-08-24T21:20:44Z
 Source URL: https://edfieldmanual.com/wiki/Cargo_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Module
- |deck=The optional internal module that provides a ship's cargo capacity.
+{{Article header|deck=The optional internal module that provides a ship's cargo capacity.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}

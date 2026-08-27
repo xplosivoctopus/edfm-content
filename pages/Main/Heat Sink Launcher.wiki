@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Heat Sink Launcher
 Namespace: 0
 Page ID: 383
-Revision ID: 1020
-Timestamp: 2026-08-20T01:38:47Z
+Revision ID: 1941
+Timestamp: 2026-08-24T21:22:03Z
 Source URL: https://edfieldmanual.com/wiki/Heat_Sink_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Utility Module
- |deck=A utility module that instantly dumps a ship's heat into an ejected heatsink, used for emergency cooling or stealth.
+{{Article header|deck=A utility module that instantly dumps a ship's heat into an ejected heatsink, used for emergency cooling or stealth.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}

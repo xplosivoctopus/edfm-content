@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Life Support
 Namespace: 0
 Page ID: 520
-Revision ID: 1307
-Timestamp: 2026-08-20T23:59:48Z
+Revision ID: 2162
+Timestamp: 2026-08-24T23:44:26Z
 Source URL: https://edfieldmanual.com/wiki/Life_Support
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Life Support ship module.
+{{Article header|deck=Structured stub page for the Life Support ship module.
 }}
 
-{{Ship module infobox
- |name = Life Support
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

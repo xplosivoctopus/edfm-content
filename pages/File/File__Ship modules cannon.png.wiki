@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Ship modules cannon.png
+Namespace: 6
+Page ID: 732
+Revision ID: 2127
+Timestamp: 2026-08-24T23:37:42Z
+Source URL: https://edfieldmanual.com/wiki/File:Ship_modules_cannon.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of the [[Cannon]] in Elite Dangerous.
+ |subject = [[Cannon]]
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[Cannon]] article and related Engineering pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Equipment images]]
+
+== Licensing ==
+{{License-ED screenshot}}

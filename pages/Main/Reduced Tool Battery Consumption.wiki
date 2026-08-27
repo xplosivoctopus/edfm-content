@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Reduced Tool Battery Consumption
+Namespace: 0
+Page ID: 685
+Revision ID: 1578
+Timestamp: 2026-08-23T18:40:06Z
+Source URL: https://edfieldmanual.com/wiki/Reduced_Tool_Battery_Consumption
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an Odyssey suit modification reference for Reduced Tool Battery Consumption and energy management.}}
+
+'''Reduced Tool Battery Consumption''' is an Odyssey Engineering modification. This planned reference will cover compatible equipment, energy-management value, and how it compares with other utility modifications.
+
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey]]

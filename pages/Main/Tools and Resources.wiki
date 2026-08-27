@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Tools and Resources
 Namespace: 0
 Page ID: 63
-Revision ID: 963
-Timestamp: 2026-08-19T22:18:10Z
+Revision ID: 2043
+Timestamp: 2026-08-24T21:24:26Z
 Source URL: https://edfieldmanual.com/wiki/Tools_and_Resources
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Commander Reference|deck=Community tools, databases, applications and services commonly used alongside Elite Dangerous.}}
+{{Article header|deck=Community tools, databases, applications and services commonly used alongside Elite Dangerous.}}
 
 {{Needs review}}
 

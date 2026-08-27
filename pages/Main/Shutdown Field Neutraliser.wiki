@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Shutdown Field Neutraliser
 Namespace: 0
 Page ID: 602
-Revision ID: 1389
-Timestamp: 2026-08-21T00:00:49Z
+Revision ID: 2201
+Timestamp: 2026-08-24T23:45:13Z
 Source URL: https://edfieldmanual.com/wiki/Shutdown_Field_Neutraliser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Shutdown Field Neutraliser ship module.
+{{Article header|deck=Structured stub page for the Shutdown Field Neutraliser ship module.
 }}
 
-{{Ship module infobox
- |name = Shutdown Field Neutraliser
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Hatch Breaker Limpet Controller
 Namespace: 0
 Page ID: 387
-Revision ID: 1024
-Timestamp: 2026-08-20T01:38:50Z
+Revision ID: 1940
+Timestamp: 2026-08-24T21:22:02Z
 Source URL: https://edfieldmanual.com/wiki/Hatch_Breaker_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Optional Internal Module
- |deck=Deploys limpets that force open a targeted ship's cargo hatch — the core tool of ship-to-ship piracy.
+{{Article header|deck=Deploys limpets that force open a targeted ship's cargo hatch — the core tool of ship-to-ship piracy.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}

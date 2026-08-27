@@ -1,0 +1,41 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Mining/Commodities
+Namespace: 828
+Page ID: 719
+Revision ID: 1623
+Timestamp: 2026-08-23T23:49:28Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Mining/Commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	{
+		key = "laser-targets",
+		label = "Common laser-mining targets",
+		examples = { "Platinum", "Painite", "Osmium", "Praseodymium" },
+		source = "Generally found as asteroid fragments and refined into cargo.",
+		notes = "This is a planning group, not a ranked money list; sell price and demand must be checked at the time of the run."
+	},
+	{
+		key = "core-targets",
+		label = "Common core-mining targets",
+		examples = { "Void Opals", "Low Temperature Diamonds", "Alexandrite", "Monazite", "Musgravite", "Benitoite", "Serendibite", "Rhodplumsite" },
+		source = "Found in crackable core asteroids and collected from exposed deposits after detonation.",
+		notes = "A hotspot helps search for a target commodity, but commanders still need to identify suitable core asteroids."
+	},
+	{
+		key = "subsurface-surface-targets",
+		label = "Deposit-based targets",
+		examples = { "Tritium", "Low Temperature Diamonds", "Bromellite", "Methane Clathrate" },
+		source = "Collected from surface or sub-surface deposits depending on the asteroid and equipment used.",
+		notes = "Deposit labels come from prospecting/targeting the asteroid rather than from the commodity market screen alone."
+	},
+	{
+		key = "materials-and-byproducts",
+		label = "Materials and by-products",
+		examples = { "Engineering materials", "lower-value minerals", "mixed fragments" },
+		source = "Collected alongside or instead of the intended commodity during normal mining.",
+		notes = "Procedures should cover ignoring unwanted fragments and clearing refinery bins so by-products do not stall the run."
+	}
+}

@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Elite Dangerous Field Manual documentation
+Namespace: 14
+Page ID: 691
+Revision ID: 1587
+Timestamp: 2026-08-23T18:43:02Z
+Source URL: https://edfieldmanual.com/wiki/Category:Elite_Dangerous_Field_Manual_documentation
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Hidden category}}
+
+Internal documentation pages for maintaining Elite Dangerous Field Manual content, templates, and structured data.
+
+[[Category:Maintenance]]

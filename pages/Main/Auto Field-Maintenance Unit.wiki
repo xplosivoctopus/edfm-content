@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Auto Field-Maintenance Unit
 Namespace: 0
 Page ID: 448
-Revision ID: 1235
-Timestamp: 2026-08-20T23:58:56Z
+Revision ID: 2134
+Timestamp: 2026-08-24T23:43:50Z
 Source URL: https://edfieldmanual.com/wiki/Auto_Field-Maintenance_Unit
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Auto Field-Maintenance Unit ship module.
+{{Article header|deck=Structured stub page for the Auto Field-Maintenance Unit ship module.
 }}
 
-{{Ship module infobox
- |name = Auto Field-Maintenance Unit
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

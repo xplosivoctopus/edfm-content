@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Engineering Materials
 Namespace: 0
 Page ID: 98
-Revision ID: 171
-Timestamp: 2026-08-07T20:12:41Z
+Revision ID: 1911
+Timestamp: 2026-08-24T21:21:21Z
 Source URL: https://edfieldmanual.com/wiki/Engineering_Materials
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Engineering|deck=Raw, manufactured, and encoded materials used in Engineering, and where to find or trade for them.}}
+{{Article header|deck=Raw, manufactured, and encoded materials used in Engineering, and where to find or trade for them.}}
 {{Article status|status=Draft|mode=Both}}
 
 Index for Engineering materials — see [[:Category:Engineering Materials]] for the full list as it grows. See [[Elite Dangerous Field Manual:Engineering Architecture]] for the page structure.

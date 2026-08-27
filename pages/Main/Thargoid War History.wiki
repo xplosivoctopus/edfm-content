@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Thargoid War History
 Namespace: 0
 Page ID: 179
-Revision ID: 266
-Timestamp: 2026-08-07T22:11:00Z
+Revision ID: 2035
+Timestamp: 2026-08-24T21:24:15Z
 Source URL: https://edfieldmanual.com/wiki/Thargoid_War_History
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Galactic Archive|deck=A structural placeholder for the Thargoid War's history — proving the Archive content family, not yet populated with verified events.}}
+{{Article header|deck=A structural placeholder for the Thargoid War's history — proving the Archive content family, not yet populated with verified events.}}
 {{Article status|status=Draft|mode=Historical|version=Not yet researched|reviewed=2026-08-07|reviewer=Structural placeholder only — no historical claims have been researched or verified for this pass|source_quality=Unassessed|uncertainty=Every event, date, and outcome on this page is a placeholder until independently researched — see Editorial Policy on not inventing facts}}
 
 {{Historical warning|No specific Thargoid War events are documented on this page yet — see the Draft notice below.}}

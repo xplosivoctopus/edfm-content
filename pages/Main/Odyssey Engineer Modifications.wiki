@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Odyssey Engineer Modifications
+Namespace: 0
+Page ID: 672
+Revision ID: 1565
+Timestamp: 2026-08-23T18:07:35Z
+Source URL: https://edfieldmanual.com/wiki/Odyssey_Engineer_Modifications
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|A reference matrix for Odyssey Engineer modifications, including which Engineers provide each suit or handheld-weapon modification.}}
+
+'''Odyssey Engineer Modifications''' is planned as a lookup page for on-foot modification availability. It will connect Odyssey modifications to the Engineers who provide them and to practical suit or weapon planning notes.
+
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey]]

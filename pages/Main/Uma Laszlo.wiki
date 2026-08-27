@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Uma Laszlo
 Namespace: 0
 Page ID: 136
-Revision ID: 1484
-Timestamp: 2026-08-21T14:39:12Z
+Revision ID: 2047
+Timestamp: 2026-08-24T21:24:31Z
 Source URL: https://edfieldmanual.com/wiki/Uma_Laszlo
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Odyssey Engineer
- |deck=A combat-focused suit and weapon specialist based at Laszlo's Resolve in Xuane, reached through Wellington Beck.
+{{Article header|deck=A combat-focused suit and weapon specialist based at Laszlo's Resolve in Xuane, reached through Wellington Beck.
 }}
 
 {{Engineer infobox}}

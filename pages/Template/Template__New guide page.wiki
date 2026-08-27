@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:New guide page
 Namespace: 10
 Page ID: 167
-Revision ID: 250
-Timestamp: 2026-08-07T22:01:42Z
+Revision ID: 2094
+Timestamp: 2026-08-24T21:25:43Z
 Source URL: https://edfieldmanual.com/wiki/Template:New_guide_page
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -35,7 +35,7 @@ Do not invent requirements, quantities, or steps — leave a section as "to
 be added" until it's been checked against the live game or a reliable
 source, per [[Elite Dangerous Field Manual:Editorial Policy]].
 [[Category:Templates]]
-</noinclude><includeonly>{{Article header|eyebrow=EDFM // Field Procedure|deck=To be added: a one-line summary of what this guide accomplishes.}}
+</noinclude><includeonly>{{Article header|deck=To be added: a one-line summary of what this guide accomplishes.}}
 {{Article status|status=Draft|mode=Both}}
 
 == Objective ==

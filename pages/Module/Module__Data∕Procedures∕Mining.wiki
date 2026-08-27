@@ -1,0 +1,182 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Procedures/Mining
+Namespace: 828
+Page ID: 699
+Revision ID: 1689
+Timestamp: 2026-08-24T01:09:32Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Procedures/Mining
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	{
+		key = "mining-start",
+		title = "How to Start Mining",
+		page = "How to Start Mining",
+		summary = "Prepare a ship for a first mining run and complete the basic loop of finding, extracting, refining, and selling mined commodities.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		prerequisites = { "A ship with cargo space", "Mining equipment appropriate to the chosen method", "Limpets where the selected equipment uses limpets" },
+		required_equipment = { "Mining Laser", "Refinery", "Prospector Limpet Controller", "Collector Limpet Controller", "Cargo Rack" },
+		related_reference_pages = { "Mining", "Planetary Rings", "Mining Laser", "Refinery", "Prospector Limpet Controller", "Collector Limpet Controller", "Detailed Surface Scanner" },
+		related_procedures = { "How to Scan Planetary Rings for Mining Hotspots", "How to Laser Mine", "How to Find Somewhere to Sell Mined Commodities" },
+		status = "Draft"
+	},
+	{
+		key = "mining-ring-scan-hotspots",
+		title = "How to Scan Planetary Rings for Mining Hotspots",
+		page = "How to Scan Planetary Rings for Mining Hotspots",
+		summary = "Use a Detailed Surface Scanner to map a planetary ring and reveal mining hotspots that can guide commodity targeting.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		prerequisites = { "Detailed Surface Scanner", "A system with ringed bodies" },
+		required_equipment = { "Detailed Surface Scanner" },
+		related_reference_pages = { "Mining", "Planetary Rings", "Detailed Surface Scanner", "Mining Hotspot" },
+		related_procedures = { "How to Find a Mining Hotspot", "How to Start Mining" },
+		status = "Draft"
+	},
+	{
+		key = "mining-find-hotspot",
+		title = "How to Find a Mining Hotspot",
+		page = "How to Find a Mining Hotspot",
+		summary = "Travel to a mapped ring hotspot, drop into the ring safely, and begin prospecting inside the target area.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		prerequisites = { "A mapped hotspot or known hotspot location", "Mining ship prepared for the selected method" },
+		required_equipment = { "Detailed Surface Scanner", "Prospector Limpet Controller" },
+		related_reference_pages = { "Mining", "Mining Hotspot", "Planetary Rings", "Detailed Surface Scanner", "Prospector Limpet Controller" },
+		related_procedures = { "How to Scan Planetary Rings for Mining Hotspots", "How to Use a Prospector Limpet", "How to Laser Mine", "How to Core Mine" },
+		status = "Draft"
+	},
+	{
+		key = "mining-laser",
+		title = "How to Laser Mine",
+		page = "How to Laser Mine",
+		summary = "Extract surface fragments from asteroids with mining lasers, collect them with limpets, and refine useful commodities.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		required_equipment = { "Mining Laser", "Refinery", "Prospector Limpet Controller", "Collector Limpet Controller", "Cargo Rack" },
+		related_reference_pages = { "Mining", "Laser Mining", "Mining Laser", "Refinery", "Prospector Limpet Controller", "Collector Limpet Controller" },
+		related_procedures = { "How to Use a Prospector Limpet", "How to Use Collector Limpets", "How to Use a Refinery", "How to Ignore Unwanted Mining Commodities" },
+		status = "Draft"
+	},
+	{
+		key = "mining-core",
+		title = "How to Core Mine",
+		page = "How to Core Mine",
+		summary = "Identify core asteroids, place seismic charges, crack the asteroid safely, and collect exposed deposits.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		required_equipment = { "Pulse Wave Analyser", "Seismic Charge Launcher", "Abrasion Blaster", "Refinery", "Collector Limpet Controller", "Cargo Rack" },
+		related_reference_pages = { "Mining", "Core Mining", "Pulse Wave Analyser", "Seismic Charge Launcher", "Abrasion Blaster", "Refinery" },
+		related_procedures = { "How to Find a Mining Hotspot", "How to Mine Surface Deposits", "How to Use Collector Limpets", "How to Use a Refinery" },
+		status = "Draft"
+	},
+	{
+		key = "mining-sub-surface",
+		title = "How to Sub-surface Mine",
+		page = "How to Sub-surface Mine",
+		summary = "Extract sub-surface deposits from asteroids with displacement missiles and collect the released chunks.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		required_equipment = { "Sub-surface Displacement Missile", "Prospector Limpet Controller", "Collector Limpet Controller", "Refinery", "Cargo Rack" },
+		related_reference_pages = { "Mining", "Sub-surface Mining", "Sub-surface Displacement Missile", "Prospector Limpet Controller", "Collector Limpet Controller", "Refinery" },
+		related_procedures = { "How to Use a Prospector Limpet", "How to Use Collector Limpets", "How to Use a Refinery" },
+		status = "Draft"
+	},
+	{
+		key = "mining-surface-deposits",
+		title = "How to Mine Surface Deposits",
+		page = "How to Mine Surface Deposits",
+		summary = "Break surface deposits from asteroids with an abrasion blaster and collect the resulting materials or commodities.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		required_equipment = { "Abrasion Blaster", "Collector Limpet Controller", "Refinery", "Cargo Rack" },
+		related_reference_pages = { "Mining", "Surface Deposit Mining", "Abrasion Blaster", "Collector Limpet Controller", "Refinery" },
+		related_procedures = { "How to Core Mine", "How to Use Collector Limpets", "How to Use a Refinery" },
+		status = "Draft"
+	},
+	{
+		key = "mining-prospector-limpet",
+		title = "How to Use a Prospector Limpet",
+		page = "How to Use a Prospector Limpet",
+		summary = "Launch and read prospector limpets to identify asteroid contents before committing time and collector limpets.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		required_equipment = { "Prospector Limpet Controller", "Limpet" },
+		related_reference_pages = { "Mining", "Prospector Limpet Controller", "Limpet" },
+		related_procedures = { "How to Laser Mine", "How to Sub-surface Mine", "How to Find a Mining Hotspot" },
+		status = "Draft"
+	},
+	{
+		key = "mining-collector-limpets",
+		title = "How to Use Collector Limpets",
+		page = "How to Use Collector Limpets",
+		summary = "Deploy collector limpets efficiently and avoid common mistakes that destroy limpets or slow collection.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		required_equipment = { "Collector Limpet Controller", "Limpet" },
+		related_reference_pages = { "Mining", "Collector Limpet Controller", "Refinery", "Limpet", "Cargo Rack" },
+		related_procedures = { "How to Laser Mine", "How to Core Mine", "How to Use a Refinery" },
+		status = "Draft"
+	},
+	{
+		key = "mining-refinery",
+		title = "How to Use a Refinery",
+		page = "How to Use a Refinery",
+		summary = "Turn collected fragments into cargo by managing refinery bins and transferring completed tonnes into the cargo hold.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		required_equipment = { "Refinery", "Cargo Rack" },
+		related_reference_pages = { "Mining", "Refinery", "Collector Limpet Controller", "Cargo Rack" },
+		related_procedures = { "How to Resolve a Full Refinery", "How to Ignore Unwanted Mining Commodities", "How to Find Somewhere to Sell Mined Commodities" },
+		status = "Draft"
+	},
+	{
+		key = "mining-ignore-commodities",
+		title = "How to Ignore Unwanted Mining Commodities",
+		page = "How to Ignore Unwanted Mining Commodities",
+		summary = "Use the contacts and refinery workflow to stop collector limpets from repeatedly bringing in fragments you do not want to keep.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		related_reference_pages = { "Mining", "Refinery", "Collector Limpet Controller" },
+		related_procedures = { "How to Use a Refinery", "How to Use Collector Limpets", "How to Resolve a Full Refinery" },
+		status = "Draft"
+	},
+	{
+		key = "mining-full-refinery",
+		title = "How to Resolve a Full Refinery",
+		page = "How to Resolve a Full Refinery",
+		summary = "Clear blocked refinery bins and cargo problems so mining can continue without losing valuable fragments unnecessarily.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		related_reference_pages = { "Mining", "Refinery", "Collector Limpet Controller", "Cargo Rack" },
+		related_procedures = { "How to Use a Refinery", "How to Ignore Unwanted Mining Commodities" },
+		status = "Draft"
+	},
+	{
+		key = "mining-sell-commodities",
+		title = "How to Find Somewhere to Sell Mined Commodities",
+		page = "How to Find Somewhere to Sell Mined Commodities",
+		summary = "Choose a market for mined commodities using in-game market data and current third-party trade tools where appropriate.",
+		topic = "Mining",
+		activity = "Mining",
+		category = "Field Procedures",
+		related_reference_pages = { "Mining", "Commodity", "Market", "Station" },
+		related_procedures = { "How to Start Mining" },
+		status = "Draft"
+	}
+}

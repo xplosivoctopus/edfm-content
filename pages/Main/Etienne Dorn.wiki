@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Etienne Dorn
 Namespace: 0
 Page ID: 126
-Revision ID: 1468
-Timestamp: 2026-08-21T14:39:00Z
+Revision ID: 1916
+Timestamp: 2026-08-24T21:21:28Z
 Source URL: https://edfieldmanual.com/wiki/Etienne_Dorn
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Engineer|deck=Power systems specialist based at Kraken's Retreat in the Colonia region, reachable through Liz Ryder.}}
+{{Article header|deck=Power systems specialist based at Kraken's Retreat in the Colonia region, reachable through Liz Ryder.}}
 {{Article status|status=Needs review|mode=Both|version=Live and Legacy; exact patch scope not yet directly verified|reviewed=2026-08-07|reviewer=Desk research; pending direct in-game verification — see Sources|source_quality=Location and specialty cross-referenced against Inara's Engineers listing; prerequisite/discovery/invitation/unlock detail drawn primarily from a single community unlock-chain guide — see Sources|uncertainty=Maximum engineering grade and full blueprint names were not found in the sources checked; the prerequisite/discovery/invitation chain is single-sourced and not yet directly verified.}}
 
 {{Engineer infobox}}

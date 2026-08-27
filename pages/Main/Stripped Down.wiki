@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Stripped Down
+Namespace: 0
+Page ID: 673
+Revision ID: 1566
+Timestamp: 2026-08-23T18:07:36Z
+Source URL: https://edfieldmanual.com/wiki/Stripped_Down
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|A ship Engineering experimental-effect reference for Stripped Down, including compatible modules, weight trade-offs, and Engineer availability.}}
+
+'''Stripped Down''' is a ship Engineering experimental effect. This planned reference will cover compatible modules, mass reduction considerations, and common build-planning uses.
+
+[[Category:Engineering]]
+[[Category:Experimental Effects]]

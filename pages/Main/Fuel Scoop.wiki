@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Fuel Scoop
 Namespace: 0
 Page ID: 497
-Revision ID: 1284
-Timestamp: 2026-08-20T23:59:31Z
+Revision ID: 2154
+Timestamp: 2026-08-24T23:44:15Z
 Source URL: https://edfieldmanual.com/wiki/Fuel_Scoop
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Fuel Scoop ship module.
+{{Article header|deck=Structured stub page for the Fuel Scoop ship module.
 }}
 
-{{Ship module infobox
- |name = Fuel Scoop
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

@@ -1,0 +1,35 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Mining/Sources
+Namespace: 828
+Page ID: 720
+Revision ID: 1624
+Timestamp: 2026-08-23T23:49:29Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Mining/Sources
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	last_reviewed = "2026-08-23",
+	status = "Draft",
+	sources = {
+		{
+			label = "Elite Dangerous current in-game mechanics",
+			note = "Used for procedure structure and gameplay loop descriptions; detailed numbers should remain draft until directly rechecked in the current Live client."
+		},
+		{
+			label = "EDCD coriolis-data outfitting records",
+			url = "https://github.com/EDCD/coriolis-data",
+			note = "Used as a structured, version-controlled reference for mining module families, slots, ratings, classes, and mount variants."
+		},
+		{
+			label = "EDCD FDevIDs commodity and outfitting identifiers",
+			url = "https://github.com/EDCD/FDevIDs",
+			note = "Used to cross-check commodity and module naming against Frontier identifiers."
+		},
+		{
+			label = "Current community market/trade data",
+			note = "Needed at use time for prices, demand, and station selection; static wiki text should avoid hard-coded best-sell claims."
+		}
+	}
+}

@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Baltanos
 Namespace: 0
 Page ID: 139
-Revision ID: 1488
-Timestamp: 2026-08-21T14:39:15Z
+Revision ID: 1873
+Timestamp: 2026-08-24T21:20:30Z
 Source URL: https://edfieldmanual.com/wiki/Baltanos
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Odyssey Engineer|deck=Physical performance specialist at The Divine Apparatus in the Deriso system.}}
+{{Article header|deck=Physical performance specialist at The Divine Apparatus in the Deriso system.}}
 
 {{Draft warning}}
 

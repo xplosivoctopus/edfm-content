@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Cannon
 Namespace: 0
 Page ID: 458
-Revision ID: 1245
-Timestamp: 2026-08-20T23:59:03Z
+Revision ID: 2213
+Timestamp: 2026-08-25T13:20:36Z
 Source URL: https://edfieldmanual.com/wiki/Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Cannon ship module.
+{{Article header|deck=Structured stub page for the Cannon ship module.
 }}
 
-{{Ship module infobox
- |name = Cannon
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{#invoke:ShipModules|infobox}}
 
 {{Draft warning}}
 

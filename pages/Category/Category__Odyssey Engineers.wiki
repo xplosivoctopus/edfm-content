@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Odyssey Engineers
+Namespace: 14
+Page ID: 695
+Revision ID: 1591
+Timestamp: 2026-08-23T18:43:04Z
+Source URL: https://edfieldmanual.com/wiki/Category:Odyssey_Engineers
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Hidden category}}
+
+Pages in this category cover Odyssey Engineers and related on-foot Engineering access.
+
+[[Category:Engineers]]
+[[Category:Odyssey Engineering]]

@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Classified Scan Databanks
 Namespace: 0
 Page ID: 394
-Revision ID: 1031
-Timestamp: 2026-08-20T01:40:07Z
+Revision ID: 1888
+Timestamp: 2026-08-24T21:20:49Z
 Source URL: https://edfieldmanual.com/wiki/Classified_Scan_Databanks
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Encoded Material
- |deck=A Standard-grade Encoded engineering material, and Ram Tah's unlock requirement.
+{{Article header|deck=A Standard-grade Encoded engineering material, and Ram Tah's unlock requirement.
 }}
 
 {{Article status

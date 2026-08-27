@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Abrasion Blaster
 Namespace: 828
 Page ID: 441
-Revision ID: 1228
-Timestamp: 2026-08-20T23:58:52Z
+Revision ID: 2233
+Timestamp: 2026-08-25T14:13:58Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Abrasion_Blaster
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Abrasion Blaster",
+	module_class = "Mining tool",
+	slot_type = "Hardpoint",
+	mount = "Fixed and turreted variants",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Pulse Wave Analyser]], [[Collector Limpet Controller]], [[Refinery]]",
 }

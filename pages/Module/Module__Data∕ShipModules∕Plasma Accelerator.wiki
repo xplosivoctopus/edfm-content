@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Plasma Accelerator
 Namespace: 828
 Page ID: 556
-Revision ID: 1343
-Timestamp: 2026-08-21T00:00:15Z
+Revision ID: 2256
+Timestamp: 2026-08-25T14:14:18Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Plasma_Accelerator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Plasma Accelerator",
+	module_class = "Plasma weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Railgun]]",
 }

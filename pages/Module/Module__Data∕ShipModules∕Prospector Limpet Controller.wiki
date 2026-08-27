@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Prospector Limpet Controller
 Namespace: 828
 Page ID: 565
-Revision ID: 1352
-Timestamp: 2026-08-21T00:00:22Z
+Revision ID: 2238
+Timestamp: 2026-08-25T14:14:02Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Prospector_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Prospector Limpet Controller",
+	module_class = "Limpet controller",
+	slot_type = "Optional internal",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Collector Limpet Controller]], [[Mining Multi Limpet Controller]], [[Refinery]]",
 }

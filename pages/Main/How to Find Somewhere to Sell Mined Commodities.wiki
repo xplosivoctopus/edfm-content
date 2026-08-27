@@ -1,0 +1,23 @@
+<!--
+EDFM current-content archive export.
+Title: How to Find Somewhere to Sell Mined Commodities
+Namespace: 0
+Page ID: 715
+Revision ID: 1619
+Timestamp: 2026-08-23T23:31:15Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Find_Somewhere_to_Sell_Mined_Commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+{{Field procedure|summary=Choose a market for mined commodities using in-game market data and current third-party trade tools where appropriate.}}
+
+This procedure is planned as part of the Mining section build. It will provide a practical checklist for the task described above, with equipment requirements, ordered steps, checks, and common problems once the underlying mining reference pages are in place.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Find Somewhere to Sell Mined Commodities}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Find Somewhere to Sell Mined Commodities}}
+
+[[Category:Mining]]

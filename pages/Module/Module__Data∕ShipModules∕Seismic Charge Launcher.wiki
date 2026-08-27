@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Seismic Charge Launcher
 Namespace: 828
 Page ID: 590
-Revision ID: 1377
-Timestamp: 2026-08-21T00:00:40Z
+Revision ID: 2235
+Timestamp: 2026-08-25T14:14:00Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Seismic_Charge_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Seismic Charge Launcher",
+	module_class = "Mining tool",
+	slot_type = "Hardpoint",
+	mount = "Fixed and turreted variants",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Pulse Wave Analyser]], [[Prospector Limpet Controller]], [[Refinery]]",
 }

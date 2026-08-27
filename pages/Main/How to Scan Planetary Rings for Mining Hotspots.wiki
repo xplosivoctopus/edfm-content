@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: How to Scan Planetary Rings for Mining Hotspots
+Namespace: 0
+Page ID: 704
+Revision ID: 1676
+Timestamp: 2026-08-24T00:22:56Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Scan_Planetary_Rings_for_Mining_Hotspots
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on the current Detailed Surface Scanner ring-mapping workflow and EDFM Mining metadata|uncertainty=Exact controller labels and probe-efficiency details still need final in-game verification.}}
+__NOINDEX__
+{{Field procedure|summary=Use a Detailed Surface Scanner to map a planetary ring and reveal mining hotspots that can guide commodity targeting.}}
+
+Use this procedure when a commander has reached a ringed body and needs to reveal mining hotspot markers before choosing where to begin a mining run.
+
+{{Draft warning}}
+
+== Before you start ==
+
+* Fit and power a [[Detailed Surface Scanner]].
+* Travel to a system with a body that has [[Planetary Rings|planetary rings]].
+* Leave supercruise travel time and fuel for moving between ringed bodies if the first candidate is not useful.
+* Decide whether the goal is simply to learn the process or to look for a specific mined commodity.
+
+== Procedure ==
+
+{{Procedure steps|
+# Enter supercruise in the target system and select the ringed body.
+# Approach until the Detailed Surface Scanner can be used on the body and its rings.
+# Open the Detailed Surface Scanner interface.
+# Fire probes so the ring is mapped rather than only the main body surface.
+# Wait for the scan result and review any hotspot markers that appear in the ring.
+# Select a hotspot marker that matches the intended mining plan, or record that the ring is not useful for this run.
+# If no suitable hotspot appears, check another ringed body or continue with ordinary prospecting if the run does not require a hotspot.
+}}
+
+== Completion check ==
+
+The procedure is complete when hotspot markers are visible for the ring, or when the commander has confirmed that the scanned ring does not provide a useful hotspot for the current plan.
+
+== Common problems ==
+
+* '''Only the planet was mapped:''' make sure probes are being placed to cover the ring area, not just the body surface.
+* '''No hotspot appears:''' not every ring provides the hotspot a commander wants; move to another ring or change the plan.
+* '''The hotspot is visible but far away:''' select it as a navigation target and approach in supercruise before dropping into the ring.
+* '''The hotspot name looks profitable but the market is stale:''' a hotspot helps find material, but selling still depends on current demand and price data.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Scan Planetary Rings for Mining Hotspots}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Scan Planetary Rings for Mining Hotspots}}
+
+[[Category:Mining]]

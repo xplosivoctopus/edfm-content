@@ -3,12 +3,13 @@ EDFM current-content archive export.
 Title: Powerplay
 Namespace: 0
 Page ID: 59
-Revision ID: 926
-Timestamp: 2026-08-18T13:17:42Z
+Revision ID: 2098
+Timestamp: 2026-08-24T21:27:25Z
 Source URL: https://edfieldmanual.com/wiki/Powerplay
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+{{Article header|deck=Index for Powerplay content and mechanics.}}
 {{Article status|status=Draft|mode=Live|noindex=yes}}
 
 Index for Powerplay content — see [[:Category:Powerplay]].

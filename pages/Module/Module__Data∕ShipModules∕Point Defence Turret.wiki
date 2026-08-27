@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Point Defence Turret
 Namespace: 828
 Page ID: 559
-Revision ID: 1346
-Timestamp: 2026-08-21T00:00:17Z
+Revision ID: 2269
+Timestamp: 2026-08-25T14:14:30Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Point_Defence_Turret
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Point Defence Turret",
+	module_class = "Defensive utility",
+	slot_type = "Utility mount",
+	mount = "Turreted",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Point Defence]], [[Electronic Countermeasure]], [[Chaff Launcher]]",
 }

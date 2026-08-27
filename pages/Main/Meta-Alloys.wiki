@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Meta-Alloys
 Namespace: 0
 Page ID: 390
-Revision ID: 1027
-Timestamp: 2026-08-20T01:40:04Z
+Revision ID: 1965
+Timestamp: 2026-08-24T21:22:39Z
 Source URL: https://edfieldmanual.com/wiki/Meta-Alloys
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Commodity
- |deck=An Industrial Materials commodity of Barnacle origin, and Felicity Farseer's unlock requirement.
+{{Article header|deck=An Industrial Materials commodity of Barnacle origin, and Felicity Farseer's unlock requirement.
 }}
 
 {{Article status

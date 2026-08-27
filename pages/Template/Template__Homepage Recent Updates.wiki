@@ -1,0 +1,37 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Homepage Recent Updates
+Namespace: 10
+Page ID: 738
+Revision ID: 2341
+Timestamp: 2026-08-26T20:48:40Z
+Source URL: https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<noinclude>This template is generated automatically by /usr/local/sbin/edfm-homepage-recent-updates-update from /etc/edwiki/homepage-recent-updates.json. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-home-recent-list">
+<div class="edfm-home-recent-item">
+<div class="edfm-home-recent-main"><div class="edfm-home-recent-title">[[GalNet]]</div><div class="edfm-home-recent-meta">NEWS ARCHIVE · Updated 26 Aug 2026</div></div>
+<div class="edfm-home-recent-summary">In-universe Elite Dangerous news archive sourced from official GalNet transmissions.</div>
+</div>
+<div class="edfm-home-recent-item">
+<div class="edfm-home-recent-main"><div class="edfm-home-recent-title">[[Colonisation]]</div><div class="edfm-home-recent-meta">REFERENCE HUB · Updated 24 Aug 2026</div></div>
+<div class="edfm-home-recent-summary">Current system-colonisation index for tracking EDFM's expanding colonisation coverage.</div>
+</div>
+<div class="edfm-home-recent-item">
+<div class="edfm-home-recent-main"><div class="edfm-home-recent-title">[[Powerplay]]</div><div class="edfm-home-recent-meta">REFERENCE HUB · Updated 24 Aug 2026</div></div>
+<div class="edfm-home-recent-summary">Powerplay index for current and future mechanics coverage without overstating unverified rules.</div>
+</div>
+<div class="edfm-home-recent-item">
+<div class="edfm-home-recent-main"><div class="edfm-home-recent-title">[[Unlocking Hero Ferrari]]</div><div class="edfm-home-recent-meta">ODYSSEY FIELD PROCEDURE · Updated 24 Aug 2026</div></div>
+<div class="edfm-home-recent-summary">An on-foot Engineering unlock path built around Odyssey surface conflict-zone activity.</div>
+</div>
+<div class="edfm-home-recent-item">
+<div class="edfm-home-recent-main"><div class="edfm-home-recent-title">[[Ships and Equipment]]</div><div class="edfm-home-recent-meta">REFERENCE HUB · Updated 24 Aug 2026</div></div>
+<div class="edfm-home-recent-summary">Ship and outfitting reference for commanders comparing hulls, modules, and equipment paths.</div>
+</div>
+<div class="edfm-home-recent-item">
+<div class="edfm-home-recent-main"><div class="edfm-home-recent-title">[[Mining]]</div><div class="edfm-home-recent-meta">REFERENCE HUB · Updated 24 Aug 2026</div></div>
+<div class="edfm-home-recent-summary">Mining methods, equipment, commodities, and supporting procedures in one commander-facing hub.</div>
+</div>
+</div><div class="edfm-home-section-link">[[Special:RecentChanges|VIEW ALL RECENT CHANGES →]]</div></includeonly>

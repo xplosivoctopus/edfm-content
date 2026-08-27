@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Ship modules beam laser.png
+Namespace: 6
+Page ID: 733
+Revision ID: 2212
+Timestamp: 2026-08-25T04:16:23Z
+Source URL: https://edfieldmanual.com/wiki/File:Ship_modules_beam_laser.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of the [[Beam Laser]] in Elite Dangerous.
+ |subject = [[Beam Laser]]
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[Beam Laser]] article and related Engineering pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Equipment images]]
+
+== Licensing ==
+{{License-ED screenshot}}

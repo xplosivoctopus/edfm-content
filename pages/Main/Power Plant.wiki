@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Power Plant
 Namespace: 0
 Page ID: 362
-Revision ID: 999
-Timestamp: 2026-08-20T01:37:45Z
+Revision ID: 1995
+Timestamp: 2026-08-24T21:23:21Z
 Source URL: https://edfieldmanual.com/wiki/Power_Plant
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Module
- |deck=The core internal reactor that supplies power to every other module on the ship.
+{{Article header|deck=The core internal reactor that supplies power to every other module on the ship.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}

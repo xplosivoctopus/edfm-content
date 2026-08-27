@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Zacariah Nemo
 Namespace: 0
 Page ID: 117
-Revision ID: 1450
-Timestamp: 2026-08-21T14:38:46Z
+Revision ID: 2088
+Timestamp: 2026-08-24T21:25:26Z
 Source URL: https://edfieldmanual.com/wiki/Zacariah_Nemo
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 Fragment Cannon specialist based at Nemo Cyber Party Base in Yoru, reached through Elvira Martuuk.
+{{Article header|deck=A Grade 5 Fragment Cannon specialist based at Nemo Cyber Party Base in Yoru, reached through Elvira Martuuk.
 }}
 
 {{Engineer infobox}}

@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Hera Tani
 Namespace: 0
 Page ID: 107
-Revision ID: 1432
-Timestamp: 2026-08-21T14:38:31Z
+Revision ID: 1942
+Timestamp: 2026-08-24T21:22:04Z
 Source URL: https://edfieldmanual.com/wiki/Hera_Tani
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 Power Plant and Detailed Surface Scanner specialist based at The Jet's Hole in Kuwemaki, reached through Liz Ryder.
+{{Article header|deck=A Grade 5 Power Plant and Detailed Surface Scanner specialist based at The Jet's Hole in Kuwemaki, reached through Liz Ryder.
 }}
 
 {{Engineer infobox}}

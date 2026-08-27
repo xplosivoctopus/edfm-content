@@ -1,0 +1,48 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Mining/Locations
+Namespace: 828
+Page ID: 718
+Revision ID: 1622
+Timestamp: 2026-08-23T23:49:28Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Mining/Locations
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	{
+		key = "planetary-rings",
+		page = "Planetary Rings",
+		label = "Planetary rings",
+		role = "Primary environment for ship-based asteroid mining.",
+		notes = "Ring type and reserve level affect what commanders expect to find, but live market value still has to be checked separately."
+	},
+	{
+		key = "hotspots",
+		page = "Mining Hotspot",
+		label = "Mining hotspots",
+		role = "Mapped ring areas that increase the chance of finding a named commodity.",
+		notes = "Hotspots are revealed by mapping the ring with a Detailed Surface Scanner. They guide targeting; they do not guarantee a full hold of the named commodity."
+	},
+	{
+		key = "resource-extraction-sites",
+		page = "Resource Extraction Site",
+		label = "Resource Extraction Sites",
+		role = "Ring locations with NPC traffic, security/pirate activity, and mining opportunities in the same space.",
+		notes = "Useful for some gameplay loops, but a quiet hotspot is often simpler for a dedicated mining run."
+	},
+	{
+		key = "ring-reserves",
+		page = "Ring Reserves",
+		label = "Ring reserve level",
+		role = "System-map reserve descriptions such as pristine or depleted give broad expectations for mining yield.",
+		notes = "Treat reserve level as planning context, not a precise per-asteroid result."
+	},
+	{
+		key = "third-party-tools",
+		page = "Tools and Resources",
+		label = "Current trade and mining tools",
+		role = "Community tools are commonly used to find recent sell prices, demand, and reported hotspots.",
+		notes = "Prices and demand move over time, so procedure pages should teach commanders to verify current data rather than hard-code old best-sell stations."
+	}
+}

@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Economy Class Passenger Cabin
 Namespace: 0
 Page ID: 474
-Revision ID: 1261
-Timestamp: 2026-08-20T23:59:15Z
+Revision ID: 2144
+Timestamp: 2026-08-24T23:44:03Z
 Source URL: https://edfieldmanual.com/wiki/Economy_Class_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Economy Class Passenger Cabin ship module.
+{{Article header|deck=Structured stub page for the Economy Class Passenger Cabin ship module.
 }}
 
-{{Ship module infobox
- |name = Economy Class Passenger Cabin
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

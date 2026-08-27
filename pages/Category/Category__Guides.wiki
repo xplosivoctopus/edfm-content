@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Guides
+Namespace: 14
+Page ID: 693
+Revision ID: 1589
+Timestamp: 2026-08-23T18:43:03Z
+Source URL: https://edfieldmanual.com/wiki/Category:Guides
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Hidden category}}
+
+Guide and procedure pages that help Commanders complete activities or understand a workflow.
+
+[[Category:Field Procedures]]

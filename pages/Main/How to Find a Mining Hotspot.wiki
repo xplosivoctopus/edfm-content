@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: How to Find a Mining Hotspot
+Namespace: 0
+Page ID: 705
+Revision ID: 1677
+Timestamp: 2026-08-24T00:22:57Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Find_a_Mining_Hotspot
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on the current ring hotspot and prospecting workflow|uncertainty=Ring yield expectations and commodity-specific recommendations remain intentionally general until separately verified.}}
+__NOINDEX__
+{{Field procedure|summary=Travel to a mapped ring hotspot, drop into the ring safely, and begin prospecting inside the target area.}}
+
+Use this procedure after a [[Planetary Rings|planetary ring]] has been mapped and the commander wants to start a mining run inside a visible [[Mining Hotspot|mining hotspot]].
+
+{{Draft warning}}
+
+== Before you start ==
+
+* Complete [[How to Scan Planetary Rings for Mining Hotspots]] or obtain a known hotspot location.
+* Fit the mining equipment for the chosen method.
+* Bring limpets if the build uses a [[Prospector Limpet Controller]] or [[Collector Limpet Controller]].
+* Confirm the ship has cargo space after loading limpets.
+
+== Procedure ==
+
+{{Procedure steps|
+# Select the hotspot marker in the navigation panel or directly from the ring display.
+# Approach the marker in supercruise and reduce speed early enough to avoid an unsafe drop.
+# Drop into the ring near the hotspot marker, not into the planet or exclusion zone.
+# Let the ship settle, check contacts, and avoid boosting through dense asteroid traffic.
+# Move away from the arrival point before starting sustained mining activity.
+# Fire a prospector limpet at candidate asteroids or begin the method-specific search pattern.
+# Continue only if the asteroid contents, deposits, or core signals match the run's goal.
+}}
+
+== Completion check ==
+
+The procedure is complete when the ship is safely inside the hotspot area and the commander has begun prospecting or searching asteroids for the selected mining method.
+
+== Common problems ==
+
+* '''The ship drops far from the marker:''' approach again in supercruise and watch speed and distance before dropping.
+* '''Asteroids do not contain the target commodity:''' a hotspot increases targeting usefulness but does not make every asteroid valuable.
+* '''Limpets run out early:''' leave the ring before the run becomes inefficient; limpets are the ammunition for prospecting and collection.
+* '''Hostile ships appear:''' be ready to leave, especially if carrying valuable refined cargo.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Find a Mining Hotspot}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Find a Mining Hotspot}}
+
+[[Category:Mining]]

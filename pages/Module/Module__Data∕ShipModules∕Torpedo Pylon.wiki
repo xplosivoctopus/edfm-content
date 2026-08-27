@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Torpedo Pylon
 Namespace: 828
 Page ID: 614
-Revision ID: 1401
-Timestamp: 2026-08-21T00:00:58Z
+Revision ID: 2259
+Timestamp: 2026-08-25T14:14:21Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Torpedo_Pylon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Torpedo Pylon",
+	module_class = "Explosive weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed variants",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Seeker Missile Rack]], [[Missile Rack]], [[Electronic Countermeasure]]",
 }

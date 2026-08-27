@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Frame Shift Wake Scanner
 Namespace: 828
 Page ID: 494
-Revision ID: 1281
-Timestamp: 2026-08-20T23:59:29Z
+Revision ID: 2265
+Timestamp: 2026-08-25T14:14:26Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Frame_Shift_Wake_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Frame Shift Wake Scanner",
+	module_class = "Scanner utility",
+	slot_type = "Utility mount",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Kill Warrant Scanner]], [[Manifest Scanner]], [[Frame Shift Drive]]",
 }

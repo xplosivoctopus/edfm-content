@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Phoenix Base
 Namespace: 0
 Page ID: 354
-Revision ID: 991
-Timestamp: 2026-08-20T01:37:39Z
+Revision ID: 1988
+Timestamp: 2026-08-24T21:23:12Z
 Source URL: https://edfieldmanual.com/wiki/Phoenix_Base
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=Ram Tah's Engineering workshop in the Meene system, and the centre of his Guardian research.
+{{Article header|deck=Ram Tah's Engineering workshop in the Meene system, and the centre of his Guardian research.
 }}
 
 {{Article status

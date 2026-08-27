@@ -3,12 +3,13 @@ EDFM current-content archive export.
 Title: Odyssey
 Namespace: 0
 Page ID: 58
-Revision ID: 924
-Timestamp: 2026-08-18T13:17:40Z
+Revision ID: 2100
+Timestamp: 2026-08-24T21:27:27Z
 Source URL: https://edfieldmanual.com/wiki/Odyssey
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+{{Article header|deck=Index for Odyssey-specific on-foot content.}}
 {{Article status|status=Draft|mode=Live|noindex=yes}}
 
 Index for Odyssey-specific (on-foot) content — see [[:Category:Odyssey]].

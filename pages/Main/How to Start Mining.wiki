@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: How to Start Mining
+Namespace: 0
+Page ID: 703
+Revision ID: 1637
+Timestamp: 2026-08-23T23:51:54Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Start_Mining
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-23|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Commodity choices, sell markets, and exact ship builds remain intentionally unspecific until separately verified.}}
+{{Field procedure|summary=Prepare a ship for a first mining run and complete the basic loop of finding, extracting, refining, and selling mined commodities.}}
+
+This procedure gives a first-run mining checklist. It assumes a commander wants a practical loop rather than a perfect profit build.
+
+{{Draft warning}}
+
+== Before you undock ==
+
+* Choose a method: [[Laser Mining]] is the simplest starting point; [[Core Mining]], [[Sub-surface Mining]], and [[Surface Deposit Mining]] require more specialized handling.
+* Fit the extraction tool for that method.
+* Fit a [[Refinery]], [[Collector Limpet Controller]], cargo racks, and limpets.
+* Fit a [[Prospector Limpet Controller]] unless the procedure for the chosen method says otherwise.
+* Leave cargo room for mined commodities after loading limpets.
+
+== Procedure ==
+
+{{Procedure steps|
+# Pick a target ring, hotspot, or known mining location.
+# Travel to the location and drop into the ring safely.
+# Prospect candidate asteroids before spending time extracting from them.
+# Extract with the method-specific tool: mining laser, seismic charges, sub-surface displacement missile, or abrasion blaster.
+# Keep collector limpets active while fragments or chunks are available.
+# Watch the refinery and clear unwanted blocked bins if necessary.
+# When the hold is ready, check current market demand and sell prices before choosing a station or carrier.
+}}
+
+== Completion check ==
+
+The run is complete when refined commodities have been sold or stored and the ship has enough fuel, limpets, and cargo space for the next decision.
+
+== Common problems ==
+
+* '''No cargo is appearing:''' check that a refinery is installed and powered, and that cargo space is available.
+* '''Collectors are not bringing the right fragments:''' use the ignore workflow for unwanted commodities and clear refinery bins.
+* '''The refinery is stuck:''' see [[How to Resolve a Full Refinery]].
+* '''The sell station changed:''' mining prices and demand are time-sensitive; re-check current market data before travelling far.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Start Mining}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Start Mining}}
+
+[[Category:Mining]]

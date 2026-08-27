@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Engineer infobox
 Namespace: 10
 Page ID: 174
-Revision ID: 949
-Timestamp: 2026-08-19T18:36:15Z
+Revision ID: 1583
+Timestamp: 2026-08-23T18:40:10Z
 Source URL: https://edfieldmanual.com/wiki/Template:Engineer_infobox
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,7 +14,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 Infobox for Elite Dangerous Engineer articles.
 
 When structured data exists for an Engineer, the template automatically uses
-the canonical values stored in [[Module:Data/Engineers]]. Parameters supplied
+the canonical values stored in [[Module:Data/Engineers/index|Module:Data/Engineers/index]]. Parameters supplied
 directly on the article override those values when needed.
 
 <pre>

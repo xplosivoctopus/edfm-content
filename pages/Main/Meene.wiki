@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Meene
 Namespace: 0
 Page ID: 353
-Revision ID: 990
-Timestamp: 2026-08-20T01:37:38Z
+Revision ID: 1963
+Timestamp: 2026-08-24T21:22:36Z
 Source URL: https://edfieldmanual.com/wiki/Meene
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=A Confederacy-controlled Core Systems world hosting Ram Tah's workshop and Guardian research, Phoenix Base.
+{{Article header|deck=A Confederacy-controlled Core Systems world hosting Ram Tah's workshop and Guardian research, Phoenix Base.
 }}
 
 {{Article status

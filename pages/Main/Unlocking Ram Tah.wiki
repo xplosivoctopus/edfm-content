@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Unlocking Ram Tah
 Namespace: 0
 Page ID: 634
-Revision ID: 1520
-Timestamp: 2026-08-21T14:41:10Z
+Revision ID: 2072
+Timestamp: 2026-08-24T21:25:03Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Ram_Tah
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Ram Tah — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+{{Article header|deck=The actionable checklist for gaining access to Ram Tah — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
 
 This Field Procedure covers only the steps to unlock [[Ram Tah]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Ram Tah]].
 

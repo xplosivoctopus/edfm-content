@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Module infobox
+Namespace: 10
+Page ID: 662
+Revision ID: 1549
+Timestamp: 2026-08-23T02:12:04Z
+Source URL: https://edfieldmanual.com/wiki/Template:Module_infobox
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<includeonly>{{#invoke:Modules|infobox}}</includeonly>

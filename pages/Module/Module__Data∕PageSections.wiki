@@ -1,0 +1,151 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/PageSections
+Namespace: 828
+Page ID: 728
+Revision ID: 2125
+Timestamp: 2026-08-24T22:05:34Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/PageSections
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	fallbackPrimarySection = "Reference",
+	defaultFieldProcedureContentType = "Field Procedures",
+
+	primaryContexts = {
+		["Reference"] = { label = "Reference", page = "Game Reference" },
+		["New Commanders"] = { label = "New Commanders", page = "New Commander Roadmap" },
+		["Returning Commanders"] = { label = "Returning Commanders", page = "Returning Commander Overview" },
+		["Ships & Equipment"] = { label = "Ships & Equipment", page = "Ships and Equipment" },
+		["Engineering"] = { label = "Engineering", page = "Engineering" },
+		["Mining"] = { label = "Mining", page = "Mining" },
+		["Combat"] = { label = "Combat", page = "Combat" },
+		["Exploration"] = { label = "Exploration", page = "Exploration" },
+		["Exobiology"] = { label = "Exobiology", page = "Exobiology" },
+		["Background Simulation"] = { label = "Background Simulation", page = "Background Simulation" },
+		-- No suitable non-redirect Guardian Technology hub exists yet; keep the label plain text.
+		["Guardian Technology"] = { label = "Guardian Technology" },
+		-- Thargoids currently resolves through a redirect; keep the label plain text until a canonical hub exists.
+		["Thargoids"] = { label = "Thargoids" },
+		["Odyssey"] = { label = "Odyssey", page = "Odyssey" },
+		["Powerplay"] = { label = "Powerplay", page = "Powerplay" },
+		["Colonisation"] = { label = "Colonisation", page = "Colonisation" },
+		["Operations"] = { label = "Operations", page = "Operations" },
+		["Fleet Carriers"] = { label = "Fleet Carriers", page = "Fleet Carriers" },
+		["Lore & History"] = { label = "Lore & History", page = "Lore and History" },
+	},
+
+	secondaryContexts = {
+		["Ships"] = { label = "Ships", page = "Ships" },
+		["Modules"] = { label = "Modules", page = "Ship Modules" },
+		-- No suitable public Weapons hub exists yet; keep the label plain text until one exists.
+		["Weapons"] = { label = "Weapons" },
+		["Engineers"] = { label = "Engineers", page = "Engineers" },
+	},
+
+	contentTypes = {
+		["Field Procedures"] = { label = "Field Procedures", page = "Field Procedures" },
+	},
+
+	-- Structured content/page types map to broad area and optional narrower collection.
+	typeToPrimarySection = {
+		engineer = "Engineering",
+		ship = "Ships & Equipment",
+		ship_module = "Ships & Equipment",
+		ship_weapon = "Ships & Equipment",
+		guardian_module = "Guardian Technology",
+		thargoid_module = "Thargoids",
+		mining_method = "Mining",
+		mining_equipment = "Mining",
+		mining_location = "Mining",
+		mining_commodity = "Mining",
+	},
+
+	typeToSecondaryContext = {
+		engineer = "Engineers",
+		ship = "Ships",
+		ship_module = "Modules",
+		ship_weapon = "Weapons",
+	},
+
+	-- Backward-compatible alias for older callers/documentation.
+	typeToSection = {
+		engineer = "Engineering",
+		ship = "Ships & Equipment",
+		ship_module = "Ships & Equipment",
+		ship_weapon = "Ships & Equipment",
+		guardian_module = "Guardian Technology",
+		thargoid_module = "Thargoids",
+		mining_method = "Mining",
+		mining_equipment = "Mining",
+		mining_location = "Mining",
+		mining_commodity = "Mining",
+	},
+
+	exactPrimarySections = {
+		["Start Here"] = "New Commanders",
+		["New Commander Roadmap"] = "New Commanders",
+		["Returning Commander Overview"] = "Returning Commanders",
+		["Field Procedures"] = "Reference",
+		["Game Reference"] = "Reference",
+		["Ships and Equipment"] = "Ships & Equipment",
+		["Ships"] = "Ships & Equipment",
+		["Ship Modules"] = "Ships & Equipment",
+		["Engineering"] = "Engineering",
+		["Engineers"] = "Engineering",
+		["Engineer Unlock Guide"] = "Engineering",
+		["Engineer Capability Comparison"] = "Engineering",
+		["Engineering Blueprints"] = "Engineering",
+		["Engineering Materials"] = "Engineering",
+		["Experimental Effects"] = "Engineering",
+		["Mining"] = "Mining",
+		["Combat"] = "Combat",
+		["Exploration"] = "Exploration",
+		["Exobiology"] = "Exobiology",
+		["Background Simulation"] = "Background Simulation",
+		["Guardian"] = "Guardian Technology",
+		["Guardian Tech"] = "Guardian Technology",
+		["Guardian Technology"] = "Guardian Technology",
+		["Thargoids"] = "Thargoids",
+		["Thargoid"] = "Thargoids",
+		["Odyssey"] = "Odyssey",
+		["Powerplay"] = "Powerplay",
+		["Colonisation"] = "Colonisation",
+		["Operations"] = "Operations",
+		["Fleet Carriers"] = "Fleet Carriers",
+		["Lore and History"] = "Lore & History",
+		["Tools and Resources"] = "Reference",
+	},
+
+	exactSecondaryContexts = {
+		["Ships"] = "Ships",
+		["Ship Modules"] = "Modules",
+		["Engineer Unlock Guide"] = "Engineers",
+		["Engineer Capability Comparison"] = "Engineers",
+		["Engineers"] = "Engineers",
+	},
+
+	-- Backward-compatible alias for older callers/documentation.
+	exactSections = nil,
+
+	-- Conservative topic-family rules for ordinary topical articles, not content type.
+	topicFamilyRules = {
+		{ text = "Guardian", primarySection = "Guardian Technology", reason = "Guardian technology article family" },
+		{ text = "Thargoid", primarySection = "Thargoids", reason = "Thargoid/xeno article family" },
+		{ text = "Xeno", primarySection = "Thargoids", reason = "Thargoid/xeno article family" },
+		{ text = "AX ", primarySection = "Thargoids", reason = "Anti-xeno article family" },
+	},
+
+	-- Procedure title families are used only after checking structured procedure metadata.
+	-- They identify the content type; primary section still comes from structured target/topic data.
+	contentTypeFamilyRules = {
+		{ prefix = "How to ", contentType = "Field Procedures", reason = "Field Procedure task-page naming convention" },
+		{ prefix = "Unlocking ", contentType = "Field Procedures", reason = "Engineer unlock procedure naming convention backed by Engineer data" },
+	},
+
+	-- Keep exception maps intentionally small. Normal pages should resolve from structured data/rules.
+	primarySectionOverrides = {},
+	secondaryContextOverrides = {},
+	contentTypeOverrides = {},
+}

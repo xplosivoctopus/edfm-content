@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:New engineer page
 Namespace: 10
 Page ID: 79
-Revision ID: 153
-Timestamp: 2026-08-07T20:12:40Z
+Revision ID: 2092
+Timestamp: 2026-08-24T21:25:40Z
 Source URL: https://edfieldmanual.com/wiki/Template:New_engineer_page
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -31,7 +31,7 @@ Do not invent System/Body/Facility/unlock information when filling this
 in — leave a field as "to be added" until it's been checked against the
 live game, per [[Elite Dangerous Field Manual:Editorial Policy]].
 [[Category:Templates]]
-</noinclude><includeonly>{{Article header|eyebrow=EDFM // Engineer|deck=To be added: a one-line summary of what this Engineer specialises in.}}
+</noinclude><includeonly>{{Article header|deck=To be added: a one-line summary of what this Engineer specialises in.}}
 {{Article status|status=Draft|mode=Both}}
 
 {{Infobox

@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Engineer Capability Comparison
 Namespace: 0
 Page ID: 177
-Revision ID: 283
-Timestamp: 2026-08-07T22:13:30Z
+Revision ID: 1907
+Timestamp: 2026-08-24T21:21:16Z
 Source URL: https://edfieldmanual.com/wiki/Engineer_Capability_Comparison
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Data|deck=A structured-data proof of concept comparing what each Engineer offers and what it takes to reach them, side by side.}}
+{{Article header|deck=A structured-data proof of concept comparing what each Engineer offers and what it takes to reach them, side by side.}}
 {{Article status|status=Draft|mode=Both|version=Content architecture phase, 2026-08-07|reviewed=2026-08-07|reviewer=Structural backfill from already-published Engineer pages, not new research|source_quality=Every value here is copied from the corresponding Engineer's own already-sourced article — see that article's Sources section for citations|uncertainty=Only 4 of the site's 38 Engineers currently have a canonical data record; the rest aren't compared here yet}}
 
 {{Draft warning}}

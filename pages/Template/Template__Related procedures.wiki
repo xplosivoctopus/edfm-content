@@ -1,0 +1,28 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Related procedures
+Namespace: 10
+Page ID: 701
+Revision ID: 1603
+Timestamp: 2026-08-23T23:31:03Z
+Source URL: https://edfieldmanual.com/wiki/Template:Related_procedures
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-related edfm-related-procedures">
+<div class="edfm-related-label">{{{label|Related Field Procedures}}}</div>
+<div class="edfm-related-links">
+{{#invoke:Procedures|relatedForCurrentPage|page={{{page|}}}|topic={{{topic|}}}|activity={{{activity|}}}}}
+</div>
+</div><noinclude>
+== Usage ==
+Shows Field Procedures related to the current reference page from the canonical procedure metadata in [[Module:Procedures]] and its data modules.
+
+<pre>{{Related procedures}}</pre>
+<pre>{{Related procedures|page=Refinery}}</pre>
+<pre>{{Related procedures|topic=Mining}}</pre>
+
+Use this instead of manually maintaining duplicate procedure lists on reference pages whenever the relationship is already recorded in procedure metadata.
+
+[[Category:Templates]]
+</noinclude>

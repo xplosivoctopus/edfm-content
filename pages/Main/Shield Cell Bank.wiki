@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Shield Cell Bank
 Namespace: 0
 Page ID: 595
-Revision ID: 1382
-Timestamp: 2026-08-21T00:00:44Z
+Revision ID: 2198
+Timestamp: 2026-08-24T23:45:09Z
 Source URL: https://edfieldmanual.com/wiki/Shield_Cell_Bank
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Shield Cell Bank ship module.
+{{Article header|deck=Structured stub page for the Shield Cell Bank ship module.
 }}
 
-{{Ship module infobox
- |name = Shield Cell Bank
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

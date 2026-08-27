@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Planned articles
+Namespace: 14
+Page ID: 664
+Revision ID: 1556
+Timestamp: 2026-08-23T17:37:36Z
+Source URL: https://edfieldmanual.com/wiki/Category:Planned_articles
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+__HIDDENCAT__
+This hidden maintenance category contains deliberate placeholder pages for EDFM articles that are planned but not yet substantive enough for search indexing.
+
+Pages in this category should use {{tl|Planned article}}, remain short and accurate, and be expanded or converted into redirects when a suitable canonical article exists.
+[[Category:Maintenance]]

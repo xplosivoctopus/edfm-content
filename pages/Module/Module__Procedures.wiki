@@ -1,0 +1,237 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Procedures
+Namespace: 828
+Page ID: 700
+Revision ID: 1691
+Timestamp: 2026-08-24T02:02:06Z
+Source URL: https://edfieldmanual.com/wiki/Module:Procedures
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Module:Procedures
+-- Canonical Field Procedure metadata and directory helpers.
+-- Mining procedure records are stored in Module:Data/Procedures/Mining.
+-- Engineer unlock procedures are derived from Module:Data/Engineers so the
+-- Field Procedures directory does not duplicate the Engineer roster.
+
+local p = {}
+
+local TOPIC_ORDER = {
+	"Mining",
+	"Engineering",
+	"Odyssey / On-foot",
+}
+
+local function isNonEmpty(value)
+	return value ~= nil and value ~= ''
+end
+
+local function escapeAttribute(value)
+	value = tostring(value or '')
+	value = value:gsub('&', '&amp;')
+	value = value:gsub('"', '&quot;')
+	value = value:gsub('<', '&lt;')
+	value = value:gsub('>', '&gt;')
+	return value
+end
+
+local function link(page, label)
+	if not isNonEmpty(page) then return '' end
+	label = label or page
+	if page == label then
+		return '[[' .. page .. ']]'
+	end
+	return '[[' .. page .. '|' .. label .. ']]'
+end
+
+local function loadData(title)
+	local ok, data = pcall(mw.loadData, title)
+	if ok and type(data) == 'table' then
+		return data
+	end
+	return {}
+end
+
+local function loadJsonPage(titleText)
+	local title = mw.title.new(titleText)
+	local content = title and title:getContent()
+	if not content then return {} end
+	local ok, data = pcall(mw.text.jsonDecode, content)
+	if ok and type(data) == 'table' then
+		return data
+	end
+	return {}
+end
+
+local function copyRecord(record)
+	local out = {}
+	for k, v in pairs(record) do
+		out[k] = v
+	end
+	return out
+end
+
+local function miningProcedures()
+	local out = {}
+	for _, record in ipairs(loadData('Module:Data/Procedures/Mining')) do
+		table.insert(out, copyRecord(record))
+	end
+	return out
+end
+
+local function engineerProcedures()
+	local out = {}
+	for _, name in ipairs(loadJsonPage('Module:Data/Engineers/index')) do
+		local record = loadJsonPage('Module:Data/Engineers/' .. name)
+		local scope = record.engineer_scope or 'ship'
+		local topic = scope == 'odyssey' and 'Odyssey / On-foot' or 'Engineering'
+		table.insert(out, {
+			key = 'unlock-' .. name:gsub('[^%w]+', '-'):lower(),
+			title = 'Unlocking ' .. name,
+			page = 'Unlocking ' .. name,
+			summary = 'Gain access to ' .. name .. ' and their Engineering services.',
+			topic = topic,
+			activity = scope == 'odyssey' and 'Odyssey Engineering' or 'Engineering',
+			category = 'Field Procedures',
+			related_reference_pages = { name, 'Engineers', 'Engineering', 'Engineer Unlock Guide' },
+			status = 'Needs review',
+		})
+	end
+	return out
+end
+
+local function allProcedures()
+	local out = {}
+	for _, record in ipairs(miningProcedures()) do table.insert(out, record) end
+	for _, record in ipairs(engineerProcedures()) do table.insert(out, record) end
+	table.sort(out, function(a, b)
+		local at = a.topic or ''
+		local bt = b.topic or ''
+		if at ~= bt then return at < bt end
+		return (a.title or a.page or '') < (b.title or b.page or '')
+	end)
+	return out
+end
+
+local function topicRank(topic)
+	for i, value in ipairs(TOPIC_ORDER) do
+		if value == topic then return i end
+	end
+	return 999
+end
+
+local function recordMatches(record, args)
+	if isNonEmpty(args.topic) and record.topic ~= args.topic then return false end
+	if isNonEmpty(args.activity) and record.activity ~= args.activity then return false end
+	if isNonEmpty(args.page) then
+		local needle = args.page
+		local refs = record.related_reference_pages or {}
+		local procedures = record.related_procedures or {}
+		local found = record.page == needle or record.title == needle
+		for _, value in ipairs(refs) do if value == needle then found = true end end
+		for _, value in ipairs(procedures) do if value == needle then found = true end end
+		if not found then return false end
+	end
+	return true
+end
+
+local function groupedProcedures(args)
+	local groups = {}
+	for _, record in ipairs(allProcedures()) do
+		if recordMatches(record, args or {}) then
+			local topic = record.topic or 'Other'
+			groups[topic] = groups[topic] or {}
+			table.insert(groups[topic], record)
+		end
+	end
+	local topics = {}
+	for topic in pairs(groups) do table.insert(topics, topic) end
+	table.sort(topics, function(a, b)
+		local ar = topicRank(a)
+		local br = topicRank(b)
+		if ar ~= br then return ar < br end
+		return a < b
+	end)
+	for _, topic in ipairs(topics) do
+		table.sort(groups[topic], function(a, b)
+			return (a.title or a.page or '') < (b.title or b.page or '')
+		end)
+	end
+	return topics, groups
+end
+
+local function renderItem(record)
+	local title = record.title or record.page
+	local page = record.page or title
+	local summary = record.summary or ''
+	local status = record.status or ''
+	local statusText = ''
+	if status == 'Draft' or status == 'Planned' then
+		statusText = ' <span class="edfm-procedure-status">(' .. status .. ')</span>'
+	end
+	return '* ' .. link(page, title) .. statusText .. (isNonEmpty(summary) and ' — ' .. summary or '')
+end
+
+function p.directory(frame)
+	local args = frame.args or {}
+	local topics, groups = groupedProcedures(args)
+	local out = {}
+	for _, topic in ipairs(topics) do
+		table.insert(out, '== ' .. topic .. ' ==')
+		if topic == 'Mining' then
+			table.insert(out, 'Procedures for finding mining locations, extracting resources from asteroids, handling limpets and refinery bins, and selling mined commodities.')
+		elseif topic == 'Engineering' then
+			table.insert(out, 'Procedures for gaining access to ship Engineers and completing Engineering-related unlock workflows.')
+		elseif topic == 'Odyssey / On-foot' then
+			table.insert(out, 'Procedures for gaining access to Odyssey Engineers and completing on-foot Engineering-related workflows.')
+		end
+		table.insert(out, '')
+		for _, record in ipairs(groups[topic]) do
+			table.insert(out, renderItem(record))
+		end
+		table.insert(out, '')
+	end
+	if #out == 0 then
+		return ''
+	end
+	return table.concat(out, '\n')
+end
+
+function p.list(frame)
+	local args = frame.args or {}
+	local topics, groups = groupedProcedures(args)
+	local out = {}
+	for _, topic in ipairs(topics) do
+		for _, record in ipairs(groups[topic]) do
+			table.insert(out, renderItem(record))
+		end
+	end
+	if #out == 0 then
+		return ''
+	end
+	return table.concat(out, '\n')
+end
+
+function p.relatedForCurrentPage(frame)
+	local title = mw.title.getCurrentTitle().text
+	local args = frame.args or {}
+	args.page = args.page or title
+	return p.list({ args = args })
+end
+
+function p.referenceLinks(frame)
+	local args = frame.args or {}
+	local wanted = args.procedure or args.page or mw.title.getCurrentTitle().text
+	for _, record in ipairs(allProcedures()) do
+		if record.page == wanted or record.title == wanted or record.key == wanted then
+			local refs = record.related_reference_pages or {}
+			local out = {}
+			for _, page in ipairs(refs) do table.insert(out, link(page)) end
+			return table.concat(out, ' ')
+		end
+	end
+	return ''
+end
+
+return p

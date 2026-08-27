@@ -1,0 +1,113 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Mining/Equipment
+Namespace: 828
+Page ID: 717
+Revision ID: 1621
+Timestamp: 2026-08-23T23:49:27Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Mining/Equipment
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	{
+		key = "mining-laser",
+		page = "Mining Laser",
+		group = "Extraction hardpoint",
+		slot = "Hardpoint",
+		mounts = "Fixed and turreted variants in EDCD outfitting data",
+		role = "Breaks standard mining fragments from laser-mineable asteroid material.",
+		methods = { "Laser Mining" },
+		notes = "Still requires a refinery and cargo space to turn fragments into saleable cargo."
+	},
+	{
+		key = "abrasion-blaster",
+		page = "Abrasion Blaster",
+		group = "Extraction hardpoint",
+		slot = "Hardpoint",
+		mounts = "Fixed and turreted small hardpoint variants in EDCD outfitting data",
+		role = "Breaks exposed surface deposits from an asteroid.",
+		methods = { "Core Mining", "Surface Deposit Mining" },
+		notes = "Often carried with a seismic charge launcher because cracked core asteroids expose deposits."
+	},
+	{
+		key = "seismic-charge-launcher",
+		page = "Seismic Charge Launcher",
+		group = "Extraction hardpoint",
+		slot = "Hardpoint",
+		mounts = "Fixed and turreted medium hardpoint variants in EDCD outfitting data",
+		role = "Places charges into asteroid fissures for core mining.",
+		methods = { "Core Mining" },
+		notes = "Charge strength and fissure strength determine whether the detonation is safe, weak, or excessive."
+	},
+	{
+		key = "sub-surface-displacement-missile",
+		page = "Sub-surface Displacement Missile",
+		group = "Extraction hardpoint",
+		slot = "Hardpoint",
+		mounts = "Fixed and turreted medium hardpoint variants in EDCD outfitting data",
+		role = "Extracts sub-surface deposits after a prospector identifies a usable deposit.",
+		methods = { "Sub-surface Mining" },
+		notes = "The missile is held while tracking the deposit indicator, then released in the highlighted band."
+	},
+	{
+		key = "pulse-wave-analyser",
+		page = "Pulse Wave Analyser",
+		group = "Scanner hardpoint utility",
+		slot = "Utility-style hardpoint scanner in EDCD outfitting data",
+		mounts = "Rated variants",
+		role = "Highlights asteroids with notable deposits, especially useful when searching for core candidates.",
+		methods = { "Core Mining", "Surface Deposit Mining" },
+		notes = "It narrows the search; it does not replace close inspection or prospecting."
+	},
+	{
+		key = "prospector-limpet-controller",
+		page = "Prospector Limpet Controller",
+		group = "Limpet controller",
+		slot = "Optional internal",
+		mounts = "Multiple classes and ratings in EDCD outfitting data",
+		role = "Analyses an asteroid's contents before mining and enables informed target selection.",
+		methods = { "Laser Mining", "Sub-surface Mining", "Core Mining" },
+		notes = "Carry limpets in cargo; a controller alone cannot launch without limpet ammunition."
+	},
+	{
+		key = "collector-limpet-controller",
+		page = "Collector Limpet Controller",
+		group = "Limpet controller",
+		slot = "Optional internal",
+		mounts = "Multiple classes and ratings in EDCD outfitting data",
+		role = "Collects fragments, chunks, and canisters so the ship is not scooping by hand.",
+		methods = { "Laser Mining", "Core Mining", "Sub-surface Mining", "Surface Deposit Mining" },
+		notes = "Limpets can be destroyed by impact or by targeting a single object before launch, so mining procedures should cover launch habits."
+	},
+	{
+		key = "refinery",
+		page = "Refinery",
+		group = "Processing module",
+		slot = "Optional internal",
+		mounts = "Multiple classes and ratings in EDCD outfitting data",
+		role = "Converts collected mining fragments into whole tonnes of cargo.",
+		methods = { "Laser Mining", "Core Mining", "Sub-surface Mining", "Surface Deposit Mining" },
+		notes = "More bins make mixed-fragment mining easier; a full cargo hold or blocked bins can stop refining."
+	},
+	{
+		key = "detailed-surface-scanner",
+		page = "Detailed Surface Scanner",
+		group = "Discovery scanner",
+		slot = "Optional internal",
+		mounts = "Single module family",
+		role = "Maps planetary rings to reveal hotspots for commodities that can be targeted while mining.",
+		methods = { "Laser Mining", "Core Mining", "Sub-surface Mining" },
+		notes = "A hotspot is a search aid, not a guarantee that every asteroid contains the named commodity."
+	},
+	{
+		key = "cargo-rack",
+		page = "Cargo Rack",
+		group = "Storage",
+		slot = "Optional internal",
+		mounts = "Multiple sizes",
+		role = "Carries limpets before mining and refined commodity cargo after mining.",
+		methods = { "Laser Mining", "Core Mining", "Sub-surface Mining", "Surface Deposit Mining" },
+		notes = "Leave room for the cargo you intend to mine; filling all capacity with limpets prevents immediate refining."
+	}
+}

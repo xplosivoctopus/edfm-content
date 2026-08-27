@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Retributor Beam Laser
 Namespace: 0
 Page ID: 588
-Revision ID: 1375
-Timestamp: 2026-08-21T00:00:39Z
+Revision ID: 2195
+Timestamp: 2026-08-24T23:45:05Z
 Source URL: https://edfieldmanual.com/wiki/Retributor_Beam_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Retributor Beam Laser ship module.
+{{Article header|deck=Structured stub page for the Retributor Beam Laser ship module.
 }}
 
-{{Ship module infobox
- |name = Retributor Beam Laser
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Point Defence Turret
 Namespace: 0
 Page ID: 560
-Revision ID: 1347
-Timestamp: 2026-08-21T00:00:18Z
+Revision ID: 2181
+Timestamp: 2026-08-24T23:44:48Z
 Source URL: https://edfieldmanual.com/wiki/Point_Defence_Turret
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Point Defence Turret ship module.
+{{Article header|deck=Structured stub page for the Point Defence Turret ship module.
 }}
 
-{{Ship module infobox
- |name = Point Defence Turret
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

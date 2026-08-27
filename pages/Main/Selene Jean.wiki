@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Selene Jean
 Namespace: 0
 Page ID: 114
-Revision ID: 1440
-Timestamp: 2026-08-21T14:38:37Z
+Revision ID: 2015
+Timestamp: 2026-08-24T21:23:48Z
 Source URL: https://edfieldmanual.com/wiki/Selene_Jean
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 Armour and reinforcement specialist based at Prospector's Rest in Kuk, reached through Tod "The Blaster" McQuinn.
+{{Article header|deck=A Grade 5 Armour and reinforcement specialist based at Prospector's Rest in Kuk, reached through Tod "The Blaster" McQuinn.
 }}
 
 {{Engineer infobox}}

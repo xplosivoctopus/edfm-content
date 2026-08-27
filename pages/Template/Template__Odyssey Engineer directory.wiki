@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Odyssey Engineer directory
 Namespace: 10
 Page ID: 430
-Revision ID: 1216
-Timestamp: 2026-08-20T23:56:25Z
+Revision ID: 1584
+Timestamp: 2026-08-23T18:40:11Z
 Source URL: https://edfieldmanual.com/wiki/Template:Odyssey_Engineer_directory
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -31,7 +31,7 @@ Omit <code>|colonia=</code> entirely for all 13 Odyssey Engineers in one
 table.
 
 Engineer facts shown here are maintained in
-[[Module:Data/Engineers]] rather than duplicated manually.
+[[Module:Data/Engineers/index|Module:Data/Engineers/index]] rather than duplicated manually.
 
 [[Category:Templates]]
 </noinclude>

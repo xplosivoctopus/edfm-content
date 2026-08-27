@@ -3,24 +3,32 @@ EDFM current-content archive export.
 Title: Detailed Surface Scanner
 Namespace: 0
 Page ID: 366
-Revision ID: 1003
-Timestamp: 2026-08-20T01:37:48Z
+Revision ID: 1897
+Timestamp: 2026-08-24T21:21:01Z
 Source URL: https://edfieldmanual.com/wiki/Detailed_Surface_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Module
- |deck=The optional internal module used to scan planetary and system bodies during exploration.
+{{Article header|deck=The optional internal module used to scan planetary bodies and map rings for exploration and mining.
 }}
 
-{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-24|reviewer=Sythan|source_quality=Well-established core mechanic plus Mining-section link integration; no citation-dependent figures asserted}}
 
-The '''Detailed Surface Scanner''' ('''DSS''') is an optional internal module used to scan planets, moons, rings, and other bodies within a system, revealing surface detail, geological and biological signal counts, and other body-specific information used for exploration data value and site-hunting.
+The '''Detailed Surface Scanner''' ('''DSS''') is an optional internal module used to scan planets, moons, rings, and other bodies within a system, revealing surface detail, geological and biological signal counts, and other body-specific information used for exploration data value, site-hunting, and [[Mining|mining]] route planning.
 
 == Overview ==
 
-Firing a Detailed Surface Scanner probe at a body — commonly called "honking" a body once mapped — reveals a fuller data set about it than the system-wide discovery scan alone provides, and is a prerequisite for locating specific surface points of interest. It is distinct from [[Sensors]], the core internal module governing general contact detection range.
+Firing Detailed Surface Scanner probes at a body reveals a fuller data set than the system-wide discovery scan alone provides, and is a prerequisite for locating many body-specific points of interest. It is distinct from [[Sensors]], the core internal module governing general contact detection range.
+
+== Mining role ==
+
+For mining, the DSS is used to map [[Planetary Rings|planetary rings]] and reveal [[Mining Hotspot|mining hotspots]]. A hotspot marker helps commanders choose where to enter a ring for [[Laser Mining|laser]], [[Core Mining|core]], or [[Sub-surface Mining|sub-surface]] runs.
+
+A hotspot is only a targeting aid. After dropping into the ring, commanders still need to prospect individual asteroids, extract with the correct equipment, collect fragments or deposits, refine cargo, and verify current sell prices.
+
+== Related Field Procedures ==
+
+{{Related procedures|page=Detailed Surface Scanner}}
 
 == Engineering ==
 
@@ -37,10 +45,11 @@ Firing a Detailed Surface Scanner probe at a body — commonly called "honking" 
 Both [[Hera Tani]] (at [[The Jet's Hole]] in [[Kuwemaki]]) and [[Lei Cheung]] (at [[Trader's Rest]] in [[Laksak]]) are EDFM's currently documented Grade 5 Detailed Surface Scanner Engineers.
 
 === Related Engineering Guides ===
-{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Exploration]]}}
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Exploration]] [[Mining]] [[Planetary Rings]] [[Mining Hotspot]]}}
 
 {{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Optional Internal Engineering]]
 [[Category:Engineering]]
+[[Category:Mining]]

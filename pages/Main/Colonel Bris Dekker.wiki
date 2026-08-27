@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Colonel Bris Dekker
 Namespace: 0
 Page ID: 121
-Revision ID: 1456
-Timestamp: 2026-08-21T14:38:51Z
+Revision ID: 1890
+Timestamp: 2026-08-24T21:20:51Z
 Source URL: https://edfieldmanual.com/wiki/Colonel_Bris_Dekker
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Frame Shift Drive Interdictor specialist based at Dekker's Yard in permit-locked Sol, reached through Juri Ishmaak.
+{{Article header|deck=A Frame Shift Drive Interdictor specialist based at Dekker's Yard in permit-locked Sol, reached through Juri Ishmaak.
 }}
 
 {{Engineer infobox}}

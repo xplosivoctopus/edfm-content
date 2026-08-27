@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Mining Multi Limpet Controller
 Namespace: 0
 Page ID: 533
-Revision ID: 1320
-Timestamp: 2026-08-20T23:59:58Z
+Revision ID: 2169
+Timestamp: 2026-08-24T23:44:34Z
 Source URL: https://edfieldmanual.com/wiki/Mining_Multi_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Mining Multi Limpet Controller ship module.
+{{Article header|deck=Structured stub page for the Mining Multi Limpet Controller ship module.
 }}
 
-{{Ship module infobox
- |name = Mining Multi Limpet Controller
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Jude Navarro
 Namespace: 0
 Page ID: 130
-Revision ID: 1474
-Timestamp: 2026-08-21T14:39:04Z
+Revision ID: 1946
+Timestamp: 2026-08-24T21:22:13Z
 Source URL: https://edfieldmanual.com/wiki/Jude_Navarro
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Odyssey Engineer
- |deck=A combat-oriented suit and weapon specialist based at Marshall's Drift in Aurai, and the starting point of the Terra Velasquez referral chain.
+{{Article header|deck=A combat-oriented suit and weapon specialist based at Marshall's Drift in Aurai, and the starting point of the Terra Velasquez referral chain.
 }}
 
 {{Engineer infobox}}

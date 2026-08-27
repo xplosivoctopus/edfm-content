@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Broo's Legacy
 Namespace: 0
 Page ID: 352
-Revision ID: 989
-Timestamp: 2026-08-20T01:37:38Z
+Revision ID: 1878
+Timestamp: 2026-08-24T21:20:36Z
 Source URL: https://edfieldmanual.com/wiki/Broo%27s_Legacy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=Broo Tarquin's Engineering workshop, a surface base on Muang 5 a.
+{{Article header|deck=Broo Tarquin's Engineering workshop, a surface base on Muang 5 a.
 }}
 
 {{Article status

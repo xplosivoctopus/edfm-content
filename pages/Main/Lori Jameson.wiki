@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Lori Jameson
 Namespace: 0
 Page ID: 123
-Revision ID: 1448
-Timestamp: 2026-08-21T14:38:44Z
+Revision ID: 1958
+Timestamp: 2026-08-24T21:22:30Z
 Source URL: https://edfieldmanual.com/wiki/Lori_Jameson
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 Sensors and Detailed Surface Scanner specialist based at Jameson Base in permit-locked Shinrarta Dezhra, reached through Marco Qwent.
+{{Article header|deck=A Grade 5 Sensors and Detailed Surface Scanner specialist based at Jameson Base in permit-locked Shinrarta Dezhra, reached through Marco Qwent.
 }}
 
 {{Engineer infobox}}

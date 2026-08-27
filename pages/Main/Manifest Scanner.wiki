@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Manifest Scanner
 Namespace: 0
 Page ID: 524
-Revision ID: 1311
-Timestamp: 2026-08-20T23:59:51Z
+Revision ID: 2164
+Timestamp: 2026-08-24T23:44:28Z
 Source URL: https://edfieldmanual.com/wiki/Manifest_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Manifest Scanner ship module.
+{{Article header|deck=Structured stub page for the Manifest Scanner ship module.
 }}
 
-{{Ship module infobox
- |name = Manifest Scanner
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

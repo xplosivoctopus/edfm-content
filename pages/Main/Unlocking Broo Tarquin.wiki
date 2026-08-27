@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Unlocking Broo Tarquin
 Namespace: 0
 Page ID: 178
-Revision ID: 1530
-Timestamp: 2026-08-21T14:42:12Z
+Revision ID: 2051
+Timestamp: 2026-08-24T21:24:37Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Broo_Tarquin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for reaching Broo Tarquin — for what he specialises in and his full blueprint list, see his own article.}}
+{{Article header|deck=The actionable checklist for reaching Broo Tarquin — for what he specialises in and his full blueprint list, see his own article.}}
 
 This guide covers only the steps to reach [[Broo Tarquin]]. For what he specialises in, his full blueprint catalogue, and his place in the wider Engineer network, see his own article here: [[Broo Tarquin]].
 

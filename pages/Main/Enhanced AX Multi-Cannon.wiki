@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Enhanced AX Multi-Cannon
 Namespace: 0
 Page ID: 481
-Revision ID: 1268
-Timestamp: 2026-08-20T23:59:20Z
+Revision ID: 2147
+Timestamp: 2026-08-24T23:44:07Z
 Source URL: https://edfieldmanual.com/wiki/Enhanced_AX_Multi-Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Enhanced AX Multi-Cannon ship module.
+{{Article header|deck=Structured stub page for the Enhanced AX Multi-Cannon ship module.
 }}
 
-{{Ship module infobox
- |name = Enhanced AX Multi-Cannon
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

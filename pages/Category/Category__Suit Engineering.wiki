@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Suit Engineering
+Namespace: 14
+Page ID: 697
+Revision ID: 1593
+Timestamp: 2026-08-23T18:43:05Z
+Source URL: https://edfieldmanual.com/wiki/Category:Suit_Engineering
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Hidden category}}
+
+Pages in this category cover Odyssey suit Engineering modifications, suit planning, and related equipment.
+
+[[Category:Odyssey Engineering]]

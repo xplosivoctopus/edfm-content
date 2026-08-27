@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Bill Turner
 Namespace: 0
 Page ID: 115
-Revision ID: 1442
-Timestamp: 2026-08-21T14:38:39Z
+Revision ID: 1876
+Timestamp: 2026-08-24T21:20:34Z
 Source URL: https://edfieldmanual.com/wiki/Bill_Turner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 Plasma Accelerator, Sensors, and Detailed Surface Scanner Engineer based at Turner Metallics Inc in permit-locked Alioth, reached through Selene Jean.
+{{Article header|deck=A Grade 5 Plasma Accelerator, Sensors, and Detailed Surface Scanner Engineer based at Turner Metallics Inc in permit-locked Alioth, reached through Selene Jean.
 }}
 
 {{Engineer infobox}}

@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Laksak
 Namespace: 0
 Page ID: 357
-Revision ID: 994
-Timestamp: 2026-08-20T01:37:41Z
+Revision ID: 1952
+Timestamp: 2026-08-24T21:22:21Z
 Source URL: https://edfieldmanual.com/wiki/Laksak
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=A Federation Core Systems world hosting Lei Cheung's workshop, Trader's Rest.
+{{Article header|deck=A Federation Core Systems world hosting Lei Cheung's workshop, Trader's Rest.
 }}
 
 {{Article status

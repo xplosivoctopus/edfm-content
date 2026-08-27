@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Wellington Beck
 Namespace: 0
 Page ID: 134
-Revision ID: 1482
-Timestamp: 2026-08-21T14:39:10Z
+Revision ID: 2082
+Timestamp: 2026-08-24T21:25:18Z
 Source URL: https://edfieldmanual.com/wiki/Wellington_Beck
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Odyssey Engineer
- |deck=A suit-utility and weapon specialist based at Beck Facility in Jolapa, reached through Hero Ferrari and leading to Uma Laszlo.
+{{Article header|deck=A suit-utility and weapon specialist based at Beck Facility in Jolapa, reached through Hero Ferrari and leading to Uma Laszlo.
 }}
 
 {{Engineer infobox}}

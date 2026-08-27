@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Hull Reinforcement Package
 Namespace: 0
 Page ID: 368
-Revision ID: 1005
-Timestamp: 2026-08-20T01:37:49Z
+Revision ID: 1944
+Timestamp: 2026-08-24T21:22:10Z
 Source URL: https://edfieldmanual.com/wiki/Hull_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Module
- |deck=The optional internal module that adds flat hull integrity on top of a ship's Bulkheads/Armour.
+{{Article header|deck=The optional internal module that adds flat hull integrity on top of a ship's Bulkheads/Armour.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}

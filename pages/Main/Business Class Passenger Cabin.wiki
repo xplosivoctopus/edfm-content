@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Business Class Passenger Cabin
 Namespace: 0
 Page ID: 456
-Revision ID: 1243
-Timestamp: 2026-08-20T23:59:02Z
+Revision ID: 2137
+Timestamp: 2026-08-24T23:43:54Z
 Source URL: https://edfieldmanual.com/wiki/Business_Class_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Business Class Passenger Cabin ship module.
+{{Article header|deck=Structured stub page for the Business Class Passenger Cabin ship module.
 }}
 
-{{Ship module infobox
- |name = Business Class Passenger Cabin
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

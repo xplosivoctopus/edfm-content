@@ -1,0 +1,18 @@
+<!--
+EDFM current-content archive export.
+Title: Emissive Munitions
+Namespace: 0
+Page ID: 677
+Revision ID: 1570
+Timestamp: 2026-08-23T18:40:01Z
+Source URL: https://edfieldmanual.com/wiki/Emissive_Munitions
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an experimental-effect reference for Emissive Munitions, including compatible weapons and tactical effects.}}
+
+'''Emissive Munitions''' is an Engineering experimental effect for weapons. This planned reference will document compatibility, combat use cases, and Engineer availability.
+
+[[Category:Experimental Effects]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

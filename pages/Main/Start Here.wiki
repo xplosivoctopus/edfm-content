@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Start Here
 Namespace: 0
 Page ID: 51
-Revision ID: 855
-Timestamp: 2026-08-16T04:08:51Z
+Revision ID: 2027
+Timestamp: 2026-08-24T21:24:04Z
 Source URL: https://edfieldmanual.com/wiki/Start_Here
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Start Here
- |deck=Not sure where to begin? Pick the path that best matches what you're trying to do.
+{{Article header|deck=Not sure where to begin? Pick the path that best matches what you're trying to do.
 }}
 
 '''Start Here''' is the orientation page for the Elite Dangerous Field Manual.

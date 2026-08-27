@@ -3,34 +3,34 @@ EDFM current-content archive export.
 Title: Pulse Wave Analyser
 Namespace: 0
 Page ID: 570
-Revision ID: 1357
-Timestamp: 2026-08-21T00:00:26Z
+Revision ID: 2185
+Timestamp: 2026-08-24T23:44:54Z
 Source URL: https://edfieldmanual.com/wiki/Pulse_Wave_Analyser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Pulse Wave Analyser ship module.
-}}
+__NOINDEX__
+{{Article header|deck=The pulse wave analyser highlights asteroids worth investigating for deposit mining.}}
 
-{{Ship module infobox
- |name = Pulse Wave Analyser
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Visual identification details and scanner performance still need direct Live-game verification.}}
+
+{{Ship module infobox}}
+
+The '''Pulse Wave Analyser''' is a mining scanner used to highlight asteroids that may be worth inspecting for core or deposit mining. It helps narrow the search, but a commander still has to inspect and prospect candidates before committing to extraction.
 
 {{Draft warning}}
 
-== Overview ==
+== Mining role ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{{#invoke:Mining|equipmentNote|page=Pulse Wave Analyser}}
 
+The analyser is most closely associated with [[Core Mining]], where commanders search for candidate core asteroids before confirming them with closer inspection and prospecting. It can also help with deposit-focused searches, but it does not replace a [[Prospector Limpet Controller]] or guarantee that the highlighted asteroid contains the desired commodity.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Pulse Wave Analyser}}
+
+{{Related articles|[[Core Mining]] [[Surface Deposit Mining]] [[Seismic Charge Launcher]] [[Abrasion Blaster]] [[How to Core Mine]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Mining]]

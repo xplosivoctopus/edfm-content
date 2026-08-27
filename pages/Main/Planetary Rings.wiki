@@ -1,0 +1,51 @@
+<!--
+EDFM current-content archive export.
+Title: Planetary Rings
+Namespace: 0
+Page ID: 727
+Revision ID: 1989
+Timestamp: 2026-08-24T21:23:14Z
+Source URL: https://edfieldmanual.com/wiki/Planetary_Rings
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Mining location draft grounded in EDFM Mining data modules and current ring-scanning workflow|uncertainty=Ring-type yield expectations and current commodity-specific recommendations still need direct Live-game verification.}}
+__NOINDEX__
+{{Article header|deck=Planetary rings are the primary environment for ship-based asteroid mining.}}
+
+'''Planetary rings''' are ring systems around planets and other bodies. In the Mining section, they matter because they contain asteroid fields, [[Mining Hotspot|mining hotspots]], resource extraction sites, and other locations where commanders can prospect and extract mined commodities.
+
+{{Draft warning}}
+
+== Mining role ==
+
+Most ship-based [[Mining|mining]] begins by choosing a ring. The commander may choose a ring because it has a mapped hotspot, a known reserve level, a nearby market route, or simply a safe place to learn the mechanics.
+
+A ring is only the environment. It does not remove the need to fit the correct equipment, carry limpets, prospect individual asteroids, manage the refinery, and verify sell prices.
+
+== Mapping rings ==
+
+A [[Detailed Surface Scanner]] can reveal mining hotspots in rings. Once a ring has been mapped, hotspot markers can be used as navigation targets for a mining run.
+
+The practical loop is:
+
+# travel to the ringed body;
+# map the ring with the Detailed Surface Scanner;
+# choose a hotspot or other target area;
+# drop into the ring at a safe speed and distance; and
+# begin prospecting asteroids for the chosen method.
+
+== Related mining concepts ==
+
+* [[Mining Hotspot]] — a mapped ring area associated with a named commodity.
+* [[Laser Mining]] — ordinary fragment extraction from suitable asteroids.
+* [[Core Mining]] — search-and-detonation mining for fissured asteroids.
+* [[Sub-surface Mining]] — timed extraction of internal deposits.
+* [[Surface Deposit Mining]] — removal of visible deposits with an abrasion blaster.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Planetary Rings}}
+
+{{Related articles|[[Mining]] [[Detailed Surface Scanner]] [[Mining Hotspot]] [[How to Scan Planetary Rings for Mining Hotspots]]}}
+[[Category:Mining]]

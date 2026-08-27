@@ -1,0 +1,55 @@
+<!--
+EDFM current-content archive export.
+Title: How to Resolve a Full Refinery
+Namespace: 0
+Page ID: 714
+Revision ID: 1681
+Timestamp: 2026-08-24T00:23:00Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Resolve_a_Full_Refinery
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current refinery and cargo-blocking workflow|uncertainty=Exact cockpit labels and unusual refinery edge cases still need final in-game verification.}}
+__NOINDEX__
+{{Field procedure|summary=Clear blocked refinery bins and cargo problems so mining can continue without losing valuable fragments unnecessarily.}}
+
+Use this procedure when the refinery stops accepting useful fragments, completed tonnes do not move into cargo, or collectors are working but mining progress has stalled.
+
+{{Draft warning}}
+
+== Before you start ==
+
+* Stop firing mining tools until the blockage is understood.
+* Keep the ship in a safe position away from asteroid surfaces.
+* Check whether the problem is refinery bins, cargo capacity, or the ignore list.
+
+== Procedure ==
+
+{{Procedure steps|
+# Open the refinery and cargo information for the ship.
+# Check whether the cargo hold has free space for a completed tonne.
+# If cargo is full, make space before expecting the refinery to finish more tonnes.
+# Review each refinery bin and identify unwanted partial resources.
+# Vent or clear low-priority bins that are blocking the resources the run is keeping.
+# If collectors keep refilling the same unwanted bins, use [[How to Ignore Unwanted Mining Commodities]].
+# Resume collection only after at least one useful refinery path is clear.
+}}
+
+== Completion check ==
+
+The procedure is complete when the refinery can accept useful fragments again and completed tonnes can transfer into cargo.
+
+== Common problems ==
+
+* '''Cargo is full:''' refinery bins cannot complete into cargo without space.
+* '''Every bin contains a different partial resource:''' clear the lowest-priority bins and consider using a refinery with more bins for mixed mining.
+* '''The same unwanted fragment keeps returning:''' ignore that commodity before continuing collection.
+* '''A valuable partial bin is present:''' do not vent it unless the run plan has changed or it blocks something more important.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Resolve a Full Refinery}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Resolve a Full Refinery}}
+
+[[Category:Mining]]

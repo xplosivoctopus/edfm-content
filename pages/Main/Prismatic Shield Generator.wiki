@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Prismatic Shield Generator
 Namespace: 0
 Page ID: 564
-Revision ID: 1351
-Timestamp: 2026-08-21T00:00:21Z
+Revision ID: 2182
+Timestamp: 2026-08-24T23:44:50Z
 Source URL: https://edfieldmanual.com/wiki/Prismatic_Shield_Generator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Prismatic Shield Generator ship module.
+{{Article header|deck=Structured stub page for the Prismatic Shield Generator ship module.
 }}
 
-{{Ship module infobox
- |name = Prismatic Shield Generator
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

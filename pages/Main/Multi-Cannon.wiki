@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Multi-Cannon
 Namespace: 0
 Page ID: 103
-Revision ID: 320
-Timestamp: 2026-08-07T22:25:12Z
+Revision ID: 1979
+Timestamp: 2026-08-24T21:22:57Z
 Source URL: https://edfieldmanual.com/wiki/Multi-Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Weapon|deck=To be added: a one-line summary of this weapon.}}
+{{Article header|deck=To be added: a one-line summary of this weapon.}}
 {{Article status|status=Draft|mode=Both}}
 
 {{Draft warning}}

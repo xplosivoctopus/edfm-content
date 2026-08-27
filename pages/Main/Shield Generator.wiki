@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Shield Generator
 Namespace: 0
 Page ID: 364
-Revision ID: 1001
-Timestamp: 2026-08-20T01:37:46Z
+Revision ID: 2019
+Timestamp: 2026-08-24T21:23:53Z
 Source URL: https://edfieldmanual.com/wiki/Shield_Generator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Module
- |deck=The core internal module that produces a ship's deflector shield.
+{{Article header|deck=The core internal module that produces a ship's deflector shield.
 }}
 
 {{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}

@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Juri Ishmaak
 Namespace: 0
 Page ID: 119
-Revision ID: 1454
-Timestamp: 2026-08-21T14:38:49Z
+Revision ID: 1947
+Timestamp: 2026-08-24T21:22:14Z
 Source URL: https://edfieldmanual.com/wiki/Juri_Ishmaak
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 mine, sensor, and explosive-weapon Engineer based at Pater's Memorial in Giryak, reached through Felicity Farseer.
+{{Article header|deck=A Grade 5 mine, sensor, and explosive-weapon Engineer based at Pater's Memorial in Giryak, reached through Felicity Farseer.
 }}
 
 {{Engineer infobox}}

@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Electronic Countermeasure
 Namespace: 828
 Page ID: 475
-Revision ID: 1262
-Timestamp: 2026-08-20T23:59:16Z
+Revision ID: 2270
+Timestamp: 2026-08-25T14:14:31Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Electronic_Countermeasure
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Electronic Countermeasure",
+	module_class = "Defensive utility",
+	slot_type = "Utility mount",
+	mount = "",
+	manufacturer = "",
+	availability = "",
+	engineering = "",
+	related_modules = "[[Chaff Launcher]], [[Point Defence Turret]], [[Heat Sink Launcher]]",
 }

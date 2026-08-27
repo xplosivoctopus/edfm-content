@@ -1,0 +1,18 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Planned article
+Namespace: 10
+Page ID: 663
+Revision ID: 1558
+Timestamp: 2026-08-23T17:53:09Z
+Source URL: https://edfieldmanual.com/wiki/Template:Planned_article
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<includeonly>{{#seo:noindex=yes}}<templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-panel edfm-panel-draft noexcerpt">Planned article: {{{1|This article is planned for future expansion.}}}</div>[[Category:Planned articles]]</includeonly><noinclude>
+== Usage ==
+<pre>{{Planned article|Short description of the intended article scope.}}</pre>
+
+Use this template for deliberate placeholder pages that are linked from existing EDFM content but are not yet substantive articles. It marks the page <code>noindex</code> through EDFM SEO metadata and places it in the hidden maintenance category for planned articles.
+[[Category:Templates]]
+</noinclude>

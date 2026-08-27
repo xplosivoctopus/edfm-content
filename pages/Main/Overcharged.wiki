@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Overcharged
 Namespace: 0
 Page ID: 101
-Revision ID: 174
-Timestamp: 2026-08-07T20:12:42Z
+Revision ID: 1983
+Timestamp: 2026-08-24T21:23:05Z
 Source URL: https://edfieldmanual.com/wiki/Overcharged
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Engineering Blueprint|deck=To be added: a one-line summary of what this blueprint changes.}}
+{{Article header|deck=To be added: a one-line summary of what this blueprint changes.}}
 {{Article status|status=Draft|mode=Both}}
 
 {{Draft warning}}

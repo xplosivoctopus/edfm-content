@@ -3,12 +3,13 @@ EDFM current-content archive export.
 Title: Exploration
 Namespace: 0
 Page ID: 181
-Revision ID: 919
-Timestamp: 2026-08-18T13:17:37Z
+Revision ID: 2101
+Timestamp: 2026-08-24T21:27:28Z
 Source URL: https://edfieldmanual.com/wiki/Exploration
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+{{Article header|deck=Index for long-range travel, scanning, and discovery content.}}
 {{Article status|status=Draft|mode=Both|noindex=yes}}
 
 Index for long-range travel, scanning, and discovery content — see [[:Category:Exploration]].

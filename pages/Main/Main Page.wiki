@@ -3,20 +3,28 @@ EDFM current-content archive export.
 Title: Main Page
 Namespace: 0
 Page ID: 1
-Revision ID: 932
-Timestamp: 2026-08-18T16:11:54Z
+Revision ID: 2338
+Timestamp: 2026-08-26T20:47:59Z
 Source URL: https://edfieldmanual.com/
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{DISPLAYTITLE:Elite Dangerous Field Manual}}{{SEO
  |title = Elite Dangerous Field Manual - Wiki, Guides & Reference
- |description = An independent, community-maintained Elite Dangerous wiki with practical guides, engineering references, and up-to-date information for commanders.
+ |description = An independent Elite Dangerous wiki with practical guides, detailed references, step-by-step procedures, and current information for all commanders.
 }}
+__NOTOC__
 <div class="edfm-home-hero">
 <div class="edfm-home-hero-kicker">Commander reference hub</div>
 <div class="edfm-home-hero-title">Elite Dangerous Field Manual</div>
 <div class="edfm-home-hero-text">Current answers, practical procedures, and reliable reference for ''Elite Dangerous'' commanders.</div>
+</div>
+
+<div class="edfm-home-jump" role="navigation" aria-label="Homepage sections">
+<div class="edfm-home-jump-item">[[#Start here|01 START HERE]]</div>
+<div class="edfm-home-jump-item">[[#Browse by topic|02 BROWSE BY TOPIC]]</div>
+<div class="edfm-home-jump-item">[[#News and updates|03 NEWS &amp; UPDATES]]</div>
+<div class="edfm-home-jump-item">[[#About EDFM|04 ABOUT EDFM]]</div>
 </div>
 
 == Start here ==
@@ -43,6 +51,30 @@ This is current wikitext only; no revision history, user database, logs, deleted
 </div>
 </div>
 
+== Field Procedures ==
+<div class="edfm-home-section-intro">Follow practical procedures for specific Elite Dangerous tasks: prepare the ship, work through the steps, check the result, and recover from common mistakes.</div>
+<div class="edfm-home-procedure-list">
+<div class="edfm-home-procedure-card edfm-home-procedure-card-primary">
+<div class="edfm-home-card-kicker">Field Procedure · Mining</div>
+<div class="edfm-home-procedure-title">[[How to Start Mining]]</div>
+<div class="edfm-home-procedure-text">A first mining run from outfitting through prospecting, extraction, refining, and selling cargo.</div>
+<div class="edfm-home-procedure-action">[[How to Start Mining|OPEN PROCEDURE →]]</div>
+</div>
+<div class="edfm-home-procedure-card">
+<div class="edfm-home-card-kicker">Field Procedure · Engineering</div>
+<div class="edfm-home-procedure-title">[[Unlocking Felicity Farseer]]</div>
+<div class="edfm-home-procedure-text">A commander-useful Engineering unlock checklist that opens early frame-shift-drive upgrade paths.</div>
+<div class="edfm-home-procedure-action">[[Unlocking Felicity Farseer|OPEN PROCEDURE →]]</div>
+</div>
+<div class="edfm-home-procedure-card">
+<div class="edfm-home-card-kicker">Field Procedure · Odyssey</div>
+<div class="edfm-home-procedure-title">[[Unlocking Hero Ferrari]]</div>
+<div class="edfm-home-procedure-text">An on-foot Engineering path through Odyssey conflict-zone activity and the Hero Ferrari workshop.</div>
+<div class="edfm-home-procedure-action">[[Unlocking Hero Ferrari|OPEN PROCEDURE →]]</div>
+</div>
+</div>
+<div class="edfm-home-section-link">[[Field Procedures|VIEW ALL FIELD PROCEDURES →]]</div>
+
 == Browse by topic ==
 <div class="edfm-home-grid edfm-home-grid-topics">
 <div class="edfm-home-card">
@@ -67,7 +99,15 @@ This is current wikitext only; no revision history, user database, logs, deleted
 </div>
 </div>
 
+== Latest from EDFM ==
+<div class="edfm-home-section-intro">Recent meaningful guide, procedure, reference, and archive updates from the field manual.</div>
+{{Homepage Recent Updates}}
+
 == News and updates ==
+=== GALNET // LATEST TRANSMISSIONS ===
+{{GalNet Latest}}
+
+=== FRONTIER DEVELOPMENTS ===
 {{Frontier News}}
 
 == About EDFM ==

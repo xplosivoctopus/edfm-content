@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Unlocking Oden Geiger
 Namespace: 0
 Page ID: 654
-Revision ID: 1517
-Timestamp: 2026-08-21T14:41:06Z
+Revision ID: 2069
+Timestamp: 2026-08-24T21:25:00Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Oden_Geiger
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|eyebrow=EDFM // Field Procedure|deck=The actionable checklist for gaining access to Oden Geiger — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
+{{Article header|deck=The actionable checklist for gaining access to Oden Geiger — for location, capabilities, blueprints, and other reference details, see the Engineer article.}}
 
 This Field Procedure covers only the steps to unlock [[Oden Geiger]]. For the Engineer's location, specialties, available blueprints, experimental effects, and reference details, see [[Oden Geiger]].
 

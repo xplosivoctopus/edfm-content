@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Tod "The Blaster" McQuinn
 Namespace: 0
 Page ID: 113
-Revision ID: 1428
-Timestamp: 2026-08-21T14:38:28Z
+Revision ID: 2042
+Timestamp: 2026-08-24T21:24:25Z
 Source URL: https://edfieldmanual.com/wiki/Tod_%22The_Blaster%22_McQuinn
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=An independent starting Engineer based at Trophy Camp in Wolf 397, providing Grade 5 Multi-Cannon and Rail Gun engineering.
+{{Article header|deck=An independent starting Engineer based at Trophy Camp in Wolf 397, providing Grade 5 Multi-Cannon and Rail Gun engineering.
 }}
 
 {{Engineer infobox}}

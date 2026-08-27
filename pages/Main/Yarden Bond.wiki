@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Yarden Bond
 Namespace: 0
 Page ID: 137
-Revision ID: 1480
-Timestamp: 2026-08-21T14:39:09Z
+Revision ID: 2086
+Timestamp: 2026-08-24T21:25:23Z
 Source URL: https://edfieldmanual.com/wiki/Yarden_Bond
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Odyssey Engineer
- |deck=A mobility, weapon-handling, and stealth specialist based at Salamander Bank in Bayan, reached through Kit Fowler.
+{{Article header|deck=A mobility, weapon-handling, and stealth specialist based at Salamander Bank in Bayan, reached through Kit Fowler.
 }}
 
 {{Engineer infobox}}

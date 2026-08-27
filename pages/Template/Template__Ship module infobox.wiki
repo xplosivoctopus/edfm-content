@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Ship module infobox
 Namespace: 10
 Page ID: 432
-Revision ID: 1219
-Timestamp: 2026-08-20T23:58:45Z
+Revision ID: 2211
+Timestamp: 2026-08-24T23:47:19Z
 Source URL: https://edfieldmanual.com/wiki/Template:Ship_module_infobox
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,25 +13,18 @@ This is current wikitext only; no revision history, user database, logs, deleted
 == Usage ==
 Infobox for ship module articles.
 
-The template is wired to structured stub data in [[Module:Data/ShipModules]].
+The template is wired to structured stub data in [[Module:Data/ShipModules/index|Module:Data/ShipModules/index]].
 Article-level parameters can override structured defaults later, once facts are
 ready to be filled.
 
-<pre>
-{{Ship module infobox
- |name = Beam Laser
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
-</pre>
+Normal article usage should be the same data-backed pattern used by Engineer pages:
 
-Empty parameters are hidden automatically.
+<pre>{{Ship module infobox}}</pre>
+
+The template automatically uses the current page title and structured defaults from
+<code>Module:Data/ShipModules/&lt;Page name&gt;</code>. Article-level parameters remain
+available as an escape hatch, but should not be left as empty manual boilerplate on
+module articles.
 
 [[Category:Templates]]
 </noinclude>

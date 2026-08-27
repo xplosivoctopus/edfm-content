@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Trader's Rest
 Namespace: 0
 Page ID: 358
-Revision ID: 995
-Timestamp: 2026-08-20T01:37:42Z
+Revision ID: 2045
+Timestamp: 2026-08-24T21:24:29Z
 Source URL: https://edfieldmanual.com/wiki/Trader%27s_Rest
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Location
- |deck=Lei Cheung's Engineering workshop, a surface base on Laksak A 1.
+{{Article header|deck=Lei Cheung's Engineering workshop, a surface base on Laksak A 1.
 }}
 
 {{Article status

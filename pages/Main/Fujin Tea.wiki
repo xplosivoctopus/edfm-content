@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Fujin Tea
 Namespace: 0
 Page ID: 393
-Revision ID: 1030
-Timestamp: 2026-08-20T01:40:06Z
+Revision ID: 1931
+Timestamp: 2026-08-24T21:21:49Z
 Source URL: https://edfieldmanual.com/wiki/Fujin_Tea
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Rare Commodity
- |deck=A Food rare commodity produced at Futen Spaceport in Fujin, and Broo Tarquin's unlock requirement.
+{{Article header|deck=A Food rare commodity produced at Futen Spaceport in Fujin, and Broo Tarquin's unlock requirement.
 }}
 
 {{Article status

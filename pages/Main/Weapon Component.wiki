@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Weapon Component
+Namespace: 0
+Page ID: 687
+Revision ID: 1580
+Timestamp: 2026-08-23T18:40:07Z
+Source URL: https://edfieldmanual.com/wiki/Weapon_Component
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an Odyssey material reference for Weapon Components, including usage and sourcing notes once source-backed details are added.}}
+
+'''Weapon Component''' is an Odyssey material. This planned reference will document upgrade and modification uses, sourcing context, and related material-planning notes.
+
+[[Category:Engineering Materials]]
+[[Category:Odyssey Engineering]]

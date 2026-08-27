@@ -1,0 +1,56 @@
+<!--
+EDFM current-content archive export.
+Title: How to Use Collector Limpets
+Namespace: 0
+Page ID: 711
+Revision ID: 1679
+Timestamp: 2026-08-24T00:22:59Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Use_Collector_Limpets
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current collector limpet mining workflow and EDFM Mining metadata|uncertainty=Exact limpet lifetime and controller variant statistics are left to module reference data.}}
+__NOINDEX__
+{{Field procedure|summary=Deploy collector limpets efficiently and avoid common mistakes that destroy limpets or slow collection.}}
+
+Use this procedure when fragments, chunks, cargo, or materials are floating near the ship and a [[Collector Limpet Controller]] is fitted.
+
+{{Draft warning}}
+
+== Before you start ==
+
+* Fit and power a [[Collector Limpet Controller]].
+* Carry limpets in cargo.
+* Make sure the cargo hatch can open and the ship has room for what collectors bring back.
+* Position the ship so limpets do not have to fly through asteroid surfaces or other obstacles.
+
+== Procedure ==
+
+{{Procedure steps|
+# Stop targeting individual fragments unless you deliberately want a single-use pickup.
+# Open the cargo hatch if it is not already open.
+# Launch collector limpets after useful fragments or chunks are available.
+# Keep the ship steady and close enough that collectors have a short, clear path.
+# Continue extraction while collectors return items to the ship and refinery.
+# Watch the refinery and cargo hold so collectors do not waste time on blocked or unwanted fragments.
+# Move carefully when repositioning; give active limpets space to follow without hitting rock.
+}}
+
+== Completion check ==
+
+The procedure is complete when useful fragments have been collected and are either processed by the [[Refinery]] or stored as cargo or materials.
+
+== Common problems ==
+
+* '''A collector dies after one pickup:''' the ship probably had a fragment or cargo canister targeted when the limpet launched.
+* '''Collectors keep dying:''' move farther from asteroid surfaces and avoid dragging limpets through rock.
+* '''Collectors bring unwanted fragments:''' use [[How to Ignore Unwanted Mining Commodities]] and clear unnecessary refinery bins.
+* '''Collectors stop working:''' check cargo space, refinery space, cargo hatch status, controller power, and remaining limpets.
+
+== Related Reference Pages ==
+{{#invoke:Procedures|referenceLinks|procedure=How to Use Collector Limpets}}
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Use Collector Limpets}}
+
+[[Category:Mining]]

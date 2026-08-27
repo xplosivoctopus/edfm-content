@@ -3,28 +3,16 @@ EDFM current-content archive export.
 Title: Cytoscrambler
 Namespace: 0
 Page ID: 467
-Revision ID: 1254
-Timestamp: 2026-08-20T23:59:10Z
+Revision ID: 2141
+Timestamp: 2026-08-24T23:43:59Z
 Source URL: https://edfieldmanual.com/wiki/Cytoscrambler
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Ship Module
- |deck=Structured stub page for the Cytoscrambler ship module.
+{{Article header|deck=Structured stub page for the Cytoscrambler ship module.
 }}
 
-{{Ship module infobox
- |name = Cytoscrambler
- |image =
- |module_class =
- |slot_type =
- |mount =
- |manufacturer =
- |availability =
- |engineering =
- |related_modules =
-}}
+{{Ship module infobox}}
 
 {{Draft warning}}
 

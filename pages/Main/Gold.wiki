@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Gold
 Namespace: 0
 Page ID: 395
-Revision ID: 1032
-Timestamp: 2026-08-20T01:40:08Z
+Revision ID: 1932
+Timestamp: 2026-08-24T21:21:51Z
 Source URL: https://edfieldmanual.com/wiki/Gold
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Commodity
- |deck=A Metals commodity produced by Extraction and Refinery economies, and Lei Cheung's unlock requirement.
+{{Article header|deck=A Metals commodity produced by Extraction and Refinery economies, and Lei Cheung's unlock requirement.
 }}
 
 {{Article status

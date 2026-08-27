@@ -1,0 +1,17 @@
+<!--
+EDFM current-content archive export.
+Title: Night Vision
+Namespace: 0
+Page ID: 682
+Revision ID: 1575
+Timestamp: 2026-08-23T18:40:04Z
+Source URL: https://edfieldmanual.com/wiki/Night_Vision
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Planned article|an Odyssey suit modification reference for Night Vision and low-light on-foot operations.}}
+
+'''Night Vision''' is an Odyssey Engineering modification. This planned reference will cover compatible equipment, tactical use, and planning considerations for dark settlements and surface sites.
+
+[[Category:Odyssey Engineering]]
+[[Category:Odyssey]]

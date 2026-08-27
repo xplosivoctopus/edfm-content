@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: Didi Vatermann
 Namespace: 0
 Page ID: 116
-Revision ID: 1452
-Timestamp: 2026-08-21T14:38:47Z
+Revision ID: 1898
+Timestamp: 2026-08-24T21:21:03Z
 Source URL: https://edfieldmanual.com/wiki/Didi_Vatermann
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=A Grade 5 Shield Booster specialist based at Vatermann LLC in Leesti, reached through Selene Jean.
+{{Article header|deck=A Grade 5 Shield Booster specialist based at Vatermann LLC in Leesti, reached through Selene Jean.
 }}
 
 {{Engineer infobox}}

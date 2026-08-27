@@ -3,15 +3,13 @@ EDFM current-content archive export.
 Title: The Dweller
 Namespace: 0
 Page ID: 111
-Revision ID: 1426
-Timestamp: 2026-08-21T14:38:27Z
+Revision ID: 2036
+Timestamp: 2026-08-24T21:24:17Z
 Source URL: https://edfieldmanual.com/wiki/The_Dweller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header
- |eyebrow=EDFM // Engineer
- |deck=An independent starting Engineer based at Black Hide in Wyrd, providing Grade 5 Power Distributor engineering and modifications for beam, burst, and pulse lasers.
+{{Article header|deck=An independent starting Engineer based at Black Hide in Wyrd, providing Grade 5 Power Distributor engineering and modifications for beam, burst, and pulse lasers.
 }}
 
 {{Engineer infobox}}

@@ -3,44 +3,42 @@ EDFM current-content archive export.
 Title: Template:Article header
 Namespace: 10
 Page ID: 73
-Revision ID: 965
-Timestamp: 2026-08-19T22:24:16Z
+Revision ID: 2122
+Timestamp: 2026-08-24T21:58:12Z
 Source URL: https://edfieldmanual.com/wiki/Template:Article_header
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-<p class="edfm-eyebrow noexcerpt">{{{eyebrow|{{{1|}}}}}}</p>{{#if:{{{deck|}}}|<p class="edfm-deck">{{{deck|}}}</p>}}<noinclude>
+<p class="edfm-eyebrow noexcerpt">EDFM // {{#invoke:PageContext|renderEyebrowBody|page={{{page|}}}|section={{{section|}}}|topic={{{topic|}}}|context={{{context|}}}|secondaryContext={{{secondaryContext|}}}|type={{{type|}}}|contentType={{{contentType|}}}}}</p>{{#if:{{{deck|}}}|<p class="edfm-deck">{{{deck|}}}</p>}}<noinclude>
 == Usage ==
-Optional. Adds a small category "eyebrow" label above the page's real
-title, and/or a muted one-line description ("deck") directly under it —
-see the redesign brief's Article header mockup:
+Adds the EDFM context eyebrow and/or a muted one-line description ("deck") near the article title.
 
-<pre>
-EDFM // COMMANDER REFERENCE
+Normal pages should not provide an eyebrow manually. [[Module:PageContext]] resolves three separate semantic dimensions:
 
-TOOLS & RESOURCES
+* primary topic/section, such as <code>Engineering</code>, <code>Mining</code>, or <code>Ships & Equipment</code>;
+* optional secondary context, such as <code>Ships</code>, <code>Modules</code>, <code>Weapons</code>, or <code>Engineers</code>;
+* optional content type, currently used for meaningful types such as <code>Field Procedures</code>.
 
-Community tools, applications and services commonly used by commanders.
-</pre>
-
-Placement in the wikitext doesn't matter (top of the article is
-conventional) — a small script in [[MediaWiki:Common.js]] moves the
-eyebrow line to sit visually above [[MediaWiki:Common.css|#firstHeading]]
-on page load. The real page title stays the genuine, semantic H1 the whole
-time; this only adds text before/after it, it never replaces it. If a
-reader has JavaScript disabled, the eyebrow still renders — directly under
-the title instead of above it — so nothing is lost, only the exact
-placement changes.
+The visible eyebrow intentionally stays compact: <code>EDFM //</code> plain text followed by a linked primary section and, at most, one second segment. Content type takes display priority over ordinary secondary context.
 
 <pre>
 {{Article header
- |eyebrow=EDFM // Commander Reference
  |deck=Optional one-line description shown under the title.
 }}
 </pre>
 
-Both parameters are optional; using just <code>eyebrow=</code> or just
-<code>deck=</code> is fine.
+Use <code>section=</code>, <code>context=</code>, and/or <code>type=</code> only for genuine exceptions that cannot be resolved from structured data or central rules:
+
+<pre>
+{{Article header
+ |section=Engineering
+ |context=Engineers
+ |type=Field Procedures
+ |deck=Optional one-line description shown under the title.
+}}
+</pre>
+
+The rendered eyebrow is presentation text such as <code>EDFM // [[Engineering]] / [[Field Procedures]]</code>. The real page title remains the semantic H1. [[MediaWiki:Common.js]] moves the eyebrow above the H1 visually when JavaScript is available; without JavaScript it remains in article content below the H1.
 
 [[Category:Templates]]
 </noinclude>
