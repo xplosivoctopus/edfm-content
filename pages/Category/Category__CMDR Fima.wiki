@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:CMDR Fima
+Namespace: 14
+Page ID: 768
+Revision ID: 2634
+Timestamp: 2026-08-29T23:33:57Z
+Source URL: https://edfieldmanual.com/wiki/Category:CMDR_Fima
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+This category contains pages about '''CMDR Fima''', the Discord bot operated as part of the ''Elite Dangerous Field Manual'' project.
+
+[[Category:Elite Dangerous Field Manual]]

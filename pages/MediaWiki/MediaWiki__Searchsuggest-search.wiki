@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: MediaWiki:Searchsuggest-search
+Namespace: 8
+Page ID: 791
+Revision ID: 2978
+Timestamp: 2026-09-02T21:29:54Z
+Source URL: https://edfieldmanual.com/wiki/MediaWiki:Searchsuggest-search
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Search EDFM

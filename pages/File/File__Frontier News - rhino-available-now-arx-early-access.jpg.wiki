@@ -1,0 +1,13 @@
+<!--
+EDFM current-content archive export.
+Title: File:Frontier News - rhino-available-now-arx-early-access.jpg
+Namespace: 6
+Page ID: 801
+Revision ID: 3069
+Timestamp: 2026-09-03T09:17:04Z
+Source URL: https://edfieldmanual.com/wiki/File:Frontier_News_-_rhino-available-now-arx-early-access.jpg
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Frontier Developments article preview image for the auto-updating news module.

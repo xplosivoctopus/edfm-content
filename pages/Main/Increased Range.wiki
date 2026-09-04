@@ -1,0 +1,47 @@
+<!--
+EDFM current-content archive export.
+Title: Increased Range
+Namespace: 0
+Page ID: 786
+Revision ID: 2930
+Timestamp: 2026-09-02T14:14:25Z
+Source URL: https://edfieldmanual.com/wiki/Increased_Range
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Increased Range is an Engineering Blueprint for Frame Shift Drives that increases optimized mass, generally improving maximum jump range at the cost of higher module mass and power draw plus lower integrity.}}
+{{Article status|status=Partially verified|mode=Live|source_quality=Structured values are generated from EDFM Engineering data cross-checked against EDSY live data and INARA current listings.|notes=Practical-use sections are intentionally concise and can be expanded with field-tested examples.}}
+
+Increased Range is an Engineering Blueprint for Frame Shift Drives that increases optimized mass, generally improving maximum jump range at the cost of higher module mass and power draw plus lower integrity.
+
+{{#invoke:EngineeringBlueprints|infobox|fsd_increased_range}}
+
+== What It Does ==
+Increased Range is the main range-focused Frame Shift Drive Blueprint. Optimized mass affects how efficiently the drive moves the ship; increasing it generally improves jump range.
+
+== Tradeoffs ==
+See the generated grade table for exact modifiers. This article can benefit from additional build-specific examples and field-tested use cases.
+
+== Grades ==
+{{#invoke:EngineeringBlueprints|gradeTable|fsd_increased_range}}
+
+== Engineering Materials ==
+{{#invoke:EngineeringBlueprints|materialsTable|fsd_increased_range}}
+
+== Available Engineers ==
+{{#invoke:EngineeringBlueprints|engineers|fsd_increased_range}}
+
+== Compatible Experimental Effects ==
+{{#invoke:EngineeringBlueprints|experimentalEffects|fsd_increased_range}}
+
+== Usage ==
+Additional Commander-tested examples, ship builds, and edge cases are welcome here.
+
+== Related ==
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Frame Shift Drive]] [[Experimental Effects]]}}
+
+{{Engineering nav}}
+
+[[Category:Engineering Blueprints]]
+[[Category:Frame Shift Drive Blueprints]]
+[[Category:Engineering]]

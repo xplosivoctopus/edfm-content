@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Privacy Policy
 Namespace: 4
 Page ID: 47
-Revision ID: 1417
-Timestamp: 2026-08-21T13:56:42Z
+Revision ID: 2828
+Timestamp: 2026-09-01T12:48:39Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Privacy_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -17,6 +17,7 @@ How EDFM handles visitor and contributor data. This page is intended to describe
 * EDFM uses Google Analytics 4 on ordinary public pages, only after optional site-improvement cookies are accepted, to understand anonymous/pseudonymous site usage, traffic sources, navigation, search, scroll, outbound-click, download, and public-content engagement trends.
 * EDFM does not use Google Analytics as an account/user tracking system and does not intentionally send EDFM usernames, CMDR names, Frontier identifiers, email addresses, account IDs, authentication tokens, or equivalent user-linked identifiers to Google Analytics.
 * Anonymous reading normally does not require a persistent EDFM account cookie, though Google Analytics may use its own analytics cookies where analytics is allowed and consented.
+* EDFM offers optional third-party sign-in/linking through Frontier and Discord; those providers process their own login pages under their own policies.
 * Account, editing, upload, anti-abuse, security, analytics, and optional site-improvement features do involve limited data collection as described below.
 
 {{EDFM policy commitments}}
@@ -95,6 +96,15 @@ EDFM does not currently store Frontier refresh tokens for CAPI sync. If EDFM lat
 
 If EDFM later changes Frontier/CAPI use beyond login/linking and the optional Commander-name verification described here, this policy and the cookie/data audit should be updated before or alongside that change.
 
+== Discord sign-in ==
+EDFM also supports Discord sign-in/linking as an optional alternative account provider. If a visitor chooses '''Sign in with Discord''', EDFM sends the visitor to Discord's OAuth/OpenID Connect authorization page and then Discord returns the visitor to EDFM's PluggableAuth callback. Discord's own privacy policy, cookies, login security, and account controls apply while the visitor is on Discord-controlled pages.
+
+EDFM's current Discord login requests the OpenID/OAuth scopes <code>openid</code>, <code>identify</code>, and <code>email</code>. Depending on what Discord returns and what the account-linking flow needs, EDFM may receive or process Discord account information such as a stable Discord/OpenID subject or user ID, issuer/provider information, username or display-name-style profile fields, avatar/profile metadata supplied by Discord, and email address if Discord provides it under the authorized scope.
+
+For account linking, the OpenID Connect extension stores the provider subject and issuer linked to the local EDFM user account. MediaWiki may also store the email address on the EDFM account if an email address is provided and accepted by the login/linking flow. EDFM uses Discord identity information only to create, sign in to, or link the EDFM account and for account support/security related to that link. EDFM does not intentionally make Discord IDs, OAuth codes, access tokens, refresh tokens, or Discord email addresses public, and Discord login/callback pages are excluded from Google Analytics regardless of cookie consent.
+
+Users can disconnect or change linked account providers through the available account/preferences provider controls where enabled, or by contacting EDFM support. Records already present in logs, page histories, public contributions, security records, or backups may remain for the retention and integrity reasons described elsewhere in this policy.
+
 == Cookies and local storage ==
 See [[Elite Dangerous Field Manual:Cookie Policy]] for the cookie categories, current cookies, Analytics cookies, and consent controls. Necessary cookies are always on; the optional Analytics category can be changed later through Cookie Preferences.
 
@@ -102,7 +112,7 @@ See [[Elite Dangerous Field Manual:Cookie Policy]] for the cookie categories, cu
 EDFM takes a full backup (database, uploaded files, and site configuration) once daily. Backups are retained for the last 7 daily backups plus one older snapshot from each of the preceding 4 weeks, then are automatically deleted &mdash; backups are not kept indefinitely. Backup archives are stored on the same server with access restricted to server administrators; they are not published, shared, or sent to a third party. An offsite/secondary-location backup copy is not currently configured. Data removed from the live site (for example, as part of an account-removal request) may still exist in an already-taken backup until that specific backup ages out under this retention schedule.
 
 == Third parties ==
-EDFM may link to external websites such as Frontier, Creative Commons, MediaWiki, community tools, and source references. Visiting external links is governed by those sites' own policies. Eligible public pages may also load Google Analytics from Google as described above.
+EDFM may link to external websites such as Frontier, Discord, Creative Commons, MediaWiki, community tools, and source references. Visiting external links is governed by those sites' own policies. If you choose a third-party sign-in provider, your browser is sent to that provider for authorization and then returned to EDFM. Eligible public pages may also load Google Analytics from Google as described above.
 
 == Contact ==
 For privacy questions or data requests, contact: <code>contact@edfieldmanual.com</code>.

@@ -23,8 +23,8 @@ This archive intentionally does **not** include:
 
 ## Export details
 
-- Exported at UTC: `August 27, 2026 at 20:41:33 UTC`
-- Page count: `712`
+- Exported at UTC: `September 4, 2026 at 12:16:15 UTC`
+- Page count: `772`
 - Format: current MediaWiki wikitext, one page per `.wiki` file
 
 ## Continuity and import docs

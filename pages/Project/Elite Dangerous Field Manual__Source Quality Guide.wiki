@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Source Quality Guide
 Namespace: 4
 Page ID: 206
-Revision ID: 301
-Timestamp: 2026-08-07T22:15:52Z
+Revision ID: 2943
+Timestamp: 2026-09-02T14:43:20Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Source_Quality_Guide
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -24,6 +24,7 @@ How to judge and record source quality on EDFM — used to fill in {{tl|Article 
 == What this project will not do ==
 * Fabricate plausible-sounding numbers to fill a gap. An honestly marked gap is more useful than a confident-sounding guess.
 * Treat a single unverified forum post as equivalent to a reproduced test.
+* Treat an AI model, chatbot, generated answer, or AI-produced summary as a source or verification tier.
 * Import facts, images, or text from Fandom or other wikis, even with attribution — see [[Elite Dangerous Field Manual:Legal and Trademark Notice]].
 
 {{Related articles|[[Elite Dangerous Field Manual:Verification Policy]] [[Elite Dangerous Field Manual:Editorial Policy]] [[Elite Dangerous Field Manual:Citing Sources]]}}

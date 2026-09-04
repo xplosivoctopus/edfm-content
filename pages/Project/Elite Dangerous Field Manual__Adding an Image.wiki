@@ -3,10 +3,53 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Adding an Image
 Namespace: 4
 Page ID: 210
-Revision ID: 1539
-Timestamp: 2026-08-22T02:38:10Z
+Revision ID: 2910
+Timestamp: 2026-09-02T13:50:21Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Adding_an_Image
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+How to add a screenshot or original image to an EDFM article.
 
+== Current access ==
+Uploads are enabled for all registered accounts (PNG/JPEG/WebP, up to 30&nbsp;MB — see [[Elite Dangerous Field Manual:Screenshot Policy]] for the full rules). Create an account (see [[Special:CreateAccount]]) and use [[Special:Upload]] directly.
+
+== Before uploading ==
+Read [[Elite Dangerous Field Manual:Image Use Policy]] in full — in short: only your own original screenshots or diagrams (nothing copied from Fandom, Reddit, Discord, YouTube, other wikis, or "found on Google"), no third-party UI overlays or other players' identifying information without consent, and no synthetic or reconstructed images presented as real captures.
+
+== Uploading an image ==
+Go to <code>Special:Upload</code>. EDFM's upload form asks for what it can't safely work out on its own, and generates the rest of the file page automatically:
+
+# '''Choose the file.'''
+# '''Destination filename''' — a clear, descriptive name (it becomes the page title in the File namespace).
+# '''Media purpose''' — what kind of image this is: Engineer portrait, character portrait, ship image, module/equipment image, station/settlement/planet/system image, UI screenshot, gameplay screenshot, diagram/infographic, EDFM-created graphic, or other. This drives the description and categories EDFM generates below.
+# '''Subject''' — the EDFM article this image is of, typed as plain text (e.g. <code>Hero Ferrari</code>, not <code><nowiki>[[Hero Ferrari]]</nowiki></code>) — start typing and existing page titles will autocomplete. Required for media purposes that have an obvious subject (a portrait, a ship, a specific location); optional for general gameplay screenshots, UI screenshots, and diagrams. If the subject doesn't yet have an EDFM article, it's still recorded, just as plain text rather than a link.
+# '''Subject type override''' — optional, and normally not needed. For an Engineer portrait, EDFM automatically works out "Ship Engineer" vs "Odyssey Engineer" from the subject's own article (its Engineering-type category) — only use this field if that inference is wrong or the subject's article doesn't exist yet.
+# '''Licensing''' — for an ordinary gameplay screenshot this is almost always "Elite Dangerous in-game screenshot." See the guidance on the upload page itself, or [[Elite Dangerous Field Manual:Image Use Policy]], for the other options. Your choice here also determines the <code>source</code>, <code>media_type</code>, and (where the license makes it clear) <code>copyright_holder</code> fields below — you don't need to re-enter information the license already establishes.
+# '''Image modifications''' — optional. Only state something here if you actually know the file has been altered (e.g. "Cropped to portrait framing"); leave it blank rather than guess.
+# '''Additional notes''' — optional freeform field for anything else worth recording.
+
+On submission, EDFM builds the file page's <code>== Summary ==</code> section automatically, using {{tl|EDFM image information}}:
+* '''description''' — a short factual sentence built from the media purpose and subject (e.g. "In-game portrait of [[Hero Ferrari]], an Odyssey Engineer.").
+* '''subject''' / '''subject_type''' — the article you named, linked if it exists, plus its inferred or overridden type.
+* '''source''' / '''media_type''' / '''copyright_holder''' — derived from your Licensing choice (e.g. "Elite Dangerous, captured in-game" / "In-game screenshot" / "Frontier Developments plc" for an ordinary screenshot). For original work you made yourself, copyright is attributed to you as the creator, not to EDFM.
+* '''captured_by''' — your account name, filled in automatically; you never need to type your own name.
+* '''capture_date''' — included '''only''' if the uploaded file's own metadata contains a genuine capture date. EDFM never substitutes the upload date, and never guesses.
+* '''modifications''' / '''notes''' — only included if you actually filled those optional fields in.
+* '''intended_use''' — a short standard sentence built from the media purpose and subject (e.g. "Identification and illustration on the [[Hero Ferrari]] article and related Engineering pages.").
+
+The relevant categories (for example [[:Category:Engineer images]] and [[:Category:Odyssey Engineer images]]) and the <code>== Licensing ==</code> section (from your Licensing choice, e.g. {{tl|License-ED screenshot}}) are added automatically as well.
+
+You should not need to write or edit <code>{{tl|EDFM image information}}</code> syntax by hand for a normal upload. If something EDFM generated needs correcting, or you want to add detail beyond what the form covers, you can always edit the file page afterwards like any other page on this wiki — see [[#Advanced: editing a file page directly|below]].
+
+'''Uploading a new version of an existing file''' (replacing the image itself) does not regenerate or overwrite the existing file page's description — your original metadata is left exactly as it was.
+
+Once uploaded, reference the image on the article as <code><nowiki>[[File:Name.png|thumb|caption]]</nowiki></code>, or pass it as <code>|image=Name.png</code> to an infobox that supports one (e.g. {{tl|Engineer infobox}}).
+
+== Advanced: editing a file page directly ==
+File pages are ordinary wiki pages. An experienced editor can open a file page and edit its {{tl|EDFM image information}} fields directly at any time — for example to add a <code>capture_date</code> EDFM couldn't detect, correct a <code>subject_type</code>, or expand on <code>notes</code>. See {{tl|EDFM image information}}'s own documentation for the full field list.
+
+== Captioning ==
+Use {{tl|Screenshot caption}} for the visible caption text under the image on the article page, so credit/context is shown consistently rather than as plain prose. This is separate from {{tl|EDFM image information}} on the file page itself — see [[Elite Dangerous Field Manual:Screenshot Policy]] for the distinction.
+
+{{Related articles|[[Elite Dangerous Field Manual:Image Use Policy]] [[Elite Dangerous Field Manual:Screenshot Policy]] [[Elite Dangerous Field Manual:Contributing]]}}

@@ -1,0 +1,13 @@
+<!--
+EDFM current-content archive export.
+Title: File:Frontier News - elite-dangerous-august-dev-log-2026.jpg
+Namespace: 6
+Page ID: 739
+Revision ID: 2454
+Timestamp: 2026-08-28T09:17:05Z
+Source URL: https://edfieldmanual.com/wiki/File:Frontier_News_-_elite-dangerous-august-dev-log-2026.jpg
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Frontier Developments article preview image for the auto-updating news module.

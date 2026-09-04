@@ -1,0 +1,37 @@
+<!--
+EDFM current-content archive export.
+Title: Mass Manager
+Namespace: 0
+Page ID: 789
+Revision ID: 2933
+Timestamp: 2026-09-02T14:14:29Z
+Source URL: https://edfieldmanual.com/wiki/Mass_Manager
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Mass Manager is an Experimental Effect for Frame Shift Drives that increases optimized mass while reducing FSD integrity.}}
+{{Article status|status=Partially verified|mode=Live|source_quality=Structured values are generated from EDFM Engineering data cross-checked against EDSY live data and INARA current listings.|notes=Practical-use sections are intentionally concise and can be expanded with field-tested examples.}}
+
+Mass Manager is an Experimental Effect for Frame Shift Drives that increases optimized mass while reducing FSD integrity.
+
+{{#invoke:ExperimentalEffects|infobox|fsd_mass_manager}}
+
+== What It Does ==
+Mass Manager improves the drive parameter most directly associated with jump range. It is commonly considered on larger Frame Shift Drives when maximum range is the priority.
+
+== Mechanical Behavior ==
+{{#invoke:ExperimentalEffects|effectsTable|fsd_mass_manager}}
+
+== Compatible Blueprints ==
+{{#invoke:ExperimentalEffects|compatibleBlueprints|fsd_mass_manager}}
+
+== Common Uses ==
+Additional Commander-tested examples, ship builds, and edge cases are welcome here.
+
+== Related ==
+{{Related articles|[[Engineering]] [[Experimental Effects]] [[Frame Shift Drive]] [[Engineering Blueprints]]}}
+
+{{Engineering nav}}
+
+[[Category:Experimental Effects]]
+[[Category:Engineering]]

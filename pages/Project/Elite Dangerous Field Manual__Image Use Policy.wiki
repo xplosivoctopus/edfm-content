@@ -3,10 +3,230 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Image Use Policy
 Namespace: 4
 Page ID: 238
-Revision ID: 1536
-Timestamp: 2026-08-22T02:37:13Z
+Revision ID: 2944
+Timestamp: 2026-09-02T14:43:21Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Image_Use_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+Where images on EDFM are allowed to come from, and how they are classified and licensed. See [[Elite Dangerous Field Manual:Screenshot Policy]] for mechanical upload rules such as file formats, size limits, and information that must not be exposed. This page covers image sourcing, provenance, and licensing.
 
+== Preferred source: original captures ==
+EDFM prefers screenshots captured directly by EDFM contributors from their own gameplay.
+
+Original captures provide the clearest provenance and make it easier to verify:
+
+* what the image actually depicts;
+* where it came from;
+* when it was captured, where that matters;
+* whether it accurately reflects the game; and
+* whether the uploader has authority to provide the file to EDFM.
+
+If EDFM does not yet have a useful screenshot of something, the preferred solution is normally to capture a new one in-game.
+
+== Do not copy images from elsewhere without authorization ==
+Do not upload images copied from Fandom, Reddit, Discord, YouTube, other wikis, forums, social-media sites, community websites, search results, or other third-party sources merely because they are publicly available or appear to be "free to use."
+
+Third-party images may only be used where their license or the rights holder's permission clearly authorizes EDFM's use, as described below.
+
+'''"Found on Google" is not a valid source.''' A reverse-image search or ordinary web search may help identify where an image appears, but it does not establish who created the image, who owns the relevant rights, or what license applies to it.
+
+When a comparable image can reasonably be captured directly in-game, an original EDFM capture is preferred.
+
+== Do not assume an image shares a webpage's license ==
+A Creative Commons license displayed on a wiki, blog, gallery, or other webpage does not by itself prove that every image appearing on that page is available under the same license.
+
+Images may have their own:
+
+* copyright holders;
+* licenses;
+* permissions;
+* attribution requirements; or
+* restrictions.
+
+Always verify the provenance and licensing of the '''individual image''' rather than relying on the license shown for the surrounding website or article.
+
+This is particularly important for screenshots containing ''Elite Dangerous'' game assets. A third-party website cannot grant rights in Frontier-owned material merely by applying a Creative Commons license to its own original content.
+
+The same principle applies on EDFM: an image appearing on a page containing CC BY-SA 4.0 text is not automatically covered by EDFM's text license.
+
+== Elite Dangerous screenshots use the Frontier/game-media classification ==
+A screenshot personally captured from ''Elite Dangerous'' contains Frontier-owned game content, including ships, characters, interface elements, environments, artwork, and other game assets.
+
+Those underlying game assets belong to Frontier Developments plc and/or their applicable rights holders, not to the person who pressed the screenshot key.
+
+On EDFM, screenshots captured directly from the game should therefore be classified as:
+
+'''Elite Dangerous in-game screenshot'''
+
+using {{tl|License-ED screenshot}}, selected through the '''Licensing''' dropdown on <code>Special:Upload</code>.
+
+They should not be classified merely as "own work" or placed under EDFM's CC BY-SA 4.0 text license.
+
+The fact that a contributor personally captured a screenshot may still be recorded in the file's Summary and attribution information, but that does not transfer ownership of Frontier's underlying game assets.
+
+See [[Elite Dangerous Field Manual:Legal and Trademark Notice]] for the broader copyright and trademark context.
+
+== File pages describe the asset, not the subject ==
+Every file page should contain two separate kinds of information, deliberately kept apart:
+
+* '''Summary''' — created using {{tl|EDFM image information}}. This describes the image itself: what it depicts, its media type, who captured or created it, how it has been modified, what it is intended for, and who owns the underlying material.
+* '''Licensing''' — generated from the classification selected through the '''Licensing''' dropdown on <code>Special:Upload</code>. This identifies the legal or editorial basis under which EDFM is hosting the image.
+
+Neither section should duplicate the subject's main article.
+
+For example, the file page for an Engineer portrait should describe the image and its provenance. It should not repeat that Engineer's location, unlock requirements, specialties, or gameplay guidance. That information belongs on the Engineer's article.
+
+See {{tl|EDFM image information}} documentation for the full field list.
+
+== Third-party media requires a verified basis for use ==
+If you want to upload an image you did not create and that is not a screenshot you personally captured, there must be a clearly established basis for EDFM to use it.
+
+Acceptable bases include:
+
+* a compatible license whose terms are stated and verifiable; or
+* explicit permission from the actual rights holder.
+
+Images used with explicit permission should be classified with {{tl|License-Used with permission}} and should retain enough information to demonstrate where that permission came from if its use is later questioned.
+
+Do not assume that permission from the person who uploaded an image somewhere else is sufficient unless that person actually owns or controls the relevant rights.
+
+If the provenance, license, or permission cannot be established, do not upload the image.
+
+== Fandom and other community wikis ==
+The ''Elite Dangerous'' Fandom wiki and other community resources may be used as research sources and cited where appropriate.
+
+Their images should not simply be copied into EDFM.
+
+If an individual image on another wiki is explicitly licensed in a way that permits reuse, contributors must verify the license on that image itself and comply with all applicable conditions before uploading it.
+
+The license covering a wiki's text does not necessarily cover every image hosted by that wiki.
+
+== Official Frontier media ==
+Official Frontier promotional artwork, press images, concept art, logos, marketing graphics, and similar material are not the same thing as contributor-captured in-game screenshots.
+
+Their use should be evaluated separately under Frontier's applicable media rules and EDFM's broader legal policies.
+
+Where an original in-game screenshot can adequately illustrate an article, it is generally preferred over copying official promotional material.
+
+Frontier's official corporate logo and proprietary Frontier fonts must not be used as EDFM branding unless separately authorized.
+
+== Synthetic and reconstructed images ==
+Do not use synthetic, reconstructed, or otherwise non-authentic imagery as factual representations of:
+
+* ships;
+* Engineers;
+* characters;
+* locations;
+* stations or facilities;
+* user interfaces;
+* modules or equipment;
+* gameplay states; or
+* anything else EDFM documents as an in-game fact.
+
+A synthetic image of "Broo Tarquin," "an Anaconda," or a particular station is not evidence of what that subject actually looks like in ''Elite Dangerous''.
+
+Synthetic imagery, including AI-generated or AI-altered images, must not be presented in a way that could reasonably cause readers to mistake it for an authentic in-game capture or factual visual evidence.
+
+This does not prohibit narrowly scoped illustrative or diagrammatic use where factual visual accuracy is not the purpose of the image, provided the image is clearly identified and does not replace required in-game evidence.
+
+Any permitted synthetic image must be clearly identified as '''synthetic''', '''reconstructed''', or otherwise non-authentic on its file page and wherever additional labeling is necessary to prevent confusion.
+
+Where an actual screenshot can reasonably illustrate the subject, use the screenshot instead.
+
+== Edited and annotated images ==
+Reasonable edits to otherwise acceptable images are permitted when they improve clarity or protect privacy.
+
+Examples include:
+
+* cropping;
+* resizing;
+* redacting private information;
+* adding arrows, boxes, labels, or callouts;
+* adjusting brightness or contrast for readability; and
+* combining multiple screenshots for an instructional comparison.
+
+Edits must not materially misrepresent what the game actually displayed or imply that altered content is an authentic, unmodified game screen.
+
+Substantial edits, composites, reconstructions, or annotations that could reasonably be mistaken for an unmodified screenshot should be disclosed in the file Summary or article caption.
+
+== Misleading imagery ==
+Do not deliberately alter, crop, annotate, or select images in a way that materially misrepresents:
+
+* game mechanics;
+* statistics;
+* interface messages;
+* player actions;
+* system states;
+* bugs;
+* transactions;
+* engineering values;
+* Powerplay conditions;
+* Background Simulation conditions; or
+* other factual claims.
+
+When an image is being used as evidence for a factual statement, preserve enough context for the image to support the claim being made.
+
+== Personal information and player identifiers ==
+Images must not unnecessarily expose private or sensitive information.
+
+See [[Elite Dangerous Field Manual:Screenshot Policy]] for the site's mechanical rules concerning sensitive information in uploads.
+
+In general, contributors should review images for information such as:
+
+* email addresses;
+* real names where disclosure is not intended;
+* private messages;
+* authentication information;
+* account identifiers;
+* access or authorization tokens;
+* billing or payment information; and
+* other information that a reasonable person would not expect to be published.
+
+In-game Commander names, squadron names, Fleet Carrier names, and similar identifiers that naturally appear during ordinary public gameplay are not automatically prohibited.
+
+However, avoid displaying another person's identifier where it is irrelevant to the article, exposes private communications, or could reasonably facilitate harassment or an unnecessary public call-out.
+
+== Watermarks and attribution ==
+Do not remove another creator's watermark, attribution, copyright notice, or other rights-management information in order to reuse an image.
+
+Images carrying third-party branding or watermarks should normally be replaced with an original EDFM capture unless use of that specific image is necessary and authorized.
+
+EDFM may apply restrained project attribution to media created specifically for EDFM where appropriate, but such markings must not imply that EDFM owns Frontier's underlying game assets.
+
+== Licensing classifications available ==
+See [[Elite Dangerous Field Manual:Adding an Image]] for the full image-upload walkthrough and available classifications.
+
+There is deliberately no generic '''unknown''' classification.
+
+EDFM also does not provide a generic '''fair use''' upload category. This is an editorial policy: uploads must have known provenance and an applicable EDFM classification rather than relying on an unspecified legal exception.
+
+If an unusual use genuinely depends on a legal exception or another basis not represented by the existing classifications, do not force it into an inaccurate category. Raise it for administrative review before uploading.
+
+== If the source or license is uncertain ==
+When provenance or licensing cannot be established with reasonable confidence:
+
+'''Do not upload the image.'''
+
+If the subject can be captured in-game, create a new original screenshot instead.
+
+If an already-uploaded image later turns out to have unclear provenance, administrators may remove or replace it while its status is reviewed.
+
+Removal in that situation does not necessarily imply misconduct by the uploader; replacing uncertain media with a clean original capture is often simply the safest and easiest solution.
+
+== Reporting a licensing or provenance problem ==
+If you believe an image on EDFM:
+
+* belongs to you and is being used without permission;
+* has been incorrectly attributed;
+* is using an incorrect license or classification;
+* contains material that EDFM does not have permission to use; or
+* otherwise raises a copyright, licensing, or provenance concern,
+
+contact:
+
+<code>[contact@edfieldmanual.com](mailto:contact@edfieldmanual.com)</code>
+
+Please identify the relevant file or page and provide enough information for the issue to be reviewed.
+
+{{Related articles|[[Elite Dangerous Field Manual:Screenshot Policy]] [[Elite Dangerous Field Manual:Adding an Image]] [[Elite Dangerous Field Manual:Legal and Trademark Notice]]}}

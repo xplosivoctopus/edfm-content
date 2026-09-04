@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Cookie Policy
 Namespace: 4
 Page ID: 330
-Revision ID: 1414
-Timestamp: 2026-08-21T13:56:40Z
+Revision ID: 2829
+Timestamp: 2026-09-01T12:48:40Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Cookie_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -22,7 +22,7 @@ The cookie banner offers:
 
 Your cookie choice is stored in your browser's local storage as purpose/category preferences: necessary cookies are always on, and the optional Analytics category can be allowed or rejected. Older saved optional-cookie choices are interpreted as the equivalent Analytics preference so EDFM can preserve visitor intent. For server-side features that must know whether optional site-improvement cookies are accepted, EDFM may also set a small first-party consent signal cookie.
 
-Sensitive account, authentication, Frontier OAuth, and user/profile pages are excluded from Google Analytics regardless of cookie choice. Consent can enable Analytics only on pages that are otherwise eligible for public anonymous analytics.
+Sensitive account, authentication, Frontier OAuth, Discord OAuth/OpenID Connect, and user/profile pages are excluded from Google Analytics regardless of cookie choice. Consent can enable Analytics only on pages that are otherwise eligible for public anonymous analytics.
 
 {{EDFM policy commitments}}
 
@@ -39,6 +39,8 @@ These are needed for core site operation and cannot be disabled through the bann
 | Cloudflare/Turnstile cookies or browser checks || Security, bot/spam prevention, and abuse protection on login/account forms. || Controlled by Cloudflare/security flow
 |-
 | Frontier OAuth login/session state || Temporary authentication state used when a visitor chooses '''Sign in with Frontier''', including anti-forgery state values for the OAuth callback. OAuth codes/tokens are handled server-side for login and are not optional Analytics cookies. || Login flow/session only
+|-
+| Discord OAuth/OpenID Connect login/session state || Temporary authentication state used when a visitor chooses '''Sign in with Discord''', including anti-forgery state/nonce values for the OAuth/OpenID Connect callback. OAuth codes/tokens are handled server-side for login/linking and are not optional Analytics cookies. Discord may use its own cookies and browser storage on Discord-controlled pages. || Login flow/session only on EDFM; Discord-controlled duration on Discord pages
 |}
 
 == Optional Analytics cookies ==
@@ -59,7 +61,7 @@ If the Analytics category is rejected, EDFM should not set <code>edfmPopularSear
 == Google Analytics scope ==
 Google Analytics is used only for eligible public pages and public search analytics. It may collect ordinary page/event data such as page URL, page title, referrer, traffic source, browser/device information, scrolls, outbound clicks, downloads, and public search engagement.
 
-EDFM's Analytics integration is configured not to emit the GA tag on login, logout, account creation, password reset/recovery, email confirmation, credential changes, preferences/account settings, Frontier/PluggableAuth login or callback pages, old revisions, diffs, redirects, non-existent pages, MediaWiki <code>User:</code>/<code>User talk:</code> pages, equivalent profile/commander-style pages, or requests containing sensitive authentication/account parameters.
+EDFM's Analytics integration is configured not to emit the GA tag on login, logout, account creation, password reset/recovery, email confirmation, credential changes, preferences/account settings, Frontier/Discord/PluggableAuth login or callback pages, old revisions, diffs, redirects, non-existent pages, MediaWiki <code>User:</code>/<code>User talk:</code> pages, equivalent profile/commander-style pages, or requests containing sensitive authentication/account parameters.
 
 EDFM does not intentionally send MediaWiki usernames, MediaWiki numeric user IDs, email addresses, CMDR names, Frontier/FDev identifiers, Discord IDs, OAuth codes, access tokens, refresh tokens, session identifiers, cookies, or comparable account-specific identifiers to Google Analytics.
 
@@ -67,7 +69,7 @@ EDFM does not intentionally send MediaWiki usernames, MediaWiki numeric user IDs
 EDFM uses browser local storage to remember the cookie banner choice. Local storage stays in your browser until you clear it or change your cookie preferences.
 
 == Third-party requests ==
-EDFM pages may link to outside sites. Login and account pages may load Cloudflare Turnstile from <code>challenges.cloudflare.com</code>. If you choose '''Sign in with Frontier''', your browser is sent to Frontier's authentication service and then returned to EDFM's callback page. Eligible public pages may load Google Analytics only after optional site-improvement cookies are accepted from <code>www.googletagmanager.com</code> and send analytics requests to Google Analytics collection endpoints such as <code>www.google-analytics.com</code> and regional Google Analytics endpoints. External sites, Cloudflare, Frontier, and Google have their own policies.
+EDFM pages may link to outside sites. Login and account pages may load Cloudflare Turnstile from <code>challenges.cloudflare.com</code>. If you choose '''Sign in with Frontier''', your browser is sent to Frontier's authentication service and then returned to EDFM's callback page. If you choose '''Sign in with Discord''', your browser is sent to Discord's OAuth/OpenID Connect authorization service and then returned to EDFM's callback page. Eligible public pages may load Google Analytics only after optional site-improvement cookies are accepted from <code>www.googletagmanager.com</code> and send analytics requests to Google Analytics collection endpoints such as <code>www.google-analytics.com</code> and regional Google Analytics endpoints. External sites, Cloudflare, Frontier, Discord, and Google have their own policies.
 
 == Changing your choice ==
 You can change your choice from the cookie banner/preferences control when available, or by clearing site data for <code>edfieldmanual.com</code> in your browser.

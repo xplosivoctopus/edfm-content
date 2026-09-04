@@ -1,0 +1,95 @@
+<!--
+EDFM current-content archive export.
+Title: Module:EngineeringBlueprints
+Namespace: 828
+Page ID: 772
+Revision ID: 2914
+Timestamp: 2026-09-02T14:14:14Z
+Source URL: https://edfieldmanual.com/wiki/Module:EngineeringBlueprints
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+
+local p = {}
+local dataPrefix = 'Data/EngineeringBlueprints/'
+local effectPrefix = 'Data/ExperimentalEffects/'
+local attrLabels = { mass='Mass', integ='Integrity', pwrdraw='Power draw', fsdoptmass='Optimized mass', fsdheat='Thermal load', boottime='Boot time', maxfuel='Maximum fuel per jump' }
+local function isNonEmpty(v) return v ~= nil and tostring(v) ~= '' end
+local function esc(s) return mw.text.encode(tostring(s or '')) end
+local function link(page, label) if not isNonEmpty(page) then return nil end; label = label or page; return '[[' .. page .. '|' .. label .. ']]' end
+local function loadJson(titleText)
+ local okData, data = pcall(mw.loadData, 'Module:' .. titleText)
+ if okData and type(data) == 'table' then return data end
+ local t = mw.title.new(titleText, 'Module'); local c = t and t:getContent(); if not c then return nil end
+ local ok, decoded = pcall(mw.text.jsonDecode, c); if ok and type(decoded)=='table' then return decoded end; return nil
+end
+local function index() return loadJson(dataPrefix .. 'index') or {} end
+local function record(id)
+ if not isNonEmpty(id) then return nil end
+ return loadJson(dataPrefix .. id)
+end
+local function effect(id) return loadJson(effectPrefix .. id) end
+local function listJoin(items)
+ local out={}; for _,v in ipairs(items or {}) do if isNonEmpty(v) then table.insert(out, tostring(v)) end end; return table.concat(out, ', ')
+end
+local function changeText(c)
+ local label = attrLabels[c.attribute] or c.attribute
+ local v = tonumber(c.value) or c.value
+ local prefix = (type(v)=='number' and v > 0) and '+' or ''
+ return label .. ' ' .. prefix .. tostring(v) .. (c.unit or '')
+end
+local function changesList(changes)
+ local out={}; for _,c in ipairs(changes or {}) do table.insert(out, changeText(c)) end; return table.concat(out, '<br>')
+end
+local function materialList(mats)
+ local out={}; for _,m in ipairs(mats or {}) do table.insert(out, (link(m.name) or esc(m.name)) .. ' × ' .. esc(m.quantity or 1)) end; return table.concat(out, '<br>')
+end
+local function allEffectsFor(d)
+ local out={}; for _,id in ipairs(d.compatible_experimental_effect_ids or {}) do local e=effect(id); if e then table.insert(out, link(e.page or e.name, e.name)) end end; return table.concat(out, '<br>')
+end
+function p.infobox(frame)
+ local id = frame.args[1] or frame.args.id or mw.title.getCurrentTitle().text
+ local d = record(id); if not d then return '<strong class="error">Unknown Engineering Blueprint ID: ' .. esc(id) .. '</strong>' end
+ local args={ name=d.name, label1='Type', row1='Engineering Blueprint', group1='ENGINEERING', label2='Compatible module', row2=link(d.module_family,d.module_family) or esc(d.module_family), label3='Grades', row3='G1–G'..esc(d.max_grade or '?'), label4='Primary effect', row4=esc(d.primary_effect), label5='Major tradeoffs', row5=esc(d.major_tradeoffs), label6='Remote Engineering', row6=esc(d.remote_engineering), label7='Compatible Experimentals', row7=allEffectsFor(d), group8='STATUS', label8='Live status', row8=esc(d.live_status or 'Current Live') }
+ return frame:expandTemplate{ title='Infobox', args=args }
+end
+function p.gradeTable(frame)
+ local id = frame.args[1] or frame.args.id or mw.title.getCurrentTitle().text; local d=record(id); if not d then return '' end
+ local rows={'{| class="wikitable sortable edfm-engineering-table"','! Grade !! Attribute changes'}
+ for _,g in ipairs(d.grades or {}) do table.insert(rows, '|-\n| G'..esc(g.grade)..' || '..changesList(g.changes)) end
+ table.insert(rows,'|}'); return table.concat(rows,'\n')
+end
+function p.materialsTable(frame)
+ local id = frame.args[1] or frame.args.id or mw.title.getCurrentTitle().text; local d=record(id); if not d then return '' end
+ local rows={'{| class="wikitable edfm-engineering-table"','! Grade !! Materials'}
+ for _,g in ipairs(d.grades or {}) do table.insert(rows, '|-\n| G'..esc(g.grade)..' || '..materialList(g.materials)) end
+ table.insert(rows,'|}'); return table.concat(rows,'\n')
+end
+function p.experimentalEffects(frame)
+ local id = frame.args[1] or frame.args.id or mw.title.getCurrentTitle().text; local d=record(id); if not d then return '' end
+ local v=allEffectsFor(d); if v=='' then return 'No compatible Experimental Effects are currently listed in structured data.' end; return v
+end
+function p.engineers(frame)
+ local id = frame.args[1] or frame.args.id or mw.title.getCurrentTitle().text; local d=record(id); if not d then return '' end
+ return frame:expandTemplate{ title='Engineering blueprint engineers', args={ d.module_family or '' } }
+end
+function p.directory(frame)
+ local groups={}; for _,id in ipairs(index()) do local d=record(id); if d then local k=d.module_family or 'Other'; groups[k]=groups[k] or {}; table.insert(groups[k],d) end end
+ local out={}; for module,rows in pairs(groups) do table.insert(out,'== '..module..' =='); table.insert(out,'{| class="wikitable sortable edfm-engineering-table"\n! Blueprint !! Grade range !! Effect summary') ; for _,d in ipairs(rows) do table.insert(out,'|-\n| '..link(d.page or d.name,d.name)..' || G1–G'..esc(d.max_grade or '?')..' || '..esc(d.primary_effect or '')) end; table.insert(out,'|}') end
+ return table.concat(out,'\n')
+end
+function p.moduleBlueprints(frame)
+ local module = frame.args.module or frame.args[1] or mw.title.getCurrentTitle().text
+ local rows={'{| class="wikitable sortable edfm-engineering-table"','! Blueprint !! Grade range !! Primary effect'}; local n=0
+ for _,id in ipairs(index()) do local d=record(id); if d and d.module_pages then for _,m in ipairs(d.module_pages) do if m==module or d.module_family==module then n=n+1; table.insert(rows,'|-\n| '..link(d.page or d.name,d.name)..' || G1–G'..esc(d.max_grade or '?')..' || '..esc(d.primary_effect or '')); break end end end end
+ if n==0 then return 'No Engineering Blueprints are currently listed for '..esc(module)..'.' end; table.insert(rows,'|}'); return table.concat(rows,'\n')
+end
+function p.engineerBlueprints(frame)
+ local engineer = frame.args.engineer or frame.args[1] or mw.title.getCurrentTitle().text
+ local eng = loadJson('Data/Engineers/'..engineer); if not eng then return 'No structured Engineer record found.' end
+ local maxByModule={}; for _,e in ipairs(eng.engineering or {}) do for _,m in ipairs(e.modules or {}) do maxByModule[m]=math.max(maxByModule[m] or 0, tonumber(e.grade) or 0) end end
+ local rows={'{| class="wikitable sortable edfm-engineering-table"','! Module !! Blueprint !! Maximum grade at this Engineer'}; local n=0
+ for _,id in ipairs(index()) do local d=record(id); local g=d and maxByModule[d.module_family]; if g then n=n+1; table.insert(rows,'|-\n| '..link(d.module_family)..' || '..link(d.page or d.name,d.name)..' || G'..g) end end
+ if n==0 then return 'No Blueprint relationships are currently derived for this Engineer.' end; table.insert(rows,'|}'); return table.concat(rows,'\n')
+end
+return p

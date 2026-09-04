@@ -1,0 +1,111 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/SurfaceSignals/Geological
+Namespace: 828
+Page ID: 763
+Revision ID: 2606
+Timestamp: 2026-08-29T17:18:34Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/SurfaceSignals/Geological
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+[
+	{
+		"id": "fumarole",
+		"name": "Fumarole",
+		"article": "Fumarole",
+		"classification": "Geological",
+		"subtype": "Geological feature",
+		"game_mode": "Both",
+		"dss_filter": true,
+		"dss_filter_name": "Fumarole",
+		"description": "A vent releasing heated gases or vapours from beneath the surface. Not to be confused with the Exobiology genus Fumerola -- these are unrelated despite the similar name.",
+		"variants": [
+			"Carbon Dioxide Ice Fumarole",
+			"Water Ice Fumarole",
+			"Silicate Vapour Fumarole"
+		],
+		"variants_complete": false,
+		"notes": "Deliberately distinct from the Biological \"Fumerola\" genus (see Module:Data/SurfaceSignals/Biological). Do not merge or alias these records. Variant list is a partial, cross-referenced-but-not-primary-source-confirmed set -- Frontier has not published an exhaustive Codex variant catalogue, and some community sources claim additional Ice Fumarole variants (e.g. Ammonia, Methane, Nitrogen, Sulphur Dioxide) that EDFM could not independently verify. Do not treat the variants list as exhaustive."
+	},
+	{
+		"id": "ice-fumarole",
+		"name": "Ice Fumarole",
+		"article": "Ice Fumarole",
+		"classification": "Geological",
+		"subtype": "Geological feature",
+		"game_mode": "Both",
+		"dss_filter": true,
+		"dss_filter_name": "Ice Fumarole",
+		"description": "A Fumarole variant associated with volatile ices rather than plain gas venting.",
+		"variants": [],
+		"variants_complete": false,
+		"notes": "Some community sources describe \"Ice Fumarole\" as a Codex classification band within the broader Fumarole family rather than a fully separate top-level DSS filter; EDFM has not independently confirmed the exact DSS presentation. Kept as its own record (matching EDSM's Codex ID scheme, which lists it separately from plain Fumarole) pending verification. Variant list intentionally left empty rather than guessed -- see the Fumarole record's notes for the specific unverified variant names some sources report."
+	},
+	{
+		"id": "gas-vent",
+		"name": "Gas Vent",
+		"article": "Gas Vent",
+		"classification": "Geological",
+		"subtype": "Geological feature",
+		"game_mode": "Both",
+		"dss_filter": true,
+		"dss_filter_name": "Gas Vent",
+		"description": "A geological feature releasing gas from beneath the surface, typically found on icy or volcanically active bodies.",
+		"variants": [
+			"Silicate Vapour Gas Vent",
+			"Sulphur Dioxide Gas Vent"
+		],
+		"variants_complete": false,
+		"notes": "Variant list is a partial, cross-referenced-but-not-primary-source-confirmed set. Do not treat as exhaustive."
+	},
+	{
+		"id": "geyser",
+		"name": "Geyser",
+		"article": "Geyser",
+		"classification": "Geological",
+		"subtype": "Geological feature",
+		"game_mode": "Both",
+		"dss_filter": true,
+		"dss_filter_name": "Geyser",
+		"description": "A geological feature that periodically erupts liquid or vapour from beneath the surface.",
+		"variants": [
+			"Carbon Dioxide Ice Geyser",
+			"Methane Ice Geyser",
+			"Ammonia Ice Geyser"
+		],
+		"variants_complete": false,
+		"notes": "Variant list is a partial, cross-referenced-but-not-primary-source-confirmed set -- some community sources also claim a Nitrogen Ice Geyser variant that EDFM could not independently verify. Do not treat as exhaustive."
+	},
+	{
+		"id": "ice-geyser",
+		"name": "Ice Geyser",
+		"article": "Ice Geyser",
+		"classification": "Geological",
+		"subtype": "Geological feature",
+		"game_mode": "Both",
+		"dss_filter": true,
+		"dss_filter_name": "Ice Geyser",
+		"description": "A Geyser variant associated with volatile ices, typically found on colder bodies.",
+		"variants": [],
+		"variants_complete": false,
+		"notes": "As with Ice Fumarole, EDFM has not independently confirmed whether this is a fully separate top-level DSS filter or a Codex classification band within the broader Geyser family. Kept as its own record pending verification. Variant list intentionally left empty rather than guessed."
+	},
+	{
+		"id": "lava-spout",
+		"name": "Lava Spout",
+		"article": "Lava Spout",
+		"classification": "Geological",
+		"subtype": "Geological feature",
+		"game_mode": "Both",
+		"dss_filter": true,
+		"dss_filter_name": "Lava Spout",
+		"description": "A geological feature associated with active volcanism, ejecting molten material from beneath the surface.",
+		"variants": [
+			"Iron Magma Lava Spout",
+			"Silicate Magma Lava Spout"
+		],
+		"variants_complete": false,
+		"notes": "Variant list is a partial, cross-referenced-but-not-primary-source-confirmed set. Do not treat as exhaustive."
+	}
+]

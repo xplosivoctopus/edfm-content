@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Engineering blueprint engineers
+Namespace: 10
+Page ID: 784
+Revision ID: 2926
+Timestamp: 2026-09-02T14:14:21Z
+Source URL: https://edfieldmanual.com/wiki/Template:Engineering_blueprint_engineers
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#invoke:Engineers|moduleEngineers|module={{{1|{{{module|}}}}}}}}<noinclude>
+Helper template used by structured Engineering Blueprint pages to derive Engineer availability from existing Engineer data.
+[[Category:Templates]]
+</noinclude>

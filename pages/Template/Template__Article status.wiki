@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Article status
 Namespace: 10
 Page ID: 21
-Revision ID: 1098
-Timestamp: 2026-08-20T02:58:18Z
+Revision ID: 2552
+Timestamp: 2026-08-29T12:48:07Z
 Source URL: https://edfieldmanual.com/wiki/Template:Article_status
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,6 +14,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
  | Partially verified = positive
  | Needs review = attention
  | Upcoming = attention
+ | Upcoming Content = attention
  | Draft = neutral
  | Historical = neutral
  | Legacy only = neutral
@@ -25,6 +26,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
  | Partially verified = &#10003;
  | Needs review = !
  | Upcoming = !
+ | Upcoming Content = !
  | Draft = i
  | Historical = i
  | Legacy only = i
@@ -40,6 +42,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
  | Historical = This article describes a past state of the game, not current gameplay.
  | Legacy only = This article applies to ''Elite Dangerous: Legacy'', not the current Live game.
  | Upcoming = This article describes an announced feature that is not yet released.
+ | Upcoming Content = This article describes announced content that is not yet released.
  | #default = Some information in this article still needs to be checked for accuracy.
 }}</p>{{#if:{{{uncertainty|}}}|
 <p class="edfm-status-uncertain"><span class="edfm-status-uncertain-label">Uncertain:</span> {{{uncertainty}}}</p>}}
@@ -65,6 +68,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 | Needs review = [[Category:Pages Needing Review]]
 | Draft = [[Category:Draft Articles]]
 | Upcoming = [[Category:Upcoming Content]]
+| Upcoming Content = [[Category:Upcoming Content]]
 | Legacy only = [[Category:Legacy-Only Content]]
 | #default =
 }}{{#switch: {{{mode|Live}}}
@@ -96,7 +100,7 @@ rendering change only, so every existing call site upgrades automatically.
 
 <pre>
 {{Article status
- |status=Verified|Partially verified|Needs review|Draft|Historical|Legacy only|Upcoming
+ |status=Verified|Partially verified|Needs review|Draft|Historical|Legacy only|Upcoming|Upcoming Content
  |mode=Live|Legacy|Both|Historical
  |version=
  |reviewed=

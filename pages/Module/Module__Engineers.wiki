@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Engineers
 Namespace: 828
 Page ID: 173
-Revision ID: 1214
-Timestamp: 2026-08-20T23:55:11Z
+Revision ID: 2609
+Timestamp: 2026-08-29T17:21:01Z
 Source URL: https://edfieldmanual.com/wiki/Module:Engineers
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -2128,6 +2128,78 @@ function p.count()
 	return tostring(
 		#loadIndex()
 	)
+end
+------------------------------------------------------------------------
+-- Engineers offering a specific module
+------------------------------------------------------------------------
+
+-- Generic "which Engineers offer this module, and at what maximum grade"
+-- query, read directly from each Engineer's own `engineering` grade
+-- groups -- ship Engineers only (Odyssey records use a differently
+-- shaped `modifications` field with no per-module grade concept, so they
+-- simply never match here, which is correct for a ship-module query like
+-- this one). Added so article Engineering sections (starting with
+-- [[Detailed Surface Scanner]]) can generate their "which Engineers offer
+-- this module" table from this module's own data instead of maintaining
+-- a second hand-written copy that can drift out of sync -- see
+-- Elite Dangerous Field Manual:Adding Structured Data.
+--
+-- {{#invoke:Engineers|moduleEngineers|module=Detailed Surface Scanner}}
+-- {{#invoke:Engineers|moduleEngineers|module=Detailed Surface Scanner|label=Maximum DSS grade}}
+--
+-- Sorted by grade ascending, then Engineer name -- deterministic, not
+-- insertion-order dependent.
+function p.moduleEngineers(frame)
+	local args = frame.args
+	local moduleName = args.module
+	if not isNonEmpty(moduleName) then
+		return '<strong class="error">Module:Engineers|moduleEngineers: |module= is required.</strong>'
+	end
+	local label = args.label
+	if not isNonEmpty(label) then
+		label = 'Maximum grade'
+	end
+
+	local matches = {}
+	for _, name in ipairs(loadIndex()) do
+		local d = loadRecord(name)
+		if d and type(d.engineering) == 'table' then
+			local maxGrade = nil
+			for _, group in ipairs(d.engineering) do
+				if type(group.modules) == 'table' then
+					for _, m in ipairs(group.modules) do
+						if m == moduleName and (not maxGrade or (group.grade and group.grade > maxGrade)) then
+							maxGrade = group.grade
+						end
+					end
+				end
+			end
+			if maxGrade then
+				table.insert(matches, { name = d.name or name, grade = maxGrade })
+			end
+		end
+	end
+
+	if #matches == 0 then
+		return '<strong class="error">Module:Engineers|moduleEngineers: no Engineer currently lists "' ..
+			escapeAttribute(moduleName) .. '" in their engineering specialties.</strong>'
+	end
+
+	table.sort(matches, function(a, b)
+		if a.grade ~= b.grade then return a.grade < b.grade end
+		return a.name < b.name
+	end)
+
+	local rows = {}
+	for _, entry in ipairs(matches) do
+		table.insert(rows, '|-\n| ' .. wikilink(entry.name) .. ' || Grade ' .. tostring(entry.grade))
+	end
+
+	return
+		'{| class="wikitable sortable"\n'
+		.. '! Engineer !! ' .. escapeAttribute(label) .. '\n'
+		.. table.concat(rows, '\n')
+		.. '\n|}'
 end
 
 

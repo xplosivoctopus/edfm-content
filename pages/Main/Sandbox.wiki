@@ -1,0 +1,21 @@
+<!--
+EDFM current-content archive export.
+Title: Sandbox
+Namespace: 0
+Page ID: 769
+Revision ID: 2707
+Timestamp: 2026-08-30T22:47:12Z
+Source URL: https://edfieldmanual.com/wiki/Sandbox
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status|status=Draft|mode=Both|noindex=yes}}
+
+This page is a '''sandbox''' for testing and experimenting with wiki syntax. Feel free to make test edits here -- this page is not part of the Field Manual's actual content and is periodically cleared.
+
+== Test area ==
+
+Edit below this line.
+
+----
+:Test edit for EDFMAchievements verification.

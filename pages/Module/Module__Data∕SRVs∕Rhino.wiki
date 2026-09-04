@@ -1,0 +1,31 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/SRVs/Rhino
+Namespace: 828
+Page ID: 757
+Revision ID: 3019
+Timestamp: 2026-09-03T03:34:37Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/SRVs/Rhino
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Rhino",
+	image = "Screenshot 2026-09-02 215637.png",
+	manufacturer = "[[Vodel]]",
+	vehicle_type = "[[Surface Recon Vehicles|Surface Recon Vehicle]]",
+	primary_role = "[[Surface Mining|Surface mining]]",
+	crew = "Up to three Commanders",
+	hangar = "[[Large Planetary Vehicle Hangar]]",
+	release = "2 September 2026",
+	availability = "ARX Early Access",
+	mass = "50 T",
+	fuel_capacity = "0.80 T",
+	hull = "324 armour",
+	shields = "80",
+	speed = "45 m/s",
+	boost_speed = "",
+	cargo = "72 T",
+	weapons = "",
+	utility_equipment = "Planetary Mining Deposit Scanner; onboard refinery; Mining Rig Deployment Module; deployable mining rigs",
+}

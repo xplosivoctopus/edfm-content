@@ -1,0 +1,238 @@
+<!--
+EDFM current-content archive export.
+Title: CMDR Fima/Privacy Policy
+Namespace: 0
+Page ID: 766
+Revision ID: 2632
+Timestamp: 2026-08-29T23:33:56Z
+Source URL: https://edfieldmanual.com/wiki/CMDR_Fima/Privacy_Policy
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|section=EDFM|context=Community|deck=Privacy Policy for CMDR Fima, EDFM's Discord bot.}}
+
+'''Effective date:''' 29 August 2026<br />
+'''Last updated:''' 29 August 2026
+
+This Privacy Policy explains how '''CMDR Fima''', the Discord bot operated as part of the ''Elite Dangerous Field Manual'' (EDFM), processes Discord member and server information.
+
+{{EDFM policy commitments}}
+
+== Scope ==
+
+This policy applies to CMDR Fima. CMDR Fima is currently operated primarily for the official EDFM Discord server, but the policy is written so it can also apply if EDFM later uses the bot in additional Discord communities.
+
+This policy is specific to CMDR Fima. The EDFM website and wiki are covered separately by [[Elite Dangerous Field Manual:Privacy Policy]] and [[Elite Dangerous Field Manual:Cookie Policy]]. Discord's own processing is governed by Discord's policies.
+
+== Summary ==
+
+* CMDR Fima is used for EDFM information lookup, supported Elite Dangerous data lookups, verification, role management, moderation, logging, and server administration.
+* CMDR Fima stores Discord snowflake IDs and moderation/configuration records in a local SQLite database.
+* CMDR Fima does not sell Discord user data.
+* CMDR Fima is not designed to create a permanent database archive of ordinary Discord conversations.
+* Message edit/delete logging, where enabled, sends available message content to configured Discord log channels; that content is not stored in Fima's SQLite database by the current implementation.
+* Moderation records may be retained for community administration, abuse prevention, rule enforcement, and dispute resolution.
+* Users may contact EDFM to request access, correction, or deletion of information associated with them, subject to moderation, safety, security, legal, and operational limits.
+
+== Information processed ==
+
+=== Discord account and server information ===
+
+CMDR Fima processes Discord account and server information needed to perform its functions. Depending on the command or event, this may include:
+
+* Discord user IDs;
+* usernames, display names, global names, and mentions as returned by Discord;
+* avatar or profile display data where Discord provides it for embeds or member display;
+* guild/server IDs;
+* role IDs;
+* channel IDs;
+* message IDs and message URLs;
+* timestamps associated with joins, verification, commands, moderation actions, and log events.
+
+The bot's database uses Discord IDs as the canonical identifiers. Usernames and display names are usually retrieved from Discord when needed for messages, embeds, or logs rather than being stored as separate profile records.
+
+=== Server configuration ===
+
+CMDR Fima stores server configuration for each configured guild, including IDs for the mute role, verified role, staff roles, moderation log channel, message log channel, member log channel, welcome channel, verification channel, role-panel channel, excluded message-log channels, the warning threshold, and the next moderation case number.
+
+=== Moderation information ===
+
+CMDR Fima stores moderation records in its SQLite database. These records may include:
+
+* moderation case numbers;
+* case type, status, and timestamps;
+* target user ID;
+* moderator or actor user ID;
+* warning reasons and internal notes;
+* warning number and active/void status;
+* void timestamps, voiding moderator ID, and void reasons;
+* mute, kick, ban, unban, purge, channel-lock, channel-unlock, staff-note, and imported Discord-action case metadata where applicable;
+* source channel IDs, source message IDs, and source message URLs where a moderation action relates to a message;
+* whether a direct-message notification was attempted or delivered;
+* Discord action status, such as pending, completed, failed, or not applicable;
+* case revisions, including changed fields, previous and new values, change reason, changing staff member ID, and timestamp.
+
+Moderation records are used to administer and protect the EDFM Discord community, maintain an accurate moderation history, enforce server rules, and resolve disputes.
+
+CMDR Fima also reconciles certain moderation actions taken through Discord's native audit log. The current implementation can import ban, unban, and kick actions that were not performed through Fima, recording them with reduced-confidence metadata rather than inventing a cause.
+
+=== Warning threshold and automatic mute ===
+
+Warnings are issued by authorized human moderators. The current EDFM configuration uses a warning threshold of three active warnings. When a member reaches the configured threshold, CMDR Fima records a pending automatic mute case and attempts to apply the configured mute role. This is a rules-enforcement workflow, not autonomous AI moderation.
+
+=== Message information ===
+
+CMDR Fima observes message events through Discord gateway events and uses the Message Content intent.
+
+The current implementation does '''not''' store ordinary message content in Fima's SQLite database. It may store message IDs, channel IDs, message URLs, and related metadata when a message is the source of a moderation action.
+
+Where message logging is configured, CMDR Fima sends message edit and deletion logs to the configured Discord message-log channel unless the channel is excluded. Those log entries may include:
+
+* author mention/tag and user ID;
+* channel reference;
+* message URL for edited messages;
+* before and after content for edited messages when available;
+* deleted-message content when the message content is available in Discord's cache;
+* an attachment count.
+
+Deleted-message content depends on Discord/cache availability. If a deleted message is not cached, Fima logs that the content was not available. These message-log entries are Discord messages in the configured log channel; they are not separate SQLite message-content records created by Fima.
+
+CMDR Fima can also process a message temporarily when a staff member uses message-context actions such as EDFM search, warning a member from a message, deleting and warning, or adding a staff note.
+
+=== Verification and role information ===
+
+CMDR Fima stores verification records containing guild ID, user ID, join timestamp, Discord Rules Screening completion timestamp, verification timestamp, verification actor, whether the verified role was granted, and last verification attempt timestamp.
+
+CMDR Fima also stores self-assignable role-panel configuration, including panel names, descriptions, channel IDs, message IDs, group names, option labels, descriptions, emojis, role IDs, active status, and ordering. Ordinary role selections are applied to Discord roles; the current role-panel tables store the panel configuration, not a separate history of every member's role-selection clicks.
+
+=== Command and interaction information ===
+
+CMDR Fima processes slash commands, message-context commands, buttons, select menus, and modal submissions. Some confirmation flows, such as ban, kick, warning, delete-and-warn, purge, and configuration actions, create short-lived interaction-session records containing:
+
+* an opaque token;
+* guild ID;
+* initiating user ID;
+* action name;
+* JSON payload needed to complete the confirmation;
+* expiry timestamp;
+* consumed timestamp if used.
+
+Interaction sessions are single-use and moderator-bound. They expire after five minutes under the current implementation. Expired sessions are purged on bot startup.
+
+== How information is used ==
+
+CMDR Fima uses information for operational purposes only, including:
+
+* executing bot commands and interactions;
+* retrieving EDFM information;
+* retrieving supported Elite Dangerous data;
+* maintaining moderation cases and warning history;
+* enforcing the configured three-active-warning mute workflow;
+* verification and onboarding;
+* self-assignable role management;
+* staff logging and community administration;
+* channel locking and restoring channel permissions;
+* troubleshooting errors and preventing abuse;
+* maintaining per-server configuration.
+
+CMDR Fima does not use Discord member data for advertising, behavioural marketing, sale of data, or unrelated profiling.
+
+== Elite Dangerous information providers ==
+
+The current implementation contacts:
+
+* EDFM's MediaWiki API at <code>https://edfieldmanual.com/api.php</code> for search, article extracts, page images, canonical URLs, categories, and wikitext needed for structured data;
+* EDData at <code>https://api.eddata.dev</code> for implemented commodity summaries, import/export market lists, nearby commodity market lists, and system lookups;
+* EDSY only as a normal outbound link in ship embeds (<code>https://edsy.org/</code>), not as an API request by the bot.
+
+EDData information is described in the code as EDDN-derived aggregated Elite Dangerous data. Ordinary Elite-data lookups should not transmit unnecessary Discord identity information to EDFM or EDData; requests are based on the topic, commodity, system, or page being requested.
+
+== Sharing of information ==
+
+CMDR Fima may disclose information in these limited ways:
+
+* to Discord, as part of normal bot operation, commands, roles, embeds, messages, moderation actions, and logs;
+* to configured staff-only or private moderation/log channels, where enabled by server configuration;
+* to authorized EDFM moderators and administrators who need the information for community administration, moderation, security, or troubleshooting;
+* to EDFM infrastructure needed to operate the bot and wiki;
+* to EDFM and EDData when making the implemented Elite Dangerous information requests described above.
+
+EDFM does '''not''' sell Discord user data.
+
+== Data retention ==
+
+=== Temporary interaction/session data ===
+
+Confirmation interaction sessions expire after five minutes. Expired sessions are deleted when CMDR Fima starts. Consumed session records remain until they are expired and purged by that startup cleanup.
+
+=== External Elite data cache ===
+
+CMDR Fima stores external cache entries for provider responses. The cache is intended for gameplay/reference data rather than personal Discord information. Cache TTLs in the current code include approximately 5 minutes for EDFM search, 30 minutes for EDFM structured data, 15 minutes for EDData commodity summaries, 3 minutes for EDData market searches, and 1 minute for autocomplete. Expired cache entries are purged on bot startup.
+
+=== Verification and role state ===
+
+Verification records and role-panel configuration are retained while needed for server membership, verification, onboarding, role management, and operational continuity. Leaving the server does not currently trigger an automatic deletion of the verification database row.
+
+=== Moderation records ===
+
+Moderation records, warnings, case revisions, lock snapshots, and related moderation metadata may be retained for community administration, abuse prevention, enforcement, maintaining an accurate moderation history, and resolving disputes. The current implementation does not automatically delete moderation records after a fixed period.
+
+=== Message logs ===
+
+The current implementation does not store ordinary message content in the SQLite database. Message edit/delete content, where available and where logging is enabled, is sent to the configured Discord message-log channel and is then subject to Discord channel retention, staff moderation, and any manual cleanup of that channel.
+
+=== Operational logs ===
+
+CMDR Fima uses structured application logging. Logs may include operational metadata such as error messages, interaction IDs, channel IDs for failed log delivery, guild IDs, target IDs in moderation reconciliation messages, provider error types, and command/search diagnostics. Secrets are redacted by the logger configuration. No bot-specific automatic log-retention period was found in the current implementation; retention depends on the process supervisor or host logging configuration.
+
+== Deleted accounts and departed members ==
+
+Discord account deletion or leaving the server does not automatically remove all CMDR Fima database records. Discord IDs may remain in moderation, verification, role-panel, configuration, or log records where those records are still needed for safety, enforcement, dispute resolution, security, or operational integrity.
+
+Where information is no longer necessary, EDFM can review whether it should be deleted, anonymized, or retained in a minimal form. Usernames may become stale over time, so Discord user IDs are the more reliable identifier for locating bot records.
+
+== Access, correction, and deletion requests ==
+
+To request information about CMDR Fima data associated with you, ask for correction of inaccurate data, or request deletion of data that is no longer necessary, contact EDFM at <code>contact@edfieldmanual.com</code> or through an official EDFM staff contact route in the Discord server.
+
+Please include enough information to identify the relevant Discord account, such as your Discord user ID if you know it. Do not send passwords, bot tokens, or other secrets.
+
+EDFM will review requests case by case. EDFM may retain limited information where reasonably necessary to enforce bans, prevent abuse, protect the community, maintain moderation history, resolve disputes, preserve security, or comply with legal obligations. Where full deletion is not appropriate, EDFM may be able to correct, annotate, restrict, or minimize records.
+
+The current implementation does not expose self-service deletion tools to ordinary users. Data requests require staff/operator handling so that moderation and security records are not changed by unauthorized users.
+
+== Security ==
+
+CMDR Fima uses technical and administrative safeguards appropriate for a community Discord bot, including:
+
+* staff authorization checks for moderation and administrative commands;
+* role hierarchy checks before granting or managing roles;
+* moderator-bound, single-use confirmation tokens for sensitive actions;
+* local SQLite storage on the bot host rather than public database exposure;
+* separate bot credentials loaded from environment configuration;
+* logger redaction for tokens and authorization headers;
+* configured staff log channels for operational visibility;
+* restricted access to moderation records through staff commands and server/operator access.
+
+No system can be guaranteed completely secure. EDFM may restrict access, rotate credentials, disable features, or preserve records where needed to investigate abuse, security incidents, or operational problems.
+
+== Children and Discord eligibility ==
+
+CMDR Fima is used through Discord. Users must meet Discord's own eligibility requirements and applicable law for using Discord and joining Discord communities.
+
+== Changes ==
+
+This Privacy Policy may be updated when CMDR Fima's functionality, configuration, data practices, or operational environment changes. The last-updated date at the top of the page should be revised when material changes are made.
+
+== Contact ==
+
+For privacy questions or data requests, contact: <code>contact@edfieldmanual.com</code>. You may also contact authorized EDFM staff through the official EDFM Discord server when that is the relevant community context.
+
+== See also ==
+
+* [[CMDR Fima]]
+* [[CMDR Fima/Terms of Use]]
+* [[Elite Dangerous Field Manual:Privacy Policy]]
+* [[Elite Dangerous Field Manual:Terms of Use]]
+
+[[Category:CMDR Fima]]

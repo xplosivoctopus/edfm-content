@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ExperimentalEffects/index
+Namespace: 828
+Page ID: 775
+Revision ID: 2917
+Timestamp: 2026-09-02T14:14:15Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ExperimentalEffects/index
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return { "fsd_deep_charge", "fsd_double_braced", "fsd_mass_manager", "fsd_stripped_down", "fsd_thermal_spread" }

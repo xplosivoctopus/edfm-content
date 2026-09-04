@@ -1,0 +1,45 @@
+<!--
+EDFM current-content archive export.
+Title: CMDR Fima
+Namespace: 0
+Page ID: 765
+Revision ID: 2631
+Timestamp: 2026-08-29T23:33:56Z
+Source URL: https://edfieldmanual.com/wiki/CMDR_Fima
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|section=EDFM|context=Community|deck=Discord information, moderation, onboarding, and community-management bot for EDFM.}}
+
+'''CMDR Fima''' is the Discord companion to the ''Elite Dangerous Field Manual'' (EDFM). It provides EDFM information lookup, supported ''Elite Dangerous'' data integrations, moderation tools, verification, role management, onboarding, and other community-management functions for the official EDFM Discord.
+
+CMDR Fima is currently operated primarily for the official EDFM Discord server. The bot is part of the EDFM project and uses the official EDFM website at [https://edfieldmanual.com edfieldmanual.com].
+
+== What CMDR Fima does ==
+
+CMDR Fima supports several community functions:
+
+* looking up EDFM articles and selected structured information from the wiki;
+* displaying supported commodity and market information from implemented Elite Dangerous data providers;
+* helping members complete Discord Rules Screening and server verification;
+* managing self-assignable role panels;
+* giving authorized staff tools for warnings, mutes, kicks, bans, unbans, message purging, channel locks, staff notes, and moderation cases;
+* sending moderation, message, and member log entries to configured staff log channels where those logs are enabled.
+
+CMDR Fima is a staff tool and community utility. It is not an autonomous AI moderation judge. Warnings and ordinary moderation actions are issued by authorized human moderators. The current warning workflow may automatically apply the configured mute role when a member reaches the configured warning threshold, which is currently three active warnings.
+
+== Policies ==
+
+* [[CMDR Fima/Privacy Policy|Privacy Policy]]
+* [[CMDR Fima/Terms of Use|Terms of Use]]
+* [https://edfieldmanual.com EDFM homepage]
+
+No public Discord invite is listed here because no canonical EDFM Discord invite URL was found in the current site configuration during page creation.
+
+== See also ==
+
+* [[Elite Dangerous Field Manual:Privacy Policy]]
+* [[Elite Dangerous Field Manual:Terms of Use]]
+* [[Ships and Equipment]]
+
+[[Category:CMDR Fima]]

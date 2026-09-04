@@ -1,0 +1,44 @@
+<!--
+EDFM current-content archive export.
+Title: Planetary Mineral Scanner
+Namespace: 0
+Page ID: 745
+Revision ID: 2558
+Timestamp: 2026-08-29T12:48:11Z
+Source URL: https://edfieldmanual.com/wiki/Planetary_Mineral_Scanner
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Upcoming Content
+ |mode=Live
+ |version=Announced for the 2 September 2026 Rhino update; page reflects official pre-release information available on 29 August 2026
+ |reviewed=2026-08-29
+ |reviewer=Sythan
+ |source_quality=Official Frontier August 2026 developer log
+ |uncertainty=Detailed controls, range, tuning, module behaviour, and post-release values are not yet verified.
+}}
+{{Article header|section=Mining|context=Modules|deck=Upcoming Rhino scanner used to locate planetary mining deposits.}}
+
+The '''Planetary Mineral Scanner''' is announced equipment associated with the [[Rhino]] [[Surface Recon Vehicles|Surface Recon Vehicle]] and [[Surface Mining]]. Frontier has stated that the Rhino comes equipped with the scanner and uses it to detect planetary mining deposits.<ref name="frontier-august-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
+
+== Function ==
+
+According to Frontier's August 2026 developer log, the Planetary Mineral Scanner identifies mineral patches while the Rhino is on a planetary surface. The scanner marks deposits both on the planetary surface and on sensors so the Rhino and its crew can set up for extraction.<ref name="frontier-august-dev-log" />
+
+Frontier has not yet published enough released-game detail to document scanner range, interface controls, tuning, engineering, prices, or compatibility outside the Rhino.
+
+== See also ==
+
+* [[Rhino]]
+* [[Surface Mining]]
+* [[Surface Recon Vehicles]]
+* [[Large Planetary Vehicle Hangar]]
+
+== References ==
+
+<references />
+
+[[Category:Mining]]
+[[Category:Equipment]]
+[[Category:Surface Recon Vehicles]]

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/PageSections
 Namespace: 828
 Page ID: 728
-Revision ID: 2125
-Timestamp: 2026-08-24T22:05:34Z
+Revision ID: 2936
+Timestamp: 2026-09-02T14:17:15Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/PageSections
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -42,6 +42,8 @@ return {
 		-- No suitable public Weapons hub exists yet; keep the label plain text until one exists.
 		["Weapons"] = { label = "Weapons" },
 		["Engineers"] = { label = "Engineers", page = "Engineers" },
+		["Blueprints"] = { label = "Blueprints", page = "Engineering Blueprints" },
+		["Experimental Effects"] = { label = "Experimental Effects", page = "Experimental Effects" },
 	},
 
 	contentTypes = {
@@ -51,6 +53,8 @@ return {
 	-- Structured content/page types map to broad area and optional narrower collection.
 	typeToPrimarySection = {
 		engineer = "Engineering",
+		engineering_blueprint = "Engineering",
+		experimental_effect = "Engineering",
 		ship = "Ships & Equipment",
 		ship_module = "Ships & Equipment",
 		ship_weapon = "Ships & Equipment",
@@ -64,6 +68,8 @@ return {
 
 	typeToSecondaryContext = {
 		engineer = "Engineers",
+		engineering_blueprint = "Blueprints",
+		experimental_effect = "Experimental Effects",
 		ship = "Ships",
 		ship_module = "Modules",
 		ship_weapon = "Weapons",
@@ -72,6 +78,8 @@ return {
 	-- Backward-compatible alias for older callers/documentation.
 	typeToSection = {
 		engineer = "Engineering",
+		engineering_blueprint = "Engineering",
+		experimental_effect = "Engineering",
 		ship = "Ships & Equipment",
 		ship_module = "Ships & Equipment",
 		ship_weapon = "Ships & Equipment",

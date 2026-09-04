@@ -1,0 +1,74 @@
+<!--
+EDFM current-content archive export.
+Title: Large Planetary Vehicle Hangar
+Namespace: 0
+Page ID: 744
+Revision ID: 2557
+Timestamp: 2026-08-29T12:48:10Z
+Source URL: https://edfieldmanual.com/wiki/Large_Planetary_Vehicle_Hangar
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Upcoming Content
+ |mode=Live
+ |version=Announced for the 2 September 2026 Rhino update; page reflects official pre-release information available on 29 August 2026
+ |reviewed=2026-08-29
+ |reviewer=Sythan
+ |source_quality=Official Frontier Rhino first-look article and August 2026 developer log
+ |uncertainty=Final outfitting behaviour, purchase locations, prices, and released-game module details are not yet verified.
+}}
+{{Article header|section=Ships & Equipment|context=Modules|deck=Upcoming vehicle hangar module required to deploy the Rhino SRV.}}
+{{Ship module infobox}}
+
+The '''Large Planetary Vehicle Hangar''' is an announced ship module used to deploy the [[Rhino]] [[Surface Recon Vehicles|Surface Recon Vehicle]]. Frontier has stated that the Rhino is too large to deploy through the regular cargo hatch like other SRVs and instead drops from the new large planetary vehicle hangar.<ref name="frontier-first-look">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface - Your First Look at the Rhino], Frontier Developments, 6 August 2026.</ref><ref name="frontier-august-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
+
+== Compatibility ==
+
+Frontier announced the following pre-release compatibility for the Large Planetary Vehicle Hangar:<ref name="frontier-august-dev-log" />
+
+{| class="wikitable sortable" style="width:100%;"
+! Ship
+! Supported module class
+|-
+| [[Alliance Crusader]] || Class 5-6
+|-
+| [[Anaconda]] || Class 5-7
+|-
+| [[Beluga Liner]] || Class 5-6
+|-
+| [[Caspian Explorer]] || Class 5-7
+|-
+| [[Federal Corvette]] || Class 5-7
+|-
+| [[Federal Gunship]] || Class 5-6
+|-
+| [[Imperial Cutter]] || Class 5-7
+|-
+| [[Keelback]] || Class 5
+|-
+| [[Krait Mk II]] || Class 5-6
+|-
+| [[Panther Clipper Mk II]] || Class 5-7
+|-
+| [[Type-9 Heavy]] || Class 5-7
+|-
+| [[Type-10 Defender]] || Class 5-7
+|-
+| [[Type-11 Prospector]] || Class 5-6
+|}
+
+== See also ==
+
+* [[Planetary Vehicle Hangar]]
+* [[Surface Recon Vehicles]]
+* [[Rhino]]
+* [[Surface Mining]]
+
+== References ==
+
+<references />
+
+[[Category:Modules]]
+[[Category:Ship modules]]
+[[Category:Surface Recon Vehicles]]

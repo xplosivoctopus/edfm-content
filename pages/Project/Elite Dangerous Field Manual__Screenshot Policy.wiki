@@ -3,10 +3,46 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Screenshot Policy
 Namespace: 4
 Page ID: 46
-Revision ID: 1537
-Timestamp: 2026-08-22T02:37:13Z
+Revision ID: 2909
+Timestamp: 2026-09-02T13:50:20Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Screenshot_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+Rules for screenshots and other original images on EDFM. See [[Elite Dangerous Field Manual:Image Use Policy]] for where images are and aren't allowed to come from and how licensing/classification works — this page covers the mechanical upload rules.
 
+== Only original screenshots ==
+Do not upload screenshots, art, or other images copied from Fandom, other wikis, or other websites. Only upload:
+* Screenshots you personally captured from the game.
+* Original diagrams/graphics you created.
+
+See [[Elite Dangerous Field Manual:Image Use Policy]] for the full reasoning, including why an image doesn't inherit a webpage's Creative Commons license and why synthetic or reconstructed images shouldn't be used as factual representations of anything.
+
+== Allowed formats (initial deployment) ==
+Currently accepted upload formats are '''PNG, JPEG, and WebP'''.
+
+'''SVG is not currently enabled.''' SVG files can contain active content, scripts, external references, and other features that require additional security consideration when user uploads are permitted. SVG support will remain disabled until EDFM's upload and rendering configuration has been specifically reviewed and appropriate safeguards are in place.
+
+Executable file types and files capable of being directly executed as application code are not permitted.
+
+== Size ==
+Maximum upload size is currently '''30&nbsp;MB'''. Prefer reasonably compressed PNG/WebP over huge uncompressed captures.
+
+== Summary, licensing, and captions ==
+These are three separate things used in three different places:
+
+* '''Summary''' — created with {{tl|EDFM image information}} and placed in the file description on <code>Special:Upload</code>. It describes the asset itself: what it depicts, its media type, who captured or created it, how it has been modified, what it is for, and who owns the underlying material. The template is pre-filled automatically into the upload description box.
+
+* '''Licensing''' — selected through the '''Licensing''' dropdown on <code>Special:Upload</code>. This generates a separate licensing section based on the selected classification, such as ''Elite Dangerous in-game screenshot''. See [[Elite Dangerous Field Manual:Image Use Policy]] for what each classification means. There is deliberately no generic ''unknown'' option.
+
+* '''Screenshot caption''' — added with {{tl|Screenshot caption}} on the article page where the image is actually displayed. It appears beneath the image and provides the appropriate inline credit to the commander or uploader.
+
+== What not to include ==
+* No third-party UI overlays or copyrighted tools' branding without permission.
+* No real-world personal information (usernames tied to real identity, chat logs naming other players without consent, etc.).
+* Avoid uploading images containing another player's in-game name in a way that could be seen as calling them out, unless it's incidental and non-hostile.
+
+== Metadata ==
+Unnecessary embedded metadata is stripped where practical on upload; the original is preserved when editorially useful (e.g. to verify capture date for a time-sensitive claim).
+
+{{Unofficial disclaimer}}

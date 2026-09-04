@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Rhino SRV Concept.webp
+Namespace: 6
+Page ID: 754
+Revision ID: 2571
+Timestamp: 2026-08-29T13:29:39Z
+Source URL: https://edfieldmanual.com/wiki/File:Rhino_SRV_Concept.webp
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = Official Frontier image of the Rhino SRV in Elite Dangerous.
+ |subject = Rhino SRV
+ |source = Official Frontier Developments / Elite Dangerous media
+ |media_type = Official promotional media
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the Rhino SRV article and related Surface Recon Vehicle pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Surface Recon Vehicle images]]
+
+== Licensing ==
+{{License-Official Frontier media}}

@@ -1,0 +1,52 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ExperimentalEffects/fsd double braced
+Namespace: 828
+Page ID: 780
+Revision ID: 2922
+Timestamp: 2026-09-02T14:14:18Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ExperimentalEffects/fsd_double_braced
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	id = "fsd_double_braced",
+	name = "Double Braced",
+	page = "Double Braced",
+	type = "Experimental Effect",
+	module_family_id = "frame_shift_drive",
+	module_family = "Frame Shift Drive",
+	module_pages = { "Frame Shift Drive", "Frame Shift Drive (SCO)" },
+	primary_effect = "Increases FSD integrity.",
+	tradeoff = "No direct range improvement.",
+	mechanical_behavior = "A durability-focused effect for commanders who value module survivability over jump optimization.",
+	stacking_behavior = "One Experimental Effect can be applied to a module at a time.",
+	compatible_blueprint_ids = { "fsd_increased_range", "fsd_faster_boot_sequence", "fsd_shielded" },
+	live_status = "Current Live",
+	fdname = "special_fsd_toughened",
+	source_status = "Cross-checked against EDSY live data and INARA current listings.",
+	changes = {
+		{
+			attribute = "integ",
+			value = 25,
+			unit = "%",
+		},
+	},
+	materials = {
+		{
+			id = "atdiwaec",
+			name = "Atypical Disrupted Wake Echoes",
+			quantity = 5,
+		},
+		{
+			id = "gaal",
+			name = "Galvanising Alloys",
+			quantity = 3,
+		},
+		{
+			id = "confco",
+			name = "Configurable Components",
+			quantity = 1,
+		},
+	},
+}

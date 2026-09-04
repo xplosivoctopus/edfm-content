@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Main
+Namespace: 10
+Page ID: 751
+Revision ID: 2564
+Timestamp: 2026-08-29T12:49:48Z
+Source URL: https://edfieldmanual.com/wiki/Template:Main
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<div role="note" class="hatnote navigation-not-searchable noexcerpt">Main article: [[{{{1}}}]]</div><noinclude>
+== Usage ==
+Adds a compact main-article hatnote at the start of a section.
+
+<pre>{{Main|Surface Mining}}</pre>
+
+[[Category:Templates]]
+</noinclude>

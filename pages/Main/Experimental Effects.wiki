@@ -3,24 +3,20 @@ EDFM current-content archive export.
 Title: Experimental Effects
 Namespace: 0
 Page ID: 97
-Revision ID: 1918
-Timestamp: 2026-08-24T21:21:31Z
+Revision ID: 2928
+Timestamp: 2026-09-02T14:14:23Z
 Source URL: https://edfieldmanual.com/wiki/Experimental_Effects
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Browse individual Experimental Effect articles as they're written and verified.}}
-{{Article status|status=Draft|mode=Both}}
+{{Article header|deck=Browse verified Experimental Effects generated from EDFM structured data.}}
+{{Article status|status=Partially verified|mode=Live|source_quality=Structured data is currently populated for the first Frame Shift Drive rollout batch. Additional Experimental Effect families will be added in later batches after verification.|notes=The directory is generated from [[Module:Data/ExperimentalEffects/index]] and individual Experimental Effect data records.}}
 
-Index of individual Experimental Effect articles — see [[:Category:Experimental Effects]] for the full list as it grows. See [[Elite Dangerous Field Manual:Engineering Architecture]] for the page structure and [[Thermal Vent]] for a populated (but still placeholder-content) example.
+This directory lists Experimental Effects from EDFM's structured data system. Experimental records remain separate from Blueprint records while linking back to compatible modules, Blueprints, Engineer availability, and material requirements.
 
-{{Draft warning}}
-
-== Experimental Effects ==
-{| class="wikitable"
-! Experimental Effect !! Compatible module types
-|-
-| [[Thermal Vent]] || Engineering data to be added
-|}
+{{#invoke:ExperimentalEffects|directory}}
 
 {{Engineering nav}}
+
+[[Category:Experimental Effects]]
+[[Category:Engineering]]

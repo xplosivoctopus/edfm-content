@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/EngineeringBlueprints/index
+Namespace: 828
+Page ID: 774
+Revision ID: 2916
+Timestamp: 2026-09-02T14:14:15Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/EngineeringBlueprints/index
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return { "fsd_increased_range", "fsd_faster_boot_sequence", "fsd_shielded" }

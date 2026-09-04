@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Contributing
 Namespace: 4
 Page ID: 43
-Revision ID: 1413
-Timestamp: 2026-08-21T13:56:39Z
+Revision ID: 2950
+Timestamp: 2026-09-02T15:03:59Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Contributing
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -16,6 +16,8 @@ How to contribute to EDFM.
 == Current stage ==
 EDFM is open to the public and actively under development. Anyone may create an account and contribute to the wiki. Logged-in users may edit pages. Logged-in users may upload permitted image types subject to file type, size, rate-limit, licensing, moderation, and anti-abuse rules. Anonymous uploads remain disabled. EDFM may later restrict account creation, editing, or uploads for spam, security, abuse-prevention, legal, or moderation reasons.
 
+Contributors can optionally sign in with Frontier or Discord (see [[Special:UserLogin]]) to link a third-party identity to their EDFM account. Discord sign-in uses Discord OAuth/OpenID Connect with <code>openid</code>, <code>identify</code>, and <code>email</code> for login/linking only; it is not required to edit.
+
 Contributors can optionally sign in with Frontier (see [[Special:UserLogin]]) to link a Frontier account to their EDFM account. Normal Frontier sign-in is for login/linking only and does not request Companion API (<code>capi</code>) access or grant the '''Verified Commander''' badge by itself. Commander-name verification is available as a separate optional Preferences action: a logged-in user may choose '''Attach CMDR Name''' to request <code>auth capi</code>, read their Commander name once, and attach Verified Commander status. The Commander name is private by default unless the user later enables public display. This is not required to edit &mdash; ordinary account creation and editing do not depend on Frontier verification.
 
 The site is still in an early stage, so many pages, templates, and systems are being expanded or refined as the project grows. Contributors are welcome to add information, improve existing pages, correct inaccuracies, and help develop the Field Manual.
@@ -24,6 +26,7 @@ The site is still in an early stage, so many pages, templates, and systems are b
 * '''Editing''': edits go through the normal wiki edit flow. Significant or gameplay-fact-bearing changes should carry {{tl|Article status}} with <code>status=Needs review</code> until checked against [[Elite Dangerous Field Manual:Verification Policy]].
 * '''Screenshots''': see [[Elite Dangerous Field Manual:Screenshot Policy]] before uploading anything.
 * '''Sourcing''': see [[Elite Dangerous Field Manual:Source Quality Guide|the source quality guide]] for what counts as a good source.
+* '''AI-generated contributor content''': see [[Elite Dangerous Field Manual:Editorial Policy#AI-generated contributor content|the AI-generated contributor content rule]].
 * '''Tone''': see [[Elite Dangerous Field Manual:Editorial Policy]].
 * '''Legal/privacy rules''': see [[Elite Dangerous Field Manual:Terms of Use]], [[Elite Dangerous Field Manual:Privacy Policy]], [[Elite Dangerous Field Manual:Cookie Policy]], and [[Elite Dangerous Field Manual:Image Use Policy]].
 

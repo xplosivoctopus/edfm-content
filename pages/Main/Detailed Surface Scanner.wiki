@@ -3,53 +3,663 @@ EDFM current-content archive export.
 Title: Detailed Surface Scanner
 Namespace: 0
 Page ID: 366
-Revision ID: 1897
-Timestamp: 2026-08-24T21:21:01Z
+Revision ID: 2610
+Timestamp: 2026-08-29T17:23:24Z
 Source URL: https://edfieldmanual.com/wiki/Detailed_Surface_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=The optional internal module used to scan planetary bodies and map rings for exploration and mining.
+{{Article header|deck=The optional internal module used to map planetary bodies, investigate surface features, locate biological habitat, and scan rings for mining hotspots.
 }}
 
-{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-24|reviewer=Sythan|source_quality=Well-established core mechanic plus Mining-section link integration; no citation-dependent figures asserted}}
+{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-24|reviewer=Sythan|source_quality=Well-established DSS mapping, exploration, mining, and Engineering mechanics; current Live exobiology behavior included|notes=2026-08-29: Signals Filter section, dynamic Biological/Geological tables (Module:SurfaceSignals), and dynamic Engineering table (Module:Engineers) added/integrated; two previously-malformed tables (blue overlay meaning, Analysis/Combat mode) corrected. Pre-existing prose otherwise unchanged. This addition has not itself been separately human-reviewed yet.}}
 
-The '''Detailed Surface Scanner''' ('''DSS''') is an optional internal module used to scan planets, moons, rings, and other bodies within a system, revealing surface detail, geological and biological signal counts, and other body-specific information used for exploration data value, site-hunting, and [[Mining|mining]] route planning.
+The '''Detailed Surface Scanner''' ('''DSS''') is an optional internal module used to map planets and moons and to scan [[Planetary Rings|planetary rings]].
+
+For explorers, the DSS increases the value of planetary survey data, reveals surface points of interest, supports [[First Mapped]] credit, and—on bodies containing biological or geological activity—provides additional surface information used to determine where those features may occur.
+
+For miners, the DSS is used to scan planetary rings and reveal [[Mining Hotspot|mining hotspots]].
+
+The Detailed Surface Scanner is distinct from the [[Discovery Scanner]], [[Full Spectrum System Scanner|Full Spectrum System Scanner (FSS)]], and [[Sensors]]. Each performs a different part of the ship's scanning workflow.
+
+<!-- IMAGE: Detailed Surface Scanner interface overview -->
 
 == Overview ==
 
-Firing Detailed Surface Scanner probes at a body reveals a fuller data set than the system-wide discovery scan alone provides, and is a prerequisite for locating many body-specific points of interest. It is distinct from [[Sensors]], the core internal module governing general contact detection range.
+The Detailed Surface Scanner is normally used after a body has already been discovered and identified.
+
+A typical exploration sequence is:
+
+Discovery Scanner → FSS → DSS → Surface Investigation
+
+The [[Discovery Scanner]] identifies that bodies are present within a system, while the [[Full Spectrum System Scanner|FSS]] allows those bodies to be discovered and identified remotely.
+
+The DSS is then used at close range to '''map''' an individual planet or moon.
+
+Mapping a body can:
+
+* increase the value of its exploration data;
+* qualify the Commander for [[First Mapped]] credit;
+* reveal persistent surface points of interest;
+* reveal surface regions associated with biological or geological features;
+* assist with [[Exobiology]] searches; and
+* provide more detailed planetary survey information.
+
+When used on a planetary ring, the DSS reveals [[Mining Hotspot|mining hotspots]].
+
+The DSS does '''not''' replace the FSS. A Commander will normally identify an interesting body with the FSS first, travel to it, and then use the DSS.
+
+== Using the Detailed Surface Scanner ==
+
+To map a planetary body:
+
+# Fit a [[Detailed Surface Scanner]] to the ship.
+
+# Assign '''Surface Scanner''' to a fire group.
+
+# Discover and identify the target body.
+
+# Travel to the body in [[Supercruise]].
+
+# Target the body.
+
+# Switch the ship to '''Analysis Mode'''.
+
+# Approach until the DSS is within operational range.
+
+# Reduce Supercruise speed sufficiently to remain near the body while scanning.
+
+# Activate the Surface Scanner using its assigned fire-group control.
+
+The Detailed Surface Scanner interface will open.
+
+<!-- IMAGE: DSS interface with controls identified -->
+
+== Mapping a planet or moon ==
+
+The DSS maps a planetary body by firing probes at its surface.
+
+Each probe maps an area surrounding its point of impact.
+
+The objective is to cover enough of the body for the scan to complete.
+
+<!-- IMAGE: Unmapped planet in DSS -->
+
+=== Probe coverage ===
+
+A probe aimed directly at the visible surface maps part of the hemisphere facing the ship.
+
+For efficient mapping, spread probes around the body rather than repeatedly striking overlapping areas.
+
+<!-- IMAGE: Near-side probe coverage -->
+
+The amount of terrain covered by each probe depends on the scanner's '''Probe Radius'''.
+
+A larger Probe Radius allows the Commander to map the same body with fewer probes.
+
+=== Mapping the far side ===
+
+The Commander does '''not''' need to fly around the planet to map its opposite side.
+
+When a probe is aimed beyond the visible edge of the body, gravity bends its trajectory around the planet or moon.
+
+Correctly aimed probes can therefore strike the far side.
+
+The DSS trajectory indicator shows whether the probe is expected to:
+
+* strike the visible hemisphere;
+* curve around toward the far hemisphere; or
+* miss the body entirely.
+
+<!-- IMAGE: DSS probe trajectory around the planetary limb -->
+
+The DSS also provides a front/back view control that can be used to inspect probe coverage on both hemispheres.
+
+=== Completing the map ===
+
+A body is considered fully mapped once probe coverage reaches the required threshold.
+
+The practical threshold is '''90% surface coverage'''. Once this is reached, the DSS automatically fills the remaining unmapped gaps and completes the body at '''100%'''.
+
+You therefore do not need to manually cover every last visible patch.
+
+<!-- IMAGE: 90% transitioning to 100% mapped -->
+
+DSS probes are automatically replenished, so Commanders do not need to carry probe ammunition as cargo.
+
+== Probe Efficiency Target ==
+
+Every mappable body has an '''Efficiency Target''' displayed in the DSS interface.
+
+For example:
+
+'''EFFICIENCY TARGET: 6'''
+
+means that the Commander should fully map the body using no more than six successful probes to receive the efficiency bonus.
+
+If the body is successfully mapped using the target number of probes or fewer, the Commander receives an additional exploration-data bonus.
+
+Using more probes does '''not''' invalidate the scan.
+
+The planet will still become fully mapped; the Commander simply misses the probe-efficiency bonus.
+
+'''Tip:''' Probe Radius is one of the most useful DSS characteristics for explorers because increasing it makes efficiency targets substantially easier to achieve.
+
+== First Mapped ==
+
+The Detailed Surface Scanner is used to earn the permanent '''First Mapped By''' tag.
+
+If a Commander maps a previously unmapped body and successfully submits the exploration data before another Commander does so, the body can permanently display:
+
+First Mapped By: CMDR Name
+
+Mapping the body alone does '''not''' secure the tag.
+
+The exploration data must be successfully submitted.
+
+This means another Commander can theoretically map the same body later, submit the data first, and receive the permanent First Mapped credit.
+
+See [[First Mapped]] for the complete mechanic.
+
+== Biological signals ==
+
+'''Current Live only:''' The biological habitat filtering described in this section relates to current Live [[Exobiology]] gameplay. Legacy does not contain Odyssey Exobiology gameplay, although the core DSS planetary-mapping mechanics remain applicable.
+
+The Detailed Surface Scanner is one of the most important tools used during [[Exobiology]].
+
+A body's biological signal count can be identified before the Commander performs the Detailed Surface Scan. Mapping the body with the DSS then reveals surface filters that help determine '''where each detected biological genus can occur'''.
+
+A planet with:
+
+Biological Signals: 4
+
+does not necessarily contain four specimens.
+
+It indicates four biological signal types are present on the body.
+
+After the DSS mapping process is complete, the Commander can cycle through the biological filters to investigate them individually. The full current list of biological and geological signals EDFM tracks, and how each behaves on the DSS, is in [[#Signals Filter|Signals Filter]] below.
+
+<!-- IMAGE: Planet showing Biological Signals count -->
+
+== Signals Filter ==
+
+Once a body is mapped, the DSS surface view offers a '''Signals Filter''' that cycles through every biological or geological signal detected on that body. The available filters depend entirely on what is actually present on the body being scanned.
+
+# Map the body with the DSS (see [[#Mapping a planet or moon|Mapping a planet or moon]] above).
+# Remain in or return to the DSS surface view.
+# Locate the '''Signals Filter'''.
+# Cycle through the available signals.
+# Select the one you want to investigate.
+# Examine the blue surface overlay.
+
+The overlay can change substantially when switching between signals — a region suitable for one genus may differ considerably from the region suitable for another on the same planet. See [[#Understanding the blue biological overlay|Understanding the blue biological overlay]] below for how to read it.
+
+<!-- IMAGE: Same planet with Biological Filter A -->
+
+<!-- IMAGE: Same planet with Biological Filter B -->
+
+EDFM maintains the reference list of biological and geological signal types as structured data (see [[Elite Dangerous Field Manual:Adding Structured Data]]), so the tables below stay in sync with [[Exobiology]] and any future species pages automatically rather than being duplicated by hand.
+
+=== Biological ===
+
+Current Live [[Exobiology]] identifies surface organisms by '''genus''', and each genus has its own individually named DSS filter — selecting "Bacterium" shows only terrain suitable for Bacterium, not for any other genus on the body.
+
+A separate group of '''older, pre-Odyssey surface biological structures''' (Amphora Plant, Anemone, Bark Mound, Brain Tree, Crystalline Shard, Sinuous Tuber) predates the genus-based Exobiology system and was never folded into it. {{Unverified claim|EDFM has not yet independently confirmed whether current-Live DSS mapping exposes each of these as its own individually named filter, only as a general "Biological" signal, or not at all — this is marked explicitly unverified in the underlying data (see Module:Data/SurfaceSignals/Biological) rather than assumed either way. Do not assume a Brain Tree or Crystalline Shard necessarily appears as its own named DSS filter.}}
+
+{{#invoke:SurfaceSignals|table|type=Biological}}
+
+==== Fumerola or Fumarole? ====
+
+These names look alike but are '''not''' the same thing, and are not aliases of each other:
+
+* '''[[Fumerola]]''' — a biological Exobiology genus (life).
+* '''[[Fumarole]]''' — a geological feature (volcanism/venting), covered in the next subsection.
+
+Double-check which one you mean before searching — they occur under completely different circumstances.
+
+=== Geological ===
+
+Geological DSS filters work on the same broad principle as biological ones: '''the highlighted region identifies suitable terrain, not the exact position of every geological formation.''' The Commander must still travel into that area and locate the feature itself.
+
+{{#invoke:SurfaceSignals|table|type=Geological}}
+
+<!-- IMAGE: Geological DSS filter -->
+
+== Understanding the blue biological overlay ==
+
+'''The blue DSS overlay is not a biological density heatmap.'''
+
+This is one of the most important things to understand when using the DSS for Exobiology.
+
+Blue terrain indicates an area in which the currently selected biological feature '''can occur'''.
+
+It does '''not''' mean that every part of that blue region contains biological specimens.
+
+It also does not mean that a darker-looking or brighter-looking blue area contains more organisms.
+
+{| class="wikitable"
+! DSS display !! Meaning
+|-
+| Blue terrain
+| Terrain capable of supporting the selected biological feature
+|-
+| Terrain without the blue overlay
+| The selected feature is not expected to occur there
+|-
+| Darker or lighter-looking blue
+| Do not interpret this as biological density
+|}
+
+The current system replaced an earlier heatmap-style concept.
+
+The DSS should therefore be treated as a '''habitat map''', not a population-density map.
+
+<!-- IMAGE: Biological overlay demonstrating differently shaded terrain -->
+
+=== Why does the blue look different? ===
+
+The overlay can appear lighter, darker, greener, or otherwise visually different depending on:
+
+* the underlying surface colour;
+* terrain geometry;
+* planetary lighting;
+* the system's star;
+* shadows;
+* graphical settings; and
+* the interaction between the terrain and DSS overlay.
+
+Do not assume that these visual differences indicate better biological concentrations.
+
+The important distinction is generally:
+
+'''Blue''' = possible habitat
+
+'''Not blue''' = unsuitable for the currently selected signal
+
+== Tired of seeing blue? ==
+
+The DSS biological overlay is useful for identifying suitable habitat, but it can also make the planet's actual terrain difficult to see from orbit.
+
+There is a simple solution:
+
+'''Switch from Analysis Mode to Combat Mode.'''
+
+The blue DSS overlay disappears and the normal planetary surface becomes visible again.
+
+Switch back to '''Analysis Mode''' when you want to view the biological overlay.
+
+This is particularly useful when selecting an Exobiology search area:
+
+# Enter '''Analysis Mode'''.
+
+# Select the biological signal you want to find.
+
+# Locate a suitable blue region.
+
+# Switch to '''Combat Mode'''.
+
+# Examine the actual terrain underneath that region.
+
+# Look for terrain appropriate to the organism.
+
+# Switch back to '''Analysis Mode''' if you need to compare the location against the biological overlay.
+
+# Repeat until you have chosen a good approach point.
+
+<!-- IMAGE: Same location in Analysis Mode -->
+
+<!-- IMAGE: Same location in Combat Mode -->
+
+'''Tip:''' Think of the two cockpit modes as two layers of the same map:
+
+{| class="wikitable"
+! Mode !! Use
+|-
+| '''Analysis Mode'''
+| Shows where the selected biological signal can potentially occur
+|-
+| '''Combat Mode'''
+| Shows what the underlying planetary terrain actually looks like
+|}
+
+Alternating between the two can make choosing a landing area considerably easier.
+
+== What the DSS does not tell you ==
+
+The DSS tells you where an organism '''can''' occur.
+
+It does not tell you precisely where an individual colony will spawn.
+
+Entering a large blue region does not guarantee that biological specimens will immediately be visible.
+
+Actual biological distribution also depends on the terrain preferences and environmental requirements of the organism.
+
+Depending on the genus or species, suitable locations may favour:
+
+* broad plains;
+* smooth terrain;
+* rocky ground;
+* mountain slopes;
+* highlands;
+* valleys;
+* ravines;
+* crater floors;
+* crater rims;
+* ice fields; or
+* other specific terrain.
+
+This is why simply flying toward "the bluest part" of a planet can result in a long and unsuccessful search.
+
+The better method is:
+
+DSS habitat filter + correct terrain + surface search
+
+See [[Exobiology]] and individual biological pages for habitat information.
+
+== Approaching a biological region ==
+
+Once a suitable DSS region has been identified:
+
+# Select the biological filter you want to search.
+
+# Locate a sufficiently large blue region.
+
+# Switch to Combat Mode to inspect the terrain underneath it.
+
+# Identify terrain that appears appropriate for the selected organism.
+
+# Aim toward that region.
+
+# Begin orbital descent.
+
+# Enter planetary glide.
+
+# Descend to a safe search altitude.
+
+# Search the area visually or with available biological detection equipment.
+
+Choosing a good search area from orbit is generally more efficient than repeatedly landing at random points within the blue overlay.
+
+'''Important:''' Being inside the blue region means only that the organism '''can''' occur there. It does not guarantee that the Commander is directly above a specimen.
+
+<!-- IMAGE: Selected Exobiology approach location -->
+
+== Finding difficult biological signals ==
+
+Some biological organisms are much easier to locate than others.
+
+=== Bacterium ===
+
+[[Bacterium]] can be particularly difficult to find from the air.
+
+Unlike taller biological structures, Bacterium colonies grow as low, flat patches that can blend into the surrounding terrain.
+
+Depending on the species and planetary surface, they may resemble:
+
+* stains;
+* discoloured circles;
+* irregular patches;
+* pools;
+* flattened growths; or
+* subtle changes in surface texture.
+
+<!-- IMAGE: Bacterium viewed from the ship -->
+
+Flat or gently rolling terrain can make them easier to identify because there are fewer rocks, shadows, and terrain features obscuring the surface.
+
+When searching for Bacterium, flying slowly at low altitude and watching for unusual patches of colour or texture can be substantially more effective than repeatedly landing.
+
+=== Larger biological structures ===
+
+Tall or visually distinctive organisms are generally easier to spot from the air.
+
+Once the correct DSS habitat has been identified, slowly flying across suitable terrain can allow structures to become visible before the Commander lands.
+
+=== Surface biological scanners ===
+
+Available biological detection equipment can further narrow the search after reaching the surface.
+
+The DSS should therefore be considered the '''regional search tool'''.
+
+It tells the Commander which broad portions of a planetary body are suitable.
+
+Visual searching, surface vehicles, and biological scanners are then used to locate the actual specimens.
 
 == Mining role ==
 
-For mining, the DSS is used to map [[Planetary Rings|planetary rings]] and reveal [[Mining Hotspot|mining hotspots]]. A hotspot marker helps commanders choose where to enter a ring for [[Laser Mining|laser]], [[Core Mining|core]], or [[Sub-surface Mining|sub-surface]] runs.
+The Detailed Surface Scanner is also a core [[Mining]] tool.
 
-A hotspot is only a targeting aid. After dropping into the ring, commanders still need to prospect individual asteroids, extract with the correct equipment, collect fragments or deposits, refine cargo, and verify current sell prices.
+For mining, the DSS is used to scan [[Planetary Rings|planetary rings]] and reveal [[Mining Hotspot|mining hotspots]].
+
+A hotspot identifies a region of a ring associated with an increased likelihood of encountering a particular resource.
+
+Hotspots may be useful for:
+
+* [[Laser Mining|laser mining]];
+* [[Core Mining|core mining]];
+* [[Sub-surface Mining|sub-surface mining]]; and
+* locating particular mineable commodities.
+
+=== Scanning a planetary ring ===
+
+To scan a ring:
+
+# Target the body containing the ring.
+
+# Approach the body in Supercruise.
+
+# Enter the DSS interface.
+
+# Aim the probe reticle at the ring.
+
+# Confirm that the probe trajectory intersects the ring.
+
+# Fire a probe into it.
+
+A successfully scanned ring reveals its mining hotspots.
+
+<!-- IMAGE: Ring before DSS scan -->
+
+<!-- IMAGE: Ring with DSS probe in flight -->
+
+<!-- IMAGE: Ring after scan showing hotspots -->
+
+Hotspots may identify resources such as:
+
+* [[Platinum]]
+* [[Painite]]
+* [[Tritium]]
+* [[Low Temperature Diamonds]]
+* [[Void Opals]]
+* and other mineable commodities.
+
+A hotspot marker helps Commanders choose where to enter the ring, but it does '''not''' identify individual valuable asteroids.
+
+After dropping into the ring, Commanders still need to:
+
+# locate suitable asteroids;
+
+# use a [[Prospector Limpet Controller|Prospector Limpet]] where appropriate;
+
+# determine asteroid contents;
+
+# use the correct mining equipment;
+
+# extract the material;
+
+# collect fragments, deposits, or released resources;
+
+# refine material where required; and
+
+# locate an appropriate market for sale.
+
+A hotspot is therefore a '''search-area indicator''', not a guarantee that every asteroid inside it contains the named commodity.
+
+See [[Mining]] and [[Mining Hotspot]] for more information.
+
+== Common mistakes ==
+
+=== Treating the biological overlay as a heatmap ===
+
+Do not fly toward the darkest-looking blue area expecting a higher concentration of biological life.
+
+The current DSS biological overlay does not provide density information.
+
+Use it to determine where the organism '''can''' occur.
+
+Then inspect the actual terrain.
+
+=== Searching blue terrain without considering habitat ===
+
+A blue region can cover multiple terrain types.
+
+The selected organism may strongly favour only part of that terrain.
+
+Switch into '''Combat Mode''' to inspect what is underneath the overlay before committing to an approach.
+
+=== Expecting exact biological markers ===
+
+The DSS does not normally place a navigation marker over every biological colony.
+
+It narrows the search area.
+
+The Commander still has to locate the organism.
+
+=== Forgetting to change biological filters ===
+
+A body containing several biological signals may have a different habitat overlay for each genus.
+
+Do not assume one blue overlay represents every organism on the planet.
+
+Cycle through the Signals Filter individually.
+
+=== Searching outside the selected habitat ===
+
+If the selected biological filter does not show suitable habitat in an area, there is generally little reason to search that terrain for that organism.
+
+Choose an area highlighted for the specific genus you want.
+
+=== Assuming blue means guaranteed biology ===
+
+Even completely blue terrain may contain long stretches where no specimen is immediately visible.
+
+Blue means:
+
+Possible
+
+not:
+
+Guaranteed here
+
+=== Manually trying to reach 100% mapping coverage ===
+
+The DSS automatically completes the remaining coverage once the required mapping threshold has been reached.
+
+You do not need to manually paint every remaining gap with probes.
+
+=== Flying around the planet to reach the back ===
+
+Use probe trajectory curvature instead.
+
+The DSS is specifically designed to allow probes to curve around the planetary limb and strike the far side.
+
+=== Confusing discovery with mapping ===
+
+The FSS and DSS do different jobs.
+
+The FSS identifies the body from elsewhere in the system.
+
+The DSS maps it after the Commander travels to it.
+
+== Exploration workflow ==
+
+A typical planetary exploration workflow is:
+
+# Enter the system.
+
+# Use the [[Discovery Scanner]].
+
+# Open the [[Full Spectrum System Scanner|FSS]].
+
+# Discover and identify the system's bodies.
+
+# Inspect potentially valuable or interesting planets and moons.
+
+# Check for biological, geological, atmospheric, and other notable properties.
+
+# Travel to a selected body.
+
+# Map it with the [[Detailed Surface Scanner|DSS]].
+
+# Meet the Probe Efficiency Target where practical.
+
+# Inspect biological or geological filters if present.
+
+# Switch between Analysis Mode and Combat Mode to compare DSS habitat with actual terrain.
+
+# Choose a suitable surface approach.
+
+# Investigate the body.
+
+# Perform [[Exobiology]] sampling or other surface activities where appropriate.
+
+# Submit exploration data to [[Universal Cartographics]].
+
+# Submit biological samples to [[Vista Genomics]] where applicable.
+
+== Engineering ==
+
+The standard Detailed Surface Scanner can be engineered with '''Expanded Probe Scanning Radius'''.
+
+This increases the Probe Radius, allowing each probe to map a larger area.
+
+For explorers who frequently map planets, increased Probe Radius makes it easier to achieve Probe Efficiency Targets and reduces the number of probes required for routine mapping.
+
+{{#invoke:Engineers|moduleEngineers|module=Detailed Surface Scanner|label=Maximum DSS grade}}
+
+For the standard '''Expanded Probe Scanning Radius''' blueprint, Grade 5 provides greater probe coverage than the standard unengineered module. Tiana Fortune and Felicity Farseer currently cap out at Grade 3.
+
+There is no standard experimental effect for the Detailed Surface Scanner.
+
+=== Engineered Detailed Surface Scanner V1 ===
+
+The '''[[Engineered Detailed Surface Scanner V1]]''' is a separate, specifically-named Detailed Surface Scanner sold by Human Technology Brokers — distinct from the plain module you start with or buy from outfitting.
+
+{{Community observation|It reportedly ships with '''Expanded Probe Scanning Radius applied twice''' (stacked), giving roughly a 40% probe radius increase — more than the ~30% a normally engineered Grade 5 module achieves, since only one application of a modification is normally possible. Applying further Engineering to it is reported to strip the stacked second application, reverting it to ordinary single-modification behaviour rather than leaving it locked or unusable. This specific mechanism has not been confirmed against a primary Frontier source; treat it as well-established community understanding pending direct verification.}}
+
+Unlike ordinary Technology Broker unlocks that permanently make an item available for credit purchase, obtaining additional Engineered Detailed Surface Scanner V1 modules requires providing the required materials again for each module.
+
+Commanders should verify the module's current applied modification before deciding whether to engineer it further, since doing so is understood to trade away the stacked bonus described above.
+
+=== Related Engineering Guides ===
+
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Exploration]] [[Mining]] [[Planetary Rings]] [[Mining Hotspot]]}}
+
+{{Engineering nav}}
 
 == Related Field Procedures ==
 
 {{Related procedures|page=Detailed Surface Scanner}}
 
-== Engineering ==
+== Related articles ==
 
-{| class="wikitable"
-! Engineer !! Maximum grade
-|-
-| [[Felicity Farseer]] || Grade 3
-|-
-| [[Hera Tani]] || Grade 5
-|-
-| [[Lei Cheung]] || Grade 5
-|}
-
-Both [[Hera Tani]] (at [[The Jet's Hole]] in [[Kuwemaki]]) and [[Lei Cheung]] (at [[Trader's Rest]] in [[Laksak]]) are EDFM's currently documented Grade 5 Detailed Surface Scanner Engineers.
-
-=== Related Engineering Guides ===
-{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Exploration]] [[Mining]] [[Planetary Rings]] [[Mining Hotspot]]}}
-
-{{Engineering nav}}
+* [[Exploration]]
+* [[Discovery Scanner]]
+* [[Full Spectrum System Scanner]]
+* [[Exobiology]]
+* [[First Mapped]]
+* [[First Footfall]]
+* [[Universal Cartographics]]
+* [[Vista Genomics]]
+* [[Planetary Rings]]
+* [[Mining]]
+* [[Mining Hotspot]]
+* [[Laser Mining]]
+* [[Core Mining]]
+* [[Sub-surface Mining]]
 
 [[Category:Modules]]
 [[Category:Optional Internal Engineering]]
 [[Category:Engineering]]
+[[Category:Exploration]]
 [[Category:Mining]]

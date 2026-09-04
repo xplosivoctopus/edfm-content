@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.js
 Namespace: 8
 Page ID: 72
-Revision ID: 2322
-Timestamp: 2026-08-26T19:06:54Z
+Revision ID: 2779
+Timestamp: 2026-08-31T20:37:05Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.js
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -307,6 +307,181 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		} );
 	}
 
+	/* 8. Fleet Carrier Administration directory (Module:FleetCarriers,
+	 * transcluded on [[Fleet Carrier Administration Systems]]). The Lua
+	 * module renders a plain, fully-populated, natively-sortable
+	 * `wikitable sortable` per status group inside #edfm-fc-directory, with
+	 * an empty #edfm-fc-toolbar placeholder. This only builds the search/
+	 * status/region controls into that placeholder and wires them to
+	 * show/hide rows -- with JS off the placeholder stays empty and every
+	 * row from every group is simply visible and sortable, so nothing is
+	 * lost, only the filtering itself. Bails out immediately on any other
+	 * page (this specific container just won't exist there).
+	 */
+	function initFleetCarrierDirectory() {
+		var container = document.getElementById( 'edfm-fc-directory' );
+		var toolbar = document.getElementById( 'edfm-fc-toolbar' );
+		if ( !container || !toolbar ) {
+			return;
+		}
+
+		var rows = Array.prototype.slice.call( container.querySelectorAll( 'tr[data-fc-row]' ) );
+		if ( !rows.length ) {
+			return;
+		}
+
+		// Built here rather than emitted by the Lua module: it only ever
+		// needs to exist once filtering is actually possible, and relying
+		// on the HTML `hidden` attribute surviving in the module's static
+		// output isn't safe (Sanitizer strips it in this MW config) --
+		// setting the `hidden` DOM property directly from here always works.
+		var noResults = document.createElement( 'p' );
+		noResults.className = 'edfm-fc-empty-state';
+		noResults.id = 'edfm-fc-no-results';
+		noResults.textContent = 'No systems match the current filters.';
+		noResults.hidden = true;
+		toolbar.parentNode.insertBefore( noResults, toolbar.nextSibling );
+
+		var statusLabels = {
+			verified: 'Verified',
+			disputed: 'Disputed',
+			unverified: 'Reported / Unverified',
+			unavailable: 'Confirmed Unavailable'
+		};
+
+		// Only offer filter options that actually have at least one row on
+		// this page -- e.g. no "Disputed" option while zero rows carry
+		// data-status="disputed".
+		var presentStatuses = [];
+		var hasEdfmVerified = false;
+		rows.forEach( function ( row ) {
+			var status = row.getAttribute( 'data-status' );
+			if ( status && presentStatuses.indexOf( status ) === -1 ) {
+				presentStatuses.push( status );
+			}
+			if ( row.getAttribute( 'data-edfm-verified' ) === 'true' ) {
+				hasEdfmVerified = true;
+			}
+		} );
+
+		var regions = [];
+		rows.forEach( function ( row ) {
+			var region = row.getAttribute( 'data-region' );
+			if ( region && regions.indexOf( region ) === -1 ) {
+				regions.push( region );
+			}
+		} );
+
+		function addField( labelText, id ) {
+			var field = document.createElement( 'div' );
+			field.className = 'edfm-fc-toolbar-field';
+			var label = document.createElement( 'label' );
+			label.setAttribute( 'for', id );
+			label.textContent = labelText;
+			field.appendChild( label );
+			toolbar.appendChild( field );
+			return field;
+		}
+
+		var searchField = addField( 'Search', 'edfm-fc-search' );
+		var searchInput = document.createElement( 'input' );
+		searchInput.type = 'search';
+		searchInput.id = 'edfm-fc-search';
+		searchInput.placeholder = 'System name…';
+		searchField.appendChild( searchInput );
+
+		var statusSelect = null;
+		if ( presentStatuses.length > 1 || hasEdfmVerified ) {
+			var statusField = addField( 'Status', 'edfm-fc-status' );
+			statusSelect = document.createElement( 'select' );
+			statusSelect.id = 'edfm-fc-status';
+			var allStatusOption = document.createElement( 'option' );
+			allStatusOption.value = '';
+			allStatusOption.textContent = 'All statuses';
+			statusSelect.appendChild( allStatusOption );
+			presentStatuses.forEach( function ( status ) {
+				var option = document.createElement( 'option' );
+				option.value = status;
+				option.textContent = statusLabels[ status ] || status;
+				statusSelect.appendChild( option );
+			} );
+			if ( hasEdfmVerified ) {
+				var edfmOption = document.createElement( 'option' );
+				edfmOption.value = 'edfm-verified';
+				edfmOption.textContent = 'EDFM Verified only';
+				statusSelect.appendChild( edfmOption );
+			}
+			statusField.appendChild( statusSelect );
+		}
+
+		var regionSelect = null;
+		if ( regions.length > 1 ) {
+			regions.sort();
+			var regionField = addField( 'Region', 'edfm-fc-region' );
+			regionSelect = document.createElement( 'select' );
+			regionSelect.id = 'edfm-fc-region';
+			var allRegionOption = document.createElement( 'option' );
+			allRegionOption.value = '';
+			allRegionOption.textContent = 'All regions';
+			regionSelect.appendChild( allRegionOption );
+			regions.forEach( function ( region ) {
+				var option = document.createElement( 'option' );
+				option.value = region;
+				option.textContent = region;
+				regionSelect.appendChild( option );
+			} );
+			regionField.appendChild( regionSelect );
+		}
+
+		function applyFilters() {
+			var query = searchInput.value.trim().toLowerCase();
+			var statusFilter = statusSelect ? statusSelect.value : '';
+			var regionFilter = regionSelect ? regionSelect.value : '';
+			var visibleCount = 0;
+
+			rows.forEach( function ( row ) {
+				var matchesSearch = !query || ( row.getAttribute( 'data-system' ) || '' ).indexOf( query ) !== -1;
+				var matchesStatus = true;
+				if ( statusFilter === 'edfm-verified' ) {
+					matchesStatus = row.getAttribute( 'data-edfm-verified' ) === 'true';
+				} else if ( statusFilter ) {
+					matchesStatus = row.getAttribute( 'data-status' ) === statusFilter;
+				}
+				var matchesRegion = !regionFilter || row.getAttribute( 'data-region' ) === regionFilter;
+				var visible = matchesSearch && matchesStatus && matchesRegion;
+				row.style.display = visible ? '' : 'none';
+				if ( visible ) {
+					visibleCount++;
+				}
+			} );
+
+			Array.prototype.forEach.call( container.querySelectorAll( '.edfm-fc-group' ), function ( group ) {
+				var groupRows = group.querySelectorAll( 'tr[data-fc-row]' );
+				var anyVisible = Array.prototype.some.call( groupRows, function ( row ) {
+					return row.style.display !== 'none';
+				} );
+				group.style.display = anyVisible ? '' : 'none';
+			} );
+
+			if ( noResults ) {
+				noResults.hidden = visibleCount !== 0;
+			}
+		}
+
+		searchInput.addEventListener( 'input', applyFilters );
+		if ( statusSelect ) {
+			statusSelect.addEventListener( 'change', applyFilters );
+		}
+		if ( regionSelect ) {
+			regionSelect.addEventListener( 'change', applyFilters );
+		}
+
+		// Establish correct initial state -- without this, every row stays
+		// visible (correct) but a stale/mismatched noResults.hidden could
+		// otherwise never get set at all before the first user interaction.
+		applyFilters();
+	}
+
 	if ( document.readyState === 'loading' ) {
 		document.addEventListener( 'DOMContentLoaded', function () {
 			placeEyebrow();
@@ -315,6 +490,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 			initTopBarClocks();
 			initFrontierNewsExternalLinks();
 			initMobileChrome();
+			initFleetCarrierDirectory();
 		} );
 	} else {
 		placeEyebrow();
@@ -323,6 +499,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		initTopBarClocks();
 		initFrontierNewsExternalLinks();
 		initMobileChrome();
+		initFleetCarrierDirectory();
 	}
 }() );
 
@@ -642,4 +819,104 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		});
 	}
 	mw.hook('wikipage.content').add(applyGalNetArchiveTargets);
+}());
+
+/* Add EDFM GitHub repository badges to the footer. */
+(function () {
+	function addFooterRepositoryBadges() {
+		if (document.getElementById('edfm-footer-repo-badges')) { return; }
+		var footer = document.getElementById('footer');
+		var footerPlaces = document.getElementById('footer-places');
+		var footerInfo = document.getElementById('footer-info');
+		if (!footer) { return; }
+
+		var wrap = document.createElement('div');
+		wrap.id = 'edfm-footer-repo-badges';
+		wrap.setAttribute('aria-label', 'EDFM GitHub repositories');
+
+		var repos = [
+			{
+				href: 'https://github.com/xplosivoctopus/edfm',
+				alt: 'GitHub source repository',
+				src: 'https://img.shields.io/badge/GitHub-source-2ea44f?logo=github&labelColor=24292f&style=flat'
+			},
+			{
+				href: 'https://github.com/xplosivoctopus/edfm-content',
+				alt: 'GitHub content archive repository',
+				src: 'https://img.shields.io/badge/GitHub-content%20archive-2ea44f?logo=github&labelColor=24292f&style=flat'
+			}
+		];
+
+		repos.forEach(function (repo) {
+			var link = document.createElement('a');
+			link.href = repo.href;
+			link.target = '_blank';
+			link.rel = 'noopener noreferrer';
+			var img = document.createElement('img');
+			img.src = repo.src;
+			img.alt = repo.alt;
+			img.loading = 'lazy';
+			link.appendChild(img);
+			wrap.appendChild(link);
+		});
+
+		if (footerPlaces && footerPlaces.parentNode) {
+			footerPlaces.parentNode.insertBefore(wrap, footerPlaces);
+		} else if (footerInfo && footerInfo.parentNode && footerInfo.nextSibling) {
+			footerInfo.parentNode.insertBefore(wrap, footerInfo.nextSibling);
+		} else {
+			footer.appendChild(wrap);
+		}
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', addFooterRepositoryBadges);
+	} else {
+		addFooterRepositoryBadges();
+	}
+}());
+
+/* EDFM navigation refinement behavior */
+(function () {
+	function refineNavigation() {
+		var search = document.getElementById('searchInput');
+		if (search) {
+			search.setAttribute('placeholder', 'Search EDFM');
+			search.setAttribute('aria-label', 'Search EDFM');
+			var title = search.getAttribute('title') || '';
+			if (title.indexOf('Search Elite Dangerous Field Manual') !== -1) {
+				search.setAttribute('title', title.replace('Search Elite Dangerous Field Manual', 'Search EDFM'));
+			}
+		}
+
+		var tools = document.getElementById('p-tb');
+		if (tools && !tools.querySelector('.edfm-tools-toggle')) {
+			var heading = tools.querySelector('.vector-menu-heading');
+			var content = tools.querySelector('.vector-menu-content');
+			if (content) {
+				var button = document.createElement('button');
+				button.type = 'button';
+				button.className = 'edfm-tools-toggle';
+				button.setAttribute('aria-expanded', 'false');
+				button.innerHTML = '<span>Page tools</span><span aria-hidden="true">+</span>';
+				button.addEventListener('click', function () {
+					var expanded = tools.classList.toggle('edfm-tools-expanded');
+					tools.classList.toggle('edfm-tools-collapsed', !expanded);
+					button.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+					button.lastElementChild.textContent = expanded ? '−' : '+';
+				});
+				if (heading && heading.parentNode === tools) {
+					heading.insertAdjacentElement('afterend', button);
+				} else {
+					tools.insertBefore(button, content);
+				}
+				tools.classList.add('edfm-tools-collapsed');
+			}
+		}
+	}
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', refineNavigation);
+	} else {
+		refineNavigation();
+	}
 }());

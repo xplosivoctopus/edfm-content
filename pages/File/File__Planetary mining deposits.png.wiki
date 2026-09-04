@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Planetary mining deposits.png
+Namespace: 6
+Page ID: 796
+Revision ID: 3032
+Timestamp: 2026-09-03T04:29:35Z
+Source URL: https://edfieldmanual.com/wiki/File:Planetary_mining_deposits.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of the planetary mining deposits in Elite Dangerous.
+ |subject = [[Rhino]]
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[Rhino]] article and related Surface Recon Vehicle pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Surface Recon Vehicle images]]
+
+== Licensing ==
+{{License-ED screenshot}}

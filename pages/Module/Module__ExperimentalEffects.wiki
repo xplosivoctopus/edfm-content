@@ -1,0 +1,33 @@
+<!--
+EDFM current-content archive export.
+Title: Module:ExperimentalEffects
+Namespace: 828
+Page ID: 773
+Revision ID: 2915
+Timestamp: 2026-09-02T14:14:14Z
+Source URL: https://edfieldmanual.com/wiki/Module:ExperimentalEffects
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+
+local p = {}
+local dataPrefix = 'Data/ExperimentalEffects/'
+local bpPrefix = 'Data/EngineeringBlueprints/'
+local attrLabels = { mass='Mass', integ='Integrity', pwrdraw='Power draw', fsdoptmass='Optimized mass', fsdheat='Thermal load', maxfuel='Maximum fuel per jump' }
+local function isNonEmpty(v) return v ~= nil and tostring(v) ~= '' end
+local function esc(s) return mw.text.encode(tostring(s or '')) end
+local function link(page,label) if not isNonEmpty(page) then return nil end; label=label or page; return '[['..page..'|'..label..']]' end
+local function loadJson(titleText) local okData,data=pcall(mw.loadData,'Module:'..titleText); if okData and type(data)=='table' then return data end; local t=mw.title.new(titleText,'Module'); local c=t and t:getContent(); if not c then return nil end; local ok,d=pcall(mw.text.jsonDecode,c); if ok and type(d)=='table' then return d end; return nil end
+local function index() return loadJson(dataPrefix..'index') or {} end
+local function record(id) return isNonEmpty(id) and loadJson(dataPrefix..id) or nil end
+local function bp(id) return loadJson(bpPrefix..id) end
+local function changeText(c) local label=attrLabels[c.attribute] or c.attribute; local v=tonumber(c.value) or c.value; local prefix=(type(v)=='number' and v>0) and '+' or ''; return label..' '..prefix..tostring(v)..(c.unit or '') end
+local function changesList(changes) local out={}; for _,c in ipairs(changes or {}) do table.insert(out,changeText(c)) end; return table.concat(out,'<br>') end
+local function materialList(mats) local out={}; for _,m in ipairs(mats or {}) do table.insert(out,(link(m.name) or esc(m.name))..' × '..esc(m.quantity or 1)) end; return table.concat(out,'<br>') end
+local function compatibleBlueprints(d) local out={}; for _,id in ipairs(d.compatible_blueprint_ids or {}) do local b=bp(id); if b then table.insert(out,link(b.page or b.name,b.name)) end end; return table.concat(out,'<br>') end
+function p.infobox(frame) local id=frame.args[1] or frame.args.id or mw.title.getCurrentTitle().text; local d=record(id); if not d then return '<strong class="error">Unknown Experimental Effect ID: '..esc(id)..'</strong>' end; local args={name=d.name,label1='Type',row1='Experimental Effect',group1='ENGINEERING',label2='Compatible module',row2=link(d.module_family,d.module_family) or esc(d.module_family),label3='Primary effect',row3=esc(d.primary_effect),label4='Tradeoff',row4=esc(d.tradeoff),label5='Compatible Blueprints',row5=compatibleBlueprints(d),label6='Stacking',row6=esc(d.stacking_behavior),group7='STATUS',label7='Live status',row7=esc(d.live_status or 'Current Live')}; return frame:expandTemplate{title='Infobox',args=args} end
+function p.effectsTable(frame) local id=frame.args[1] or frame.args.id or mw.title.getCurrentTitle().text; local d=record(id); if not d then return '' end; return '{| class="wikitable edfm-engineering-table"\n! Attribute changes !! Materials\n|-\n| '..changesList(d.changes)..' || '..materialList(d.materials)..'\n|}' end
+function p.compatibleBlueprints(frame) local id=frame.args[1] or frame.args.id or mw.title.getCurrentTitle().text; local d=record(id); if not d then return '' end; local v=compatibleBlueprints(d); if v=='' then return 'No compatible Blueprints are currently listed in structured data.' end; return v end
+function p.directory(frame) local groups={}; for _,id in ipairs(index()) do local d=record(id); if d then local k=d.module_family or 'Other'; groups[k]=groups[k] or {}; table.insert(groups[k],d) end end; local out={}; for module,rows in pairs(groups) do table.insert(out,'== '..module..' =='); table.insert(out,'{| class="wikitable sortable edfm-engineering-table"\n! Experimental Effect !! Primary effect !! Tradeoff'); for _,d in ipairs(rows) do table.insert(out,'|-\n| '..link(d.page or d.name,d.name)..' || '..esc(d.primary_effect or '')..' || '..esc(d.tradeoff or '')) end; table.insert(out,'|}') end; return table.concat(out,'\n') end
+function p.moduleEffects(frame) local module=frame.args.module or frame.args[1] or mw.title.getCurrentTitle().text; local rows={'{| class="wikitable sortable edfm-engineering-table"','! Experimental Effect !! Primary effect !! Tradeoff'}; local n=0; for _,id in ipairs(index()) do local d=record(id); if d and d.module_pages then for _,m in ipairs(d.module_pages) do if m==module or d.module_family==module then n=n+1; table.insert(rows,'|-\n| '..link(d.page or d.name,d.name)..' || '..esc(d.primary_effect or '')..' || '..esc(d.tradeoff or '')); break end end end end; if n==0 then return 'No Experimental Effects are currently listed for '..esc(module)..'.' end; table.insert(rows,'|}'); return table.concat(rows,'\n') end
+return p

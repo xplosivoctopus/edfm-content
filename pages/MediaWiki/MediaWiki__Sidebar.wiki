@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Sidebar
 Namespace: 8
 Page ID: 70
-Revision ID: 1410
-Timestamp: 2026-08-21T13:41:23Z
+Revision ID: 2775
+Timestamp: 2026-08-31T20:26:25Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Sidebar
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -15,10 +15,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 ** New Commander Roadmap|New Commander Roadmap
 ** Returning Commander Overview|Returning Commander Overview
 * Reference
-** Field Procedures|Field Procedures
 ** Game Reference|Game Reference
 ** Ships and Equipment|Ships and Equipment
 ** Engineering|Engineering
+** Tools and Resources|Tools and Resources
 * Game systems
 ** Odyssey|Odyssey
 ** Powerplay|Powerplay

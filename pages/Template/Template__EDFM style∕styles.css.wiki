@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:EDFM style/styles.css
 Namespace: 10
 Page ID: 41
-Revision ID: 966
-Timestamp: 2026-08-19T22:25:04Z
+Revision ID: 3051
+Timestamp: 2026-09-03T05:15:19Z
 Source URL: https://edfieldmanual.com/wiki/Template:EDFM_style/styles.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -36,7 +36,8 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	padding: 1.1em 1.3em;
 	margin: 1.4em 0;
 	box-sizing: border-box;
-	width: 100%;
+	display: flow-root;
+	width: auto;
 	clip-path: polygon( 0 0, calc( 100% - 10px ) 0, 100% 10px, 100% 100%, 0 100% );
 }
 .edfm-panel-info {
@@ -583,3 +584,259 @@ This is current wikitext only; no revision history, user database, logs, deleted
 .edfm-guide-callout--important .edfm-guide-callout-label { color: var( --edfm-blue ); }
 .edfm-guide-callout--tip .edfm-guide-callout-label { color: var( --edfm-cyan ); }
 .edfm-guide-callout--field-note .edfm-guide-callout-label { color: var( --edfm-text-dim ); }
+
+/* ===========================================================================
+   2026-08-29 FLEET CARRIER ADMINISTRATION DIRECTORY (Module:FleetCarriers)
+   ===========================================================================
+   Status badges always pair an icon + text label -- never colour alone, per
+   Elite Dangerous Field Manual:Verification Policy -- reusing the existing
+   positive/attention tiers from the article-status module above plus two
+   new tiers (dispute, negative) defined as --edfm-status-dispute/negative in
+   MediaWiki:Common.css's :root. The wikitable itself needs no responsive
+   handling here: table.wikitable already gets width:100%/overflow-x:auto
+   from Common.css, so a wide directory table scrolls horizontally on
+   narrow screens like every other wikitable on the site, and native
+   jquery.tablesort (already active on every `sortable` wikitable) provides
+   column sorting with zero custom JS. Only the search/status/region
+   toolbar is JS-built (see MediaWiki:Common.js, initFleetCarrierDirectory)
+   -- with JS off, #edfm-fc-toolbar stays empty and hidden (:empty rule
+   below) and every row in every group is simply visible. */
+.edfm-fc-directory {
+	margin: 1.5rem 0;
+}
+.edfm-fc-toolbar:empty {
+	display: none;
+}
+.edfm-fc-toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.9em 1.4em;
+	margin-bottom: 1.1rem;
+	padding: 0.85em 1.1em;
+	background: var( --edfm-surface-2 );
+	border: 1px solid var( --edfm-border );
+}
+.edfm-fc-toolbar-field {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+.edfm-fc-toolbar-field label {
+	font-family: var( --edfm-mono );
+	font-size: 0.72rem;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var( --edfm-text-dim );
+	white-space: nowrap;
+}
+.edfm-fc-toolbar input[ type='search' ],
+.edfm-fc-toolbar select {
+	background: var( --edfm-surface-1 );
+	border: 1px solid var( --edfm-border );
+	color: var( --edfm-text );
+	padding: 0.4em 0.65em;
+	font-family: var( --edfm-sans );
+	font-size: 0.9rem;
+	border-radius: 2px;
+}
+.edfm-fc-toolbar input[ type='search' ] {
+	min-width: 12rem;
+}
+.edfm-fc-toolbar input[ type='search' ]:focus,
+.edfm-fc-toolbar select:focus {
+	outline: 2px solid var( --edfm-cyan );
+	outline-offset: 1px;
+}
+.edfm-fc-empty-state {
+	color: var( --edfm-text-dim );
+	font-style: italic;
+	margin: 0.8rem 0;
+}
+.edfm-fc-group-heading {
+	display: flex;
+	align-items: baseline;
+	gap: 0.5em;
+	font-family: var( --edfm-mono );
+	font-size: 1rem;
+	font-weight: 800;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: var( --edfm-status-positive );
+	margin: 1.8em 0 0.6em;
+}
+.edfm-fc-group-count {
+	color: var( --edfm-text-dim );
+	font-weight: 700;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.edfm-fc-group[ data-fc-group='disputed' ] .edfm-fc-group-heading { color: var( --edfm-status-dispute ); }
+.edfm-fc-group[ data-fc-group='unverified' ] .edfm-fc-group-heading { color: var( --edfm-status-attention ); }
+.edfm-fc-group[ data-fc-group='unavailable' ] .edfm-fc-group-heading { color: var( --edfm-status-negative ); }
+
+/* table-layout:auto (the sitewide wikitable default) sizes each column to
+   its content's min-content width and lets that win over the table's own
+   width:100% when they conflict -- fine for Mining/Engineer tables, but
+   this table's badge+chip cells push several columns' min-content wide
+   enough that, on a narrow viewport, the table's own overflow-x:auto
+   wasn't enough to stop it dragging the whole page wider than the device
+   (confirmed with real Chromium mobile emulation: window.innerWidth was
+   811px against a 390px device before this rule, 396px after). Fixed
+   layout instead makes the table honour width:100% and wrap long cell
+   content in place -- scoped to .edfm-fc-table only, so every other
+   wikitable on the site keeps its existing auto-layout behaviour. */
+/* Plain `.edfm-fc-table { table-layout: fixed }` loses the cascade to
+   Common.css's `.mw-body table.wikitable { table-layout: auto }` (two
+   selector classes there vs. one here). TemplateStyles also prefixes every
+   selector in this file with an ".mw-parser-output " ANCESTOR combinator
+   for scoping, so a selector written to *also* start with ".mw-body" here
+   (an ancestor of .mw-parser-output in the real DOM, not a descendant of
+   it) becomes self-contradictory and matches nothing -- confirmed by
+   inspecting the actual generated CSS. Using the real ".edfm-fc-directory"
+   wrapper as the extra ancestor instead avoids that trap and safely wins
+   the specificity contest (3 classes + 1 element vs. Common.css's 2 + 1). */
+.edfm-fc-directory table.wikitable.edfm-fc-table {
+	table-layout: fixed;
+}
+.edfm-fc-table th,
+.edfm-fc-table td {
+	overflow-wrap: anywhere;
+}
+.edfm-fc-table th:nth-child( 1 ), .edfm-fc-table td:nth-child( 1 ) { width: 15%; }
+.edfm-fc-table th:nth-child( 2 ), .edfm-fc-table td:nth-child( 2 ) { width: 16%; }
+.edfm-fc-table th:nth-child( 3 ), .edfm-fc-table td:nth-child( 3 ) { width: 14%; }
+.edfm-fc-table th:nth-child( 4 ), .edfm-fc-table td:nth-child( 4 ) { width: 14%; }
+.edfm-fc-table th:nth-child( 5 ), .edfm-fc-table td:nth-child( 5 ) { width: 12%; }
+.edfm-fc-table th:nth-child( 6 ), .edfm-fc-table td:nth-child( 6 ) { width: 29%; }
+
+.edfm-fc-system-name {
+	font-weight: 800;
+	font-size: 1.06em;
+}
+.edfm-fc-check-type {
+	display: block;
+	font-size: 0.76em;
+	font-family: var( --edfm-mono );
+	color: var( --edfm-text-dim );
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	margin-top: 0.15em;
+}
+
+/* Status badge -- icon swatch + text label, matching the family of
+   .edfm-status-icon glyphs above (single CSS-safe character, no icon
+   font). The EDFM-verified chip is always the cyan "verification info"
+   colour regardless of the row's own status tier -- it marks a distinct
+   axis (an EDFM contributor personally checked this fact in-game), not
+   the polarity of the result itself. */
+.edfm-fc-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4em;
+	font-family: var( --edfm-mono );
+	font-weight: 700;
+	font-size: 0.8em;
+	letter-spacing: 0.02em;
+	white-space: nowrap;
+}
+.edfm-fc-badge-icon {
+	display: inline-flex;
+	flex: 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	width: 1.35em;
+	height: 1.35em;
+	border-radius: 2px;
+	font-size: 0.88em;
+	line-height: 1;
+}
+.edfm-fc-badge--positive .edfm-fc-badge-icon { background: var( --edfm-status-positive-bg ); color: var( --edfm-status-positive ); }
+.edfm-fc-badge--positive .edfm-fc-badge-text { color: var( --edfm-status-positive ); }
+.edfm-fc-badge--attention .edfm-fc-badge-icon { background: var( --edfm-status-attention-bg ); color: var( --edfm-status-attention ); }
+.edfm-fc-badge--attention .edfm-fc-badge-text { color: var( --edfm-status-attention ); }
+.edfm-fc-badge--dispute .edfm-fc-badge-icon { background: var( --edfm-status-dispute-bg ); color: var( --edfm-status-dispute ); }
+.edfm-fc-badge--dispute .edfm-fc-badge-text { color: var( --edfm-status-dispute ); }
+.edfm-fc-badge--negative .edfm-fc-badge-icon { background: var( --edfm-status-negative-bg ); color: var( --edfm-status-negative ); }
+.edfm-fc-badge--negative .edfm-fc-badge-text { color: var( --edfm-status-negative ); }
+
+.edfm-fc-chip {
+	display: inline-block;
+	margin-left: 0.35em;
+	padding: 0.08em 0.45em;
+	font-family: var( --edfm-mono );
+	font-size: 0.64em;
+	font-weight: 800;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	border: 1px solid var( --edfm-status-positive );
+	color: var( --edfm-status-positive );
+	border-radius: 2px;
+	cursor: help;
+}
+
+/* Known Data Discrepancies panels -- one per record with disputedExternalData
+   true (or status disputed), rendered from the same structured dataset as
+   the directory tables, not hand-typed prose. */
+.edfm-fc-discrepancy {
+	border-left: 4px solid var( --edfm-status-negative );
+	background: var( --edfm-surface-2 );
+	padding: 1.1rem 1.25rem;
+	margin: 1.3rem 0;
+	clip-path: polygon( 0 0, calc( 100% - 10px ) 0, 100% 10px, 100% 100%, 0 100% );
+}
+.edfm-fc-discrepancy-lead {
+	margin: 0 0 0.85em;
+	color: var( --edfm-text );
+}
+.edfm-fc-discrepancy dl {
+	display: grid;
+	grid-template-columns: minmax( 9rem, 0.3fr ) 1fr;
+	gap: 0.45rem 1rem;
+	margin: 0;
+}
+.edfm-fc-discrepancy dt {
+	float: none;
+	clear: none;
+	margin: 0;
+	font-weight: 800;
+	color: var( --edfm-text-dim );
+	font-family: var( --edfm-mono );
+	font-size: 0.74em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+.edfm-fc-discrepancy dd {
+	margin: 0;
+	color: var( --edfm-text );
+}
+.edfm-fc-discrepancy-notes {
+	margin: 0.85em 0 0;
+	color: var( --edfm-text-muted );
+	font-size: 0.92em;
+}
+@media ( max-width: 620px ) {
+	.edfm-fc-discrepancy dl {
+		grid-template-columns: 1fr;
+	}
+	.edfm-fc-discrepancy dt {
+		margin-top: 0.55em;
+	}
+	.edfm-fc-discrepancy dt:first-child {
+		margin-top: 0;
+	}
+}
+@media ( max-width: 480px ) {
+	.edfm-fc-toolbar {
+		flex-direction: column;
+		align-items: stretch;
+	}
+	.edfm-fc-toolbar-field {
+		justify-content: space-between;
+	}
+	.edfm-fc-toolbar input[ type='search' ] {
+		min-width: 0;
+		flex: 1 1 auto;
+	}
+}

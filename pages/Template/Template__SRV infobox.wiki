@@ -1,0 +1,72 @@
+<!--
+EDFM current-content archive export.
+Title: Template:SRV infobox
+Namespace: 10
+Page ID: 740
+Revision ID: 3018
+Timestamp: 2026-09-03T03:34:36Z
+Source URL: https://edfieldmanual.com/wiki/Template:SRV_infobox
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#invoke:SRVs|infobox}}<noinclude>
+== Usage ==
+Infobox for [[Surface Recon Vehicles|Surface Recon Vehicle]] articles.
+
+The template is wired to structured SRV data in [[Module:Data/SRVs/index|Module:Data/SRVs/index]] and individual records at <code>Module:Data/SRVs/&lt;Page name&gt;</code>. Normal article usage should be the same data-backed pattern used by Engineer pages:
+
+<pre>{{SRV infobox}}</pre>
+
+The template automatically uses the current page title and structured defaults. Article-level parameters remain available as an escape hatch, but should not be left as manual boilerplate on SRV articles.
+
+Empty or unknown values are hidden automatically.
+
+<templatedata>
+{
+	"description": "Data-backed infobox for Surface Recon Vehicle articles. Article parameters override structured SRV data defaults only when needed.",
+	"format": "block",
+	"params": {
+		"name": { "label": "Name", "description": "SRV display name. Defaults to structured data or the page title.", "type": "string" },
+		"image": { "label": "Image", "description": "Image filename, without the File: prefix. Defaults to structured data.", "type": "wiki-file-name" },
+		"manufacturer": { "label": "Manufacturer", "type": "string" },
+		"vehicle_type": { "label": "Vehicle type", "type": "string" },
+		"primary_role": { "label": "Primary role", "type": "string" },
+		"crew": { "label": "Crew", "type": "string" },
+		"hangar": { "label": "Hangar requirement", "type": "string" },
+		"release": { "label": "Release", "type": "string" },
+		"availability": { "label": "Availability", "type": "string" },
+		"mass": { "label": "Mass", "type": "string" },
+		"fuel_capacity": { "label": "Fuel capacity", "type": "string" },
+		"hull": { "label": "Hull", "type": "string" },
+		"shields": { "label": "Shields", "type": "string" },
+		"speed": { "label": "Speed", "type": "string" },
+		"boost_speed": { "label": "Boost speed", "type": "string" },
+		"cargo": { "label": "Cargo", "type": "string" },
+		"weapons": { "label": "Weapons", "type": "string" },
+		"utility_equipment": { "label": "Utility equipment", "type": "string" }
+	},
+	"paramOrder": [
+		"name",
+		"image",
+		"manufacturer",
+		"vehicle_type",
+		"primary_role",
+		"crew",
+		"hangar",
+		"release",
+		"availability",
+		"mass",
+		"fuel_capacity",
+		"hull",
+		"shields",
+		"speed",
+		"boost_speed",
+		"cargo",
+		"weapons",
+		"utility_equipment"
+	]
+}
+</templatedata>
+
+[[Category:Templates]]
+</noinclude>

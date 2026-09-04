@@ -1,0 +1,250 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/EngineeringBlueprints/fsd faster boot sequence
+Namespace: 828
+Page ID: 777
+Revision ID: 2919
+Timestamp: 2026-09-02T14:14:17Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/EngineeringBlueprints/fsd_faster_boot_sequence
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	id = "fsd_faster_boot_sequence",
+	name = "Faster Boot Sequence",
+	page = "Faster Boot Sequence",
+	type = "Engineering Blueprint",
+	module_family_id = "frame_shift_drive",
+	module_family = "Frame Shift Drive",
+	module_pages = { "Frame Shift Drive", "Frame Shift Drive (SCO)" },
+	category = "Core Internal",
+	subtype = "Frame Shift Drive Blueprint",
+	max_grade = 5,
+	grades_available = { 1, 2, 3, 4, 5 },
+	primary_effect = "Reduces FSD boot time and adds a smaller optimized-mass increase.",
+	major_tradeoffs = "Increases FSD heat and reduces integrity.",
+	remote_engineering = "Blueprint grades can be applied through Remote Workshop when pinned and unlocked; Experimental Effects still require an Engineer workshop.",
+	live_status = "Current Live",
+	fdname = "FSD_FastBoot",
+	source_status = "Cross-checked against EDSY live data and INARA current blueprint listings.",
+	compatible_experimental_effect_ids = { "fsd_deep_charge", "fsd_double_braced", "fsd_mass_manager", "fsd_stripped_down", "fsd_thermal_spread" },
+	aliases = { "FSD Faster Boot", "Faster Boot FSD" },
+	gameplay_summary = "Faster Boot Sequence shortens the time before the drive becomes usable after power-up, which can matter on power-managed combat or utility builds. Its range gain is smaller than Increased Range.",
+	grades = {
+		{
+			grade = 1,
+			changes = {
+				{
+					attribute = "integ",
+					value = -3,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "boottime",
+					value = -20,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 3,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = 4,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "grre",
+					name = "Grid Resistors",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 2,
+			changes = {
+				{
+					attribute = "integ",
+					value = -6,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "boottime",
+					value = -35,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 6,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = 8,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "grre",
+					name = "Grid Resistors",
+					quantity = 1,
+				},
+				{
+					id = "chr",
+					name = "Chromium",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 3,
+			changes = {
+				{
+					attribute = "integ",
+					value = -9,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "boottime",
+					value = -50,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 9,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = 12,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "grre",
+					name = "Grid Resistors",
+					quantity = 1,
+				},
+				{
+					id = "hedipl",
+					name = "Heat Dispersion Plate",
+					quantity = 1,
+				},
+				{
+					id = "sel",
+					name = "Selenium",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 4,
+			changes = {
+				{
+					attribute = "integ",
+					value = -12,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "boottime",
+					value = -65,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 12,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = 16,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "hyca",
+					name = "Hybrid Capacitors",
+					quantity = 1,
+				},
+				{
+					id = "heex",
+					name = "Heat Exchangers",
+					quantity = 1,
+				},
+				{
+					id = "cad",
+					name = "Cadmium",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 5,
+			changes = {
+				{
+					attribute = "integ",
+					value = -15,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "boottime",
+					value = -80,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 15,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = 20,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "elar",
+					name = "Electrochemical Arrays",
+					quantity = 1,
+				},
+				{
+					id = "heva",
+					name = "Heat Vanes",
+					quantity = 1,
+				},
+				{
+					id = "tel",
+					name = "Tellurium",
+					quantity = 1,
+				},
+			},
+		},
+	},
+}

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:EDFM policy commitments
 Namespace: 10
 Page ID: 621
-Revision ID: 1412
-Timestamp: 2026-08-21T13:56:38Z
+Revision ID: 2832
+Timestamp: 2026-09-01T12:48:42Z
 Source URL: https://edfieldmanual.com/wiki/Template:EDFM_policy_commitments
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -22,6 +22,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 * '''Logs and backups:''' Operational logs are intended to rotate at about 60 days unless longer retention is temporarily needed for abuse, security, outages, or legal reasons. EDFM takes daily backups; removed or changed data may remain in already-created backups until those backups expire under the backup schedule.
 * '''Cookies and consent:''' Necessary cookies/storage support login, security, account creation, preferences, and cookie-choice handling. Optional Analytics/site-improvement cookies are controlled through Cookie Preferences. Rejecting optional cookies should not prevent ordinary reading.
 * '''Frontier login and CAPI:''' Normal Frontier sign-in is for account login/linking only and requests <code>auth</code>, not Companion API (<code>capi</code>) access. Commander-name verification is a separate optional Preferences action; choosing '''Attach CMDR Name''' requests <code>auth capi</code>, reads the Commander name once, and keeps that Commander name private by default unless the user later enables public display.
+* '''Discord login:''' Discord sign-in/linking is intentionally available as an optional account provider. It uses Discord OAuth/OpenID Connect with <code>openid</code>, <code>identify</code>, and <code>email</code> scopes for login/linking only; Discord's own policies/cookies apply on Discord-controlled pages.
 </div></includeonly><noinclude>
 Reusable public-policy quick-reference block for EDFM policy, legal, privacy, cookie, and contributing pages. Keep this template aligned with the actual runtime configuration and public policy pages.
 </noinclude>

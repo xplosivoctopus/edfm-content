@@ -1,0 +1,277 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/SurfaceSignals/Biological
+Namespace: 828
+Page ID: 762
+Revision ID: 2605
+Timestamp: 2026-08-29T17:18:33Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/SurfaceSignals/Biological
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+[
+	{
+		"id": "aleoida",
+		"name": "Aleoida",
+		"article": "Aleoida",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Aleoida",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "bacterium",
+		"name": "Bacterium",
+		"article": "Bacterium",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Bacterium",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies. Grows as low, flat colonies that can be difficult to spot from the air.",
+		"notes": null
+	},
+	{
+		"id": "cactoida",
+		"name": "Cactoida",
+		"article": "Cactoida",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Cactoida",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "clypeus",
+		"name": "Clypeus",
+		"article": "Clypeus",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Clypeus",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "concha",
+		"name": "Concha",
+		"article": "Concha",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Concha",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "electricae",
+		"name": "Electricae",
+		"article": "Electricae",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Electricae",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "fonticulua",
+		"name": "Fonticulua",
+		"article": "Fonticulua",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Fonticulua",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "frutexa",
+		"name": "Frutexa",
+		"article": "Frutexa",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Frutexa",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "fumerola",
+		"name": "Fumerola",
+		"article": "Fumerola",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Fumerola",
+		"description": "An Exobiology genus of surface organism, typically associated with volcanically active terrain. Not to be confused with the geological feature Fumarole -- these are unrelated despite the similar name.",
+		"notes": "Deliberately distinct from the Geological \"Fumarole\" feature family (see Module:Data/SurfaceSignals/Geological). Do not merge or alias these records."
+	},
+	{
+		"id": "fungoida",
+		"name": "Fungoida",
+		"article": "Fungoida",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Fungoida",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "osseus",
+		"name": "Osseus",
+		"article": "Osseus",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Osseus",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "radicoida",
+		"name": "Radicoida",
+		"article": "Radicoida",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Radicoida",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "recepta",
+		"name": "Recepta",
+		"article": "Recepta",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Recepta",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "stratum",
+		"name": "Stratum",
+		"article": "Stratum",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Stratum",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "tubus",
+		"name": "Tubus",
+		"article": "Tubus",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Tubus",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "tussock",
+		"name": "Tussock",
+		"article": "Tussock",
+		"classification": "Biological",
+		"subtype": "Exobiology genus",
+		"game_mode": "Live",
+		"dss_filter": true,
+		"dss_filter_name": "Tussock",
+		"description": "An Exobiology genus of surface organism found on suitable atmospheric bodies.",
+		"notes": null
+	},
+	{
+		"id": "amphora-plant",
+		"name": "Amphora Plant",
+		"article": "Amphora Plant",
+		"classification": "Biological",
+		"subtype": "Legacy surface biological",
+		"game_mode": "Both",
+		"dss_filter": "unknown",
+		"dss_filter_name": null,
+		"description": "A pre-Odyssey surface biological structure, found independently of the genus-based Exobiology system introduced with Odyssey.",
+		"notes": "EDFM has not yet independently verified whether current-Live DSS mapping exposes this as an individually named filter, as a general \"Biological\" signal, or not at all. Do not treat this as confirmed either way until an EDFM contributor checks it in-game."
+	},
+	{
+		"id": "anemone",
+		"name": "Anemone",
+		"article": "Anemone",
+		"classification": "Biological",
+		"subtype": "Legacy surface biological",
+		"game_mode": "Both",
+		"dss_filter": "unknown",
+		"dss_filter_name": null,
+		"description": "A pre-Odyssey surface biological structure, found independently of the genus-based Exobiology system introduced with Odyssey.",
+		"notes": "EDFM has not yet independently verified whether current-Live DSS mapping exposes this as an individually named filter, as a general \"Biological\" signal, or not at all. Do not treat this as confirmed either way until an EDFM contributor checks it in-game."
+	},
+	{
+		"id": "bark-mound",
+		"name": "Bark Mound",
+		"article": "Bark Mound",
+		"classification": "Biological",
+		"subtype": "Legacy surface biological",
+		"game_mode": "Both",
+		"dss_filter": "unknown",
+		"dss_filter_name": null,
+		"description": "A pre-Odyssey surface biological structure, found independently of the genus-based Exobiology system introduced with Odyssey.",
+		"notes": "EDFM has not yet independently verified whether current-Live DSS mapping exposes this as an individually named filter, as a general \"Biological\" signal, or not at all. Do not treat this as confirmed either way until an EDFM contributor checks it in-game."
+	},
+	{
+		"id": "brain-tree",
+		"name": "Brain Tree",
+		"article": "Brain Tree",
+		"classification": "Biological",
+		"subtype": "Legacy surface biological",
+		"game_mode": "Both",
+		"dss_filter": "unknown",
+		"dss_filter_name": null,
+		"description": "A pre-Odyssey surface biological structure, found independently of the genus-based Exobiology system introduced with Odyssey.",
+		"notes": "EDFM has not yet independently verified whether current-Live DSS mapping exposes this as an individually named filter, as a general \"Biological\" signal, or not at all. Do not treat this as confirmed either way until an EDFM contributor checks it in-game."
+	},
+	{
+		"id": "crystalline-shard",
+		"name": "Crystalline Shard",
+		"article": "Crystalline Shard",
+		"classification": "Biological",
+		"subtype": "Legacy surface biological",
+		"game_mode": "Both",
+		"dss_filter": "unknown",
+		"dss_filter_name": null,
+		"description": "A pre-Odyssey surface biological structure, found independently of the genus-based Exobiology system introduced with Odyssey.",
+		"notes": "EDFM has not yet independently verified whether current-Live DSS mapping exposes this as an individually named filter, as a general \"Biological\" signal, or not at all. Do not treat this as confirmed either way until an EDFM contributor checks it in-game."
+	},
+	{
+		"id": "sinuous-tuber",
+		"name": "Sinuous Tuber",
+		"article": "Sinuous Tuber",
+		"classification": "Biological",
+		"subtype": "Legacy surface biological",
+		"game_mode": "Both",
+		"dss_filter": "unknown",
+		"dss_filter_name": null,
+		"description": "A pre-Odyssey surface biological structure, found independently of the genus-based Exobiology system introduced with Odyssey.",
+		"notes": "EDFM has not yet independently verified whether current-Live DSS mapping exposes this as an individually named filter, as a general \"Biological\" signal, or not at all. Do not treat this as confirmed either way until an EDFM contributor checks it in-game."
+	}
+]

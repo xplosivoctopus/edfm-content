@@ -1,0 +1,47 @@
+<!--
+EDFM current-content archive export.
+Title: Faster Boot Sequence
+Namespace: 0
+Page ID: 787
+Revision ID: 2931
+Timestamp: 2026-09-02T14:14:26Z
+Source URL: https://edfieldmanual.com/wiki/Faster_Boot_Sequence
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Faster Boot Sequence is an Engineering Blueprint for Frame Shift Drives that reduces drive boot time and adds a smaller optimized-mass bonus, with heat and integrity tradeoffs.}}
+{{Article status|status=Partially verified|mode=Live|source_quality=Structured values are generated from EDFM Engineering data cross-checked against EDSY live data and INARA current listings.|notes=Practical-use sections are intentionally concise and can be expanded with field-tested examples.}}
+
+Faster Boot Sequence is an Engineering Blueprint for Frame Shift Drives that reduces drive boot time and adds a smaller optimized-mass bonus, with heat and integrity tradeoffs.
+
+{{#invoke:EngineeringBlueprints|infobox|fsd_faster_boot_sequence}}
+
+== What It Does ==
+Faster Boot Sequence helps a Frame Shift Drive come online faster after power-up. It is most relevant to power-managed ships or builds where module startup timing matters.
+
+== Tradeoffs ==
+See the generated grade table for exact modifiers. This article can benefit from additional build-specific examples and field-tested use cases.
+
+== Grades ==
+{{#invoke:EngineeringBlueprints|gradeTable|fsd_faster_boot_sequence}}
+
+== Engineering Materials ==
+{{#invoke:EngineeringBlueprints|materialsTable|fsd_faster_boot_sequence}}
+
+== Available Engineers ==
+{{#invoke:EngineeringBlueprints|engineers|fsd_faster_boot_sequence}}
+
+== Compatible Experimental Effects ==
+{{#invoke:EngineeringBlueprints|experimentalEffects|fsd_faster_boot_sequence}}
+
+== Usage ==
+Additional Commander-tested examples, ship builds, and edge cases are welcome here.
+
+== Related ==
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Frame Shift Drive]] [[Experimental Effects]]}}
+
+{{Engineering nav}}
+
+[[Category:Engineering Blueprints]]
+[[Category:Frame Shift Drive Blueprints]]
+[[Category:Engineering]]

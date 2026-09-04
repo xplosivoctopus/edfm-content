@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Editorial Policy
 Namespace: 4
 Page ID: 44
-Revision ID: 303
-Timestamp: 2026-08-07T22:15:52Z
+Revision ID: 2949
+Timestamp: 2026-09-02T15:03:58Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Editorial_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -17,6 +17,31 @@ How EDFM articles should be written.
 # '''Version-aware.''' Elite Dangerous changes. Every gameplay-facing article should carry {{tl|Article status}} recording the game version/mode it was last checked against.
 # '''Live vs Legacy vs Historical are different things''' and must not be silently merged. Use {{tl|Legacy warning}} / {{tl|Historical warning}} rather than mixing eras in one paragraph without a flag.
 # '''Plain, accessible language.''' Avoid unexplained jargon; where in-universe or community jargon is necessary, define it on first use.
+
+
+== AI-generated contributor content ==
+EDFM does not accept contributor-submitted AI-generated content as a substitute for original research, writing, screenshots, artwork, guides, or other meaningful contributions. This rule is intended to prevent low-effort, unverifiable, fabricated, duplicated, or mass-produced AI content from being added to the Field Manual.
+
+This includes, but is not limited to:
+* Articles, guides, or general informational content generated primarily by AI.
+* AI-generated factual claims submitted without independent verification.
+* AI-generated or AI-altered screenshots presented as genuine in-game imagery.
+* AI-generated artwork or illustrations presented as official, authentic, or factual game imagery.
+* Mass-generated pages, stubs, summaries, or rewrites.
+* AI-generated paraphrases or rewrites of content from other wikis, guides, websites, or documentation.
+* Content created by feeding another source into an AI system and submitting the resulting rewrite as original work.
+
+AI output must never be treated as a factual source. Information intended for publication must be independently verified against reliable sources, game data, direct testing, or other appropriate evidence before publication.
+
+The following principles apply:
+# '''AI is not a source.''' An AI model, chatbot, generated answer, or AI-produced summary must never be cited as evidence for a factual claim.
+# '''Verification remains mandatory.''' Using AI during drafting does not reduce EDFM's normal sourcing, testing, accuracy, or verification requirements.
+# '''Human responsibility remains with the editor.''' Anyone publishing information to EDFM is responsible for its accuracy regardless of what tools were used while preparing it.
+# '''Genuine game imagery matters.''' Where EDFM requires screenshots, diagrams, or visual evidence of actual gameplay, synthetic AI imagery must not be substituted for genuine in-game evidence.
+# '''Enforcement focuses on submitted content.''' Contributors are not required to prove they have never used an AI-assisted tool. The concern is whether submitted material is original, accurate, verifiable, properly sourced, and suitable for EDFM.
+# '''Repeated dumping may be disruptive.''' Repeated or deliberate submission of prohibited AI-generated content may be treated as disruptive editing or spam under the appropriate EDFM policies.
+
+See also [[Elite Dangerous Field Manual:Citing Sources]], [[Elite Dangerous Field Manual:Source Quality Guide]], [[Elite Dangerous Field Manual:Verification Policy]], [[Elite Dangerous Field Manual:Screenshot Policy]], and [[Elite Dangerous Field Manual:Image Use Policy]].
 
 == Structure conventions ==
 * Procedure-style articles: {{tl|Prerequisites}}, then {{tl|Procedure steps}}, then {{tl|Expected result}}, then optionally {{tl|Common mistakes}} and {{tl|Troubleshooting}}.

@@ -3,10 +3,10 @@ EDFM current-content archive export.
 Title: MediaWiki:Tagline
 Namespace: 8
 Page ID: 64
-Revision ID: 65
-Timestamp: 2026-08-06T19:51:25Z
+Revision ID: 2484
+Timestamp: 2026-08-28T17:30:08Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Tagline
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-Current answers. Practical procedures. Reliable reference.
+Scientia Practica Omnibus — Practical Knowledge for All

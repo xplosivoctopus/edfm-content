@@ -3,19 +3,35 @@ EDFM current-content archive export.
 Title: Exploration
 Namespace: 0
 Page ID: 181
-Revision ID: 2101
-Timestamp: 2026-08-24T21:27:28Z
+Revision ID: 2611
+Timestamp: 2026-08-29T17:24:20Z
 Source URL: https://edfieldmanual.com/wiki/Exploration
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article header|deck=Index for long-range travel, scanning, and discovery content.}}
 {{Article status|status=Draft|mode=Both|noindex=yes}}
-
-Index for long-range travel, scanning, and discovery content — see [[:Category:Exploration]].
-
 {{Draft warning}}
-No individual exploration articles exist yet.
 
-{{Related articles|[[Exobiology]] [[Game Reference]] [[Tools and Resources]]}}
+'''Exploration''' is the process of discovering, surveying, mapping, and investigating star systems and astronomical bodies throughout the galaxy in ''[[Elite Dangerous]]''.
+
+Commanders can use shipboard scanners to discover previously unknown systems and bodies, collect valuable cartographic data, locate planetary features, identify biological and geological signals, and investigate unusual phenomena. Exploration can range from surveying systems near inhabited space to long-range expeditions thousands of light-years beyond the Bubble.
+
+Core exploration tools include the [[Discovery Scanner]], [[Full Spectrum System Scanner|Full Spectrum System Scanner (FSS)]], and [[Detailed Surface Scanner|Detailed Surface Scanner (DSS)]]. Surface exploration may also involve [[Exobiology]], [[Surface Recon Vehicles|surface vehicles]], and specialized exploration equipment.
+
+== Exploration guides ==
+
+* [[Discovery Scanner]]
+* [[Full Spectrum System Scanner]]
+* [[Detailed Surface Scanner]]
+* [[Planetary Exploration]]
+* [[Exobiology]]
+* [[First Discovered]]
+* [[First Mapped]]
+* [[First Footfall]]
+* [[Universal Cartographics]]
+* [[Vista Genomics]]
+
+More detailed exploration procedures, equipment recommendations, exploration values, route planning, and discovery mechanics will be added as this section is expanded.
+
 [[Category:Exploration]]

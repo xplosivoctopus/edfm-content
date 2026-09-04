@@ -1,0 +1,99 @@
+<!--
+EDFM current-content archive export.
+Title: Module:SRVs
+Namespace: 828
+Page ID: 755
+Revision ID: 3017
+Timestamp: 2026-09-03T03:34:36Z
+Source URL: https://edfieldmanual.com/wiki/Module:SRVs
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Module:SRVs
+-- Structured Surface Recon Vehicle helpers.
+-- Canonical SRV data lives in Module:Data/SRVs/<Name>.
+
+local p = {}
+
+local FIELD_ORDER = {
+	{ key = 'manufacturer', label = 'Manufacturer', group = 'SRV' },
+	{ key = 'vehicle_type', label = 'Vehicle type' },
+	{ key = 'primary_role', label = 'Primary role' },
+	{ key = 'crew', label = 'Crew' },
+	{ key = 'hangar', label = 'Hangar requirement' },
+	{ key = 'release', label = 'Release' },
+	{ key = 'availability', label = 'Availability' },
+
+	{ key = 'mass', label = 'Mass', group = 'SPECIFICATIONS' },
+	{ key = 'fuel_capacity', label = 'Fuel capacity' },
+	{ key = 'hull', label = 'Hull' },
+	{ key = 'shields', label = 'Shields' },
+	{ key = 'speed', label = 'Speed' },
+	{ key = 'boost_speed', label = 'Boost speed' },
+	{ key = 'cargo', label = 'Cargo' },
+	{ key = 'weapons', label = 'Weapons' },
+	{ key = 'utility_equipment', label = 'Utility equipment' },
+}
+
+local function isNonEmpty(value)
+	return value ~= nil and value ~= ''
+end
+
+local function dataTitleFor(name)
+	return 'Module:Data/SRVs/' .. name
+end
+
+local function loadRecord(name)
+	local ok, data = pcall(mw.loadData, dataTitleFor(name))
+	if ok and type(data) == 'table' then
+		return data
+	end
+	return { name = name }
+end
+
+local function fmt(value)
+	if not isNonEmpty(value) then
+		return nil
+	end
+	if type(value) == 'table' then
+		if #value == 0 then
+			return nil
+		end
+		return table.concat(value, '<br>')
+	end
+	return tostring(value)
+end
+
+function p.infobox(frame)
+	local parent = frame:getParent()
+	local args = parent and parent.args or frame.args
+	local title = mw.title.getCurrentTitle()
+	local name = args.name or title.text
+	local record = loadRecord(name)
+
+	local params = {
+		name = args.name or record.name or name,
+		image = args.image or record.image or '',
+	}
+
+	local row = 1
+	for _, field in ipairs(FIELD_ORDER) do
+		local value = record[field.key]
+		if isNonEmpty(args[field.key]) then
+			value = args[field.key]
+		end
+		value = fmt(value)
+		if isNonEmpty(value) then
+			if field.group then
+				params['group' .. row] = field.group
+			end
+			params['label' .. row] = field.label
+			params['row' .. row] = value
+			row = row + 1
+		end
+	end
+
+	return frame:expandTemplate{ title = 'Infobox', args = params }
+end
+
+return p

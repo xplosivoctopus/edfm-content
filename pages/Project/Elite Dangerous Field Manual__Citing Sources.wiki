@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Citing Sources
 Namespace: 4
 Page ID: 211
-Revision ID: 809
-Timestamp: 2026-08-15T04:32:31Z
+Revision ID: 2942
+Timestamp: 2026-09-02T14:43:19Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Citing_Sources
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -17,6 +17,10 @@ The Cite extension is enabled — use ordinary <code>&lt;ref&gt;</code> tags, no
 Deliver 50 units of Fujin Tea.&lt;ref&gt;[https://inara.cz/elite/engineer/15/ Broo Tarquin — engineer], Inara.&lt;/ref&gt;
 </pre>
 Reuse a named ref for the same source cited more than once on a page: <code>&lt;ref name="inara-broo"&gt;...&lt;/ref&gt;</code> the first time, <code>&lt;ref name="inara-broo" /&gt;</code> after. End every article that carries citations with a <code>== Sources ==</code> section containing <code>&lt;references /&gt;</code>. There is no <code><nowiki>{{cite web}}</nowiki></code> template on this wiki — plain <code>[url Title], Site, accessed YYYY-MM-DD.</code> inside the ref tag is the house format.
+
+
+== AI is not a source ==
+An AI model, chatbot, generated answer, or AI-produced summary is not a source for EDFM. Do not cite AI output as evidence for a factual claim. If AI-assisted drafting or organization is used, every factual statement intended for publication must still be verified against reliable sources, game data, direct testing, or other appropriate evidence.
 
 == Marking uncertain content inline ==
 Not everything needs a footnote — for content that's uncertain rather than simply sourced, use the dedicated templates instead of (or alongside) a citation:

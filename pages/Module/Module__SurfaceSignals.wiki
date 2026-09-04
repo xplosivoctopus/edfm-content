@@ -1,0 +1,592 @@
+<!--
+EDFM current-content archive export.
+Title: Module:SurfaceSignals
+Namespace: 828
+Page ID: 764
+Revision ID: 2607
+Timestamp: 2026-08-29T17:18:39Z
+Source URL: https://edfieldmanual.com/wiki/Module:SurfaceSignals
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Module:SurfaceSignals
+--
+-- Canonical Surface Signal facts (Exobiology/biological DSS signals and
+-- geological DSS signals) are stored in:
+--   Module:Data/SurfaceSignals/Biological
+--   Module:Data/SurfaceSignals/Geological
+--
+-- This module is the ONLY renderer/query layer for that data. It is used
+-- on [[Detailed Surface Scanner]] and is meant to be reusable anywhere
+-- else on EDFM that needs the same facts (Exobiology, future species
+-- pages, a future habitat/planet-condition tool) -- see
+-- Elite Dangerous Field Manual:Adding Structured Data. Do not hand-write
+-- a second copy of this list in article wikitext; extend the data pages
+-- and call this module instead.
+--
+------------------------------------------------------------------------
+-- Record schema
+------------------------------------------------------------------------
+-- Required on every record:
+--   id                 kebab-case, globally unique across BOTH datasets
+--   name                display name
+--   classification     "Biological" | "Geological"
+--   subtype             free text, e.g. "Exobiology genus",
+--                        "Legacy surface biological", "Geological feature"
+--   game_mode           "Live" | "Legacy" | "Both" | "Historical"
+--   dss_filter          true       = shows as its own individually named
+--                                    DSS filter (dss_filter_name set)
+--                        "general" = only exposed via a general signal
+--                                    category (e.g. plain "Biological"),
+--                                    no individual filter of its own
+--                        false     = not exposed through the DSS at all
+--                        "unknown" = current behaviour not yet verified
+--                                    by EDFM -- see the note below
+--   description          one or two plain sentences
+--
+-- Optional:
+--   article              Main-namespace page title to link to, if
+--                          different from `name` (defaults to `name`)
+--   dss_filter_name       the filter's on-screen label, when dss_filter
+--                          is true or "general" (nil otherwise)
+--   codex_group           free text, Codex category grouping
+--   notes                 free text -- use this for anything that isn't
+--                          a plain fact, e.g. verification caveats
+--   variants               Geological only: list of confirmed Codex
+--                          composition variant names (e.g. "Water Ice
+--                          Fumarole"). May be an empty table.
+--   variants_complete      Geological only: boolean. Set true ONLY once
+--                          the variant list for that record is confirmed
+--                          exhaustive against a primary source. Default
+--                          treatment (absent/false) is "partial list".
+--
+-- Reserved for future use -- deliberately NOT populated by any current
+-- record (nil/absent, never invented placeholder values). Adding real
+-- data for one of these to a record is fine at any time; no Lua changes
+-- are needed to do so, since the renderer only reads fields that a given
+-- record actually sets:
+--   species, body_types, atmospheres, atmosphere_composition,
+--   gravity_min, gravity_max, temperature_min, temperature_max,
+--   volcanism, star_classes, regions, terrain, minimum_sample_distance,
+--   genetic_sample_value, codex_value, rarity, requirements
+--
+-- A note on dss_filter = "unknown": this is a real, distinct value, not
+-- a placeholder for missing data. It specifically means "EDFM looked into
+-- this and current in-game behaviour is not yet confirmed" -- as opposed
+-- to a field simply being nil/absent, which means "not looked into" or
+-- "not applicable". All 6 current Legacy surface biological records use
+-- "unknown" for exactly this reason (see their `notes`): it is genuinely
+-- unresolved, as of 2026-08-29, whether the DSS exposes Amphora Plant,
+-- Anemone, Bark Mound, Brain Tree, Crystalline Shard, and Sinuous Tuber
+-- as individually named filters or only a general "Biological" signal.
+-- Do not silently upgrade these to true/"general" without an EDFM
+-- contributor actually checking current Live gameplay.
+--
+------------------------------------------------------------------------
+-- Adding a new record
+------------------------------------------------------------------------
+-- New Exobiology genus: add a record to
+--   Module:Data/SurfaceSignals/Biological
+-- with subtype = "Exobiology genus", game_mode = "Live",
+-- dss_filter = true, dss_filter_name = the genus name.
+--
+-- New older/legacy biological: same page, subtype =
+-- "Legacy surface biological", game_mode = "Both" (unless verified
+-- otherwise), and dss_filter = "unknown" unless an EDFM contributor has
+-- actually confirmed current DSS behaviour for it, in which case use
+-- true/"general"/false as verified.
+--
+-- New geological feature family: add a record to
+--   Module:Data/SurfaceSignals/Geological
+-- with subtype = "Geological feature", a `variants` list of confirmed
+-- Codex composition names (or {} if none verified yet), and
+-- variants_complete = false unless the list is genuinely confirmed
+-- exhaustive.
+--
+-- Future individual species/variant data: extend the relevant record
+-- with any of the reserved future fields above -- no schema/Lua change
+-- required, since every reader in this module treats them as optional.
+--
+------------------------------------------------------------------------
+-- Public functions
+------------------------------------------------------------------------
+--   {{#invoke:SurfaceSignals|table|type=Biological}}
+--   {{#invoke:SurfaceSignals|table|type=Geological}}
+--   {{#invoke:SurfaceSignals|table|type=Biological|detail=yes}}
+--     Renders a sortable wikitable, alphabetical by name. `detail=yes`
+--     adds a DSS filter behaviour column.
+--
+--   {{#invoke:SurfaceSignals|list|type=Biological}}
+--   {{#invoke:SurfaceSignals|list|type=Geological}}
+--     Renders a plain alphabetical bulleted list of (linked, where
+--     `article` resolves) names -- for reuse in prose/other pages that
+--     just need a compact link list, not the full table.
+--
+--   {{#invoke:SurfaceSignals|get|name=Bacterium}}
+--   {{#invoke:SurfaceSignals|get|name=Bacterium|field=game_mode}}
+--     Looks a record up by exact name (case-insensitive, NOT fuzzy --
+--     "Fumerola" and "Fumarole" always resolve independently). With no
+--     `field`, returns a short one-line summary. An unknown name returns
+--     a plain, editor-readable inline notice, not a Lua error.
+--
+--   {{#invoke:SurfaceSignals|infobox|name=Bacterium}}
+--     Emits a {{Infobox}} call (EDFM's existing generic infobox
+--     template -- see Template:Infobox) populated from the record's
+--     fields. Unknown name: same graceful notice as `get`.
+--
+--   {{#invoke:SurfaceSignals|test}}
+--     Validates both datasets and returns a human-readable report:
+--     duplicate ids/names/article targets, missing required fields,
+--     invalid classification/game_mode/dss_filter values, malformed
+--     variants, and a dedicated Fumerola/Fumarole non-collision check.
+--     Intended for editors, not for article transclusion.
+
+local p = {}
+
+
+------------------------------------------------------------------------
+-- General helpers
+------------------------------------------------------------------------
+
+local function isNonEmpty(value)
+	return value ~= nil and value ~= ''
+end
+
+local function esc(value)
+	return mw.text.nowiki(tostring(value or ''))
+end
+
+local function lower(value)
+	return mw.ustring.lower(tostring(value or ''))
+end
+
+-- Same JSON-page loading pattern as Module:Engineers and Module:FleetCarriers:
+-- mw.loadData only works for CONTENT_MODEL_SCRIBUNTO pages (it routes
+-- through require()), not CONTENT_MODEL_JSON pages like these, so the
+-- content has to be fetched and decoded directly.
+local function loadJsonPage(pageName)
+	local title = mw.title.new(pageName, 'Module')
+	if not title then
+		return {}
+	end
+	local content = title:getContent()
+	if not content then
+		return {}
+	end
+	local ok, data = pcall(mw.text.jsonDecode, content)
+	if not ok or type(data) ~= 'table' then
+		return {}
+	end
+	return data
+end
+
+local DATASET_PAGES = {
+	Biological = 'Data/SurfaceSignals/Biological',
+	Geological = 'Data/SurfaceSignals/Geological',
+}
+
+
+------------------------------------------------------------------------
+-- Schema validation
+------------------------------------------------------------------------
+
+local ALLOWED_CLASSIFICATION = { Biological = true, Geological = true }
+local ALLOWED_GAME_MODE = { Live = true, Legacy = true, Both = true, Historical = true }
+
+-- dss_filter is intentionally a mixed boolean/string field (matching the
+-- shape already used by the two worked examples in the schema docs
+-- above): true, "general", false, or "unknown". Anything else is invalid.
+local function isValidDssFilter(value)
+	return value == true or value == false or value == 'general' or value == 'unknown'
+end
+
+local function validateRecord(datasetName, index, record)
+	local where = datasetName .. ' record #' .. index
+
+	if type(record) ~= 'table' then
+		error('Module:SurfaceSignals: ' .. where .. ' is not an object')
+	end
+	if not isNonEmpty(record.id) then
+		error('Module:SurfaceSignals: ' .. where .. ' is missing an "id" value')
+	end
+	where = datasetName .. ' record "' .. record.id .. '"'
+
+	if not isNonEmpty(record.name) then
+		error('Module:SurfaceSignals: ' .. where .. ' is missing a "name" value')
+	end
+	if not ALLOWED_CLASSIFICATION[record.classification] then
+		error('Module:SurfaceSignals: ' .. where .. ' has an unrecognized classification "' ..
+			tostring(record.classification) .. '" -- allowed values are Biological, Geological')
+	end
+	if not isNonEmpty(record.subtype) then
+		error('Module:SurfaceSignals: ' .. where .. ' is missing a "subtype" value')
+	end
+	if not ALLOWED_GAME_MODE[record.game_mode] then
+		error('Module:SurfaceSignals: ' .. where .. ' has an unrecognized game_mode "' ..
+			tostring(record.game_mode) .. '" -- allowed values are Live, Legacy, Both, Historical')
+	end
+	if not isValidDssFilter(record.dss_filter) then
+		error('Module:SurfaceSignals: ' .. where .. ' has an invalid dss_filter value (' ..
+			tostring(record.dss_filter) .. ') -- allowed values are true, "general", false, "unknown"')
+	end
+	if not isNonEmpty(record.description) then
+		error('Module:SurfaceSignals: ' .. where .. ' is missing a "description" value')
+	end
+	if record.variants ~= nil and type(record.variants) ~= 'table' then
+		error('Module:SurfaceSignals: ' .. where .. ' has a malformed "variants" value (must be a list)')
+	end
+	if record.variants_complete ~= nil and type(record.variants_complete) ~= 'boolean' then
+		error('Module:SurfaceSignals: ' .. where .. ' has a malformed "variants_complete" value (must be true/false)')
+	end
+end
+
+-- Memoized per Lua invocation (shared across every #invoke on one page
+-- render) so a page calling |table twice and |list once only reads each
+-- data page from the DB once, per the module's performance note.
+local _cache = {}
+
+local function loadDataset(datasetName)
+	if _cache[datasetName] then
+		return _cache[datasetName]
+	end
+	local pageName = DATASET_PAGES[datasetName]
+	if not pageName then
+		error('Module:SurfaceSignals: unknown dataset "' .. tostring(datasetName) ..
+			'" -- allowed values are Biological, Geological')
+	end
+	local records = loadJsonPage(pageName)
+	for index, record in ipairs(records) do
+		validateRecord(datasetName, index, record)
+	end
+	_cache[datasetName] = records
+	return records
+end
+
+local function allRecords()
+	local combined = {}
+	for _, record in ipairs(loadDataset('Biological')) do
+		table.insert(combined, record)
+	end
+	for _, record in ipairs(loadDataset('Geological')) do
+		table.insert(combined, record)
+	end
+	return combined
+end
+
+
+------------------------------------------------------------------------
+-- Lookup
+------------------------------------------------------------------------
+
+-- Exact (case-insensitive) name match only -- deliberately no fuzzy/
+-- substring matching, so "Fumerola" and "Fumarole" always resolve to
+-- their own distinct records and never to each other.
+local function findByName(name)
+	local needle = lower(name)
+	for _, record in ipairs(allRecords()) do
+		if lower(record.name) == needle then
+			return record
+		end
+	end
+	return nil
+end
+
+
+------------------------------------------------------------------------
+-- Formatting helpers
+------------------------------------------------------------------------
+
+local function articleLink(record)
+	local target = record.article or record.name
+	return '[[' .. target .. '|' .. esc(record.name) .. ']]'
+end
+
+local function availabilityText(gameMode)
+	if gameMode == 'Both' then
+		return 'Live &amp; Legacy'
+	end
+	return esc(gameMode)
+end
+
+local DSS_FILTER_LABELS = {
+	[tostring(true)] = 'Individual DSS filter',
+	general = 'General "Biological" signal',
+	[tostring(false)] = 'Not exposed through the DSS',
+	unknown = 'Unverified',
+}
+
+local function dssFilterBehaviorText(record)
+	local key = record.dss_filter
+	if key == true or key == false then
+		key = tostring(key)
+	end
+	local label = DSS_FILTER_LABELS[key] or 'Unverified'
+	if record.dss_filter == true and isNonEmpty(record.dss_filter_name) then
+		return label .. ' ("' .. esc(record.dss_filter_name) .. '")'
+	end
+	return label
+end
+
+local function sortedByName(records)
+	local out = {}
+	for _, record in ipairs(records) do
+		table.insert(out, record)
+	end
+	table.sort(out, function(a, b) return lower(a.name) < lower(b.name) end)
+	return out
+end
+
+
+------------------------------------------------------------------------
+-- p.table -- {{#invoke:SurfaceSignals|table|type=Biological}}
+------------------------------------------------------------------------
+
+local function biologicalTable(records, detail)
+	local out = { '{| class="wikitable sortable"' }
+	if detail then
+		table.insert(out, '! Biological signal !! Classification !! Availability !! DSS filter behaviour')
+	else
+		table.insert(out, '! Biological signal !! Classification !! Availability')
+	end
+	for _, record in ipairs(sortedByName(records)) do
+		table.insert(out, '|-')
+		table.insert(out, '| ' .. articleLink(record))
+		table.insert(out, '| ' .. esc(record.subtype))
+		table.insert(out, '| ' .. availabilityText(record.game_mode))
+		if detail then
+			table.insert(out, '| ' .. dssFilterBehaviorText(record))
+		end
+	end
+	table.insert(out, '|}')
+	return table.concat(out, '\n')
+end
+
+local function geologicalTable(records, detail)
+	local out = { '{| class="wikitable sortable"' }
+	if detail then
+		table.insert(out, '! Geological signal !! Description !! Availability !! Codex variants')
+	else
+		table.insert(out, '! Geological signal !! Description !! Availability')
+	end
+	for _, record in ipairs(sortedByName(records)) do
+		table.insert(out, '|-')
+		table.insert(out, '| ' .. articleLink(record))
+		table.insert(out, '| ' .. esc(record.description))
+		table.insert(out, '| ' .. availabilityText(record.game_mode))
+		if detail then
+			local variants = record.variants or {}
+			local text
+			if #variants == 0 then
+				text = '&mdash;'
+			else
+				local escaped = {}
+				for _, v in ipairs(variants) do table.insert(escaped, esc(v)) end
+				text = table.concat(escaped, '<br>')
+			end
+			if record.variants_complete ~= true then
+				text = text .. '<br><span class="edfm-ss-partial">(partial list)</span>'
+			end
+			table.insert(out, '| ' .. text)
+		end
+	end
+	table.insert(out, '|}')
+	return table.concat(out, '\n')
+end
+
+function p.table(frame)
+	local args = frame.args
+	local datasetName = args.type
+	if datasetName ~= 'Biological' and datasetName ~= 'Geological' then
+		return '<strong class="error">Module:SurfaceSignals|table: |type= must be "Biological" or "Geological" (got "' ..
+			esc(datasetName) .. '").</strong>'
+	end
+	local detail = (args.detail == 'yes' or args.detail == 'true')
+	local records = loadDataset(datasetName)
+	if datasetName == 'Biological' then
+		return biologicalTable(records, detail)
+	end
+	return geologicalTable(records, detail)
+end
+
+
+------------------------------------------------------------------------
+-- p.list -- {{#invoke:SurfaceSignals|list|type=Biological}}
+------------------------------------------------------------------------
+
+function p.list(frame)
+	local args = frame.args
+	local datasetName = args.type
+	if datasetName ~= 'Biological' and datasetName ~= 'Geological' then
+		return '<strong class="error">Module:SurfaceSignals|list: |type= must be "Biological" or "Geological" (got "' ..
+			esc(datasetName) .. '").</strong>'
+	end
+	local out = {}
+	for _, record in ipairs(sortedByName(loadDataset(datasetName))) do
+		table.insert(out, '* ' .. articleLink(record))
+	end
+	return table.concat(out, '\n')
+end
+
+
+------------------------------------------------------------------------
+-- p.get -- {{#invoke:SurfaceSignals|get|name=Bacterium}}
+------------------------------------------------------------------------
+
+-- Deliberately returns a plain wikitext notice, not error(), on an
+-- unknown name -- a query for a name an editor mistyped should fail
+-- gracefully in the rendered article, not throw a raw Lua stack trace.
+function p.get(frame)
+	local args = frame.args
+	if not isNonEmpty(args.name) then
+		return '<strong class="error">Module:SurfaceSignals|get: |name= is required.</strong>'
+	end
+	local record = findByName(args.name)
+	if not record then
+		return '<strong class="error">Module:SurfaceSignals|get: no Surface Signal record found for "' ..
+			esc(args.name) .. '".</strong>'
+	end
+	if isNonEmpty(args.field) then
+		local value = record[args.field]
+		if value == nil then
+			return ''
+		end
+		if type(value) == 'boolean' then
+			return tostring(value)
+		end
+		if type(value) == 'table' then
+			local parts = {}
+			for _, v in ipairs(value) do table.insert(parts, tostring(v)) end
+			return table.concat(parts, ', ')
+		end
+		return esc(value)
+	end
+	return esc(record.name) .. ' -- ' .. esc(record.classification) .. ' (' .. esc(record.subtype) ..
+		'), ' .. availabilityText(record.game_mode)
+end
+
+
+------------------------------------------------------------------------
+-- p.infobox -- {{#invoke:SurfaceSignals|infobox|name=Bacterium}}
+------------------------------------------------------------------------
+
+-- Builds a call into EDFM's existing generic {{Infobox}} (see
+-- Template:Infobox) rather than inventing a second infobox system --
+-- same integration pattern Module:Engineers uses for {{Engineer infobox}}.
+function p.infobox(frame)
+	local args = frame.args
+	if not isNonEmpty(args.name) then
+		return '<strong class="error">Module:SurfaceSignals|infobox: |name= is required.</strong>'
+	end
+	local record = findByName(args.name)
+	if not record then
+		return '<strong class="error">Module:SurfaceSignals|infobox: no Surface Signal record found for "' ..
+			esc(args.name) .. '".</strong>'
+	end
+
+	local rows = {
+		{ label = 'Classification', value = record.classification },
+		{ label = 'Subtype', value = record.subtype },
+		{ label = 'Game mode', value = availabilityText(record.game_mode) },
+		{ label = 'DSS filter', value = dssFilterBehaviorText(record) },
+	}
+	if isNonEmpty(record.codex_group) then
+		table.insert(rows, { label = 'Codex group', value = esc(record.codex_group) })
+	end
+	if record.variants and #record.variants > 0 then
+		table.insert(rows, { label = 'Known variants', value = table.concat(record.variants, ', ') })
+	end
+
+	local out = { '{{Infobox', '|name = ' .. esc(record.name) }
+	for i, row in ipairs(rows) do
+		table.insert(out, '|label' .. i .. ' = ' .. row.label .. ' |row' .. i .. ' = ' .. row.value)
+	end
+	table.insert(out, '}}')
+	local infobox = table.concat(out, '\n')
+
+	if isNonEmpty(record.description) then
+		return infobox .. '\n' .. esc(record.description)
+	end
+	return infobox
+end
+
+
+------------------------------------------------------------------------
+-- p.test -- {{#invoke:SurfaceSignals|test}}
+------------------------------------------------------------------------
+
+function p.test()
+	local report = {}
+	local function log(ok, message)
+		table.insert(report, (ok and "'''PASS'''" or "'''FAIL'''") .. ' -- ' .. message)
+	end
+
+	-- loadDataset() already runs validateRecord() on every record (required
+	-- fields, classification, game_mode, dss_filter, variants shape) --
+	-- if that succeeds at all, those checks already passed for every record.
+	local bioOk, bio = pcall(loadDataset, 'Biological')
+	log(bioOk, 'Biological dataset loads and passes per-record schema validation' ..
+		(bioOk and (' (' .. #bio .. ' records)') or (': ' .. tostring(bio))))
+	local geoOk, geo = pcall(loadDataset, 'Geological')
+	log(geoOk, 'Geological dataset passes per-record schema validation' ..
+		(geoOk and (' (' .. #geo .. ' records)') or (': ' .. tostring(geo))))
+
+	if not (bioOk and geoOk) then
+		return table.concat(report, '\n')
+	end
+
+	local combined = {}
+	for _, r in ipairs(bio) do table.insert(combined, r) end
+	for _, r in ipairs(geo) do table.insert(combined, r) end
+
+	-- Duplicate ids (must be globally unique across both datasets).
+	local seenIds = {}
+	local dupIds = {}
+	for _, r in ipairs(combined) do
+		if seenIds[r.id] then
+			table.insert(dupIds, r.id)
+		end
+		seenIds[r.id] = true
+	end
+	log(#dupIds == 0, 'No duplicate ids' .. (#dupIds > 0 and (': ' .. table.concat(dupIds, ', ')) or ''))
+
+	-- Duplicate names (case-insensitive).
+	local seenNames = {}
+	local dupNames = {}
+	for _, r in ipairs(combined) do
+		local key = lower(r.name)
+		if seenNames[key] then
+			table.insert(dupNames, r.name)
+		end
+		seenNames[key] = true
+	end
+	log(#dupNames == 0, 'No duplicate names' .. (#dupNames > 0 and (': ' .. table.concat(dupNames, ', ')) or ''))
+
+	-- Duplicate article targets (two records pointing at the same page).
+	local seenArticles = {}
+	local dupArticles = {}
+	for _, r in ipairs(combined) do
+		local target = lower(r.article or r.name)
+		if seenArticles[target] then
+			table.insert(dupArticles, target)
+		end
+		seenArticles[target] = true
+	end
+	log(#dupArticles == 0, 'No duplicate article mappings' ..
+		(#dupArticles > 0 and (': ' .. table.concat(dupArticles, ', ')) or ''))
+
+	-- Fumerola/Fumarole: must resolve independently, to different
+	-- records, with different classifications. This is the specific
+	-- regression this module must never allow.
+	local fumerola = findByName('Fumerola')
+	local fumarole = findByName('Fumarole')
+	local fumOk = fumerola ~= nil and fumarole ~= nil
+		and fumerola.id ~= fumarole.id
+		and fumerola.classification == 'Biological'
+		and fumarole.classification == 'Geological'
+	log(fumOk, 'Fumerola (Biological) and Fumarole (Geological) resolve independently, not to each other')
+
+	return table.concat(report, '\n')
+end
+
+
+return p

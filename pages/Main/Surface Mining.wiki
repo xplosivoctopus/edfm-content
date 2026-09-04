@@ -1,0 +1,59 @@
+<!--
+EDFM current-content archive export.
+Title: Surface Mining
+Namespace: 0
+Page ID: 743
+Revision ID: 3005
+Timestamp: 2026-09-03T02:32:49Z
+Source URL: https://edfieldmanual.com/wiki/Surface_Mining
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.0 Rhino update, first-day live behaviour reviewed 2026-09-03
+ |reviewed=2026-09-03
+ |reviewer=Sythan
+ |source_quality=Official Frontier update notes, Frontier dev log, Frontier store/equipment pages, and early independent player testing where official documentation does not yet explain the mechanic
+ |uncertainty=Exact rig-efficiency formulae, raw Microresource frequency, minimum rig spacing, multi-crew permissions, and some live edge cases still need additional verification.
+}}
+{{Article header|section=Mining|deck=Planetary resource-extraction activity introduced with the Rhino SRV.}}
+
+'''Surface Mining''' is a planetary resource-extraction activity for ''Elite Dangerous'' associated with the [[Rhino]] [[Surface Recon Vehicles|Surface Recon Vehicle]]. Frontier describes it as a new way to acquire raw materials around geological sites on planetary surfaces and to extract more material from a planetary surface.<ref name="frontier-first-look">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface - Your First Look at the Rhino], Frontier Developments, 6 August 2026.</ref><ref name="frontier-august-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
+
+For the complete step-by-step procedure, see '''[[Surface Mining with the Rhino]]'''.
+
+== Overview ==
+
+Surface Mining expands SRV gameplay into a mining-focused ground loop. Frontier has described the Rhino as the vehicle built for this role, combining a larger cargo hold, built-in refinery, new scanning and extraction tools, and the torque needed to handle steeper inclines while carrying additional weight.<ref name="frontier-august-dev-log" />
+
+The detailed extraction process is documented in [[Surface Mining with the Rhino]]. Frontier-confirmed mechanics should remain separated from first-day community-tested observations until the system has more live verification.
+
+== Locating deposits ==
+
+Frontier has announced that the Rhino has a built-in scanner that detects planetary mining deposits. The scanner marks mineral-rich patches on the planetary surface and on sensors so the crew can position the vehicle for extraction.<ref name="frontier-august-dev-log" />
+
+== Resource depletion ==
+
+Frontier has stated that locations and quantities of materials are generated across each planetary surface, and that collected deposits regenerate at a very slow rate. As a result, a single resource-rich location is not expected to regularly deliver a high output after it has been mined.<ref name="frontier-august-dev-log" />
+
+== Related equipment ==
+
+* [[Rhino]] — announced large SRV built for Surface Mining.
+* [[Large Planetary Vehicle Hangar]] — required to deploy the Rhino from compatible ships.
+* [[Planetary Mineral Scanner]] — Rhino equipment used to detect and mark planetary mining deposits.
+
+== See also ==
+
+* [[Mining]]
+* [[Surface Recon Vehicles]]
+* [[Rhino]]
+* [[Planetary Mineral Scanner]]
+
+== References ==
+
+<references />
+
+[[Category:Mining]]
+[[Category:Gameplay]]

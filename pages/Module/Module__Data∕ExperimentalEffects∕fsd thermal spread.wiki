@@ -1,0 +1,57 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ExperimentalEffects/fsd thermal spread
+Namespace: 828
+Page ID: 783
+Revision ID: 2925
+Timestamp: 2026-09-02T14:14:20Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ExperimentalEffects/fsd_thermal_spread
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	id = "fsd_thermal_spread",
+	name = "Thermal Spread",
+	page = "Thermal Spread",
+	type = "Experimental Effect",
+	module_family_id = "frame_shift_drive",
+	module_family = "Frame Shift Drive",
+	module_pages = { "Frame Shift Drive", "Frame Shift Drive (SCO)" },
+	primary_effect = "Reduces FSD thermal load.",
+	tradeoff = "No direct range improvement.",
+	mechanical_behavior = "A heat-management effect for builds where FSD thermal behaviour is more important than maximum jump range.",
+	stacking_behavior = "One Experimental Effect can be applied to a module at a time.",
+	compatible_blueprint_ids = { "fsd_increased_range", "fsd_faster_boot_sequence", "fsd_shielded" },
+	live_status = "Current Live",
+	fdname = "special_fsd_cooled",
+	source_status = "Cross-checked against EDSY live data and INARA current listings.",
+	changes = {
+		{
+			attribute = "fsdheat",
+			value = -10,
+			unit = "%",
+		},
+	},
+	materials = {
+		{
+			id = "atdiwaec",
+			name = "Atypical Disrupted Wake Echoes",
+			quantity = 5,
+		},
+		{
+			id = "gaal",
+			name = "Galvanising Alloys",
+			quantity = 3,
+		},
+		{
+			id = "heva",
+			name = "Heat Vanes",
+			quantity = 1,
+		},
+		{
+			id = "grre",
+			name = "Grid Resistors",
+			quantity = 3,
+		},
+	},
+}

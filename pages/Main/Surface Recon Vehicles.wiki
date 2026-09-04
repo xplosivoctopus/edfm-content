@@ -1,0 +1,89 @@
+<!--
+EDFM current-content archive export.
+Title: Surface Recon Vehicles
+Namespace: 0
+Page ID: 741
+Revision ID: 2567
+Timestamp: 2026-08-29T13:11:31Z
+Source URL: https://edfieldmanual.com/wiki/Surface_Recon_Vehicles
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|section=Ships & Equipment|context=Ships|deck=Player-operated ground vehicles used by Commanders on planetary surfaces.}}
+
+A '''Surface Recon Vehicle''' ('''SRV''') is a player-operated ground vehicle used by Commanders for activities on planetary surfaces. SRVs are transported aboard compatible ships using vehicle hangars and can be deployed after landing on suitable terrain.<ref name="frontier-equipment">[https://www.elitedangerous.com/equipment Equipment], Frontier Developments.</ref>
+
+{{Related articles
+ |label=Surface Recon Vehicles
+ |[[Ships and Equipment]]
+ |[[Planetary Vehicle Hangar]]
+ |[[Large Planetary Vehicle Hangar]]
+ |[[Scarab]]
+ |[[Scorpion]]
+ |[[Rhino]]
+}}
+
+== Overview ==
+
+Surface Recon Vehicles extend a Commander's capabilities beyond their ship, providing ground transportation and specialized equipment for planetary activities. Frontier describes SRVs as lightweight, all-terrain wheeled vehicles designed for exploring planetary surfaces, while also noting their usefulness for combat and surface charting.<ref name="frontier-equipment" />
+
+Different SRVs emphasize different roles. The [[Scarab]] is the established general-purpose SRV for surface traversal and exploration, the [[Scorpion]] is oriented toward surface combat, and the [[Rhino]] has been announced as a larger SRV focused on [[Surface Mining|surface mining]].<ref name="frontier-rhino-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
+
+SRVs can support activities such as planetary traversal, exploration, raw material collection, settlement interaction, combat, and specialized resource extraction. Not every SRV is intended equally for every role.
+
+== Available SRVs ==
+
+{| class="wikitable sortable" style="width:100%;"
+! SRV
+! Primary role
+! Hangar
+! Availability
+|-
+| [[Scarab]]
+| General-purpose surface traversal and exploration<ref name="frontier-equipment" />
+| [[Planetary Vehicle Hangar]]
+| Available
+|-
+| [[Scorpion]]
+| Surface combat
+| [[Planetary Vehicle Hangar]]
+| Available
+|-
+| [[Rhino]]
+| [[Surface Mining|Surface mining]]<ref name="frontier-rhino-dev-log" />
+| [[Large Planetary Vehicle Hangar]]<ref name="frontier-rhino-dev-log" />
+| Scheduled for 2 September 2026<ref name="frontier-rhino-dev-log" />
+|}
+
+== Scarab ==
+
+The [[Scarab]] is a general-purpose Surface Recon Vehicle intended for planetary traversal, exploration, material collection, and other surface activities. It represents the standard SRV role described by Frontier's equipment overview: a lightweight, all-terrain wheeled vehicle for exploring and charting planetary surfaces.<ref name="frontier-equipment" />
+
+== Scorpion ==
+
+The [[Scorpion]] is a combat-oriented Surface Recon Vehicle designed for situations where surface combat is more important than the Scarab's general-purpose exploration role. It is used as an SRV for ground operations and is carried in a [[Planetary Vehicle Hangar]].
+
+== Rhino ==
+
+The [[Rhino]] is a large [[Vodel]] Surface Recon Vehicle designed primarily for [[Surface Mining|surface mining]]. It supports up to three Commanders and uses the [[Large Planetary Vehicle Hangar]]. Frontier has scheduled the Rhino for release on 2 September 2026.<ref name="frontier-rhino-dev-log" />
+
+== Vehicle hangars ==
+
+Surface Recon Vehicles are transported aboard ships using vehicle hangar modules. The Scarab and Scorpion use the [[Planetary Vehicle Hangar]]. The Rhino uses the larger [[Large Planetary Vehicle Hangar]].
+
+== See also ==
+
+* [[Ships and Equipment]]
+* [[Planetary Vehicle Hangar]]
+* [[Large Planetary Vehicle Hangar]]
+* [[Scarab]]
+* [[Scorpion]]
+* [[Rhino]]
+* [[Surface Mining]]
+
+== References ==
+
+<references />
+
+[[Category:Surface Recon Vehicles]]
+[[Category:Ships and Equipment]]

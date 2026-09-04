@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Legal and Trademark Notice
 Namespace: 4
 Page ID: 48
-Revision ID: 1415
-Timestamp: 2026-08-21T13:56:41Z
+Revision ID: 2501
+Timestamp: 2026-08-28T22:09:17Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Legal_and_Trademark_Notice
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -34,7 +34,7 @@ EDFM currently operates as a non-commercial community project and uses Frontier 
 
 Frontier's permission relating to its game content is separate from EDFM's own content license. Frontier-owned material is '''not''' relicensed under Creative Commons merely because it appears on an EDFM page.
 
-EDFM does not use Frontier's official corporate logo or proprietary fonts as EDFM branding.
+EDFM does not use Frontier's official corporate logo or proprietary fonts as EDFM branding. Some EDFM logo and branding files may incorporate or derive from ''Elite Dangerous'' game imagery; EDFM does not claim ownership of those underlying Frontier-owned materials, and their inclusion does not grant permission to reuse Frontier-owned assets except where independently permitted.
 
 Where screenshots are used, EDFM's policy is to use captures supplied or created for EDFM rather than copying images from unrelated community websites, except where reuse is separately authorized by the applicable license or rights holder. See [[Elite Dangerous Field Manual:Screenshot Policy]].
 
@@ -67,7 +67,7 @@ The CC BY-SA 4.0 license for EDFM wiki text does '''not''' automatically apply t
 '''Third-party material''' — content incorporated or referenced under another license, permission, quotation right, fair-use/fair-dealing principle, or other applicable authorization remains subject to its own terms.
 '''Original non-text media''' — photographs, diagrams, illustrations, logos, videos, audio, and other media created for EDFM are not automatically covered by the wiki text license unless the relevant file or page expressly states otherwise.
 '''EDFM software and infrastructure''' — EDFM-authored software, custom extensions, infrastructure code, scripts, deployment tooling, configuration, automation, and other original technical components are proprietary unless expressly licensed otherwise.
-'''EDFM branding''' — EDFM's original logo, graphical branding, and other original brand assets are not licensed under CC BY-SA 4.0 unless expressly stated otherwise.
+'''EDFM branding''' — EDFM's original branding arrangement, graphical treatment, and project-specific design work are not licensed under CC BY-SA 4.0 unless expressly stated otherwise. To the extent EDFM logo or branding files incorporate or derive from Frontier-owned ''Elite Dangerous'' imagery, those underlying game assets remain Frontier-owned material and are not owned or relicensed by EDFM.
 
 == EDFM software and infrastructure ==
 EDFM is built using MediaWiki and other third-party software, each of which remains governed by its respective license.

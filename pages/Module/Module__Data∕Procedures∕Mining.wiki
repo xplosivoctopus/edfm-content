@@ -3,13 +3,27 @@ EDFM current-content archive export.
 Title: Module:Data/Procedures/Mining
 Namespace: 828
 Page ID: 699
-Revision ID: 1689
-Timestamp: 2026-08-24T01:09:32Z
+Revision ID: 3008
+Timestamp: 2026-09-03T02:32:52Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Procedures/Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
+	{
+		key = "mining-rhino-surface",
+		title = "Surface Mining with the Rhino",
+		page = "Surface Mining with the Rhino",
+		summary = "Use the Rhino SRV to find planetary mining locations, deploy mining rigs, recover mined output, refine it, and transfer cargo back to the ship.",
+		topic = "Mining",
+		activity = "Surface Mining",
+		category = "Field Procedures",
+		prerequisites = { "Rhino", "Large Planetary Vehicle Hangar", "Compatible ship", "Detailed Surface Scanner", "Ship cargo capacity" },
+		required_equipment = { "Rhino", "Large Planetary Vehicle Hangar", "Detailed Surface Scanner", "Cargo Rack" },
+		related_reference_pages = { "Rhino", "Surface Mining", "Large Planetary Vehicle Hangar", "Planetary Mineral Scanner", "Detailed Surface Scanner", "Mining", "Refinery" },
+		related_procedures = { "How to Start Mining", "How to Find Somewhere to Sell Mined Commodities" },
+		status = "Partially verified"
+	},
 	{
 		key = "mining-start",
 		title = "How to Start Mining",

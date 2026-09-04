@@ -1,0 +1,356 @@
+<!--
+EDFM current-content archive export.
+Title: Module:FleetCarriers
+Namespace: 828
+Page ID: 759
+Revision ID: 2583
+Timestamp: 2026-08-29T14:00:35Z
+Source URL: https://edfieldmanual.com/wiki/Module:FleetCarriers
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Module:FleetCarriers
+--
+-- Canonical Fleet Carrier Administration records are stored in:
+-- Module:Data/FleetCarriers/Administration
+--
+-- This module renders the Fleet Carrier Administration directory (search/
+-- filter tool, status-grouped tables, and the Known Data Discrepancies
+-- panels) used on [[Fleet Carrier Administration Systems]].
+--
+-- EDFM does not treat every third-party service flag as confirmed. Each
+-- record carries a status (verified / unverified / disputed / unavailable),
+-- the evidence basis behind that status, and separate sourceCheckedDate /
+-- ingameVerifiedDate fields so a reader can tell an external-database check
+-- apart from a direct in-game test. See Elite Dangerous Field Manual:
+-- Adding Structured Data and Elite Dangerous Field Manual:Source Quality
+-- Guide.
+--
+-- Adding a system:
+--   1. Add a record to Module:Data/FleetCarriers/Administration.
+--   2. status must be one of: verified, unverified, disputed, unavailable.
+--   3. If set, verificationBasis must be one of the keys in
+--      VERIFICATION_BASIS_LABELS below -- add a new one there (with a
+--      short human label) rather than inventing an unlisted value.
+--   4. Unknown status/verificationBasis values raise a visible Lua error
+--      instead of silently rendering -- this is deliberate, see the policy
+--      note on the article talk/edit summary: a typo like "verifed" should
+--      break the page loudly, not get treated as unverified.
+--
+-- Do not fabricate ingameVerifiedDate -- only set it when an EDFM
+-- contributor has actually moved a carrier into the system and checked
+-- Fleet Carrier Management. sourceCheckedDate records when the external
+-- reference data itself was last reviewed, which is a materially weaker
+-- claim.
+
+local p = {}
+
+
+------------------------------------------------------------------------
+-- General helpers
+------------------------------------------------------------------------
+
+local function isNonEmpty(value)
+	return value ~= nil and value ~= ''
+end
+
+-- mw.loadData only works for CONTENT_MODEL_SCRIBUNTO pages -- it routes
+-- through require(), whose wiki-page loader explicitly requires
+-- hasContentModel(CONTENT_MODEL_SCRIBUNTO). Module:Data/FleetCarriers/
+-- Administration is CONTENT_MODEL_JSON, so it has to be fetched and decoded
+-- directly instead -- same pattern Module:Engineers already uses for its
+-- own JSON-content-model records (see Module:Engineers, loadRecord).
+local function loadData(pageName)
+	local title = mw.title.new(pageName, 'Module')
+	if not title then
+		return {}
+	end
+	local content = title:getContent()
+	if not content then
+		return {}
+	end
+	local ok, data = pcall(mw.text.jsonDecode, content)
+	if not ok or type(data) ~= 'table' then
+		return {}
+	end
+	return data
+end
+
+-- Safe insertion into wikitext table cells (mirrors Module:Mining).
+local function esc(value)
+	return mw.text.nowiki(tostring(value or ''))
+end
+
+-- Safe insertion into HTML attribute values (mirrors Module:Engineers).
+local function escapeAttribute(value)
+	if value == nil then
+		return ''
+	end
+	value = tostring(value)
+	value = value:gsub('&', '&amp;')
+	value = value:gsub('"', '&quot;')
+	value = value:gsub('<', '&lt;')
+	value = value:gsub('>', '&gt;')
+	return value
+end
+
+local MONTH_NAMES = {
+	'January', 'February', 'March', 'April', 'May', 'June',
+	'July', 'August', 'September', 'October', 'November', 'December',
+}
+
+-- "2026-08-29" -> "29 August 2026"
+local function formatDateHuman(iso)
+	if not isNonEmpty(iso) then
+		return nil
+	end
+	local y, m, d = iso:match('^(%d%d%d%d)%-(%d%d)%-(%d%d)$')
+	if not y then
+		return esc(iso)
+	end
+	local month = MONTH_NAMES[tonumber(m)]
+	if not month then
+		return esc(iso)
+	end
+	return tostring(tonumber(d)) .. ' ' .. month .. ' ' .. y
+end
+
+
+------------------------------------------------------------------------
+-- Schema validation
+--
+-- Deliberately strict: an unrecognized status or verificationBasis raises
+-- a Lua error (a visible broken page) rather than being silently accepted
+-- or silently dropped. See the module header note above.
+------------------------------------------------------------------------
+
+local STATUS_INFO = {
+	verified = { label = 'Verified', icon = '&#10003;', tier = 'positive', rank = 1 },
+	disputed = { label = 'Disputed', icon = '&#8252;', tier = 'dispute', rank = 2 },
+	unverified = { label = 'Reported / Unverified', icon = '?', tier = 'attention', rank = 3 },
+	unavailable = { label = 'Confirmed Unavailable', icon = '&#10005;', tier = 'negative', rank = 4 },
+}
+
+local VERIFICATION_BASIS_LABELS = {
+	carrier_vendor_admin = 'Carrier Vendor/Admin',
+	direct_ingame = 'Direct in-game test',
+	direct_ingame_negative = 'Direct in-game test (negative)',
+	multiple_current_sources = 'Multiple current sources',
+}
+
+local function validateRecord(index, record)
+	if type(record) ~= 'table' then
+		error('Module:FleetCarriers: record #' .. index .. ' is not an object')
+	end
+	if not isNonEmpty(record.system) then
+		error('Module:FleetCarriers: record #' .. index .. ' is missing a "system" value')
+	end
+	if not STATUS_INFO[record.status] then
+		error('Module:FleetCarriers: system "' .. tostring(record.system) ..
+			'" has an unrecognized status "' .. tostring(record.status) ..
+			'" -- allowed values are verified, unverified, disputed, unavailable')
+	end
+	if isNonEmpty(record.verificationBasis) and not VERIFICATION_BASIS_LABELS[record.verificationBasis] then
+		error('Module:FleetCarriers: system "' .. tostring(record.system) ..
+			'" has an unrecognized verificationBasis "' .. tostring(record.verificationBasis) ..
+			'" -- add it to VERIFICATION_BASIS_LABELS in Module:FleetCarriers if this is a genuinely new evidence type')
+	end
+end
+
+local function loadRecords()
+	local records = loadData('Data/FleetCarriers/Administration')
+	for index, record in ipairs(records) do
+		validateRecord(index, record)
+	end
+	return records
+end
+
+
+------------------------------------------------------------------------
+-- Rendering helpers
+------------------------------------------------------------------------
+
+local function statusBadge(record)
+	local info = STATUS_INFO[record.status]
+	local out = {}
+	table.insert(out, '<span class="edfm-fc-badge edfm-fc-badge--' .. info.tier .. '">')
+	table.insert(out, '<span class="edfm-fc-badge-icon" aria-hidden="true">' .. info.icon .. '</span>')
+	table.insert(out, '<span class="edfm-fc-badge-text">' .. info.label .. '</span>')
+	table.insert(out, '</span>')
+	if record.edfmVerified == true then
+		table.insert(out, '<span class="edfm-fc-chip" title="An EDFM contributor moved a Fleet Carrier into this system and confirmed this directly in Fleet Carrier Management.">EDFM Verified</span>')
+	end
+	return table.concat(out)
+end
+
+local function verificationCell(record)
+	if isNonEmpty(record.verificationBasis) then
+		return esc(VERIFICATION_BASIS_LABELS[record.verificationBasis])
+	end
+	return '&mdash;'
+end
+
+-- Returns { sort = <ISO date or ''>, text = <wikitext for the cell> }
+local function lastCheckedCell(record)
+	if isNonEmpty(record.ingameVerifiedDate) then
+		return {
+			sort = record.ingameVerifiedDate,
+			text = esc(record.ingameVerifiedDate) .. '<span class="edfm-fc-check-type">In-game test</span>',
+		}
+	elseif isNonEmpty(record.sourceCheckedDate) then
+		return {
+			sort = record.sourceCheckedDate,
+			text = esc(record.sourceCheckedDate) .. '<span class="edfm-fc-check-type">Source check</span>',
+		}
+	end
+	return { sort = '', text = '&mdash;' }
+end
+
+local function systemCell(record)
+	local display = '<span class="edfm-fc-system-name">' .. esc(record.system) .. '</span>'
+	return '[[' .. record.system .. '|' .. display .. ']]'
+end
+
+local function buildRow(record)
+	local checked = lastCheckedCell(record)
+	local out = {}
+	table.insert(out, '|- class="edfm-fc-row" data-fc-row="1" data-status="' .. escapeAttribute(record.status) ..
+		'" data-edfm-verified="' .. tostring(record.edfmVerified == true) ..
+		'" data-region="' .. escapeAttribute(record.region or '') ..
+		'" data-system="' .. escapeAttribute(mw.ustring.lower(record.system)) .. '"')
+	table.insert(out, '| data-sort-value="' .. escapeAttribute(record.system) .. '" | ' .. systemCell(record))
+	table.insert(out, '| data-sort-value="' .. STATUS_INFO[record.status].rank .. '" | ' .. statusBadge(record))
+	table.insert(out, '| ' .. (isNonEmpty(record.referenceStation) and esc(record.referenceStation) or '&mdash;'))
+	table.insert(out, '| ' .. verificationCell(record))
+	table.insert(out, '| data-sort-value="' .. escapeAttribute(checked.sort) .. '" | ' .. checked.text)
+	table.insert(out, '| ' .. (isNonEmpty(record.notes) and esc(record.notes) or ''))
+	return table.concat(out, '\n')
+end
+
+-- Renders one status group as a heading + sortable table, or nil if the
+-- group currently has zero matching records (so the page never shows an
+-- empty "Disputed" section until a record actually needs it).
+local function buildGroup(records, status, heading, intro)
+	local matching = {}
+	for _, record in ipairs(records) do
+		if record.status == status then
+			table.insert(matching, record)
+		end
+	end
+	if #matching == 0 then
+		return nil
+	end
+	table.sort(matching, function(a, b) return a.system < b.system end)
+
+	local out = {}
+	table.insert(out, '<div class="edfm-fc-group" data-fc-group="' .. status .. '">')
+	table.insert(out, '<h3 class="edfm-fc-group-heading">' .. heading .. ' <span class="edfm-fc-group-count">(' .. #matching .. ')</span></h3>')
+	if isNonEmpty(intro) then
+		table.insert(out, intro)
+	end
+	table.insert(out, '{| class="wikitable sortable edfm-fc-table"')
+	table.insert(out, '! System !! Status !! Reference station !! Verification !! Last checked !! Notes')
+	for _, record in ipairs(matching) do
+		table.insert(out, buildRow(record))
+	end
+	table.insert(out, '|}')
+	table.insert(out, '</div>')
+	return table.concat(out, '\n')
+end
+
+local function discrepancyPanel(record)
+	local out = {}
+	table.insert(out, '<div class="edfm-fc-discrepancy">')
+	table.insert(out, '<p class="edfm-fc-discrepancy-lead">Some external databases report Fleet Carrier Administration in <strong>' ..
+		esc(record.system) .. '</strong>. EDFM testing found the service ' ..
+		(record.status == 'unavailable' and 'unavailable' or 'inconsistent with those reports') ..
+		' in-game' .. (isNonEmpty(record.ingameVerifiedDate) and (' on ' .. formatDateHuman(record.ingameVerifiedDate)) or '') .. '.</p>')
+	table.insert(out, '<dl>')
+	table.insert(out, '<div><dt>System</dt><dd>' .. systemCell(record) .. '</dd></div>')
+	table.insert(out, '<div><dt>External reports</dt><dd>Administration available</dd></div>')
+	table.insert(out, '<div><dt>EDFM result</dt><dd>' .. STATUS_INFO[record.status].label .. '</dd></div>')
+	table.insert(out, '<div><dt>Checked</dt><dd>' ..
+		(formatDateHuman(record.ingameVerifiedDate) or formatDateHuman(record.sourceCheckedDate) or '&mdash;') .. '</dd></div>')
+	if isNonEmpty(record.verifiedBy) then
+		table.insert(out, '<div><dt>Verified by</dt><dd>' .. esc(record.verifiedBy) .. '</dd></div>')
+	end
+	table.insert(out, '<div><dt>Status</dt><dd>' .. statusBadge(record) .. '</dd></div>')
+	table.insert(out, '</dl>')
+	if isNonEmpty(record.notes) then
+		table.insert(out, '<p class="edfm-fc-discrepancy-notes">' .. esc(record.notes) .. '</p>')
+	end
+	table.insert(out, '</div>')
+	return table.concat(out, '\n')
+end
+
+
+------------------------------------------------------------------------
+-- Public entry points
+------------------------------------------------------------------------
+
+function p.verifiedTable()
+	local records = loadRecords()
+	return buildGroup(records, 'verified', 'Verified') or ''
+end
+
+function p.unverifiedTable()
+	local records = loadRecords()
+	local warning = '<div class="edfm-guide-callout edfm-guide-callout--warning"><span class="edfm-guide-callout-label">Not independently confirmed</span><div class="edfm-guide-callout-body">These systems have been reported as providing Fleet Carrier Administration but have not yet completed EDFM\'s current verification process. Check availability before committing a carrier jump solely for Administration.</div></div>'
+	return buildGroup(records, 'unverified', 'Reported / Unverified', warning) or ''
+end
+
+function p.disputedTable()
+	local records = loadRecords()
+	return buildGroup(records, 'disputed', 'Disputed') or ''
+end
+
+function p.unavailableTable()
+	local records = loadRecords()
+	return buildGroup(records, 'unavailable', 'Confirmed Unavailable') or ''
+end
+
+function p.discrepancies()
+	local records = loadRecords()
+	local matching = {}
+	for _, record in ipairs(records) do
+		if record.disputedExternalData == true or record.status == 'disputed' then
+			table.insert(matching, record)
+		end
+	end
+	if #matching == 0 then
+		return '<p class="edfm-fc-empty-state">No documented data discrepancies yet.</p>'
+	end
+	table.sort(matching, function(a, b) return a.system < b.system end)
+	local out = {}
+	for _, record in ipairs(matching) do
+		table.insert(out, discrepancyPanel(record))
+	end
+	return table.concat(out, '\n')
+end
+
+-- Full interactive directory: an empty JS-populated toolbar (see
+-- MediaWiki:Common.js, initFleetCarrierDirectory -- degrades to a plain
+-- unfiltered, natively-sortable set of tables with JS off) wrapping every
+-- status group that currently has at least one record.
+function p.directory(frame)
+	local records = loadRecords()
+	local out = {}
+	table.insert(out, '<div id="edfm-fc-directory" class="edfm-fc-directory">')
+	-- The "no results" message is deliberately NOT emitted here. It only
+	-- ever needs to exist once JS-driven filtering is possible, so
+	-- MediaWiki:Common.js creates and hides it itself alongside the
+	-- toolbar controls -- avoids depending on the HTML `hidden` boolean
+	-- attribute surviving Sanitizer (it doesn't, in this MW config), and
+	-- avoids a permanently-wrong "no systems match" message ever showing
+	-- to no-JS visitors who have no way to filter it away.
+	table.insert(out, '<div id="edfm-fc-toolbar" class="edfm-fc-toolbar" role="search" aria-label="Filter Fleet Carrier Administration systems"></div>')
+	table.insert(out, buildGroup(records, 'verified', 'Verified') or '')
+	table.insert(out, buildGroup(records, 'disputed', 'Disputed') or '')
+	table.insert(out, buildGroup(records, 'unverified', 'Reported / Unverified',
+		'<div class="edfm-guide-callout edfm-guide-callout--warning"><span class="edfm-guide-callout-label">Not independently confirmed</span><div class="edfm-guide-callout-body">These systems have been reported as providing Fleet Carrier Administration but have not yet completed EDFM\'s current verification process. Check availability before committing a carrier jump solely for Administration.</div></div>') or '')
+	table.insert(out, buildGroup(records, 'unavailable', 'Confirmed Unavailable') or '')
+	table.insert(out, '</div>')
+	return table.concat(out, '\n')
+end
+
+return p

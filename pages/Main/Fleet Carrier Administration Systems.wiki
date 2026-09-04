@@ -1,0 +1,72 @@
+<!--
+EDFM current-content archive export.
+Title: Fleet Carrier Administration Systems
+Namespace: 0
+Page ID: 761
+Revision ID: 2587
+Timestamp: 2026-08-29T14:00:46Z
+Source URL: https://edfieldmanual.com/wiki/Fleet_Carrier_Administration_Systems
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=A verification-tracked directory of systems where Fleet Carrier Administration is confirmed, reported, or confirmed unavailable.}}
+{{Article status|status=Partially verified|mode=Live|version=Live (current)|reviewed=2026-08-29|reviewer=Sythan|source_quality=Mixed: 13 systems are treated as verified because they are established Fleet Carrier Vendor systems with consistent current external data; 20 systems carry only historical third-party reports and have not been independently re-checked; 1 system has been directly tested in-game by an EDFM contributor.|uncertainty=Most entries below rely on external service-flag consistency rather than a direct in-game EDFM test -- check each system's verification basis and Last checked column before relying on it.}}
+
+'''Fleet Carrier Administration''' is the [[Fleet Carriers|Fleet Carrier]] function that lets an owner install and remove carrier services and manage other carrier-level settings, accessed through Fleet Carrier Management.
+
+{{Important|Fleet Carrier Administration is a system-level service. The carrier must be located in a qualifying system, but the commander does not need to dock at the listed reference station to administer the carrier.}}
+
+This page is a directory of systems currently believed to offer Fleet Carrier Administration, tracked against that distinction rather than presented as a flat list.
+
+== Why this directory exists ==
+
+Third-party ''Elite Dangerous'' databases such as Inara and EDSM are invaluable for locating potential Fleet Carrier Administration systems, but service data can occasionally be stale or incorrect. EDFM therefore records the evidence behind each location rather than treating every external service flag as confirmed. EDFM has directly encountered cases where a system was reported as offering Fleet Carrier Administration by external databases when the service was not actually available in-game -- see [[#Known Data Discrepancies|Known Data Discrepancies]] below.
+
+Two dates are tracked separately for this exact reason:
+
+* '''Source checked''' -- when EDFM last reviewed the external reference data for a system.
+* '''In-game verified''' -- when an EDFM contributor actually moved a Fleet Carrier into the system and confirmed the result directly in Fleet Carrier Management.
+
+A system can have the first without the second. Collapsing the two into a single "last checked" date would overstate how well-tested a system actually is, so this directory keeps them apart.
+
+== Status categories ==
+
+* '''Verified''' &ndash; strong evidence currently supports Fleet Carrier Administration being available, either because the system is an established Fleet Carrier Vendor system (Vendor systems also provide Administration) or because an EDFM contributor has personally confirmed it in-game. A directly-confirmed record additionally carries an '''EDFM Verified''' badge.
+* '''Disputed''' &ndash; external sources report Administration, but EDFM holds contradictory evidence and the system's true status is not yet resolved either way.
+* '''Reported / Unverified''' &ndash; reported by one or more historical or current sources, but not yet independently confirmed by EDFM. Still a useful candidate location, but check availability before relying on it.
+* '''Confirmed Unavailable''' &ndash; direct, current in-game evidence shows Administration is '''not''' available at this system, regardless of what any external database reports.
+
+== Directory ==
+
+Search by system name, or filter by status, to find a candidate Fleet Carrier Administration system. Column headers sort each table.
+
+{{#invoke:FleetCarriers|directory}}
+
+== Known Data Discrepancies ==
+
+This section documents specific cases where commonly available external service information does not match EDFM's own direct in-game testing. It is generated from the same structured dataset as the directory above, not maintained as separate editorial text.
+
+{{#invoke:FleetCarriers|discrepancies}}
+
+== Help verify a system ==
+
+This directory only gets more useful as more systems move from Reported/Unverified to a directly-tested result. A negative result (Administration confirmed '''not''' available) is exactly as valuable to record as a positive one -- it is what let EDFM catch cases like Mundii above.
+
+{{Procedure steps|
+# Move your Fleet Carrier into the system you want to check.
+# Open Fleet Carrier Management.
+# Check whether Administration functionality is available.
+# Capture a screenshot if possible.
+# Record the date you checked.
+# Record the current ''Elite Dangerous'' version/build, if practical.
+# Submit the evidence to EDFM.
+}}
+
+Both positive and negative results are useful submissions. A dedicated submission workflow may be built later; for now, submit evidence through EDFM's usual contributor channels (see [[Elite Dangerous Field Manual:Contributing]]).
+
+== Looking up nearby systems ==
+
+{{Field note|A "find the nearest Verified Administration system" lookup is planned for a future update. The dataset behind this page already tracks a <code>coordinates</code> field for exactly this purpose, currently unpopulated for every system below, so the lookup can be added later without a schema change. When built, it will always keep Verified results in a separate list from Reported/Unverified candidates rather than mixing the two together.}}
+
+{{Related articles|[[Fleet Carriers]] [[Colonia]] [[Trade]] [[Elite Dangerous Field Manual:Source Quality Guide]] [[Elite Dangerous Field Manual:Verification Policy]]}}
+[[Category:Fleet Carriers]]

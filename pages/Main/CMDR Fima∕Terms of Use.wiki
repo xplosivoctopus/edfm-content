@@ -1,0 +1,128 @@
+<!--
+EDFM current-content archive export.
+Title: CMDR Fima/Terms of Use
+Namespace: 0
+Page ID: 767
+Revision ID: 2633
+Timestamp: 2026-08-29T23:33:57Z
+Source URL: https://edfieldmanual.com/wiki/CMDR_Fima/Terms_of_Use
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|section=EDFM|context=Community|deck=Terms of Use for CMDR Fima, EDFM's Discord bot.}}
+
+'''Effective date:''' 29 August 2026<br />
+'''Last updated:''' 29 August 2026
+
+These Terms of Use explain the basic rules for using or interacting with '''CMDR Fima''', the Discord bot operated as part of the ''Elite Dangerous Field Manual'' (EDFM).
+
+{{EDFM policy commitments}}
+
+== Acceptance ==
+
+By using or interacting with CMDR Fima in Discord, you agree to these Terms of Use. If you do not agree, do not use the bot's commands, buttons, menus, modals, or other interactive features.
+
+These terms are scoped to CMDR Fima. The EDFM website and wiki have separate site terms at [[Elite Dangerous Field Manual:Terms of Use]].
+
+== Purpose ==
+
+CMDR Fima is an EDFM Discord companion. It provides EDFM information lookup, supported Elite Dangerous information and data integrations, moderation tools, member verification, role management, onboarding, logging, and community-administration functions.
+
+CMDR Fima is currently operated primarily for the official EDFM Discord server. These terms may also apply if EDFM later uses the bot in additional Discord communities.
+
+== Discord rules and server rules ==
+
+Use of CMDR Fima does not replace any other rules. Users remain subject to:
+
+* Discord's own Terms of Service, Community Guidelines, and platform rules;
+* the rules of the EDFM Discord server or any other Discord community where CMDR Fima is used;
+* applicable law.
+
+Discord may separately restrict, remove, or process content and accounts under Discord's own policies.
+
+== Permitted use ==
+
+You may use CMDR Fima's commands and components for their intended purposes, including looking up EDFM information, using supported Elite Dangerous data features, completing verification, selecting available self-assignable roles, and interacting with staff or moderation workflows when appropriate.
+
+Authorized moderators and administrators may use CMDR Fima's staff tools for legitimate community administration, moderation, security, and support purposes.
+
+== Prohibited use ==
+
+Do not use CMDR Fima to:
+
+* bypass permissions, role requirements, or staff-only restrictions;
+* escalate your own roles or someone else's roles without authorization;
+* exploit command handlers, buttons, select menus, modals, or interaction tokens;
+* abuse commands, spam interactions, flood the bot, or attempt denial-of-service behaviour;
+* obtain, guess, steal, leak, or misuse bot credentials, API keys, secrets, database files, or staff-only information;
+* interfere with moderation systems, logs, verification, role panels, or warning records;
+* knowingly provide malicious input intended to break the bot or Discord clients;
+* impersonate staff, misrepresent moderation actions, or evade enforcement;
+* violate Discord rules, server rules, or applicable law.
+
+This list is not intended to prohibit normal good-faith use of the bot.
+
+== Moderation ==
+
+CMDR Fima is a tool used by authorized EDFM moderators and administrators. Moderation actions supported by the current implementation may include warnings, mutes, kicks, bans, unbans, message deletion/purging, channel locks and unlocks, staff notes, moderation cases, and moderation/member/message logging where enabled.
+
+Most moderation decisions are made by human staff. CMDR Fima does not independently moderate users using AI or arbitrary automated judgment.
+
+The current warning system may automatically apply the configured mute role when the configured warning threshold is reached. For the current EDFM configuration, that threshold is three active warnings. Warnings themselves are issued by authorized human moderators.
+
+EDFM administrators may restrict access to CMDR Fima or the EDFM Discord when reasonably necessary to enforce rules, protect the community, prevent abuse, preserve security, or respond to operational problems.
+
+== Accuracy of information ==
+
+EDFM and CMDR Fima aim to provide accurate and useful Elite Dangerous information, but the information may be incomplete, outdated, unavailable, or affected by game updates, wiki edits, third-party provider changes, or community-supplied data.
+
+Commodity, market, station, system, and availability information is informational only. Prices, supply, demand, market availability, station services, routes, and other in-game facts may be stale or may change before you reach a market or act on the information. CMDR Fima does not guarantee profit, availability, or a specific gameplay outcome.
+
+Use in-game judgment and verify important information where it matters.
+
+== Third-party services ==
+
+CMDR Fima operates through Discord and uses Discord's API and gateway. The current implementation also contacts:
+
+* EDFM at [https://edfieldmanual.com edfieldmanual.com] and <code>https://edfieldmanual.com/api.php</code> for wiki search, article, and structured-data lookups;
+* EDData at <code>https://api.eddata.dev</code> for implemented commodity, market, and system data;
+* EDSY at <code>https://edsy.org/</code> as an outbound ship-build link in relevant bot responses.
+
+Those services may have their own terms, privacy policies, availability limits, and data practices. CMDR Fima cannot guarantee the accuracy or availability of third-party or community data services.
+
+== Intellectual property and affiliation ==
+
+EDFM and CMDR Fima are independent community projects. They are not Frontier Developments, Discord, or an official service of either company.
+
+''Elite Dangerous'', related names, marks, and game assets belong to Frontier Developments plc and/or their respective owners. Discord names, marks, and platform features belong to Discord or its affiliates. Use of those names is for identification and community reference and does not imply endorsement, sponsorship, or review by Frontier Developments or Discord.
+
+== Availability and changes ==
+
+CMDR Fima is provided as a community bot. It may be unavailable, restarted, rate-limited, disabled, changed, or removed without advance notice. Features may change as EDFM's needs, Discord's API, Elite Dangerous, or supported data providers change.
+
+EDFM may disable or restrict features for maintenance, security, abuse prevention, configuration changes, or operational reasons.
+
+== Disclaimer and responsibility ==
+
+CMDR Fima is provided for community administration and gameplay/reference assistance. It is not guaranteed to be uninterrupted, error-free, complete, or current. External/community market data may be incomplete or stale. Users remain responsible for their own Discord conduct and in-game decisions.
+
+Nothing in these terms is intended to exclude responsibility that cannot legally be excluded, but EDFM does not accept responsibility for ordinary gameplay losses, missed opportunities, stale market data, interrupted bot access, or reliance on incomplete community information.
+
+== Changes to these terms ==
+
+These Terms of Use may be updated when CMDR Fima's functionality, operating environment, or community use changes. The last-updated date at the top of this page should be revised when material changes are made.
+
+Continued use of CMDR Fima after changes means you accept the updated terms.
+
+== Contact ==
+
+For terms, privacy, copyright, or policy questions, contact: <code>contact@edfieldmanual.com</code>. You may also contact authorized EDFM staff through the official EDFM Discord server when that is the relevant community context.
+
+== See also ==
+
+* [[CMDR Fima]]
+* [[CMDR Fima/Privacy Policy]]
+* [[Elite Dangerous Field Manual:Terms of Use]]
+* [[Elite Dangerous Field Manual:Privacy Policy]]
+
+[[Category:CMDR Fima]]

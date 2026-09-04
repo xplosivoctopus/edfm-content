@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Main Page
 Namespace: 0
 Page ID: 1
-Revision ID: 2338
-Timestamp: 2026-08-26T20:47:59Z
+Revision ID: 2486
+Timestamp: 2026-08-28T17:32:42Z
 Source URL: https://edfieldmanual.com/
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -17,7 +17,7 @@ __NOTOC__
 <div class="edfm-home-hero">
 <div class="edfm-home-hero-kicker">Commander reference hub</div>
 <div class="edfm-home-hero-title">Elite Dangerous Field Manual</div>
-<div class="edfm-home-hero-text">Current answers, practical procedures, and reliable reference for ''Elite Dangerous'' commanders.</div>
+<div class="edfm-home-hero-text">''Scientia Practica Omnibus'' — practical knowledge for all.</div>
 </div>
 
 <div class="edfm-home-jump" role="navigation" aria-label="Homepage sections">

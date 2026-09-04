@@ -1,0 +1,748 @@
+<!--
+EDFM current-content archive export.
+Title: Surface Mining with the Rhino
+Namespace: 0
+Page ID: 793
+Revision ID: 3090
+Timestamp: 2026-09-03T13:43:14Z
+Source URL: https://edfieldmanual.com/wiki/Surface_Mining_with_the_Rhino
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.0 Rhino update, first-day live behaviour reviewed 2026-09-03
+ |reviewed=2026-09-03
+ |reviewer=Sythan
+ |source_quality=Official Frontier update notes, Frontier dev log, Frontier store/equipment pages, and early independent player testing where official documentation does not yet explain the mechanic
+ |uncertainty=Exact rig-efficiency formulae, temperature calculations, raw Microresource frequency, minimum rig spacing, multi-crew permissions, Fleet Carrier outfitting availability, and some rig-despawn edge cases still need additional verification.
+ |notes=This guide separates Frontier-confirmed facts from current player-tested behaviour. Forum summaries, social-media posts, and single comments are not treated as sources for factual claims.
+}}
+{{Field procedure|topic=Mining|summary=Find a planetary mining site, deploy the Rhino, place mining rigs, recover their output, refine it, and transfer cargo back to the ship.}}
+
+'''Surface Mining with the Rhino''' is the practical field procedure for using the [[Rhino]] [[Surface Recon Vehicles|SRV]] to mine planetary deposits. It covers the complete loop: preparing a compatible ship, locating [[Surface Mining|Surface Mining]] locations, deploying the Rhino, scanning for deposits, placing mining rigs, collecting mined material, using the Rhino refinery, and transferring cargo back to the ship.
+
+The Rhino is not a larger [[Scarab]] that simply drives around shooting rocks. Its primary mining loop is:
+
+{{Procedure steps|
+# Find a landable body with Planetary Mining Locations.
+# Map the body with a [[Detailed Surface Scanner]].
+# Land near a revealed mining location.
+# Deploy the Rhino from a [[Large Planetary Vehicle Hangar]].
+# Use the Rhino's mining scanner to locate individual deposits.
+# Deploy mining rigs on valid deposit areas.
+# Let the rigs mine while you scan and deploy additional rigs.
+# Return to completed rigs, collect their output, and recover the rigs when needed.
+# Allow the onboard refinery to process material into cargo.
+# Transfer cargo from the Rhino to the ship before leaving the site.
+}}
+
+{{Warning|Do not treat the numbers and community-tested behaviours on this page as permanent balance values. The Rhino was released in the 4.4.1.0 update, and Frontier has already identified a live yield issue intended for hotfixing.}}
+
+== What you need ==
+
+This guide assumes the [[Rhino]] is the mining vehicle and focuses on the practical field loop. For manufacturer, specifications, crew capacity, equipment list, release history, and ARX availability, see [[Rhino]].
+
+Use this guide to answer three setup questions before leaving port:
+
+* do you own or have access to the Rhino;
+* can your ship carry the [[Large Planetary Vehicle Hangar]];
+* do you have the scanner, cargo capacity, and field workflow needed to complete the mining loop.
+
+== Before you go ==
+
+Use this checklist before leaving port.
+
+{| class="wikitable" style="width:100%;"
+! Requirement
+! Status
+! Notes
+|-
+| Rhino ownership
+| Required
+| Make sure the Rhino is unlocked and fitted. For availability and edition details, see [[Rhino#Availability|Rhino availability]].<ref name="frontier-rhino-arx">[https://www.elitedangerous.com/news/rhino-available-now-arx-early-access Rhino - Available Now Via ARX Early Access], Frontier Developments, 2 September 2026. Accessed 2026-09-03.</ref>
+|-
+| Compatible ship
+| Required
+| The ship must be one of Frontier's current Rhino-compatible ships and must have a suitable optional internal slot for the Large Planetary Vehicle Hangar.
+|-
+| Large Planetary Vehicle Hangar
+| Required
+| Store pages state that the Rhino requires a '''Large Planetary Vehicle Hangar''', not the ordinary small SRV hangar.<ref name="store-standard">[https://www.elitedangerous.com/store/product/rhino-standard Rhino Standard], Elite Dangerous Gamestore, Frontier Developments. Accessed 2026-09-03.</ref>
+|-
+| Detailed Surface Scanner
+| Required for finding sites efficiently
+| Frontier's update notes state that the [[Detailed Surface Scanner]] was updated to detect Planetary Mining Locations on planets.<ref name="frontier-4410">[https://www.elitedangerous.com/news/updates/4-4-1-0 Elite Dangerous - 4.4.1.0 Update Notes], Frontier Developments, 3 September 2026. Accessed 2026-09-03.</ref>
+|-
+| Cargo capacity in the ship
+| Strongly recommended
+| Rhino mining produces commodity cargo. Bring enough ship cargo space to accept the Rhino's refined output. Do not rely on engineering-material storage for commodity cargo.
+|-
+| Odyssey DLC
+| Required for on-foot disembarkation from the Rhino
+| Frontier store pages state that Odyssey is required for disembarking from the Rhino into on-foot content.<ref name="store-standard" /> Driving and mining requirements should be checked in the live client if Odyssey status matters for your account.
+|}
+
+=== Hangar terminology ===
+
+Elite now has several similarly named vehicle systems. Use the current module names carefully:
+
+* '''Planetary Vehicle Hangar''' — the established SRV hangar used for ordinary SRVs such as the Scarab and Scorpion.
+* '''Large Planetary Vehicle Hangar''' — the Rhino-capable hangar named on Frontier's Rhino store pages.<ref name="store-standard" /> Frontier's August developer log also refers to a '''Mk II Large Planetary Vehicle Hangar''' and a new large planetary vehicle hangar.<ref name="frontier-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026. Accessed 2026-09-03.</ref>
+* '''Fighter Hangar''' — the ship-launched-fighter module. Fighter Hangar support does not imply Rhino compatibility.
+* '''Vessel Hangar''' — a separate ship-launched-vessel term. Frontier's 4.4.1.0 notes mention Vessel Hangar wording fixes, but those notes should not be used as evidence for Rhino module requirements.<ref name="frontier-4410" />
+* '''Mk II variants''' — Frontier's August dev log uses the phrase '''Mk II Large Planetary Vehicle Hangar'''. Store pages use '''Large Planetary Vehicle Hangar'''. Treat the store and live outfitting names as authoritative when fitting a ship.
+
+{{Field note|Some early Commanders reported confusion finding the correct Rhino hangar, especially around similarly named hangar systems. EDFM has not found an official Frontier statement confirming a Fleet Carrier-specific Rhino hangar issue in the official Rhino release notes checked on 2026-09-03. If Fleet Carrier outfitting behaves differently in live play, document it as a temporary known issue once verified.}}
+
+== Choosing a ship ==
+
+The Rhino can only be carried by ships that support the [[Large Planetary Vehicle Hangar]]. Your choice of carrier ship affects both the cost of getting started and how much room remains for cargo, shields, and other equipment.
+
+Frontier's current compatibility list for the Rhino / Large Planetary Vehicle Hangar is:<ref name="frontier-dev-log" /><ref name="frontier-rhino-arx" />
+
+{| class="wikitable sortable" style="width:100%;"
+! Ship
+! Rhino compatible
+! Supported hangar class range announced by Frontier
+! Notes
+|-
+| [[Alliance Crusader]] || Yes || Class 5-6 || Frontier-announced compatibility.
+|-
+| [[Anaconda]] || Yes || Class 5-7 || Frontier-announced compatibility.
+|-
+| [[Beluga Liner]] || Yes || Class 5-6 || Frontier-announced compatibility.
+|-
+| [[Caspian Explorer]] || Yes || Class 5-7 || Frontier-announced compatibility.
+|-
+| [[Federal Corvette]] || Yes || Class 5-7 || Frontier-announced compatibility.
+|-
+| [[Federal Gunship]] || Yes || Class 5-6 || Frontier-announced compatibility.
+|-
+| [[Imperial Cutter]] || Yes || Class 5-7 || Frontier-announced compatibility.
+|-
+| [[Keelback]] || Yes || Class 5 || Frontier-announced compatibility; lowest standard ship price among the currently listed Rhino-compatible ships.
+|-
+| [[Krait Mk II]] || Yes || Class 5-6 || Frontier-announced compatibility.
+|-
+| [[Panther Clipper Mk II]] || Yes || Class 5-7 || Frontier-announced compatibility.
+|-
+| [[Type-9 Heavy]] || Yes || Class 5-7 || Frontier-announced compatibility.
+|-
+| [[Type-10 Defender]] || Yes || Class 5-7 || Frontier-announced compatibility.
+|-
+| [[Type-11 Prospector]] || Yes || Class 5-6 || Frontier-announced compatibility.
+|}
+
+Do not infer compatibility from [[Fighter Hangar]] or Vessel Hangar information. The Rhino uses its own Large Planetary Vehicle Hangar requirement.
+
+=== Cheapest option: Keelback ===
+
+The [[Keelback]] is the cheapest entry point among Frontier's current Rhino-compatible ship list when comparing standard ship purchase price. EDCD's Coriolis game-data repository lists the Keelback with a retail cost of 3,126,154 CR, lower than the other compatible ships currently present in that data set.<ref name="coriolis-keelback">[https://raw.githubusercontent.com/EDCD/coriolis-data/master/ships/keelback.json Keelback ship data], EDCD Coriolis data repository. Accessed 2026-09-03.</ref>
+
+Treat that standard price as a comparison baseline, not a guarantee of the exact credits a Commander will spend at every shipyard. Local shipyard discounts or other price modifiers can reduce the actual purchase price, while the practical build also needs budget for the [[Large Planetary Vehicle Hangar]], the Rhino, cargo capacity, shields, and any other desired modules.
+
+The Keelback's lower purchase price also comes with much less optional-internal capacity than larger alternatives. It is the cheapest Rhino-compatible entry point, not necessarily the best Rhino carrier ship.
+
+== Finding a Planetary Mining Location ==
+
+Start from the ship.
+
+
+
+{{Procedure steps|
+# Enter a system with landable bodies.
+# Open the system map or navigation interfaces and inspect landable planets.
+# Look for bodies that report Planetary Mining Locations or related planetary mining signals.
+# Fit and use a [[Detailed Surface Scanner]]. Frontier confirms the DSS can reveal Planetary Mining Locations after the Rhino update.<ref name="frontier-4410" />
+# Complete the DSS scan of the target body.
+# Review the revealed mining locations. Current player testing reports that the interface can show planetary mining locations and associated mineral/commodity information during approach, but the exact UI presentation should be checked in the live client before relying on any one field name.<ref name="buur-guide">[https://youtu.be/5p-OZ-jXDbU FIRST LOOK: The Rhino Review & Surface Mining Guide], The Buur Pit, YouTube, 2026. Accessed 2026-09-03.</ref><ref name="mile13-guide">[https://youtu.be/5DbAmTJ4UG0 The Rhino Is Here! Early Access Surface Mining Guide], Mile 13 Gaming, YouTube, 2026. Accessed 2026-09-03.</ref>
+# Target a promising location.
+# Descend toward the location and land close enough that the Rhino can reach the deposit area without a long drive.
+}}
+
+[[File:Planetary_mining_location.png|thumb|right|300px|A screenshot showing a planet feature for planetary mining locations.]]
+
+== Choosing a planet ==
+
+Frontier confirms that surface-mining balance includes commodity weighting, deposit density, deposit capacity, deposit replenishment, Planetary Mining Location size and amount, temperature effects, base mining time, maximum mined content, commodity percentage within mined content, additional Microresource frequency, and efficiency recharge rates.<ref name="frontier-4410" /> Frontier has not published the exact formulae.
+
+Practical planet choice is therefore an evaluation problem, not a fixed rule:
+
+{| class="wikitable" style="width:100%;"
+! Factor
+! What is confirmed
+! Practical implication
+|-
+| Commodity weighting
+| Frontier confirms commodities are weighted for deposits.<ref name="frontier-4410" />
+| Different planets or locations may favour different commodity mixes. Check the current location data rather than assuming every body is equivalent.
+|-
+| Deposit density
+| Frontier confirms density is part of the balance model.<ref name="frontier-4410" />
+| Higher-density deposits may be better targets, but exact yield/time relationships are not publicly documented.
+|-
+| Deposit capacity
+| Frontier confirms capacity varies by density level.<ref name="frontier-4410" />
+| Larger or denser deposits can be more valuable, especially if they can support more than one rig.
+|-
+| Replenishment
+| Frontier says collected deposits regenerate very slowly.<ref name="frontier-dev-log" />
+| Do not expect one rich site to be a permanent high-output loop without moving or waiting.
+|-
+| Temperature
+| Frontier confirms temperature affects rig efficiency.<ref name="frontier-4410" />
+| Avoid making hard claims about ideal temperature until measured data exists.
+|}
+
+Early community testing suggests rocky worlds may often show more attractive mining opportunities than some icy worlds, while icy worlds may be dominated by commodities such as water or tritium. Treat that as an early observation, not a universal rule. Compare the actual location information shown by the game before committing to a site.
+
+== Deploying the Rhino ==
+
+The Rhino cannot be deployed like ordinary SRVs through a regular cargo hatch. Frontier states that it is dropped from a new vehicle bay because of its size.<ref name="frontier-first-look">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface - Your First Look at the Rhino], Frontier Developments, 6 August 2026. Accessed 2026-09-03.</ref>
+
+Current player testing indicates that the ship must deploy the Rhino while close to the surface rather than from a normal landed-SRV bay workflow.<ref name="buur-guide" /><ref name="mile13-guide" /> Because key bindings vary, use the ship/SRV deployment controls assigned in your own control scheme rather than relying on a fixed key.
+
+After deployment:
+
+* Drive into the Planetary Mining Location.
+* Expect heavy-SRV handling. The Rhino is large and purpose-built for carrying mining equipment and output.
+* For complete vehicle specifications, see [[Rhino]]. If in-game outfitting or inventory displays practical storage partitions that affect the mining procedure, record the distinction rather than replacing official values with an observation.<ref name="store-vehicle">[https://www.elitedangerous.com/store/vehicles/rhino Rhino], Elite Dangerous Gamestore, Frontier Developments. Accessed 2026-09-03.</ref>
+* Assign the Mining Rig Deployment Module and scanner to usable fire groups.
+
+== Using the Planetary Mining Deposit Scanner ==
+
+[[File:Planetary_mining_deposits_scan.png|thumb|left|300px|A screenshot showing the results of a [[Rhino]]'s deposit scanner.]]
+
+The Rhino's scanner is one of the least obvious parts of the system. Frontier confirms that the scanner detects planetary mining deposits and visibly marks mineral-rich deposits on the surface and sensors.<ref name="frontier-dev-log" /> Current player testing describes a pulse-style scanner and purple or pink highlighted ground areas around valid deposit footprints.<ref name="buur-guide" /><ref name="mile13-guide" /><ref name="slamscape-preview">[https://youtu.be/zBvg8SDV2F4 First Impressions - Rhino & Surface Mining Preview], Slamscape-X, YouTube, 2026. Accessed 2026-09-03.</ref><ref name="intro-guide">[https://youtu.be/8NRNn3lCzvo Elite Dangerous | Intro To Surface Mining], YouTube, 2026. Accessed 2026-09-03.</ref>
+
+<div style="clear: left;"></div>
+
+Use it like this:
+
+{{Procedure steps|
+# Enter the Planetary Mining Location.
+# Activate the Rhino's mining scanner using the control assigned to it.
+# Watch for terrain highlighting and contacts/sensor returns.
+# Use the Contacts panel or relevant SRV interface to identify detected deposits.
+# Select a deposit to inspect what commodity or resource it appears to contain.
+# Drive toward the deposit while keeping terrain and slope in mind.
+# Position the Rhino inside the valid highlighted area before deploying a rig.
+}}
+
+If density, quality, capacity, temperature, or other values are displayed in your client, record the exact field name and location before adding it to EDFM. Frontier confirms these factors matter, but exact UI fields and formulae are not all documented publicly.
+
+== Deploying a mining rig ==
+
+
+
+A mining rig must be placed on valid deposit terrain. Current player testing supports this basic workflow:<ref name="buur-guide" /><ref name="mile13-guide" /><ref name="intro-guide" />
+
+<div class="edfm-panel edfm-panel-info" style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start;">
+<div style="flex: 1 1 28rem; min-width: 0;">'''Procedure'''
+# Select or approach a detected deposit.
+# Stop or slow the Rhino within the highlighted valid area.
+# Activate the Mining Rig Deployment Module using the fire-group control to which it is assigned.
+# Wait for confirmation that the rig deployed successfully.
+# Move the Rhino away from the rig so it can unfold and begin mining.
+# Continue scanning rather than sitting idle beside the first rig.
+</div>
+<div style="flex: 0 1 360px; max-width: 100%;">[[File:Mining_rig.png|frameless|360px|A deployed Rhino mining rig extracting material from a planetary deposit.]]<div style="background: #2a3136; border-top: 1px solid var( --edfm-border ); color: var( --edfm-text-muted ); font-size: var( --edfm-fs-small ); font-style: italic; line-height: 1.45; padding: 0.48rem 0.65rem 0.55rem;">A deployed Rhino mining rig extracting material from a planetary deposit.</div></div>
+</div>
+
+Invalid placement can occur if the Rhino is outside the deposit footprint, terrain is unsuitable, or another rig is too close. Community testing confirms rigs cannot be placed too close together, but the exact minimum spacing is not officially documented. Treat reports of specific distances, including roughly 40 m or higher estimates, as preliminary until measured consistently.
+
+=== Multiple rigs on one deposit ===
+
+Large deposits can sometimes accommodate more than one mining rig if there is enough valid space and separation. This is important for efficiency: a large, valuable deposit may be better than several small deposits because multiple rigs may work the same deposit while still remaining far enough apart.
+
+Do not assume every highlighted deposit supports multiple rigs. Try the placement, respect invalid-placement warnings, and record the deposit size/density if testing.
+
+== What a mining rig does ==
+
+After deployment, the rig unfolds, begins mining, fills with extracted material, and eventually becomes ready for collection. Current player testing reports that active and completed rigs can be monitored through the Contacts panel, which provides actions such as preparing the rig for material collection, preparing the rig for rig recovery, or destroying the rig.<ref name="buur-guide" /><ref name="mile13-guide" /><ref name="intro-guide" />
+
+Confirmed or strongly observed fields vary by UI source. Do not document a field as universal unless it is visible in the live interface. At minimum, a Commander should monitor:
+
+* whether the rig is still active or ready;
+* where the rig is relative to the Rhino;
+* whether the rig needs to be prepared for material collection or rig recovery;
+* whether the Rhino has enough capacity to accept the output.
+
+== Mining rig efficiency ==
+
+Frontier confirms that rig efficiency and mining output are balanced by several factors, but does not publish formulae.<ref name="frontier-4410" />
+
+{| class="wikitable" style="width:100%;"
+! Factor
+! Confirmed effect
+! Exact formula known?
+! Practical implication
+|-
+| Base mining time
+| Frontier lists this as a balanced value.
+| No
+| Expect cycle time to vary by balance updates; do not hard-code one permanent time.
+|-
+| Maximum mined content
+| Frontier lists this as a balanced value.
+| No
+| Deposits and rigs may have practical output limits.
+|-
+| Commodity percentage within mined content
+| Frontier lists this as a balanced value.
+| No
+| Not every mined unit necessarily becomes the target commodity at the same rate.
+|-
+| Additional Microresources
+| Frontier lists frequency of additional Microresources as a balance value.
+| No
+| Raw material side-products appear to be secondary; do not treat them as guaranteed primary yield.
+|-
+| Efficiency recharge rates
+| Frontier lists this as a balance value.
+| No
+| Charging/maintenance may matter, but exact player-facing benefit needs more testing.
+|-
+| Deposit density
+| Frontier confirms density affects rig efficiency.
+| No
+| Prefer high-density deposits when other factors are equal.
+|-
+| Temperature
+| Frontier confirms temperature affects rig efficiency.
+| No
+| Track planet and local conditions during tests; avoid claiming an ideal range without evidence.
+|}
+
+== Charging and maintaining mining rigs ==
+
+Community testers report that deployed rigs have an interactable charging point that can be used on foot with the Commander's Energy Transfer Tool.<ref name="buur-guide" /><ref name="slamscape-preview" /><ref name="intro-guide" /> This behaviour is useful enough to document, but the exact benefit is not yet settled.
+
+Current safe wording:
+
+{{Procedure steps|
+# Stop the Rhino near the deployed rig.
+# Disembark on foot if your account and conditions allow it.
+# Locate the rig's charging or power-transfer point.
+# Use the Energy Transfer Tool on the port.
+# Watch the rig's displayed efficiency or status and your suit energy.
+# Return to the Rhino before continuing the mining loop.
+}}
+
+Community reports agree that the interaction consumes suit energy. They do not yet agree on the exact impact on cycle time or yield. Do not publish an ideal efficiency percentage until repeated testing demonstrates one.
+
+== Deploy multiple rigs ==
+
+The intended loop is usually not:
+
+:deploy one rig → wait beside it → collect it
+
+A better loop is:
+
+{{Procedure steps|
+# Scan the area.
+# Locate several valuable deposits or one large deposit with enough valid rig positions.
+# Deploy a rig.
+# Move to the next deposit or another valid position on the same deposit.
+# Deploy another rig.
+# Continue until your available rigs are working.
+# Monitor Contacts for completion.
+# Return to completed rigs.
+# Collect material, recover rigs when needed, and repeat.
+}}
+
+Community testing commonly reports up to six deployable rigs, but EDFM should keep the exact number tied to live verification and official values where possible. Large deposits that accept more than one rig can reduce driving time and improve the value of a site.
+
+== Completion and recovering a rig ==
+
+When a rig finishes, current player testing indicates that the Contacts panel exposes preparation actions. The exact label may vary, but testers report separate options for preparing material collection and preparing rig recovery.<ref name="buur-guide" /><ref name="mile13-guide" /><ref name="intro-guide" />
+
+To collect material:
+
+{{Procedure steps|
+[[File:Prepping_mining_rig.png|thumb|left|300px|A screenshot showing prep options for a mining rig.]]
+# Select the completed rig in Contacts.
+# Choose the action that prepares it for mineral or material collection.
+# Wait for the rig to fold or enter its collection state.
+# Drive the Rhino over or into the collection position.
+# Let the mined output transfer into the Rhino/refinery.
+# Back away if the rig should continue working, or prepare it for full rig recovery if you are leaving.
+}}
+
+To recover the rig itself:
+
+<div class="edfm-panel edfm-panel-info" style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start;">
+<div style="flex: 1 1 28rem; min-width: 0;">'''Procedure'''
+# Select the rig in Contacts.
+# Choose the action that prepares it for rig collection or recovery.
+# Drive the Rhino over the folded rig.
+# Confirm that the rig returns to the Rhino's available rig inventory before leaving the area.
+</div>
+[[File:Prepped_mining_rig_pickup.png|thumb|right|300px|A mining rig prepped for pickup.]]</div>
+
+</div>
+
+If Rhino storage or refinery capacity is full, do not assume the rig's output is safely stored. Transfer cargo to the ship or clear capacity before continuing. Exact overflow behaviour needs live verification.
+
+== The Rhino refinery ==
+
+Frontier lists a Rhino onboard refinery as part of the released vehicle feature set.<ref name="frontier-4410" /> Current player testing indicates mined rig output enters the Rhino's internal refinery/storage before being transferred to the ship.<ref name="buur-guide" /><ref name="intro-guide" />
+
+Treat the Rhino refinery as related to, but not necessarily identical to, a ship refinery. Document only what is visible in the live interface:
+
+* mined chunks/output enter the Rhino after rig collection;
+* commodity cargo can be transferred to the ship;
+* partial processing, bin behaviour, discard controls, and exact overflow rules need more live documentation;
+* raw Microresources, if produced, should be distinguished from commodity cargo.
+
+If you observe a blocked refinery, record the exact message, cargo/refinery state, commodity, and whether material was lost or remained in the rig.
+
+== Transferring material to the ship ==
+
+End the loop by returning cargo to the ship before leaving the site.
+
+{{Procedure steps|
+# Finish or pause active rig work.
+# Recover any rigs you do not want to risk losing.
+# Return beneath or near the ship's SRV transfer area.
+# Open the ship/SRV inventory or cargo transfer interface.
+# Move refined commodity cargo from the Rhino to the ship.
+# Confirm the ship cargo hold received the goods.
+# Only then board the ship or leave the area.
+}}
+
+Keep these inventories separate:
+
+* '''Commodity cargo''' — refined goods that occupy cargo capacity and are transferred to the ship.
+* '''Raw engineering materials / Microresources''' — material-inventory items if produced; these should not be described as cargo unless the game stores them as cargo.
+* '''Rig inventory''' — deployable equipment carried by the Rhino, not saleable cargo.
+
+== Raw engineering materials / Microresources ==
+
+Frontier specifically lists the frequency of additional '''Microresources''' as part of surface-mining balance.<ref name="frontier-4410" /> This means the Rhino can be relevant to raw-material gathering, but the exact rates and tables are not yet documented.
+
+Current evidence should be phrased carefully:
+
+* Microresources appear to be secondary output rather than the primary targeted commodity.
+* Exact chance and yield are not publicly documented.
+* Early player reports conflict: some testers report engineering-material style raw outputs, while others only observed commodity minerals/gems during their tests.<ref name="slamscape-preview" /><ref name="intro-guide" /><ref name="mile13-guide" />
+* Do not advertise Rhino mining as the new best raw-material farm until controlled testing supports that claim.
+
+== Surface Mining commodities ==
+
+Frontier's 4.4.1.0 notes list initial balance values for these surface-mining commodities.<ref name="frontier-4410" /> This table is preserved here because it directly affects choosing a site, but the commodity list and broader deposit mechanics may eventually belong on a general [[Surface Mining]] reference page once that page is developed.
+
+{| class="wikitable sortable" style="width:100%;"
+! Commodity
+! Typical source/body type
+! Relative rarity
+! Typical market role
+! Notes
+|-
+| Bastnäsite || Unknown || Unknown || Surface-mining commodity || Spelling includes ä in Frontier's notes.
+|-
+| Deuterium || Unknown || Unknown || Surface-mining commodity || Verify market behaviour before adding prices.
+|-
+| Diamond || Unknown || Unknown || Surface-mining commodity || Do not assume asteroid-mining values apply.
+|-
+| Helium || Unknown || Unknown || Surface-mining commodity || Verify body associations through live data.
+|-
+| Helium-3 || Unknown || Unknown || Surface-mining commodity || Verify body associations through live data.
+|-
+| Iridium || Unknown || Unknown || Surface-mining commodity || Verify rarity through measured locations.
+|-
+| Magnesite || Unknown || Unknown || Surface-mining commodity || Verify market behaviour before adding prices.
+|-
+| Olivine || Unknown || Unknown || Surface-mining commodity || Verify body associations through live data.
+|-
+| Periclase dunite || Unknown || Unknown || Surface-mining commodity || Use Frontier spelling.
+|-
+| Quartz pyroxenite || Unknown || Unknown || Surface-mining commodity || Use Frontier spelling.
+|-
+| Ruby || Unknown || Unknown || Surface-mining commodity || Verify market behaviour before adding prices.
+|-
+| Sapphire || Unknown || Unknown || Surface-mining commodity || Verify market behaviour before adding prices.
+|-
+| Thortveitite || Unknown || Unknown || Surface-mining commodity || Use Frontier spelling.
+|}
+
+
+== Current 9-chunk bug ==
+
+{{Warning|Known issue, 4.4.1.0: Frontier states that the Rhino currently collects only 9 chunks from surface mining and that this will be increased to 12.<ref name="frontier-4410" /> Current live yields may therefore be below intended output.}}
+
+<!-- Recheck this section after Frontier deploys the Rhino 9-to-12 chunk hotfix. Do not bake the 9-chunk behaviour into permanent instructions. -->
+
+Do not treat the nine-chunk value as the intended long-term mining capacity. If a later hotfix changes this, remove or update this known-issue notice and revise affected yield examples.
+
+== Leaving rigs deployed ==
+
+Community testing indicates that active rigs can be lost or destroyed when the Commander boards the ship, logs out, travels too far away, or otherwise leaves the active instance.<ref name="buur-guide" /><ref name="mile13-guide" /><ref name="slamscape-preview" /><ref name="intro-guide" /> Exact edge cases still need more testing.
+
+Until behaviour is fully verified, use this conservative rule:
+
+{{Warning|Collect rig output and recover deployed rigs before boarding the ship, logging out, leaving the instance, dismissing/recalling in ways that move you away from the site, or switching activities. Do not leave valuable completed rigs on the surface unless you are deliberately testing despawn behaviour.}}
+
+Testing still needed:
+
+* boarding the ship;
+* dismissing and recalling the ship;
+* moving far away from rigs;
+* switching SRVs;
+* logging out;
+* entering supercruise;
+* leaving the instance;
+* death or Rhino destruction.
+
+== Multi-crew ==
+
+For factual crew capacity and confirmed vehicle information, see [[Rhino#Crew|Rhino crew]]. Current public documentation does not yet clearly explain seat-specific mining permissions.
+
+Until tested, treat multi-crew as a workflow question rather than a confirmed efficiency upgrade. Useful behaviours to verify include whether additional Commanders can help with scouting, on-foot rig charging, defending the Rhino, calling out deposit locations, managing contacts, operating scanner functions, or receiving mining rewards.
+
+Do not state a specific multi-crew mining workflow as recommended until those behaviours are verified in live play.
+
+== Optimized Rhino workflow ==
+
+After the individual mechanics are understood, use this practical loop:
+
+{{Procedure steps|
+# Choose a compatible ship with a Large Planetary Vehicle Hangar, Rhino, DSS, and cargo capacity.
+# Find a landable world with Planetary Mining Locations.
+# DSS the planet and compare revealed sites and commodities.
+# Target a promising site and land nearby.
+# Deploy the Rhino.
+# Pulse the mining scanner inside the location.
+# Identify high-value or high-density deposits.
+# Deploy rigs efficiently, using large deposits for multiple rigs when placement allows it.
+# Continue scanning and placing rigs rather than waiting idle.
+# Maintain or charge rigs only when it appears worthwhile; record results for testing.
+# Monitor Contacts for completed rigs.
+# Prepare completed rigs for material collection and drive over the collection position.
+# Recover rigs you are finished with.
+# Let the refinery process output and watch capacity.
+# Return to the ship when Rhino capacity warrants it.
+# Transfer commodity cargo to the ship.
+# Repeat or leave after all active rigs and output are secured.
+}}
+
+Large deposits matter because they may allow more than one rig, reducing the amount of driving required. High density and favourable temperature may matter because Frontier confirms they affect efficiency, but the exact math is still unknown.
+
+== Beginner mistakes and fixes ==
+
+{| class="wikitable" style="width:100%;"
+! Symptom
+! Likely cause
+! Fix
+|-
+| I bought the Rhino but cannot deploy it.
+| Wrong ship, wrong hangar, no Rhino fitted, or not using a Rhino-compatible deployment flow.
+| Use a Frontier-compatible ship and fit the Large Planetary Vehicle Hangar. Check outfitting for the Rhino and assigned controls.
+|-
+| I cannot find the Rhino in my normal SRV hangar.
+| The Rhino requires the Large Planetary Vehicle Hangar, not the ordinary Planetary Vehicle Hangar.
+| Fit the correct large hangar in a compatible ship.
+|-
+| I landed on a planet but the scanner finds nothing.
+| You may not be inside a Planetary Mining Location, or the body was not mapped for those locations.
+| DSS the body, target a revealed mining location, and drive within the location before scanning.
+|-
+| I do not see Planetary Mining Locations.
+| The planet may not have relevant locations or may not have been scanned.
+| Inspect landable bodies, use the DSS, and verify the navigation/system map signals.
+|-
+| My mining rig will not deploy.
+| The Rhino may be outside the valid deposit area, moving too much, on unsuitable terrain, or too close to another rig.
+| Stop inside the highlighted deposit footprint and try a different position.
+|-
+| The deposit is highlighted but placement is invalid.
+| Terrain, slope, or rig spacing may still be invalid.
+| Move around the highlighted area and test another spot.
+|-
+| I cannot place two rigs near each other.
+| Rigs appear to require separation.
+| Spread rigs farther apart. Exact minimum distance is still community-tested, not officially documented.
+|-
+| My rig finished but I do not know how to collect it.
+| The rig must be prepared through Contacts before collection.
+| Select the rig in Contacts, prepare it for material collection, then drive over the folded/collection position.
+|-
+| My refinery or cargo is full.
+| The Rhino or ship may not have room for more output.
+| Transfer cargo to the ship or clear capacity before collecting more rig output. Exact overflow behaviour needs verification.
+|-
+| I returned to my ship and something happened to my rigs.
+| Community testing indicates active rigs can be destroyed or despawn when leaving/boarding/logging out.
+| Collect output and recover rigs before boarding or leaving the area.
+|-
+| I only received nine chunks.
+| Frontier-confirmed known issue in 4.4.1.0.
+| Treat this as temporary until Frontier's planned increase to 12 is live.
+|-
+| I cannot find the required hangar on my Fleet Carrier.
+| Possible outfitting availability/confusion; no official Fleet Carrier-specific statement found in checked Frontier sources.
+| Check a station outfitting location and monitor Frontier issue/news channels. Do not document this as permanent without confirmation.
+|}
+
+== Rhino vs ship mining ==
+
+{| class="wikitable" style="width:100%;"
+! Method
+! Where it happens
+! Setup
+! Strengths
+! Limits
+|-
+| Laser mining
+| Planetary rings / asteroid fields
+| Ship mining lasers, refinery, prospectors, collectors, cargo
+| Established workflow, high-volume commodity mining when conditions are good
+| Requires ring/asteroid selection and limpet management
+|-
+| Core mining
+| Planetary rings / asteroid fields
+| Pulse Wave Analyser, seismic charges, abrasion blaster, refinery, collectors
+| Active and skill-based; can target valuable core commodities
+| Slower target finding; mistakes can waste cores
+|-
+| Rhino surface mining
+| Landable planetary surfaces
+| Rhino, Large Planetary Vehicle Hangar, DSS, ship cargo capacity
+| New planetary loop; deployable rigs; possible raw Microresource side-products
+| Brand-new balance; exact profitability and efficiency are not yet established
+|}
+
+Do not currently claim Rhino mining is more profitable per hour than Type-11, laser, or core mining. The system is too new for a reliable universal conclusion.
+
+== Rhino vs traditional raw-material farming ==
+
+The Rhino may become another way to incidentally gather raw Microresources, but it should not yet replace established raw-material advice.
+
+{| class="wikitable" style="width:100%;"
+! Method
+! Best use
+! Rhino comparison
+|-
+| Surface prospecting
+| Direct collection of planetary materials
+| Simpler, older method; Rhino may produce additional Microresources while focused on commodity extraction.
+|-
+| Geological features
+| Known surface material sites
+| More direct for specific raw materials when locations are known.
+|-
+| Crystalline shard / brain-tree collection
+| High-yield raw-material gathering where applicable
+| Rhino evidence is not strong enough to call it better.
+|-
+| Asteroid mining byproducts
+| Incidental raw materials while mining in space
+| Rhino may fill a similar incidental niche for planetary commodity mining.
+|}
+
+== Community research and data collection ==
+
+Rhino surface mining is still new, and there are plenty of details the community is still figuring out. As more Commanders put it through its paces, EDFM can replace early observations and estimates with solid, repeatable data.
+
+Some especially useful things to test include:
+
+* deposit density vs mining time;
+* deposit density vs yield;
+* temperature vs efficiency;
+* ideal rig efficiency range, if one exists;
+* rig charging effect;
+* deposit replenishment time;
+* commodity distribution by planet type;
+* reserve level effect, if any;
+* raw-material drop frequency;
+* raw-material grade distribution;
+* maximum rigs per deposit;
+* minimum rig spacing;
+* maximum useful distance from the Rhino;
+* despawn behaviour;
+* multi-crew behaviour;
+* refinery and cargo limits;
+* credits per hour under controlled conditions.
+
+When reporting results, include system, body, body type, gravity, temperature if visible, deposit commodity, deposit density/capacity if visible, rig count, cycle time, output, raw-material drops, and any errors or warnings.
+
+== Confirmed vs community-tested information ==
+
+{| class="wikitable" style="width:100%;"
+! Confidence
+! Examples on this page
+|-
+| Officially confirmed
+| Rhino systems, DSS detection of Planetary Mining Locations, compatible ships, surface-mining commodity list, balance factors, 9-to-12 chunk known issue.
+|-
+| Verified/current game behaviour from player testing
+| Scanner pulse/highlight behaviour, rig deployment and collection loop, Contacts-panel rig actions, cargo transfer workflow, rigs being lost when leaving in common cases.
+|-
+| Community-tested but still preliminary
+| Exact rig spacing, multiple rigs per individual deposit, cycle-time estimates, charging benefit, raw Microresource rates, multi-crew role details.
+|-
+| Needs further testing
+| Exact formulae, ideal efficiency ranges, Fleet Carrier hangar edge cases, despawn edge cases, long-term profitability comparisons.
+|}
+
+== Quick reference ==
+
+{| class="wikitable" style="width:100%;"
+! Stage
+! What to do
+|-
+| Prepare
+| Unlock and fit the Rhino, choose a compatible ship, fit a [[Large Planetary Vehicle Hangar]], bring a [[Detailed Surface Scanner]], and leave room for commodity cargo.
+|-
+| Find site
+| Use the DSS to locate a suitable Planetary Mining Location on a landable body.
+|-
+| Scan
+| Enter the site and use the Rhino's mining scanner to locate planetary deposits.
+|-
+| Deploy
+| Position mining rigs on valid deposit terrain and respect invalid-placement or spacing warnings.
+|-
+| Mine
+| Keep available rigs operating where practical instead of waiting idle beside a single rig.
+|-
+| Maintain
+| Charge or maintain rigs only where the live interface supports it; the exact benefit still needs more testing.
+|-
+| Collect
+| Use Contacts or the relevant SRV interface to prepare completed rig output, then drive the Rhino over or into the collection position.
+|-
+| Recover
+| Recover deployed rigs before leaving where required, especially when not deliberately testing despawn behaviour.
+|-
+| Refine
+| Watch Rhino refinery/storage capacity and distinguish commodity cargo from raw Microresource output.
+|-
+| Unload
+| Return to the ship and transfer refined commodity cargo from the Rhino to ship cargo storage.
+|}
+
+For complete vehicle specifications, see [[Rhino]]. For Rhino availability and editions, see [[Rhino#Availability|Rhino availability]].
+
+== Related pages ==
+
+* [[Rhino]]
+* [[Surface Mining]]
+* [[Mining]]
+* [[Detailed Surface Scanner]]
+* [[Surface Recon Vehicles]]
+* [[Large Planetary Vehicle Hangar]]
+* [[Planetary Mineral Scanner]]
+* [[Refinery]]
+* [[Commodities]]
+* [[Type-11 Prospector]]
+* [[Planetary Landing]]
+
+== References ==
+
+<references />
+
+[[Category:Mining]]
+[[Category:Field Procedures]]

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:PageContext
 Namespace: 828
 Page ID: 729
-Revision ID: 2121
-Timestamp: 2026-08-24T21:58:11Z
+Revision ID: 2935
+Timestamp: 2026-09-02T14:17:14Z
 Source URL: https://edfieldmanual.com/wiki/Module:PageContext
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -83,6 +83,27 @@ end
 local function engineerRecord(name)
 	if not isNonEmpty(name) or not pageInEngineers(name) then return nil end
 	return loadJsonPage('Module:Data/Engineers/' .. normalizeTitle(name))
+end
+
+
+local function engineeringBlueprintRecord(title)
+	local index = loadLuaData('Module:Data/EngineeringBlueprints/index')
+	if type(index) ~= 'table' then return nil end
+	for _, id in ipairs(index) do
+		local record = loadLuaData('Module:Data/EngineeringBlueprints/' .. id)
+		if record and (sameTitle(record.page, title) or sameTitle(record.name, title)) then return record end
+	end
+	return nil
+end
+
+local function experimentalEffectRecord(title)
+	local index = loadLuaData('Module:Data/ExperimentalEffects/index')
+	if type(index) ~= 'table' then return nil end
+	for _, id in ipairs(index) do
+		local record = loadLuaData('Module:Data/ExperimentalEffects/' .. id)
+		if record and (sameTitle(record.page, title) or sameTitle(record.name, title)) then return record end
+	end
+	return nil
 end
 
 local function pageInShips(title)
@@ -192,6 +213,10 @@ function p.getPageTypeValue(pageName)
 
 	if pageInEngineers(title) then
 		pageType = 'engineer'
+	elseif engineeringBlueprintRecord(title) then
+		pageType = 'engineering_blueprint'
+	elseif experimentalEffectRecord(title) then
+		pageType = 'experimental_effect'
 	elseif pageInShips(title) then
 		pageType = 'ship'
 	elseif pageInMiningDataset(title, 'Module:Data/Mining/Methods') then

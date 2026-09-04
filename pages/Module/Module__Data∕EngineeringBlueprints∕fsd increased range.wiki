@@ -1,0 +1,250 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/EngineeringBlueprints/fsd increased range
+Namespace: 828
+Page ID: 776
+Revision ID: 2918
+Timestamp: 2026-09-02T14:14:16Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/EngineeringBlueprints/fsd_increased_range
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	id = "fsd_increased_range",
+	name = "Increased Range",
+	page = "Increased Range",
+	type = "Engineering Blueprint",
+	module_family_id = "frame_shift_drive",
+	module_family = "Frame Shift Drive",
+	module_pages = { "Frame Shift Drive", "Frame Shift Drive (SCO)" },
+	category = "Core Internal",
+	subtype = "Frame Shift Drive Blueprint",
+	max_grade = 5,
+	grades_available = { 1, 2, 3, 4, 5 },
+	primary_effect = "Increases Frame Shift Drive optimized mass, generally improving maximum jump range.",
+	major_tradeoffs = "Increases module mass and power draw while reducing integrity.",
+	remote_engineering = "Blueprint grades can be applied through Remote Workshop when pinned and unlocked; Experimental Effects still require an Engineer workshop.",
+	live_status = "Current Live",
+	fdname = "FSD_LongRange",
+	source_status = "Cross-checked against EDSY live data and INARA current blueprint listings.",
+	compatible_experimental_effect_ids = { "fsd_deep_charge", "fsd_double_braced", "fsd_mass_manager", "fsd_stripped_down", "fsd_thermal_spread" },
+	aliases = { "FSD Increased Range", "FSD Long Range", "Long Range FSD" },
+	gameplay_summary = "Optimized mass determines how much ship mass a Frame Shift Drive can move efficiently. Raising it usually increases jump range, especially on larger FSD classes and heavier ships.",
+	grades = {
+		{
+			grade = 1,
+			changes = {
+				{
+					attribute = "mass",
+					value = 10,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = -3,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "pwrdraw",
+					value = 3,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 15,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "atdiwaec",
+					name = "Atypical Disrupted Wake Echoes",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 2,
+			changes = {
+				{
+					attribute = "mass",
+					value = 15,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = -6,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "pwrdraw",
+					value = 6,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 25,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "atdiwaec",
+					name = "Atypical Disrupted Wake Echoes",
+					quantity = 1,
+				},
+				{
+					id = "chpr",
+					name = "Chemical Processors",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 3,
+			changes = {
+				{
+					attribute = "mass",
+					value = 20,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = -9,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "pwrdraw",
+					value = 9,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 35,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "pho",
+					name = "Phosphorus",
+					quantity = 1,
+				},
+				{
+					id = "chpr",
+					name = "Chemical Processors",
+					quantity = 1,
+				},
+				{
+					id = "stwaso",
+					name = "Strange Wake Solutions",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 4,
+			changes = {
+				{
+					attribute = "mass",
+					value = 25,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = -12,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "pwrdraw",
+					value = 12,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 45,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "man",
+					name = "Manganese",
+					quantity = 1,
+				},
+				{
+					id = "chdi",
+					name = "Chemical Distillery",
+					quantity = 1,
+				},
+				{
+					id = "echytr",
+					name = "Eccentric Hyperspace Trajectories",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 5,
+			changes = {
+				{
+					attribute = "mass",
+					value = 30,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = -15,
+					unit = "%",
+					direction = "decrease",
+				},
+				{
+					attribute = "pwrdraw",
+					value = 15,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 55,
+					unit = "%",
+					direction = "increase",
+				},
+			},
+			materials = {
+				{
+					id = "ars",
+					name = "Arsenic",
+					quantity = 1,
+				},
+				{
+					id = "chma",
+					name = "Chemical Manipulators",
+					quantity = 1,
+				},
+				{
+					id = "dawaex",
+					name = "Datamined Wake Exceptions",
+					quantity = 1,
+				},
+			},
+		},
+	},
+}

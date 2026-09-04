@@ -1,0 +1,250 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/EngineeringBlueprints/fsd shielded
+Namespace: 828
+Page ID: 778
+Revision ID: 2920
+Timestamp: 2026-09-02T14:14:17Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/EngineeringBlueprints/fsd_shielded
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	id = "fsd_shielded",
+	name = "Shielded",
+	page = "Shielded",
+	type = "Engineering Blueprint",
+	module_family_id = "frame_shift_drive",
+	module_family = "Frame Shift Drive",
+	module_pages = { "Frame Shift Drive", "Frame Shift Drive (SCO)" },
+	category = "Core Internal",
+	subtype = "Frame Shift Drive Blueprint",
+	max_grade = 5,
+	grades_available = { 1, 2, 3, 4, 5 },
+	primary_effect = "Improves FSD integrity and reduces FSD thermal load, with a smaller optimized-mass increase.",
+	major_tradeoffs = "Increases module mass.",
+	remote_engineering = "Blueprint grades can be applied through Remote Workshop when pinned and unlocked; Experimental Effects still require an Engineer workshop.",
+	live_status = "Current Live",
+	fdname = "FSD_Shielded",
+	source_status = "Cross-checked against EDSY live data and INARA current blueprint listings.",
+	compatible_experimental_effect_ids = { "fsd_deep_charge", "fsd_double_braced", "fsd_mass_manager", "fsd_stripped_down", "fsd_thermal_spread" },
+	aliases = { "FSD Shielded", "Shielded FSD" },
+	gameplay_summary = "Shielded emphasizes durability and lower FSD thermal load instead of maximum range. It is a niche choice for builds where module integrity matters more than jump optimization.",
+	grades = {
+		{
+			grade = 1,
+			changes = {
+				{
+					attribute = "mass",
+					value = 4,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = 25,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 3,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = -10,
+					unit = "%",
+					direction = "decrease",
+				},
+			},
+			materials = {
+				{
+					id = "nic",
+					name = "Nickel",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 2,
+			changes = {
+				{
+					attribute = "mass",
+					value = 8,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = 50,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 6,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = -15,
+					unit = "%",
+					direction = "decrease",
+				},
+			},
+			materials = {
+				{
+					id = "car",
+					name = "Carbon",
+					quantity = 1,
+				},
+				{
+					id = "shem",
+					name = "Shield Emitters",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 3,
+			changes = {
+				{
+					attribute = "mass",
+					value = 12,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = 75,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 9,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = -20,
+					unit = "%",
+					direction = "decrease",
+				},
+			},
+			materials = {
+				{
+					id = "car",
+					name = "Carbon",
+					quantity = 1,
+				},
+				{
+					id = "zin",
+					name = "Zinc",
+					quantity = 1,
+				},
+				{
+					id = "shse",
+					name = "Shielding Sensors",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 4,
+			changes = {
+				{
+					attribute = "mass",
+					value = 16,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = 100,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 12,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = -25,
+					unit = "%",
+					direction = "decrease",
+				},
+			},
+			materials = {
+				{
+					id = "van",
+					name = "Vanadium",
+					quantity = 1,
+				},
+				{
+					id = "hideco",
+					name = "High Density Composites",
+					quantity = 1,
+				},
+				{
+					id = "cosh",
+					name = "Compound Shielding",
+					quantity = 1,
+				},
+			},
+		},
+		{
+			grade = 5,
+			changes = {
+				{
+					attribute = "mass",
+					value = 20,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "integ",
+					value = 125,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdoptmass",
+					value = 15,
+					unit = "%",
+					direction = "increase",
+				},
+				{
+					attribute = "fsdheat",
+					value = -30,
+					unit = "%",
+					direction = "decrease",
+				},
+			},
+			materials = {
+				{
+					id = "tun",
+					name = "Tungsten",
+					quantity = 1,
+				},
+				{
+					id = "prco",
+					name = "Proprietary Composites",
+					quantity = 1,
+				},
+				{
+					id = "imsh",
+					name = "Imperial Shielding",
+					quantity = 1,
+				},
+			},
+		},
+	},
+}

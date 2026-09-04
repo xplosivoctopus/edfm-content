@@ -1,0 +1,57 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ExperimentalEffects/fsd mass manager
+Namespace: 828
+Page ID: 781
+Revision ID: 2923
+Timestamp: 2026-09-02T14:14:19Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ExperimentalEffects/fsd_mass_manager
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	id = "fsd_mass_manager",
+	name = "Mass Manager",
+	page = "Mass Manager",
+	type = "Experimental Effect",
+	module_family_id = "frame_shift_drive",
+	module_family = "Frame Shift Drive",
+	module_pages = { "Frame Shift Drive", "Frame Shift Drive (SCO)" },
+	primary_effect = "Increases FSD optimized mass.",
+	tradeoff = "Reduces FSD integrity.",
+	mechanical_behavior = "Often the preferred range-focused Experimental Effect on larger FSDs because optimized mass directly improves jump performance.",
+	stacking_behavior = "One Experimental Effect can be applied to a module at a time.",
+	compatible_blueprint_ids = { "fsd_increased_range", "fsd_faster_boot_sequence", "fsd_shielded" },
+	live_status = "Current Live",
+	fdname = "special_fsd_heavy",
+	source_status = "Cross-checked against EDSY live data and INARA current listings.",
+	changes = {
+		{
+			attribute = "integ",
+			value = -8,
+			unit = "%",
+		},
+		{
+			attribute = "fsdoptmass",
+			value = 4,
+			unit = "%",
+		},
+	},
+	materials = {
+		{
+			id = "atdiwaec",
+			name = "Atypical Disrupted Wake Echoes",
+			quantity = 5,
+		},
+		{
+			id = "gaal",
+			name = "Galvanising Alloys",
+			quantity = 3,
+		},
+		{
+			id = "echytr",
+			name = "Eccentric Hyperspace Trajectories",
+			quantity = 1,
+		},
+	},
+}

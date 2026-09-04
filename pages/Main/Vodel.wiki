@@ -1,0 +1,42 @@
+<!--
+EDFM current-content archive export.
+Title: Vodel
+Namespace: 0
+Page ID: 750
+Revision ID: 2563
+Timestamp: 2026-08-29T12:48:57Z
+Source URL: https://edfieldmanual.com/wiki/Vodel
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Upcoming Content
+ |mode=Live
+ |version=Pre-release Rhino information as of 29 August 2026
+ |reviewed=2026-08-29
+ |reviewer=Sythan
+ |source_quality=Official Frontier Rhino announcement and August 2026 developer log
+ |uncertainty=Only Vodel's Rhino-related pre-release role is currently documented here.
+}}
+{{Article header|section=Ships & Equipment|deck=Manufacturer associated with the Rhino Surface Recon Vehicle.}}
+
+'''Vodel''' is a manufacturer in ''Elite Dangerous''. Frontier Developments has described Vodel as a Core Dynamics subsidiary and the developer of the [[Rhino]], an upcoming large [[Surface Recon Vehicles|Surface Recon Vehicle]] built for [[Surface Mining|surface mining]].<ref name="frontier-august-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
+
+== Known products ==
+
+{| class="wikitable" style="width:100%;"
+! Product
+! Type
+! Status
+|-
+| [[Rhino]]
+| [[Surface Recon Vehicles|Surface Recon Vehicle]]
+| Scheduled for 2 September 2026<ref name="frontier-august-dev-log" />
+|}
+
+== References ==
+
+<references />
+
+[[Category:Organizations]]
+[[Category:Ships and Equipment]]

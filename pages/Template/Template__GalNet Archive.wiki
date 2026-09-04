@@ -3,14 +3,26 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 2416
-Timestamp: 2026-08-27T20:40:02Z
+Revision ID: 3158
+Timestamp: 2026-09-04T12:00:02Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 <noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
 <div class="edfm-galnet-archive-list">
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">03 SEP 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a993628a96f951e83045c7e Wreaken Calls for Surface Mining Support Tests]</div>
+<div class="edfm-galnet-summary">To test its new deployable mining rig, Wreaken Corporation has called for independent pilots to help complete field trials. Dr. Ben Curtis, Chief Geologist at Wreaken, stated: "We're excited to not only test the rig's patented mining laser technology but also verify which materials it can extract from a variety of planetary body types."…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a993628a96f951e83045c7e Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">03 SEP 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a968b57fb27e7b469078284 Vodel Reveals New SRV Rhino]</div>
+<div class="edfm-galnet-summary">Vodel, the manufacturer of the Scarab and Scorpion surface recon vehicles, has announced its latest addition – the SRV Rhino. According to press materials received, the Rhino is currently the largest available SRV and comes heavily armoured. As a result of its extra weight, it sacrifices speed for superior grip, allowing it to traverse…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a968b57fb27e7b469078284 Read the official GalNet transmission]</div>
+</div>
 <div class="edfm-galnet-archive-entry">
 <div class="edfm-galnet-date">24 AUG 3312</div>
 <div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a8c1a983531540f830c1532 Research Sheds New Light on Industrial Mining]</div>
@@ -89,18 +101,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-summary">Frontline Solutions has announced that its expanded deployment service has started shipping mercenaries to anti-crime operations across the core systems. Following the successful manufacturing and test trials of the Runner transport, CEO Imogen le Ray confirmed in a press release that her corporation is ready to deploy strike teams…</div>
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a4292538b6bdffc98029838 Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">29 JUN 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a3e983ccf9240818a050d97 Federation Breaks Silence on October Accords Exclusion]</div>
-<div class="edfm-galnet-summary">President Felicia Winters conveyed ‘disappointment’ at the Federation’s continued exclusion from Radicoida unica research. While careful not to criticise members of the October Accords directly, Winters made clear that denying the Federation any level of access to the research and its findings would force the superpower to act: “We…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a3e983ccf9240818a050d97 Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">25 JUN 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a3bf6108ae8c275520fc5e8 Kestrel Fighter Enters Full Production]</div>
-<div class="edfm-galnet-summary">The Kestrel has received the green light for full distribution, having previously been available via limited release only. Shipments of Core Dynamics’s latest design have begun to arrive at markets. An accompanying press stated the Kestrel has been developed as a highly capable, dedicated combat ship. CEO Owen McKenna remarked: “The…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a3bf6108ae8c275520fc5e8 Read the official GalNet transmission]</div>
-</div>
-</div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 27 Aug 2026 20:40 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 04 Sep 2026 12:00 UTC.</div>
 </div></includeonly>

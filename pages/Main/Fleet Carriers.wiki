@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Fleet Carriers
 Namespace: 0
 Page ID: 187
-Revision ID: 2102
-Timestamp: 2026-08-24T21:27:30Z
+Revision ID: 2588
+Timestamp: 2026-08-29T14:00:47Z
 Source URL: https://edfieldmanual.com/wiki/Fleet_Carriers
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,7 +14,27 @@ This is current wikitext only; no revision history, user database, logs, deleted
 
 Index for player-owned Fleet Carrier content — see [[:Category:Fleet Carriers]].
 
-No individual Fleet Carrier articles exist yet.
+== In this section ==
 
-{{Related articles|[[Operations]] [[Trade]] [[Tools and Resources]]}}
+* '''[[Fleet Carrier Administration Systems]]''' — a verification-tracked directory of systems that offer Fleet Carrier Administration, including reported-but-unverified candidates and systems directly confirmed '''not''' to offer it.
+
+== Planned coverage ==
+
+This section is being built incrementally, starting from the data EDFM can verify most confidently. Topics expected to follow, not yet written:
+
+* Buying a Fleet Carrier
+* Carrier services
+* Upkeep
+* Tritium and fuel
+* Jumping and navigation
+* Cargo storage
+* Commodity market
+* Shipyard and outfitting
+* Universal Cartographics and Vista Genomics
+* Secure Warehouse
+* Access permissions and carrier tariffs
+* Decommissioning
+* Squadron Fleet Carriers
+
+{{Related articles|[[Fleet Carrier Administration Systems]] [[Operations]] [[Trade]] [[Tools and Resources]]}}
 [[Category:Fleet Carriers]]

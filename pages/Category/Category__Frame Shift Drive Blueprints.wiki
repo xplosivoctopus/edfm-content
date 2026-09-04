@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Frame Shift Drive Blueprints
+Namespace: 14
+Page ID: 790
+Revision ID: 2934
+Timestamp: 2026-09-02T14:14:30Z
+Source URL: https://edfieldmanual.com/wiki/Category:Frame_Shift_Drive_Blueprints
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Engineering Blueprints for Frame Shift Drives.}}
+
+Pages in this category cover verified Frame Shift Drive Blueprint records generated from EDFM structured Engineering data.
+
+[[Category:Engineering Blueprints]]

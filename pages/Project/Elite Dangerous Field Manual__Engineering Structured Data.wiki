@@ -1,0 +1,63 @@
+<!--
+EDFM current-content archive export.
+Title: Elite Dangerous Field Manual:Engineering Structured Data
+Namespace: 4
+Page ID: 785
+Revision ID: 2937
+Timestamp: 2026-09-02T14:18:03Z
+Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Engineering_Structured_Data
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=How EDFM stores and renders Engineering Blueprint and Experimental Effect data.}}
+{{Article status|status=Partially verified|mode=Live|source_quality=Documents the active structured-data architecture. More Blueprint and Experimental families will be added in paced batches after verification.}}
+
+EDFM stores Engineering Blueprint and Experimental Effect facts in Lua table data modules. The renderers also support JSON-style content for compatibility with the existing Engineer convention, but new Blueprint and Experimental records use ordinary Scribunto data modules so they can be edited safely in the Module namespace without changing page content models. Articles and directories render those facts through Scribunto modules so values are maintained once instead of copied by hand.
+
+== Data locations ==
+* Blueprint index: [[Module:Data/EngineeringBlueprints/index]]
+* Blueprint records: <code>Module:Data/EngineeringBlueprints/&lt;stable_id&gt;</code>
+* Experimental Effect index: [[Module:Data/ExperimentalEffects/index]]
+* Experimental Effect records: <code>Module:Data/ExperimentalEffects/&lt;stable_id&gt;</code>
+* Blueprint renderer: [[Module:EngineeringBlueprints]]
+* Experimental renderer: [[Module:ExperimentalEffects]]
+
+== Stable IDs ==
+Use stable lowercase IDs such as <code>fsd_increased_range</code> or <code>fsd_mass_manager</code>. Do not use page display titles as the only relationship key.
+
+== What belongs in structured data ==
+Put verified facts in data records: canonical name, compatible module family, grades, numerical modifiers, material recipes, compatible Experimental Effects, Live status, source status, aliases, and stable relationship IDs.
+
+== What belongs in article prose ==
+Use article text for practical explanation, examples, build advice, screenshots, edge cases, comparisons, and community-tested notes. Do not store long generic prose paragraphs in data records.
+
+== Article invocation examples ==
+<pre>{{#invoke:EngineeringBlueprints|infobox|fsd_increased_range}}
+{{#invoke:EngineeringBlueprints|gradeTable|fsd_increased_range}}
+{{#invoke:EngineeringBlueprints|materialsTable|fsd_increased_range}}
+{{#invoke:EngineeringBlueprints|experimentalEffects|fsd_increased_range}}</pre>
+
+<pre>{{#invoke:ExperimentalEffects|infobox|fsd_mass_manager}}
+{{#invoke:ExperimentalEffects|effectsTable|fsd_mass_manager}}
+{{#invoke:ExperimentalEffects|compatibleBlueprints|fsd_mass_manager}}</pre>
+
+== Adding a Blueprint ==
+# Verify current Live data from multiple reliable sources.
+# Create <code>Module:Data/EngineeringBlueprints/&lt;stable_id&gt;</code> as a Lua data module returning one table.
+# Add the ID to [[Module:Data/EngineeringBlueprints/index]].
+# Preview the infobox, grade table, material table, and directory.
+# Create or upgrade the article using generated sections plus concise practical prose.
+
+== Adding an Experimental Effect ==
+# Verify current Live data and module compatibility.
+# Create <code>Module:Data/ExperimentalEffects/&lt;stable_id&gt;</code> as a Lua data module returning one table.
+# Add the ID to [[Module:Data/ExperimentalEffects/index]].
+# Link compatible Blueprint IDs in both directions where appropriate.
+# Preview the infobox, effects/materials table, and directory.
+
+== Contributor guidance ==
+Generated factual sections should be treated as canonical reference output. Community editors should normally expand practical sections such as Usage, When to Use It, When Not to Use It, build examples, screenshots, and field-tested notes unless they are specifically updating verified structured data.
+
+{{Engineering nav}}
+
+[[Category:Engineering]]

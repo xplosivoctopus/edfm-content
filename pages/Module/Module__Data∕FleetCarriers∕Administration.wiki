@@ -1,0 +1,400 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/FleetCarriers/Administration
+Namespace: 828
+Page ID: 758
+Revision ID: 2594
+Timestamp: 2026-08-29T14:33:03Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/FleetCarriers/Administration
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+[
+	{
+		"system": "Agartha",
+		"referenceStation": "Enoch Port",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Alcor",
+		"referenceStation": "Macdonald Settlement",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Balante",
+		"referenceStation": "Laplace Ring",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "CD-47 990",
+		"referenceStation": "Jackson Ring",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Colonia",
+		"referenceStation": "Jaques Station",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Diso",
+		"referenceStation": "Shifnalport",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Ehlanda",
+		"referenceStation": "Clark Port",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Kakmbutan",
+		"referenceStation": "Macgregor Orbital",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Kruger 60",
+		"referenceStation": "Kepler Gateway",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Lan Tzak",
+		"referenceStation": "Jacobi Platform",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Namnetes",
+		"referenceStation": "Jolliet Enterprise",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Panoi",
+		"referenceStation": "Garan Hub",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Skeggiko O",
+		"referenceStation": "Kuo Terminal",
+		"status": "verified",
+		"edfmVerified": false,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "UBV 8670",
+		"referenceStation": "Hurley Dock",
+		"status": "verified",
+		"edfmVerified": true,
+		"verificationBasis": "carrier_vendor_admin",
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Established Fleet Carrier Vendor system; Fleet Carrier Vendor systems also provide Fleet Carrier Administration."
+	},
+	{
+		"system": "Ye'kuana",
+		"referenceStation": "Howard Station",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Ngurumbha",
+		"referenceStation": "Swigert Hub",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Lhou Mans",
+		"referenceStation": "Dashiell Port",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Shernteniai",
+		"referenceStation": "Lundwall Port",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Bilfrost",
+		"referenceStation": "Williams Port",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Amphisatsu",
+		"referenceStation": "Goldberg Orbital",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "LTT 1598",
+		"referenceStation": "Covington Dock",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Gliese 58",
+		"referenceStation": "Baillaud Dock",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "CD-27 5409",
+		"referenceStation": "Raleigh Port",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Adityan",
+		"referenceStation": "Hopkins City",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Nu Wanga",
+		"referenceStation": "Mondeh Dock",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Tarbi",
+		"referenceStation": "Alvarado City",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Mizar",
+		"referenceStation": "Judson Station",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Gertrude",
+		"referenceStation": "Walker Ring",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "LP 486-49",
+		"referenceStation": "Napier Enterprise",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Hill Pa Hsi",
+		"referenceStation": "Curie Gateway",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "L 190-21",
+		"referenceStation": "Gurragchaa Orbital",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Terminus",
+		"referenceStation": "Payette Orbital",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "u Carinae",
+		"referenceStation": "Carpenter Gateway",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Huangais",
+		"referenceStation": "Blackwell Station",
+		"status": "unverified",
+		"edfmVerified": false,
+		"verificationBasis": null,
+		"externalReports": true,
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": null,
+		"notes": "Historically reported as a Fleet Carrier Administration system. Requires current in-game EDFM verification."
+	},
+	{
+		"system": "Mundii",
+		"referenceStation": "Elder Hub",
+		"status": "unavailable",
+		"edfmVerified": true,
+		"verificationBasis": "direct_ingame_negative",
+		"verifiedBy": "Sythan",
+		"sourceCheckedDate": "2026-08-29",
+		"ingameVerifiedDate": "2026-08-29",
+		"externalReports": true,
+		"disputedExternalData": true,
+		"notes": "Fleet Carrier Administration was confirmed unavailable in Fleet Carrier Management despite third-party databases reporting the service as available."
+	}
+]

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Terms of Use
 Namespace: 4
 Page ID: 329
-Revision ID: 1693
-Timestamp: 2026-08-24T12:47:52Z
+Revision ID: 2830
+Timestamp: 2026-09-01T12:48:40Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Terms_of_Use
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -61,8 +61,10 @@ Do not use EDFM to:
 == Moderation and enforcement ==
 EDFM may edit, revert, hide, delete, block, rename, restrict, or otherwise moderate accounts and content where needed to protect the community, comply with law, preserve attribution, enforce these terms, prevent abuse, or maintain the wiki.
 
-== Frontier login and commander data ==
+== Third-party login providers ==
 Frontier login is available as an alternative sign-in/registration method (see [[Special:UserLogin]]). Normal Frontier sign-in is for account login/linking only and does not request Companion API (<code>capi</code>) access. Commander-name verification through CAPI is a separate optional Preferences action; if a user chooses '''Attach CMDR Name''', EDFM may request <code>auth capi</code>, read the Commander name once, and grant the '''Verified Commander''' badge &mdash; see [[Elite Dangerous Field Manual:Verified Commanders]] for exactly what that does and does not mean. Frontier account and Commander identities are personally identifiable information; see [[Elite Dangerous Field Manual:Privacy Policy]] for what EDFM stores and how Frontier data is, and is not, used.
+
+Discord sign-in/linking is also available as an optional account provider. It is used only to create, sign in to, or link an EDFM account through Discord OAuth/OpenID Connect. By choosing Discord sign-in, you authorize Discord and EDFM to complete that login/linking flow, including the <code>openid</code>, <code>identify</code>, and <code>email</code> scopes described in the Privacy Policy. Discord's own terms, privacy policy, cookies, and account-security controls apply on Discord-controlled pages.
 
 == No warranties ==
 EDFM is provided as a community reference. It may contain errors, outdated information, incomplete pages, downtime, or broken features. Use in-game judgement and verify important information.
