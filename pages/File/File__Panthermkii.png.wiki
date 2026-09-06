@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Panthermkii.png
+Namespace: 6
+Page ID: 802
+Revision ID: 3209
+Timestamp: 2026-09-05T04:47:50Z
+Source URL: https://edfieldmanual.com/wiki/File:Panthermkii.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of the Panther Clipper Mk 2 in Elite Dangerous.
+ |subject = Panther Clipper Mk 2
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the Panther Clipper Mk 2 article and related ship pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Ship images]]
+
+== Licensing ==
+{{License-ED screenshot}}

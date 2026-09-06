@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Community Goals
+Namespace: 14
+Page ID: 804
+Revision ID: 3213
+Timestamp: 2026-09-05T05:06:49Z
+Source URL: https://edfieldmanual.com/wiki/Category:Community_Goals
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Community Goal event articles in the Elite Dangerous Field Manual.
+
+[[Category:History]]
+[[Category:Gameplay]]

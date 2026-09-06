@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "September 4, 2026 at 12:16:15 UTC",
+  "exported_at_utc": "September 6, 2026 at 07:00:58 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -24,7 +24,7 @@
     "14": "Category",
     "828": "Module"
   },
-  "page_count": 772,
+  "page_count": 776,
   "pages": [
     {
       "title": "AX Missile Rack",
@@ -2862,6 +2862,15 @@
       "path": "pages/Main/Wellington Beck.wiki"
     },
     {
+      "title": "Wreaken Mining Rig Field Tests",
+      "ns": 0,
+      "pageid": 803,
+      "rev_id": 3219,
+      "timestamp": "2026-09-05T06:13:25Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Wreaken_Mining_Rig_Field_Tests",
+      "path": "pages/Main/Wreaken Mining Rig Field Tests.wiki"
+    },
+    {
       "title": "Wyrd",
       "ns": 0,
       "pageid": 355,
@@ -3418,6 +3427,15 @@
       "timestamp": "2026-09-03T03:45:44Z",
       "fullurl": "https://edfieldmanual.com/wiki/File:Mining_rig.png",
       "path": "pages/File/File__Mining rig.png.wiki"
+    },
+    {
+      "title": "File:Panthermkii.png",
+      "ns": 6,
+      "pageid": 802,
+      "rev_id": 3209,
+      "timestamp": "2026-09-05T04:47:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Panthermkii.png",
+      "path": "pages/File/File__Panthermkii.png.wiki"
     },
     {
       "title": "File:Petraolmanova.png",
@@ -4053,8 +4071,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 3158,
-      "timestamp": "2026-09-04T12:00:02Z",
+      "rev_id": 3293,
+      "timestamp": "2026-09-06T07:00:02Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },
@@ -4608,6 +4626,15 @@
       "path": "pages/Category/Category__Commodities.wiki"
     },
     {
+      "title": "Category:Community Goals",
+      "ns": 14,
+      "pageid": 804,
+      "rev_id": 3213,
+      "timestamp": "2026-09-05T05:06:49Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Community_Goals",
+      "path": "pages/Category/Category__Community Goals.wiki"
+    },
+    {
       "title": "Category:Comparisons",
       "ns": 14,
       "pageid": 5,
@@ -4750,6 +4777,15 @@
       "timestamp": "2026-08-08T15:50:50Z",
       "fullurl": "https://edfieldmanual.com/wiki/Category:Equipment_images",
       "path": "pages/Category/Category__Equipment images.wiki"
+    },
+    {
+      "title": "Category:Events",
+      "ns": 14,
+      "pageid": 805,
+      "rev_id": 3214,
+      "timestamp": "2026-09-05T05:06:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Category:Events",
+      "path": "pages/Category/Category__Events.wiki"
     },
     {
       "title": "Category:Exobiology",

@@ -1,0 +1,209 @@
+<!--
+EDFM current-content archive export.
+Title: Wreaken Mining Rig Field Tests
+Namespace: 0
+Page ID: 803
+Revision ID: 3219
+Timestamp: 2026-09-05T06:13:25Z
+Source URL: https://edfieldmanual.com/wiki/Wreaken_Mining_Rig_Field_Tests
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous Live Community Goal, reviewed 2026-09-05
+ |reviewed=2026-09-05
+ |reviewer=Sythan
+ |source_quality=Official Frontier GalNet and Community Goal pages, with Inara used for live progress, station and market observations
+ |uncertainty=This is an active Community Goal. Contribution totals, market prices, demand, and percentile brackets can change quickly. Frontier's public Community Goal data lists a 10 September 2026 expiry, while some public trackers have shown conflicting timers; the in-game Community Goal panel should be treated as authoritative for the live deadline.
+}}
+{{Article header|section=Mining|context=Community Goals|deck=Ongoing Wreaken and Vodel mining field test based at Metz Enterprise in Ega, with separate asteroid and surface-mining Community Goals.}}
+
+<div class="edfm-panel edfm-panel-info noexcerpt">'''Ongoing Community Goal''' — details and market examples on this page were checked on 5 September 2026. Re-check the in-game Community Goal panel and live market tools before committing cargo.</div>
+
+'''Wreaken Mining Rig Field Tests''' is a pair of linked Community Goals in ''Elite Dangerous'', opened by Wreaken Corporation and [[Vodel]] at '''Metz Enterprise''' in the '''Ega''' system. One goal uses familiar asteroid laser mining as a comparison point. The other puts the [[Rhino]] [[Surface Recon Vehicles|SRV]] and Wreaken's deployable [[Surface Mining|surface-mining]] rigs through a large public field test.<ref name="frontier-cg">[https://www.elitedangerous.com/community/goals Community goals], Frontier Developments. Accessed 2026-09-05.</ref><ref name="galnet-tests">[https://www.elitedangerous.com/news/galnet/wreaken-calls-for-surface-mining-support-tests Wreaken Calls for Surface Mining Support Tests], GalNet, Frontier Developments, 3 September 3312. Accessed 2026-09-05.</ref>
+
+Both goals run from the same station, but they do not track the same cargo or the same mining method. The elevated prices Wreaken is paying have also turned Metz Enterprise into a temporary trade magnet, especially for commodities such as Palladium. That market frenzy is one of the most visible effects of the event, but it is separate from actually contributing mined cargo to a Community Goal.
+
+== Summary ==
+
+{| class="wikitable" style="width:100%;"
+! Field !! Details
+|-
+| Event || Wreaken Mining Rig Field Tests
+|-
+| Status || Ongoing Community Goal
+|-
+| Location || Metz Enterprise, Ega
+|-
+| Station type || Starport (Coriolis), large pads, approximately 5,392 Ls from arrival<ref name="inara-metz">[https://inara.cz/elite/station/19179/ Metz Enterprise - Ega], Inara. Accessed 2026-09-05.</ref>
+|-
+| Organizations || Wreaken Corporation; [[Vodel]]
+|-
+| Activities || Asteroid laser mining; Rhino surface mining; temporary commodity trading
+|-
+| Deadline/status || Frontier's active data lists 10 September 2026 at 10:00 UTC, but public trackers have disagreed; check the in-game Community Goal panel for the live timer<ref name="frontier-cg" />
+|-
+| Rewards || Type-11 Prospector Umbra Red Paintjob; Rhino Excavation Precision-Red Paintjob; Vodel Decal; credit rewards by success tier and individual contribution level<ref name="frontier-cg" />
+|}
+
+== Event background ==
+
+Wreaken has been developing deployable mining equipment for planetary work: rigs that can be set up on the surface, extract resources, and feed into a refinery module. Vodel's Rhino is the vehicle built to carry that idea into the field. GalNet described the Rhino as a large, heavily armoured SRV from Vodel, a Core Dynamics subsidiary, with deployable mining rigs and a refinery module fitted as standard for planetside mining.<ref name="galnet-rhino">[https://www.elitedangerous.com/news/galnet/vodel-reveals-new-srv-rhino Vodel Reveals New SRV Rhino], GalNet, Frontier Developments, 3 September 3312. Accessed 2026-09-05.</ref>
+
+The Ega trials are where that technology stops being a showroom feature and starts being tested by pilots at scale. Dr. Ben Curtis, Wreaken's Chief Geologist, described the work as a way to test the rig's mining-laser technology and learn which materials it can extract from different planetary body types.<ref name="galnet-tests" /> Earlier GalNet coverage tied the project to Wreaken research into surface extraction, deployable drills, refinery modules, and surface scanning for planetary mining sites.<ref name="galnet-research">[https://www.elitedangerous.com/news/galnet/research-sheds-new-light-on-industrial-mining Research Sheds New Light on Industrial Mining], GalNet, Frontier Developments, 24 August 3312. Accessed 2026-09-05.</ref>
+
+The asteroid-mining goal gives Wreaken a baseline. By asking laser miners to deliver conventional mined commodities at the same time, the company can compare established asteroid yields against the new surface-mining loop. For the details of deploying the Rhino, locating deposits, extracting resources, and recovering the rig, see [[Surface Mining with the Rhino]].
+
+== The two Community Goals ==
+
+Metz Enterprise hosts two separate Community Goals. Pilots who want to take part need to dock there and register for the goal they intend to support; joining one does not automatically join the other. The rewards are listed the same way for both, but the targets, accepted cargo, mining methods, and price multipliers differ.<ref name="frontier-cg" />
+
+=== Wreaken Calls for Mining Support to Test New Rig ===
+
+'''Wreaken Calls for Mining Support to Test New Rig''' is the conventional mining side of the trial. Wreaken is asking pilots to laser-mine asteroids so the company can compare normal asteroid yields with the new surface-mining system.<ref name="frontier-cg" />
+
+To contribute, register for this goal at Metz Enterprise, mine qualifying asteroid commodities with laser mining, return to Metz, and sell the cargo through the commodity market. Frontier's active Community Goal data listed a target of '''35,000,000 tonnes''' and a '''6x price multiplier''' for commodities sold as part of this initiative.<ref name="frontier-cg" />
+
+The asteroid goal accepts:
+
+{| class="wikitable" style="width:100%;"
+! Asteroid-mining CG commodities
+|-
+| Platinum, Palladium, Gold, Silver, Bertrandite, Indite, Gallite, Coltan, Uraninite, Lepidolite, Cobalt, Rutile, Water, Painite, Osmium, Praseodymium, Bromellite, Samarium
+|}
+
+Live progress and contribution brackets change as more pilots take part. The in-game panel and live trackers such as Inara are the best places to check current percentile thresholds while the goal is active.<ref name="inara-cg">[https://inara.cz/elite/communitygoals/ Community goals], Inara. Accessed 2026-09-05.</ref>
+
+=== Wreaken Calls for Surface Mining Support to Test New Rig ===
+
+'''Wreaken Calls for Surface Mining Support to Test New Rig''' is the Rhino side of the event. This goal is built around Wreaken's deployable surface-mining rig rather than ordinary asteroid mining. After registering at Metz Enterprise, participating pilots sell raw or refined surface-mined materials to the station market.<ref name="frontier-cg" />
+
+Frontier's active Community Goal data listed a target of '''10,000,000 tonnes''' and an '''8x price multiplier''' for materials sold as part of this surface-mining initiative.<ref name="frontier-cg" />
+
+The surface-mining goal accepts:
+
+{| class="wikitable" style="width:100%;"
+! Surface-mining CG commodities
+|-
+| Iridium, Helium, Helium-3, Bastnasite, Deuterium, Thortveitite, Quartz Pyroxenite, Olivine, Periclase Dunite, Sapphire, Diamond, Ruby, Magnesite
+|}
+
+These materials are tied to the Rhino and deployable-rig loop, not laser mining in asteroid rings. Commanders unfamiliar with the new system can find the full deployment, extraction, refining, and recovery process in [[Surface Mining with the Rhino]].
+
+== How to participate ==
+
+Start by travelling to '''Ega''' and docking at '''Metz Enterprise'''. Inara listed Metz as a Coriolis starport with large pads, a commodity market, shipyard, outfitting, repair, refuel, rearm, and other major station services, approximately 5,392 Ls from the arrival point.<ref name="inara-metz" />
+
+Once docked, open the Community Goal panel and register for whichever trial you want to support. If you plan to support both, join both separately. From there the loop is straightforward: collect the correct cargo by the method required by that goal, bring it back to Metz Enterprise, and sell it through the commodity market.
+
+=== Mining contribution vs ordinary trading ===
+
+The easy mistake in this event is treating every sale at Metz as Community Goal progress. It is not that simple.
+
+A valid CG contribution requires registration first, and the cargo has to satisfy the rules of the relevant goal. The asteroid goal calls for laser asteroid-mined commodities. The surface goal calls for surface-mined materials from the Rhino/deployable-rig loop.<ref name="frontier-cg" />
+
+Ordinary trade is different. Buying Palladium at another station and hauling it to Metz can be extremely profitable while Wreaken's event prices are active, but that cargo was not mined by you and should not be expected to advance the asteroid-mining goal. The same station market handles both kinds of sale, so the profit can look similar even when the CG contribution result is not.
+
+== Rewards ==
+
+Both goals list the same minimum participation rewards. Frontier's active Community Goal page states that pilots who register at least one contribution are eligible for:<ref name="frontier-cg" />
+
+{| class="wikitable"
+! Reward type !! Listed reward
+|-
+| Paintjob || Type-11 Prospector Umbra Red Paintjob
+|-
+| Paintjob || Rhino Excavation Precision-Red Paintjob
+|-
+| Decal || Vodel Decal
+|-
+| Credits || Credit rewards based on the success tier achieved and the commander's individual contribution level
+|}
+
+Contribution brackets move as more pilots take part, so current thresholds are best checked in-game or through a live tracker such as Inara while the event is running.<ref name="inara-cg" />
+
+== Event duration and status ==
+
+GalNet announced the field tests on 3 September 3312 and directed independent pilots to register at Metz Enterprise in Ega.<ref name="galnet-tests" /> Frontier's active Community Goal data published an expiry of '''10 September 2026 at 10:00 UTC''' for both goals, while some public tracker data around the event has shown conflicting timers and stale start-date wording.<ref name="frontier-cg" />
+
+Because of that mismatch, the safest live reference is the countdown shown in the in-game Community Goal panel. The event is ongoing as of the 5 September 2026 review for this article.
+
+== Market effects ==
+
+The field tests have had a much bigger effect on Ega than the mining objectives alone. Wreaken's boosted purchase prices have turned Metz Enterprise into an unusually lucrative commodity market, with many accepted CG commodities showing prices far outside their normal trading range.<ref name="inara-metz-market">[https://inara.cz/elite/station-market/19179/ Metz Enterprise - market], Inara. Accessed 2026-09-05.</ref>
+
+The reason is the Community Goal pricing itself. Frontier's active data gives the asteroid-mining goal a 6x multiplier and the surface-mining goal an 8x multiplier for commodities sold as part of the initiatives.<ref name="frontier-cg" /> Inara's market page for Metz Enterprise showed displayed demand of '''999,999 tonnes''' for many of those commodities during the 5 September 2026 check.<ref name="inara-metz-market" />
+
+Palladium is the clearest example from the asteroid list. On 5 September 2026, Inara showed Metz Enterprise buying Palladium for '''302,136 Cr/t''' with '''999,999 t''' of displayed demand.<ref name="inara-palladium">[https://inara.cz/elite/commodity/45/ Palladium - commodity], Inara. Accessed 2026-09-05.</ref> That price is an event-driven snapshot, not Palladium's normal value.
+
+At the same time, Inara's Palladium page listed a trade route from Black Moon Terminus buying at '''47,872 Cr/t''' and selling at Metz Enterprise for '''302,136 Cr/t'''. That left more than 254,000 credits of gross margin on every tonne hauled to Ega.<ref name="inara-palladium" />
+
+{| class="wikitable"
+! Item !! Example value
+|-
+| Source buy price || 47,872 Cr/t
+|-
+| Metz sell price || 302,136 Cr/t
+|-
+| Gross spread || 254,264 Cr/t
+|-
+| 720 t cargo example || 183,070,080 Cr gross spread before expenses and delays
+|-
+| 784 t cargo example || 199,342,976 Cr gross spread before expenses and delays
+|}
+
+Those figures explain why Ega drew so much attention, but they are still snapshots. Prices, supply, and route quality can move quickly, and the real return depends on cargo capacity, travel time, supercruise distance, traffic, interdictions, market data age, and whether the cargo is being moved directly or through carrier logistics.
+
+=== Fleet Carrier trading ===
+
+[[Fleet Carrier|Fleet Carriers]] take the same trade and scale it up dramatically. Instead of moving one shipload from the source to Ega, a carrier owner can stage tens of thousands of tonnes near a cheap Palladium market, jump the entire stockpile to Ega, and unload it into Metz Enterprise while the event price remains favourable.
+
+Using the observed 5 September 2026 Palladium prices above, a carrier operation moving 20,000 tonnes would look like this:
+
+{| class="wikitable"
+! Calculation !! Value
+|-
+| Destination price || 302,136 Cr/t
+|-
+| Source price || 47,872 Cr/t
+|-
+| Gross spread per tonne || 254,264 Cr/t
+|-
+| Cargo moved || 20,000 t
+|-
+| Gross market spread || 5,085,280,000 Cr
+|}
+
+That is gross market spread, not guaranteed profit. Loading time, available carrier capacity, Tritium, carrier services, price movement, and any margin paid to other haulers still come out of the operation.
+
+=== PTN and player-operated logistics ===
+
+Player groups have reacted to the spread as well. The Pilots Trade Network, for example, has been visible in Inara market data around Ega through carriers and trade listings tied to Palladium movement.<ref name="inara-palladium" /> The practical idea is simple: a carrier operator acquires cargo in bulk, moves it close to the high-price market, and pays haulers to shuttle the final loads between the carrier and Metz Enterprise.
+
+The large spread leaves room for both sides to earn credits when the numbers line up. That activity is player logistics, not an official part of the Community Goal, and EDFM is not affiliated with PTN. Unloading bought cargo from a carrier is ordinary trade unless the cargo also satisfies the actual CG contribution rules.
+
+=== Solo trading ===
+
+A Fleet Carrier or PTN job is not required to benefit from the event prices. If Palladium or another boosted commodity is available cheaply enough elsewhere, a pilot can buy it, fly directly to Metz Enterprise, and sell into the elevated market.
+
+The route is only as good as the live numbers. Before loading up, compare the source price, available supply, Metz sell price, cargo capacity, route length, supercruise time at both ends, pad access, and the age of the market data. Bought cargo can make excellent trade profit during the event, but it should not be confused with mined Community Goal contribution.
+
+== Why this event matters ==
+
+Even without the extraordinary trade profits, the Wreaken Mining Rig Field Tests are an important moment for the Rhino. They put the deployable mining-rig system into large-scale public use and place the new surface-mining loop directly beside the asteroid mining players have used for years.
+
+That makes Ega more than a high-paying market for a few days. The event is a live comparison between old and new mining methods, a stress test for the Rhino's surface-extraction gameplay, and a good example of how Community Goal pricing can reshape player behaviour. The response around Metz Enterprise — mined deliveries, direct arbitrage, Fleet Carrier hauling, and player-run logistics — is part of the event's history as much as the final contribution totals will be.
+
+== References ==
+
+<references />
+
+{{Related articles|[[Rhino]] [[Surface Mining with the Rhino]] [[Surface Mining]] [[Mining]] [[Laser Mining]] [[Trade]] [[Fleet Carrier]] [[Vodel]]}}
+
+[[Category:Community Goals]]
+[[Category:Events]]
+[[Category:Mining]]
+[[Category:Trading]]
+[[Category:Fleet Carriers]]

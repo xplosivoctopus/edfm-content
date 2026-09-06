@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Events
+Namespace: 14
+Page ID: 805
+Revision ID: 3214
+Timestamp: 2026-09-05T05:06:50Z
+Source URL: https://edfieldmanual.com/wiki/Category:Events
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Event articles in the Elite Dangerous Field Manual, including live and historical in-game events.
+
+[[Category:History]]
+[[Category:Gameplay]]
