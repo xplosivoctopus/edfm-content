@@ -1,0 +1,37 @@
+<!--
+EDFM current-content archive export.
+Title: Mining Commodities
+Namespace: 0
+Page ID: 817
+Revision ID: 3400
+Timestamp: 2026-09-07T14:32:19Z
+Source URL: https://edfieldmanual.com/wiki/Mining_Commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Compare mining commodities by extraction method, environment, and the equipment needed to bring them home.}}
+
+'''Mining Commodities''' compares cargo resources obtained through asteroid and planetary surface mining. Use the table to choose a target that suits your equipment, then follow the commodity's article for prospecting, extraction, and selling advice. These commodities occupy cargo storage; they are distinct from the separate [[Engineering Materials]] inventory.
+
+== Commodity comparison ==
+
+{{Mining commodities}}
+
+'''Unknown does not mean No.''' Unknown means that availability by that method has not been established. No indicates evidence against that method, rather than simply a missing report. Read the evidence labels alongside the entries: a community-documented route is not the same as a directly tested result.
+
+The environments are attached to particular methods. A ring that supports core mining for a commodity need not be the right destination for a laser-mining fit. Listed environments are documented places to look, not necessarily every place the commodity can occur. For planetary mining, an unknown body-class distribution does not prevent searching a Planetary Mining Location, but it does mean the body's class alone cannot promise the target resource.
+
+'''Asteroid surface deposits''' are deposits worked with an abrasion blaster; '''planetary surface mining''' is the ground-based activity using the Rhino. They are separate methods, and neither should be confused with asteroid sub-surface mining.
+
+== Choosing a target ==
+
+* '''[[Iridium]]''' — plan a Rhino surface-mining trip, using the ship's Detailed Surface Scanner to find Planetary Mining Locations and the vehicle's scanner to search for deposits. Its body-class distribution remains unverified.
+* '''[[Gold]]''' — buy cargo from a suitable market or follow the documented Metallic-ring laser-mining route. Its article also covers the delivery to [[Lei Cheung]].
+* '''[[Painite]]''' — match the fit to the destination: Metallic rings for the documented laser route, or Metal Rich rings for the documented core route. A hotspot name alone is not enough to choose between them.
+* '''[[Ruby]]''' — another target for planetary surface mining, with trade uses in decorative goods and manufacturing. Check deposits rather than assuming a particular body class will provide it.
+
+== Planning the trip ==
+
+For asteroid equipment and procedures, start with [[Mining]], [[How to Laser Mine]], or [[How to Core Mine]]. For ground operations, see [[Surface Mining with the Rhino]]. Before travelling to buy or sell, check current market stock, demand, and report age; this comparison describes acquisition routes, not live offers or guaranteed earnings.
+
+{{Related articles|[[Mining]] [[Surface Mining]] [[Surface Mining with the Rhino]] [[Engineering Materials]]}}

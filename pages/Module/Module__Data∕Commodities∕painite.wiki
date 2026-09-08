@@ -1,0 +1,441 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Commodities/painite
+Namespace: 828
+Page ID: 809
+Revision ID: 3391
+Timestamp: 2026-09-07T14:32:17Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Commodities/painite
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"schema_version": 1,
+	"id": "painite",
+	"name": "Painite",
+	"article": "Painite",
+	"identifiers": {
+		"fdev": {
+			"value": 128668550,
+			"verification": "game_data",
+			"sources": [
+				"edcd"
+			]
+		},
+		"symbol": {
+			"value": "Painite",
+			"verification": "game_data",
+			"sources": [
+				"edcd"
+			],
+			"notes": "Normalized game-data symbol; lowercase journal normalization was not separately tested."
+		}
+	},
+	"category": {
+		"value": "Minerals",
+		"verification": "game_data",
+		"sources": [
+			"edcd"
+		]
+	},
+	"cargo_commodity": {
+		"value": true,
+		"verification": "game_data",
+		"sources": [
+			"edcd",
+			"journal"
+		]
+	},
+	"engineering_material": {
+		"value": false,
+		"verification": "game_data",
+		"sources": [
+			"edcd",
+			"journal"
+		],
+		"notes": "Painite in this record is cargo; Engineering Materials are a separate inventory concept."
+	},
+	"mineable": {
+		"value": true,
+		"verification": "community_documented",
+		"sources": [
+			"painite",
+			"miner"
+		]
+	},
+	"introduced": {
+		"value": null,
+		"verification": "unverified",
+		"sources": [],
+		"notes": "The introduction date was not established in this interval."
+	},
+	"methods": {
+		"laser": {
+			"value": true,
+			"verification": "community_documented",
+			"sources": [
+				"painite",
+				"miner",
+				"edmining"
+			],
+			"notes": "Metallic-ring route documented; documentary agreement is not a controlled EDFM test."
+		},
+		"subsurface": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [
+				"miner"
+			],
+			"notes": "No separate commodity-specific subsurface route was verified."
+		},
+		"core": {
+			"value": true,
+			"verification": "community_documented",
+			"sources": [
+				"painite",
+				"miner"
+			],
+			"notes": "Metal Rich core route is documented. Metallic-core availability remains unresolved and is represented separately below."
+		},
+		"surface_deposit": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [
+				"painite",
+				"miner"
+			],
+			"notes": "Abrasion after opening a core is not promoted to a separate pre-crack surface-deposit route."
+		},
+		"planetary_surface": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [
+				"rhino-scope"
+			],
+			"notes": "The current planetary surface-mining pool was not tested for Painite."
+		}
+	},
+	"acquisition": [
+		{
+			"id": "metallic-laser",
+			"method": "laser",
+			"availability": {
+				"value": true,
+				"verification": "community_documented",
+				"sources": [
+					"painite",
+					"miner",
+					"edmining"
+				]
+			},
+			"environments": [
+				{
+					"kind": "ring",
+					"name": "Metallic",
+					"verification": "community_documented",
+					"sources": [
+						"painite",
+						"miner"
+					],
+					"notes": "Documented laser destination; list is not asserted exhaustive."
+				}
+			],
+			"environment_completeness": "open",
+			"location": {
+				"value": "Asteroid belt or planetary ring",
+				"verification": "community_documented",
+				"sources": [
+					"miner"
+				]
+			},
+			"hotspot_required": {
+				"value": false,
+				"verification": "community_documented",
+				"sources": [
+					"miner",
+					"edmining"
+				],
+				"notes": "A matching hotspot can focus the search; an overlap is not presented as a prerequisite."
+			},
+			"rhino_required": {
+				"value": false,
+				"verification": "community_documented",
+				"sources": [
+					"painite",
+					"miner"
+				],
+				"notes": "This route describes asteroid laser mining, not the Rhino surface route."
+			},
+			"refining_required": {
+				"value": true,
+				"verification": "game_data",
+				"sources": [
+					"journal",
+					"miner"
+				]
+			},
+			"refinery": {
+				"value": "Ship refinery",
+				"verification": "community_documented",
+				"sources": [
+					"journal",
+					"miner"
+				]
+			},
+			"notes": "Prospect the asteroid composition before extracting fragments; refinery bins convert fragments into cargo."
+		},
+		{
+			"id": "metal-rich-core",
+			"method": "core",
+			"availability": {
+				"value": true,
+				"verification": "community_documented",
+				"sources": [
+					"painite",
+					"miner"
+				]
+			},
+			"environments": [
+				{
+					"kind": "ring",
+					"name": "Metal Rich",
+					"verification": "community_documented",
+					"sources": [
+						"painite",
+						"miner"
+					],
+					"notes": "Documented core destination."
+				}
+			],
+			"environment_completeness": "open",
+			"location": {
+				"value": "Asteroid belt or planetary ring",
+				"verification": "community_documented",
+				"sources": [
+					"miner"
+				]
+			},
+			"hotspot_required": {
+				"value": false,
+				"verification": "community_documented",
+				"sources": [
+					"miner",
+					"edmining"
+				],
+				"notes": "Hotspots help target a search but are not stored as a hard prerequisite."
+			},
+			"rhino_required": {
+				"value": false,
+				"verification": "community_documented",
+				"sources": [
+					"painite",
+					"miner"
+				]
+			},
+			"refining_required": {
+				"value": true,
+				"verification": "game_data",
+				"sources": [
+					"journal",
+					"miner"
+				]
+			},
+			"refinery": {
+				"value": "Ship refinery",
+				"verification": "community_documented",
+				"sources": [
+					"journal",
+					"miner"
+				]
+			},
+			"notes": "Crack a confirmed core, collect exposed deposits, and refine the resulting fragments."
+		},
+		{
+			"id": "metallic-core-review",
+			"method": "core",
+			"availability": {
+				"value": null,
+				"verification": "unverified",
+				"sources": [
+					"painite",
+					"miner"
+				],
+				"notes": "The consulted community article and matrix conflict about Painite in Metallic cores; review is required before treating this as either supported or impossible."
+			},
+			"environments": [
+				{
+					"kind": "ring",
+					"name": "Metallic",
+					"verification": "unverified",
+					"sources": [
+						"painite",
+						"miner"
+					]
+				}
+			],
+			"environment_completeness": "open",
+			"location": {
+				"value": "Asteroid core",
+				"verification": "unverified",
+				"sources": [
+					"painite",
+					"miner"
+				]
+			},
+			"hotspot_required": {
+				"value": null,
+				"verification": "unverified",
+				"sources": []
+			},
+			"rhino_required": {
+				"value": false,
+				"verification": "community_documented",
+				"sources": [
+					"painite",
+					"miner"
+				]
+			},
+			"refining_required": {
+				"value": true,
+				"verification": "game_data",
+				"sources": [
+					"journal",
+					"miner"
+				]
+			},
+			"refinery": {
+				"value": "Ship refinery",
+				"verification": "community_documented",
+				"sources": [
+					"journal",
+					"miner"
+				]
+			},
+			"notes": "This row records an unresolved evidence conflict; it is not a positive route and not a negative claim."
+		}
+	],
+	"npc_market": {
+		"value": "not_normally_produced",
+		"verification": "community_documented",
+		"sources": [
+			"inara"
+		],
+		"notes": "INARA labels production Mining only. Player-carrier resale and salvage do not make ordinary NPC-produced stock a stable assumption."
+	},
+	"uses": [
+		{
+			"kind": "engineering_unlock",
+			"description": "Workshop unlock donation for Selene Jean; her separate mining-and-refining invitation milestone is not the same requirement.",
+			"verification": "community_documented",
+			"sources": [
+				"selene",
+				"inara-engineer"
+			],
+			"reference": {
+				"page": "Module:Data/Engineers/Selene Jean",
+				"field": "unlock"
+			}
+		},
+		{
+			"kind": "trade",
+			"description": "Cargo sold through commodity markets; current demand and prices are dynamic.",
+			"verification": "community_documented",
+			"sources": [
+				"inara"
+			]
+		}
+	],
+	"review": {
+		"date": "2026-09-07",
+		"status": "partial",
+		"notes": [
+			"The Metallic-core conflict is preserved as an explicit unknown route rather than being flattened into true or false.",
+			"Metallic laser and Metal Rich core are documented practical routes; no controlled EDFM mining test was performed.",
+			"The new planetary surface-mining pool was not tested for Painite; old asteroid descriptions are not treated as exhaustive current mechanics.",
+			"Mining-only production does not prove universal unavailability: carrier resale and salvage are distinct acquisition cases."
+		]
+	},
+	"sources": {
+		"edcd": {
+			"title": "FDevIDs commodity mapping (pinned commit c35612952dd6a547d1a7ac4cffab9c7051e86579)",
+			"url": "https://raw.githubusercontent.com/EDCD/FDevIDs/c35612952dd6a547d1a7ac4cffab9c7051e86579/commodity.csv",
+			"publisher": "EDCD",
+			"kind": "game_data",
+			"accessed": "2026-09-07",
+			"supports": "Painite identifier, Minerals category and symbol."
+		},
+		"journal": {
+			"title": "Elite Dangerous Journal Manual, version 37",
+			"url": "https://hosting.zaonce.net/community/journal/v37/Journal_Manual_v37.pdf",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "MiningRefined fragment-to-cargo and ProspectedAsteroid composition/core distinctions."
+		},
+		"painite": {
+			"title": "Painite",
+			"url": "https://elite-dangerous.fandom.com/wiki/Painite",
+			"publisher": "Elite Dangerous Wiki",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Metallic laser and Metal Rich core routes, plus salvage caveat; prose conflicts with its matrix on Metallic cores."
+		},
+		"miner": {
+			"title": "Miner",
+			"url": "https://elite-dangerous.fandom.com/wiki/Miner",
+			"publisher": "Elite Dangerous Wiki",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Ring/method matrix, mining locations, hotspots and refinery workflow; not treated as independent controlled testing."
+		},
+		"edmining": {
+			"title": "Where to Mine in Elite Dangerous",
+			"url": "https://edmining.com/where-to-mine-in-elite-dangerous/",
+			"publisher": "ED Mining",
+			"kind": "community_testing",
+			"accessed": "2026-09-07",
+			"supports": "Hotspot targeting context and the distinction between targeting aids and mandatory locations; submitted observations are not controlled EDFM tests."
+		},
+		"inara": {
+			"title": "Painite — Commodity",
+			"url": "https://inara.cz/elite/commodity/84/",
+			"publisher": "INARA",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Mining-only production classification and dynamic market observations."
+		},
+		"selene": {
+			"title": "Selene Jean — Engineer",
+			"url": "https://elite-dangerous.fandom.com/wiki/Selene_Jean",
+			"publisher": "Elite Dangerous Wiki",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Published Engineer unlock wording; canonical quantity remains in EDFM Engineer JSON."
+		},
+		"inara-engineer": {
+			"title": "Selene Jean — Engineer",
+			"url": "https://inara.cz/elite/engineer/8/",
+			"publisher": "INARA",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Cross-check of the existing Engineer unlock requirement."
+		},
+		"rhino-scope": {
+			"title": "Elite Dangerous - 4.4.1.0 Update Notes",
+			"url": "https://www.elitedangerous.com/news/updates/4-4-1-0",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Surface Mining was added in the current game version; this record does not claim Painite appears in its deposit pool."
+		},
+		"core-guide": {
+			"title": "Elite Dangerous Mining Mechanics",
+			"url": "https://edmining.com/elite-dangerous-mining-mechanics/",
+			"publisher": "ED Mining",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Core cracking and exposed-deposit collection context."
+		}
+	},
+	"visibility": "public_reference"
+}

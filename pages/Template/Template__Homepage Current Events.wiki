@@ -1,0 +1,23 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Homepage Current Events
+Namespace: 10
+Page ID: 827
+Revision ID: 3470
+Timestamp: 2026-09-08T03:15:07Z
+Source URL: https://edfieldmanual.com/wiki/Template:Homepage_Current_Events
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<noinclude>This template is generated automatically by /usr/local/sbin/edfm-homepage-recent-updates-update from /etc/edwiki/homepage-recent-updates.json. Manual edits will be replaced.</noinclude><includeonly>
+{| class="edfm-home-card edfm-home-card-primary edfm-home-current-event-card"
+| class="edfm-home-current-event-status-label" | '''ACTIVE COMMUNITY GOAL'''
+| class="edfm-home-current-event-status-detail" | · ''ENDS 10 SEP 2026''
+|-
+| class="edfm-home-card-title edfm-home-current-event-title" colspan="2" | [[Wreaken Mining Rig Field Tests]]
+|-
+| class="edfm-home-card-text edfm-home-current-event-text" colspan="2" | Wreaken Corporation and Vodel are running parallel asteroid-laser- and surface-mining trials from Metz Enterprise in Ega. During the opening weekend, event-enhanced pricing across the affected metals drove an extraordinary trading surge. That temporary market window has ended; both Community Goals remain active.
+|-
+| class="edfm-home-link-list edfm-home-current-event-action" colspan="2" | [[Wreaken Mining Rig Field Tests|READ FIELD TESTS →]]
+|}
+</includeonly>

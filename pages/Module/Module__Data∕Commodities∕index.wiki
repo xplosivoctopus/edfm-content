@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Commodities/index
+Namespace: 828
+Page ID: 806
+Revision ID: 3388
+Timestamp: 2026-09-07T14:28:37Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Commodities/index
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"schema_version": 1,
+	"commodities": [
+		"iridium",
+		"gold",
+		"painite",
+		"ruby"
+	]
+}

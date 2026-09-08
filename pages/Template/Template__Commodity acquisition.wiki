@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Commodity acquisition
+Namespace: 10
+Page ID: 812
+Revision ID: 3394
+Timestamp: 2026-09-07T14:32:17Z
+Source URL: https://edfieldmanual.com/wiki/Template:Commodity_acquisition
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#invoke:Commodities|acquisition}}

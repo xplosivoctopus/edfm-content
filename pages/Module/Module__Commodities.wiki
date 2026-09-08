@@ -1,0 +1,229 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Commodities
+Namespace: 828
+Page ID: 811
+Revision ID: 3482
+Timestamp: 2026-09-08T03:56:40Z
+Source URL: https://edfieldmanual.com/wiki/Module:Commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Canonical JSON is plain data. All presentation, evidence and relationships live here.
+local p = {}
+local prefix = 'Module:Data/Commodities/'
+local methods = {'laser', 'subsurface', 'core', 'surface_deposit', 'planetary_surface'}
+local labels = {laser='Laser', subsurface='Subsurface', core='Core',
+    surface_deposit='Asteroid surface deposits', planetary_surface='Planetary surface'}
+local statuses = {official='Official', game_data='Game data', edfm_tested='EDFM tested',
+    community_tested='Community tested', community_documented='Community documented',
+    inferred='Inferred', unverified='Unverified', contradicted='Contradicted', deprecated='Deprecated'}
+local supported = {official=true, game_data=true, edfm_tested=true, community_tested=true, community_documented=true}
+local function escape(value)
+    return (tostring(value or ''):gsub('[&<>"\'{}%[%]|!\n\r]', function(c)
+        return '&#' .. string.byte(c) .. ';'
+    end))
+end
+local function diagnostic(message)
+    return '<strong class="error">Commodity data error: ' .. escape(message) .. '</strong>'
+end
+local function fail(message) error(message, 0) end
+local function load(page)
+    local ok, data = pcall(mw.loadJsonData, page)
+    if not ok or type(data) ~= 'table' then fail('Cannot load JSON: ' .. page) end
+    return data
+end
+local function link(title, label)
+    if type(title) ~= 'string' or title == '' or title:find('[%[%]{}|<>#\n\r]') then
+        fail('Invalid article link')
+    end
+    -- Colon prevents category/file transclusion if a future title uses a namespace.
+    local target = title:find(':', 1, true) and (':' .. title) or title
+    return '[[' .. escape(target) .. '|' .. escape(label or title) .. ']]'
+end
+local function record(id)
+    if type(id) ~= 'string' or not id:match('^[a-z][a-z0-9_%-]*$') then fail('Invalid commodity id') end
+    local d = load(prefix .. id)
+    if d.schema_version ~= 1 or d.id ~= id then fail('Unsupported schema or mismatched id: ' .. id) end
+    if type(d.name) ~= 'string' or type(d.article) ~= 'string' or type(d.methods) ~= 'table'
+        or type(d.sources) ~= 'table' or type(d.acquisition) ~= 'table' or type(d.uses) ~= 'table' then
+        fail('Incomplete record: ' .. id)
+    end
+    if d.visibility ~= 'public_reference' then fail('Record is not public reference: ' .. id) end
+    return d
+end
+local function idFor(frame)
+    local args = frame.args or {}
+    local parent = frame:getParent()
+    local id = args[1]
+    if not id or mw.text.trim(id) == '' then id = parent and parent.args[1] end
+    if not id or mw.text.trim(id) == '' then id = mw.ustring.lower(mw.title.getCurrentTitle().text) end
+    return mw.text.trim(id)
+end
+local function sourceRefName(d, id)
+    local safe_id = tostring(id):gsub('[^%w_%-]', '-')
+    return 'edfm-commodity-' .. d.id .. '-' .. safe_id
+end
+local function sourceRef(d, id, s)
+    local text = '[' .. s.url .. ' ' .. escape(s.title or id) .. ']'
+    if s.publisher and s.publisher ~= '' then text = text .. ', ' .. escape(s.publisher) end
+    if s.accessed and s.accessed ~= '' then text = text .. ', accessed ' .. escape(s.accessed) end
+    return mw.getCurrentFrame():extensionTag{
+        name = 'ref',
+        content = text .. '.',
+        args = {name = sourceRefName(d, id)}
+    }
+end
+local function evidence(d, c)
+    if type(c) ~= 'table' or not statuses[c.verification] or type(c.sources) ~= 'table' then
+        fail('Malformed claim/evidence')
+    end
+    local out = {statuses[c.verification]}
+    for _, id in ipairs(c.sources) do
+        local s = d.sources[id]
+        if not s then
+            out[#out+1] = diagnostic('Missing source: ' .. tostring(id))
+        elseif type(s.url) ~= 'string' or not s.url:match('^https?://[^/]+') or s.url:find('[%s%[%]{}<>"\'|]') then
+            out[#out+1] = diagnostic('Invalid source URL')
+        else
+            out[#out+1] = sourceRef(d, id, s)
+        end
+    end
+    if c.notes and c.notes ~= '' then out[#out+1] = '<small>' .. escape(c.notes) .. '</small>' end
+    return table.concat(out, ' ')
+end
+local function value(v)
+    if v == nil then return 'Unknown' end
+    if v == true then return 'Yes' end
+    if v == false then return 'No' end
+    if type(v) == 'table' then
+        if not v.game_version or not v.date then fail('Malformed introduction') end
+        return escape(v.game_version) .. ' (' .. escape(v.date) .. ')'
+    end
+    if v == 'normally_available' then return 'Normally available' end
+    if v == 'not_normally_produced' then return 'Not normally produced' end
+    return escape(v)
+end
+local function claim(d, c)
+    local e = evidence(d, c)
+    if c.value == nil and c.verification ~= 'unverified' and c.verification ~= 'contradicted' and c.verification ~= 'deprecated' then
+        fail('Unknown value has affirmative verification')
+    end
+    return value(c.value) .. ' ' .. e
+end
+local function positive(c) return c and c.value == true and supported[c.verification] end
+local function categories(d)
+    local title = mw.title.getCurrentTitle()
+    if title.namespace ~= 0 or title.prefixedText ~= d.article then return '' end
+    local out = {}
+    local function add(name) out[#out+1] = '[[Category:' .. name .. ']]' end
+    if positive(d.cargo_commodity) then add('Commodities') end
+    if positive(d.mineable) then add('Mineable commodities') end
+    if d.category and supported[d.category.verification] and (d.category.value == 'Metals' or d.category.value == 'Minerals') then add(d.category.value) end
+    local cats = {laser='Laser-mined commodities', core='Core-mined commodities', subsurface='Subsurface-mined commodities',
+        planetary_surface='Surface-mined commodities', surface_deposit='Asteroid surface-deposit commodities'}
+    for _, method in ipairs(methods) do if positive(d.methods[method]) then add(cats[method]) end end
+    return table.concat(out)
+end
+local function environments(d, route)
+    local out = {}
+    for _, env in ipairs(route.environments or {}) do
+        if env.kind ~= 'ring' and env.kind ~= 'body' then fail('Invalid environment kind') end
+        out[#out+1] = escape(env.name) .. ' (' .. env.kind .. ') ' .. evidence(d, env)
+    end
+    if #out == 0 then out[1] = 'Unknown (distribution not verified)' end
+    if route.environment_completeness == 'open' then out[#out+1] = '<small>Open list; not exhaustive.</small>' end
+    return table.concat(out, '<br />')
+end
+local function methodName(route)
+    if not labels[route.method] then fail('Unknown acquisition method') end
+    return labels[route.method]
+end
+local function tableOutput(headers, rows)
+    local out = {'<div class="edfm-commodity-table" style="overflow-x:auto;max-width:100%">', '{| class="wikitable" style="white-space:normal"', '! ' .. table.concat(headers, ' !! ')}
+    for _, row in ipairs(rows) do
+        out[#out+1] = '|-'
+        out[#out+1] = '| ' .. table.concat(row, '\n| ')
+    end
+    out[#out+1] = '|}'
+    out[#out+1] = '</div>'
+    return table.concat(out, '\n')
+end
+local render = {}
+function render.infobox(frame)
+    local d = record(idFor(frame))
+    local args = {name=escape(d.name)}
+    local rows = {{'Category',d.category},{'Cargo commodity',d.cargo_commodity}, {'Engineering material',d.engineering_material},
+        {'Mineable',d.mineable},{'Introduced',d.introduced},{'NPC market',d.npc_market}}
+    for _, method in ipairs(methods) do rows[#rows+1] = {labels[method],d.methods[method]} end
+    for i, row in ipairs(rows) do args['label'..i] = row[1]; args['row'..i] = claim(d, row[2]) end
+    if d.identifiers then
+        args.label12 = 'Identifiers'
+        args.row12 = 'FDev: ' .. claim(d, d.identifiers.fdev) .. '<br />Symbol: ' .. claim(d, d.identifiers.symbol)
+    end
+    return frame:expandTemplate{title='Infobox', args=args} .. categories(d)
+end
+function render.acquisition(frame)
+    local d = record(idFor(frame))
+    local rows = {}
+    for _, r in ipairs(d.acquisition) do
+        rows[#rows+1] = {methodName(r), claim(d,r.availability), environments(d,r), claim(d,r.location),
+            claim(d,r.hotspot_required), claim(d,r.rhino_required), claim(d,r.refining_required), claim(d,r.refinery),
+            evidence(d,r.availability) .. (r.notes and ('<br />' .. escape(r.notes)) or '')}
+    end
+    if #rows == 0 then return 'Acquisition routes: Unknown (not documented).' end
+    return tableOutput({'Method','Availability','Ring/body environments','Location','Hotspot required','Rhino required','Refining required','Refinery','Evidence / route notes'}, rows)
+end
+function render.uses(frame)
+    local d = record(idFor(frame))
+    local out = {}
+    for _, use in ipairs(d.uses) do
+        local text = escape(use.description or '')
+        if use.kind == 'engineering_unlock' then
+            local ref = use.reference
+            if not ref or ref.field ~= 'unlock' or type(ref.page) ~= 'string' or not ref.page:match('^Module:Data/Engineers/[^/]+$') then fail('Invalid engineer reference') end
+            local engineer = load(ref.page)
+            local unlock = engineer.unlock
+            if type(unlock) ~= 'table' or type(unlock.quantity) ~= 'number' or unlock.quantity <= 0 or unlock.quantity % 1 ~= 0
+                or unlock.item ~= d.name or type(unlock.action) ~= 'string' or type(engineer.name) ~= 'string' then
+                fail('Invalid or mismatched engineer unlock: ' .. ref.page)
+            end
+            text = escape(unlock.action) .. ' ' .. escape(unlock.quantity) .. ' units of ' .. escape(unlock.item)
+                .. ' to ' .. link(engineer.name) .. (text ~= '' and (' — ' .. text) or '')
+        end
+        out[#out+1] = '* ' .. text .. ' ' .. evidence(d,use)
+    end
+    if #out == 0 then return 'Uses: Unknown (not documented).' end
+    return table.concat(out, '\n')
+end
+function render.index(frame)
+    local index = load(prefix .. 'index')
+    if index.schema_version ~= 1 or type(index.commodities) ~= 'table' then fail('Invalid commodity index') end
+    local rows = {}
+    for _, id in ipairs(index.commodities) do
+        local d = record(id)
+        local row = {link(d.article,d.name)}
+        for _, method in ipairs(methods) do row[#row+1] = claim(d,d.methods[method]) end
+        local envs, locations, routes = {}, {}, {}
+        for _, r in ipairs(d.acquisition) do
+            local method = methodName(r)
+            envs[#envs+1] = method .. ': ' .. environments(d,r)
+            locations[#locations+1] = method .. ': ' .. claim(d,r.location)
+            routes[#routes+1] = method .. ': ' .. claim(d,r.availability)
+        end
+        row[#row+1] = #envs > 0 and table.concat(envs,'<br />') or 'Unknown'
+        row[#row+1] = #locations > 0 and table.concat(locations,'<br />') or 'Unknown'
+        row[#row+1] = #routes > 0 and table.concat(routes,'<br />') or 'Unknown'
+        rows[#rows+1] = row
+    end
+    return tableOutput({'Commodity','Laser','Subsurface','Core','Asteroid surface deposits','Planetary surface','Environments (by method)','Location','Main route(s)'},rows)
+end
+-- Keep missing/malformed data visible without exposing Lua stack traces or guessing facts.
+for name, fn in pairs(render) do
+    p[name] = function(frame)
+        local ok, result = pcall(fn, frame)
+        if ok then return result end
+        return diagnostic(result)
+    end
+end
+return p

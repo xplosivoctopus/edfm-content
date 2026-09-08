@@ -1,0 +1,305 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Commodities/gold
+Namespace: 828
+Page ID: 807
+Revision ID: 3412
+Timestamp: 2026-09-07T14:34:47Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Commodities/gold
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"schema_version": 1,
+	"id": "gold",
+	"name": "Gold",
+	"article": "Gold",
+	"identifiers": {
+		"fdev": {
+			"value": 128049154,
+			"verification": "game_data",
+			"sources": [
+				"edcd",
+				"journal"
+			]
+		},
+		"symbol": {
+			"value": "Gold",
+			"verification": "game_data",
+			"sources": [
+				"edcd",
+				"journal"
+			],
+			"notes": "Normalized game-data symbol; journal cargo token is gold."
+		}
+	},
+	"category": {
+		"value": "Metals",
+		"verification": "game_data",
+		"sources": [
+			"edcd"
+		]
+	},
+	"cargo_commodity": {
+		"value": true,
+		"verification": "game_data",
+		"sources": [
+			"edcd",
+			"journal"
+		]
+	},
+	"engineering_material": {
+		"value": false,
+		"verification": "game_data",
+		"sources": [
+			"edcd",
+			"journal"
+		],
+		"notes": "This record describes Gold cargo; it does not replace the separate Engineering Materials inventory."
+	},
+	"mineable": {
+		"value": true,
+		"verification": "community_documented",
+		"sources": [
+			"gold",
+			"miner"
+		]
+	},
+	"introduced": {
+		"value": null,
+		"verification": "unverified",
+		"sources": [],
+		"notes": "The introduction date was not established in this interval."
+	},
+	"methods": {
+		"laser": {
+			"value": true,
+			"verification": "community_documented",
+			"sources": [
+				"gold",
+				"miner"
+			],
+			"notes": "Metallic-ring laser route; the broader community matrix is not treated as an independent controlled test."
+		},
+		"subsurface": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [
+				"miner"
+			],
+			"notes": "No commodity-specific subsurface route was verified."
+		},
+		"core": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [
+				"miner"
+			],
+			"notes": "No commodity-specific core route was verified."
+		},
+		"surface_deposit": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [
+				"miner"
+			],
+			"notes": "Asteroid surface-deposit availability was not established separately from the grouped community matrix."
+		},
+		"planetary_surface": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [
+				"rhino-scope"
+			],
+			"notes": "The new planetary surface-mining pool was not tested for Gold in this interval."
+		}
+	},
+	"acquisition": [
+		{
+			"id": "asteroid-laser",
+			"method": "laser",
+			"availability": {
+				"value": true,
+				"verification": "community_documented",
+				"sources": [
+					"gold",
+					"miner"
+				]
+			},
+			"environments": [
+				{
+					"kind": "ring",
+					"name": "Metallic",
+					"verification": "community_documented",
+					"sources": [
+						"gold",
+						"miner"
+					],
+					"notes": "Positive documented destination; not an exhaustive distribution claim."
+				}
+			],
+			"environment_completeness": "open",
+			"location": {
+				"value": "Asteroid belt or planetary ring",
+				"verification": "community_documented",
+				"sources": [
+					"miner"
+				]
+			},
+			"hotspot_required": {
+				"value": false,
+				"verification": "community_documented",
+				"sources": [
+					"miner"
+				],
+				"notes": "The referenced matrix does not list a named Gold hotspot; hotspot overlap is not presented as a requirement."
+			},
+			"rhino_required": {
+				"value": false,
+				"verification": "community_documented",
+				"sources": [
+					"gold",
+					"miner"
+				],
+				"notes": "This is the conventional asteroid route and does not describe Rhino equipment."
+			},
+			"refining_required": {
+				"value": true,
+				"verification": "game_data",
+				"sources": [
+					"journal",
+					"miner"
+				],
+				"notes": "Fragments become cargo through a refinery; bought Gold is already cargo."
+			},
+			"refinery": {
+				"value": "Ship refinery",
+				"verification": "community_documented",
+				"sources": [
+					"journal",
+					"miner"
+				]
+			},
+			"notes": "Prospect asteroids for Gold, extract fragments with mining lasers, collect them, and refine them into cargo."
+		}
+	],
+	"npc_market": {
+		"value": "normally_available",
+		"verification": "community_documented",
+		"sources": [
+			"gold",
+			"inara"
+		],
+		"notes": "Extraction and Refinery economies are documented producers, but stock and prices change."
+	},
+	"uses": [
+		{
+			"kind": "engineering_unlock",
+			"description": "Workshop unlock donation of 200 tonnes of Gold for Lei Cheung.",
+			"verification": "community_documented",
+			"sources": [
+				"engineer",
+				"inara-engineer"
+			],
+			"reference": {
+				"page": "Module:Data/Engineers/Lei Cheung",
+				"field": "unlock"
+			}
+		},
+		{
+			"kind": "trade",
+			"description": "Cargo sold through commodity markets; current demand and prices are dynamic.",
+			"verification": "community_documented",
+			"sources": [
+				"gold",
+				"inara"
+			]
+		},
+		{
+			"kind": "industrial_description",
+			"description": "Described in the commodity reference as useful in jewellery, luxury goods, and electronics contacts.",
+			"verification": "community_documented",
+			"sources": [
+				"gold",
+				"inara"
+			]
+		}
+	],
+	"review": {
+		"date": "2026-09-07",
+		"status": "partial",
+		"notes": [
+			"Existing EDFM Gold prose and sources were preserved as the starting point; it was not promoted to direct EDFM-tested status.",
+			"The Metallic route is documentary/community evidence, not a controlled EDFM mining test.",
+			"Unknown methods are not negative claims. Rhino-era planetary acquisition was not tested.",
+			"Dynamic market prices, stock, demand and report ages do not belong in this static record."
+		]
+	},
+	"sources": {
+		"edcd": {
+			"title": "FDevIDs commodity mapping (pinned commit c35612952dd6a547d1a7ac4cffab9c7051e86579)",
+			"url": "https://raw.githubusercontent.com/EDCD/FDevIDs/c35612952dd6a547d1a7ac4cffab9c7051e86579/commodity.csv",
+			"publisher": "EDCD",
+			"kind": "game_data",
+			"accessed": "2026-09-07",
+			"supports": "Gold identifier, Metals category and normalized symbol."
+		},
+		"journal": {
+			"title": "Elite Dangerous Journal Manual, version 37",
+			"url": "https://hosting.zaonce.net/community/journal/v37/Journal_Manual_v37.pdf",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Gold journal cargo token/identifier and MiningRefined fragment-to-cargo semantics."
+		},
+		"gold": {
+			"title": "Gold",
+			"url": "https://elite-dangerous.fandom.com/wiki/Gold",
+			"publisher": "Elite Dangerous Wiki",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Gold is purchasable and mineable; commodity description and Metallic-ring route."
+		},
+		"miner": {
+			"title": "Miner",
+			"url": "https://elite-dangerous.fandom.com/wiki/Miner",
+			"publisher": "Elite Dangerous Wiki",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Mining-location and ring/method matrix, refinery workflow and hotspot context; not treated as independent controlled testing."
+		},
+		"inara": {
+			"title": "Gold — Commodity",
+			"url": "https://inara.cz/elite/commodity/42/",
+			"publisher": "INARA",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Extraction/Refinery production and market description; live listings are dynamic observations."
+		},
+		"engineer": {
+			"title": "Lei Cheung — EDFM structured record",
+			"url": "https://edfieldmanual.com/wiki/Lei_Cheung",
+			"publisher": "Elite Dangerous Field Manual",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "EDFM's canonical Engineer JSON contains the unlock relation; the commodity record reads its quantity rather than duplicating it."
+		},
+		"inara-engineer": {
+			"title": "Lei Cheung — Engineer",
+			"url": "https://inara.cz/elite/engineer/10/",
+			"publisher": "INARA",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Cross-check of the existing Engineer unlock requirement; canonical quantity remains in EDFM Engineer JSON."
+		},
+		"rhino-scope": {
+			"title": "Elite Dangerous - 4.4.1.0 Update Notes",
+			"url": "https://www.elitedangerous.com/news/updates/4-4-1-0",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Surface Mining was added in the current game version; this record does not claim Gold appears in its deposit pool."
+		}
+	},
+	"visibility": "public_reference"
+}

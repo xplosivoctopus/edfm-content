@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Main Page
 Namespace: 0
 Page ID: 1
-Revision ID: 2486
-Timestamp: 2026-08-28T17:32:42Z
+Revision ID: 3434
+Timestamp: 2026-09-07T17:23:33Z
 Source URL: https://edfieldmanual.com/
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -50,6 +50,9 @@ __NOTOC__
 <div class="edfm-home-card-text">Go straight to structured reference pages, mechanics, unlocks, tools, and comparison data.</div>
 </div>
 </div>
+
+== Current in Elite Dangerous ==
+{{Homepage Current Events}}
 
 == Field Procedures ==
 <div class="edfm-home-section-intro">Follow practical procedures for specific Elite Dangerous tasks: prepare the ship, work through the steps, check the result, and recover from common mistakes.</div>
@@ -99,8 +102,8 @@ __NOTOC__
 </div>
 </div>
 
-== Latest from EDFM ==
-<div class="edfm-home-section-intro">Recent meaningful guide, procedure, reference, and archive updates from the field manual.</div>
+== New & Updated on EDFM ==
+<div class="edfm-home-section-intro">Newly published EDFM reference material and substantial updates to existing pages, kept separate from GalNet and Frontier news.</div>
 {{Homepage Recent Updates}}
 
 == News and updates ==

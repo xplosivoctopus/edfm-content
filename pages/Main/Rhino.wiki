@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Rhino
 Namespace: 0
 Page ID: 742
-Revision ID: 3091
-Timestamp: 2026-09-03T13:48:02Z
+Revision ID: 3418
+Timestamp: 2026-09-07T15:06:32Z
 Source URL: https://edfieldmanual.com/wiki/Rhino
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->

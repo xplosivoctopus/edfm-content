@@ -1,0 +1,47 @@
+<!--
+EDFM current-content archive export.
+Title: Iridium
+Namespace: 0
+Page ID: 816
+Revision ID: 3491
+Timestamp: 2026-09-08T04:32:55Z
+Source URL: https://edfieldmanual.com/wiki/Iridium
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=A planetary surface-mining cargo commodity found with the Rhino's deposit scanner and extracted using mining rigs.}}
+
+{{Callout|type=tip|label=Quick answer|1=Iridium is currently documented as a '''planetary surface-mining''' cargo commodity. Find a '''Planetary Mining Location''' with a ship's [[Detailed Surface Scanner]], deploy a [[Rhino]], and use its deposit scanner and mining rigs to extract it. The body's class, exact yields, capacities, and conversion behavior remain unverified. Iridium is cargo rather than an [[Engineering Materials]] item, and normal NPC production or supply has not been established, so check current market stock and demand before travelling.<ref name="inara">[https://inara.cz/elite/commodity/10489/ Iridium — Commodity], INARA.</ref><ref name="rhino-update">[https://www.elitedangerous.com/news/updates/4-4-1-0 Elite Dangerous — 4.4.1.0 Update Notes], Frontier Developments.</ref><ref name="rhino-devlog">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments.</ref><ref name="rhino-store">[https://www.elitedangerous.com/store/product/rhino-standard Rhino Standard], Frontier Developments.</ref>}}
+
+{{Commodity infobox|iridium}}
+
+'''Iridium''' is a market-traded cargo metal introduced in update 4.4.1.0 alongside the [[Rhino]]. INARA lists it as a product of planetary surface mining and describes its industrial use in ship hulls and armour.<ref name="inara" /><ref name="rhino-update" /> It travels in cargo storage, rather than the separate [[Engineering Materials]] inventory.
+
+== Acquisition ==
+
+* '''Planetary surface mine''' — '''Where:''' '''Planetary Mining Locations''' identified with a ship's [[Detailed Surface Scanner]]. Land nearby and use a [[Rhino]]'s deposit scanner and deployed mining rigs. '''Requirements:''' a Rhino, a compatible ship with a [[Large Planetary Vehicle Hangar]], a Detailed Surface Scanner, and access to a mining rig. '''Refinery:''' the documented surface-mining workflow uses the Rhino's built-in refinery; Iridium-specific extraction and refining behavior remains inferred rather than directly tested.<ref name="rhino-update" /><ref name="rhino-devlog" /><ref name="rhino-store" /> '''Notes:''' body-class distribution, exact yields, capacities, and conversion behavior remain unknown.
+* '''Buy''' — A normal NPC production or purchase route is not established. A market listing with no stock is not evidence of available supply; verify current stock, demand, report age, and access before travelling.<ref name="inara" />
+
+=== Buying Iridium ===
+
+EDFM has not established normal NPC production or supply for Iridium. A listed price without stock does not provide a buy route, so use a current [https://inara.cz/elite/commodity/10489/ commodity-market search] and confirm actual stock, demand, report age, and access before travelling.<ref name="inara" />
+
+=== Mining Iridium ===
+
+The documented acquisition path is '''planetary surface mining'''. Use a ship's [[Detailed Surface Scanner]] to locate Planetary Mining Locations, land nearby, deploy the Rhino, and use its [[Planetary Mineral Scanner|deposit scanner]] to search for buried deposits. A mining-location signal identifies somewhere to investigate, not a promise that Iridium will be present.<ref name="rhino-update" /><ref name="rhino-devlog" />
+
+A compatible ship needs a [[Large Planetary Vehicle Hangar]] for the Rhino; the ordinary SRV hangar is not interchangeable with it.<ref name="rhino-store" /> Position the vehicle at a suitable deposit and deploy a mining rig. The Rhino's general surface-mining workflow uses its built-in refinery to process extracted material, but the Iridium-specific extraction, refining, yields, capacities, and conversion behavior have not been independently verified.<ref name="rhino-devlog" /><ref name="rhino-update" /><ref name="inara" />
+
+See [[Surface Mining with the Rhino]] for the full deployment and collection procedure. Extracted chunks are not the same thing as finished tonnes of cargo, so plan around the refined cargo you actually recover rather than the number of chunks a rig extracts.<ref name="rhino-update" />
+
+== Uses and selling ==
+
+{{Commodity uses|iridium}}
+
+For selling, use a current [https://inara.cz/elite/commodity/10489/ commodity-market search] and compare demand, report age, and the journey to the buyer. INARA lists Military and High Tech economies as consumers.<ref name="inara" /> Normal NPC purchase supply has not been established; a listed price with no stock is not an available source of cargo.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining Commodities]] [[Rhino]] [[Surface Mining]] [[Surface Mining with the Rhino]] [[Ruby]]}}

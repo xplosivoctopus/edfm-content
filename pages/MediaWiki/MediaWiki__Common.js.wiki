@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.js
 Namespace: 8
 Page ID: 72
-Revision ID: 2779
-Timestamp: 2026-08-31T20:37:05Z
+Revision ID: 3494
+Timestamp: 2026-09-08T04:41:23Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.js
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -219,11 +219,13 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	function initMobileChrome() {
 		var navigation = document.getElementById( 'mw-navigation' );
 		var panel = document.getElementById( 'mw-panel' );
+		var head = document.getElementById( 'mw-head' );
 		var searchInput = document.getElementById( 'searchInput' );
-		if ( !navigation || !panel || document.querySelector( '.edfm-mobile-appbar' ) ) {
+		if ( !navigation || !panel || !head || document.querySelector( '.edfm-mobile-appbar' ) ) {
 			return;
 		}
 
+		var isMobile = !window.matchMedia || window.matchMedia( '(max-width: 800px)' ).matches;
 		var appbar = document.createElement( 'div' );
 		appbar.className = 'edfm-mobile-appbar';
 
@@ -236,7 +238,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 
 		var brand = document.createElement( 'a' );
 		brand.className = 'edfm-mobile-brand';
-		brand.href = mw && mw.util ? mw.util.getUrl( 'Main Page' ) : '/wiki/Main_Page';
+		brand.href = typeof mw !== 'undefined' && mw.util ? mw.util.getUrl( 'Main Page' ) : '/wiki/Main_Page';
 		brand.textContent = 'Field Manual';
 
 		var searchButton = document.createElement( 'button' );
@@ -256,17 +258,43 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		closeButton.setAttribute( 'aria-label', 'Close navigation menu' );
 		panel.insertBefore( closeButton, panel.firstChild );
 
-		// #p-personal keeps core Vector's `position: absolute` (EDFM's own
-		// desktop override only adjusts its offset/layout, not the
-		// positioning scheme -- see Common.css), so it must only be
-		// physically relocated when the mobile breakpoint is actually
-		// active; doing this unconditionally would move it out of #mw-head
-		// on desktop too and break its absolute-positioned placement there.
-		// Same one-time-at-load check as the rest of this shell (no
-		// resize listener anywhere else in initMobileChrome either).
+		// Vector legacy renders the page/action portlets in two independently
+		// floated navigation rails. At phone widths that lets the rails wrap
+		// against each other, leaving orphaned English/watch/More controls on
+		// a second row. Build one horizontal rail on mobile and move the real
+		// portlets into it; the controls remain the original links (not clones).
+		if ( isMobile ) {
+			var leftNavigation = document.getElementById( 'left-navigation' );
+			var rightNavigation = document.getElementById( 'right-navigation' );
+			var actionRail = document.createElement( 'div' );
+				actionRail.className = 'edfm-mobile-action-rail';
+				actionRail.setAttribute( 'aria-label', 'Page actions' );
+				head.insertBefore( actionRail, head.firstChild );
+
+			[ leftNavigation, rightNavigation ].forEach( function ( section ) {
+				if ( !section ) {
+					return;
+				}
+				Array.prototype.slice.call( section.children ).forEach( function ( portlet ) {
+					if ( portlet.id !== 'p-search' ) {
+						actionRail.appendChild( portlet );
+					}
+				} );
+			} );
+
+			var searchBox = document.getElementById( 'p-search' );
+			if ( searchBox ) {
+				head.appendChild( searchBox );
+			}
+		}
+
+		// #p-personal keeps core Vector's `position: absolute` on desktop, so
+		// only relocate it after confirming the mobile breakpoint is active.
+		// This keeps the desktop header intact while making account tools
+		// reachable from the phone drawer.
 		var personal = document.getElementById( 'p-personal' );
-		if ( personal && window.matchMedia && window.matchMedia( '(max-width: 800px)' ).matches ) {
-			personal.classList.add( 'vector-menu-portal' );
+		if ( personal && isMobile ) {
+			personal.classList.add( 'vector-menu-portal', 'edfm-mobile-personal' );
 			panel.insertBefore( personal, closeButton.nextSibling );
 		}
 
@@ -284,7 +312,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 			document.body.classList.toggle( 'edfm-mobile-search-open', open );
 			searchButton.setAttribute( 'aria-expanded', open ? 'true' : 'false' );
 			if ( open && searchInput ) {
-				window.setTimeout( function () { searchInput.focus(); }, 0 );
+				window.setTimeout( function () {
+					searchInput.focus();
+					searchInput.scrollIntoView( { block: 'nearest' } );
+				}, 0 );
 			}
 		}
 

@@ -1,0 +1,258 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Commodities/iridium
+Namespace: 828
+Page ID: 808
+Revision ID: 3390
+Timestamp: 2026-09-07T14:32:17Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Commodities/iridium
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"schema_version": 1,
+	"id": "iridium",
+	"name": "Iridium",
+	"article": "Iridium",
+	"identifiers": {
+		"fdev": {
+			"value": 129046165,
+			"verification": "game_data",
+			"sources": [
+				"edcd"
+			]
+		},
+		"symbol": {
+			"value": "Iridium",
+			"verification": "game_data",
+			"sources": [
+				"edcd"
+			],
+			"notes": "EDCD symbol, not independently validated journal casing or localization token."
+		}
+	},
+	"category": {
+		"value": "Metals",
+		"verification": "game_data",
+		"sources": [
+			"edcd"
+		]
+	},
+	"cargo_commodity": {
+		"value": true,
+		"verification": "game_data",
+		"sources": [
+			"edcd"
+		]
+	},
+	"engineering_material": {
+		"value": false,
+		"verification": "game_data",
+		"sources": [
+			"edcd"
+		],
+		"notes": "Commodity inventory classification, not a denial of possible engineering-related commodity uses."
+	},
+	"mineable": {
+		"value": true,
+		"verification": "community_documented",
+		"sources": [
+			"inara",
+			"rhino-update"
+		]
+	},
+	"introduced": {
+		"value": {
+			"game_version": "4.4.1.0",
+			"date": "2026-09-02"
+		},
+		"verification": "official",
+		"sources": [
+			"rhino-update",
+			"rhino-release"
+		],
+		"notes": "The update lists Iridium as new; the release announcement dates Rhino availability. Update notes are dated the following day."
+	},
+	"methods": {
+		"laser": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [],
+			"notes": "No commodity-specific asteroid laser route verified."
+		},
+		"subsurface": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [],
+			"notes": "Asteroid subsurface extraction is not planetary deposit extraction."
+		},
+		"core": {
+			"value": null,
+			"verification": "unverified",
+			"sources": []
+		},
+		"surface_deposit": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [],
+			"notes": "Separate asteroid surface-deposit abrasion route; not the Rhino route."
+		},
+		"planetary_surface": {
+			"value": true,
+			"verification": "community_documented",
+			"sources": [
+				"inara",
+				"rhino-update"
+			],
+			"notes": "INARA explicitly lists Mining (surface); official update names this new commodity in the surface-mining update."
+		}
+	},
+	"acquisition": [
+		{
+			"id": "rhino",
+			"method": "planetary_surface",
+			"availability": {
+				"value": true,
+				"verification": "community_documented",
+				"sources": [
+					"inara",
+					"rhino-update"
+				]
+			},
+			"environments": [],
+			"environment_completeness": "open",
+			"location": {
+				"value": "Planetary Mining Location",
+				"verification": "inferred",
+				"sources": [
+					"rhino-update",
+					"inara"
+				],
+				"notes": "Official general surface-mining location terminology applied to the documented commodity route; no commodity-specific location observation."
+			},
+			"hotspot_required": {
+				"value": null,
+				"verification": "unverified",
+				"sources": [],
+				"notes": "No commodity-specific hotspot requirement verified; do not conflate ring hotspots and planetary mining locations."
+			},
+			"rhino_required": {
+				"value": true,
+				"verification": "official",
+				"sources": [
+					"rhino-store"
+				],
+				"notes": "Scoped to this Rhino-deployed rig route, not to ownership, buying, selling or possession of Iridium."
+			},
+			"refining_required": {
+				"value": true,
+				"verification": "inferred",
+				"sources": [
+					"rhino-devlog",
+					"rhino-update",
+					"inara"
+				],
+				"notes": "General onboard refining workflow applied to this surface commodity; not an observed Iridium extraction/refining run."
+			},
+			"refinery": {
+				"value": "Rhino onboard refinery",
+				"verification": "inferred",
+				"sources": [
+					"rhino-devlog",
+					"inara"
+				],
+				"notes": "Vehicle feature is official; commodity-specific application is inferred, not independently tested."
+			},
+			"notes": "Body-class distribution is unknown: no HMC, metal-rich, rocky or icy allocation is asserted. Use the documented Rhino scanner and deployed rig workflow; it requires a Large Planetary Vehicle Hangar. The environment list is deliberately empty and open. Exact yields, capacities and conversion behavior have not been verified."
+		}
+	],
+	"npc_market": {
+		"value": null,
+		"verification": "unverified",
+		"sources": [
+			"inara"
+		],
+		"notes": "Normal NPC production/supply not established. A zero-stock listing or displayed price is not evidence of purchasable supply."
+	},
+	"uses": [
+		{
+			"kind": "trade",
+			"description": "Commodity cargo for sale to accepting markets; check current demand and access separately.",
+			"verification": "community_documented",
+			"sources": [
+				"inara"
+			]
+		},
+		{
+			"kind": "industrial_description",
+			"description": "Described as used in ship hulls and armour; Military and High Tech economies are listed as consumers. This is an economic description, not a player crafting recipe.",
+			"verification": "community_documented",
+			"sources": [
+				"inara"
+			]
+		}
+	],
+	"review": {
+		"date": "2026-09-07",
+		"status": "partial",
+		"notes": [
+			"No actual EDFM gameplay tests, journal validation, mining sessions, market transactions or repeated community testing were performed. Documentary agreement is not community_tested.",
+			"Official update, release announcement, developer log and store statements were fetched directly during preparation; INARA classification and the pinned EDCD rows were also checked directly.",
+			"Body environments remain UNKNOWN and open. No commodity-to-body-class allocation was verified; absence is not a negative restriction.",
+			"EDCD is a community-maintained game-data mapping, not a direct client dump validated in this work. Master resolved to c35612952dd6a547d1a7ac4cffab9c7051e86579 at review.",
+			"Methods distinguish asteroid surface deposits, asteroid subsurface extraction and planetary surface mining. Unknown routes are not false; acquisition is not exhaustive. Refining and location applicability are explicitly inferred.",
+			"No live prices, stock figures, named systems, bodies or location observations are retained. Other engineering, mission and colonisation uses remain unverified."
+		]
+	},
+	"sources": {
+		"edcd": {
+			"title": "FDevIDs commodity mapping (pinned commit c35612952dd6a547d1a7ac4cffab9c7051e86579)",
+			"url": "https://raw.githubusercontent.com/EDCD/FDevIDs/c35612952dd6a547d1a7ac4cffab9c7051e86579/commodity.csv",
+			"publisher": "EDCD",
+			"kind": "game_data",
+			"accessed": "2026-09-07",
+			"supports": "Iridium commodity row: identifier 129046165, category Metals, symbol Iridium; cargo rather than engineering-material inventory classification."
+		},
+		"inara": {
+			"title": "Iridium — Commodity",
+			"url": "https://inara.cz/elite/commodity/10489/",
+			"publisher": "INARA",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Mining (surface), Metals category, market demand listings and descriptive industrial uses. Does not establish normal NPC supply or body classes."
+		},
+		"rhino-update": {
+			"title": "Elite Dangerous - 4.4.1.0 Update Notes",
+			"url": "https://www.elitedangerous.com/news/updates/4-4-1-0",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Iridium is listed among new commodities; surface mining, Rhino refinery/rig equipment and DSS detection of Planetary Mining Locations. No commodity-specific body allocation."
+		},
+		"rhino-release": {
+			"title": "Rhino – Available Now Via ARX Early Access",
+			"url": "https://www.elitedangerous.com/news/rhino-available-now-arx-early-access",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Rhino availability on 2 September 2026 and surface-mining equipment."
+		},
+		"rhino-devlog": {
+			"title": "Elite Dangerous: August Dev Log 2026",
+			"url": "https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Rhino built-in refinery and planetary deposit scanner; general vehicle workflow, not a measured Iridium refining run."
+		},
+		"rhino-store": {
+			"title": "Rhino Standard",
+			"url": "https://www.elitedangerous.com/store/product/rhino-standard",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Mining rigs deployed from Rhino and Large Planetary Vehicle Hangar requirement, scoped to this vehicle route."
+		}
+	},
+	"visibility": "public_reference"
+}

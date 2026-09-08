@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Wreaken Mining Rig Field Tests
 Namespace: 0
 Page ID: 803
-Revision ID: 3219
-Timestamp: 2026-09-05T06:13:25Z
+Revision ID: 3430
+Timestamp: 2026-09-07T17:03:15Z
 Source URL: https://edfieldmanual.com/wiki/Wreaken_Mining_Rig_Field_Tests
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,19 +12,30 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article status
  |status=Partially verified
  |mode=Live
- |version=Elite Dangerous Live Community Goal, reviewed 2026-09-05
- |reviewed=2026-09-05
+ |version=Elite Dangerous Live Community Goal, market conditions reviewed 2026-09-07
+ |reviewed=2026-09-07
  |reviewer=Sythan
- |source_quality=Official Frontier GalNet and Community Goal pages, with Inara used for live progress, station and market observations
- |uncertainty=This is an active Community Goal. Contribution totals, market prices, demand, and percentile brackets can change quickly. Frontier's public Community Goal data lists a 10 September 2026 expiry, while some public trackers have shown conflicting timers; the in-game Community Goal panel should be treated as authoritative for the live deadline.
+ |source_quality=Official Frontier GalNet and Community Goal pages, with Inara used for live progress, station and market observations, plus direct in-game metal-market observations by CMDR Sythan
+ |uncertainty=This is an active Community Goal. Contribution totals, market prices, demand, and percentile brackets can change quickly, and the final event outcome is not yet known. Frontier's public Community Goal data lists a 10 September 2026 expiry, while some public trackers have shown conflicting timers; the in-game Community Goal panel should be treated as authoritative for the live deadline.
 }}
 {{Article header|section=Mining|context=Community Goals|deck=Ongoing Wreaken and Vodel mining field test based at Metz Enterprise in Ega, with separate asteroid and surface-mining Community Goals.}}
 
-<div class="edfm-panel edfm-panel-info noexcerpt">'''Ongoing Community Goal''' — details and market examples on this page were checked on 5 September 2026. Re-check the in-game Community Goal panel and live market tools before committing cargo.</div>
+<div class="edfm-panel edfm-panel-warning noexcerpt">
+<p><strong>Market update</strong><br /><small>7 September 2026</small></p>
+<p>The opening-weekend field tests affected all nine metals listed below through event-enhanced pricing:</p>
+<table class="wikitable" style="width:100%;">
+<tr><th colspan="3">Event-affected metals</th></tr>
+<tr><td>Cobalt</td><td>Gold</td><td>Iridium</td></tr>
+<tr><td>Osmium</td><td>Palladium</td><td>Platinum</td></tr>
+<tr><td>Praseodymium</td><td>Samarium</td><td>Silver</td></tr>
+</table>
+<p>On 7 September, Frontier reduced the exceptional price multipliers for <strong>Gold, Palladium and Silver</strong>. That ended the extraordinary opening-weekend trading rush, but it did not end event-enhanced pricing across the full affected set.</p>
+<p>The Wreaken Mining Rig Field Tests Community Goals remain active. Check current in-game prices before trading; the opening-weekend arbitrage conditions should not be assumed to apply.</p>
+</div>
 
 '''Wreaken Mining Rig Field Tests''' is a pair of linked Community Goals in ''Elite Dangerous'', opened by Wreaken Corporation and [[Vodel]] at '''Metz Enterprise''' in the '''Ega''' system. One goal uses familiar asteroid laser mining as a comparison point. The other puts the [[Rhino]] [[Surface Recon Vehicles|SRV]] and Wreaken's deployable [[Surface Mining|surface-mining]] rigs through a large public field test.<ref name="frontier-cg">[https://www.elitedangerous.com/community/goals Community goals], Frontier Developments. Accessed 2026-09-05.</ref><ref name="galnet-tests">[https://www.elitedangerous.com/news/galnet/wreaken-calls-for-surface-mining-support-tests Wreaken Calls for Surface Mining Support Tests], GalNet, Frontier Developments, 3 September 3312. Accessed 2026-09-05.</ref>
 
-Both goals run from the same station, but they do not track the same cargo or the same mining method. The elevated prices Wreaken is paying have also turned Metz Enterprise into a temporary trade magnet, especially for commodities such as Palladium. That market frenzy is one of the most visible effects of the event, but it is separate from actually contributing mined cargo to a Community Goal.
+Both goals run from the same station, but they do not track the same cargo or the same mining method. During the opening weekend, several metals sold at unusually high event-enhanced prices at Metz Enterprise. Gold, Palladium and Silver were particularly important to ordinary commodity traders because they could be purchased elsewhere and resold at Metz, while Iridium belonged to the Rhino/surface-mining side of the field tests. That market activity was separate from actually contributing mined cargo to a Community Goal.
 
 == Summary ==
 
@@ -41,7 +52,7 @@ Both goals run from the same station, but they do not track the same cargo or th
 |-
 | Organizations || Wreaken Corporation; [[Vodel]]
 |-
-| Activities || Asteroid laser mining; Rhino surface mining; temporary commodity trading
+| Activities || Asteroid laser mining; Rhino surface mining; historical opening-weekend metals trading surge
 |-
 | Deadline/status || Frontier's active data lists 10 September 2026 at 10:00 UTC, but public trackers have disagreed; check the in-game Community Goal panel for the live timer<ref name="frontier-cg" />
 |-
@@ -104,7 +115,7 @@ The easy mistake in this event is treating every sale at Metz as Community Goal 
 
 A valid CG contribution requires registration first, and the cargo has to satisfy the rules of the relevant goal. The asteroid goal calls for laser asteroid-mined commodities. The surface goal calls for surface-mined materials from the Rhino/deployable-rig loop.<ref name="frontier-cg" />
 
-Ordinary trade is different. Buying Palladium at another station and hauling it to Metz can be extremely profitable while Wreaken's event prices are active, but that cargo was not mined by you and should not be expected to advance the asteroid-mining goal. The same station market handles both kinds of sale, so the profit can look similar even when the CG contribution result is not.
+Ordinary trade is different. During the opening weekend, purchased Gold, Palladium, Silver, Cobalt, Praseodymium and other normally tradable metals could be bought elsewhere and resold at Metz at event-enhanced prices. That created the metals trading rush, but those tonnes were not mined by the commander and did not advance the asteroid-mining goal. Iridium belonged to the Rhino/surface-mining side and should not be treated as equivalent ordinary station-to-Metz arbitrage. The same station market handled both kinds of sale, so the profit could look similar even when the CG contribution result was not. Event price does not equal Community Goal contribution.
 
 == Rewards ==
 
@@ -128,15 +139,45 @@ Contribution brackets move as more pilots take part, so current thresholds are b
 
 GalNet announced the field tests on 3 September 3312 and directed independent pilots to register at Metz Enterprise in Ega.<ref name="galnet-tests" /> Frontier's active Community Goal data published an expiry of '''10 September 2026 at 10:00 UTC''' for both goals, while some public tracker data around the event has shown conflicting timers and stale start-date wording.<ref name="frontier-cg" />
 
-Because of that mismatch, the safest live reference is the countdown shown in the in-game Community Goal panel. The event is ongoing as of the 5 September 2026 review for this article.
+Because of that mismatch, the safest live reference is the countdown shown in the in-game Community Goal panel. The event is ongoing as of the 7 September 2026 review for this article.
 
 == Market effects ==
 
-The field tests have had a much bigger effect on Ega than the mining objectives alone. Wreaken's boosted purchase prices have turned Metz Enterprise into an unusually lucrative commodity market, with many accepted CG commodities showing prices far outside their normal trading range.<ref name="inara-metz-market">[https://inara.cz/elite/station-market/19179/ Metz Enterprise - market], Inara. Accessed 2026-09-05.</ref>
+The field tests have had a much bigger effect on Ega than the mining objectives alone. During the opening weekend, Wreaken's boosted purchase prices turned Metz Enterprise into an unusually lucrative commodity market, with several metals and other accepted CG commodities showing prices far outside their normal trading range.<ref name="inara-metz-market">[https://inara.cz/elite/station-market/19179/ Metz Enterprise - market], Inara. Accessed 2026-09-05.</ref>
 
-The reason is the Community Goal pricing itself. Frontier's active data gives the asteroid-mining goal a 6x multiplier and the surface-mining goal an 8x multiplier for commodities sold as part of the initiatives.<ref name="frontier-cg" /> Inara's market page for Metz Enterprise showed displayed demand of '''999,999 tonnes''' for many of those commodities during the 5 September 2026 check.<ref name="inara-metz-market" />
+The opening-weekend effect came from the Community Goal pricing itself. Frontier's opening-weekend data gave the asteroid-mining goal a 6x multiplier and the surface-mining goal an 8x multiplier for commodities sold as part of the initiatives.<ref name="frontier-cg" /> The metals did not all behave identically in ordinary trade: Gold, Palladium and Silver were the metals whose extreme multipliers were subsequently reduced, while other associated metals retained event-enhanced pricing in the September 7 observation below.
 
-Palladium is the clearest example from the asteroid list. On 5 September 2026, Inara showed Metz Enterprise buying Palladium for '''302,136 Cr/t''' with '''999,999 t''' of displayed demand.<ref name="inara-palladium">[https://inara.cz/elite/commodity/45/ Palladium - commodity], Inara. Accessed 2026-09-05.</ref> That price is an event-driven snapshot, not Palladium's normal value.
+=== Event-enhanced metals ===
+
+The opening-weekend market surge affected multiple commodities in the game's metal category. The metals associated with the Wreaken field tests and showing event-enhanced pricing were Cobalt, Gold, Iridium, Osmium, Palladium, Platinum, Praseodymium, Samarium and Silver. Iridium belonged to the Rhino/surface-mining side; the other listed metals were associated with the asteroid-mining Community Goal where applicable. They were not all equally useful for ordinary station-to-Metz arbitrage, since some were primarily or exclusively obtained through mining while others could be sourced through ordinary commodity markets.
+
+The following September 7 figures were observed directly in-game at Metz Enterprise by CMDR Sythan.<ref name="sythan-metals">Direct in-game observation by CMDR Sythan while docked at Metz Enterprise in Ega on 7 September 2026.</ref> They document the broader event-enhanced market and should not be read as a promise that every metal offered the same arbitrage opportunity:
+
+{| class="wikitable" style="width:100%;"
+! Metal !! Metz sell price !! Displayed Galactic Average !! Field-test association
+|-
+| Cobalt || 21,276 Cr/t || approximately 17,730 Cr/t || Asteroid mining
+|-
+| Gold || 70,670 Cr/t || approximately 23,560 Cr/t || Asteroid mining
+|-
+| Iridium || 1,038,104 Cr/t || approximately 908,340 Cr/t || Rhino/surface mining
+|-
+| Osmium || 264,306 Cr/t || approximately 220,260 Cr/t || Asteroid mining
+|-
+| Palladium || 75,534 Cr/t || approximately 25,180 Cr/t || Asteroid mining
+|-
+| Platinum || 333,030 Cr/t || approximately 277,520 Cr/t || Asteroid mining
+|-
+| Praseodymium || 51,588 Cr/t || approximately 42,990 Cr/t || Asteroid mining
+|-
+| Samarium || 154,266 Cr/t || approximately 128,560 Cr/t || Asteroid mining
+|-
+| Silver || 73,106 Cr/t || approximately 36,550 Cr/t || Asteroid mining
+|}
+
+<ref name="sythan-metals">Direct in-game observation by CMDR Sythan while docked at Metz Enterprise in Ega on 7 September 2026.</ref>
+
+Palladium was one of the clearest numerical examples of the wider opening-weekend metals surge. On 5 September 2026, Inara showed Metz Enterprise buying Palladium for '''302,136 Cr/t''' with '''999,999 t''' of displayed demand.<ref name="inara-palladium">[https://inara.cz/elite/commodity/45/ Palladium - commodity], Inara. Accessed 2026-09-05.</ref> That price is an event-driven snapshot, not Palladium's normal value. A direct in-game observation by CMDR Sythan while docked at Metz Enterprise on 7 September 2026 recorded Palladium at '''75,534 Cr/t''', with '''999,999 t''' of displayed demand and a displayed Galactic Average of approximately '''25,180 Cr/t'''. Compared with the 5 September price, that was a reduction of '''226,602 Cr/t''' or '''75%'''. This records the change for Palladium specifically; it does not establish that every event-enhanced commodity price has ended.
 
 At the same time, Inara's Palladium page listed a trade route from Black Moon Terminus buying at '''47,872 Cr/t''' and selling at Metz Enterprise for '''302,136 Cr/t'''. That left more than 254,000 credits of gross margin on every tonne hauled to Ega.<ref name="inara-palladium" />
 
@@ -154,13 +195,19 @@ At the same time, Inara's Palladium page listed a trade route from Black Moon Te
 | 784 t cargo example || 199,342,976 Cr gross spread before expenses and delays
 |}
 
-Those figures explain why Ega drew so much attention, but they are still snapshots. Prices, supply, and route quality can move quickly, and the real return depends on cargo capacity, travel time, supercruise distance, traffic, interdictions, market data age, and whether the cargo is being moved directly or through carrier logistics.
+Those figures explain why Ega drew so much attention during the opening-weekend metals trading rush, but they are historical snapshots. Prices, supply, and route quality can move quickly, and the real return depends on cargo capacity, travel time, supercruise distance, traffic, interdictions, market data age, and whether the cargo is being moved directly or through carrier logistics.
+
+=== September 7 multiplier change ===
+
+On 7 September, Frontier reduced the extreme event multipliers specifically affecting Gold, Palladium and Silver: Gold fell from 6x to 1.5x, Palladium from 6x to 1.5x, and Silver from 6x to 2x. This brought the extraordinary opening-weekend ordinary-market arbitrage rush to an end without ending event-enhanced pricing for every metal. The September 7 observations above show that Cobalt, Iridium, Osmium, Platinum, Praseodymium and Samarium still had unusually high Metz prices, while the broader Community Goals remained active.
+
+Palladium provides the clearest comparison. The 5 September example used 302,136 Cr/t at Metz and a source price of 47,872 Cr/t, producing the historical 254,264 Cr/t gross spread shown above. Using the separately observed source price around 48,678 Cr/t, the opening-weekend comparison was approximately 253,000 Cr/t, while the 7 September Palladium price produced approximately 26,856 Cr/t before expenses. The historical margins describe 5 September conditions and should not be treated as currently available returns.
 
 === Fleet Carrier trading ===
 
-[[Fleet Carrier|Fleet Carriers]] take the same trade and scale it up dramatically. Instead of moving one shipload from the source to Ega, a carrier owner can stage tens of thousands of tonnes near a cheap Palladium market, jump the entire stockpile to Ega, and unload it into Metz Enterprise while the event price remains favourable.
+During the opening-weekend metals trading rush, [[Fleet Carrier|Fleet Carriers]] amplified the same trade dramatically. Instead of moving one shipload from the source to Ega, a carrier owner could stage tens of thousands of tonnes near a cheap Palladium market, jump the entire stockpile to Ega, and unload it into Metz Enterprise while the extreme event price remained favourable.
 
-Using the observed 5 September 2026 Palladium prices above, a carrier operation moving 20,000 tonnes would look like this:
+Using the observed 5 September 2026 Palladium prices above, a carrier operation moving 20,000 tonnes would have looked like this:
 
 {| class="wikitable"
 ! Calculation !! Value
@@ -176,25 +223,25 @@ Using the observed 5 September 2026 Palladium prices above, a carrier operation 
 | Gross market spread || 5,085,280,000 Cr
 |}
 
-That is gross market spread, not guaranteed profit. Loading time, available carrier capacity, Tritium, carrier services, price movement, and any margin paid to other haulers still come out of the operation.
+That was gross market spread, not guaranteed profit. Loading time, available carrier capacity, Tritium, carrier services, price movement, and any margin paid to other haulers still came out of the operation.
 
 === PTN and player-operated logistics ===
 
-Player groups have reacted to the spread as well. The Pilots Trade Network, for example, has been visible in Inara market data around Ega through carriers and trade listings tied to Palladium movement.<ref name="inara-palladium" /> The practical idea is simple: a carrier operator acquires cargo in bulk, moves it close to the high-price market, and pays haulers to shuttle the final loads between the carrier and Metz Enterprise.
+Player groups reacted to the opening-weekend spread as well. The Pilots Trade Network, for example, was visible in Inara market data around Ega through carriers and trade listings tied to Palladium movement.<ref name="inara-palladium" /> The practical idea was simple: a carrier operator acquired cargo in bulk, moved it close to the high-price market, and paid haulers to shuttle the final loads between the carrier and Metz Enterprise.
 
-The large spread leaves room for both sides to earn credits when the numbers line up. That activity is player logistics, not an official part of the Community Goal, and EDFM is not affiliated with PTN. Unloading bought cargo from a carrier is ordinary trade unless the cargo also satisfies the actual CG contribution rules.
+The large historical spread left room for both sides to earn credits when the numbers lined up. That activity was player logistics, not an official part of the Community Goal, and EDFM is not affiliated with PTN. Unloading bought cargo from a carrier was ordinary trade unless the cargo also satisfied the actual CG contribution rules.
 
 === Solo trading ===
 
-A Fleet Carrier or PTN job is not required to benefit from the event prices. If Palladium or another boosted commodity is available cheaply enough elsewhere, a pilot can buy it, fly directly to Metz Enterprise, and sell into the elevated market.
+A Fleet Carrier or PTN job was not required to participate in the opening-weekend metals surge. If Palladium, Gold, Silver or another normally tradable metal was available cheaply enough elsewhere, a pilot could buy it, fly directly to Metz Enterprise, and sell into the elevated market.
 
-The route is only as good as the live numbers. Before loading up, compare the source price, available supply, Metz sell price, cargo capacity, route length, supercruise time at both ends, pad access, and the age of the market data. Bought cargo can make excellent trade profit during the event, but it should not be confused with mined Community Goal contribution.
+Those routes depended entirely on the temporary live numbers. The historical figures here should not be used as a current route guide: bought cargo could produce ordinary trade profit during the surge, but it did not count as mined Community Goal contribution.
 
 == Why this event matters ==
 
 Even without the extraordinary trade profits, the Wreaken Mining Rig Field Tests are an important moment for the Rhino. They put the deployable mining-rig system into large-scale public use and place the new surface-mining loop directly beside the asteroid mining players have used for years.
 
-That makes Ega more than a high-paying market for a few days. The event is a live comparison between old and new mining methods, a stress test for the Rhino's surface-extraction gameplay, and a good example of how Community Goal pricing can reshape player behaviour. The response around Metz Enterprise — mined deliveries, direct arbitrage, Fleet Carrier hauling, and player-run logistics — is part of the event's history as much as the final contribution totals will be.
+For several days during the opening weekend, Ega was also the centre of an extraordinary metals trading and Fleet Carrier logistics boom. The event remains a live comparison between old and new mining methods, a stress test for the Rhino's surface-extraction gameplay, and a good example of how Community Goal pricing can reshape player behaviour. The response around Metz Enterprise — mined deliveries, direct arbitrage, Fleet Carrier hauling, and player-run logistics — is part of the event's history as much as the final contribution totals will be.
 
 == References ==
 

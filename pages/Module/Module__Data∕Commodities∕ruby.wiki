@@ -1,0 +1,259 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Commodities/ruby
+Namespace: 828
+Page ID: 810
+Revision ID: 3392
+Timestamp: 2026-09-07T14:32:17Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Commodities/ruby
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{
+	"schema_version": 1,
+	"id": "ruby",
+	"name": "Ruby",
+	"article": "Ruby",
+	"identifiers": {
+		"fdev": {
+			"value": 129046176,
+			"verification": "game_data",
+			"sources": [
+				"edcd"
+			]
+		},
+		"symbol": {
+			"value": "Ruby",
+			"verification": "game_data",
+			"sources": [
+				"edcd"
+			],
+			"notes": "EDCD symbol; localized journal casing was not separately tested."
+		}
+	},
+	"category": {
+		"value": "Minerals",
+		"verification": "game_data",
+		"sources": [
+			"edcd"
+		]
+	},
+	"cargo_commodity": {
+		"value": true,
+		"verification": "game_data",
+		"sources": [
+			"edcd",
+			"rhino-update"
+		]
+	},
+	"engineering_material": {
+		"value": false,
+		"verification": "game_data",
+		"sources": [
+			"edcd",
+			"rhino-update"
+		],
+		"notes": "Ruby is represented here as cargo; this does not make a claim about every raw material with a similar name."
+	},
+	"mineable": {
+		"value": true,
+		"verification": "community_documented",
+		"sources": [
+			"inara",
+			"rhino-update"
+		]
+	},
+	"introduced": {
+		"value": {
+			"game_version": "4.4.1.0",
+			"date": "2026-09-02"
+		},
+		"verification": "official",
+		"sources": [
+			"rhino-update",
+			"rhino-release"
+		],
+		"notes": "Frontier lists Ruby among the new commodities; the release announcement dates Rhino availability."
+	},
+	"methods": {
+		"laser": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [],
+			"notes": "No commodity-specific asteroid laser route was verified."
+		},
+		"subsurface": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [],
+			"notes": "No commodity-specific asteroid subsurface route was verified."
+		},
+		"core": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [],
+			"notes": "No commodity-specific asteroid core route was verified."
+		},
+		"surface_deposit": {
+			"value": null,
+			"verification": "unverified",
+			"sources": [],
+			"notes": "Asteroid surface-deposit extraction was not verified."
+		},
+		"planetary_surface": {
+			"value": true,
+			"verification": "community_documented",
+			"sources": [
+				"inara",
+				"rhino-update"
+			],
+			"notes": "INARA lists Mining (surface); Frontier lists Ruby among the new commodities in the surface-mining update."
+		}
+	},
+	"acquisition": [
+		{
+			"id": "rhino",
+			"method": "planetary_surface",
+			"availability": {
+				"value": true,
+				"verification": "community_documented",
+				"sources": [
+					"inara",
+					"rhino-update"
+				]
+			},
+			"environments": [],
+			"environment_completeness": "open",
+			"location": {
+				"value": "Planetary Mining Location",
+				"verification": "inferred",
+				"sources": [
+					"rhino-update",
+					"inara"
+				],
+				"notes": "General surface-mining location terminology applied to the documented Ruby route; no Ruby-specific body observation was verified."
+			},
+			"hotspot_required": {
+				"value": null,
+				"verification": "unverified",
+				"sources": [],
+				"notes": "No commodity-specific hotspot requirement was verified; planetary mining locations are not asteroid-ring hotspots."
+			},
+			"rhino_required": {
+				"value": true,
+				"verification": "official",
+				"sources": [
+					"rhino-store"
+				],
+				"notes": "Scoped to the documented Rhino mining-rig route, not to buying, selling or possession of Ruby."
+			},
+			"refining_required": {
+				"value": true,
+				"verification": "inferred",
+				"sources": [
+					"rhino-devlog",
+					"rhino-update",
+					"inara"
+				],
+				"notes": "The Rhino has an onboard refinery; applying that general workflow to Ruby is not an independently observed Ruby run."
+			},
+			"refinery": {
+				"value": "Rhino onboard refinery",
+				"verification": "inferred",
+				"sources": [
+					"rhino-devlog",
+					"rhino-store"
+				],
+				"notes": "Vehicle feature is official; Ruby-specific conversion and yield behavior remain unverified."
+			},
+			"notes": "Body-class distribution is unknown: no rocky, icy, metal-rich or high-metal-content restriction is asserted. Use the documented scanners and confirm the deposit resource before extraction."
+		}
+	],
+	"npc_market": {
+		"value": null,
+		"verification": "unverified",
+		"sources": [
+			"inara"
+		],
+		"notes": "A displayed price or zero-stock listing does not establish normal NPC purchasability."
+	},
+	"uses": [
+		{
+			"kind": "trade",
+			"description": "Cargo for sale to accepting markets; current demand and prices are dynamic.",
+			"verification": "community_documented",
+			"sources": [
+				"inara"
+			]
+		},
+		{
+			"kind": "industrial_description",
+			"description": "Described as valuable in jewellery and fashion, and for its hardness in manufacturing devices; Tourism, High Tech and Industrial economies are listed as consumers.",
+			"verification": "community_documented",
+			"sources": [
+				"inara"
+			]
+		}
+	],
+	"review": {
+		"date": "2026-09-07",
+		"status": "partial",
+		"notes": [
+			"Ruby was selected as a second Rhino commodity because it is explicitly listed by Frontier and independently classified as Mining (surface).",
+			"No commodity-specific body-class observation or controlled EDFM mining test was found; the environment list is deliberately empty and open.",
+			"No asteroid or Engineering-material route is asserted from absence of a source.",
+			"Normal NPC purchase supply remains unverified; live market data is outside this static record."
+		]
+	},
+	"sources": {
+		"edcd": {
+			"title": "FDevIDs commodity mapping (pinned commit c35612952dd6a547d1a7ac4cffab9c7051e86579)",
+			"url": "https://raw.githubusercontent.com/EDCD/FDevIDs/c35612952dd6a547d1a7ac4cffab9c7051e86579/commodity.csv",
+			"publisher": "EDCD",
+			"kind": "game_data",
+			"accessed": "2026-09-07",
+			"supports": "Ruby identifier, Minerals category and symbol."
+		},
+		"inara": {
+			"title": "Ruby — Commodity",
+			"url": "https://inara.cz/elite/commodity/10501/",
+			"publisher": "INARA",
+			"kind": "community_reference",
+			"accessed": "2026-09-07",
+			"supports": "Mining (surface), Minerals category, market observations and descriptive uses; not a body-class source."
+		},
+		"rhino-update": {
+			"title": "Elite Dangerous - 4.4.1.0 Update Notes",
+			"url": "https://www.elitedangerous.com/news/updates/4-4-1-0",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Ruby is listed among new commodities, alongside surface-mining and planetary-location features."
+		},
+		"rhino-release": {
+			"title": "Rhino – Available Now Via ARX Early Access",
+			"url": "https://www.elitedangerous.com/news/rhino-available-now-arx-early-access",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Rhino availability and its mining equipment."
+		},
+		"rhino-devlog": {
+			"title": "Elite Dangerous: August Dev Log 2026",
+			"url": "https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Rhino built-in refinery and planetary deposit scanner; generic workflow only."
+		},
+		"rhino-store": {
+			"title": "Rhino Standard",
+			"url": "https://www.elitedangerous.com/store/product/rhino-standard",
+			"publisher": "Frontier Developments",
+			"kind": "official",
+			"accessed": "2026-09-07",
+			"supports": "Mining rigs are deployed from Rhino and the Large Planetary Vehicle Hangar is required."
+		}
+	},
+	"visibility": "public_reference"
+}

@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Surface-mined commodities
+Namespace: 14
+Page ID: 826
+Revision ID: 3409
+Timestamp: 2026-09-07T14:32:22Z
+Source URL: https://edfieldmanual.com/wiki/Category:Surface-mined_commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+This category contains commodities for which the structured records document planetary surface mining as an acquisition method.
+
+[[Category:Mineable commodities]]

@@ -3,46 +3,55 @@ EDFM current-content archive export.
 Title: Gold
 Namespace: 0
 Page ID: 395
-Revision ID: 1932
-Timestamp: 2026-08-24T21:21:51Z
+Revision ID: 3490
+Timestamp: 2026-09-08T04:22:43Z
 Source URL: https://edfieldmanual.com/wiki/Gold
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=A Metals commodity produced by Extraction and Refinery economies, and Lei Cheung's unlock requirement.
-}}
+{{Article header|deck=A cargo commodity that can be bought or laser-mined and is used for Lei Cheung's Engineering workshop unlock.}}
 
-{{Article status
- |status=Needs review
- |mode=Live
- |version=Elite Dangerous, current Live version
- |reviewed=2026-08-20
- |reviewer=EDFM Engineer link-graph pass
- |source_quality=Inara commodity data; no direct EDFM testing yet
-}}
+{{Callout|type=tip|label=Quick answer|1=Gold can be bought from suitable '''Extraction''' and '''Refinery''' markets or obtained by laser mining '''metallic rings'''. EDFM has no documented Gold-specific hotspot, so prospect a suitable metallic ring instead. Mined fragments must be processed through a [[Refinery]] before they become cargo. Gold is also required for [[Lei Cheung]]'s '''200-tonne''' workshop unlock at [[Trader's Rest]] in [[Laksak]].<ref name="wiki-miner">[https://elite-dangerous.fandom.com/wiki/Miner Miner], Elite Dangerous Wiki.</ref><ref name="inara-gold">[https://inara.cz/elite/commodity/42/ Gold — Commodity], Inara.</ref><ref name="journal">[https://hosting.zaonce.net/community/journal/v37/Journal_Manual_v37.pdf Elite Dangerous Journal Manual, version 37], Frontier Developments, “MiningRefined”.</ref><ref name="inara-lei">[https://inara.cz/elite/engineer/10/ Lei Cheung — Engineer], INARA.</ref>}}
 
-'''Gold''' is a '''Metals''' commodity carried as ordinary cargo, valued for its corrosion resistance and its use in jewellery, luxury goods, and electronics contacts.<ref name="inara-gold">[https://inara.cz/elite/commodity/42/ Gold — Commodity], Inara.</ref> It is produced by '''Extraction''' and '''Refinery''' economy stations and consumed by most other station types.<ref name="inara-gold" />
+{{Commodity infobox|gold}}
 
-== Why it matters for Engineering ==
-
-[[Lei Cheung]] requires '''200 units of Gold''' to unlock his Engineering workshop at [[Trader's Rest]] in [[Laksak]]. As an ordinary commodity, each unit occupies one tonne of cargo space; the full 200-unit requirement needs 200 tonnes of cargo capacity if delivered in a single trip, or can be split across multiple trips.
+'''Gold''' is a market-traded metal and a cargo commodity in ''Elite Dangerous''. It is used in jewellery, luxury goods, and electronics contacts. Commanders can buy it at commodity markets or obtain it by laser mining metallic rings.<ref name="wiki-gold">[https://elite-dangerous.fandom.com/wiki/Gold Gold], Elite Dangerous Wiki.</ref><ref name="inara-gold" /> Gold recovered from mining must be processed through a [[Refinery]] before it becomes cargo.<ref name="journal" /> Gold is required for [[Lei Cheung]]'s workshop unlock, but it is not an [[Engineering Materials|Engineering Material]] and is not stored in the Engineering Materials inventory.<ref name="inara-lei" />
 
 == Acquisition ==
 
-Gold can be obtained two ways:
+* '''Buy''' — '''Where:''' suitable commodity markets at '''Extraction''' and '''Refinery''' economy stations.<ref name="inara-gold" /> '''Requirements:''' credits, cargo racks, and enough free cargo space. '''Refinery:''' no; purchased Gold is already cargo.<ref name="journal" /> '''Notes:''' stock and prices change, so check current listings before travelling; delivery distance still matters.
+* '''Laser mine''' — '''Where:''' '''Metallic''' rings in an asteroid belt or planetary ring.<ref name="wiki-gold" /><ref name="wiki-miner" /> '''Requirements:''' [[Mining Laser]], [[Prospector Limpet Controller]], collection equipment, cargo racks, and a ship [[Refinery]]. '''Refinery:''' yes; mined fragments must be processed before they become cargo.<ref name="journal" /><ref name="wiki-miner" /> '''Notes:''' no named Gold hotspot is currently documented; prospect a suitable ring instead. A [[Rhino]] is not required for conventional asteroid mining.<ref name="wiki-miner" />
 
-* '''Buy it.''' Commodity markets at stations with an '''Extraction''' or '''Refinery''' economy routinely stock Gold.<ref name="inara-gold" /> Use a current commodity-market search rather than assuming one specific station's stock is permanent.
-* '''Mine it.''' Gold is a minable metal; prospecting and refining it yourself avoids depending on any station's market stock entirely, at the cost of needing mining equipment and time.
+=== Buying Gold ===
 
-{{Tip|Because 200 units is a substantial market purchase, check current sell/buy prices and available stock at more than one Extraction/Refinery station before committing to a single trip — allocations and prices vary by station and over time.}}
+Extraction and Refinery economy stations are the market types EDFM currently documents as Gold producers.<ref name="inara-gold" /> That describes a type of economy, not a guarantee that every station will have Gold in stock: availability, demand, and prices change. Check a current [https://inara.cz/elite/commodity/42/ Gold market listing] before travelling, then compare the purchase with your available cargo capacity and the delivery distance.
+
+Buying Gold does not require a refinery; purchased Gold arrives as ordinary cargo. A delivery run still needs enough free cargo space for the quantity you intend to carry, and a longer route can change whether buying is worthwhile.
+
+=== Mining Gold ===
+
+The documented mining method for Gold is '''laser mining in Metallic rings'''. Fit a [[Mining Laser]], [[Prospector Limpet Controller]], collection equipment, a ship [[Refinery]], and cargo racks. Prospect asteroids for Gold, extract the fragments with the laser, collect them, and process them through the refinery before treating them as cargo. See [[How to Laser Mine]] for the full procedure.<ref name="wiki-gold" /><ref name="wiki-miner" /><ref name="journal" />
+
+EDFM's available reference material does not identify a named Gold-specific hotspot. That is not a claim that no hotspot exists; it means that no reliable Gold hotspot is currently documented here. Prospecting a suitable metallic ring is therefore the practical approach rather than searching for a Gold-labelled hotspot.<ref name="wiki-miner" /> A [[Rhino]] is not required for this conventional ship-based asteroid-mining route.
+
+== Uses and Engineering ==
+
+{{Commodity uses|gold}}
+
+For cargo purposes, the 200-unit entry above means a '''200-tonne''' Gold delivery.
+
+=== Lei Cheung's workshop unlock ===
+
+'''Gold is ordinary cargo used as a delivery requirement, not an Engineering Material.''' [[Lei Cheung]] requires '''200 tonnes of Gold''' to unlock his workshop at [[Trader's Rest]] in [[Laksak]].<ref name="inara-lei" /> The donation can be supplied with purchased or mined Gold; if it was mined, the fragments must first be refined into cargo. Gold is carried in the normal cargo hold and is not stored in the separate [[Engineering Materials]] inventory. The 200-tonne requirement needs 200 tonnes of free cargo capacity if delivered in one trip, although it can be split across multiple trips.
+
+For ordinary trading, compare current buying and selling prices, available stock, cargo capacity, and route distance rather than assuming that every Extraction or Refinery station offers the same deal.<ref name="inara-gold" />
 
 == Sources ==
 
 <references />
 
-{{Related articles|[[Lei Cheung]] [[Trader's Rest]] [[Laksak]] [[Engineering Materials]]}}
+{{Related articles|[[Lei Cheung]] [[Trader's Rest]] [[Laksak]] [[Engineering Materials]] [[Mining Commodities]] [[How to Laser Mine]]}}
 
 {{Engineering nav}}
 
-[[Category:Commodities]]
 [[Category:Engineering]]

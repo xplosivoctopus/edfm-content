@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.css
 Namespace: 8
 Page ID: 69
-Revision ID: 3028
-Timestamp: 2026-09-03T04:14:11Z
+Revision ID: 3495
+Timestamp: 2026-09-08T04:43:56Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -6539,5 +6539,845 @@ body.mediawiki #content.mw-body #mw-content-text .mw-parser-output > ul > li {
 	#right-navigation #p-search.vector-search-box {
 		flex-basis: min( 42vw, 360px ) !important;
 		width: min( 42vw, 360px ) !important;
+	}
+}
+
+/* =======================================================================
+   HOMEPAGE PRESENTATION REFINEMENT — 2026-09-08
+   Scoped to Main Page. Homepage feed templates use ordinary MediaWiki
+   table syntax; these rules style the resulting semantic tables without
+   requiring raw div/span markup in generated wikitext.
+   ======================================================================= */
+body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2 {
+	margin-top: 2.65rem;
+	margin-bottom: 0.9rem;
+}
+body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2:has(> h2#Start_here) {
+	margin-top: 1.2rem;
+}
+body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2 > h2 {
+	font-size: clamp( 1.38rem, 1.12rem + 0.7vw, 1.68rem );
+	font-weight: 600;
+}
+body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2:has(> h2#Current_in_Elite_Dangerous) {
+	margin-top: 3.15rem;
+	padding-top: 0.8rem;
+	border-top: 1px solid var( --edfm-border-soft );
+}
+body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2 > h2#Current_in_Elite_Dangerous,
+body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2 > h2#New_\26 _Updated_on_EDFM {
+	font-weight: 650;
+}
+body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2 > h2#Current_in_Elite_Dangerous::after {
+	width: 6.5em;
+	height: 3px;
+}
+body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2 > h2#New_\26 _Updated_on_EDFM::after {
+	width: 5em;
+}
+
+/* Standard homepage cards stay familiar, but gain a little more air and a
+   readable measure so the page does not become a wall of equally weighted
+   dark rectangles. */
+body.page-Main_Page .edfm-home-grid > .edfm-home-card {
+	padding: 1.18rem 1.25rem;
+}
+body.page-Main_Page .edfm-home-grid > .edfm-home-card .edfm-home-card-title {
+	font-size: 1.1rem;
+	line-height: 1.35;
+}
+body.page-Main_Page .edfm-home-grid > .edfm-home-card .edfm-home-card-text,
+body.page-Main_Page .edfm-home-grid > .edfm-home-card .edfm-home-link-list {
+	font-size: 0.98rem;
+	line-height: 1.65;
+}
+body.page-Main_Page .edfm-home-grid-topics > .edfm-home-card {
+	background: var( --edfm-surface-1 );
+	border-left-color: var( --edfm-text-dim );
+	box-shadow: 0 8px 18px rgba( 0, 0, 0, 0.16 );
+}
+body.page-Main_Page .edfm-home-grid-topics > .edfm-home-card:hover {
+	border-left-color: var( --edfm-cyan );
+	background: var( --edfm-surface-2 );
+}
+
+/* Featured current-event panel. The template supplies the table rows and
+   cell classes; no raw HTML wrapper or inline metadata spans are needed. */
+body.page-Main_Page table.edfm-home-current-event-card {
+	box-sizing: border-box;
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+	margin: 1.15rem 0 2.6rem;
+	padding: 1.35rem 1.5rem 1.4rem;
+	background: var( --edfm-surface-2 );
+	border: 1px solid rgba( 255, 162, 26, 0.48 );
+	border-top: 2px solid var( --edfm-orange );
+	border-left: 4px solid var( --edfm-orange );
+	box-shadow: 0 16px 30px rgba( 0, 0, 0, 0.28 );
+}
+body.page-Main_Page table.edfm-home-current-event-card > tbody > tr > td {
+	border: 0;
+	vertical-align: top;
+}
+body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-status-label {
+	width: 55%;
+	padding: 1.35rem 0.75rem 0.72rem 1.5rem;
+	color: var( --edfm-orange-bright );
+	font-family: var( --edfm-mono );
+	font-size: 0.78rem;
+	font-weight: 800;
+	letter-spacing: 0.085em;
+	line-height: 1.35;
+	text-transform: uppercase;
+}
+body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-status-detail {
+	padding: 1.35rem 1.5rem 0.72rem 0.75rem;
+	color: var( --edfm-cyan );
+	font-family: var( --edfm-mono );
+	font-size: 0.78rem;
+	font-weight: 800;
+	letter-spacing: 0.06em;
+	line-height: 1.35;
+	text-align: right;
+	text-transform: uppercase;
+}
+body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-title {
+	padding: 0 1.5rem;
+	font-size: clamp( 1.3rem, 1.08rem + 0.7vw, 1.58rem );
+	line-height: 1.25;
+}
+body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-title a {
+	font-size: inherit;
+	line-height: inherit;
+}
+body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-text {
+	max-width: 78ch;
+	padding: 0.78rem 1.5rem 0;
+	color: #a9b5bb;
+	font-size: 1rem;
+	line-height: 1.68;
+}
+body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-action {
+	padding: 0.9rem 1.5rem 1.4rem;
+	border-top: 1px solid var( --edfm-border-soft );
+}
+body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-action a {
+	display: inline-block;
+	padding: 0.48rem 0.72rem;
+	background: rgba( 255, 138, 0, 0.08 );
+	border: 1px solid rgba( 255, 162, 26, 0.48 );
+	color: var( --edfm-orange-bright ) !important;
+	font-size: 0.82rem;
+	letter-spacing: 0.065em;
+	text-decoration: none;
+}
+body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-action a:hover,
+body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-action a:focus-visible {
+	background: rgba( 255, 138, 0, 0.16 );
+	border-color: var( --edfm-orange-bright );
+	text-decoration: underline;
+}
+body.page-Main_Page table.edfm-home-current-event-card:hover,
+body.page-Main_Page table.edfm-home-current-event-card:focus-within {
+	background: var( --edfm-surface-3 );
+	border-color: rgba( 255, 162, 26, 0.72 );
+	border-left-color: var( --edfm-orange-bright );
+}
+
+/* New and updated feeds: a clean editorial card grid. */
+body.page-Main_Page .mw-heading3:has(+ table.edfm-home-recent-group) {
+	margin: 2rem 0 0.9rem;
+	padding: 0.18rem 0 0.62rem 0.82rem;
+	border-left: 3px solid var( --edfm-feed-accent );
+	border-bottom: 1px solid rgba( 130, 151, 161, 0.28 );
+	border-left-color: var( --edfm-feed-accent ) !important;
+}
+body.page-Main_Page .mw-heading3:has(+ table.edfm-home-recent-group-new) {
+	--edfm-feed-accent: var( --edfm-orange );
+}
+body.page-Main_Page .mw-heading3:has(+ table.edfm-home-recent-group-updated) {
+	--edfm-feed-accent: var( --edfm-cyan );
+}
+body.page-Main_Page .mw-heading3:has(+ table.edfm-home-recent-group) h3 {
+	font-family: var( --edfm-mono );
+	font-size: 1.08rem;
+	font-weight: 750;
+	letter-spacing: 0.015em;
+	line-height: 1.35;
+}
+body.page-Main_Page .mw-heading3:has(+ table.edfm-home-recent-group) h3::before {
+	content: none;
+}
+body.page-Main_Page table.edfm-home-recent-group {
+	--edfm-feed-accent: var( --edfm-cyan );
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	margin: 0 0 2.25rem;
+	padding: 0;
+	border: 0;
+	background: transparent;
+}
+body.page-Main_Page table.edfm-home-recent-group-new {
+	--edfm-feed-accent: var( --edfm-orange );
+}
+body.page-Main_Page table.edfm-home-recent-group-updated {
+	--edfm-feed-accent: var( --edfm-cyan );
+}
+body.page-Main_Page table.edfm-home-recent-group > tbody {
+	display: grid;
+	grid-template-columns: repeat( 3, minmax( 0, 1fr ) );
+	column-gap: 0.8rem;
+	row-gap: 0.75rem;
+}
+body.page-Main_Page table.edfm-home-recent-group > tbody > tr {
+	display: flex;
+	box-sizing: border-box;
+	min-width: 0;
+	margin: 0;
+}
+body.page-Main_Page table.edfm-home-recent-group > tbody > tr:first-child {
+	grid-column: 1 / -1;
+	display: block;
+	padding: 0 0.2rem 0.1rem;
+}
+body.page-Main_Page table.edfm-home-recent-group > tbody > tr:not(:first-child) {
+	width: auto;
+	align-items: stretch;
+}
+body.page-Main_Page table.edfm-home-recent-group > tbody > tr > td {
+	display: block;
+	box-sizing: border-box;
+	width: auto;
+	flex: 1 1 auto;
+	padding: 0;
+	border: 0;
+	vertical-align: top;
+}
+body.page-Main_Page table.edfm-home-recent-group .edfm-home-recent-subtitle {
+	color: var( --edfm-text-muted );
+	font-size: 0.92rem;
+	line-height: 1.55;
+}
+body.page-Main_Page table.edfm-home-recent-item {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-height: 11.25rem;
+	margin: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	background: var( --edfm-surface-2 );
+	border: 1px solid var( --edfm-border-soft );
+	border-top: 2px solid rgba( 130, 151, 161, 0.42 );
+	border-left: 3px solid var( --edfm-feed-accent );
+	box-shadow: 0 7px 18px rgba( 0, 0, 0, 0.18 );
+}
+body.page-Main_Page table.edfm-home-recent-item > tbody {
+	display: block;
+}
+body.page-Main_Page table.edfm-home-recent-item > tbody > tr {
+	display: block;
+	box-sizing: border-box;
+}
+body.page-Main_Page table.edfm-home-recent-item > tbody > tr:first-child {
+	display: grid;
+	grid-template-columns: minmax( 0, 1fr ) auto;
+	grid-template-areas:
+		"title title"
+		"badge date";
+	column-gap: 0.75rem;
+	align-items: center;
+	padding: 0.9rem 0.95rem 0.78rem;
+	border-bottom: 1px solid var( --edfm-border-soft );
+}
+body.page-Main_Page table.edfm-home-recent-item > tbody > tr > td {
+	display: block;
+	box-sizing: border-box;
+	width: auto;
+	padding: 0;
+	border: 0;
+	vertical-align: top;
+}
+body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-title {
+	grid-area: title;
+	width: auto;
+	font-size: 1.04rem;
+	font-weight: 650;
+	line-height: 1.35;
+}
+body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-title a {
+	font-size: inherit;
+	line-height: inherit;
+}
+body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-badge {
+	grid-area: badge;
+	width: auto;
+	margin-top: 0.42rem;
+	color: var( --edfm-feed-accent );
+	font-family: var( --edfm-mono );
+	font-size: 0.67rem;
+	font-weight: 800;
+	letter-spacing: 0.065em;
+	line-height: 1.25;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-date {
+	grid-area: date;
+	width: auto;
+	padding-left: 0.45rem;
+	color: var( --edfm-text-muted );
+	font-size: 0.82rem;
+	line-height: 1.4;
+	text-align: right;
+	white-space: nowrap;
+}
+body.page-Main_Page table.edfm-home-recent-item > tbody > tr:last-child {
+	padding: 0.78rem 0.95rem 0.95rem;
+}
+body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-summary {
+	width: auto;
+	padding: 0;
+	color: #a9b5bb;
+	font-size: 0.94rem;
+	line-height: 1.58;
+}
+body.page-Main_Page table.edfm-home-recent-item:hover,
+body.page-Main_Page table.edfm-home-recent-item:focus-within {
+	background: var( --edfm-surface-3 );
+	border-color: rgba( 130, 151, 161, 0.58 );
+	border-top-color: var( --edfm-feed-accent );
+	border-left-color: var( --edfm-feed-accent );
+	box-shadow: 0 11px 22px rgba( 0, 0, 0, 0.25 );
+}
+@media ( max-width: 980px ) {
+	body.page-Main_Page table.edfm-home-recent-group > tbody {
+		grid-template-columns: repeat( 2, minmax( 0, 1fr ) );
+	}
+}
+@media ( max-width: 760px ) {
+	body.page-Main_Page .mw-heading3:has(+ table.edfm-home-recent-group) {
+		margin-top: 1.65rem;
+		padding-left: 0.65rem;
+	}
+	body.page-Main_Page table.edfm-home-recent-group {
+		margin-bottom: 1.8rem;
+	}
+	body.page-Main_Page table.edfm-home-recent-group > tbody > tr:first-child {
+		padding-bottom: 0.7rem;
+	}
+	body.page-Main_Page table.edfm-home-recent-group > tbody {
+		grid-template-columns: minmax( 0, 1fr );
+		row-gap: 0.7rem;
+	}
+	body.page-Main_Page table.edfm-home-recent-group > tbody > tr:not(:first-child) {
+		display: flex;
+		width: auto;
+		margin: 0;
+	}
+	body.page-Main_Page table.edfm-home-recent-item {
+		min-height: 0;
+	}
+	body.page-Main_Page table.edfm-home-recent-item > tbody > tr:first-child {
+		grid-template-columns: minmax( 0, 1fr );
+		grid-template-areas:
+			"title"
+			"badge"
+			"date";
+		row-gap: 0;
+		padding: 0.82rem 0.85rem 0.72rem;
+	}
+	body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-date {
+		padding: 0.35rem 0 0;
+		text-align: left;
+	}
+	body.page-Main_Page table.edfm-home-recent-item > tbody > tr:last-child {
+		padding: 0.72rem 0.85rem 0.88rem;
+	}
+}
+body.page-Main_Page .edfm-home-section-link {
+	margin: 0.8rem 0 2rem;
+	padding-top: 0.65rem;
+	border-top: 1px solid var( --edfm-border-soft );
+	text-align: right;
+	font-family: var( --edfm-mono );
+	font-size: 0.82rem;
+	font-weight: 800;
+	letter-spacing: 0.055em;
+	text-transform: uppercase;
+}
+
+@media ( max-width: 760px ) {
+	body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2 {
+		margin-top: 2.35rem;
+	}
+	body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2:has(> h2#Start_here) {
+		margin-top: 1rem;
+	}
+	body.page-Main_Page #mw-content-text > .mw-parser-output > .mw-heading2:has(> h2#Current_in_Elite_Dangerous) {
+		margin-top: 2.6rem;
+		padding-top: 0.65rem;
+	}
+	body.page-Main_Page table.edfm-home-current-event-card {
+		table-layout: auto;
+		padding: 1.08rem 1rem 1.15rem;
+	}
+	body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-status-label,
+	body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-status-detail {
+		font-size: 0.72rem;
+		letter-spacing: 0.065em;
+	}
+	body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-status-detail {
+		text-align: left;
+	}
+	body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-text {
+		font-size: 0.98rem;
+		line-height: 1.62;
+	}
+	body.page-Main_Page table.edfm-home-recent-group > tbody > tr > td {
+		padding-left: 0.7rem;
+		padding-right: 0.7rem;
+	}
+	body.page-Main_Page table.edfm-home-recent-item,
+	body.page-Main_Page table.edfm-home-recent-item > tbody,
+	body.page-Main_Page table.edfm-home-recent-item > tbody > tr,
+	body.page-Main_Page table.edfm-home-recent-item > tbody > tr > td {
+		display: block;
+		width: auto;
+	}
+	body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-title,
+	body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-badge,
+	body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-date {
+		width: auto;
+		padding-left: 0.88rem;
+		padding-right: 0.88rem;
+		text-align: left;
+		white-space: normal;
+	}
+	body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-badge,
+	body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-date {
+		padding-top: 0.45rem;
+	}
+	body.page-Main_Page table.edfm-home-recent-item .edfm-home-recent-summary {
+		padding: 0.75rem 0.88rem 0.98rem;
+	}
+}
+body.page-Main_Page table.edfm-home-section-link {
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+@media ( max-width: 760px ) {
+	body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-status-label {
+		padding: 1.08rem 0.45rem 0.65rem 1rem;
+	}
+	body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-status-detail {
+		padding: 1.08rem 1rem 0.65rem 0.45rem;
+	}
+	body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-title {
+		padding: 0 1rem;
+	}
+	body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-text {
+		padding: 0.7rem 1rem 0;
+	}
+	body.page-Main_Page table.edfm-home-current-event-card .edfm-home-current-event-action {
+		padding: 0.8rem 1rem 1.15rem;
+	}
+}
+
+/* ========================================================================
+   EDFM MOBILE HEADER / ACTION RAIL / DRAWER ICONS — 2026-09-08
+   ------------------------------------------------------------------------
+   The legacy Vector header has two independently floated nav containers.
+   On a phone those containers can wrap into a tall, sparse second row and
+   allow Echo's OOUI sprite backgrounds to expand across the personal-tools
+   drawer. Common.js moves the real portlets into one mobile action rail;
+   this late block gives that rail and the drawer one final, predictable
+   geometry after all earlier Vector overrides have loaded.
+   ======================================================================== */
+.edfm-mobile-action-rail {
+	display: none;
+}
+@media screen and ( max-width: 800px ) {
+	.edfm-mobile-appbar {
+		box-sizing: border-box;
+		grid-template-columns: 3rem minmax( 0, 1fr ) 3rem;
+		min-height: 3.5rem;
+		padding: 0 max( 0.35rem, env( safe-area-inset-right ) ) 0 max( 0.35rem, env( safe-area-inset-left ) );
+	}
+	.edfm-mobile-appbar > .edfm-mobile-menu-button,
+	.edfm-mobile-appbar > .edfm-mobile-search-button {
+		width: 44px;
+		min-width: 44px;
+		min-height: 44px;
+	}
+	.edfm-mobile-menu-button::before,
+	.edfm-mobile-search-button::before,
+	#mw-panel .edfm-mobile-close-button::before {
+		content: '';
+		display: block;
+		width: 1.35rem;
+		height: 1.35rem;
+		background-color: currentColor;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+	.edfm-mobile-menu-button::before {
+		background-color: var( --edfm-orange );
+		-webkit-mask: center / contain no-repeat url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 6h18M3 12h18M3 18h18' fill='none' stroke='black' stroke-linecap='round' stroke-width='2.4'/%3E%3C/svg%3E" );
+		mask: center / contain no-repeat url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 6h18M3 12h18M3 18h18' fill='none' stroke='black' stroke-linecap='round' stroke-width='2.4'/%3E%3C/svg%3E" );
+	}
+	.edfm-mobile-search-button::before {
+		background-color: var( --edfm-cyan );
+		-webkit-mask: center / contain no-repeat url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='10.7' cy='10.7' r='6.7' fill='none' stroke='black' stroke-width='2.4'/%3E%3Cpath d='m16 16 5 5' fill='none' stroke='black' stroke-linecap='round' stroke-width='2.4'/%3E%3C/svg%3E" );
+		mask: center / contain no-repeat url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='10.7' cy='10.7' r='6.7' fill='none' stroke='black' stroke-width='2.4'/%3E%3Cpath d='m16 16 5 5' fill='none' stroke='black' stroke-linecap='round' stroke-width='2.4'/%3E%3C/svg%3E" );
+	}
+	#mw-panel .edfm-mobile-close-button::before {
+		background-color: var( --edfm-text );
+		-webkit-mask: center / contain no-repeat url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m5 5 14 14M19 5 5 19' fill='none' stroke='black' stroke-linecap='round' stroke-width='2.4'/%3E%3C/svg%3E" );
+		mask: center / contain no-repeat url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m5 5 14 14M19 5 5 19' fill='none' stroke='black' stroke-linecap='round' stroke-width='2.4'/%3E%3C/svg%3E" );
+	}
+	.edfm-mobile-action-rail {
+		box-sizing: border-box;
+		display: flex !important;
+		align-items: stretch;
+		gap: 0;
+		width: 100%;
+		max-width: 100%;
+		min-height: 44px;
+		padding: 0 0.2rem;
+		background: var( --edfm-surface-2 );
+		border-top: 1px solid var( --edfm-border-soft );
+		border-bottom: 1px solid var( --edfm-border );
+		overflow-x: auto;
+		overflow-y: hidden;
+		overscroll-behavior-x: contain;
+		scrollbar-width: none;
+		-webkit-overflow-scrolling: touch;
+		white-space: nowrap;
+	}
+	.edfm-mobile-action-rail::-webkit-scrollbar {
+		display: none;
+	}
+	.edfm-mobile-action-rail > .mw-portlet {
+		box-sizing: border-box;
+		flex: 0 0 auto !important;
+		float: none !important;
+		display: block !important;
+		width: auto !important;
+		min-width: 0;
+		max-width: none;
+		margin: 0 !important;
+		padding: 0 !important;
+		border: 0 !important;
+	}
+	.edfm-mobile-action-rail > .mw-portlet > .vector-menu-heading {
+		box-sizing: border-box;
+		display: inline-flex !important;
+		align-items: center;
+		min-height: 44px;
+		margin: 0 !important;
+		padding: 0 0.8rem !important;
+		border-left: 1px solid var( --edfm-border-soft );
+		color: var( --edfm-text-dim ) !important;
+		font: 700 0.7rem/1 var( --edfm-mono );
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+	.edfm-mobile-action-rail > #p-associated-pages > .vector-menu-heading,
+	.edfm-mobile-action-rail > #p-views > .vector-menu-heading {
+		display: none !important;
+	}
+	.edfm-mobile-action-rail .vector-menu-content,
+	.edfm-mobile-action-rail .vector-menu-content-list {
+		box-sizing: border-box;
+		display: flex !important;
+		align-items: stretch;
+		float: none !important;
+		width: max-content;
+		max-width: none;
+		min-width: 0;
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none !important;
+		white-space: nowrap;
+	}
+	.edfm-mobile-action-rail .vector-menu-content-list > li {
+		box-sizing: border-box;
+		flex: 0 0 auto !important;
+		float: none !important;
+		display: block !important;
+		min-width: 0;
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none !important;
+		background: transparent !important;
+		box-shadow: none;
+	}
+	.edfm-mobile-action-rail .vector-menu-content-list > li > a,
+	.edfm-mobile-action-rail .vector-menu-content-list > li > a:visited {
+		box-sizing: border-box;
+		display: inline-flex !important;
+		align-items: center;
+		min-height: 44px;
+		padding: 0 0.78rem !important;
+		border-left: 1px solid var( --edfm-border-soft );
+		background: transparent !important;
+		color: var( --edfm-text-dim ) !important;
+		font: 700 0.7rem/1 var( --edfm-mono ) !important;
+		letter-spacing: 0.045em;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+	.edfm-mobile-action-rail .vector-menu-content-list > li > a:hover,
+	.edfm-mobile-action-rail .vector-menu-content-list > li > a:focus-visible,
+	.edfm-mobile-action-rail .vector-menu-heading:hover,
+	.edfm-mobile-action-rail .vector-menu-heading:focus-visible {
+		background: var( --edfm-surface-3 ) !important;
+		color: var( --edfm-text ) !important;
+	}
+	.edfm-mobile-action-rail .vector-menu-content-list > li.selected > a,
+	.edfm-mobile-action-rail .vector-menu-content-list > li.selected > a:visited {
+		background: rgba( 255, 138, 0, 0.11 ) !important;
+		box-shadow: inset 0 -2px 0 var( --edfm-orange );
+		color: var( --edfm-orange ) !important;
+	}
+	.edfm-mobile-action-rail .vector-menu-content-list > li.new > a,
+	.edfm-mobile-action-rail .vector-menu-content-list > li.new > a:visited {
+		color: var( --edfm-link-new ) !important;
+	}
+	/* Keep page-action/watch icons inside the same 44px touch target. */
+	.edfm-mobile-action-rail .vector-menu-content-list > li.icon > a {
+		min-width: 44px;
+		padding: 0 0.72rem 0 2.15rem !important;
+		background-repeat: no-repeat !important;
+		background-position: 0.72rem center !important;
+		background-size: 1.1rem 1.1rem !important;
+	}
+	.edfm-mobile-action-rail .vector-menu-content-list > li.icon > a::before {
+		box-sizing: border-box;
+		flex: 0 0 1.1rem;
+		width: 1.1rem;
+		height: 1.1rem;
+		max-width: 1.1rem;
+		max-height: 1.1rem;
+		margin: 0 0.3rem 0 -1.43rem;
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		background-size: contain !important;
+	}
+	#mw-head {
+		box-sizing: border-box;
+		position: relative !important;
+		display: block !important;
+		width: 100% !important;
+		min-height: 0 !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		background: var( --edfm-surface-2 ) !important;
+		overflow: visible !important;
+	}
+	#mw-head > #left-navigation,
+	#mw-head > #right-navigation {
+		display: none !important;
+	}
+	#mw-head > #p-search.vector-search-box {
+		box-sizing: border-box !important;
+		display: block !important;
+		float: none !important;
+		width: auto !important;
+		max-width: none !important;
+		min-width: 0 !important;
+		margin: 0.55rem 0.55rem 0.7rem !important;
+		padding: 0 !important;
+	}
+	#mw-head > #p-search #searchform,
+	#mw-head > #p-search #simpleSearch.vector-search-box-inner {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+
+	/* The account drawer is a two-column link grid. Explicit min-width:0 and
+	   ellipsis prevent long usernames/labels from pushing into the adjacent
+	   cell or creating character-by-character wraps. */
+	#mw-panel #p-personal.edfm-mobile-personal {
+		box-sizing: border-box !important;
+		display: block !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 0 !important;
+		padding: 0.85rem 0 0.65rem !important;
+		border-bottom: 1px solid var( --edfm-border-soft );
+		text-align: left !important;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal .edfm-topbar-clocks {
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.45rem;
+		width: 100%;
+		padding: 0 1rem 0.55rem;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal > .vector-menu-heading {
+		display: block !important;
+		width: auto;
+		margin: 0 1rem 0.55rem !important;
+		padding: 0.15rem 0 0.55rem !important;
+		border-left: 0;
+		border-bottom: 1px solid var( --edfm-border-soft );
+		color: var( --edfm-text-muted ) !important;
+		font: 700 0.84rem/1.2 var( --edfm-mono ) !important;
+		letter-spacing: 0.09em;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal .vector-menu-content {
+		display: block !important;
+		width: 100%;
+		min-width: 0;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal .vector-menu-content-list {
+		display: grid !important;
+		grid-template-columns: repeat( 2, minmax( 0, 1fr ) );
+		width: 100%;
+		min-width: 0;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal .vector-menu-content-list > li {
+		box-sizing: border-box;
+		min-width: 0;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal .vector-menu-content-list > li > a,
+	#mw-panel #p-personal.edfm-mobile-personal .vector-menu-content-list > li > a:visited {
+		box-sizing: border-box;
+		display: flex !important;
+		align-items: center;
+		width: 100%;
+		min-width: 0;
+		min-height: 46px;
+		margin: 0 !important;
+		padding: 0.55rem 1rem !important;
+		border: 0 !important;
+		background: transparent !important;
+		color: var( --edfm-text-muted ) !important;
+		font-size: 0.98rem !important;
+		line-height: 1.2 !important;
+		text-decoration: none;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal .vector-menu-content-list > li > a:hover,
+	#mw-panel #p-personal.edfm-mobile-personal .vector-menu-content-list > li > a:focus-visible {
+		background: var( --edfm-surface-3 ) !important;
+		color: var( --edfm-text ) !important;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal .vector-menu-content-list > li > a > span {
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	/* Echo may render two icon-only entries in #p-personal, or move them into
+	   its #echo-hack-badges helper. In either location, constrain both the
+	   list item and every possible OOUI icon layer to one small touch target.
+	   The readable combined #pt-notifications link is intentionally excluded. */
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-alert,
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-notice,
+	#mw-panel #echo-hack-badges,
+	#mw-panel #echo-hack-badges li,
+	#mw-panel #echo-hack-badges #pt-notifications-alert,
+	#mw-panel #echo-hack-badges #pt-notifications-notice {
+		box-sizing: border-box !important;
+		min-width: 0 !important;
+		min-height: 0 !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none !important;
+		list-style-image: none !important;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-alert,
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-notice,
+	#mw-panel #echo-hack-badges #pt-notifications-alert,
+	#mw-panel #echo-hack-badges #pt-notifications-notice {
+		display: block !important;
+		width: 46px !important;
+		height: 46px !important;
+		max-width: 46px !important;
+		max-height: 46px !important;
+		overflow: hidden !important;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-alert > a,
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-notice > a,
+	#mw-panel #echo-hack-badges #pt-notifications-alert > a,
+	#mw-panel #echo-hack-badges #pt-notifications-notice > a {
+		box-sizing: border-box !important;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		width: 46px !important;
+		height: 46px !important;
+		min-width: 46px !important;
+		min-height: 46px !important;
+		max-width: 46px !important;
+		max-height: 46px !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		background-size: 21px 21px !important;
+		border: 0 !important;
+		font-size: 0 !important;
+		line-height: 1 !important;
+		text-indent: -9999px !important;
+		overflow: hidden !important;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-alert > a > span,
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-notice > a > span,
+	#mw-panel #echo-hack-badges #pt-notifications-alert > a > span,
+	#mw-panel #echo-hack-badges #pt-notifications-notice > a > span {
+		display: none !important;
+	}
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-alert .oo-ui-iconElement-icon,
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications-notice .oo-ui-iconElement-icon,
+	#mw-panel #echo-hack-badges #pt-notifications-alert .oo-ui-iconElement-icon,
+	#mw-panel #echo-hack-badges #pt-notifications-notice .oo-ui-iconElement-icon {
+		box-sizing: border-box !important;
+		display: block !important;
+		flex: 0 0 21px !important;
+		width: 21px !important;
+		height: 21px !important;
+		max-width: 21px !important;
+		max-height: 21px !important;
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		background-size: 21px 21px !important;
+		overflow: hidden !important;
+	}
+	/* If Echo has already supplied the combined text target, keep it readable
+	   and let it use a normal grid cell rather than inheriting icon-only rules. */
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications > a,
+	#mw-panel #p-personal.edfm-mobile-personal #pt-notifications > a:visited {
+		display: flex !important;
+		width: 100% !important;
+		min-width: 0 !important;
+		min-height: 46px !important;
+		padding: 0.55rem 1rem !important;
+		background-image: none !important;
+		font-size: 0.98rem !important;
+		text-indent: 0 !important;
 	}
 }

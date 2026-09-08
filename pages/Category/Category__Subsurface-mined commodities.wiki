@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Subsurface-mined commodities
+Namespace: 14
+Page ID: 825
+Revision ID: 3408
+Timestamp: 2026-09-07T14:32:22Z
+Source URL: https://edfieldmanual.com/wiki/Category:Subsurface-mined_commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+This category contains commodities for which the structured records document subsurface displacement mining as an acquisition method.
+
+[[Category:Mineable commodities]]

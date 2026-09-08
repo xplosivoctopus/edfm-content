@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Core-mined commodities
+Namespace: 14
+Page ID: 820
+Revision ID: 3403
+Timestamp: 2026-09-07T14:32:21Z
+Source URL: https://edfieldmanual.com/wiki/Category:Core-mined_commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+This category contains commodities for which the structured records document asteroid core mining as an acquisition method.
+
+[[Category:Mineable commodities]]

@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Laser-mined commodities
+Namespace: 14
+Page ID: 821
+Revision ID: 3404
+Timestamp: 2026-09-07T14:32:21Z
+Source URL: https://edfieldmanual.com/wiki/Category:Laser-mined_commodities
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+This category contains commodities for which the structured records document laser mining as an acquisition method.
+
+[[Category:Mineable commodities]]
