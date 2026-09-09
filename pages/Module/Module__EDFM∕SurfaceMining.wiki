@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:EDFM/SurfaceMining
 Namespace: 828
 Page ID: 829
-Revision ID: 3608
-Timestamp: 2026-09-09T16:40:34Z
+Revision ID: 3621
+Timestamp: 2026-09-09T17:20:22Z
 Source URL: https://edfieldmanual.com/wiki/Module:EDFM/SurfaceMining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,6 +13,29 @@ This is current wikitext only; no revision history, user database, logs, deleted
 -- The JSON data page is the canonical source; this module only formats it.
 local p = {}
 local data = mw.loadJsonData('Module:Data/SurfaceMiningProspecting')
+
+local GROUND_LABELS = {
+    ['metal-rich'] = 'Metal rich',
+    ['high-metal-content'] = 'High metal content',
+    ['rocky-ice'] = 'Rocky ice',
+    ['rocky'] = 'Rocky',
+    ['icy'] = 'Icy',
+    ['volcanic magma'] = 'Volcanic — magma',
+    ['volcanic silicate'] = 'Volcanic — silicate',
+}
+
+local FAMILY_LABELS = {
+    volcanic = 'Volcanic',
+    metal = 'Metal',
+    rock = 'Rock',
+    ice = 'Ice',
+}
+
+local FAMILY_ORDER = { 'volcanic', 'metal', 'rock', 'ice' }
+local MONTHS = {
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December',
+}
 
 local function escape(value)
     return (tostring(value or ''):gsub('[&<>"\'{}%[%]|!\n\r]', function(c)
@@ -28,25 +51,44 @@ local function diagnostic(message)
     return '<strong class="error">Surface-mining prospecting data error: ' .. escape(message) .. '</strong>'
 end
 
-local function tableOutput(headers, rows)
-    local out = {'<div class="edfm-prospecting-table" style="overflow-x:auto;max-width:100%">', '{| class="wikitable sortable" style="white-space:normal"', '! ' .. table.concat(headers, ' !! ')}
-    for _, row in ipairs(rows) do
-        out[#out + 1] = '|-'
-        out[#out + 1] = '| ' .. table.concat(row, '\n| ')
-    end
-    out[#out + 1] = '|}'
-    out[#out + 1] = '</div>'
-    return table.concat(out, '\n')
+local function humanizeId(value)
+    return (value:gsub('-', ' '):gsub('^%l', string.upper))
+end
+
+local function groundLabel(value)
+    local id = trim(value)
+    return GROUND_LABELS[id] or humanizeId(id)
+end
+
+local function familyLabel(value)
+    local id = trim(value)
+    return FAMILY_LABELS[id] or humanizeId(id)
 end
 
 local function percentage(value)
     return string.format('%.1f%%', tonumber(value) or 0)
 end
 
+local function sample(observation)
+    return escape(observation.hits) .. ' / ' .. escape(observation.locations_surveyed)
+end
+
 local function listLength(list)
     local count = 0
     for _ in ipairs(list or {}) do count = count + 1 end
     return count
+end
+
+local function bestObservation(observations)
+    local best = observations[1]
+    local bestIndex = 1
+    for index, observation in ipairs(observations or {}) do
+        if not best or (tonumber(observation.observed_percentage) or 0) > (tonumber(best.observed_percentage) or 0) then
+            best = observation
+            bestIndex = index
+        end
+    end
+    return best, bestIndex
 end
 
 local function materialId(frame)
@@ -67,50 +109,127 @@ local function material(id)
     return nil
 end
 
+local function tableOutput(headers, rows, className)
+    local classes = className or 'wikitable'
+    local out = {
+        '{| class="' .. classes .. '" style="white-space:normal"',
+        '! ' .. table.concat(headers, ' !! '),
+    }
+    for _, row in ipairs(rows) do
+        out[#out + 1] = '|-'
+        out[#out + 1] = '| ' .. table.concat(row, '\n| ')
+    end
+    out[#out + 1] = '|}'
+    return table.concat(out, '\n')
+end
+
 local function observationsTable(item)
     local rows = {}
     for _, observation in ipairs(item.observations or {}) do
         rows[#rows + 1] = {
-            escape(observation.ground),
+            escape(groundLabel(observation.ground)),
             escape(observation.hits),
             escape(observation.locations_surveyed),
             percentage(observation.observed_percentage),
         }
     end
-    return tableOutput({'Ground', 'Found', 'Surveyed', 'Observed rate'}, rows)
+    return tableOutput({'Ground', 'Found', 'Surveyed', 'Observed rate'}, rows, 'wikitable sortable')
 end
 
-local function allObservationsTable()
-    local rows = {}
-    for _, item in ipairs(data.materials or {}) do
-        for _, observation in ipairs(item.observations or {}) do
-            rows[#rows + 1] = {
-                escape(item.name),
-                escape(item.family),
-                escape(observation.ground),
-                percentage(observation.observed_percentage),
-                escape(observation.hits) .. ' / ' .. escape(observation.locations_surveyed),
-            }
+local function detailBlock(item, bestIndex)
+    local observations = item.observations or {}
+    if listLength(observations) <= 1 then return '' end
+
+    local out = {
+        '<div class="mw-collapsible mw-collapsed edfm-prospecting-detail" data-expandtext="View other observations" data-collapsetext="Hide other observations">',
+        '<div class="edfm-prospecting-detail-label">Other observed ground</div>',
+        '<ul class="edfm-prospecting-detail-list">',
+    }
+    for index, observation in ipairs(observations) do
+        if index ~= bestIndex then
+            out[#out + 1] = '<li><span class="edfm-prospecting-detail-ground">'
+                .. escape(groundLabel(observation.ground))
+                .. '</span> — <strong class="edfm-prospecting-detail-rate">'
+                .. percentage(observation.observed_percentage)
+                .. '</strong> <span class="edfm-prospecting-detail-sample">('
+                .. sample(observation) .. ')</span></li>'
         end
     end
-    return tableOutput({'Material', 'Family', 'Ground type', 'Observed rate', 'Hits / surveyed locations'}, rows)
+    out[#out + 1] = '</ul>'
+    out[#out + 1] = '</div>'
+    return table.concat(out, '\n')
+end
+
+local function primaryRow(item)
+    local observations = item.observations or {}
+    local best, bestIndex = bestObservation(observations)
+    local materialName = item.name or item.commodity
+    return {
+        '<strong class="edfm-prospecting-material">' .. escape(materialName) .. '</strong>'
+            .. detailBlock(item, bestIndex),
+        '<span class="edfm-prospecting-ground">' .. escape(groundLabel(best.ground)) .. '</span>',
+        '<strong class="edfm-prospecting-rate">' .. percentage(best.observed_percentage) .. '</strong>',
+        '<span class="edfm-prospecting-sample">' .. sample(best) .. '</span>',
+    }
+end
+
+local function familyTable(family)
+    local rows = {}
+    for _, item in ipairs(data.materials or {}) do
+        if item.family == family then
+            rows[#rows + 1] = primaryRow(item)
+        end
+    end
+    if #rows == 0 then return '' end
+
+    local className = 'edfm-prospecting-family edfm-prospecting-family--' .. escape(family)
+    local out = {
+        '<div class="' .. className .. '">',
+        '<h3 class="edfm-prospecting-family-heading">' .. escape(familyLabel(family)) .. '</h3>',
+        '<div class="edfm-prospecting-table-wrap">',
+        tableOutput({'Material', 'Best observed ground', 'Observed rate', 'Sample'}, rows, 'wikitable edfm-prospecting-table'),
+        '</div>',
+        '</div>',
+    }
+    return table.concat(out, '\n')
+end
+
+local function allFamilyTables()
+    local out = {
+        '<div class="edfm-prospecting-reference">',
+    }
+    for _, family in ipairs(FAMILY_ORDER) do
+        local section = familyTable(family)
+        if section ~= '' then out[#out + 1] = section end
+    end
+    out[#out + 1] = '</div>'
+    return table.concat(out, '\n\n')
+end
+
+local function humanDate(value)
+    local year, month, day = tostring(value or ''):match('^(%d%d%d%d)%-(%d%d)%-(%d%d)')
+    if year and month and day and MONTHS[tonumber(month)] then
+        return tonumber(day) .. ' ' .. MONTHS[tonumber(month)] .. ' ' .. year
+    end
+    return escape(value or 'an unknown date')
 end
 
 local function attributionLine()
     local attribution = data.attribution or {}
-    local methodology = data.methodology or {}
-    return 'Prospecting data contributed by ' .. escape(attribution.contributor)
-        .. '. ' .. escape(attribution.contribution)
-        .. ' ' .. escape(attribution.license)
-        .. ' Source: ' .. escape(methodology.source)
-        .. '. Dataset generated ' .. escape(data.generated or 'unknown')
-        .. '. ' .. escape(methodology.description)
+    local contributor = escape(attribution.contributor or 'CMDR Grumlop')
+    return '<p>The prospecting data on this page was researched and contributed by <strong>'
+        .. contributor
+        .. '</strong>, who surveyed Planetary Mining Locations and recorded the materials shown on the in-game target panel.</p>'
+        .. '<p>The percentages shown here are based on those observations. For example, if a material appears at 30% for a particular ground type, that means it was found at roughly 30% of the surveyed mining locations of that type. These figures are community research rather than official Frontier-published spawn or drop rates.</p>'
+        .. '<p>' .. contributor .. ' provided the research for use by EDFM under the same license as the rest of the project. The current dataset was compiled on '
+        .. humanDate(data.generated)
+        .. '.</p>'
 end
 
 local render = {}
 
 function render.table(frame)
-    return allObservationsTable()
+    return allFamilyTables()
 end
 
 function render.attribution(frame)
@@ -125,28 +244,24 @@ function render.material(frame)
     local observationCount = listLength(observations)
     if observationCount == 0 then error('Material has no observations: ' .. id, 0) end
 
+    local highest, highestIndex = bestObservation(observations)
     local clauses = {}
-    local highest = observations[1]
     for _, observation in ipairs(observations) do
         clauses[#clauses + 1] = escape(observation.hits) .. ' of '
             .. escape(observation.locations_surveyed) .. ' surveyed '
-            .. escape(observation.ground) .. ' mining locations ('
+            .. escape(groundLabel(observation.ground)) .. ' locations ('
             .. percentage(observation.observed_percentage) .. ')'
-        if tonumber(observation.observed_percentage) > tonumber(highest.observed_percentage) then
-            highest = observation
-        end
     end
 
-    local out = {'Community prospecting data found ' .. escape(item.name) .. ' at '
+    local out = {'Community prospecting observations place ' .. escape(item.name) .. ' at '
         .. table.concat(clauses, ' and ') .. '.'}
     if observationCount > 1 then
-        out[#out + 1] = 'In the current dataset, ' .. escape(highest.ground)
+        out[#out + 1] = 'In the current dataset, ' .. escape(groundLabel(highest.ground))
             .. ' had the highest observed share for ' .. escape(item.name) .. '.'
     end
     out[#out + 1] = 'These are community observations, not official Frontier-published spawn or drop rates.'
     out[#out + 1] = observationsTable(item)
-    out[#out + 1] = '<small>' .. escape('Prospecting data contributed by ' .. (data.attribution or {}).contributor)
-        .. '. These figures are community observations rather than official Frontier drop rates.</small>'
+    out[#out + 1] = '<small>Community observations contributed by ' .. escape((data.attribution or {}).contributor or 'CMDR Grumlop') .. '.</small>'
     return table.concat(out, '\n\n')
 end
 

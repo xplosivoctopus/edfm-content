@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "September 9, 2026 at 16:44:07 UTC",
+  "exported_at_utc": "September 9, 2026 at 17:22:22 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -2307,8 +2307,8 @@
       "title": "Surface Mining Prospecting",
       "ns": 0,
       "pageid": 830,
-      "rev_id": 3609,
-      "timestamp": "2026-09-09T16:41:24Z",
+      "rev_id": 3618,
+      "timestamp": "2026-09-09T17:14:39Z",
       "fullurl": "https://edfieldmanual.com/wiki/Surface_Mining_Prospecting",
       "path": "pages/Main/Surface Mining Prospecting.wiki"
     },
@@ -4008,8 +4008,8 @@
       "title": "Template:EDFM style/styles.css",
       "ns": 10,
       "pageid": 41,
-      "rev_id": 3051,
-      "timestamp": "2026-09-03T05:15:19Z",
+      "rev_id": 3616,
+      "timestamp": "2026-09-09T17:14:36Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:EDFM_style/styles.css",
       "path": "pages/Template/Template__EDFM style∕styles.css.wiki"
     },
@@ -4143,8 +4143,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 3607,
-      "timestamp": "2026-09-09T16:40:03Z",
+      "rev_id": 3620,
+      "timestamp": "2026-09-09T17:20:03Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },
@@ -4206,8 +4206,8 @@
       "title": "Template:Homepage Recent Updates",
       "ns": 10,
       "pageid": 738,
-      "rev_id": 3485,
-      "timestamp": "2026-09-08T04:11:47Z",
+      "rev_id": 3615,
+      "timestamp": "2026-09-09T17:12:01Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates",
       "path": "pages/Template/Template__Homepage Recent Updates.wiki"
     },
@@ -7131,8 +7131,8 @@
       "title": "Module:EDFM/SurfaceMining",
       "ns": 828,
       "pageid": 829,
-      "rev_id": 3608,
-      "timestamp": "2026-09-09T16:40:34Z",
+      "rev_id": 3621,
+      "timestamp": "2026-09-09T17:20:22Z",
       "fullurl": "https://edfieldmanual.com/wiki/Module:EDFM/SurfaceMining",
       "path": "pages/Module/Module__EDFM∕SurfaceMining.wiki"
     },

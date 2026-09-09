@@ -3,14 +3,11 @@ EDFM current-content archive export.
 Title: Template:EDFM style/styles.css
 Namespace: 10
 Page ID: 41
-Revision ID: 3051
-Timestamp: 2026-09-03T05:15:19Z
+Revision ID: 3616
+Timestamp: 2026-09-09T17:14:36Z
 Source URL: https://edfieldmanual.com/wiki/Template:EDFM_style/styles.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
-
-
-
 
 /* Shared styling for EDFM's editorial templates (Article status, Draft
    warning, Prerequisites, Related articles, etc. -- see each template's
@@ -838,5 +835,157 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	.edfm-fc-toolbar input[ type='search' ] {
 		min-width: 0;
 		flex: 1 1 auto;
+	}
+}
+
+/* --- Surface-mining prospecting reference ------------------------------
+   The reference table keeps one quick-scan row per material. Additional
+   observations live in the native MediaWiki collapsible inside that row,
+   so the complete research remains available without turning the page into
+   a repeated database-style list. */
+.edfm-prospecting-reference {
+	margin: 1.2em 0;
+}
+.edfm-prospecting-family {
+	margin: 1.8em 0 2.2em;
+}
+.edfm-prospecting-family:first-child {
+	margin-top: 0.4em;
+}
+.edfm-prospecting-family-heading {
+	margin: 0 0 0.55em;
+	padding: 0.35em 0 0.35em 0.75em;
+	border-left: 3px solid var( --edfm-blue );
+	border-bottom: 1px solid var( --edfm-border-soft );
+	font-family: var( --edfm-mono );
+	font-size: 0.9em;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var( --edfm-text );
+}
+.edfm-prospecting-family--volcanic .edfm-prospecting-family-heading {
+	border-left-color: var( --edfm-orange );
+}
+.edfm-prospecting-family--metal .edfm-prospecting-family-heading {
+	border-left-color: var( --edfm-cyan );
+}
+.edfm-prospecting-family--rock .edfm-prospecting-family-heading {
+	border-left-color: var( --edfm-blue );
+}
+.edfm-prospecting-family--ice .edfm-prospecting-family-heading {
+	border-left-color: var( --edfm-text-dim );
+}
+.edfm-prospecting-table-wrap {
+	max-width: 100%;
+	overflow-x: auto;
+}
+table.wikitable.edfm-prospecting-table {
+	width: 100%;
+	margin: 0;
+	border-spacing: 0;
+}
+table.wikitable.edfm-prospecting-table > * > tr > th {
+	padding-top: 0.55em;
+	padding-bottom: 0.55em;
+}
+table.wikitable.edfm-prospecting-table > * > tr > td {
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	vertical-align: middle;
+}
+table.wikitable.edfm-prospecting-table > * > tr > td:first-child {
+	width: 34%;
+}
+table.wikitable.edfm-prospecting-table > * > tr > td:nth-child( 2 ) {
+	width: 31%;
+}
+table.wikitable.edfm-prospecting-table > * > tr > td:nth-child( 3 ) {
+	width: 16%;
+}
+table.wikitable.edfm-prospecting-table > * > tr > td:nth-child( 4 ) {
+	width: 19%;
+}
+.edfm-prospecting-material {
+	display: block;
+	font-size: 1.02em;
+	font-weight: 800;
+	color: var( --edfm-text );
+}
+.edfm-prospecting-ground {
+	color: var( --edfm-text );
+}
+.edfm-prospecting-rate {
+	font-size: 1.08em;
+	font-weight: 800;
+	color: var( --edfm-orange );
+	white-space: nowrap;
+}
+.edfm-prospecting-sample {
+	font-size: 0.9em;
+	color: var( --edfm-text-dim );
+	white-space: nowrap;
+}
+.edfm-prospecting-detail {
+	margin-top: 0.45em;
+	border-top: 1px solid var( --edfm-border-soft );
+}
+.edfm-prospecting-detail > .mw-collapsible-toggle {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0.38em 0;
+	background: none;
+	border: 0;
+	text-align: left;
+	font-family: var( --edfm-mono );
+	font-size: 0.68em;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: var( --edfm-link );
+	cursor: pointer;
+}
+.edfm-prospecting-detail > .mw-collapsible-toggle:hover,
+.edfm-prospecting-detail > .mw-collapsible-toggle:focus {
+	color: var( --edfm-orange );
+	outline: none;
+}
+.edfm-prospecting-detail-label {
+	margin: 0.15em 0 0.25em;
+	font-size: 0.84em;
+	font-weight: 700;
+	color: var( --edfm-text-dim );
+}
+.edfm-prospecting-detail-list {
+	margin: 0;
+	padding-left: 1.15em;
+	font-size: 0.88em;
+	line-height: 1.45;
+}
+.edfm-prospecting-detail-list li + li {
+	margin-top: 0.25em;
+}
+.edfm-prospecting-detail-ground {
+	color: var( --edfm-text );
+}
+.edfm-prospecting-detail-rate {
+	color: var( --edfm-orange );
+}
+.edfm-prospecting-detail-sample {
+	color: var( --edfm-text-dim );
+	white-space: nowrap;
+}
+@media ( max-width: 620px ) {
+	table.wikitable.edfm-prospecting-table > * > tr > td,
+	table.wikitable.edfm-prospecting-table > * > tr > th {
+		padding-left: 0.55em;
+		padding-right: 0.55em;
+	}
+	table.wikitable.edfm-prospecting-table > * > tr > td:first-child {
+		width: auto;
+	}
+	.edfm-prospecting-detail-list {
+		padding-left: 1em;
 	}
 }
