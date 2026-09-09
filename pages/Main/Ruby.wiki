@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Ruby
 Namespace: 0
 Page ID: 819
-Revision ID: 3402
-Timestamp: 2026-09-07T14:32:20Z
+Revision ID: 3613
+Timestamp: 2026-09-09T16:41:30Z
 Source URL: https://edfieldmanual.com/wiki/Ruby
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -23,6 +23,10 @@ INARA lists Ruby's production as '''surface mining'''.<ref name="ruby-inara" /> 
 '''Ruby's body-class distribution has not been verified.''' Treat a mining location as a place to search, not a guaranteed gemstone deposit, and check the resource information at the deposit before deploying a rig. There is no verified body-class shortcut for choosing a Ruby destination.
 
 The Rhino deploys mining rigs at suitable deposits and has an onboard refinery. Applying that general surface-mining workflow to Ruby gives the refining route in the table above; it is not a measured Ruby-specific yield or processing rate.<ref name="rhino-store" /><ref name="rhino-devlog" /> [[Surface Mining with the Rhino]] covers the practical rig-placement, recovery, and cargo-handling procedure.
+
+=== Surface Mining prospecting ===
+
+{{#invoke:EDFM/SurfaceMining|material|ruby}}
 
 == Planning a sale ==
 

@@ -1,0 +1,161 @@
+<!--
+EDFM current-content archive export.
+Title: Module:EDFM/SurfaceMining
+Namespace: 828
+Page ID: 829
+Revision ID: 3608
+Timestamp: 2026-09-09T16:40:34Z
+Source URL: https://edfieldmanual.com/wiki/Module:EDFM/SurfaceMining
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- EDFM surface-mining prospecting observations.
+-- The JSON data page is the canonical source; this module only formats it.
+local p = {}
+local data = mw.loadJsonData('Module:Data/SurfaceMiningProspecting')
+
+local function escape(value)
+    return (tostring(value or ''):gsub('[&<>"\'{}%[%]|!\n\r]', function(c)
+        return '&#' .. string.byte(c) .. ';'
+    end))
+end
+
+local function trim(value)
+    return mw.text.trim(tostring(value or ''))
+end
+
+local function diagnostic(message)
+    return '<strong class="error">Surface-mining prospecting data error: ' .. escape(message) .. '</strong>'
+end
+
+local function tableOutput(headers, rows)
+    local out = {'<div class="edfm-prospecting-table" style="overflow-x:auto;max-width:100%">', '{| class="wikitable sortable" style="white-space:normal"', '! ' .. table.concat(headers, ' !! ')}
+    for _, row in ipairs(rows) do
+        out[#out + 1] = '|-'
+        out[#out + 1] = '| ' .. table.concat(row, '\n| ')
+    end
+    out[#out + 1] = '|}'
+    out[#out + 1] = '</div>'
+    return table.concat(out, '\n')
+end
+
+local function percentage(value)
+    return string.format('%.1f%%', tonumber(value) or 0)
+end
+
+local function listLength(list)
+    local count = 0
+    for _ in ipairs(list or {}) do count = count + 1 end
+    return count
+end
+
+local function materialId(frame)
+    local args = frame.args or {}
+    local parent = frame:getParent()
+    local id = args[1] or args.id
+    if not id and parent then id = parent.args[1] or parent.args.id end
+    if not id or trim(id) == '' then
+        id = mw.ustring.lower(mw.title.getCurrentTitle().text):gsub('%s+', '_')
+    end
+    return trim(id)
+end
+
+local function material(id)
+    for _, item in ipairs(data.materials or {}) do
+        if item.commodity == id then return item end
+    end
+    return nil
+end
+
+local function observationsTable(item)
+    local rows = {}
+    for _, observation in ipairs(item.observations or {}) do
+        rows[#rows + 1] = {
+            escape(observation.ground),
+            escape(observation.hits),
+            escape(observation.locations_surveyed),
+            percentage(observation.observed_percentage),
+        }
+    end
+    return tableOutput({'Ground', 'Found', 'Surveyed', 'Observed rate'}, rows)
+end
+
+local function allObservationsTable()
+    local rows = {}
+    for _, item in ipairs(data.materials or {}) do
+        for _, observation in ipairs(item.observations or {}) do
+            rows[#rows + 1] = {
+                escape(item.name),
+                escape(item.family),
+                escape(observation.ground),
+                percentage(observation.observed_percentage),
+                escape(observation.hits) .. ' / ' .. escape(observation.locations_surveyed),
+            }
+        end
+    end
+    return tableOutput({'Material', 'Family', 'Ground type', 'Observed rate', 'Hits / surveyed locations'}, rows)
+end
+
+local function attributionLine()
+    local attribution = data.attribution or {}
+    local methodology = data.methodology or {}
+    return 'Prospecting data contributed by ' .. escape(attribution.contributor)
+        .. '. ' .. escape(attribution.contribution)
+        .. ' ' .. escape(attribution.license)
+        .. ' Source: ' .. escape(methodology.source)
+        .. '. Dataset generated ' .. escape(data.generated or 'unknown')
+        .. '. ' .. escape(methodology.description)
+end
+
+local render = {}
+
+function render.table(frame)
+    return allObservationsTable()
+end
+
+function render.attribution(frame)
+    return attributionLine()
+end
+
+function render.material(frame)
+    local id = materialId(frame)
+    local item = material(id)
+    if not item then error('Unknown material: ' .. id, 0) end
+    local observations = item.observations or {}
+    local observationCount = listLength(observations)
+    if observationCount == 0 then error('Material has no observations: ' .. id, 0) end
+
+    local clauses = {}
+    local highest = observations[1]
+    for _, observation in ipairs(observations) do
+        clauses[#clauses + 1] = escape(observation.hits) .. ' of '
+            .. escape(observation.locations_surveyed) .. ' surveyed '
+            .. escape(observation.ground) .. ' mining locations ('
+            .. percentage(observation.observed_percentage) .. ')'
+        if tonumber(observation.observed_percentage) > tonumber(highest.observed_percentage) then
+            highest = observation
+        end
+    end
+
+    local out = {'Community prospecting data found ' .. escape(item.name) .. ' at '
+        .. table.concat(clauses, ' and ') .. '.'}
+    if observationCount > 1 then
+        out[#out + 1] = 'In the current dataset, ' .. escape(highest.ground)
+            .. ' had the highest observed share for ' .. escape(item.name) .. '.'
+    end
+    out[#out + 1] = 'These are community observations, not official Frontier-published spawn or drop rates.'
+    out[#out + 1] = observationsTable(item)
+    out[#out + 1] = '<small>' .. escape('Prospecting data contributed by ' .. (data.attribution or {}).contributor)
+        .. '. These figures are community observations rather than official Frontier drop rates.</small>'
+    return table.concat(out, '\n\n')
+end
+
+for name, fn in pairs(render) do
+    p[name] = function(frame)
+        local ok, result = pcall(fn, frame)
+        if ok then return result end
+        return diagnostic(result)
+    end
+end
+
+return p

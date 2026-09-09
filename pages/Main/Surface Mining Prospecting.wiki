@@ -1,0 +1,31 @@
+<!--
+EDFM current-content archive export.
+Title: Surface Mining Prospecting
+Namespace: 0
+Page ID: 830
+Revision ID: 3609
+Timestamp: 2026-09-09T16:41:24Z
+Source URL: https://edfieldmanual.com/wiki/Surface_Mining_Prospecting
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|section=Mining|deck=Community observations of materials reported across surveyed Planetary Mining Locations.}}
+
+'''Surface Mining Prospecting''' records observations collected and contributed by '''CMDR Grumlop''' for use by EDFM. It is a reference for where materials were observed in the survey, not a list of official spawn or drop rules.
+
+== Reading the observations ==
+
+The observed percentage is the share of surveyed Planetary Mining Locations of a given ground type where that material was observed. For example, 29.8% means the material was observed in 34 of 114 surveyed locations of that ground type. The survey counts differ between ground types. A ground type not listed here was not recorded in this dataset; its absence does not show that the material is impossible there.
+
+== Material reference ==
+
+{{#invoke:EDFM/SurfaceMining|table}}
+
+== Source and attribution ==
+
+{{#invoke:EDFM/SurfaceMining|attribution}}
+
+These figures are community observations rather than official Frontier-published spawn or drop rates. For the practical deployment and collection loop, see [[Surface Mining with the Rhino]].
+
+[[Category:Mining]]
+[[Category:Gameplay]]

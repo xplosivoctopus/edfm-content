@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Iridium
 Namespace: 0
 Page ID: 816
-Revision ID: 3491
-Timestamp: 2026-09-08T04:32:55Z
+Revision ID: 3612
+Timestamp: 2026-09-09T16:41:28Z
 Source URL: https://edfieldmanual.com/wiki/Iridium
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -33,6 +33,10 @@ The documented acquisition path is '''planetary surface mining'''. Use a ship's 
 A compatible ship needs a [[Large Planetary Vehicle Hangar]] for the Rhino; the ordinary SRV hangar is not interchangeable with it.<ref name="rhino-store" /> Position the vehicle at a suitable deposit and deploy a mining rig. The Rhino's general surface-mining workflow uses its built-in refinery to process extracted material, but the Iridium-specific extraction, refining, yields, capacities, and conversion behavior have not been independently verified.<ref name="rhino-devlog" /><ref name="rhino-update" /><ref name="inara" />
 
 See [[Surface Mining with the Rhino]] for the full deployment and collection procedure. Extracted chunks are not the same thing as finished tonnes of cargo, so plan around the refined cargo you actually recover rather than the number of chunks a rig extracts.<ref name="rhino-update" />
+
+=== Surface Mining prospecting ===
+
+{{#invoke:EDFM/SurfaceMining|material|iridium}}
 
 == Uses and selling ==
 

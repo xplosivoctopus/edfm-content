@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Surface Mining
 Namespace: 0
 Page ID: 743
-Revision ID: 3005
-Timestamp: 2026-09-03T02:32:49Z
+Revision ID: 3610
+Timestamp: 2026-09-09T16:41:25Z
 Source URL: https://edfieldmanual.com/wiki/Surface_Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -50,6 +50,7 @@ Frontier has stated that locations and quantities of materials are generated acr
 * [[Surface Recon Vehicles]]
 * [[Rhino]]
 * [[Planetary Mineral Scanner]]
+* [[Surface Mining Prospecting]]
 
 == References ==
 

@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "September 9, 2026 at 11:00:47 UTC",
+  "exported_at_utc": "September 9, 2026 at 16:44:07 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -24,7 +24,7 @@
     "14": "Category",
     "828": "Module"
   },
-  "page_count": 798,
+  "page_count": 801,
   "pages": [
     {
       "title": "AX Missile Rack",
@@ -1173,8 +1173,8 @@
       "title": "Iridium",
       "ns": 0,
       "pageid": 816,
-      "rev_id": 3491,
-      "timestamp": "2026-09-08T04:32:55Z",
+      "rev_id": 3612,
+      "timestamp": "2026-09-09T16:41:28Z",
       "fullurl": "https://edfieldmanual.com/wiki/Iridium",
       "path": "pages/Main/Iridium.wiki"
     },
@@ -2055,8 +2055,8 @@
       "title": "Ruby",
       "ns": 0,
       "pageid": 819,
-      "rev_id": 3402,
-      "timestamp": "2026-09-07T14:32:20Z",
+      "rev_id": 3613,
+      "timestamp": "2026-09-09T16:41:30Z",
       "fullurl": "https://edfieldmanual.com/wiki/Ruby",
       "path": "pages/Main/Ruby.wiki"
     },
@@ -2298,17 +2298,26 @@
       "title": "Surface Mining",
       "ns": 0,
       "pageid": 743,
-      "rev_id": 3005,
-      "timestamp": "2026-09-03T02:32:49Z",
+      "rev_id": 3610,
+      "timestamp": "2026-09-09T16:41:25Z",
       "fullurl": "https://edfieldmanual.com/wiki/Surface_Mining",
       "path": "pages/Main/Surface Mining.wiki"
+    },
+    {
+      "title": "Surface Mining Prospecting",
+      "ns": 0,
+      "pageid": 830,
+      "rev_id": 3609,
+      "timestamp": "2026-09-09T16:41:24Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Surface_Mining_Prospecting",
+      "path": "pages/Main/Surface Mining Prospecting.wiki"
     },
     {
       "title": "Surface Mining with the Rhino",
       "ns": 0,
       "pageid": 793,
-      "rev_id": 3090,
-      "timestamp": "2026-09-03T13:43:14Z",
+      "rev_id": 3611,
+      "timestamp": "2026-09-09T16:41:27Z",
       "fullurl": "https://edfieldmanual.com/wiki/Surface_Mining_with_the_Rhino",
       "path": "pages/Main/Surface Mining with the Rhino.wiki"
     },
@@ -4134,8 +4143,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 3588,
-      "timestamp": "2026-09-09T11:00:02Z",
+      "rev_id": 3607,
+      "timestamp": "2026-09-09T16:40:03Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },
@@ -7092,6 +7101,15 @@
       "path": "pages/Module/Module__Data∕Ships∕index.wiki"
     },
     {
+      "title": "Module:Data/SurfaceMiningProspecting",
+      "ns": 828,
+      "pageid": 828,
+      "rev_id": 3605,
+      "timestamp": "2026-09-09T16:37:52Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:Data/SurfaceMiningProspecting",
+      "path": "pages/Module/Module__Data∕SurfaceMiningProspecting.wiki"
+    },
+    {
       "title": "Module:Data/SurfaceSignals/Biological",
       "ns": 828,
       "pageid": 762,
@@ -7108,6 +7126,15 @@
       "timestamp": "2026-08-29T17:18:34Z",
       "fullurl": "https://edfieldmanual.com/wiki/Module:Data/SurfaceSignals/Geological",
       "path": "pages/Module/Module__Data∕SurfaceSignals∕Geological.wiki"
+    },
+    {
+      "title": "Module:EDFM/SurfaceMining",
+      "ns": 828,
+      "pageid": 829,
+      "rev_id": 3608,
+      "timestamp": "2026-09-09T16:40:34Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Module:EDFM/SurfaceMining",
+      "path": "pages/Module/Module__EDFM∕SurfaceMining.wiki"
     },
     {
       "title": "Module:EngineeringBlueprints",

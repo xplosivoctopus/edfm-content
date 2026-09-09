@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Surface Mining with the Rhino
 Namespace: 0
 Page ID: 793
-Revision ID: 3090
-Timestamp: 2026-09-03T13:43:14Z
+Revision ID: 3611
+Timestamp: 2026-09-09T16:41:27Z
 Source URL: https://edfieldmanual.com/wiki/Surface_Mining_with_the_Rhino
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -433,6 +433,8 @@ Current evidence should be phrased carefully:
 == Surface Mining commodities ==
 
 Frontier's 4.4.1.0 notes list initial balance values for these surface-mining commodities.<ref name="frontier-4410" /> This table is preserved here because it directly affects choosing a site, but the commodity list and broader deposit mechanics may eventually belong on a general [[Surface Mining]] reference page once that page is developed.
+
+For community observations of materials seen across surveyed mining locations, see [[Surface Mining Prospecting]]. Those observations are separate from Frontier's initial balance list and are not official spawn or drop rates.
 
 {| class="wikitable sortable" style="width:100%;"
 ! Commodity
