@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "September 8, 2026 at 07:00:52 UTC",
+  "exported_at_utc": "September 9, 2026 at 11:00:47 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -3018,8 +3018,8 @@
       "title": "Elite Dangerous Field Manual:Cookie Policy",
       "ns": 4,
       "pageid": 330,
-      "rev_id": 2829,
-      "timestamp": "2026-09-01T12:48:40Z",
+      "rev_id": 3529,
+      "timestamp": "2026-09-08T15:20:10Z",
       "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Cookie_Policy",
       "path": "pages/Project/Elite Dangerous Field Manual__Cookie Policy.wiki"
     },
@@ -3135,8 +3135,8 @@
       "title": "Elite Dangerous Field Manual:Privacy Policy",
       "ns": 4,
       "pageid": 47,
-      "rev_id": 2828,
-      "timestamp": "2026-09-01T12:48:39Z",
+      "rev_id": 3528,
+      "timestamp": "2026-09-08T15:20:09Z",
       "fullurl": "https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Privacy_Policy",
       "path": "pages/Project/Elite Dangerous Field Manual__Privacy Policy.wiki"
     },
@@ -4134,8 +4134,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 3502,
-      "timestamp": "2026-09-08T07:00:03Z",
+      "rev_id": 3588,
+      "timestamp": "2026-09-09T11:00:02Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },

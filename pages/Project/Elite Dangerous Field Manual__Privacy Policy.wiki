@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Privacy Policy
 Namespace: 4
 Page ID: 47
-Revision ID: 2828
-Timestamp: 2026-09-01T12:48:39Z
+Revision ID: 3528
+Timestamp: 2026-09-08T15:20:09Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Privacy_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -31,7 +31,9 @@ When you visit the site, the web server and Cloudflare may process normal connec
 Server access and error logs are rotated automatically. The intended operational retention target is about '''60 days''' unless a longer period is temporarily needed to investigate abuse, security incidents, or outages.
 
 == Cloudflare ==
-EDFM is served through Cloudflare for DNS, TLS, reverse proxying, caching, and security filtering. Cloudflare receives request and connection metadata as part of providing those services. Login and account-creation pages may load Cloudflare Turnstile from <code>challenges.cloudflare.com</code> to reduce spam and abuse. EDFM configures Turnstile without intentionally sending the visitor IP from MediaWiki's server-side Turnstile integration, but Cloudflare will still receive information normally sent by a browser loading a Turnstile challenge. See [https://www.cloudflare.com/privacypolicy/ Cloudflare's privacy policy].
+EDFM is served through Cloudflare for DNS, TLS, reverse proxying, caching, and security filtering. Cloudflare receives request and connection metadata as part of providing those services. Login and account-creation pages may load Cloudflare Turnstile from <code>challenges.cloudflare.com</code> to reduce spam and abuse. EDFM configures Turnstile without intentionally sending the visitor IP from MediaWiki's server-side Turnstile integration, but Cloudflare will still receive information normally sent by a browser loading a Turnstile challenge.
+
+Cloudflare's zone-level HTTP Traffic analytics may also be used to produce aggregate request, bandwidth, response-status, and estimated unique-visitor statistics for site operations and content planning. These metrics are generated from traffic reaching Cloudflare's edge. This does not require an EDFM-set analytics cookie or a Cloudflare Web Analytics/RUM browser beacon, and EDFM does not use the aggregate reports to create individual visitor profiles. Cloudflare's traffic figures may include automated requests such as crawlers or threats, so unique-visitor values are estimates rather than a guaranteed count of human visitors. See [https://developers.cloudflare.com/analytics/account-and-zone-analytics/ Cloudflare's zone analytics documentation] and [https://www.cloudflare.com/privacypolicy/ Cloudflare's privacy policy].
 
 == Google Analytics ==
 EDFM uses Google Analytics 4, provided by Google LLC, to understand how public EDFM content is being used after a visitor allows optional site-improvement cookies. This helps with content planning, navigation improvements, search-term analysis, broken-content discovery, downloads, outbound-link review, and public engagement trends.

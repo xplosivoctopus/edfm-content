@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Cookie Policy
 Namespace: 4
 Page ID: 330
-Revision ID: 2829
-Timestamp: 2026-09-01T12:48:40Z
+Revision ID: 3529
+Timestamp: 2026-09-08T15:20:10Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Cookie_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -69,7 +69,7 @@ EDFM does not intentionally send MediaWiki usernames, MediaWiki numeric user IDs
 EDFM uses browser local storage to remember the cookie banner choice. Local storage stays in your browser until you clear it or change your cookie preferences.
 
 == Third-party requests ==
-EDFM pages may link to outside sites. Login and account pages may load Cloudflare Turnstile from <code>challenges.cloudflare.com</code>. If you choose '''Sign in with Frontier''', your browser is sent to Frontier's authentication service and then returned to EDFM's callback page. If you choose '''Sign in with Discord''', your browser is sent to Discord's OAuth/OpenID Connect authorization service and then returned to EDFM's callback page. Eligible public pages may load Google Analytics only after optional site-improvement cookies are accepted from <code>www.googletagmanager.com</code> and send analytics requests to Google Analytics collection endpoints such as <code>www.google-analytics.com</code> and regional Google Analytics endpoints. External sites, Cloudflare, Frontier, Discord, and Google have their own policies.
+EDFM pages may link to outside sites. Login and account pages may load Cloudflare Turnstile from <code>challenges.cloudflare.com</code>. Cloudflare may also generate aggregate zone-level HTTP Traffic statistics, such as requests, bandwidth, response status codes, and estimated unique visitors, from traffic reaching its edge. This is not a Cloudflare Web Analytics/RUM browser beacon injected into EDFM pages and does not add an EDFM cookie; the figures may include automated traffic such as crawlers or threats. If you choose '''Sign in with Frontier''', your browser is sent to Frontier's authentication service and then returned to EDFM's callback page. If you choose '''Sign in with Discord''', your browser is sent to Discord's OAuth/OpenID Connect authorization service and then returned to EDFM's callback page. Eligible public pages may load Google Analytics only after optional site-improvement cookies are accepted from <code>www.googletagmanager.com</code> and send analytics requests to Google Analytics collection endpoints such as <code>www.google-analytics.com</code> and regional Google Analytics endpoints. External sites, Cloudflare, Frontier, Discord, and Google have their own policies.
 
 == Changing your choice ==
 You can change your choice from the cookie banner/preferences control when available, or by clearing site data for <code>edfieldmanual.com</code> in your browser.
