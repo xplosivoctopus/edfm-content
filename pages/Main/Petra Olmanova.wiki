@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Petra Olmanova
 Namespace: 0
 Page ID: 125
-Revision ID: 1987
-Timestamp: 2026-08-24T21:23:11Z
+Revision ID: 3651
+Timestamp: 2026-09-09T20:28:13Z
 Source URL: https://edfieldmanual.com/wiki/Petra_Olmanova
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -165,7 +165,7 @@ Petra's Engineering coverage is unusually broad. The table below lists the curre
 |-
 | [[Module Reinforcement Package]]
 |
-* Heavy Duty <small>(Live only; compatible Merc modules)</small>
+* Heavy Duty (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Auto Field-Maintenance Unit]]
@@ -447,7 +447,7 @@ Her supported module types include:
 
 * '''Armour:''' Grade 5
 * '''Hull Reinforcement Package:''' Grade 5
-* '''Module Reinforcement Package — Heavy Duty:''' Grade 5 <small>(Live only)</small>
+* '''Module Reinforcement Package — Heavy Duty:''' Grade 5 (Live only)
 * '''Auto Field-Maintenance Unit:''' Grade 5
 * '''Chaff Launcher:''' Grade 5
 * '''Electronic Countermeasure:''' Grade 5

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Tod "The Blaster" McQuinn
 Namespace: 0
 Page ID: 113
-Revision ID: 2042
-Timestamp: 2026-08-24T21:24:25Z
+Revision ID: 3656
+Timestamp: 2026-09-09T20:28:20Z
 Source URL: https://edfieldmanual.com/wiki/Tod_%22The_Blaster%22_McQuinn
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -120,14 +120,14 @@ Tod's current Engineering coverage is shown below. The listed grade is the highe
 * Long Range
 * Overcharged
 * Rapid Fire
-* Rapid Phase <small>(Live only; compatible Merc modules)</small>
+* Rapid Phase (Live only; compatible Merc modules)
 * Short Range
 * Sturdy
 | '''Grade 5'''
 |-
 | [[Rail Gun]]
 |
-* Enduring Feedback <small>(Live only; compatible Merc modules)</small>
+* Enduring Feedback (Live only; compatible Merc modules)
 * High Capacity
 * Lightweight
 * Long Range
@@ -137,7 +137,7 @@ Tod's current Engineering coverage is shown below. The listed grade is the highe
 |-
 | [[Fragment Cannon]]
 |
-* Double Screaming <small>(Live only; compatible Merc modules)</small>
+* Double Screaming (Live only; compatible Merc modules)
 * Double Shot
 * Efficient
 * High Capacity

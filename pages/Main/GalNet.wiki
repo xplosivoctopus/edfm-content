@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: GalNet
 Namespace: 0
 Page ID: 737
-Revision ID: 2326
-Timestamp: 2026-08-26T19:21:40Z
+Revision ID: 3671
+Timestamp: 2026-09-09T21:01:43Z
 Source URL: https://edfieldmanual.com/wiki/GalNet
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -15,6 +15,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 }}
 GalNet is the official in-universe news service for ''Elite Dangerous''. 
 
-<div class="edfm-galnet-official-note">'''Official GalNet content''' — the entries below are official Frontier Developments / GalNet headlines, dates, short excerpts, and source links. EDFM does not mirror full article bodies or Frontier artwork here.</div>
+{{Callout|type=field-note|label=Official GalNet content|The entries below are official Frontier Developments / GalNet headlines, dates, short excerpts, and source links. EDFM does not mirror full article bodies or Frontier artwork here.}}
 
 {{GalNet Archive}}

@@ -3,16 +3,16 @@ EDFM current-content archive export.
 Title: CMDR Fima/Privacy Policy
 Namespace: 0
 Page ID: 766
-Revision ID: 2632
-Timestamp: 2026-08-29T23:33:56Z
+Revision ID: 3673
+Timestamp: 2026-09-09T21:01:45Z
 Source URL: https://edfieldmanual.com/wiki/CMDR_Fima/Privacy_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article header|section=EDFM|context=Community|deck=Privacy Policy for CMDR Fima, EDFM's Discord bot.}}
 
-'''Effective date:''' 29 August 2026<br />
-'''Last updated:''' 29 August 2026
+;'''Effective date:''' 29 August 2026
+;'''Last updated:''' 29 August 2026
 
 This Privacy Policy explains how '''CMDR Fima''', the Discord bot operated as part of the ''Elite Dangerous Field Manual'' (EDFM), processes Discord member and server information.
 

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Lori Jameson
 Namespace: 0
 Page ID: 123
-Revision ID: 1958
-Timestamp: 2026-08-24T21:22:30Z
+Revision ID: 3646
+Timestamp: 2026-09-09T20:28:05Z
 Source URL: https://edfieldmanual.com/wiki/Lori_Jameson
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -160,7 +160,7 @@ Lori's Engineering coverage is shown below. The listed grade is the highest grad
 | [[Detailed Surface Scanner]]
 |
 * Expanded Probe Scanning Radius
-* Long Range Detailed <small>(Live only)</small>
+* Long Range Detailed (Live only)
 | '''Grade 5'''
 |-
 | [[Auto Field-Maintenance Unit]]
@@ -170,7 +170,7 @@ Lori's Engineering coverage is shown below. The listed grade is the highest grad
 |-
 | [[Fuel Scoop]]
 |
-* Scoop Rate Enhanced <small>(Live only)</small>
+* Scoop Rate Enhanced (Live only)
 * Shielded
 | '''Grade 4'''
 |-

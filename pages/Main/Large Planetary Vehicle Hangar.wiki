@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Large Planetary Vehicle Hangar
 Namespace: 0
 Page ID: 744
-Revision ID: 2557
-Timestamp: 2026-08-29T12:48:10Z
+Revision ID: 3663
+Timestamp: 2026-09-09T20:28:30Z
 Source URL: https://edfieldmanual.com/wiki/Large_Planetary_Vehicle_Hangar
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -27,7 +27,7 @@ The '''Large Planetary Vehicle Hangar''' is an announced ship module used to dep
 
 Frontier announced the following pre-release compatibility for the Large Planetary Vehicle Hangar:<ref name="frontier-august-dev-log" />
 
-{| class="wikitable sortable" style="width:100%;"
+{| class="wikitable sortable"
 ! Ship
 ! Supported module class
 |-

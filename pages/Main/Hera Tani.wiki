@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Hera Tani
 Namespace: 0
 Page ID: 107
-Revision ID: 1942
-Timestamp: 2026-08-24T21:22:04Z
+Revision ID: 3642
+Timestamp: 2026-09-09T20:27:59Z
 Source URL: https://edfieldmanual.com/wiki/Hera_Tani
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -152,17 +152,17 @@ Hera's current Engineering coverage is shown below. The listed grade is the high
 | [[Detailed Surface Scanner]]
 |
 * Expanded Probe Scanning Radius
-* Long Range Detailed <small>(Live only; compatible Merc modules)</small>
+* Long Range Detailed (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Power Distributor]]
 |
-* Balanced <small>(Live only; compatible Merc modules)</small>
+* Balanced (Live only; compatible Merc modules)
 * Charge Enhanced
 * Engine Focused
 * High Charge Capacity
 * Shielded
-* Support Focused <small>(Live only; compatible Merc modules)</small>
+* Support Focused (Live only; compatible Merc modules)
 * System Focused
 * Weapon Focused
 | '''Grade 3'''

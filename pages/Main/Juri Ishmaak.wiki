@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Juri Ishmaak
 Namespace: 0
 Page ID: 119
-Revision ID: 1947
-Timestamp: 2026-08-24T21:22:14Z
+Revision ID: 3645
+Timestamp: 2026-09-09T20:28:04Z
 Source URL: https://edfieldmanual.com/wiki/Juri_Ishmaak
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -127,7 +127,7 @@ Juri's current Engineering coverage is shown below. Several module types have di
 | [[Detailed Surface Scanner]]
 |
 * Expanded Probe Scanning Radius
-* Long Range Detailed <small>(Live only; compatible Merc modules)</small>
+* Long Range Detailed (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Mine Launcher]]
@@ -147,17 +147,17 @@ Juri's current Engineering coverage is shown below. Several module types have di
 |-
 | [[Abrasion Blaster]]
 |
-* Far-reaching <small>(Live only; compatible Merc modules)</small>
+* Far-reaching (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Enzyme Missile Rack]]
 |
-* High-yield <small>(Live only; compatible Merc modules)</small>
+* High-yield (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Mining Laser]]
 |
-* Long Range <small>(Live only; compatible Merc modules)</small>
+* Long Range (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Frame Shift Wake Scanner]]
@@ -204,9 +204,9 @@ Juri's current Engineering coverage is shown below. Several module types have di
 * Lightweight — Grade 3
 * Rapid Fire — Grade 3
 * Sturdy — Grade 3
-* Drag — Grade 5 <small>(Live only; compatible Merc modules)</small>
-* Lightweight Thermal — Grade 5 <small>(Live only; compatible Merc modules)</small>
-* Lockdown — Grade 5 <small>(Live only; compatible Merc modules)</small>
+* Drag — Grade 5 (Live only; compatible Merc modules)
+* Lightweight Thermal — Grade 5 (Live only; compatible Merc modules)
+* Lockdown — Grade 5 (Live only; compatible Merc modules)
 | '''Grade 5 Live; Grade 3 conventional'''
 |-
 | [[Torpedo Pylon]]
@@ -439,12 +439,12 @@ His current maximum grades include:
 * '''Detailed Surface Scanner:''' Grade 5
 * '''Mine Launcher:''' Grade 5
 * '''Sensors:''' Grade 5
-* '''Abrasion Blaster — Far-reaching:''' Grade 5 <small>(Live only)</small>
-* '''Enzyme Missile Rack — High-yield:''' Grade 5 <small>(Live only)</small>
-* '''Mining Laser — Long Range:''' Grade 5 <small>(Live only)</small>
-* '''Seeker Missile Rack — Drag:''' Grade 5 <small>(Live only)</small>
-* '''Seeker Missile Rack — Lightweight Thermal:''' Grade 5 <small>(Live only)</small>
-* '''Seeker Missile Rack — Lockdown:''' Grade 5 <small>(Live only)</small>
+* '''Abrasion Blaster — Far-reaching:''' Grade 5 (Live only)
+* '''Enzyme Missile Rack — High-yield:''' Grade 5 (Live only)
+* '''Mining Laser — Long Range:''' Grade 5 (Live only)
+* '''Seeker Missile Rack — Drag:''' Grade 5 (Live only)
+* '''Seeker Missile Rack — Lightweight Thermal:''' Grade 5 (Live only)
+* '''Seeker Missile Rack — Lockdown:''' Grade 5 (Live only)
 * '''Frame Shift Wake Scanner:''' Grade 3
 * '''Kill Warrant Scanner:''' Grade 3
 * '''Manifest Scanner:''' Grade 3

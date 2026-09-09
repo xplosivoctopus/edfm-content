@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Wreaken Mining Rig Field Tests
 Namespace: 0
 Page ID: 803
-Revision ID: 3430
-Timestamp: 2026-09-07T17:03:15Z
+Revision ID: 3660
+Timestamp: 2026-09-09T20:28:26Z
 Source URL: https://edfieldmanual.com/wiki/Wreaken_Mining_Rig_Field_Tests
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -20,18 +20,25 @@ This is current wikitext only; no revision history, user database, logs, deleted
 }}
 {{Article header|section=Mining|context=Community Goals|deck=Ongoing Wreaken and Vodel mining field test based at Metz Enterprise in Ega, with separate asteroid and surface-mining Community Goals.}}
 
-<div class="edfm-panel edfm-panel-warning noexcerpt">
-<p><strong>Market update</strong><br /><small>7 September 2026</small></p>
-<p>The opening-weekend field tests affected all nine metals listed below through event-enhanced pricing:</p>
-<table class="wikitable" style="width:100%;">
-<tr><th colspan="3">Event-affected metals</th></tr>
-<tr><td>Cobalt</td><td>Gold</td><td>Iridium</td></tr>
-<tr><td>Osmium</td><td>Palladium</td><td>Platinum</td></tr>
-<tr><td>Praseodymium</td><td>Samarium</td><td>Silver</td></tr>
-</table>
-<p>On 7 September, Frontier reduced the exceptional price multipliers for <strong>Gold, Palladium and Silver</strong>. That ended the extraordinary opening-weekend trading rush, but it did not end event-enhanced pricing across the full affected set.</p>
-<p>The Wreaken Mining Rig Field Tests Community Goals remain active. Check current in-game prices before trading; the opening-weekend arbitrage conditions should not be assumed to apply.</p>
-</div>
+{{Callout|type=warning|label=Market update|
+'''7 September 2026'''
+
+The opening-weekend field tests affected all nine metals listed below through event-enhanced pricing.
+}}
+
+{| class="wikitable"
+! colspan="3" | Event-affected metals
+|-
+| Cobalt || Gold || Iridium
+|-
+| Osmium || Palladium || Platinum
+|-
+| Praseodymium || Samarium || Silver
+|}
+
+On 7 September, Frontier reduced the exceptional price multipliers for '''Gold, Palladium and Silver'''. That ended the extraordinary opening-weekend trading rush, but it did not end event-enhanced pricing across the full affected set.
+
+The Wreaken Mining Rig Field Tests Community Goals remain active. Check current in-game prices before trading; the opening-weekend arbitrage conditions should not be assumed to apply.
 
 '''Wreaken Mining Rig Field Tests''' is a pair of linked Community Goals in ''Elite Dangerous'', opened by Wreaken Corporation and [[Vodel]] at '''Metz Enterprise''' in the '''Ega''' system. One goal uses familiar asteroid laser mining as a comparison point. The other puts the [[Rhino]] [[Surface Recon Vehicles|SRV]] and Wreaken's deployable [[Surface Mining|surface-mining]] rigs through a large public field test.<ref name="frontier-cg">[https://www.elitedangerous.com/community/goals Community goals], Frontier Developments. Accessed 2026-09-05.</ref><ref name="galnet-tests">[https://www.elitedangerous.com/news/galnet/wreaken-calls-for-surface-mining-support-tests Wreaken Calls for Surface Mining Support Tests], GalNet, Frontier Developments, 3 September 3312. Accessed 2026-09-05.</ref>
 
@@ -39,7 +46,7 @@ Both goals run from the same station, but they do not track the same cargo or th
 
 == Summary ==
 
-{| class="wikitable" style="width:100%;"
+{| class="wikitable"
 ! Field !! Details
 |-
 | Event || Wreaken Mining Rig Field Tests
@@ -79,7 +86,7 @@ To contribute, register for this goal at Metz Enterprise, mine qualifying astero
 
 The asteroid goal accepts:
 
-{| class="wikitable" style="width:100%;"
+{| class="wikitable"
 ! Asteroid-mining CG commodities
 |-
 | Platinum, Palladium, Gold, Silver, Bertrandite, Indite, Gallite, Coltan, Uraninite, Lepidolite, Cobalt, Rutile, Water, Painite, Osmium, Praseodymium, Bromellite, Samarium
@@ -95,7 +102,7 @@ Frontier's active Community Goal data listed a target of '''10,000,000 tonnes'''
 
 The surface-mining goal accepts:
 
-{| class="wikitable" style="width:100%;"
+{| class="wikitable"
 ! Surface-mining CG commodities
 |-
 | Iridium, Helium, Helium-3, Bastnasite, Deuterium, Thortveitite, Quartz Pyroxenite, Olivine, Periclase Dunite, Sapphire, Diamond, Ruby, Magnesite
@@ -153,7 +160,7 @@ The opening-weekend market surge affected multiple commodities in the game's met
 
 The following September 7 figures were observed directly in-game at Metz Enterprise by CMDR Sythan.<ref name="sythan-metals">Direct in-game observation by CMDR Sythan while docked at Metz Enterprise in Ega on 7 September 2026.</ref> They document the broader event-enhanced market and should not be read as a promise that every metal offered the same arbitrage opportunity:
 
-{| class="wikitable" style="width:100%;"
+{| class="wikitable"
 ! Metal !! Metz sell price !! Displayed Galactic Average !! Field-test association
 |-
 | Cobalt || 21,276 Cr/t || approximately 17,730 Cr/t || Asteroid mining

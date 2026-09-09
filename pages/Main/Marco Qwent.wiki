@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Marco Qwent
 Namespace: 0
 Page ID: 109
-Revision ID: 1961
-Timestamp: 2026-08-24T21:22:34Z
+Revision ID: 3643
+Timestamp: 2026-09-09T20:28:01Z
 Source URL: https://edfieldmanual.com/wiki/Marco_Qwent
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -143,12 +143,12 @@ Marco's Engineering coverage is shown below. The listed grade is the highest gra
 |-
 | [[Power Distributor]]
 |
-* Balanced <small>(Live only; compatible Merc modules)</small>
+* Balanced (Live only; compatible Merc modules)
 * Charge Enhanced
 * Engine Focused
 * High Charge Capacity
 * Shielded
-* Support Focused <small>(Live only; compatible Merc modules)</small>
+* Support Focused (Live only; compatible Merc modules)
 * System Focused
 * Weapon Focused
 | '''Grade 3'''

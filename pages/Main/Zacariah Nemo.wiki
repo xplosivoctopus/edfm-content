@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Zacariah Nemo
 Namespace: 0
 Page ID: 117
-Revision ID: 2088
-Timestamp: 2026-08-24T21:25:26Z
+Revision ID: 3659
+Timestamp: 2026-09-09T20:28:24Z
 Source URL: https://edfieldmanual.com/wiki/Zacariah_Nemo
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -150,7 +150,7 @@ Nemo's current Engineering coverage is shown below. The listed grade is the high
 |-
 | [[Fragment Cannon]]
 |
-* Double Screaming <small>(Live only; compatible Merc modules)</small>
+* Double Screaming (Live only; compatible Merc modules)
 * Double Shot
 * Efficient
 * High Capacity
@@ -168,7 +168,7 @@ Nemo's current Engineering coverage is shown below. The listed grade is the high
 * Long Range
 * Overcharged
 * Rapid Fire
-* Rapid Phase <small>(Live only; compatible Merc modules)</small>
+* Rapid Phase (Live only; compatible Merc modules)
 * Short Range
 * Sturdy
 | '''Grade 3'''

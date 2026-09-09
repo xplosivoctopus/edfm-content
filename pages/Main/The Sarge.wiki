@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: The Sarge
 Namespace: 0
 Page ID: 120
-Revision ID: 2038
-Timestamp: 2026-08-24T21:24:19Z
+Revision ID: 3657
+Timestamp: 2026-09-09T20:28:21Z
 Source URL: https://edfieldmanual.com/wiki/The_Sarge
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -177,7 +177,7 @@ The Sarge's current Engineering coverage is shown below. The listed grade is the
 |-
 | [[Rail Gun]]
 |
-* Enduring Feedback <small>(Live only; compatible Merc modules)</small>
+* Enduring Feedback (Live only; compatible Merc modules)
 * High Capacity
 * Lightweight
 * Long Range

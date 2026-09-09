@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Liz Ryder
 Namespace: 0
 Page ID: 106
-Revision ID: 1957
-Timestamp: 2026-08-24T21:22:28Z
+Revision ID: 3641
+Timestamp: 2026-09-09T20:27:58Z
 Source URL: https://edfieldmanual.com/wiki/Liz_Ryder
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -142,9 +142,9 @@ Liz's current Engineering coverage is shown below. Where individual blueprints h
 * Lightweight — Grade 5
 * Rapid Fire — Grade 5
 * Sturdy — Grade 5
-* Drag — Grade 3 <small>(Live only; compatible Merc modules)</small>
-* Lightweight Thermal — Grade 3 <small>(Live only; compatible Merc modules)</small>
-* Lockdown — Grade 3 <small>(Live only; compatible Merc modules)</small>
+* Drag — Grade 3 (Live only; compatible Merc modules)
+* Lightweight Thermal — Grade 3 (Live only; compatible Merc modules)
+* Lockdown — Grade 3 (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Torpedo Pylon]]
@@ -163,17 +163,17 @@ Liz's current Engineering coverage is shown below. Where individual blueprints h
 |-
 | [[Abrasion Blaster]]
 |
-* Far-reaching <small>(Live only; compatible Merc modules)</small>
+* Far-reaching (Live only; compatible Merc modules)
 | '''Grade 3'''
 |-
 | [[Enzyme Missile Rack]]
 |
-* High-yield <small>(Live only; compatible Merc modules)</small>
+* High-yield (Live only; compatible Merc modules)
 | '''Grade 3'''
 |-
 | [[Mining Laser]]
 |
-* Long Range <small>(Live only; compatible Merc modules)</small>
+* Long Range (Live only; compatible Merc modules)
 | '''Grade 3'''
 |-
 | [[Armour]]
@@ -406,12 +406,12 @@ Her maximum grades are:
 * '''Seeker Missile Rack:''' Grade 5 for conventional blueprints
 * '''Torpedo Pylon:''' Grade 5
 * '''Mine Launcher:''' Grade 3
-* '''Abrasion Blaster — Far-reaching:''' Grade 3 <small>(Live only)</small>
-* '''Enzyme Missile Rack — High-yield:''' Grade 3 <small>(Live only)</small>
-* '''Mining Laser — Long Range:''' Grade 3 <small>(Live only)</small>
-* '''Seeker Missile Rack — Drag:''' Grade 3 <small>(Live only)</small>
-* '''Seeker Missile Rack — Lightweight Thermal:''' Grade 3 <small>(Live only)</small>
-* '''Seeker Missile Rack — Lockdown:''' Grade 3 <small>(Live only)</small>
+* '''Abrasion Blaster — Far-reaching:''' Grade 3 (Live only)
+* '''Enzyme Missile Rack — High-yield:''' Grade 3 (Live only)
+* '''Mining Laser — Long Range:''' Grade 3 (Live only)
+* '''Seeker Missile Rack — Drag:''' Grade 3 (Live only)
+* '''Seeker Missile Rack — Lightweight Thermal:''' Grade 3 (Live only)
+* '''Seeker Missile Rack — Lockdown:''' Grade 3 (Live only)
 * '''Armour:''' Grade 1
 * '''Hull Reinforcement Package:''' Grade 1<ref name="inara-liz" />
 

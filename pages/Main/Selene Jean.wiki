@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Selene Jean
 Namespace: 0
 Page ID: 114
-Revision ID: 2015
-Timestamp: 2026-08-24T21:23:48Z
+Revision ID: 3652
+Timestamp: 2026-09-09T20:28:14Z
 Source URL: https://edfieldmanual.com/wiki/Selene_Jean
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -157,7 +157,7 @@ Selene's current Engineering coverage is shown below. She provides Grade 5 acces
 |-
 | [[Module Reinforcement Package]]
 |
-* Heavy Duty <small>(Live only; compatible Merc modules)</small>
+* Heavy Duty (Live only; compatible Merc modules)
 | '''Grade 5'''
 |}
 
@@ -289,7 +289,7 @@ Her maximum grades are:
 
 * '''Armour:''' Grade 5
 * '''Hull Reinforcement Package:''' Grade 5
-* '''Module Reinforcement Package:''' Grade 5 <small>(Live-only Heavy Duty Merc blueprint)</small>
+* '''Module Reinforcement Package:''' Grade 5 (Live-only Heavy Duty Merc blueprint)
 
 This does not mean every type of defensive internal module can be engineered by Selene. Her workshop does not provide Shield Generator, Shield Booster, or Shield Cell Bank Engineering.
 

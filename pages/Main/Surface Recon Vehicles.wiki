@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Surface Recon Vehicles
 Namespace: 0
 Page ID: 741
-Revision ID: 2567
-Timestamp: 2026-08-29T13:11:31Z
+Revision ID: 3665
+Timestamp: 2026-09-09T20:28:33Z
 Source URL: https://edfieldmanual.com/wiki/Surface_Recon_Vehicles
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -33,7 +33,7 @@ SRVs can support activities such as planetary traversal, exploration, raw materi
 
 == Available SRVs ==
 
-{| class="wikitable sortable" style="width:100%;"
+{| class="wikitable sortable"
 ! SRV
 ! Primary role
 ! Hangar

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Broo Tarquin
 Namespace: 0
 Page ID: 100
-Revision ID: 1879
-Timestamp: 2026-08-24T21:20:38Z
+Revision ID: 3634
+Timestamp: 2026-09-09T20:27:48Z
 Source URL: https://edfieldmanual.com/wiki/Broo_Tarquin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -149,7 +149,7 @@ Broo provides '''Grade 5 access for all three module types he supports'''.<ref n
 * Lightweight
 * Long Range
 * Overcharged
-* Plasma Conversion <small>(Live only)</small>
+* Plasma Conversion (Live only)
 * Short Range
 * Sturdy
 | '''Grade 5'''
@@ -161,7 +161,7 @@ Broo provides '''Grade 5 access for all three module types he supports'''.<ref n
 * Lightweight
 * Long Range
 * Overcharged
-* Plasma Conversion <small>(Live only)</small>
+* Plasma Conversion (Live only)
 * Rapid Fire
 * Short Range
 * Sturdy
@@ -174,7 +174,7 @@ Broo provides '''Grade 5 access for all three module types he supports'''.<ref n
 * Lightweight
 * Long Range
 * Overcharged
-* Plasma Conversion <small>(Live only)</small>
+* Plasma Conversion (Live only)
 * Rapid Fire
 * Short Range
 * Sturdy

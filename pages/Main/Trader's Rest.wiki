@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Trader's Rest
 Namespace: 0
 Page ID: 358
-Revision ID: 2045
-Timestamp: 2026-08-24T21:24:29Z
+Revision ID: 3658
+Timestamp: 2026-09-09T20:28:23Z
 Source URL: https://edfieldmanual.com/wiki/Trader%27s_Rest
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -29,7 +29,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 * '''Body:''' Laksak A 1
 * '''Landing pad:''' Large
 * '''Permit required:''' No<ref name="inara-traders-rest" />
-* '''Government:''' Independent <small>(Colony economy)</small><ref name="inara-traders-rest" />
+* '''Government:''' Independent (Colony economy)<ref name="inara-traders-rest" />
 
 == Engineer ==
 

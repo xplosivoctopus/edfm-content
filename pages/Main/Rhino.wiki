@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Rhino
 Namespace: 0
 Page ID: 742
-Revision ID: 3418
-Timestamp: 2026-09-07T15:06:32Z
+Revision ID: 3668
+Timestamp: 2026-09-09T20:34:21Z
 Source URL: https://edfieldmanual.com/wiki/Rhino
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -43,11 +43,9 @@ Frontier's 4.4.1.0 update notes list the Rhino's major built-in systems as a '''
 
 {{Main|Planetary Mineral Scanner}}
 
-[[File:planetary_mining_deposits.png|thumb|left|300px|Planetary mining deposits identified by the Rhino's scanner.]]
-
+{{Context media|align=left|image=planetary_mining_deposits.png|caption=Planetary mining deposits identified by the Rhino's scanner.|
 The Rhino's scanner detects planetary mining deposits and marks mineral-rich areas so the vehicle can be positioned for extraction. The scanner is used after a suitable Planetary Mining Location has been found. Frontier confirms that the [[Detailed Surface Scanner]] detects Planetary Mining Locations on planets, and that the Rhino's scanner identifies the deposits within those areas for mining-rig placement.<ref name="frontier-4410" /><ref name="frontier-august-dev-log" /> Detailed controls, exact range, and any scanner tuning values should remain on the scanner or field-procedure page once verified.
-
-<div style="clear: left;"></div>
+}}
 
 === Mining Rig Deployment Module ===
 

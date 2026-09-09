@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Marsha Hicks
 Namespace: 0
 Page ID: 127
-Revision ID: 1962
-Timestamp: 2026-08-24T21:22:35Z
+Revision ID: 3647
+Timestamp: 2026-09-09T20:28:06Z
 Source URL: https://edfieldmanual.com/wiki/Marsha_Hicks
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -161,7 +161,7 @@ Marsha's current Engineering coverage is shown below. She provides '''Grade 5'''
 |-
 | [[Fragment Cannon]]
 |
-* Double Screaming <small>(Live only; Merc modules)</small>
+* Double Screaming (Live only; Merc modules)
 * Double Shot
 * Efficient
 * High Capacity
@@ -179,7 +179,7 @@ Marsha's current Engineering coverage is shown below. She provides '''Grade 5'''
 * Long Range
 * Overcharged
 * Rapid Fire
-* Rapid Phase <small>(Live only; Merc modules)</small>
+* Rapid Phase (Live only; Merc modules)
 * Short Range
 * Sturdy
 | '''Grade 5'''
@@ -193,7 +193,7 @@ Marsha's current Engineering coverage is shown below. She provides '''Grade 5'''
 |-
 | [[Fuel Scoop]]
 |
-* Scoop Rate Enhanced <small>(Live only)</small>
+* Scoop Rate Enhanced (Live only)
 * Shielded
 | '''Grade 5'''
 |-

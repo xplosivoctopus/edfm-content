@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Vodel
 Namespace: 0
 Page ID: 750
-Revision ID: 2563
-Timestamp: 2026-08-29T12:48:57Z
+Revision ID: 3666
+Timestamp: 2026-09-09T20:28:34Z
 Source URL: https://edfieldmanual.com/wiki/Vodel
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -24,7 +24,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 
 == Known products ==
 
-{| class="wikitable" style="width:100%;"
+{| class="wikitable"
 ! Product
 ! Type
 ! Status

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Guardian Plasma Charger
 Namespace: 0
 Page ID: 379
-Revision ID: 1937
-Timestamp: 2026-08-24T21:21:57Z
+Revision ID: 3648
+Timestamp: 2026-09-09T20:28:08Z
 Source URL: https://edfieldmanual.com/wiki/Guardian_Plasma_Charger
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -27,7 +27,7 @@ As with the other Guardian weapons, unlocking the base weapon for purchase requi
 {| class="wikitable"
 ! Engineer !! Maximum grade
 |-
-| [[Ram Tah]] || Grade 1 <small>(Live only)</small>
+| [[Ram Tah]] || Grade 1 (Live only)
 |}
 
 === Related Engineering Guides ===

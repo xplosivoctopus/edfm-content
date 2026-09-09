@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Ships
 Namespace: 0
 Page ID: 331
-Revision ID: 2022
-Timestamp: 2026-08-24T21:23:57Z
+Revision ID: 3664
+Timestamp: 2026-09-09T20:28:31Z
 Source URL: https://edfieldmanual.com/wiki/Ships
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -52,11 +52,11 @@ The '''base hull price''' is the standard price of the stock ship itself. It doe
 
 There are '''16 Small ships''' in the current Live roster.<ref name="inara-ships" />
 
-{| class="wikitable sortable" style="width:100%;"
-! style="width:30%;" | Ship
-! style="width:25%;" | Manufacturer
-! style="width:25%;" | Base hull price
-! style="width:20%;" | Available in
+{| class="wikitable sortable"
+! Ship
+! Manufacturer
+! Base hull price
+! Available in
 |-
 | [[Adder]]
 | Zorgon Peterson
@@ -143,11 +143,11 @@ There are '''16 Small ships''' in the current Live roster.<ref name="inara-ships
 
 There are '''21 Medium ships''' in the current Live roster.<ref name="inara-ships" />
 
-{| class="wikitable sortable" style="width:100%;"
-! style="width:30%;" | Ship
-! style="width:25%;" | Manufacturer
-! style="width:25%;" | Base hull price
-! style="width:20%;" | Available in
+{| class="wikitable sortable"
+! Ship
+! Manufacturer
+! Base hull price
+! Available in
 |-
 | [[Alliance Challenger]]
 | Lakon Spaceways
@@ -259,11 +259,11 @@ There are '''21 Medium ships''' in the current Live roster.<ref name="inara-ship
 
 There are '''11 Large ships''' in the current Live roster.<ref name="inara-ships" />
 
-{| class="wikitable sortable" style="width:100%;"
-! style="width:30%;" | Ship
-! style="width:25%;" | Manufacturer
-! style="width:25%;" | Base hull price
-! style="width:20%;" | Available in
+{| class="wikitable sortable"
+! Ship
+! Manufacturer
+! Base hull price
+! Available in
 |-
 | [[Anaconda]]
 | Faulcon deLacy

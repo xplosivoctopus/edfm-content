@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: The Dweller
 Namespace: 0
 Page ID: 111
-Revision ID: 2036
-Timestamp: 2026-08-24T21:24:17Z
+Revision ID: 3655
+Timestamp: 2026-09-09T20:28:18Z
 Source URL: https://edfieldmanual.com/wiki/The_Dweller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -114,12 +114,12 @@ The Dweller's Engineering coverage is shown below. The listed grade is the highe
 |-
 | [[Power Distributor]]
 |
-* Balanced <small>(Live only; compatible Merc modules)</small>
+* Balanced (Live only; compatible Merc modules)
 * Charge Enhanced
 * Engine Focused
 * High Charge Capacity
 * Shielded
-* Support Focused <small>(Live only; compatible Merc modules)</small>
+* Support Focused (Live only; compatible Merc modules)
 * System Focused
 * Weapon Focused
 | '''Grade 5'''
@@ -131,7 +131,7 @@ The Dweller's Engineering coverage is shown below. The listed grade is the highe
 * Lightweight
 * Long Range
 * Overcharged
-* Plasma Conversion <small>(Live only)</small>
+* Plasma Conversion (Live only)
 * Rapid Fire
 * Short Range
 * Sturdy
@@ -143,7 +143,7 @@ The Dweller's Engineering coverage is shown below. The listed grade is the highe
 * Lightweight
 * Long Range
 * Overcharged
-* Plasma Conversion <small>(Live only)</small>
+* Plasma Conversion (Live only)
 * Short Range
 * Sturdy
 | '''Grade 3'''
@@ -155,7 +155,7 @@ The Dweller's Engineering coverage is shown below. The listed grade is the highe
 * Lightweight
 * Long Range
 * Overcharged
-* Plasma Conversion <small>(Live only)</small>
+* Plasma Conversion (Live only)
 * Rapid Fire
 * Short Range
 * Sturdy

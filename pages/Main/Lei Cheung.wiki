@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Lei Cheung
 Namespace: 0
 Page ID: 112
-Revision ID: 1955
-Timestamp: 2026-08-24T21:22:25Z
+Revision ID: 3644
+Timestamp: 2026-09-09T20:28:02Z
 Source URL: https://edfieldmanual.com/wiki/Lei_Cheung
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -129,7 +129,7 @@ Lei's Engineering coverage is shown below. The listed grade is the highest grade
 | [[Detailed Surface Scanner]]
 |
 * Expanded Probe Scanning Radius
-* Long Range Detailed <small>(Live only; compatible Merc modules)</small>
+* Long Range Detailed (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Sensors]]

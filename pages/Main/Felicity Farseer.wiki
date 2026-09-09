@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Felicity Farseer
 Namespace: 0
 Page ID: 105
-Revision ID: 1920
-Timestamp: 2026-08-24T21:21:34Z
+Revision ID: 3639
+Timestamp: 2026-09-09T20:27:55Z
 Source URL: https://edfieldmanual.com/wiki/Felicity_Farseer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -100,7 +100,7 @@ Felicity's Engineering coverage is shown below. The listed grade is the highest 
 | [[Detailed Surface Scanner]]
 |
 * Expanded Probe Scanning Radius
-* Long Range Detailed <small>(Live only; compatible Merc modules)</small>
+* Long Range Detailed (Live only; compatible Merc modules)
 | '''Grade 3'''
 |-
 | [[Frame Shift Drive]]

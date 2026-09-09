@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Cargo Rack
 Namespace: 0
 Page ID: 369
-Revision ID: 1884
-Timestamp: 2026-08-24T21:20:44Z
+Revision ID: 3637
+Timestamp: 2026-09-09T20:27:52Z
 Source URL: https://edfieldmanual.com/wiki/Cargo_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -25,7 +25,7 @@ Cargo Racks compete for optional internal slots with every other optional intern
 {| class="wikitable"
 ! Engineer !! Maximum grade
 |-
-| [[Ram Tah]] || Grade 5 <small>(Live only; compatible Merc modules)</small>
+| [[Ram Tah]] || Grade 5 (Live only; compatible Merc modules)
 |}
 
 [[Ram Tah]], based at [[Phoenix Base]] in [[Meene]], is EDFM's currently documented Cargo Rack Engineer. His Cargo Rack blueprint is a Live-only addition that applies only to compatible Merc modules, per the Engineer's own already-sourced article.

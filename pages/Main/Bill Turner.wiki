@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Bill Turner
 Namespace: 0
 Page ID: 115
-Revision ID: 1876
-Timestamp: 2026-08-24T21:20:34Z
+Revision ID: 3635
+Timestamp: 2026-09-09T20:27:49Z
 Source URL: https://edfieldmanual.com/wiki/Bill_Turner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -166,12 +166,12 @@ Bill's current Engineering coverage is shown below. The listed grade is the high
 | [[Detailed Surface Scanner]]
 |
 * Expanded Probe Scanning Radius
-* Long Range Detailed <small>(Live only; compatible Merc modules)</small>
+* Long Range Detailed (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Cargo Rack]]
 |
-* Extended <small>(Live only; compatible Merc modules)</small>
+* Extended (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Auto Field-Maintenance Unit]]
@@ -191,7 +191,7 @@ Bill's current Engineering coverage is shown below. The listed grade is the high
 |-
 | [[Fuel Scoop]]
 |
-* Scoop Rate Enhanced <small>(Live only)</small>
+* Scoop Rate Enhanced (Live only)
 * Shielded
 | '''Grade 3'''
 |-
@@ -376,7 +376,7 @@ His maximum grades are:
 * '''Plasma Accelerator:''' Grade 5
 * '''Sensors:''' Grade 5
 * '''Detailed Surface Scanner:''' Grade 5
-* '''Cargo Rack — Extended:''' Grade 5 <small>(Live only)</small>
+* '''Cargo Rack — Extended:''' Grade 5 (Live only)
 * '''Auto Field-Maintenance Unit:''' Grade 3
 * '''Frame Shift Wake Scanner:''' Grade 3
 * '''Fuel Scoop:''' Grade 3

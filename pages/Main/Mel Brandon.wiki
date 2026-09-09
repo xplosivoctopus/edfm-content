@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Mel Brandon
 Namespace: 0
 Page ID: 124
-Revision ID: 1964
-Timestamp: 2026-08-24T21:22:38Z
+Revision ID: 3650
+Timestamp: 2026-09-09T20:28:11Z
 Source URL: https://edfieldmanual.com/wiki/Mel_Brandon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -154,7 +154,7 @@ Mel has one of the broadest Grade 5 Engineering portfolios of any ship Engineer.
 * Lightweight
 * Long Range
 * Overcharged
-* Plasma Conversion <small>(Live only)</small>
+* Plasma Conversion (Live only)
 * Short Range
 * Sturdy
 | '''Grade 5'''
@@ -166,7 +166,7 @@ Mel has one of the broadest Grade 5 Engineering portfolios of any ship Engineer.
 * Lightweight
 * Long Range
 * Overcharged
-* Plasma Conversion <small>(Live only)</small>
+* Plasma Conversion (Live only)
 * Rapid Fire
 * Short Range
 * Sturdy
@@ -179,7 +179,7 @@ Mel has one of the broadest Grade 5 Engineering portfolios of any ship Engineer.
 * Lightweight
 * Long Range
 * Overcharged
-* Plasma Conversion <small>(Live only)</small>
+* Plasma Conversion (Live only)
 * Rapid Fire
 * Short Range
 * Sturdy

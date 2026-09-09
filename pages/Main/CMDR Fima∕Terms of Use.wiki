@@ -3,16 +3,16 @@ EDFM current-content archive export.
 Title: CMDR Fima/Terms of Use
 Namespace: 0
 Page ID: 767
-Revision ID: 2633
-Timestamp: 2026-08-29T23:33:57Z
+Revision ID: 3672
+Timestamp: 2026-09-09T21:01:44Z
 Source URL: https://edfieldmanual.com/wiki/CMDR_Fima/Terms_of_Use
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article header|section=EDFM|context=Community|deck=Terms of Use for CMDR Fima, EDFM's Discord bot.}}
 
-'''Effective date:''' 29 August 2026<br />
-'''Last updated:''' 29 August 2026
+;'''Effective date:''' 29 August 2026
+;'''Last updated:''' 29 August 2026
 
 These Terms of Use explain the basic rules for using or interacting with '''CMDR Fima''', the Discord bot operated as part of the ''Elite Dangerous Field Manual'' (EDFM).
 

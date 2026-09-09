@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Broo's Legacy
 Namespace: 0
 Page ID: 352
-Revision ID: 1878
-Timestamp: 2026-08-24T21:20:36Z
+Revision ID: 3636
+Timestamp: 2026-09-09T20:27:50Z
 Source URL: https://edfieldmanual.com/wiki/Broo%27s_Legacy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -29,7 +29,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 * '''Body:''' Muang 5 a
 * '''Landing pad:''' Large
 * '''Permit required:''' No<ref name="inara-broos-legacy" />
-* '''Government:''' Workshop <small>(Colony economy)</small><ref name="inara-broos-legacy" />
+* '''Government:''' Workshop (Colony economy)<ref name="inara-broos-legacy" />
 
 == Engineer ==
 

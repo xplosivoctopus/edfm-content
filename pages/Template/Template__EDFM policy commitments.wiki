@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Template:EDFM policy commitments
 Namespace: 10
 Page ID: 621
-Revision ID: 2832
-Timestamp: 2026-09-01T12:48:42Z
+Revision ID: 3633
+Timestamp: 2026-09-09T20:27:47Z
 Source URL: https://edfieldmanual.com/wiki/Template:EDFM_policy_commitments
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-<includeonly><div class="edfm-policy-quick-reference" style="border:1px solid #3a4754; background:#111821; padding:1rem; margin:1rem 0;">
+<includeonly><templatestyles src="Template:EDFM style/styles.css" /><div class="edfm-policy-quick-reference">
 '''EDFM policy commitments — quick reference'''
 
 * '''Operator/contact:''' ''Elite Dangerous Field Manual'' (EDFM) is operated as an independent community project. For policy, privacy, copyright, licensing, or site-operation questions, contact <code>contact@edfieldmanual.com</code>.

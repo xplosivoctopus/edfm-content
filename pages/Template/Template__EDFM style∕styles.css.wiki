@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:EDFM style/styles.css
 Namespace: 10
 Page ID: 41
-Revision ID: 3616
-Timestamp: 2026-09-09T17:14:36Z
+Revision ID: 3632
+Timestamp: 2026-09-09T20:27:45Z
 Source URL: https://edfieldmanual.com/wiki/Template:EDFM_style/styles.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -988,4 +988,12 @@ table.wikitable.edfm-prospecting-table > * > tr > td:nth-child( 4 ) {
 	.edfm-prospecting-detail-list {
 		padding-left: 1em;
 	}
+}
+
+/* Policy quick-reference component. Kept scoped here rather than inline in the template. */
+.edfm-policy-quick-reference {
+	border: 1px solid #3a4754;
+	background: #111821;
+	padding: 1rem;
+	margin: 1rem 0;
 }

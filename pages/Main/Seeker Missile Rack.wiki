@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Seeker Missile Rack
 Namespace: 0
 Page ID: 372
-Revision ID: 2013
-Timestamp: 2026-08-24T21:23:46Z
+Revision ID: 3654
+Timestamp: 2026-09-09T20:28:17Z
 Source URL: https://edfieldmanual.com/wiki/Seeker_Missile_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -25,7 +25,7 @@ Because Seeker Missiles actively home in on their target, they are more forgivin
 {| class="wikitable"
 ! Engineer !! Maximum grade
 |-
-| [[Liz Ryder]] || Grade 5 <small>(conventional blueprints)</small>
+| [[Liz Ryder]] || Grade 5 (conventional blueprints)
 |}
 
 Liz Ryder provides Grade 5 conventional Seeker Missile Rack Engineering as one of her primary explosive-weapon specialties.

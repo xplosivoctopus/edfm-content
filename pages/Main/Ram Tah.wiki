@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Ram Tah
 Namespace: 0
 Page ID: 122
-Revision ID: 2003
-Timestamp: 2026-08-24T21:23:32Z
+Revision ID: 3653
+Timestamp: 2026-09-09T20:28:15Z
 Source URL: https://edfieldmanual.com/wiki/Ram_Tah
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -129,7 +129,7 @@ Ram Tah's current Engineering coverage is shown below. Where individual blueprin
 |-
 | [[Cargo Rack]]
 |
-* Extended <small>(Live only; compatible Merc modules)</small>
+* Extended (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Chaff Launcher]]
@@ -193,17 +193,17 @@ Ram Tah's current Engineering coverage is shown below. Where individual blueprin
 |-
 | [[Guardian Gauss Cannon]]
 |
-* Anti-Guardian Zone Resistance <small>(Live only)</small>
+* Anti-Guardian Zone Resistance (Live only)
 | '''Grade 1'''
 |-
 | [[Guardian Plasma Charger]]
 |
-* Anti-Guardian Zone Resistance <small>(Live only)</small>
+* Anti-Guardian Zone Resistance (Live only)
 | '''Grade 1'''
 |-
 | [[Guardian Shard Cannon]]
 |
-* Anti-Guardian Zone Resistance <small>(Live only)</small>
+* Anti-Guardian Zone Resistance (Live only)
 | '''Grade 1'''
 |}
 

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Engineer Unlock Guide
 Namespace: 0
 Page ID: 99
-Revision ID: 1908
-Timestamp: 2026-08-24T21:21:17Z
+Revision ID: 3638
+Timestamp: 2026-09-09T20:27:53Z
 Source URL: https://edfieldmanual.com/wiki/Engineer_Unlock_Guide
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -42,20 +42,20 @@ Ship Engineers modify ship modules. Odyssey Engineers modify suits and handheld 
 
 There are '''five independent starting Engineers''' in the ship Engineering network:<ref name="inara-engineers" /><ref name="newp-engineers" />
 
-* [[Felicity Farseer]] <small>([[Unlocking Felicity Farseer|unlock procedure]])</small>
-* [[Elvira Martuuk]] <small>([[Unlocking Elvira Martuuk|unlock procedure]])</small>
-* [[Tod "The Blaster" McQuinn]] <small>([[Unlocking Tod "The Blaster" McQuinn|unlock procedure]])</small>
-* [[The Dweller]] <small>([[Unlocking The Dweller|unlock procedure]])</small>
-* [[Liz Ryder]] <small>([[Unlocking Liz Ryder|unlock procedure]])</small>
+* [[Felicity Farseer]] ([[Unlocking Felicity Farseer|unlock procedure]])
+* [[Elvira Martuuk]] ([[Unlocking Elvira Martuuk|unlock procedure]])
+* [[Tod "The Blaster" McQuinn]] ([[Unlocking Tod "The Blaster" McQuinn|unlock procedure]])
+* [[The Dweller]] ([[Unlocking The Dweller|unlock procedure]])
+* [[Liz Ryder]] ([[Unlocking Liz Ryder|unlock procedure]])
 
 Each begins a separate referral branch.
 
 === Felicity Farseer branch ===
 
 * '''[[Felicity Farseer]]''' — starting Engineer
-** [[Juri Ishmaak]] <small>([[Unlocking Juri Ishmaak|unlock procedure]])</small>
-*** [[Colonel Bris Dekker]] <small>([[Unlocking Colonel Bris Dekker|unlock procedure]])</small>
-*** [[The Sarge]] <small>([[Unlocking The Sarge|unlock procedure]])</small>
+** [[Juri Ishmaak]] ([[Unlocking Juri Ishmaak|unlock procedure]])
+*** [[Colonel Bris Dekker]] ([[Unlocking Colonel Bris Dekker|unlock procedure]])
+*** [[The Sarge]] ([[Unlocking The Sarge|unlock procedure]])
 
 [[Felicity Farseer]] is an independent starting Engineer. She does '''not''' require [[Elvira Martuuk]], and Elvira does not require Felicity. They belong to separate starting branches.<ref name="inara-engineers" />
 
@@ -69,12 +69,12 @@ Juri Ishmaak can subsequently provide referrals to both:
 === Elvira Martuuk branch ===
 
 * '''[[Elvira Martuuk]]''' — starting Engineer
-** [[Zacariah Nemo]] <small>([[Unlocking Zacariah Nemo|unlock procedure]])</small>
-** [[Marco Qwent]] <small>([[Unlocking Marco Qwent|unlock procedure]])</small>
-*** [[Chloe Sedesi]] <small>([[Unlocking Chloe Sedesi|unlock procedure]])</small>
-*** [[Lori Jameson]] <small>([[Unlocking Lori Jameson|unlock procedure]])</small>
-*** [[Professor Palin]] <small>([[Unlocking Professor Palin|unlock procedure]])</small>
-** [[Mel Brandon]] <small>([[Unlocking Mel Brandon|unlock procedure]])</small> — Colonia
+** [[Zacariah Nemo]] ([[Unlocking Zacariah Nemo|unlock procedure]])
+** [[Marco Qwent]] ([[Unlocking Marco Qwent|unlock procedure]])
+*** [[Chloe Sedesi]] ([[Unlocking Chloe Sedesi|unlock procedure]])
+*** [[Lori Jameson]] ([[Unlocking Lori Jameson|unlock procedure]])
+*** [[Professor Palin]] ([[Unlocking Professor Palin|unlock procedure]])
+** [[Mel Brandon]] ([[Unlocking Mel Brandon|unlock procedure]]) — Colonia
 
 [[Elvira Martuuk]] is an independent starting Engineer and one of the largest referral hubs in the ship Engineering network.<ref name="inara-engineers" />
 
@@ -95,10 +95,10 @@ After sufficient reputation has been earned with Elvira, she can provide referra
 === Tod "The Blaster" McQuinn branch ===
 
 * '''[[Tod "The Blaster" McQuinn]]''' — starting Engineer
-** [[Selene Jean]] <small>([[Unlocking Selene Jean|unlock procedure]])</small>
-*** [[Bill Turner]] <small>([[Unlocking Bill Turner|unlock procedure]])</small>
-*** [[Didi Vatermann]] <small>([[Unlocking Didi Vatermann|unlock procedure]])</small>
-** [[Petra Olmanova]] <small>([[Unlocking Petra Olmanova|unlock procedure]])</small> — Colonia
+** [[Selene Jean]] ([[Unlocking Selene Jean|unlock procedure]])
+*** [[Bill Turner]] ([[Unlocking Bill Turner|unlock procedure]])
+*** [[Didi Vatermann]] ([[Unlocking Didi Vatermann|unlock procedure]])
+** [[Petra Olmanova]] ([[Unlocking Petra Olmanova|unlock procedure]]) — Colonia
 
 [[Tod "The Blaster" McQuinn]] is an independent starting Engineer.<ref name="inara-engineers" />
 
@@ -115,9 +115,9 @@ After sufficient reputation has been earned with Tod, he can provide referrals t
 === The Dweller branch ===
 
 * '''[[The Dweller]]''' — starting Engineer
-** [[Lei Cheung]] <small>([[Unlocking Lei Cheung|unlock procedure]])</small>
-*** [[Ram Tah]] <small>([[Unlocking Ram Tah|unlock procedure]])</small>
-** [[Marsha Hicks]] <small>([[Unlocking Marsha Hicks|unlock procedure]])</small> — Colonia
+** [[Lei Cheung]] ([[Unlocking Lei Cheung|unlock procedure]])
+*** [[Ram Tah]] ([[Unlocking Ram Tah|unlock procedure]])
+** [[Marsha Hicks]] ([[Unlocking Marsha Hicks|unlock procedure]]) — Colonia
 
 [[The Dweller]] is an independent starting Engineer.<ref name="inara-engineers" />
 
@@ -131,10 +131,10 @@ After sufficient reputation has been earned with The Dweller, he can provide ref
 === Liz Ryder branch ===
 
 * '''[[Liz Ryder]]''' — starting Engineer
-** [[Hera Tani]] <small>([[Unlocking Hera Tani|unlock procedure]])</small>
+** [[Hera Tani]] ([[Unlocking Hera Tani|unlock procedure]])
 *** [[Broo Tarquin]]
-*** [[Tiana Fortune]] <small>([[Unlocking Tiana Fortune|unlock procedure]])</small>
-** [[Etienne Dorn]] <small>([[Unlocking Etienne Dorn|unlock procedure]])</small> — Colonia
+*** [[Tiana Fortune]] ([[Unlocking Tiana Fortune|unlock procedure]])
+** [[Etienne Dorn]] ([[Unlocking Etienne Dorn|unlock procedure]]) — Colonia
 
 [[Liz Ryder]] is an independent starting Engineer.<ref name="inara-engineers" />
 
@@ -196,9 +196,9 @@ There are three independent starting branches in the core inhabited region and t
 
 === Hero Ferrari branch ===
 
-* '''[[Hero Ferrari]] <small>([[Unlocking Hero Ferrari|unlock procedure]])</small>''' — starting Engineer
-** [[Wellington Beck]] <small>([[Unlocking Wellington Beck|unlock procedure]])</small>
-*** [[Uma Laszlo]] <small>([[Unlocking Uma Laszlo|unlock procedure]])</small>
+* '''[[Hero Ferrari]] ([[Unlocking Hero Ferrari|unlock procedure]])''' — starting Engineer
+** [[Wellington Beck]] ([[Unlocking Wellington Beck|unlock procedure]])
+*** [[Uma Laszlo]] ([[Unlocking Uma Laszlo|unlock procedure]])
 
 [[Hero Ferrari]] is available without a prerequisite Engineer.<ref name="inara-engineers" />
 
@@ -216,9 +216,9 @@ Hero Ferrari
 
 === Jude Navarro branch ===
 
-* '''[[Jude Navarro]] <small>([[Unlocking Jude Navarro|unlock procedure]])</small>''' — starting Engineer
-** [[Terra Velasquez]] <small>([[Unlocking Terra Velasquez|unlock procedure]])</small>
-*** [[Oden Geiger]] <small>([[Unlocking Oden Geiger|unlock procedure]])</small>
+* '''[[Jude Navarro]] ([[Unlocking Jude Navarro|unlock procedure]])''' — starting Engineer
+** [[Terra Velasquez]] ([[Unlocking Terra Velasquez|unlock procedure]])
+*** [[Oden Geiger]] ([[Unlocking Oden Geiger|unlock procedure]])
 
 [[Jude Navarro]] is available without a prerequisite Engineer.<ref name="inara-engineers" />
 
@@ -236,9 +236,9 @@ Jude Navarro
 
 === Domino Green branch ===
 
-* '''[[Domino Green]] <small>([[Unlocking Domino Green|unlock procedure]])</small>''' — starting Engineer
-** [[Kit Fowler]] <small>([[Unlocking Kit Fowler|unlock procedure]])</small>
-*** [[Yarden Bond]] <small>([[Unlocking Yarden Bond|unlock procedure]])</small>
+* '''[[Domino Green]] ([[Unlocking Domino Green|unlock procedure]])''' — starting Engineer
+** [[Kit Fowler]] ([[Unlocking Kit Fowler|unlock procedure]])
+*** [[Yarden Bond]] ([[Unlocking Yarden Bond|unlock procedure]])
 
 [[Domino Green]] is available without a prerequisite Engineer.<ref name="inara-engineers" />
 
@@ -260,11 +260,11 @@ The Colonia Odyssey network does not use a normal linear referral chain.
 
 Three Engineers can be approached independently:<ref name="inara-engineers" />
 
-* '''[[Baltanos]] <small>([[Unlocking Baltanos|unlock procedure]])</small>'''
-* '''[[Eleanor Bresa]] <small>([[Unlocking Eleanor Bresa|unlock procedure]])</small>'''
-* '''[[Rosa Dayette]] <small>([[Unlocking Rosa Dayette|unlock procedure]])</small>'''
+* '''[[Baltanos]] ([[Unlocking Baltanos|unlock procedure]])'''
+* '''[[Eleanor Bresa]] ([[Unlocking Eleanor Bresa|unlock procedure]])'''
+* '''[[Rosa Dayette]] ([[Unlocking Rosa Dayette|unlock procedure]])'''
 
-Each has a separate referral task associated with [[Yi Shen]] <small>([[Unlocking Yi Shen|unlock procedure]])</small>.
+Each has a separate referral task associated with [[Yi Shen]] ([[Unlocking Yi Shen|unlock procedure]]).
 
 Yi Shen requires the referral tasks from '''all three Engineers''' to be completed before access is granted.<ref name="inara-engineers" />
 

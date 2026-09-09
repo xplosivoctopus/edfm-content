@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Guardian Gauss Cannon
 Namespace: 0
 Page ID: 378
-Revision ID: 1934
-Timestamp: 2026-08-24T21:21:54Z
+Revision ID: 3640
+Timestamp: 2026-09-09T20:27:56Z
 Source URL: https://edfieldmanual.com/wiki/Guardian_Gauss_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -27,7 +27,7 @@ Unlocking the base (non-Engineered) weapon for purchase requires collecting Guar
 {| class="wikitable"
 ! Engineer !! Maximum grade
 |-
-| [[Ram Tah]] || Grade 1 <small>(Live only)</small>
+| [[Ram Tah]] || Grade 1 (Live only)
 |}
 
 Ram Tah's Guardian weapon Engineering was added to his workshop after Guardian tech itself had already been introduced; check his own article for the specific update this was added in before treating the grade ceiling as long-standing.

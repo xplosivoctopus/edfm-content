@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Tools and Resources
 Namespace: 0
 Page ID: 63
-Revision ID: 2043
-Timestamp: 2026-08-24T21:24:26Z
+Revision ID: 3662
+Timestamp: 2026-09-09T20:28:28Z
 Source URL: https://edfieldmanual.com/wiki/Tools_and_Resources
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -16,7 +16,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 Third-party tools and websites — not developed, hosted, or endorsed by Frontier Developments plc — that Elite Dangerous commanders commonly use alongside the game. Entries below are widely-recognised, long-established community staples, grouped by what they're for. This list is deliberately not exhaustive; see [[Elite Dangerous Field Manual:Contributing]] once public registration opens if you'd like to propose an addition.
 
 == {{Section number|01}}Star systems, navigation and exploration ==
-<div class="edfm-resource-grid">
+{{Resource grid|
 {{Resource card
  |name=EDSM
  |fullname=Elite Dangerous Star Map
@@ -30,20 +30,20 @@ Third-party tools and websites — not developed, hosted, or endorsed by Frontie
  |description=Route plotting: neutron-star-boosted exploration routes, "Road to Riches" high-value-body routing, and multi-hop trade routing.
  |tag1=Route planning|tag2=Neutron routing|tag3=Road to Riches|tag4=Trade
 }}
-</div>
+}}
 
 == {{Section number|02}}Trading and general commander reference ==
-<div class="edfm-resource-grid">
+{{Resource grid|
 {{Resource card
  |name=Inara
  |url=https://inara.cz/
  |description=Community hub covering commander/squadron profiles, nearest-station and trade lookups, engineering material tracking, fleet carrier listings, and community goal tracking.
  |tag1=Commander|tag2=Squadron|tag3=Engineering|tag4=Markets|tag5=Fleet carriers
 }}
-</div>
+}}
 
 == {{Section number|03}}Ship building ==
-<div class="edfm-resource-grid">
+{{Resource grid|
 {{Resource card
  |name=Coriolis
  |url=https://coriolis.io/
@@ -57,12 +57,12 @@ Third-party tools and websites — not developed, hosted, or endorsed by Frontie
  |description=Alternative loadout planner, covering the same core build-planning role as Coriolis with a different interface.
  |tag1=Ship building|tag2=Engineering|tag3=Thermals
 }}
-</div>
+}}
 
 == {{Section number|04}}Companion apps (journal/API sync) ==
 Several tools above draw their data from the game's own journal files and Frontier's companion API rather than manual entry. The most commonly installed app for this is:
 
-<div class="edfm-resource-grid">
+{{Resource grid|
 {{Resource card
  |name=EDMC
  |fullname=Elite Dangerous Market Connector
@@ -70,20 +70,20 @@ Several tools above draw their data from the game's own journal files and Fronti
  |description=Background app, maintained by EDCD (Elite Dangerous Community Developers), that reads your journal and forwards data to services such as EDSM and Inara, and to EDDN, the shared open data feed several tools above are built on. Supports plugins.
  |tag1=Journal|tag2=API|tag3=Data sync|tag4=Plugins
 }}
-</div>
+}}
 
 == {{Section number|05}}Voice and cockpit immersion ==
-<div class="edfm-resource-grid">
+{{Resource grid|
 {{Resource card
  |name=VoiceAttack
  |url=https://voiceattack.com/
  |description=General-purpose voice command software, not specific to Elite Dangerous, but very widely used in the community for hands-free ship control. Commander-made voice profiles for it are common.
  |tag1=Voice control|tag2=Cockpit
 }}
-</div>
+}}
 
 == {{Section number|06}}Community hubs ==
-<div class="edfm-resource-grid">
+{{Resource grid|
 {{Resource card
  |name=Frontier's official forums
  |url=https://forums.frontier.co.uk/
@@ -94,10 +94,10 @@ Several tools above draw their data from the game's own journal files and Fronti
  |url=https://www.reddit.com/r/EliteDangerous/
  |description=The main Elite Dangerous community on Reddit.
 }}
-</div>
+}}
 
 == {{Section number|07}}Colonisation planning and construction ==
-<div class="edfm-resource-grid">
+{{Resource grid|
 {{Resource card
  |name=EDSC
  |fullname=Elite Dangerous System Constructor
@@ -118,16 +118,16 @@ Several tools above draw their data from the game's own journal files and Fronti
  |description=Tracks required and delivered materials for colonisation construction projects, with Fleet Carrier cargo support and saved progress across sessions.
  |tag1=Construction|tag2=Materials|tag3=Fleet carrier
 }}
-</div>
+}}
 
 == {{Section number|08}}Engineering material tracking ==
-<div class="edfm-resource-grid">
+{{Resource grid|
 {{Resource card
  |name=EDEngineer
  |url=https://github.com/msarilar/EDEngineer
  |description=Real-time overlay that reads your journal to track materials, data, and cargo held toward Engineer blueprint requirements, with a shopping list and alerts when a favourited blueprint is ready to craft.
  |tag1=Engineering|tag2=Materials|tag3=Journal|tag4=Overlay
 }}
-</div>
+}}
 
 {{Related articles|[[Field Procedures]] [[Operations]] [[Colonisation]] [[Engineering]]}}

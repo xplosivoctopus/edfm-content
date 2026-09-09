@@ -1,0 +1,25 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Resource grid
+Namespace: 10
+Page ID: 831
+Revision ID: 3631
+Timestamp: 2026-09-09T20:27:44Z
+Source URL: https://edfieldmanual.com/wiki/Template:Resource_grid
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+<includeonly><templatestyles src="Template:Resource card/styles.css" /><div class="edfm-resource-grid">{{{1|}}}</div></includeonly><noinclude>
+== Usage ==
+Owns the responsive grid layout for a group of [[Template:Resource card|Resource card]] transclusions. Keep the cards themselves readable in article source.
+
+<pre>{{Resource grid|
+{{Resource card
+ |name=Example
+ |url=https://example.com
+ |description=Example resource.
+}}
+}}
+</pre>
+[[Category:Guided Encyclopedia templates]]
+</noinclude>
