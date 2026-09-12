@@ -3,356 +3,120 @@ EDFM current-content archive export.
 Title: Tod "The Blaster" McQuinn
 Namespace: 0
 Page ID: 113
-Revision ID: 3656
-Timestamp: 2026-09-09T20:28:20Z
+Revision ID: 3846
+Timestamp: 2026-09-11T14:14:07Z
 Source URL: https://edfieldmanual.com/wiki/Tod_%22The_Blaster%22_McQuinn
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=An independent starting Engineer based at Trophy Camp in Wolf 397, providing Grade 5 Multi-Cannon and Rail Gun engineering.
+{{Article status
+ |status=Partially verified
+ |mode=Live and Legacy
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-11
+ |reviewer=Sythan
+ |source_quality=Current INARA Engineer and Blueprint records, Frontier Operations notes, and the in-game biography reproduced by the Elite Dangerous Wiki.
+ |uncertainty=INARA lists Force Impact for Tod through Grade 2 but currently marks that blueprint's parameters as work in progress.
+}}
+{{Article header|deck=Independent projectile-weapon Engineer at Trophy Camp in Wolf 397, offering Grade 5 Multi-Cannon and Rail Gun engineering.
 }}
 
-{{Engineer infobox}}
+{{Engineer infobox
+ |system=Wolf 397
+ |body=Trus Madi
+ |facility=Trophy Camp
+ |region=The Bubble
+ |unlock_requirement=Provide 100,000 credits worth of bounty vouchers
+}}
 
-'''Tod "The Blaster" McQuinn''' is a ship Engineer based at '''Trophy Camp''' in the [[Wolf 397]] system. He is one of the independent starting Engineers: no referral from another Engineer is required before a Commander can meet and unlock him.<ref name="inara-tod">[https://inara.cz/elite/engineer/6/ Tod "The Blaster" McQuinn — Engineer], Inara.</ref>
+'''Tod "The Blaster" McQuinn''' is a ship Engineer based at '''Trophy Camp''' in the '''Wolf 397''' system. A former CQC competitor and established bounty hunter, he specialises in projectile weapons and is one of the independent entry points into ship [[Engineering]].<ref name="edwiki-tod">[https://elite-dangerous.fandom.com/wiki/Tod_%22The_Blaster%22_McQuinn Tod "The Blaster" McQuinn], Elite Dangerous Wiki. Accessed 11 September 2026.</ref>
 
-Tod specialises in projectile weapons. He provides '''Grade 5 Multi-Cannon''' and '''Grade 5 Rail Gun Engineering''', along with Fragment Cannon Engineering through Grade 3 and Cannon Engineering through Grade 2.<ref name="inara-tod" /><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
-
-{{Field note|Tod is a '''starting Engineer'''. No prerequisite Engineer needs to be unlocked before him. His bounty-hunting requirement is what determines when he becomes available to meet.}}
+Tod provides '''Grade 5''' engineering for [[Multi-Cannon|Multi-Cannons]] and Rail Guns. His [[Fragment Cannon]] services reach Grade 3, while [[Cannon]] services reach Grade 2.<ref name="inara-tod">[https://inara.cz/elite/engineer/6/ Tod "The Blaster" McQuinn — Engineer], INARA. Accessed 11 September 2026.</ref>
 
 == Location ==
 
-* '''System:''' [[Wolf 397]]
-* '''Facility:''' [[Trophy Camp]]
+* '''System:''' Wolf 397
 * '''Body:''' Trus Madi
-* '''Engineer type:''' Ship Engineer
-* '''Referral required:''' No
+* '''Facility:''' Trophy Camp
+* '''Engineer scope:''' Ship weapons
+* '''Referral required:''' None
 * '''System permit required:''' No
 
-Trophy Camp is a surface Engineer base on '''Trus Madi''' in Wolf 397.<ref name="inara-trophy">[https://inara.cz/elite/station-market/?search=Trophy+Camp%5BWolf+397%5D Trophy Camp — Station], Inara.</ref>
+== Access requirements ==
 
-== How to Discover Tod "The Blaster" McQuinn ==
+Tod McQuinn's whereabouts are common knowledge, so no referral from another Engineer is required. Access has two further conditions:<ref name="inara-tod" />
 
-Tod McQuinn's whereabouts are '''common knowledge'''. He does not require a referral from another Engineer.<ref name="inara-tod" />
+# Earn '''more than 15 bounty vouchers'''.
+# Provide '''100,000 credits worth of bounty vouchers''' at Trophy Camp.
 
-This makes him one of the independent entry points into the ship Engineering network.
+The meeting condition counts vouchers earned, while the final contribution uses their combined credit value. Redeeming the vouchers needed for the contribution elsewhere removes them from the value available to hand in at the workshop.
 
-== How to Receive an Invitation ==
+For suitable targets, voucher handling, and the complete ordered process, see [[Unlocking Tod "The Blaster" McQuinn]].
 
-Earn '''more than 15 bounty vouchers'''.<ref name="inara-tod" />
+== Workshop reputation ==
 
-Bounty vouchers are earned by destroying ships carrying valid bounties, such as NPC ships marked '''Wanted''' after they have been scanned.
+Reputation with Tod McQuinn increases by:<ref name="inara-tod" />
 
-Because the current requirement is stated as '''more than 15''', earning at least '''16 bounty vouchers''' avoids stopping at the threshold.
+* crafting modifications at his workshop; or
+* handing in Alliance bounty vouchers at Trophy Camp.
 
-{{Important|The meeting requirement concerns the '''number of bounty vouchers earned''', not their total credit value. A small number of high-value bounties does not replace the required number of qualifying bounty vouchers.}}
+Higher reputation opens the grades that Tod supports. INARA notes that station services may not appear immediately after the first unlock; beginning a new game session can make those services available.<ref name="inara-tod" />
 
-See [[Bounty Vouchers]] for how bounty vouchers are earned, stored, and redeemed.
+== Engineering services ==
 
-{{Tip|You can work on the meeting and unlock requirements together. Continue bounty hunting after meeting Tod's voucher-count requirement until you are holding at least '''100,000 CR worth''' of bounty vouchers for the final unlock.}}
+The maximum grade is specific to each weapon family.<ref name="inara-tod" />
 
-== How to Unlock Tod "The Blaster" McQuinn ==
-
-Unlock requirements summary:
-* Earn '''more than 15 [[Bounty Vouchers|bounty vouchers]]'''.
-* Provide Tod with '''100,000 CR worth of bounty vouchers''' through the Engineer unlock interface.
-{{Important|Do '''not''' redeem the bounty vouchers needed for Tod's final unlock at another station first. The required value must still be available for the Engineer hand-in at Trophy Camp.}}
-{{Tip|You do not need an advanced combat ship to unlock Tod. A lower-intensity Resource Extraction Site or Navigation Beacon can provide suitable Wanted targets while allowing local security forces to assist.}}
-
-For the complete step-by-step process, see [[Unlocking Tod "The Blaster" McQuinn]].
-
-== Increasing Engineer Reputation ==
-
-Reputation with Tod "The Blaster" McQuinn can be increased by:
-
-* crafting Engineering modifications at Trophy Camp; or
-* handing in '''Alliance bounty vouchers''' at Trophy Camp.<ref name="inara-tod" />
-
-Higher Engineer reputation gives access to the higher grades Tod supports for each blueprint.
-
-Reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' also allows Tod to provide referrals to [[Selene Jean]] and [[Petra Olmanova]].<ref name="newp-engineers" />
-
-See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
-
-{{Tip|If you intend to raise Tod's reputation through bounty hunting as well as Engineering, Alliance bounty vouchers can be handed in at Trophy Camp after he has been unlocked.}}
-
-== Engineer Unlock Chain ==
-
-Tod "The Blaster" McQuinn is one of the independent starting points in the ship Engineer network.
-
-After reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''', Tod can provide referrals to:<ref name="newp-engineers" />
-
-* [[Selene Jean]]
-* [[Petra Olmanova]] — Colonia
-
-[[Selene Jean]] subsequently leads to [[Bill Turner]] and [[Didi Vatermann]].
-
-The branch is therefore:
-
-<pre>
-Tod "The Blaster" McQuinn
-├── Selene Jean
-│   ├── Bill Turner
-│   └── Didi Vatermann
-└── Petra Olmanova [Colonia]
-</pre>
-
-Current Engineer data independently lists Selene Jean and Petra Olmanova as being discovered through Tod McQuinn.<ref name="inara-selene">[https://inara.cz/elite/engineer/8/ Selene Jean — Engineer], Inara.</ref><ref name="inara-petra">[https://inara.cz/elite/engineer/24/ Petra Olmanova — Engineer], Inara.</ref>
-
-{{Field note|A referral from Tod does not automatically unlock the referred Engineer. [[Selene Jean]] and [[Petra Olmanova]] each have additional meeting and unlock requirements of their own.}}
-
-See [[Engineer Unlock Guide]] for the complete referral network.
-
-== Available Engineering ==
-
-Tod's current Engineering coverage is shown below. The listed grade is the highest grade he can apply to that module.<ref name="inara-tod" />
-
-{| class="wikitable"
+{| class="wikitable sortable" style="width:100%;"
 ! Module
-! Available blueprints
 ! Maximum grade
 |-
 | [[Multi-Cannon]]
-|
-* Efficient
-* High Capacity
-* Lightweight
-* Long Range
-* Overcharged
-* Rapid Fire
-* Rapid Phase (Live only; compatible Merc modules)
-* Short Range
-* Sturdy
 | '''Grade 5'''
 |-
-| [[Rail Gun]]
-|
-* Enduring Feedback (Live only; compatible Merc modules)
-* High Capacity
-* Lightweight
-* Long Range
-* Short Range
-* Sturdy
+| Rail Gun
 | '''Grade 5'''
 |-
 | [[Fragment Cannon]]
-|
-* Double Screaming (Live only; compatible Merc modules)
-* Double Shot
-* Efficient
-* High Capacity
-* Lightweight
-* Overcharged
-* Rapid Fire
-* Sturdy
 | '''Grade 3'''
 |-
 | [[Cannon]]
-|
-* Efficient
-* High Capacity
-* Lightweight
-* Long Range
-* Overcharged
-* Rapid Fire
-* Short Range
-* Sturdy
 | '''Grade 2'''
 |}
 
-Tod's maximum-grade specialties are therefore '''Multi-Cannons and Rail Guns'''. His Fragment Cannon and Cannon Engineering are useful earlier in progression but stop below Grade 5.
+The available modification families, effects, trade-offs, and recipes belong to [[Engineering Blueprints]]. Compatible secondary modifications belong to [[Experimental Effects]].
 
-== Operations-era Engineering ==
+=== Operations-era services ===
 
-Three current weapon blueprints available through Tod were introduced with the Operations-era Engineering additions.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+Current Live records add four Operations-era services to Tod's workshop:<ref name="frontier-operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments, 30 June 2026. Accessed 11 September 2026.</ref><ref name="inara-tod" />
 
-These blueprints are available only in '''Live''' and are not part of Legacy Engineering.
+* '''Force Impact''' for Cannons through Grade 2
+* '''Double Screaming''' for Fragment Cannons through Grade 3
+* '''Rapid Phase''' for Multi-Cannons through Grade 5
+* '''Enduring Feedback''' for Rail Guns through Grade 5
 
-=== Rapid Phase Multi-Cannon ===
+These services are not part of Legacy Engineering. Their exact modifiers, costs, and module compatibility belong to the corresponding [[Engineering Blueprints|Blueprint]] records. Current INARA data identifies Force Impact as available through Tod but does not yet publish its finished parameter values.
 
-'''Rapid Phase''' significantly changes Multi-Cannon firing behaviour by increasing ammunition capacity, magazine capacity, rate of fire, and the number of projectiles fired while reducing effective range and increasing jitter.<ref name="inara-rapid-phase">[https://inara.cz/elite/blueprint/223/ Multi-Cannon — Rapid Phase], Inara.</ref>
+== Blueprint pinning and remote work ==
 
-Tod can apply Rapid Phase through '''Grade 5'''.
+After sufficient reputation has been earned, one Tod McQuinn blueprint can be pinned for use through [[Remote Engineering]]. A pinned blueprint cannot exceed the grade he offers, and Experimental Effects still require an appropriate workshop visit.
 
-{{Important|Rapid Phase can only be applied to compatible '''Merc Multi-Cannons''' and requires [[Merc Coin]] as part of its Engineering cost.<ref name="inara-rapid-phase" />}}
+== Direct referrals ==
 
-=== Enduring Feedback Rail Gun ===
+Tod McQuinn directly introduces two Engineers after the Commander reaches Grade 3 access and progresses approximately one-third of the way toward Grade 4 with him:
 
-'''Enduring Feedback''' increases Rail Gun mass and power draw and reduces damage in exchange for improvements to heat generation, range, ammunition capacity, and firing cycle. The blueprint also incorporates a '''Feedback Cascade''' effect.<ref name="inara-enduring">[https://inara.cz/elite/blueprint/216/ Rail Gun — Enduring Feedback], Inara.</ref>
+* '''[[Selene Jean]]'''<ref name="inara-selene">[https://inara.cz/elite/engineer/8/ Selene Jean — Engineer], INARA. Accessed 11 September 2026.</ref>
+* '''[[Petra Olmanova]]''' in the Colonia region<ref name="inara-petra">[https://inara.cz/elite/engineer/24/ Petra Olmanova — Engineer], INARA. Accessed 11 September 2026.</ref>
 
-Tod can apply Enduring Feedback through '''Grade 5'''.
+Each referral reveals an Engineer; it does not satisfy that Engineer's own meeting or unlock requirements. Their locations, requirements, services, and later referrals belong to their individual articles. For the complete network, see [[Engineer Unlock Guide]].
 
-{{Important|Enduring Feedback can only be applied to compatible '''Merc Rail Guns''' and requires [[Merc Coin]] as part of its Engineering cost.<ref name="inara-enduring" />}}
+== Related pages ==
 
-=== Double Screaming Fragment Cannon ===
-
-'''Double Screaming''' increases Fragment Cannon ammunition capacity, magazine size, burst size, and reload performance, with tradeoffs including reduced range and increased mass and power draw.<ref name="inara-double-screaming">[https://inara.cz/elite/blueprint/215/ Fragment Cannon — Double Screaming], Inara.</ref>
-
-Tod can apply Double Screaming through '''Grade 3'''.
-
-{{Important|Double Screaming can only be applied to compatible '''Merc Fragment Cannons''' and requires [[Merc Coin]] as part of its Engineering cost.<ref name="inara-double-screaming" />}}
-
-Commanders seeking Grade 4 or Grade 5 Double Screaming Engineering need [[Zacariah Nemo]] or [[Marsha Hicks]].<ref name="inara-double-screaming" />
-
-== Experimental Effects ==
-
-Experimental Effects are separate from the main Engineering blueprint. A compatible weapon can normally have one Experimental Effect in addition to its blueprint modification.
-
-Tod can apply Experimental Effects to all four weapon types he engineers.
-
-=== Multi-Cannon ===
-
-Available Multi-Cannon Experimental Effects include:<ref name="inara-multicannon">[https://inara.cz/elite/blueprint/57/ Multi-Cannon — Overcharged], Inara.</ref>
-
-* [[Auto Loader]]
-* [[Corrosive Shell]]
-* [[Double Braced]]
-* [[Emissive Munitions]]
-* [[Flow Control]]
-* [[Incendiary Rounds]]
-* [[Multi-servos]]
-* [[Oversized]]
-* [[Smart Rounds]]
-* [[Stripped Down]]
-* [[Thermal Shock]]
-
-=== Rail Gun ===
-
-Available Rail Gun Experimental Effects include:<ref name="inara-railgun">[https://inara.cz/elite/blueprint/62/ Rail Gun — Long Range], Inara.</ref>
-
-* [[Double Braced]]
-* [[Feedback Cascade]]
-* [[Flow Control]]
-* [[Multi-servos]]
-* [[Oversized]]
-* [[Plasma Slug]]
-* [[Stripped Down]]
-* [[Super Penetrator]]
-
-=== Fragment Cannon ===
-
-Available Fragment Cannon Experimental Effects include:<ref name="inara-fragment">[https://inara.cz/elite/blueprint/49/ Fragment Cannon — Efficient], Inara.</ref>
-
-* [[Corrosive Shell]]
-* [[Dazzle Shell]]
-* [[Double Braced]]
-* [[Drag Munitions]]
-* [[Flow Control]]
-* [[Incendiary Rounds]]
-* [[Multi-servos]]
-* [[Oversized]]
-* [[Screening Shell]]
-* [[Stripped Down]]
-
-=== Cannon ===
-
-Available Cannon Experimental Effects include:<ref name="inara-cannon">[https://inara.cz/elite/blueprint/43/ Cannon — Efficient], Inara.</ref>
-
-* [[Auto Loader]]
-* [[Dispersal Field]]
-* [[Double Braced]]
-* [[Flow Control]]
-* [[Force Shell]]
-* [[High Yield Shell]]
-* [[Multi-servos]]
-* [[Oversized]]
-* [[Smart Rounds]]
-* [[Stripped Down]]
-* [[Thermal Cascade]]
-
-See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
-
-{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. A weapon must be taken to an Engineer who works on that weapon type to have an Experimental Effect applied.}}
-
-== Recommended Engineering ==
-
-Tod's most broadly useful capability is his '''Grade 5 Multi-Cannon Engineering'''.
-
-=== Multi-Cannons ===
-
-{{Tip|'''Common general-purpose choice: Overcharged'''
-
-[[Overcharged Multi-Cannon]] is a strong general-purpose option when the goal is increasing direct weapon damage.
-
-At Grade 5, Overcharged substantially increases damage while increasing distributor draw and thermal load and reducing magazine capacity.<ref name="inara-multicannon" />
-
-The appropriate Experimental Effect depends on the weapon's role and the rest of the hardpoint loadout.}}
-
-Common Multi-Cannon Experimental Effects serve different purposes:
-
-* [[Auto Loader]] allows the weapon to reload while firing.
-* [[Corrosive Shell]] applies a hull-debilitating effect to the target but reduces ammunition capacity.
-* [[Incendiary Rounds]] converts a substantial portion of the weapon's damage to thermal damage.
-* [[Emissive Munitions]] increases the target's signature.
-* [[Oversized]] provides a small additional damage increase at the cost of greater power draw.<ref name="inara-multicannon" />
-
-There is no requirement to use the same Experimental Effect on every Multi-Cannon.
-
-=== Rail Guns ===
-
-Tod also provides all conventional Rail Gun blueprints through Grade 5.
-
-[[Long Range Rail Gun|Long Range]] is useful when maintaining damage effectiveness at distance is important, while [[Lightweight Rail Gun|Lightweight]] can reduce the considerable mass of Rail Guns on mass-sensitive builds.
-
-Rail Guns also have specialised Experimental Effects such as:
-
-* [[Feedback Cascade]], used to interfere with Shield Cell Bank operation;
-* [[Super Penetrator]], which can damage modules along the projectile's path; and
-* [[Plasma Slug]], which draws ammunition from the ship's fuel supply.<ref name="inara-railgun" />
-
-These effects serve specialised combat roles rather than being universally interchangeable.
-
-== Blueprint Pinning ==
-
-After earning sufficient reputation with Tod, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
-
-{{Tip|'''EDFM recommendation:''' [[Overcharged Multi-Cannon]] is a strong general-purpose blueprint to consider pinning at Tod.
-
-Tod provides Overcharged Multi-Cannon Engineering through '''Grade 5''', and the blueprint is useful across a wide range of kinetic and mixed-weapon combat builds.
-
-If Overcharged Multi-Cannon is already pinned through another Grade 5 Engineer, a frequently used Rail Gun blueprint may be a better use of Tod's pin.}}
-
-Blueprint pinning should reflect the weapons and builds you actually use; there is no requirement to use the suggested pin.
-
-{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Weapon Experimental Effects still require visiting an appropriate Engineer workshop.}}
-
-== What Tod Cannot Fully Engineer ==
-
-Tod provides maximum-grade Engineering for Multi-Cannons and Rail Guns, but his Cannon and Fragment Cannon Engineering stops at lower grades.
-
-His maximum grades are:
-
-* '''Multi-Cannon:''' Grade 5
-* '''Rail Gun:''' Grade 5
-* '''Fragment Cannon:''' Grade 3
-* '''Cannon:''' Grade 2<ref name="inara-tod" />
-
-For higher-grade alternatives:
-
-* [[Zacariah Nemo]] provides '''Grade 5 Fragment Cannon''' Engineering.
-* [[Marsha Hicks]] provides '''Grade 5 Fragment Cannon''' Engineering in Colonia.
-* [[The Sarge]] provides '''Grade 5 Cannon''' Engineering.
-* [[Marsha Hicks]] also provides '''Grade 5 Cannon''' Engineering in Colonia.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
-
-[[Marsha Hicks]] also provides Grade 5 Multi-Cannon Engineering, while [[Etienne Dorn]] provides Grade 5 Rail Gun Engineering in Colonia.
-
-Tod remains one of the most accessible maximum-grade weapon Engineers because he requires no Engineer referral and provides Grade 5 access to both Multi-Cannons and Rail Guns.
-
-== What Next? ==
-
-Progressing Tod's reputation opens two additional Engineer paths.
-
-{{What next|title=Continue Engineering|
-* '''Armour and hull reinforcement:''' [[Selene Jean]]
-* '''Colonia defensive Engineering:''' [[Petra Olmanova]]
-* '''Grade 5 Fragment Cannons:''' [[Zacariah Nemo]]
-* '''Grade 5 Cannons:''' [[The Sarge]]
-* '''Learn bounty hunting:''' [[Bounty Hunting]]
-* '''Learn about bounty vouchers:''' [[Bounty Vouchers]]
-* '''See the whole network:''' [[Engineer Unlock Guide]]
-* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
-* '''Learn the system:''' [[Engineering]]
-}}
+* [[Engineering]] — the modification system and progression model
+* [[Engineers]] — access overview and Engineer directories
+* [[Engineering Blueprints]] — blueprint families, grades, effects, and recipes
+* [[Experimental Effects]] — compatible secondary modifications
+* [[Remote Engineering]] — using pinned blueprints away from a workshop
+* [[Unlocking Tod "The Blaster" McQuinn]] — ordered access procedure
 
 == Sources ==
 
@@ -361,5 +125,5 @@ Progressing Tod's reputation opens two additional Engineer paths.
 {{Engineering nav}}
 
 [[Category:Engineers]]
-[[Category:Weapon Engineering]]
+[[Category:Hardpoint Engineering]]
 [[Category:Engineering]]

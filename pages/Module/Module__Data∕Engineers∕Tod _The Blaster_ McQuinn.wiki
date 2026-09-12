@@ -3,47 +3,48 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Tod "The Blaster" McQuinn
 Namespace: 828
 Page ID: 412
-Revision ID: 1171
-Timestamp: 2026-08-20T22:09:07Z
+Revision ID: 3845
+Timestamp: 2026-09-11T14:12:40Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Tod_%22The_Blaster%22_McQuinn
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {
 	"name": "Tod \"The Blaster\" McQuinn",
-	"engineer_scope": "ship",
-	"image": "Theblaster.png",
-	"engineer_type": "Ship Engineer",
+	"region": "Bubble",
 	"system": "Wolf 397",
 	"body": "Trus Madi",
 	"facility": "Trophy Camp",
-	"region": null,
-	"allegiance": null,
-	"specialties": [
-		"Multi-Cannon",
-		"Rail Gun",
-		"Fragment Cannon",
-		"Cannon"
+	"star_distance_ls": 38.07,
+	"coordinates": [
+		-56.71875,
+		21.96875,
+		-19.15625
 	],
-	"max_grade": "Grade 5",
-	"prerequisite_engineer": null,
-	"prerequisite_engineer_note": null,
-	"prerequisite_engineer_display": "None — independent starting Engineer",
-	"discovery_requirement": "None — common knowledge",
-	"invitation_requirement": "Earn more than 15 bounty vouchers",
-	"meeting_requirement": "Earn more than 15 bounty vouchers.",
-	"unlock": {
-		"action": "Provide",
-		"credits": 100000,
-		"item": "Bounty Vouchers",
-		"credits_worth": true
-	},
+	"permit": "None",
+	"system_security": "Anarchy",
+	"economy": "None",
+	"discovery_requirement": "Common knowledge",
+	"meeting_requirement": "Gain access by earning more than 15 bounty vouchers.",
+	"unlock_requirement": "Provide 100,000 credits worth of bounty vouchers.",
+	"reputation_methods": [
+		"Craft modules for a major increase.",
+		"Sell Alliance bounty vouchers to Trophy Camp."
+	],
 	"engineering": [
 		{
 			"grade": 5,
 			"modules": [
-				"Multi-Cannon",
-				"Rail Gun"
+				"Multi-Cannon"
+			]
+		},
+		{
+			"grade": 5,
+			"modules": [
+				{
+					"display": "Rail Gun",
+					"link": false
+				}
 			]
 		},
 		{
@@ -58,6 +59,5 @@ This is current wikitext only; no revision history, user database, logs, deleted
 				"Cannon"
 			]
 		}
-	],
-	"colonia": false
+	]
 }

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Mining/Locations
 Namespace: 828
 Page ID: 718
-Revision ID: 1622
-Timestamp: 2026-08-23T23:49:28Z
+Revision ID: 3745
+Timestamp: 2026-09-10T17:44:16Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Mining/Locations
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -28,6 +28,7 @@ return {
 		key = "resource-extraction-sites",
 		page = "Resource Extraction Site",
 		label = "Resource Extraction Sites",
+		link = false,
 		role = "Ring locations with NPC traffic, security/pirate activity, and mining opportunities in the same space.",
 		notes = "Useful for some gameplay loops, but a quiet hotspot is often simpler for a dedicated mining run."
 	},
@@ -35,6 +36,7 @@ return {
 		key = "ring-reserves",
 		page = "Ring Reserves",
 		label = "Ring reserve level",
+		link = false,
 		role = "System-map reserve descriptions such as pristine or depleted give broad expectations for mining yield.",
 		notes = "Treat reserve level as planning context, not a precise per-asteroid result."
 	},
@@ -43,6 +45,6 @@ return {
 		page = "Tools and Resources",
 		label = "Current trade and mining tools",
 		role = "Community tools are commonly used to find recent sell prices, demand, and reported hotspots.",
-		notes = "Prices and demand move over time, so procedure pages should teach commanders to verify current data rather than hard-code old best-sell stations."
+		notes = "Prices and demand move over time; check the timestamp and availability of third-party data before using it for a route."
 	}
 }

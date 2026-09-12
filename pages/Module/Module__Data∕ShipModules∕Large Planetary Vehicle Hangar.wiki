@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Large Planetary Vehicle Hangar
+Namespace: 828
+Page ID: 835
+Revision ID: 3789
+Timestamp: 2026-09-11T03:10:13Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Large_Planetary_Vehicle_Hangar
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Large Planetary Vehicle Hangar",
+	module_class = "Large vehicle hangar module",
+	slot_type = "Optional internal",
+	mount = "Classes 2–6 on compatible ships; classes 2–4 on the Keelback",
+	availability = "Current Live outfitting for Rhino-compatible ships",
+	engineering = "No documented Engineering",
+	related_modules = "[[Planetary Vehicle Hangar]], [[Cargo Rack]]",
+}

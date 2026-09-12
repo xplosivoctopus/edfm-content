@@ -3,69 +3,117 @@ EDFM current-content archive export.
 Title: Baltanos
 Namespace: 0
 Page ID: 139
-Revision ID: 1873
-Timestamp: 2026-08-24T21:20:30Z
+Revision ID: 3929
+Timestamp: 2026-09-12T04:09:21Z
 Source URL: https://edfieldmanual.com/wiki/Baltanos
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Physical performance specialist at The Divine Apparatus in the Deriso system.}}
+{{Article status
+ |status=Verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Current INARA Engineer and workshop records, Frontier's Galnet coverage of the Colonia Engineers, and secondary Elite Dangerous Wiki corroboration.
+}}
 
-{{Draft warning}}
+{{Article header|deck=A physical-performance specialist at The Divine Apparatus in Deriso, independently accessible in the Colonia region.
+}}
 
-{{Engineer infobox}}
+{{Engineer infobox
+ |system=Deriso
+ |body=Deriso 3 a
+ |facility=The Divine Apparatus
+ |region=Colonia
+ |discovery_requirement=Common knowledge; no referral required
+ |unlock_requirement=Reach Friendly reputation with the Colonia Council
+ |referrals=Yi Shen — provide 10 Faction Associates data
+ |modifications_suit=Combat Movement Speed, Improved Jump Assist, Increased Air Reserves, Increased Sprint Duration
+ |modifications_weapon=Faster Handling, Improved Hip Fire Accuracy, Noise Suppressor
+}}
 
-Baltanos specialises in physical performance modifications for suits and handheld weapons.<ref name="inara-list" />
+'''Baltanos''' is an [[Engineers|Odyssey Engineer]] based at '''The Divine Apparatus''' in the '''Deriso''' system of the [[Colonia]] region. He specialises in suit mobility and endurance alongside weapon handling, accuracy, and sound suppression.<ref name="inara-baltanos">[https://inara.cz/elite/engineer/35/ Baltanos — Engineer], INARA. Accessed 12 September 2026.</ref><ref name="edwiki-baltanos">[https://elite-dangerous.fandom.com/wiki/Baltanos Baltanos], Elite Dangerous Wiki. Accessed 12 September 2026.</ref>
 
-Odyssey Engineering is a separate system from ship Engineering — it modifies suits and handheld weapons rather than ship modules, and exists only in Live (there is no Legacy equivalent). See [[Engineers]] for how the two systems are organised.
+Frontier introduced Baltanos with the four Colonia Odyssey Engineers and identifies them as providers of suit and personal-equipment modifications for commanders working on low-atmosphere worlds.<ref name="frontier-colonia">[https://www.elitedangerous.com/en-US/news/galnet/the-view-from-colonia The View from Colonia], Frontier Developments, 29 October 2021. Accessed 12 September 2026.</ref>
 
 == Location ==
-* '''System:''' Deriso
-* '''Settlement:''' The Divine Apparatus
-* '''Region:''' Colonia
 
-== How to Discover This Engineer ==
-Baltanos is independently available and does not require a referral from another Engineer.<ref name="inara-list">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+Baltanos's workshop is at '''The Divine Apparatus''', a surface Engineer base on '''Deriso 3 a''' in the '''Deriso''' system. The body is approximately 2,420 light-seconds from the system arrival point.<ref name="inara-divine">[https://inara.cz/elite/station/427416/ The Divine Apparatus — Station], INARA. Accessed 12 September 2026.</ref>
 
-== How to Receive an Invitation ==
-There is no separate invitation requirement distinct from the unlock requirement below.
+The workshop is in the Colonia region, roughly 22,000 light-years from Sol. No system permit is required.
 
-== How to Unlock This Engineer ==
-Unlock requirements summary:
-* Reach '''Friendly''' reputation with the '''Colonia Council'''.
+== Discovery and access ==
 
-For the complete step-by-step process, see [[Unlocking Baltanos]].
+=== Discovery ===
 
-== Engineer Unlock Chain ==
-Baltanos is one of three independent Colonia Odyssey Engineers (alongside [[Eleanor Bresa]] and [[Rosa Dayette]]) whose referral tasks all feed into [[Yi Shen]].<ref name="inara-list" />
+Baltanos is common knowledge and does not require a referral from another Engineer.<ref name="inara-baltanos" />
 
-After Baltanos is unlocked, delivering '''10 Faction Associates''' data completes the referral task toward Yi Shen. All three Colonia Engineers' referral tasks must be completed before Yi Shen becomes available.
+=== Workshop unlock ===
 
-== Available Engineering ==
-Specific suit/weapon modification names and maximum grades were not confirmed in the sources checked for this pass — see [[Elite Dangerous Field Manual:Engineering Architecture]] for the site's policy on not inventing unconfirmed specifics. Confirmed specialty area: Physical performance.
+Reach '''Friendly''' reputation with the '''Colonia Council'''.<ref name="inara-baltanos" />
 
-== Experimental Effects ==
-To be added — not confirmed in the sources checked for this pass.
+Station services may not appear immediately after the unlock completes. If necessary, return to the main menu and re-enter the game.<ref name="inara-baltanos" />
 
-== Increasing Engineer Reputation ==
-Reputation increases through crafting modifications at their workshop, in line with the general mechanic covered on the main [[Engineering]] page.
+== Services ==
 
-== Blueprint Pinning ==
-'''Fact:''' Baltanos's confirmed specialty area is Physical performance.
+Baltanos installs four suit modifications and three handheld-weapon modifications.<ref name="inara-baltanos" />
 
-'''EDFM recommendation:''' Not yet made. A pinning recommendation needs the specific modification and maximum-grade data above filled in first — see [[Elite Dangerous Field Manual:Engineering Architecture]] for why EDFM treats pinning guidance as editorial judgement, not a database fact.
+=== Suit modifications ===
 
-== Related Engineers ==
-[[Eleanor Bresa]] and [[Rosa Dayette]] are the other two independent Colonia Odyssey Engineers whose referral tasks converge on [[Yi Shen]].
+{| class="wikitable"
+! Modification
+! Function
+|-
+| Combat Movement Speed
+| Removes the normal movement-speed penalty while aiming down sights.
+|-
+| Improved Jump Assist
+| Extends the duration of the suit's Jump Assist thrust.
+|-
+| Increased Air Reserves
+| Extends life-support operation after suit power is depleted.
+|-
+| Increased Sprint Duration
+| Reduces exhaustion during sustained sprinting.
+|}
 
-== Related Guides ==
-{{Related articles|[[Engineering]] [[Engineer Unlock Guide]]}}
+=== Weapon modifications ===
+
+{| class="wikitable"
+! Modification
+! Function
+|-
+| Faster Handling
+| Improves weapon draw, stow, and handling speed.
+|-
+| Improved Hip Fire Accuracy
+| Improves accuracy when firing without aiming down sights.
+|-
+| Noise Suppressor
+| Reduces weapon sound in pressurised environments.
+|}
+
+Suit and handheld-weapon modifications are permanent once installed. The equipment must have an unused modification slot, and the required Odyssey materials and credits are paid at the workshop. See [[Odyssey Engineering]] for equipment grades, modification slots, material handling, and the installation process.
+
+== Reputation and referrals ==
+
+Odyssey Engineers do not use the Grade 1–5 workshop-reputation system used by ship Engineers. Once Baltanos is unlocked, his available modifications can be installed immediately when the equipment and material requirements are met.
+
+Providing Baltanos with '''10 Faction Associates''' Data completes his direct referral requirement toward [[Yi Shen]].<ref name="inara-baltanos" /> Yi Shen becomes available only after the separate referral requirements from Baltanos, [[Eleanor Bresa]], and [[Rosa Dayette]] have all been completed.
+
+== Related pages ==
+
+* [[Yi Shen]] — Engineer reached after completing all three Colonia referral tasks.
+* [[Eleanor Bresa]] and [[Rosa Dayette]] — the other independent Colonia Engineers whose referral tasks contribute to Yi Shen's discovery.
+* [[Engineers]] — directory of Engineer locations, requirements, services, and referral relationships.
+* [[Odyssey Engineering]] — suit and handheld-weapon upgrade and modification mechanics.
+* [[Colonia]] — regional reference and travel context.
 
 == Sources ==
+
 <references />
 
-{{Engineering nav}}
-
 [[Category:Engineers]]
-[[Category:Odyssey Engineering]]
-[[Category:Engineering]]
+[[Category:Odyssey Engineers]]
+[[Category:Colonia Engineers]]

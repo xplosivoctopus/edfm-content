@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Surface Mining
 Namespace: 0
 Page ID: 743
-Revision ID: 3610
-Timestamp: 2026-09-09T16:41:25Z
+Revision ID: 3796
+Timestamp: 2026-09-11T03:24:54Z
 Source URL: https://edfieldmanual.com/wiki/Surface_Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,49 +12,86 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article status
  |status=Partially verified
  |mode=Live
- |version=Elite Dangerous 4.4.1.0 Rhino update, first-day live behaviour reviewed 2026-09-03
- |reviewed=2026-09-03
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-11
  |reviewer=Sythan
- |source_quality=Official Frontier update notes, Frontier dev log, Frontier store/equipment pages, and early independent player testing where official documentation does not yet explain the mechanic
- |uncertainty=Exact rig-efficiency formulae, raw Microresource frequency, minimum rig spacing, multi-crew permissions, and some live edge cases still need additional verification.
+ |source_quality=Frontier release notes, Rhino announcement, and August 2026 developer log.
+ |uncertainty=Frontier has not published the formulas for site generation, deposit regeneration, temperature effects, or refinery conversion.
 }}
-{{Article header|section=Mining|deck=Planetary resource-extraction activity introduced with the Rhino SRV.}}
+'''Surface Mining''' is a Live-mode planetary activity introduced with the [[Rhino]] in Elite Dangerous update 4.4.1.0. Commanders locate a '''Planetary Mining Location''', deploy the Rhino from a compatible carrier ship, extract deposits with reusable mining rigs, refine the output aboard the vehicle, and transfer the resulting cargo to the ship.<ref name="frontier-4410">[https://www.elitedangerous.com/news/updates/4-4-1-0 Elite Dangerous – 4.4.1.0 Update Notes], Frontier Developments, 3 September 2026. Accessed 11 September 2026.</ref>
 
-'''Surface Mining''' is a planetary resource-extraction activity for ''Elite Dangerous'' associated with the [[Rhino]] [[Surface Recon Vehicles|Surface Recon Vehicle]]. Frontier describes it as a new way to acquire raw materials around geological sites on planetary surfaces and to extract more material from a planetary surface.<ref name="frontier-first-look">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface - Your First Look at the Rhino], Frontier Developments, 6 August 2026.</ref><ref name="frontier-august-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
+The ordered controls, rig placement, collection, recovery, and cargo-transfer sequence belongs to [[Surface Mining with the Rhino]].
 
-For the complete step-by-step procedure, see '''[[Surface Mining with the Rhino]]'''.
+== Activity mechanics ==
 
-== Overview ==
+=== Planetary Mining Locations ===
 
-Surface Mining expands SRV gameplay into a mining-focused ground loop. Frontier has described the Rhino as the vehicle built for this role, combining a larger cargo hold, built-in refinery, new scanning and extraction tools, and the torque needed to handle steeper inclines while carrying additional weight.<ref name="frontier-august-dev-log" />
+Planetary Mining Locations are surface points of interest detected by mapping a landable planet or moon with a [[Detailed Surface Scanner]]. They do not appear on every landable body.<ref name="frontier-4410" />
 
-The detailed extraction process is documented in [[Surface Mining with the Rhino]]. Frontier-confirmed mechanics should remain separated from first-day community-tested observations until the system has more live verification.
+Frontier describes these locations using several independent balance values:<ref name="frontier-4410" />
 
-== Locating deposits ==
+* site size;
+* deposit density;
+* deposit capacity;
+* weighted commodity availability;
+* deposit regeneration;
+* a temperature effect on mining output; and
+* the frequency of additional Microresource drops.
 
-Frontier has announced that the Rhino has a built-in scanner that detects planetary mining deposits. The scanner marks mineral-rich patches on the planetary surface and on sensors so the crew can position the vehicle for extraction.<ref name="frontier-august-dev-log" />
+These values make two locations on the same body potentially different mining prospects. Frontier has not published exact generation ranges or output formulae.
 
-== Resource depletion ==
+=== Deposits and mining rigs ===
 
-Frontier has stated that locations and quantities of materials are generated across each planetary surface, and that collected deposits regenerate at a very slow rate. As a result, a single resource-rich location is not expected to regularly deliver a high output after it has been mined.<ref name="frontier-august-dev-log" />
+Inside a Planetary Mining Location, the Rhino's [[Planetary Mineral Scanner]] reveals mineable deposits on the terrain and sensors. Its Mining Rig Deployment Module places automated rigs over valid deposits, and several rigs can operate simultaneously.<ref name="frontier-release">[https://www.elitedangerous.com/news/rhino-available-now-arx-early-access Rhino – Available Now Via ARX Early Access], Frontier Developments, 2 September 2026. Accessed 11 September 2026.</ref>
 
-== Related equipment ==
+A deposit has limited capacity and replenishes slowly after extraction.<ref name="frontier-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026. Accessed 11 September 2026.</ref> Update 4.4.1.1 increased the maximum output of a mining rig from 9 chunks to 12.<ref name="frontier-4411">[https://www.elitedangerous.com/news/updates/4-4-1-1 Elite Dangerous – 4.4.1.1 Update Notes], Frontier Developments, 3 September 2026. Accessed 11 September 2026.</ref>
 
-* [[Rhino]] — announced large SRV built for Surface Mining.
-* [[Large Planetary Vehicle Hangar]] — required to deploy the Rhino from compatible ships.
-* [[Planetary Mineral Scanner]] — Rhino equipment used to detect and mark planetary mining deposits.
+The Rhino refines collected chunks into commodity cargo through its built-in refinery. Frontier lists 72 tonnes of cargo capacity for the released vehicle.<ref name="frontier-store">[https://www.elitedangerous.com/store/vehicles/rhino Rhino], Elite Dangerous Gamestore, Frontier Developments. Accessed 11 September 2026.</ref>
 
-== See also ==
+=== Location economy ===
 
-* [[Mining]]
-* [[Surface Recon Vehicles]]
+Surface-mining locations are finite working sites rather than permanent unlimited sources. Deposit capacity limits immediate extraction, regeneration governs how quickly deposits return, and the local commodity weighting determines which resources are more likely.<ref name="frontier-4410" />
+
+A commodity being available at a location does not guarantee the same yield from every deposit. Valuable output must also be transferred from the Rhino to a carrier ship before it can be transported or sold.
+
+== Requirements ==
+
+A complete surface-mining operation requires:
+
+* a ship supported by the [[Large Planetary Vehicle Hangar]];
+* a fitted Large Planetary Vehicle Hangar carrying a Rhino;
+* a Detailed Surface Scanner for locating Planetary Mining Locations;
+* free cargo space aboard the carrier ship; and
+* enough time to collect rig output and recover deployed rigs before leaving the site.
+
+The released hangar supports classes 2–6 on most compatible ships and classes 2–4 on the Keelback. The exact ship list belongs to [[Large Planetary Vehicle Hangar#Compatibility|Large Planetary Vehicle Hangar § Compatibility]].<ref name="frontier-release" />
+
+== Relationship to other surface activities ==
+
+Surface Mining is distinct from:
+
+* collecting loose raw materials with an [[SRV]];
+* breaking ordinary surface outcrops;
+* asteroid mining in planetary rings; and
+* scavenging Odyssey settlements or crash sites.
+
+Those activities use different locations, equipment, and reward loops. The Rhino may travel across ordinary planetary terrain, but its mining rigs operate on deposits inside Planetary Mining Locations.
+
+== Related Field Procedures ==
+
+{{#invoke:Procedures|list|page=Surface Mining}}
+
+== Related Reference Pages ==
+
 * [[Rhino]]
+* [[Large Planetary Vehicle Hangar]]
 * [[Planetary Mineral Scanner]]
-* [[Surface Mining Prospecting]]
+* [[Detailed Surface Scanner]]
+* [[Mining]]
 
-== References ==
+== Sources ==
 
 <references />
 
 [[Category:Mining]]
-[[Category:Gameplay]]
+[[Category:Surface activities]]

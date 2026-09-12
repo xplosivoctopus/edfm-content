@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/index
 Namespace: 828
 Page ID: 434
-Revision ID: 1221
-Timestamp: 2026-08-20T23:58:47Z
+Revision ID: 3794
+Timestamp: 2026-09-11T03:22:43Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/index
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -59,6 +59,7 @@ return {
 	"Hull Reinforcement Package",
 	"Imperial Hammer",
 	"Kill Warrant Scanner",
+	"Large Planetary Vehicle Hangar",
 	"Life Support",
 	"Luxury Passenger Cabin",
 	"Manifest Scanner",

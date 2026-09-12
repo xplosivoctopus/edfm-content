@@ -1,0 +1,90 @@
+<!--
+EDFM current-content archive export.
+Title: How to Map a Planet or Moon with a Detailed Surface Scanner
+Namespace: 0
+Page ID: 832
+Revision ID: 3757
+Timestamp: 2026-09-10T20:18:51Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Map_a_Planet_or_Moon_with_a_Detailed_Surface_Scanner
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1; core planetary-mapping procedure also applies to Legacy
+ |reviewed=2026-09-10
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four exploration overview and established Detailed Surface Scanner documentation
+ |uncertainty=Control names and bindings vary by platform and custom control scheme.
+}}
+{{Field procedure|summary=Map a planet or moon with Detailed Surface Scanner probes, check both hemispheres, and meet the Probe Efficiency Target when practical.}}
+
+Use this procedure after identifying a planet or moon that is worth mapping. The Detailed Surface Scanner (DSS) maps one body at close range; it does not replace the system discovery and identification scans used earlier in an exploration pass.<ref name="frontier-beyond">[https://www.elitedangerous.com/en-US/news/elite-dangerous-beyond-chapter-four-out-now Elite Dangerous: Beyond – Chapter Four – Out Now], Frontier Developments, 11 December 2018. Accessed 10 September 2026.</ref>
+
+== Before you start ==
+
+* Fit and power a [[Detailed Surface Scanner]].
+* Assign '''Surface Scanner''' to a fire group.
+* Discover and identify the target body.
+* Remain in Supercruise and approach the body.
+
+== Procedure ==
+
+{{Procedure steps|
+# Target the planet or moon and reduce speed as you approach.
+# Switch the ship to '''Analysis Mode'''.
+# Activate the Surface Scanner from its assigned fire group when the target is within scanning range.
+# Note the '''Probe Efficiency Target''' shown in the DSS interface.
+# Fire probes across the visible hemisphere. Spread their impact circles instead of repeatedly covering the same terrain.
+# Aim probes just beyond the body's limb to curve their trajectories around to the far side. Use the trajectory indicator to distinguish a near-side hit, a far-side hit, and a miss.
+# Switch between the front and back coverage views and place probes across any large unmapped regions.
+# Stop when the scan completes. At 90% surface coverage, the DSS fills the remaining gaps and reports the body as fully mapped.<ref name="dss-community">[https://elite-dangerous.fandom.com/wiki/Detailed_Surface_Scanner Detailed Surface Scanner], Elite Dangerous Wiki. Accessed 10 September 2026.</ref>
+}}
+
+DSS probes replenish automatically; they do not consume cargo or require restocking.<ref name="dss-community" />
+
+== Meeting the Probe Efficiency Target ==
+
+The target is the maximum number of probes that can be used while still receiving the mapping-efficiency bonus. A body remains successfully mapped if more probes are used; only the bonus is missed.
+
+To use fewer probes:
+
+* avoid heavy overlap between impact circles;
+* place near-side probes around the visible disc rather than clustering them at the centre;
+* use the limb indicator to curve probes around the body instead of repositioning the ship; and
+* check the back view before firing extra probes.
+
+A larger '''Probe Radius''' covers more surface per impact and makes efficiency targets easier to meet. See [[Detailed Surface Scanner#Engineering|Detailed Surface Scanner § Engineering]] for standard Engineering and special variants.
+
+== Completion check ==
+
+The body should show as '''100% mapped'''. Surface points of interest and applicable signal filters become available after mapping, and the resulting exploration data can be submitted later. A previously unmapped body can receive a permanent First Mapped By tag when the successful scan data is submitted before another Commander's data.
+
+For a body with biological signals, continue with [[How to Choose an Exobiology Search Area with a Detailed Surface Scanner]].
+
+== Common problems ==
+
+* '''The DSS will not activate:''' confirm that the scanner is fitted, powered, assigned to the active fire group, and being used in Analysis Mode while in Supercruise with a valid target.
+* '''The target is out of range:''' continue approaching in Supercruise, then reduce speed before opening the scanner again.
+* '''Probes keep missing:''' use the trajectory indicator. An aim point too far beyond the limb will miss rather than curve around the body.
+* '''The far side remains unmapped:''' switch to the back coverage view and curve probes around the limb.
+* '''Small gaps remain:''' the map completes automatically at 90% coverage. Do not chase the final 10% after completion.
+* '''The efficiency target was exceeded:''' the scan still counts. Use wider spacing or an increased Probe Radius on the next body.
+* '''The body was identified but not mapped:''' system identification and detailed surface mapping are separate actions; open the DSS and complete the probe scan.
+
+== Related Reference Pages ==
+
+* [[Detailed Surface Scanner]]
+* [[Exploration]]
+* [[Sensors]]
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Map a Planet or Moon with a Detailed Surface Scanner}}
+
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
+[[Category:Exploration]]

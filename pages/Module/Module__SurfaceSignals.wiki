@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:SurfaceSignals
 Namespace: 828
 Page ID: 764
-Revision ID: 2607
-Timestamp: 2026-08-29T17:18:39Z
+Revision ID: 3765
+Timestamp: 2026-09-10T20:24:35Z
 Source URL: https://edfieldmanual.com/wiki/Module:SurfaceSignals
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -113,8 +113,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 --   {{#invoke:SurfaceSignals|table|type=Biological}}
 --   {{#invoke:SurfaceSignals|table|type=Geological}}
 --   {{#invoke:SurfaceSignals|table|type=Biological|detail=yes}}
+--   {{#invoke:SurfaceSignals|table|type=Biological|links=no}}
 --     Renders a sortable wikitable, alphabetical by name. `detail=yes`
---     adds a DSS filter behaviour column.
+--     adds a DSS filter behaviour column. `links=no` renders signal names
+--     as plain text when a reference table should not create article links.
 --
 --   {{#invoke:SurfaceSignals|list|type=Biological}}
 --   {{#invoke:SurfaceSignals|list|type=Geological}}
@@ -341,7 +343,14 @@ end
 -- p.table -- {{#invoke:SurfaceSignals|table|type=Biological}}
 ------------------------------------------------------------------------
 
-local function biologicalTable(records, detail)
+local function recordName(record, linkNames)
+	if linkNames then
+		return articleLink(record)
+	end
+	return esc(record.name)
+end
+
+local function biologicalTable(records, detail, linkNames)
 	local out = { '{| class="wikitable sortable"' }
 	if detail then
 		table.insert(out, '! Biological signal !! Classification !! Availability !! DSS filter behaviour')
@@ -350,7 +359,7 @@ local function biologicalTable(records, detail)
 	end
 	for _, record in ipairs(sortedByName(records)) do
 		table.insert(out, '|-')
-		table.insert(out, '| ' .. articleLink(record))
+		table.insert(out, '| ' .. recordName(record, linkNames))
 		table.insert(out, '| ' .. esc(record.subtype))
 		table.insert(out, '| ' .. availabilityText(record.game_mode))
 		if detail then
@@ -361,7 +370,7 @@ local function biologicalTable(records, detail)
 	return table.concat(out, '\n')
 end
 
-local function geologicalTable(records, detail)
+local function geologicalTable(records, detail, linkNames)
 	local out = { '{| class="wikitable sortable"' }
 	if detail then
 		table.insert(out, '! Geological signal !! Description !! Availability !! Codex variants')
@@ -370,7 +379,7 @@ local function geologicalTable(records, detail)
 	end
 	for _, record in ipairs(sortedByName(records)) do
 		table.insert(out, '|-')
-		table.insert(out, '| ' .. articleLink(record))
+		table.insert(out, '| ' .. recordName(record, linkNames))
 		table.insert(out, '| ' .. esc(record.description))
 		table.insert(out, '| ' .. availabilityText(record.game_mode))
 		if detail then
@@ -401,11 +410,12 @@ function p.table(frame)
 			esc(datasetName) .. '").</strong>'
 	end
 	local detail = (args.detail == 'yes' or args.detail == 'true')
+	local linkNames = not (args.links == 'no' or args.links == 'false')
 	local records = loadDataset(datasetName)
 	if datasetName == 'Biological' then
-		return biologicalTable(records, detail)
+		return biologicalTable(records, detail, linkNames)
 	end
-	return geologicalTable(records, detail)
+	return geologicalTable(records, detail, linkNames)
 end
 
 

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Mining
 Namespace: 828
 Page ID: 721
-Revision ID: 1625
-Timestamp: 2026-08-23T23:49:29Z
+Revision ID: 3744
+Timestamp: 2026-09-10T17:43:51Z
 Source URL: https://edfieldmanual.com/wiki/Module:Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -30,9 +30,10 @@ local function esc(value)
 	return mw.text.nowiki(tostring(value or ''))
 end
 
-local function link(page, label)
+local function link(page, label, enabled)
 	if not isNonEmpty(page) then return '' end
 	label = label or page
+	if enabled == false then return esc(label) end
 	if page == label then return '[[' .. page .. ']]' end
 	return '[[' .. page .. '|' .. label .. ']]'
 end
@@ -102,7 +103,7 @@ function p.locationConcepts()
 	local out = startTable({ 'Concept', 'Use in mining', 'Working notes' })
 	for _, record in ipairs(records) do
 		table.insert(out, '|-')
-		table.insert(out, '| data-sort-value="' .. esc(record.label or record.page) .. '" | ' .. link(record.page, record.label))
+		table.insert(out, '| data-sort-value="' .. esc(record.label or record.page) .. '" | ' .. link(record.page, record.label, record.link))
 		table.insert(out, '| ' .. esc(record.role))
 		table.insert(out, '| ' .. esc(record.notes))
 	end

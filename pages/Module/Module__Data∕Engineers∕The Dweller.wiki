@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/The Dweller
 Namespace: 828
 Page ID: 286
-Revision ID: 1168
-Timestamp: 2026-08-20T22:09:05Z
+Revision ID: 3807
+Timestamp: 2026-09-11T04:13:42Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/The_Dweller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -29,7 +29,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"prerequisite_engineer": null,
 	"prerequisite_engineer_note": null,
 	"prerequisite_engineer_display": "None — independent starting Engineer",
-	"discovery_requirement": "Professor Palin",
+	"discovery_requirement": "Common knowledge",
 	"invitation_requirement": "Sell commodities at 5 unique Black Markets",
 	"meeting_requirement": "Sell commodities at 5 unique Black Markets.",
 	"unlock": {

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Hera Tani
 Namespace: 828
 Page ID: 171
-Revision ID: 1156
-Timestamp: 2026-08-20T22:08:58Z
+Revision ID: 3861
+Timestamp: 2026-09-11T15:35:00Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Hera_Tani
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -32,12 +32,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "Referral from Liz Ryder",
 	"invitation_requirement": "Imperial Navy rank Outsider or higher",
 	"meeting_requirement": "Reach Imperial Navy rank Outsider or higher.",
-	"meeting_links": [
-		{
-			"text": "Imperial Navy rank",
-			"target": "Imperial Navy Rank"
-		}
-	],
 	"unlock": {
 		"action": "Deliver",
 		"quantity": 50,

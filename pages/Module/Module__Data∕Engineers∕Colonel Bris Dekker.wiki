@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Colonel Bris Dekker
 Namespace: 828
 Page ID: 409
-Revision ID: 1151
-Timestamp: 2026-08-20T22:08:55Z
+Revision ID: 3878
+Timestamp: 2026-09-11T17:07:14Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Colonel_Bris_Dekker
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -17,7 +17,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"system": "Sol",
 	"body": "Iapetus",
 	"facility": "Dekker's Yard",
-	"region": null,
+	"region": "The Bubble",
 	"allegiance": "Federation",
 	"specialties": [
 		"Frame Shift Drive Interdictor",
@@ -30,28 +30,8 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "Referral from Juri Ishmaak",
 	"invitation_requirement": "Friendly reputation with the Federation",
 	"meeting_requirement": "Reach at least Friendly reputation with the Federation.",
-	"meeting_links": [
-		{
-			"text": "reputation",
-			"target": "Reputation"
-		},
-		{
-			"text": "Federation",
-			"target": "Federation"
-		}
-	],
-	"unlock_requirement": "Provide either 1,000,000 CR or 10,000,000 CR worth of Federal Combat Bonds — the determining condition is not currently established; use the value shown in your own Engineer invitation.",
-	"access_note": "Sol is permit-locked. The Sol Permit is obtained through Federal Navy rank Petty Officer or higher, separate from the Friendly-Federation meeting requirement above.",
-	"access_note_links": [
-		{
-			"text": "Sol",
-			"target": "Sol"
-		},
-		{
-			"text": "Federal Navy rank",
-			"target": "Federal Navy Rank"
-		}
-	],
+	"unlock_requirement": "Provide either 1,000,000 CR or 10,000,000 CR worth of Federal combat bonds — the determining condition is not currently established; use the value shown in your own Engineer invitation.",
+	"access_note": "Sol is permit-locked. Its permit normally requires Federal Navy rank Petty Officer or higher, separate from the Friendly-Federation meeting requirement.",
 	"engineering": [
 		{
 			"grade": 4,

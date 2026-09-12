@@ -3,77 +3,118 @@ EDFM current-content archive export.
 Title: Yi Shen
 Namespace: 0
 Page ID: 142
-Revision ID: 2087
-Timestamp: 2026-08-24T21:25:24Z
+Revision ID: 3932
+Timestamp: 2026-09-12T04:19:45Z
 Source URL: https://edfieldmanual.com/wiki/Yi_Shen
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Stealth and perception specialist at Eidolon Hold in the Einheriar system, Colonia region.}}
-{{Article status|status=Needs review|mode=Live|version=Odyssey on-foot Engineering; exact patch scope not yet directly verified|reviewed=2026-08-20|reviewer=Structured-data migration pass — discovery/invitation/unlock/prerequisite now sourced from the Engineers directory table|source_quality=Location, referral structure, and unlock condition cross-referenced against Inara's Engineers listing; specific modification effect descriptions and engineering costs have not yet been researched|uncertainty=Specific modification effect descriptions, engineering costs (materials/credits), and maximum grade are not yet researched. Location, the three-Engineer referral structure, and the unlock condition are confirmed.}}
+{{Article status
+ |status=Verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Current INARA Engineer and workshop records, Frontier's Galnet coverage of the Colonia Engineers, and secondary Elite Dangerous Wiki corroboration.
+}}
 
-{{Engineer infobox}}
+{{Article header|deck=A stealth, night-operations, and precision-damage specialist at Eidolon Hold in Einheriar, reached by completing all three Colonia referral tasks.
+}}
 
-Yi Shen specialises in stealth and perception modifications for suits and handheld weapons.<ref name="inara-list" />
+{{Engineer infobox
+ |system=Einheriar
+ |body=Einheriar 1
+ |facility=Eidolon Hold
+ |region=Colonia
+ |discovery_requirement=Complete the referral tasks from Baltanos, Eleanor Bresa, and Rosa Dayette
+ |unlock_requirement=Completing all three referral tasks grants access
+ |modifications_suit=Night Vision, Quieter Footsteps
+ |modifications_weapon=Audio Masking, Headshot Damage
+}}
 
-Odyssey Engineering is a separate system from ship Engineering — it modifies suits and handheld weapons rather than ship modules, and exists only in Live (there is no Legacy equivalent). See [[Engineers]] for how the two systems are organised.
+'''Yi Shen''' is an [[Engineers|Odyssey Engineer]] based at '''Eidolon Hold''' in the '''Einheriar''' system of the [[Colonia]] region. He specialises in stealth, low-light operations, and precision weapon damage.<ref name="inara-yi">[https://inara.cz/elite/engineer/36/ Yi Shen — Engineer], INARA. Accessed 12 September 2026.</ref><ref name="edwiki-yi">[https://elite-dangerous.fandom.com/wiki/Yi_Shen Yi Shen], Elite Dangerous Wiki. Accessed 12 September 2026.</ref>
+
+Frontier introduced Yi with the four Colonia Odyssey Engineers and identifies them as providers of suit and personal-equipment modifications for commanders working on low-atmosphere worlds.<ref name="frontier-colonia">[https://www.elitedangerous.com/en-US/news/galnet/the-view-from-colonia The View from Colonia], Frontier Developments, 29 October 2021. Accessed 12 September 2026.</ref>
 
 == Location ==
-* '''System:''' Einheriar
-* '''Settlement:''' Eidolon Hold
-* '''Region:''' Colonia — this Engineer is only reachable after making the long journey to the Colonia region, separate from the core bubble.
 
-== How to Discover This Engineer ==
-Yi Shen is discovered by completing the separate referral task at each of [[Baltanos]], [[Eleanor Bresa]], and [[Rosa Dayette]].<ref name="inara-list">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+Yi's workshop is at '''Eidolon Hold''', a surface Engineer base on '''Einheriar 1''' in the '''Einheriar''' system. The body is approximately 163 light-seconds from the system arrival point.<ref name="inara-eidolon">[https://inara.cz/elite/station/427832/ Eidolon Hold — Station], INARA. Accessed 12 September 2026.</ref>
 
-Unlike the other twelve Odyssey Engineers, Yi Shen has no single prerequisite Engineer — all three referral tasks must be completed, in any order, before Yi Shen becomes known.
+The workshop is in the Colonia region, roughly 22,000 light-years from Sol. No system permit is required.
 
-== How to Receive an Invitation ==
-There is no separate invitation requirement distinct from the unlock requirement below.
+== Discovery and access ==
 
-== How to Unlock This Engineer ==
-Unlock requirements summary:
-* Complete the referral task at [[Baltanos]] (deliver 10 Faction Associates data).
-* Complete the referral task at [[Eleanor Bresa]] (deliver 10 Digital Designs).
-* Complete the referral task at [[Rosa Dayette]] (deliver 10 Manufacturing Instructions data).
+Yi is reached through the three independently accessible Colonia Odyssey Engineers. Complete each of their referral tasks:<ref name="inara-yi" />
 
-For the complete step-by-step process, see [[Unlocking Yi Shen]].
+{| class="wikitable"
+! Engineer
+! Referral task
+|-
+| [[Baltanos]]
+| Provide 10 Faction Associates Data.
+|-
+| [[Eleanor Bresa]]
+| Provide 10 Digital Designs Data.
+|-
+| [[Rosa Dayette]]
+| Provide 10 Manufacturing Instructions Data.
+|}
 
-== Engineer Unlock Chain ==
-Yi Shen is the convergent target of all three independent Colonia Odyssey Engineers:
+The tasks are independent and may be completed in any order. Completing all three discovers Yi and grants access to his workshop; there is no additional commodity delivery, sales target, or reputation requirement at Eidolon Hold.<ref name="inara-yi" />
 
-* [[Baltanos]] → Yi Shen
-* [[Eleanor Bresa]] → Yi Shen
-* [[Rosa Dayette]] → Yi Shen
+Station services may not appear immediately after access is granted. If necessary, return to the main menu and re-enter the game.<ref name="inara-yi" />
 
-All three referral tasks are independent of each other and can be completed in any order.<ref name="inara-list" />
+== Services ==
 
-== Available Engineering ==
-{{Draft warning}}
-Specific suit/weapon modification names and maximum grades were not confirmed in the sources checked for this pass — see [[Elite Dangerous Field Manual:Engineering Architecture]] for the site's policy on not inventing unconfirmed specifics. Confirmed specialty area: Stealth and perception.
+Yi installs two suit modifications and two handheld-weapon modifications.<ref name="inara-yi" />
 
-== Experimental Effects ==
-To be added — not confirmed in the sources checked for this pass.
+=== Suit modifications ===
 
-== Increasing Engineer Reputation ==
-Reputation increases through crafting modifications at their workshop, in line with the general mechanic covered on the main [[Engineering]] page.
+{| class="wikitable"
+! Modification
+! Function
+|-
+| Night Vision
+| Adds a low-light viewing mode to the suit.
+|-
+| Quieter Footsteps
+| Reduces the distance from which footsteps can be heard.
+|}
 
-== Blueprint Pinning ==
-'''Fact:''' Yi Shen's confirmed specialty area is Stealth and perception.
+=== Weapon modifications ===
 
-'''EDFM recommendation:''' Not yet made. A pinning recommendation needs the specific modification and maximum-grade data above filled in first — see [[Elite Dangerous Field Manual:Engineering Architecture]] for why EDFM treats pinning guidance as editorial judgement, not a database fact.
+{| class="wikitable"
+! Modification
+! Function
+|-
+| Audio Masking
+| Reduces a weapon's simulated sound in unpressurised environments.
+|-
+| Headshot Damage
+| Increases damage inflicted by headshots.
+|}
 
-== Related Engineers ==
-[[Baltanos]], [[Eleanor Bresa]], and [[Rosa Dayette]] are the three independent Colonia Odyssey Engineers whose referral tasks converge on Yi Shen.
+{{Field note|Yi combines Night Vision and Quieter Footsteps on one workshop roster, making him particularly useful for a stealth-oriented suit. Audio Masking applies in unpressurised environments; Noise Suppressor is the related firearm modification for pressurised interiors.}}
 
-== Related Guides ==
-{{Related articles|[[Engineering]] [[Engineer Unlock Guide]]}}
+Suit and handheld-weapon modifications are permanent once installed. The equipment must have an unused modification slot, and the required Odyssey materials and credits are paid at the workshop. See [[Odyssey Engineering]] for equipment grades, modification slots, material handling, and the installation process.
+
+== Reputation and progression ==
+
+Odyssey Engineers do not use the Grade 1–5 workshop-reputation system used by ship Engineers. Once Yi is unlocked, his available modifications can be installed immediately when the equipment and material requirements are met.
+
+Yi does not provide a direct referral to another Engineer.<ref name="inara-yi" />
+
+== Related pages ==
+
+* [[Baltanos]], [[Eleanor Bresa]], and [[Rosa Dayette]] — the three Engineers whose referral tasks grant access to Yi.
+* [[Engineers]] — directory of Engineer locations, requirements, services, and referral relationships.
+* [[Odyssey Engineering]] — suit and handheld-weapon upgrade and modification mechanics.
+* [[Colonia]] — regional reference and travel context.
 
 == Sources ==
+
 <references />
 
-{{Engineering nav}}
-
 [[Category:Engineers]]
-[[Category:Odyssey Engineering]]
-[[Category:Engineering]]
+[[Category:Odyssey Engineers]]
+[[Category:Colonia Engineers]]

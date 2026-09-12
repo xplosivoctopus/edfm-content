@@ -3,15 +3,15 @@ EDFM current-content archive export.
 Title: Module:Procedures
 Namespace: 828
 Page ID: 700
-Revision ID: 1691
-Timestamp: 2026-08-24T02:02:06Z
+Revision ID: 3764
+Timestamp: 2026-09-10T20:24:17Z
 Source URL: https://edfieldmanual.com/wiki/Module:Procedures
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 -- Module:Procedures
 -- Canonical Field Procedure metadata and directory helpers.
--- Mining procedure records are stored in Module:Data/Procedures/Mining.
+-- Activity procedure records are stored in topic-specific data modules.
 -- Engineer unlock procedures are derived from Module:Data/Engineers so the
 -- Field Procedures directory does not duplicate the Engineer roster.
 
@@ -19,6 +19,8 @@ local p = {}
 
 local TOPIC_ORDER = {
 	"Mining",
+	"Exploration",
+	"Exobiology",
 	"Engineering",
 	"Odyssey / On-foot",
 }
@@ -72,10 +74,16 @@ local function copyRecord(record)
 	return out
 end
 
-local function miningProcedures()
+local function dataProcedures()
 	local out = {}
-	for _, record in ipairs(loadData('Module:Data/Procedures/Mining')) do
-		table.insert(out, copyRecord(record))
+	local modules = {
+		"Module:Data/Procedures/Mining",
+		"Module:Data/Procedures/Exploration",
+	}
+	for _, moduleName in ipairs(modules) do
+		for _, record in ipairs(loadData(moduleName)) do
+			table.insert(out, copyRecord(record))
+		end
 	end
 	return out
 end
@@ -103,7 +111,7 @@ end
 
 local function allProcedures()
 	local out = {}
-	for _, record in ipairs(miningProcedures()) do table.insert(out, record) end
+	for _, record in ipairs(dataProcedures()) do table.insert(out, record) end
 	for _, record in ipairs(engineerProcedures()) do table.insert(out, record) end
 	table.sort(out, function(a, b)
 		local at = a.topic or ''
@@ -181,6 +189,10 @@ function p.directory(frame)
 		table.insert(out, '== ' .. topic .. ' ==')
 		if topic == 'Mining' then
 			table.insert(out, 'Procedures for finding mining locations, extracting resources from asteroids, handling limpets and refinery bins, and selling mined commodities.')
+		elseif topic == 'Exploration' then
+			table.insert(out, 'Procedures for surveying systems and mapping planetary bodies.')
+		elseif topic == 'Exobiology' then
+			table.insert(out, 'Procedures for selecting biological search areas and carrying out Exobiology fieldwork.')
 		elseif topic == 'Engineering' then
 			table.insert(out, 'Procedures for gaining access to ship Engineers and completing Engineering-related unlock workflows.')
 		elseif topic == 'Odyssey / On-foot' then

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Juri Ishmaak
 Namespace: 828
 Page ID: 407
-Revision ID: 1157
-Timestamp: 2026-08-20T22:08:59Z
+Revision ID: 3873
+Timestamp: 2026-09-11T16:51:59Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Juri_Ishmaak
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -24,7 +24,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		"Mine Launcher",
 		"Sensors",
 		"Abrasion Blaster",
-		"Enzyme Missile Rack",
+		{
+			"display": "Enzyme Missile Rack",
+			"link": false
+		},
 		"Mining Laser",
 		"Seeker Missile Rack",
 		"Frame Shift Wake Scanner",
@@ -40,7 +43,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "Referral from Felicity Farseer",
 	"invitation_requirement": "Claim more than 50 Federal combat bonds",
 	"meeting_requirement": "Claim more than 50 Federal combat bonds.",
-	"unlock_requirement": "100,000 CR or 1,000,000 CR worth of Federal Combat Bonds — the determining condition is not established, so treat the value shown on your own Engineer invitation as authoritative",
+	"unlock_requirement": "100,000 CR or 1,000,000 CR worth of Federal combat bonds — the determining condition is not established, so treat the value shown on your own Engineer invitation as authoritative.",
 	"engineering": [
 		{
 			"grade": 5,
@@ -56,9 +59,11 @@ This is current wikitext only; no revision history, user database, logs, deleted
 			"merc": true,
 			"modules": [
 				"Abrasion Blaster",
-				"Enzyme Missile Rack",
-				"Mining Laser",
-				"Seeker Missile Rack"
+				{
+					"display": "Enzyme Missile Rack",
+					"link": false
+				},
+				"Mining Laser"
 			]
 		},
 		{

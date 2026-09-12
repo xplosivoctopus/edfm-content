@@ -3,74 +3,155 @@ EDFM current-content archive export.
 Title: Tiana Fortune
 Namespace: 0
 Page ID: 118
-Revision ID: 2041
-Timestamp: 2026-08-24T21:24:23Z
+Revision ID: 3867
+Timestamp: 2026-09-11T15:54:47Z
 Source URL: https://edfieldmanual.com/wiki/Tiana_Fortune
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Scanner and limpet controller specialist based in the Achenar system, reachable through Hera Tani.}}
-{{Article status|status=Needs review|mode=Both|version=Live and Legacy; exact patch scope not yet directly verified|reviewed=2026-08-07|reviewer=Desk research; pending direct in-game verification — see Sources|source_quality=Location and specialty cross-referenced against Inara's Engineers listing; prerequisite/discovery/invitation/unlock detail drawn primarily from a single community unlock-chain guide — see Sources|uncertainty=Maximum engineering grade and full blueprint names were not found in the sources checked.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live and Legacy
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-11
+ |reviewer=Sythan
+ |source_quality=Current INARA Engineer and Blueprint records, Frontier Operations notes, and the in-game biography reproduced by the Elite Dangerous Wiki.
+}}
+{{Article header|deck=Grade 5 scanner, sensor, and limpet-controller Engineer at Fortune's Loss in permit-locked Achenar.
+}}
 
-{{Engineer infobox}}
+{{Engineer infobox
+ |system=Achenar
+ |facility=Fortune's Loss
+ |allegiance=Empire
+ |invitation_requirement=Friendly reputation with the Empire
+ |unlock_requirement=Deliver 50 Decoded Emission Data
+}}
 
-Tiana Fortune specialises in scanners, limpet controllers modifications. They're reached through [[Hera Tani]].<ref name="inara-list" />
+'''Tiana Fortune''' is a ship Engineer based at '''Fortune's Loss''' in the permit-locked '''Achenar''' system. A former Imperial Guard officer with a talent for electronic engineering, she specialises in scanners, sensors, limpet controllers, and related utility modules.<ref name="edwiki-tiana">[https://elite-dangerous.fandom.com/wiki/Tiana_Fortune Tiana Fortune], Elite Dangerous Wiki. Accessed 11 September 2026.</ref>
+
+Tiana provides '''Grade 5''' engineering for eight module families. She also offers Grade 3 engineering for the [[Detailed Surface Scanner]] and [[Frame Shift Drive Interdictor]], plus Grade 4 Extended [[Cargo Rack]] engineering in Live.<ref name="inara-tiana">[https://inara.cz/elite/engineer/16/ Tiana Fortune — Engineer], INARA. Accessed 11 September 2026.</ref>
 
 == Location ==
+
 * '''System:''' Achenar
 * '''Facility:''' Fortune's Loss
+* '''Allegiance:''' Empire
+* '''Engineer scope:''' Ship scanners, sensors, limpet controllers, and utility modules
+* '''Referral required:''' [[Hera Tani]]
+* '''System permit required:''' Yes — the Achenar permit requires Imperial Navy rank Squire or higher<ref name="edwiki-tiana" />
 
-== How to Discover This Engineer ==
-Referral from Hera Tani.<ref name="wanderer-chain">[https://wanderer-toolbox.com/guides/engineering-unlock/ Engineering Unlock Guide], Wanderer's Toolbox.</ref><ref name="inara-list">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+== Access requirements ==
 
-== How to Receive an Invitation ==
-Not yet confirmed.<ref name="wanderer-chain" />
+Access to Tiana Fortune requires:<ref name="inara-tiana" /><ref name="edwiki-tiana" />
 
-== How to Unlock This Engineer ==
-Unlock requirements summary:
-* Have [[Hera Tani]] unlocked and build reputation with them to trigger the referral.
-* Meet the invitation requirement: not yet confirmed.
-* Deliver '''50 units of Decoded Emission Data''' — a data-type material rather than a cargo commodity.
+# Reach '''Grade 3 access plus at least one-third progress toward Grade 4''' with [[Hera Tani]] to receive her referral.
+# Reach '''Friendly reputation with the Empire'''.
+# Obtain the '''Achenar permit''', which requires Imperial Navy rank Squire or higher.
+# Provide '''50 units of Decoded Emission Data''' at Fortune's Loss.
 
-For the complete step-by-step process, see [[Unlocking Tiana Fortune]].
+Decoded Emission Data is an Encoded Engineering Material rather than cargo. The complete ordered process, including Imperial rank progression and material acquisition, belongs to [[Unlocking Tiana Fortune]].
 
-== Engineer Unlock Chain ==
-''No verified multi-Engineer chain to display for this Engineer.''
+== Workshop reputation ==
 
-Tiana Fortune is listed as reachable through [[Hera Tani]] alongside [[Broo Tarquin]], but that specific relationship still needs direct verification — see the note on [[Hera Tani]]'s own page.<ref name="wanderer-chain" />
+Reputation with Tiana Fortune increases by:<ref name="inara-tiana" />
 
-== Available Engineering ==
-{| class="wikitable"
-! Module !! Notes !! Maximum grade
+* crafting modifications at her workshop; or
+* selling commodities at Fortune's Loss.
+
+Higher reputation opens the grades that Tiana supports. INARA notes that station services may not appear immediately after the first unlock; beginning a new game session can make those services available.<ref name="inara-tiana" />
+
+== Engineering services ==
+
+{| class="wikitable sortable" style="width:100%;"
+! Module
+! Maximum grade
+! Availability
 |-
-| Scanners || Range and other variants || To be confirmed
+| [[Collector Limpet Controller]]
+| '''Grade 5'''
+| Live and Legacy
 |-
-| Limpet Controller || Range and other variants || To be confirmed
+| [[Frame Shift Wake Scanner]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Fuel Transfer Limpet Controller]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Hatch Breaker Limpet Controller]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Kill Warrant Scanner]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Manifest Scanner]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Prospector Limpet Controller]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Sensors]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Cargo Rack]]
+| '''Grade 4'''
+| Live only; Merc module
+|-
+| [[Detailed Surface Scanner]]
+| '''Grade 3'''
+| Live and Legacy; additional Live-only blueprint
+|-
+| [[Frame Shift Drive Interdictor]]
+| '''Grade 3'''
+| Live and Legacy
 |}
-Full blueprint names and maximum grades were not confirmed to the same depth as the core chain pages for this pass — see [[Elite Dangerous Field Manual:Engineering Architecture]] for the site's policy on not inventing unconfirmed specifics.<ref name="wanderer-chain" />
 
-== Experimental Effects ==
-To be added — not confirmed in the sources checked for this pass.
+The available conventional modification families, effects, trade-offs, and recipes belong to [[Engineering Blueprints]]. Compatible secondary modifications belong to [[Experimental Effects]].
 
-== Increasing Engineer Reputation ==
-Reputation increases through crafting modifications at their workshop, in line with the general mechanic covered on the main [[Engineering]] page.
+=== Operations-era services ===
 
-== Blueprint Pinning ==
-'''Fact:''' Tiana Fortune's confirmed specialties are Scanners, Limpet Controllers, per [[#Available Engineering|Available Engineering]] above.
+Current Live records add two Operations-era services to Tiana's workshop:<ref name="frontier-operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments, 30 June 2026. Accessed 11 September 2026.</ref><ref name="inara-tiana" />
 
-'''EDFM recommendation:''' Not yet made. A pinning recommendation needs the maximum-grade and full blueprint data above filled in first — see [[Elite Dangerous Field Manual:Engineering Architecture]] for why EDFM treats pinning guidance as editorial judgement, not a database fact.
+* '''Extended''' [[Cargo Rack]] engineering through Grade 4<ref name="inara-extended">[https://inara.cz/elite/blueprint/206/ Cargo Rack — Extended], INARA. Accessed 11 September 2026.</ref>
+* '''Long Range Detailed''' [[Detailed Surface Scanner]] engineering through Grade 3<ref name="inara-long-range">[https://inara.cz/elite/blueprint/205/ Detailed Surface Scanner — Long Range Detailed], INARA. Accessed 11 September 2026.</ref>
 
-== Related Engineers ==
-{{Related articles|label=Related Engineers|[[Hera Tani]]}}
+These services are not part of Legacy Engineering. Exact modifiers, costs, and module compatibility belong to the corresponding [[Engineering Blueprints|Blueprint]] records rather than this Engineer article.
 
-== Related Guides ==
-{{Related articles|[[Engineering]] [[Engineer Unlock Guide]]}}
+== Blueprint pinning and remote work ==
+
+After sufficient reputation has been earned, one Tiana Fortune blueprint can be pinned for use through [[Remote Engineering]]. A pinned blueprint cannot exceed the grade she offers, and Experimental Effects still require an appropriate workshop visit.
+
+== Direct referrals ==
+
+Current Engineer records do not identify another Engineer whose discovery requirement comes directly from Tiana Fortune. Her active referral branch therefore ends at her workshop.<ref name="inara-tiana" />
+
+== Related pages ==
+
+* [[Engineering]] — the modification system and progression model
+* [[Engineers]] — access overview and Engineer directories
+* [[Sensors]] — one of Tiana's Grade 5 specialties
+* [[Detailed Surface Scanner]] — one of her Grade 3 specialties
+* [[Cargo Rack]] — her Live-only Grade 4 service
+* [[Engineering Materials]] — the material system that includes Decoded Emission Data
+* [[Engineering Blueprints]] — blueprint families, grades, effects, and recipes
+* [[Experimental Effects]] — compatible secondary modifications
+* [[Remote Engineering]] — using pinned blueprints away from a workshop
+* [[Unlocking Tiana Fortune]] — ordered access procedure
 
 == Sources ==
+
 <references />
 
 {{Engineering nav}}
 
 [[Category:Engineers]]
+[[Category:Optional Internal Engineering]]
 [[Category:Utility Engineering]]
 [[Category:Engineering]]

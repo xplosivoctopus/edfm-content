@@ -1,0 +1,86 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Procedures/Exploration
+Namespace: 828
+Page ID: 834
+Revision ID: 3763
+Timestamp: 2026-09-10T20:23:28Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Procedures/Exploration
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	{
+		key = "exploration-map-body-with-dss",
+		title = "How to Map a Planet or Moon with a Detailed Surface Scanner",
+		page = "How to Map a Planet or Moon with a Detailed Surface Scanner",
+		summary = "Map a planet or moon with DSS probes, check both hemispheres, and meet the Probe Efficiency Target when practical.",
+		topic = "Exploration",
+		activity = "Planetary Mapping",
+		category = "Field Procedures",
+		prerequisites = {
+			"A discovered and identified planet or moon",
+			"A ship able to remain in Supercruise near the target body",
+		},
+		equipment = {
+			"Detailed Surface Scanner",
+		},
+		modules = {
+			"Detailed Surface Scanner",
+		},
+		expected_result = "The selected body reaches 100% mapped and its detailed surface information becomes available.",
+		tags = {
+			"Exploration",
+			"Planetary mapping",
+			"Detailed Surface Scanner",
+		},
+		related_reference_pages = {
+			"Detailed Surface Scanner",
+			"Exploration",
+			"Sensors",
+		},
+		related_procedures = {
+			"How to Choose an Exobiology Search Area with a Detailed Surface Scanner",
+			"How to Scan Planetary Rings for Mining Hotspots",
+		},
+		status = "Partially verified",
+		dss_relevance = "Primary planetary-mapping procedure.",
+	},
+	{
+		key = "exobiology-choose-dss-search-area",
+		title = "How to Choose an Exobiology Search Area with a Detailed Surface Scanner",
+		page = "How to Choose an Exobiology Search Area with a Detailed Surface Scanner",
+		summary = "Use a mapped body's Signals Filter and visible terrain to choose a promising Exobiology search area.",
+		topic = "Exobiology",
+		activity = "Exobiology",
+		category = "Field Procedures",
+		prerequisites = {
+			"A mapped body with at least one biological signal",
+			"Current Live galaxy with Odyssey Exobiology",
+		},
+		equipment = {
+			"Detailed Surface Scanner",
+			"A ship or surface vehicle suitable for the local search",
+		},
+		modules = {
+			"Detailed Surface Scanner",
+		},
+		expected_result = "The Commander reaches suitable highlighted terrain for the selected biological genus and begins the local visual search.",
+		tags = {
+			"Exobiology",
+			"Signals Filter",
+			"Habitat",
+			"Detailed Surface Scanner",
+		},
+		related_reference_pages = {
+			"Detailed Surface Scanner",
+			"Exobiology",
+			"Exploration",
+		},
+		related_procedures = {
+			"How to Map a Planet or Moon with a Detailed Surface Scanner",
+		},
+		status = "Partially verified",
+		dss_relevance = "Uses DSS biological signal filters after planetary mapping.",
+	},
+}

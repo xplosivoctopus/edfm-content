@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Lei Cheung
 Namespace: 828
 Page ID: 405
-Revision ID: 1158
-Timestamp: 2026-08-20T22:08:59Z
+Revision ID: 3838
+Timestamp: 2026-09-11T13:45:39Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Lei_Cheung
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -31,7 +31,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"prerequisite_engineer_display": null,
 	"discovery_requirement": "Referral from The Dweller",
 	"invitation_requirement": "Trade at 50 unique commodity markets",
-	"meeting_requirement": "Trade at at least 50 unique commodity markets.",
+	"meeting_requirement": "Trade at least 50 unique commodity markets.",
 	"unlock": {
 		"action": "Deliver",
 		"quantity": 200,

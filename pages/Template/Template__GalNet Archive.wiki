@@ -3,14 +3,20 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 3670
-Timestamp: 2026-09-09T21:00:02Z
+Revision ID: 3941
+Timestamp: 2026-09-12T07:00:03Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 <noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
 <div class="edfm-galnet-archive-list">
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">11 SEP 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6aa3bc366f39584229038902 Federation Condemns Ongoing October Accords Exclusion]</div>
+<div class="edfm-galnet-summary">President Felicia Winters held a conference today condemning the continued exclusion of the Federation from ongoing research into Radicoida unica. Speaking directly from the White House at Olympus Village, Mars, she addressed the press stating that Federal military analysts confirmed the coalition under the October agreement now posed a…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6aa3bc366f39584229038902 Read the official GalNet transmission]</div>
+</div>
 <div class="edfm-galnet-archive-entry">
 <div class="edfm-galnet-date">03 SEP 3312</div>
 <div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a993628a96f951e83045c7e Wreaken Calls for Surface Mining Support Tests]</div>
@@ -95,12 +101,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-summary">Faulcon DeLacy, the manufacturer behind the popular Python and Cobra ship designs, has announced the limited release of the Nomad. The Nomad is a ship-launched craft intended to aid explorers in larger ships, allowing them to explore planet surfaces and locations requiring tight manoeuvrability and speed. Chief of Design, Frank Endis…</div>
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a42939761e26db00b0f642b Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">30 JUN 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a4292538b6bdffc98029838 Frontline Solutions Officially Launches Anti-Crime Deployments]</div>
-<div class="edfm-galnet-summary">Frontline Solutions has announced that its expanded deployment service has started shipping mercenaries to anti-crime operations across the core systems. Following the successful manufacturing and test trials of the Runner transport, CEO Imogen le Ray confirmed in a press release that her corporation is ready to deploy strike teams…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a4292538b6bdffc98029838 Read the official GalNet transmission]</div>
 </div>
-</div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 09 Sep 2026 21:00 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 12 Sep 2026 07:00 UTC.</div>
 </div></includeonly>

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Tiana Fortune
 Namespace: 828
 Page ID: 410
-Revision ID: 1170
-Timestamp: 2026-08-20T22:09:06Z
+Revision ID: 3866
+Timestamp: 2026-09-11T15:54:28Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Tiana_Fortune
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -49,22 +49,8 @@ This is current wikitext only; no revision history, user database, logs, deleted
 			"target": "Empire"
 		}
 	],
-	"unlock": {
-		"action": "Deliver",
-		"quantity": 50,
-		"item": "Decoded Emission Data"
-	},
+	"unlock_requirement": "Deliver 50 Decoded Emission Data.",
 	"access_note": "Achenar is permit-locked; the permit requires Imperial Navy rank Squire or higher.",
-	"access_note_links": [
-		{
-			"text": "Achenar",
-			"target": "Achenar"
-		},
-		{
-			"text": "Imperial Navy rank",
-			"target": "Imperial Navy Rank"
-		}
-	],
 	"engineering": [
 		{
 			"grade": 5,
@@ -80,7 +66,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 			]
 		},
 		{
-			"grade": 5,
+			"grade": 4,
 			"live_only": true,
 			"merc": true,
 			"modules": [

@@ -3,79 +3,65 @@ EDFM current-content archive export.
 Title: Template:New guide page
 Namespace: 10
 Page ID: 167
-Revision ID: 2094
-Timestamp: 2026-08-24T21:25:43Z
+Revision ID: 3735
+Timestamp: 2026-09-10T16:09:18Z
 Source URL: https://edfieldmanual.com/wiki/Template:New_guide_page
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 <noinclude>
 == Usage ==
-'''Subst-only skeleton, not a live template.''' Start a new guide (Field
-Procedure) article by creating the page — plain page name, no
-namespace/subpage prefix, matching this wiki's flat-title convention, e.g.
-<code>[[Unlocking Broo Tarquin]]</code>, not <code>Guide:Unlocking Broo
-Tarquin</code> — and, as the very first edit, entering:
+'''Subst-only skeleton, not a live template.''' Start a new Field Procedure with a plain Main-namespace title, such as <code>[[Unlocking Broo Tarquin]]</code>, and enter:
 
 <pre>{{subst:New guide page}}</pre>
 
-then saving and filling in the placeholders. Substituting (rather than
-transcluding live) means every guide ends up as normal, freely editable
-wikitext, same reasoning as {{tl|New engineer page}}.
+Substitution creates ordinary, independently editable wikitext. Replace the hidden drafting comments with finished content and remove sections that do not apply before the article moves beyond Draft status.
 
-A guide is a '''procedure''', not a second encyclopedia article. If the
-subject already has a Main-namespace reference article (e.g.
-[[Broo Tarquin]], [[Multi-Cannon]]), do not re-explain what it is or what
-it specialises in here — link to the reference article instead and keep
-this page to the actionable checklist (requirements, steps, expected
-result). See [[Elite Dangerous Field Manual:Creating a Guide]] and
-[[Elite Dangerous Field Manual:Editorial Policy]].
+A Field Procedure explains how to complete a task. It may identify related ships, modules, commodities, Engineers, and mechanics when the procedure needs that context, but their full specifications and background remain on their reference pages. See [[Elite Dangerous Field Manual:Creating a Guide]] and [[Elite Dangerous Field Manual:Editorial Policy#Topic ownership and page scope|Topic ownership and page scope]].
 
-Do not invent requirements, quantities, or steps — leave a section as "to
-be added" until it's been checked against the live game or a reliable
-source, per [[Elite Dangerous Field Manual:Editorial Policy]].
+Do not publish guessed requirements, quantities, locations, or steps. Keep uncertain mechanics clearly qualified and verify material claims against the live game or a reliable current source.
+
 [[Category:Templates]]
-</noinclude><includeonly>{{Article header|deck=To be added: a one-line summary of what this guide accomplishes.}}
+</noinclude><includeonly>{{Article header|deck=<!-- Write one sentence explaining what the procedure accomplishes. -->}}
 {{Article status|status=Draft|mode=Both}}
 
 == Objective ==
-To be added.
+<!-- State the task and the result the commander is working toward. -->
 
 == Prerequisites ==
 {{Prerequisites|
-* To be added
+<!-- List access requirements, ranks, prior unlocks, or other conditions. Remove this section if none apply. -->
 }}
 
 == Required Materials, Equipment, and Access ==
-To be added.
+<!-- List required and clearly identified optional equipment or materials. Link each reference subject where useful. -->
 
 == Estimated Time ==
-To be added.
+<!-- Give a supported practical estimate or remove this section. -->
 
 == Step-by-Step Procedure ==
 {{Procedure steps|
-# To be added
+<!-- Replace this comment with numbered steps. -->
 }}
 
 == Expected Result ==
-{{Expected result|To be added}}
+{{Expected result|<!-- Describe the observable completion state. -->}}
 
 == Common Mistakes ==
 {{Common mistakes|
-* To be added
+<!-- List mistakes that directly affect this procedure, or remove this section. -->
 }}
 
 == Troubleshooting ==
 {{Troubleshooting|
-; To be added
-: To be added
+<!-- Use definition-list pairs for real problems and fixes, or remove this section. -->
 }}
 
 == Related Reference Pages ==
-{{Related articles|[[To be added]]}}
+<!-- Add a short {{Related articles|...}} list containing only directly relevant subjects. -->
 
 == Relevant External Tools ==
-{{Related tools|To be added}}
+<!-- Add {{Related tools|...}} only when an external tool materially helps with this task. -->
 
 == Sources ==
 <references />

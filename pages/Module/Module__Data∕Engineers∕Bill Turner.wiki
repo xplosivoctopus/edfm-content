@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Bill Turner
 Namespace: 828
 Page ID: 414
-Revision ID: 1148
-Timestamp: 2026-08-20T22:08:54Z
+Revision ID: 3850
+Timestamp: 2026-09-11T14:24:14Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Bill_Turner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -39,32 +39,8 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "Referral from Selene Jean",
 	"invitation_requirement": "Friendly reputation with the Alliance; Alioth system permit required to reach the workshop",
 	"meeting_requirement": "Reach at least Friendly reputation with the Alliance, and obtain the Alioth system permit (Allied reputation with the Alioth Independents).",
-	"meeting_links": [
-		{
-			"text": "reputation",
-			"target": "Reputation"
-		},
-		{
-			"text": "Alliance",
-			"target": "Alliance"
-		},
-		{
-			"text": "Alioth",
-			"target": "Alioth"
-		}
-	],
 	"access_note": "System permit required — Alioth (associated with Allied reputation with the Alioth Independents).",
-	"access_note_links": [
-		{
-			"text": "Alioth",
-			"target": "Alioth"
-		}
-	],
-	"unlock": {
-		"action": "Deliver",
-		"quantity": 50,
-		"item": "Bromellite"
-	},
+	"unlock_requirement": "Deliver 50 Bromellite.",
 	"engineering": [
 		{
 			"grade": 5,
@@ -75,7 +51,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 			]
 		},
 		{
-			"grade": 5,
+			"grade": 4,
 			"live_only": true,
 			"merc": true,
 			"modules": [

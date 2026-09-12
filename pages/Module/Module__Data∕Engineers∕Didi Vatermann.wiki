@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Didi Vatermann
 Namespace: 828
 Page ID: 415
-Revision ID: 1152
-Timestamp: 2026-08-20T22:08:56Z
+Revision ID: 3852
+Timestamp: 2026-09-11T14:28:38Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Didi_Vatermann
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -30,17 +30,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "Referral from Selene Jean",
 	"invitation_requirement": "Trade rank Merchant or higher",
 	"meeting_requirement": "Reach Trade rank Merchant or higher.",
-	"meeting_links": [
-		{
-			"text": "Trade rank",
-			"target": "Trade Rank"
-		}
-	],
-	"unlock": {
-		"action": "Deliver",
-		"quantity": 50,
-		"item": "Lavian Brandy"
-	},
+	"unlock_requirement": "Deliver 50 Lavian Brandy.",
 	"engineering": [
 		{
 			"grade": 5,

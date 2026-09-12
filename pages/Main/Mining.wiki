@@ -3,86 +3,100 @@ EDFM current-content archive export.
 Title: Mining
 Namespace: 0
 Page ID: 185
-Revision ID: 1968
-Timestamp: 2026-08-24T21:22:43Z
+Revision ID: 3753
+Timestamp: 2026-09-10T19:46:56Z
 Source URL: https://edfieldmanual.com/wiki/Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Research-backed draft architecture using current gameplay notes plus EDCD structured module and identifier data|uncertainty=Exact commodity profitability, current sell stations, and per-ring yields are intentionally not fixed in static text.}}
-__NOINDEX__
-{{Article header|deck=Mining turns asteroid resources into refined cargo through method-specific extraction, collection, refining, and market planning.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1; Legacy asteroid-mining coverage where noted
+ |reviewed=2026-09-10
+ |reviewer=Sythan
+ |source_quality=Frontier's current mining overview and 4.4.1 Surface Mining update notes, supported by EDCD module and identifier data
+ |uncertainty=Commodity prices, station demand, and per-location yields change over time and require current in-game or community market data.
+ |recent_changes=Planetary Surface Mining with the Rhino was added in Live 4.4.1.
+}}
+{{Article header|deck=Hub for asteroid and planetary surface mining methods, equipment, locations, procedures, and market planning.}}
 
-'''Mining''' is the ship-based activity of extracting minerals, metals, and other commodities from asteroids, refining them into cargo, and selling them through commodity markets in ''Elite Dangerous''. This hub separates durable mining knowledge — methods, equipment, locations, and procedure flow — from time-sensitive information such as current best prices or high-demand sell stations.
+'''Mining''' covers resource extraction from asteroids and planetary deposits in ''Elite Dangerous''. Traditional asteroid mining uses ship-mounted tools, limpets, and a refinery to produce cargo; Live 4.4.1 also adds planetary [[Surface Mining]] with the [[Rhino]] Surface Recon Vehicle.<ref name="frontier-getting-started">[https://www.elitedangerous.com/news/getting-started-elite-dangerous Getting Started in Elite Dangerous], Frontier Developments, accessed 2026-09-10.</ref><ref name="frontier-rhino-update">[https://www.elitedangerous.com/news/updates/4-4-1-0 Elite Dangerous — 4.4.1.0 Update Notes], Frontier Developments, 3 September 2026.</ref>
+
+Use this hub to choose a method and reach its reference pages or Field Procedures. Complete extraction sequences, troubleshooting, equipment specifications, and vehicle details are available through the linked pages.
 
 == Start here ==
 
-A mining run usually has five parts:
+An asteroid-mining run usually has five parts:
 
 # choose a mining method and fit the ship for that method;
 # bring enough limpets and cargo space for the planned run;
-# travel to a suitable [[Planetary Rings|planetary ring]], hotspot, or known mining location;
+# travel to a suitable [[Planetary Rings|planetary ring]], [[Mining Hotspot|hotspot]], or known mining location;
 # prospect, extract, collect, and refine the desired resources; and
 # check current market data before selling the cargo.
 
-New commanders should begin with [[How to Start Mining]]. Commanders who already understand the loop can use the method, equipment, and procedure tables below to jump to the relevant reference page.
+New commanders can begin with [[How to Start Mining]]. Planetary Surface Mining uses a different preparation and extraction loop; begin with [[Surface Mining]] or the complete [[Surface Mining with the Rhino]] procedure.
 
 == Quick route by goal ==
 
 {| class="wikitable"
 ! Goal !! Start with !! Main equipment !! Procedure
 |-
-| Simple asteroid-fragment mining || [[Laser Mining]] || [[Mining Laser]], [[Prospector Limpet Controller]], [[Collector Limpet Controller]], [[Refinery]] || [[How to Laser Mine]]
+| Learn the asteroid-mining loop || [[How to Start Mining]] || Method-specific extraction tool, limpets, refinery, cargo space || [[How to Start Mining]]
 |-
-| Cracking fissured asteroids || [[Core Mining]] || [[Pulse Wave Analyser]], [[Seismic Charge Launcher]], [[Abrasion Blaster]], collectors, refinery || [[How to Core Mine]]
+| Extract ordinary asteroid fragments || [[Laser Mining]] || [[Mining Laser]], [[Prospector Limpet Controller]], [[Collector Limpet Controller]], [[Refinery]] || [[How to Laser Mine]]
 |-
-| Extracting internal deposits || [[Sub-surface Mining]] || [[Sub-surface Displacement Missile]], prospector, collectors, refinery || [[How to Sub-surface Mine]]
+| Crack fissured asteroids || [[Core Mining]] || [[Pulse Wave Analyser]], [[Seismic Charge Launcher]], [[Abrasion Blaster]], collectors, refinery || [[How to Core Mine]]
 |-
-| Breaking visible deposits || [[Surface Deposit Mining]] || [[Abrasion Blaster]], collectors, refinery || [[How to Mine Surface Deposits]]
+| Extract internal asteroid deposits || [[Sub-surface Mining]] || [[Sub-surface Displacement Missile]], prospector, collectors, refinery || [[How to Sub-surface Mine]]
 |-
-| Finding a target hotspot || [[Mining Hotspot]] || [[Detailed Surface Scanner]] || [[How to Scan Planetary Rings for Mining Hotspots]]
+| Break visible asteroid deposits || [[Surface Deposit Mining]] || [[Abrasion Blaster]], collectors, refinery || [[How to Mine Surface Deposits]]
+|-
+| Find a target ring hotspot || [[Mining Hotspot]] || [[Detailed Surface Scanner]] || [[How to Scan Planetary Rings for Mining Hotspots]]
+|-
+| Extract planetary surface deposits || [[Surface Mining]] || [[Rhino]], [[Large Planetary Vehicle Hangar]], mining rigs || [[Surface Mining with the Rhino]]
 |}
+
+{{Field note|'''Surface Deposit Mining''' removes exposed deposits from asteroids. '''Surface Mining''' uses the Rhino and mining rigs on planetary terrain.}}
 
 == Field Procedures ==
 
 {{#invoke:Procedures|list|topic=Mining}}
 
-== Mining methods ==
+== Asteroid mining methods ==
 
 {{#invoke:Mining|methodsTable}}
 
-== Equipment map ==
+Each method has its own complete procedure. A combined fit can carry more than one set of extraction tools, but every additional tool competes for hardpoints, internals, power, and cargo capacity.
+
+== Asteroid-mining equipment ==
 
 {{#invoke:Mining|equipmentTable}}
 
-A mining ship normally carries an extraction tool, collector support, a refinery, cargo space, and enough limpets for the planned run. The exact layout depends on the method: a laser miner does not need seismic charges, while a core miner generally does not need to spend hardpoints on mining lasers.
+A mining ship normally carries an extraction tool, collector support, a refinery, cargo space, and enough limpets for the planned run. The exact layout depends on the method: a laser miner does not need seismic charges, while a dedicated core miner uses a pulse wave analyser, seismic charges, and an abrasion blaster.
 
-== Locations and search concepts ==
+The equipment map follows the module names used by the EDCD Coriolis and FDevIDs datasets.<ref name="edcd-coriolis">[https://github.com/EDCD/coriolis-data EDCD Coriolis data], Elite Dangerous Community Developers, accessed 2026-09-10.</ref><ref name="edcd-fdevids">[https://github.com/EDCD/FDevIDs EDCD FDevIDs], Elite Dangerous Community Developers, accessed 2026-09-10.</ref>
+
+== Planetary Surface Mining ==
+
+Surface Mining is a Live-only activity introduced with the Rhino update. The Rhino detects planetary mining deposits, deploys mining rigs, and refines the recovered resources. The [[Surface Mining]] reference article explains the mechanic and associated equipment; [[Surface Mining with the Rhino]] covers the full working procedure.<ref name="frontier-rhino-update" />
+
+== Asteroid locations and search concepts ==
 
 {{#invoke:Mining|locationConcepts}}
 
-Most ship-based mining happens in [[Planetary Rings|planetary rings]]. Ring hotspots revealed by a [[Detailed Surface Scanner]] are a planning aid rather than a guarantee; a commander still has to prospect individual asteroids and verify the current market before treating a run as profitable.
+Most ship-based mining happens in [[Planetary Rings|planetary rings]]. A [[Detailed Surface Scanner]] reveals ring hotspots, but the named hotspot is a search aid rather than a guaranteed result; prospect individual asteroids before committing extraction time.
 
 == Commodity planning ==
 
-Mined commodities are useful only after they become cargo and reach a market with demand. EDFM should avoid hard-coding a permanent "best" commodity or station on this page: hotspots, routes, background simulation state, carrier markets, demand, and third-party data freshness all affect the practical answer.
+Asteroid fragments and deposits become cargo after processing through a refinery. Prices and demand vary between markets and over time, so check current data before travelling to sell. [[Tools and Resources]] lists community services commonly used for current market and route information.
 
 {{#invoke:Mining|commodityConcepts}}
 
-== Reference build notes ==
+{{Related articles|[[Surface Mining]] [[Rhino]] [[Mining Commodities]] [[Trade]] [[Ships and Equipment]] [[Tools and Resources]] [[Field Procedures]] [[Planetary Rings]]}}
 
-The Mining section is being built from maintainable data modules so method pages, equipment pages, and Field Procedures can share the same canonical relationships instead of repeating hand-maintained lists. Current draft data lives in:
+== Sources ==
 
-* [[Module:Data/Mining/Methods]]
-* [[Module:Data/Mining/Equipment]]
-* [[Module:Data/Mining/Locations]]
-* [[Module:Data/Mining/Commodities]]
-* [[Module:Data/Mining/Sources]]
-* [[Module:Data/Procedures/Mining]]
+<references />
 
-=== Source posture ===
-
-{{#invoke:Mining|sourceNotes}}
-
-{{Related articles|[[Trade]] [[Ships and Equipment]] [[Tools and Resources]] [[Field Procedures]] [[Planetary Rings]]}}
 [[Category:Mining]]

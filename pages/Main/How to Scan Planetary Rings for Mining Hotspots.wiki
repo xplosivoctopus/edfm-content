@@ -3,49 +3,69 @@ EDFM current-content archive export.
 Title: How to Scan Planetary Rings for Mining Hotspots
 Namespace: 0
 Page ID: 704
-Revision ID: 1676
-Timestamp: 2026-08-24T00:22:56Z
+Revision ID: 3759
+Timestamp: 2026-09-10T20:19:44Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Scan_Planetary_Rings_for_Mining_Hotspots
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on the current Detailed Surface Scanner ring-mapping workflow and EDFM Mining metadata|uncertainty=Exact controller labels and probe-efficiency details still need final in-game verification.}}
-__NOINDEX__
-{{Field procedure|summary=Use a Detailed Surface Scanner to map a planetary ring and reveal mining hotspots that can guide commodity targeting.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1; ring-scanning procedure also applies to Legacy
+ |reviewed=2026-09-10
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four exploration and mining overview, supported by established Detailed Surface Scanner documentation
+ |uncertainty=Control labels and bindings vary by platform and custom control scheme.
+}}
+{{Field procedure|summary=Map a planetary ring with a Detailed Surface Scanner and use the resulting hotspot markers to choose a mining search area.}}
 
-Use this procedure when a commander has reached a ringed body and needs to reveal mining hotspot markers before choosing where to begin a mining run.
-
-{{Draft warning}}
+Use this procedure after reaching a ringed body and before selecting a location for a [[Mining|mining]] run. A hotspot identifies a region where its named commodity is more likely to be encountered; it does not mark an individual valuable asteroid.<ref name="frontier-beyond">[https://www.elitedangerous.com/en-US/news/elite-dangerous-beyond-chapter-four-out-now Elite Dangerous: Beyond – Chapter Four – Out Now], Frontier Developments, 11 December 2018. Accessed 10 September 2026.</ref>
 
 == Before you start ==
 
 * Fit and power a [[Detailed Surface Scanner]].
-* Travel to a system with a body that has [[Planetary Rings|planetary rings]].
-* Leave supercruise travel time and fuel for moving between ringed bodies if the first candidate is not useful.
-* Decide whether the goal is simply to learn the process or to look for a specific mined commodity.
+* Assign '''Surface Scanner''' to a fire group.
+* Identify a body with [[Planetary Rings|planetary rings]] and approach it in Supercruise.
+* Know which commodity or mining method the run is intended to use. [[Mining Hotspot|Hotspot]] names guide the search, but ring type and mining method still matter.
 
 == Procedure ==
 
 {{Procedure steps|
-# Enter supercruise in the target system and select the ringed body.
-# Approach until the Detailed Surface Scanner can be used on the body and its rings.
-# Open the Detailed Surface Scanner interface.
-# Fire probes so the ring is mapped rather than only the main body surface.
-# Wait for the scan result and review any hotspot markers that appear in the ring.
-# Select a hotspot marker that matches the intended mining plan, or record that the ring is not useful for this run.
-# If no suitable hotspot appears, check another ringed body or continue with ordinary prospecting if the run does not require a hotspot.
+# Target the ringed body and remain in Supercruise.
+# Switch to '''Analysis Mode''' and activate the Surface Scanner when the body is within range.
+# Aim a probe directly at the visible ring. The projected path must intersect the ring rather than only the planet.
+# Fire the probe and wait for the ring scan to complete. One valid ring impact reveals the hotspot regions in that ring system.<ref name="dss-community">[https://elite-dangerous.fandom.com/wiki/Detailed_Surface_Scanner Detailed Surface Scanner], Elite Dangerous Wiki. Accessed 10 September 2026.</ref>
+# Close the DSS and inspect the revealed hotspot markers in the navigation display.
+# Select a hotspot matching the intended commodity and mining method.
+# Approach the marker in Supercruise, then drop into the ring at a safe distance from the hotspot centre or at the planned overlap location.
+# Begin the appropriate prospecting and extraction procedure. The hotspot narrows the search area; it does not identify which asteroid contains the target material.
 }}
+
+A ring scan and a planetary-body map are separate results. A probe can scan the ring without fully mapping the planet or moon it surrounds.
+
+== Interpreting the result ==
+
+* '''Named hotspot:''' a broad region associated with a mined commodity. It improves targeting but does not guarantee that every asteroid contains that commodity.
+* '''Overlapping hotspots:''' overlapping regions may be useful when the chosen mining plan specifically calls for that combination, but an overlap is not required for ordinary mining.
+* '''No useful hotspot:''' the ring may still contain mineable asteroids. Move to another ring when the run depends on a specific hotspot.
+* '''Several ring bands:''' make sure the probe intersects the band you intend to mine; separate bands can return separate hotspot layouts.
+
+Continue with [[Laser Mining]], [[Core Mining]], [[Sub-surface Mining]], or another method listed on [[Mining]].
 
 == Completion check ==
 
-The procedure is complete when hotspot markers are visible for the ring, or when the commander has confirmed that the scanned ring does not provide a useful hotspot for the current plan.
+The procedure is complete when the intended ring band has been scanned, its hotspot markers are visible, and a suitable marker has been selected—or when the scan confirms that the ring has no useful hotspot for the current plan.
 
 == Common problems ==
 
-* '''Only the planet was mapped:''' make sure probes are being placed to cover the ring area, not just the body surface.
-* '''No hotspot appears:''' not every ring provides the hotspot a commander wants; move to another ring or change the plan.
-* '''The hotspot is visible but far away:''' select it as a navigation target and approach in supercruise before dropping into the ring.
-* '''The hotspot name looks profitable but the market is stale:''' a hotspot helps find material, but selling still depends on current demand and price data.
+* '''Only the planet was mapped:''' aim the probe path at the ring itself. A surface impact on the body does not scan the ring.
+* '''The probe misses:''' use the trajectory indicator and adjust the aim until the projected path crosses the visible ring band.
+* '''No hotspot markers appear:''' confirm that the probe struck the ring and that the correct ringed body is still selected.
+* '''The desired commodity is absent:''' check another ring rather than assuming every ring supports every mined commodity.
+* '''The marker is far away:''' target it and travel in Supercruise before dropping into the ring.
+* '''The hotspot name looked profitable but the sale was poor:''' hotspot selection affects acquisition, not current market demand or price. Check a current market source before committing the run.
+* '''No valuable asteroid is visible at the marker:''' hotspots identify search regions. Use prospectors and the equipment appropriate to the selected mining method.
 
 == Related Reference Pages ==
 {{#invoke:Procedures|referenceLinks|procedure=How to Scan Planetary Rings for Mining Hotspots}}
@@ -53,4 +73,9 @@ The procedure is complete when hotspot markers are visible for the ring, or when
 == Related Field Procedures ==
 {{#invoke:Procedures|list|page=How to Scan Planetary Rings for Mining Hotspots}}
 
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Mining]]

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Mining/Commodities
 Namespace: 828
 Page ID: 719
-Revision ID: 1623
-Timestamp: 2026-08-23T23:49:28Z
+Revision ID: 3752
+Timestamp: 2026-09-10T19:43:41Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Mining/Commodities
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -36,6 +36,6 @@ return {
 		label = "Materials and by-products",
 		examples = { "Engineering materials", "lower-value minerals", "mixed fragments" },
 		source = "Collected alongside or instead of the intended commodity during normal mining.",
-		notes = "Procedures should cover ignoring unwanted fragments and clearing refinery bins so by-products do not stall the run."
+		notes = "Use the ignore list for unwanted fragments and clear refinery bins if by-products stall the run."
 	}
 }

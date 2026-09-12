@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Rhino
 Namespace: 0
 Page ID: 742
-Revision ID: 3668
-Timestamp: 2026-09-09T20:34:21Z
+Revision ID: 3791
+Timestamp: 2026-09-11T03:11:24Z
 Source URL: https://edfieldmanual.com/wiki/Rhino
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,113 +12,117 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article status
  |status=Partially verified
  |mode=Live
- |version=Elite Dangerous 4.4.1.0 Rhino release update; live behaviour reviewed 2026-09-03
- |reviewed=2026-09-03
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-10
  |reviewer=Sythan
- |source_quality=Official Frontier release/update notes, Frontier Rhino documentation and store pages, with community testing only where Frontier has not documented the mechanic
- |uncertainty=Exact mining-rig efficiency formulae, raw Microresource frequency, minimum rig spacing, seat-specific multi-crew permissions, and some refinery/storage edge cases still need additional verification.
+ |source_quality=Frontier release notes, Rhino announcement, developer coverage, and current vehicle/store specifications
+ |uncertainty=Frontier has not published complete seat-by-seat multi-crew permissions or the Rhino refinery's detailed storage and overflow rules.
 }}
-{{Article header|section=Ships & Equipment|context=Ships|deck=Large Surface Recon Vehicle built for planetary surface mining.}}
+{{Article header|section=Ships & Equipment|context=Ships|deck=Large Vodel Surface Recon Vehicle built for planetary Surface Mining.}}
 {{SRV infobox}}
 
-The '''Rhino''' is a large [[Surface Recon Vehicles|Surface Recon Vehicle]] (SRV) manufactured by [[Vodel]] for planetary [[Surface Mining|Surface Mining]]. It is deployed through the [[Large Planetary Vehicle Hangar]], carries up to three Commanders, and is equipped with dedicated mining systems for locating deposits, deploying mining rigs, refining extracted material, and returning commodity cargo to the ship.<ref name="frontier-4410">[https://www.elitedangerous.com/news/updates/4-4-1-0 Elite Dangerous - 4.4.1.0 Update Notes], Frontier Developments, 3 September 2026. Accessed 2026-09-03.</ref><ref name="frontier-rhino-arx">[https://www.elitedangerous.com/news/rhino-available-now-arx-early-access Rhino - Available Now Via ARX Early Access], Frontier Developments, 2 September 2026. Accessed 2026-09-03.</ref>
+The '''Rhino''' is a large [[Surface Recon Vehicles|Surface Recon Vehicle]] manufactured by [[Vodel]] for planetary [[Surface Mining|surface mining]]. It carries up to three Commanders and combines a mineral scanner, deployable mining rigs, an onboard refinery, and 72 tonnes of cargo capacity. The vehicle deploys only from a [[Large Planetary Vehicle Hangar]] fitted to a compatible ship.<ref name="frontier-release">[https://www.elitedangerous.com/news/rhino-available-now-arx-early-access Rhino – Available Now Via ARX Early Access], Frontier Developments, 2 September 2026. Accessed 10 September 2026.</ref><ref name="frontier-4410">[https://www.elitedangerous.com/news/updates/4-4-1-0 Elite Dangerous – 4.4.1.0 Update Notes], Frontier Developments, 3 September 2026. Accessed 10 September 2026.</ref>
 
-== Overview ==
+For the complete mining workflow, see [[Surface Mining with the Rhino]].
 
-The Rhino is the first new SRV introduced after the [[Scorpion]] and expands SRV gameplay into a mining-focused planetary loop.<ref name="frontier-first-look">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface - Your First Look at the Rhino], Frontier Developments, 6 August 2026. Accessed 2026-09-03.</ref><ref name="frontier-august-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026. Accessed 2026-09-03.</ref> Frontier describes it as a heavy-duty Vodel vehicle for Commanders who prefer extraction over exploration, with rugged handling, exceptional suspension, deployable mining rigs, a scanner, and multi-crew capability for up to three occupants.<ref name="frontier-rhino-arx" />
+== Stock specifications ==
 
-This article describes the Rhino as a vehicle. For step-by-step mining instructions, carrier-ship selection, fitting guidance, troubleshooting, and workflow advice, see [[Surface Mining with the Rhino]].
+Frontier publishes the following stock values for the Rhino.<ref name="store-vehicle">[https://www.elitedangerous.com/store/vehicles/rhino Rhino], Elite Dangerous Gamestore, Frontier Developments. Accessed 10 September 2026.</ref>
 
-== Design and characteristics ==
+{| class="wikitable" style="width:100%;"
+! Attribute !! Stock value
+|-
+| Manufacturer || Vodel, a Core Dynamics subsidiary
+|-
+| Vehicle size || Large
+|-
+| Crew || One driver and two additional multi-crew seats
+|-
+| Top speed || 45 m/s
+|-
+| Mass || 50 t
+|-
+| Fuel capacity || 0.80 t
+|-
+| Armour || 324
+|-
+| Shields || 80
+|-
+| Cargo capacity || 72 t
+|-
+| Required ship module || Large Planetary Vehicle Hangar
+|}
 
-Frontier's equipment page lists the Rhino with top speed 45 m/s, mass 50 T, fuel capacity 0.80 T, armour 324, shields 80, size LRG, two additional multi-crew seats, and cargo capacity 72 T.<ref name="store-vehicle">[https://www.elitedangerous.com/store/vehicles/rhino Rhino], Elite Dangerous Gamestore, Frontier Developments. Accessed 2026-09-03.</ref> Other numerical limits, including refinery capacity, mining-rig capacity, and exact storage overflow behaviour, should not be added until they are verified from current game data or authoritative documentation.
+== Handling and layout ==
 
-Frontier's first-look article describes the Rhino as a six-wheeled, heavy-duty SRV with a three-seat cockpit and no accessible interior space.<ref name="frontier-first-look" />
+The Rhino is a six-wheeled heavy SRV. Frontier describes its suspension and grip as suited to rough ground and steeper inclines while carrying mining equipment and cargo.<ref name="frontier-first-look">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface – Your First Look at the Rhino], Frontier Developments, 6 August 2026. Accessed 10 September 2026.</ref><ref name="frontier-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026. Accessed 10 September 2026.</ref>
 
-== Surface-mining equipment ==
+Its cockpit has three seats. The remainder of the body is used for equipment and storage, so the Rhino has no walkable interior.<ref name="frontier-first-look" />
 
-Frontier's 4.4.1.0 update notes list the Rhino's major built-in systems as a '''Planetary Mining Deposit Scanner''', '''Refinery''', and '''Mining Rig Deployment Module'''.<ref name="frontier-4410" /> Frontier's Rhino storefront and ARX pages also describe the scanner as a '''Planetary Mineral Scanner'''.<ref name="store-vehicle" /><ref name="store-standard">[https://www.elitedangerous.com/store/product/rhino-standard Rhino Standard], Elite Dangerous Gamestore, Frontier Developments. Accessed 2026-09-03.</ref> EDFM therefore treats Planetary Mining Deposit Scanner as the current release-notes system name while retaining [[Planetary Mineral Scanner]] as the related equipment page until the in-game UI terminology is fully reconciled.
+== Built-in mining equipment ==
 
-=== Planetary Mining Deposit Scanner ===
+=== Planetary mining scanner ===
 
 {{Main|Planetary Mineral Scanner}}
 
 {{Context media|align=left|image=planetary_mining_deposits.png|caption=Planetary mining deposits identified by the Rhino's scanner.|
-The Rhino's scanner detects planetary mining deposits and marks mineral-rich areas so the vehicle can be positioned for extraction. The scanner is used after a suitable Planetary Mining Location has been found. Frontier confirms that the [[Detailed Surface Scanner]] detects Planetary Mining Locations on planets, and that the Rhino's scanner identifies the deposits within those areas for mining-rig placement.<ref name="frontier-4410" /><ref name="frontier-august-dev-log" /> Detailed controls, exact range, and any scanner tuning values should remain on the scanner or field-procedure page once verified.
+The scanner detects buried deposits inside a Planetary Mining Location and marks mineral-rich areas on the terrain and vehicle sensors.<ref name="frontier-dev-log" /> Frontier's 4.4.1.0 notes call it the '''Planetary Mining Deposit Scanner''', while the Rhino announcement and store use '''Planetary Mineral Scanner'''. Both names refer to the Rhino's built-in deposit-finding system.<ref name="frontier-4410" /><ref name="frontier-release" />
 }}
+
+The ship-mounted [[Detailed Surface Scanner]] finds Planetary Mining Locations on a body. The Rhino's scanner then finds individual deposits after the vehicle enters one of those locations.<ref name="frontier-4410" />
 
 === Mining Rig Deployment Module ===
 
-The Rhino includes a Mining Rig Deployment Module for placing mining rigs on suitable planetary deposits.<ref name="frontier-4410" /> Deployment controls, invalid-placement causes, spacing observations, and field workflow belong on [[Surface Mining with the Rhino#Deploying a mining rig|Deploying a mining rig]].
+The Mining Rig Deployment Module places reusable mining rigs on suitable deposits.<ref name="frontier-4410" /> Frontier's Rhino store page confirms that several rigs can operate at once.<ref name="store-standard">[https://www.elitedangerous.com/store/product/rhino-standard Rhino Standard], Elite Dangerous Gamestore, Frontier Developments. Accessed 10 September 2026.</ref>
 
-=== Mining rigs ===
+A mining rig extracts material over time. When a cycle finishes, the Rhino can recover the output and reclaim the rig for another placement. Update 4.4.1.1 raised the maximum output of a rig from 9 chunks to 12.<ref name="frontier-4411">[https://www.elitedangerous.com/news/updates/4-4-1-1 Elite Dangerous – 4.4.1.1 Update Notes], Frontier Developments, 3 September 2026. Accessed 10 September 2026.</ref>
 
-[[File:Mining_rig.png|thumb|right|300px|A deployed Rhino mining rig extracting material from a planetary deposit.]]
+Placement controls, deposit selection, rig management, and recovery belong to [[Surface Mining with the Rhino]].
 
-The Rhino deploys mining rigs at suitable planetary mining deposits. Frontier's release material confirms deployable mining rigs and a Mining Rig Deployment Module as part of the Rhino's Surface Mining equipment.<ref name="frontier-4410" /><ref name="frontier-rhino-arx" />
+=== Refinery and cargo ===
 
-Until the remaining placement details are fully documented, the confirmed and community-tested points should be kept distinct:
+The Rhino has its own refinery for processing recovered rig output and a 72-tonne cargo hold.<ref name="frontier-4410" /><ref name="store-vehicle" /> Refined commodity cargo can be transferred to the carrier ship. Frontier's release notes also list additional Microresources as possible secondary output from surface mining.<ref name="frontier-4410" />
 
-* Rigs are deployed from the Rhino at suitable planetary mining deposits.
-* Rigs extract material over time.
-* Multiple rigs can operate concurrently; Frontier's Rhino Standard store page says multiple Mining Rigs can be set up at the same time.<ref name="store-standard" />
-* Completed output is recovered by the Rhino.
-* Large deposits may support more than one rig if enough valid placement area and separation exists, but this specific same-deposit behaviour remains community-tested until Frontier documents the placement rule.
+Frontier has not published the refinery's exact bin arrangement, partial-processing behaviour, or every full-storage edge case.
 
-For deployment, recovery, spacing, and workflow details, see [[Surface Mining with the Rhino]].
+== Carrier ship and deployment ==
 
-=== Refinery ===
+The Rhino cannot use the regular Planetary Vehicle Hangar or ordinary SRV cargo-hatch deployment. It requires a Large Planetary Vehicle Hangar and drops from the dedicated large-vehicle bay.<ref name="frontier-first-look" />
 
-Frontier's 4.4.1.0 update notes list an onboard Refinery as one of the Rhino's built-in systems.<ref name="frontier-4410" /> In the Surface Mining loop, recovered rig output is processed by the Rhino into commodity cargo that can be transferred back to the ship. Frontier's equipment page lists Rhino cargo capacity as 72 T.<ref name="store-vehicle" />
-
-Surface Mining can also produce additional [[Microresources]] in addition to commodity output. Frontier's release notes explicitly list the frequency of additional Microresources as a Surface Mining balance value.<ref name="frontier-4410" /> These should be treated as secondary output from the mining process, not as evidence that Rhino mining is the fastest or best raw-material farming method.
-
-Exact refinery capacity, chunk-to-commodity conversion details, overflow behaviour, and Microresource rates should not be stated as permanent values until verified through current game data or official documentation.
-
-== Large Planetary Vehicle Hangar ==
-
-{{Main|Large Planetary Vehicle Hangar}}
-
-The Rhino requires a [[Large Planetary Vehicle Hangar]] and cannot be carried in a standard [[Planetary Vehicle Hangar]]. Frontier states that the Rhino is too large to deploy through the regular SRV cargo-hatch workflow and instead drops from the large planetary vehicle bay.<ref name="frontier-first-look" /> The Rhino Standard store page says the Large Planetary Vehicle Hangar is required, not included in the bundle, and available for compatible ships at most outfitting locations for free with the bundle.<ref name="store-standard" />
-
-Only certain ships support the Large Planetary Vehicle Hangar. For the compatible-ship list, fitting requirements, and guidance on choosing a carrier ship, see [[Surface Mining with the Rhino#Choosing a ship|Choosing a ship]].
+Frontier's live-release list supports thirteen carrier ships. Most accept hangar classes 2–6; the Keelback accepts classes 2–4. The complete compatibility table is maintained on [[Large Planetary Vehicle Hangar#Compatibility|Large Planetary Vehicle Hangar § Compatibility]].<ref name="frontier-release" />
 
 == Crew ==
 
-The Rhino supports up to three occupants. Frontier's store and ARX pages describe multi-crew capability for up to three Commanders, and the equipment page lists two additional multi-crew seats.<ref name="frontier-rhino-arx" /><ref name="store-vehicle" />
-
-EDFM does not yet have enough verified public information to document seat-specific mining controls, reward sharing, ownership requirements, or detailed permission behaviour. Until those behaviours are tested or documented, state only that additional Commanders can travel in the Rhino; do not assume passengers can operate every scanner, rig, refinery, or cargo function.
+The Rhino supports one driver and two additional occupants. Frontier confirms three-Commander multi-crew capacity but has not published a complete breakdown of which mining, scanner, refinery, or cargo controls are available from each seat.<ref name="frontier-release" /><ref name="store-vehicle" />
 
 == Availability ==
 
-The Rhino released on 2 September 2026 via ARX Early Access.<ref name="frontier-rhino-arx" /> Frontier's 4.4.1.0 update notes for the Rhino release were published on 3 September 2026.<ref name="frontier-4410" />
+The Rhino entered Live ARX Early Access on 2 September 2026. The Standard edition costs 16,520 ARX and unlocks the Rhino in outfitting; Stellar and Galactic editions add cosmetics.<ref name="frontier-release" /><ref name="frontier-4410" /> The Standard store page states that Odyssey is required to disembark from the Rhino for on-foot activity.<ref name="store-standard" />
 
-The current Standard ARX offering provides gameplay access to the Rhino SRV and related unlocks. Frontier's Standard store page lists the Rhino Standard pre-built vehicle at 16,520 ARX, not available on Legacy, and says it includes the Rhino SRV Surface Mining Vehicle, Mining Rig, Rhino Outfitting Unlock, and Rhino Owners Club Decal. It also notes that Odyssey is required for disembarking from the Rhino into on-foot content.<ref name="store-standard" /> Frontier also offers Stellar and Galactic Rhino editions with additional cosmetic contents; these storefront package details are secondary to the vehicle's gameplay role and should not turn this article into a full ARX catalogue.<ref name="frontier-rhino-arx" />
+The accompanying Large Planetary Vehicle Hangar becomes available at most outfitting locations for compatible ships and is free with the Rhino purchase, but it is not installed automatically as part of the vehicle bundle.<ref name="store-standard" />
 
-== Development history ==
+== Limitations ==
 
-Frontier officially revealed the Rhino in the 6 August 2026 article "Beneath the Surface - Your First Look at the Rhino", describing it as a colossal SRV built around the then-new Surface Mining activity and previewing its large size, six-wheel design, mining role, and three-seat cockpit.<ref name="frontier-first-look" />
+* The Rhino and its surface-mining activity are available only in the current Live game.
+* A compatible carrier ship and Large Planetary Vehicle Hangar are required.
+* The Rhino has no accessible interior.
+* Planetary Mining Locations must first be revealed with a Detailed Surface Scanner; the vehicle scanner searches inside those locations.
+* Deposits regenerate slowly after extraction, so one rich site is not an unlimited high-output loop.<ref name="frontier-dev-log" />
+* Profit and yield depend on the selected location, commodity mix, deposit conditions, and sale market rather than the Rhino alone.
 
-Frontier's 27 August 2026 developer log provided additional details, including the 2 September 2026 release date, Vodel manufacturer attribution, ARX Early Access contents, the Planetary Mineral Scanner, Surface Mining deposit behaviour, and the Large Planetary Vehicle Hangar compatibility list.<ref name="frontier-august-dev-log" />
+== Related articles ==
 
-The Rhino became available via ARX Early Access on 2 September 2026, followed by Frontier's 4.4.1.0 update notes on 3 September 2026 documenting the released Rhino systems, Surface Mining balance areas, Large Planetary Vehicle Hangar compatibility, and the launch-day 9-to-12 chunk known issue.<ref name="frontier-rhino-arx" /><ref name="frontier-4410" />
-
-== See also ==
-
-* [[Surface Recon Vehicles]]
-* [[Scarab]]
-* [[Scorpion]]
 * [[Surface Mining]]
 * [[Surface Mining with the Rhino]]
 * [[Large Planetary Vehicle Hangar]]
 * [[Planetary Mineral Scanner]]
 * [[Detailed Surface Scanner]]
-* [[Raw Materials]]
+* [[Surface Recon Vehicles]]
+* [[Mining]]
 * [[Engineering Materials]]
-* [[Commodities]]
 * [[Ships and Equipment]]
 
-== References ==
+== Sources ==
 
 <references />
 

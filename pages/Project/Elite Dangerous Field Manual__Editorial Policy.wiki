@@ -3,21 +3,50 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Editorial Policy
 Namespace: 4
 Page ID: 44
-Revision ID: 2949
-Timestamp: 2026-09-02T15:03:58Z
+Revision ID: 3730
+Timestamp: 2026-09-10T15:50:59Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Editorial_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-How EDFM articles should be written.
+How EDFM articles should be researched, scoped, and written.
 
 == Core principles ==
-# '''Practical first.''' Field-manual tone: what to do, in what order, what to expect. Lead with the procedure, not the lore.
-# '''No invented facts.''' If a gameplay detail (a number, a requirement, a mechanic's exact behaviour) isn't confirmed, say so explicitly using {{tl|Unverified claim}} or {{tl|Estimated information}} rather than stating it as fact.
-# '''Version-aware.''' Elite Dangerous changes. Every gameplay-facing article should carry {{tl|Article status}} recording the game version/mode it was last checked against.
-# '''Live vs Legacy vs Historical are different things''' and must not be silently merged. Use {{tl|Legacy warning}} / {{tl|Historical warning}} rather than mixing eras in one paragraph without a flag.
-# '''Plain, accessible language.''' Avoid unexplained jargon; where in-universe or community jargon is necessary, define it on first use.
+# '''One clear subject.''' Every page explains its own subject and includes only the adjacent context needed to understand it.
+# '''Useful to commanders.''' Reference articles answer the obvious questions about a subject. Field Procedures give commanders the preparation, ordered steps, warnings, and practical advice needed to complete a task.
+# '''No invented facts.''' If a gameplay detail such as a number, requirement, or mechanic's exact behaviour is not confirmed, state the uncertainty naturally and use {{tl|Unverified claim}} or {{tl|Estimated information}} where appropriate instead of presenting it as fact.
+# '''Version-aware.''' Elite Dangerous changes. Every gameplay-facing article should carry {{tl|Article status}} recording the game version and mode it was last checked against.
+# '''Live, Legacy, and Historical are different.''' Use {{tl|Legacy warning}} or {{tl|Historical warning}} where necessary rather than silently mixing eras in the same explanation.
+# '''Plain, accessible language.''' Avoid unexplained jargon. Define in-game or community terms on first use when their meaning is not obvious.
 
+== Topic ownership and page scope ==
+A page owns information that directly explains its subject. Related mechanics, items, activities, and procedures may be summarized when that context is necessary, but their full explanation belongs on their own pages.
+
+Use the smallest amount of adjacent information that lets the article stand on its own. A reader should not need to open several pages to understand the basic subject, but a reference article must not contain a second article or complete activity guide inside it.
+
+=== Reference articles ===
+Reference articles explain what a subject is, its directly associated facts, how its own mechanics behave, and any important limitations. They link to separate procedures when the reader needs to carry out a larger task.
+
+* '''Ships and vehicles''' retain acquisition details, stock specifications, slots, built-in equipment, capacity, performance, inherent capabilities, and limitations. Module operation, builds, Engineering strategy, and activity walkthroughs belong on the relevant module or guide pages.
+* '''Modules''' retain specifications, classes, ratings, compatibility, direct mechanics, and limitations. A module page may explain what the module reports or changes without teaching the entire activity in which it is used.
+* '''Engineers''' retain identity, location, discovery and meeting requirements, unlock requirement, services, maximum grades, version requirements, and direct referrals. Full acquisition walkthroughs, blueprint mechanics, Experimental Effects, Engineering strategy, and build advice belong elsewhere.
+* '''Commodities and materials''' retain classification, description, source environments, acquisition methods capable of producing them, uses, and subject-specific distribution or market information. Generic mining and collection workflows belong in the relevant procedures.
+* '''Locations and regions''' retain geography, significance, notable services, and characteristics specific to the place. Travel planning and unrelated activity guides remain separate subjects.
+
+=== Procedures and guides ===
+A Field Procedure owns the complete workflow for a task. It may include prerequisites, preparation, equipment, ordered steps, warnings, troubleshooting, expected results, and practical advice. Length is not a problem when the detail belongs to the procedure and helps a commander complete it.
+
+A procedure may briefly identify a related ship, module, commodity, Engineer, or mechanic, but it links to the corresponding reference article for full specifications and background.
+
+=== Hubs and directories ===
+Hub and directory pages provide a concise overview, useful comparisons, and clear routes to individual subjects. They do not reproduce the full content of the pages they organize.
+
+== Moving, linking, and duplication ==
+When useful information is found on the wrong page, preserve it before removing duplication. Confirm that the destination article covers it appropriately, or create a dedicated page when the subject is substantial enough to justify one and fits EDFM's normal structure.
+
+Substantial repeated explanations usually indicate unclear content ownership. Keep enough context to explain why a linked subject matters, then use descriptive internal links for the details. Navigation should form natural paths such as commodity to mining method to mining procedure, ship to module to procedure, and Engineer to unlock procedure to blueprint.
+
+Do not create separate pages for minor details that fit naturally within an existing subject.
 
 == AI-generated contributor content ==
 EDFM does not accept contributor-submitted AI-generated content as a substitute for original research, writing, screenshots, artwork, guides, or other meaningful contributions. This rule is intended to prevent low-effort, unverifiable, fabricated, duplicated, or mass-produced AI content from being added to the Field Manual.
@@ -44,8 +73,9 @@ The following principles apply:
 See also [[Elite Dangerous Field Manual:Citing Sources]], [[Elite Dangerous Field Manual:Source Quality Guide]], [[Elite Dangerous Field Manual:Verification Policy]], [[Elite Dangerous Field Manual:Screenshot Policy]], and [[Elite Dangerous Field Manual:Image Use Policy]].
 
 == Structure conventions ==
-* Procedure-style articles: {{tl|Prerequisites}}, then {{tl|Procedure steps}}, then {{tl|Expected result}}, then optionally {{tl|Common mistakes}} and {{tl|Troubleshooting}}.
-* Reference-style articles: state values plainly, cite {{tl|Source citation}} where the figure isn't from the article's own testing.
-* Every article: {{tl|Article status}} near the top.
+* Procedure articles use {{tl|Prerequisites}}, {{tl|Procedure steps}}, and {{tl|Expected result}}, with {{tl|Common mistakes}} and {{tl|Troubleshooting}} where they help commanders complete the task.
+* Reference articles state subject-specific facts plainly, preserve useful specifications and structured data, and cite {{tl|Source citation}} where the figure is not from the article's own testing.
+* Hub and directory pages summarize their subject area and link to the articles that own the details.
+* Every gameplay-facing article places {{tl|Article status}} near the top.
 
-See also [[Elite Dangerous Field Manual:Verification Policy]], [[Elite Dangerous Field Manual:Source Quality Guide]], and [[Elite Dangerous Field Manual:Content Style Guide]].
+See also [[Elite Dangerous Field Manual:Creating an Article]], [[Elite Dangerous Field Manual:Creating a Guide]], [[Elite Dangerous Field Manual:Verification Policy]], [[Elite Dangerous Field Manual:Source Quality Guide]], and [[Elite Dangerous Field Manual:Content Style Guide]].

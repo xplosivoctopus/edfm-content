@@ -3,73 +3,156 @@ EDFM current-content archive export.
 Title: Etienne Dorn
 Namespace: 0
 Page ID: 126
-Revision ID: 1916
-Timestamp: 2026-08-24T21:21:28Z
+Revision ID: 3871
+Timestamp: 2026-09-11T16:21:38Z
 Source URL: https://edfieldmanual.com/wiki/Etienne_Dorn
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Power systems specialist based at Kraken's Retreat in the Colonia region, reachable through Liz Ryder.}}
-{{Article status|status=Needs review|mode=Both|version=Live and Legacy; exact patch scope not yet directly verified|reviewed=2026-08-07|reviewer=Desk research; pending direct in-game verification — see Sources|source_quality=Location and specialty cross-referenced against Inara's Engineers listing; prerequisite/discovery/invitation/unlock detail drawn primarily from a single community unlock-chain guide — see Sources|uncertainty=Maximum engineering grade and full blueprint names were not found in the sources checked; the prerequisite/discovery/invitation chain is single-sourced and not yet directly verified.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live and Legacy
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-11
+ |reviewer=Sythan
+ |source_quality=Current INARA Engineer and Blueprint records, Frontier Operations notes, and the in-game biography reproduced by the Elite Dangerous Wiki.
+}}
+{{Article header|deck=Grade 5 core-internal, scanner, and weapon Engineer at Kraken's Retreat in the Colonia region.
+}}
 
-{{Engineer infobox}}
+{{Engineer infobox
+ |system=Los
+ |facility=Kraken's Retreat
+ |region=Colonia
+ |invitation_requirement=Trade rank Dealer or higher
+ |unlock_requirement=Deliver 25 Occupied Escape Pods
+ |specialties=[[Detailed Surface Scanner]], [[Frame Shift Wake Scanner]], [[Kill Warrant Scanner]], [[Life Support]], [[Manifest Scanner]], [[Plasma Accelerator]], [[Power Distributor]], [[Power Plant]], Rail Gun, [[Sensors]]
+}}
 
-Etienne Dorn specialises in power distributor, power plant modifications. They're reached through [[Liz Ryder]].<ref name="inara-list" />
+'''Etienne Dorn''' is a ship Engineer based at '''Kraken's Retreat''' in the '''Los''' system of the [[Colonia]] region. Formerly the lead shield engineer for Kraken Shield Specialists, he now operates a secluded workshop supported largely by robots.<ref name="edwiki-etienne">[https://elite-dangerous.fandom.com/wiki/Etienne_Dorn Etienne Dorn], Elite Dangerous Wiki. Accessed 11 September 2026.</ref>
+
+Etienne offers '''Grade 5''' engineering for ten module families spanning core internals, scanners, sensors, and weapons.<ref name="inara-etienne">[https://inara.cz/elite/engineer/23/ Etienne Dorn — Engineer], INARA. Accessed 11 September 2026.</ref>
 
 == Location ==
+
 * '''System:''' Los
 * '''Facility:''' Kraken's Retreat
-* '''Region:''' Colonia — this Engineer is only reachable after making the long journey to the Colonia region, separate from the core bubble.
+* '''Region:''' [[Colonia]]
+* '''Engineer scope:''' Ship core internals, scanners, sensors, and weapons
+* '''Referral required:''' [[Liz Ryder]]
+* '''System permit required:''' No
 
-== How to Discover This Engineer ==
-Referral from Liz Ryder.<ref name="wanderer-chain">[https://wanderer-toolbox.com/guides/engineering-unlock/ Engineering Unlock Guide], Wanderer's Toolbox.</ref><ref name="inara-list">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+Kraken's Retreat is in the Colonia region rather than the Bubble. Commanders must therefore account for the inter-regional journey when preparing a workshop visit.
 
-== How to Receive an Invitation ==
-Trade rank Dealer or higher.<ref name="wanderer-chain" />
+== Access requirements ==
 
-== How to Unlock This Engineer ==
-Unlock requirements summary:
-* Have [[Liz Ryder]] unlocked and build reputation with them to trigger the referral.
-* Meet the invitation requirement: trade rank Dealer or higher.
-* Deliver '''25 units of Occupied Escape Pods'''.
+Access to Etienne Dorn has three stages:<ref name="inara-etienne" /><ref name="edwiki-etienne" />
 
-For the complete step-by-step process, see [[Unlocking Etienne Dorn]].
+# Reach '''Grade 3 access plus at least one-third progress toward Grade 4''' with [[Liz Ryder]] to receive his referral.
+# Reach the '''Trade rank of Dealer or higher'''.
+# Provide '''25 Occupied Escape Pods''' at Kraken's Retreat.
 
-== Engineer Unlock Chain ==
-''No verified multi-Engineer chain to display for this Engineer.''
+The referral, Trade rank, and cargo contribution are separate conditions. The complete ordered process and Occupied Escape Pod acquisition guidance belong to [[Unlocking Etienne Dorn]].
 
-Etienne Dorn is reachable through [[Liz Ryder]].<ref name="wanderer-chain" />
+== Workshop reputation ==
 
-== Available Engineering ==
-{| class="wikitable"
-! Module !! Notes !! Maximum grade
+Reputation with Etienne Dorn increases by crafting modifications at his workshop.<ref name="inara-etienne" />
+
+Higher reputation opens the grades that Etienne supports. INARA notes that station services may not appear immediately after the first unlock; beginning a new game session can make those services available.<ref name="inara-etienne" />
+
+== Engineering services ==
+
+Etienne provides Grade 5 engineering for every module family in his workshop:<ref name="inara-etienne" />
+
+{| class="wikitable sortable" style="width:100%;"
+! Module
+! Maximum grade
+! Availability
 |-
-| Power Distributor || Charge and other variants || To be confirmed
+| [[Detailed Surface Scanner]]
+| '''Grade 5'''
+| Live and Legacy; additional Live-only blueprint
+|-
+| [[Frame Shift Wake Scanner]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Kill Warrant Scanner]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Life Support]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Manifest Scanner]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Plasma Accelerator]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| [[Power Distributor]]
+| '''Grade 5'''
+| Live and Legacy; additional Live-only blueprints
+|-
+| [[Power Plant]]
+| '''Grade 5'''
+| Live and Legacy
+|-
+| Rail Gun
+| '''Grade 5'''
+| Live and Legacy; additional Live-only blueprint
+|-
+| [[Sensors]]
+| '''Grade 5'''
+| Live and Legacy
 |}
-Full blueprint names and maximum grades were not confirmed to the same depth as the core chain pages for this pass — see [[Elite Dangerous Field Manual:Engineering Architecture]] for the site's policy on not inventing unconfirmed specifics.<ref name="wanderer-chain" />
 
-== Experimental Effects ==
-To be added — not confirmed in the sources checked for this pass.
+The available conventional modification families, effects, trade-offs, and recipes belong to [[Engineering Blueprints]]. Compatible secondary modifications belong to [[Experimental Effects]].
 
-== Increasing Engineer Reputation ==
-Reputation increases through crafting modifications at their workshop, in line with the general mechanic covered on the main [[Engineering]] page.
+=== Operations-era services ===
 
-== Blueprint Pinning ==
-'''Fact:''' Etienne Dorn's confirmed specialties are Power Distributor, Power Plant, per [[#Available Engineering|Available Engineering]] above.
+Current Live records add four Operations-era services to Etienne's workshop:<ref name="frontier-operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments, 30 June 2026. Accessed 11 September 2026.</ref><ref name="inara-etienne" />
 
-'''EDFM recommendation:''' Not yet made. A pinning recommendation needs the maximum-grade and full blueprint data above filled in first — see [[Elite Dangerous Field Manual:Engineering Architecture]] for why EDFM treats pinning guidance as editorial judgement, not a database fact.
+* '''Long Range Detailed''' [[Detailed Surface Scanner]] engineering through Grade 5<ref name="inara-long-range">[https://inara.cz/elite/blueprint/205/ Detailed Surface Scanner — Long Range Detailed], INARA. Accessed 11 September 2026.</ref>
+* '''Balanced''' [[Power Distributor]] engineering through Grade 5<ref name="inara-balanced">[https://inara.cz/elite/blueprint/208/ Power Distributor — Balanced], INARA. Accessed 11 September 2026.</ref>
+* '''Support Focused''' [[Power Distributor]] engineering through Grade 5<ref name="inara-support">[https://inara.cz/elite/blueprint/209/ Power Distributor — Support Focused], INARA. Accessed 11 September 2026.</ref>
+* '''Enduring Feedback''' Rail Gun engineering through Grade 5<ref name="inara-enduring">[https://inara.cz/elite/blueprint/210/ Rail Gun — Enduring Feedback], INARA. Accessed 11 September 2026.</ref>
 
-== Related Engineers ==
-{{Related articles|label=Related Engineers|[[Liz Ryder]]}}
+These services are not part of Legacy Engineering. Exact modifiers, costs, and compatibility belong to the corresponding [[Engineering Blueprints|Blueprint]] records rather than this Engineer article.
 
-== Related Guides ==
-{{Related articles|[[Engineering]] [[Engineer Unlock Guide]]}}
+== Blueprint pinning and remote work ==
+
+After sufficient reputation has been earned, one Etienne Dorn blueprint can be pinned for use through [[Remote Engineering]]. A pinned blueprint cannot exceed the grade he offers, and Experimental Effects still require an appropriate workshop visit.
+
+== Direct referrals ==
+
+Current Engineer records do not identify another Engineer whose discovery requirement comes directly from Etienne Dorn. His active referral branch therefore ends at his workshop.<ref name="inara-etienne" />
+
+== Related pages ==
+
+* [[Engineering]] — the modification system and progression model
+* [[Engineers]] — access overview and Engineer directories
+* [[Colonia]] — the region containing Etienne's workshop
+* [[Power Plant]] — one of his Grade 5 core-internal specialties
+* [[Power Distributor]] — one of his Grade 5 core-internal specialties
+* [[Detailed Surface Scanner]] — one of his Grade 5 scanner specialties
+* [[Engineering Blueprints]] — blueprint families, grades, effects, and recipes
+* [[Experimental Effects]] — compatible secondary modifications
+* [[Remote Engineering]] — using pinned blueprints away from a workshop
+* [[Unlocking Etienne Dorn]] — ordered access procedure
 
 == Sources ==
+
 <references />
 
 {{Engineering nav}}
 
 [[Category:Engineers]]
+[[Category:Colonia Engineers]]
 [[Category:Core Internal Engineering]]
+[[Category:Utility Engineering]]
+[[Category:Weapon Engineering]]
 [[Category:Engineering]]

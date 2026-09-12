@@ -3,27 +3,63 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Creating a Guide
 Namespace: 4
 Page ID: 209
-Revision ID: 312
-Timestamp: 2026-08-07T22:20:39Z
+Revision ID: 3731
+Timestamp: 2026-09-10T15:55:29Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Creating_a_Guide
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-How to write a Field Procedure (guide) article on EDFM.
+How to write a Field Procedure on EDFM.
 
-== A guide is not a second encyclopedia article ==
-If the subject already has a Main-namespace reference article (e.g. [[Broo Tarquin]], [[Multi-Cannon]]), don't re-explain what it is, what it specialises in, or its lore here — link to the reference article and keep this page to the actionable checklist. [[Unlocking Broo Tarquin]] is the worked example: it never restates Broo Tarquin's specialties, only what a commander needs to do to reach him.
+== Purpose and scope ==
+A Field Procedure explains how to complete a task. It owns the practical workflow: preparation, equipment, ordered steps, warnings, troubleshooting, expected results, and useful advice from commanders who have carried out the activity.
+
+A guide may summarize a related mechanic, module, ship, commodity, or Engineer when that context is needed to follow the procedure. Full specifications and background remain on the relevant reference article. Link to that article instead of reproducing it.
+
+A long procedure is appropriate when the task genuinely requires detail. The test is whether the information helps the reader complete this procedure, not how many words the page contains.
+
+== What belongs in a guide ==
+Depending on the task, a Field Procedure may include:
+
+* the objective and expected result;
+* prerequisites and access requirements;
+* required or recommended equipment and materials;
+* preparation before starting;
+* ordered steps;
+* warnings and common mistakes;
+* troubleshooting for problems that occur during the task; and
+* practical advice that directly affects the procedure.
+
+Only include sections that serve the task. Omit empty or inapplicable sections rather than publishing filler.
+
+== Keep reference subjects separate ==
+When the subject already has a Main-namespace reference article, link to it and keep the guide focused on completing the task. For example, [[Unlocking Broo Tarquin]] may state the requirements a commander must meet and the steps needed to reach the Engineer without repeating [[Broo Tarquin]]'s full biography, services, or blueprint coverage.
+
+The same boundary applies to modules and activities. A mining procedure may name the required [[Prospector Limpet Controller]] and explain when to deploy a prospector, while the controller's classes, ratings, range, lifetime, and direct mechanics remain on its module page.
+
+See [[Elite Dangerous Field Manual:Editorial Policy#Topic ownership and page scope|Topic ownership and page scope]] for the site-wide rule.
 
 == Title ==
-Flat, human-readable, action-shaped title — e.g. <code>[[Unlocking Broo Tarquin]]</code>, not <code>Guide:Unlocking Broo Tarquin</code>. Same no-namespace convention as every other article on EDFM.
+Use a flat, human-readable, action-shaped title, such as <code>[[Unlocking Broo Tarquin]]</code>, not <code>Guide:Unlocking Broo Tarquin</code>. Field Procedures use the same no-namespace convention as other EDFM articles.
 
 == Starting from the skeleton ==
-Create the page and, as your first edit, enter <code><nowiki>{{subst:New guide page}}</nowiki></code>, then fill in the placeholders. The skeleton's sections are: Objective, Prerequisites, Required Materials/Equipment/Access, Estimated Time, Step-by-Step Procedure, Expected Result, Common Mistakes, Troubleshooting, Related Reference Pages, Relevant External Tools, Sources. Only include a section if it actually applies — an empty "Estimated Time" saying "not applicable" is fine, but don't pad a section that has nothing real to say.
+Create the page and enter <code><nowiki>{{subst:New guide page}}</nowiki></code> as the first edit. The skeleton provides the standard optional sections: Objective, Prerequisites, Required Materials, Equipment, and Access, Estimated Time, Step-by-Step Procedure, Expected Result, Common Mistakes, Troubleshooting, Related Reference Pages, Relevant External Tools, and Sources.
 
-== Cross-link both ways ==
-Once your guide exists, add a link to it from the reference article's Related Guides section (see how [[Broo Tarquin]] links to [[Unlocking Broo Tarquin]]) — a guide that nothing points to won't get found.
+Replace the drafting comments with finished content and remove sections that do not apply before the guide is ready for readers. Do not leave placeholders, TODO text, implementation notes, or instructions to future editors in the published article.
 
-== Don't invent steps ==
-Same rule as everywhere else on EDFM: leave a step, quantity, or requirement as "to be added" until it's actually checked, rather than guessing at something plausible. See [[Elite Dangerous Field Manual:Source Quality Guide]].
+== Link both ways ==
+Add a natural link from the relevant reference article to the completed procedure. The guide should also link back to the reference subjects needed to understand its equipment, requirements, and mechanics. Avoid replacing useful prose with a large undifferentiated See also list.
 
-{{Related articles|[[Elite Dangerous Field Manual:Creating an Article]] [[Elite Dangerous Field Manual:Editorial Policy]] [[Unlocking Broo Tarquin]]}}
+== Verify before publication ==
+Do not invent steps, quantities, requirements, locations, or expected results. Check material changes against the live game or a reliable current source. When a mechanic is genuinely uncertain or based on community testing, describe that uncertainty naturally rather than addressing editors or presenting a research task to the reader.
+
+Before treating the guide as complete, confirm that:
+
+* the procedure can be followed in order;
+* prerequisites and required equipment are clear;
+* related reference pages own their detailed specifications and background;
+* useful information was not lost while removing duplication;
+* internal links lead to the intended pages and sections; and
+* the reader-facing text contains no drafting or maintenance commentary.
+
+{{Related articles|[[Elite Dangerous Field Manual:Creating an Article]] [[Elite Dangerous Field Manual:Editorial Policy]] [[Elite Dangerous Field Manual:Source Quality Guide]] [[Unlocking Broo Tarquin]]}}

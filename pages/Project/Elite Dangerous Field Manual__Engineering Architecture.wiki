@@ -3,65 +3,83 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Engineering Architecture
 Namespace: 4
 Page ID: 94
-Revision ID: 904
-Timestamp: 2026-08-18T01:06:25Z
+Revision ID: 3733
+Timestamp: 2026-09-10T16:00:21Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Engineering_Architecture
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-Foundation pass only (2026-08-07) — no verified game data (blueprint stats, unlock requirements, material costs, engineer locations) has been added yet. Everything on the pages this describes is page structure, templates, categories, and cross-linking, built so a future pass can populate real content without redesigning anything. This page is the "how it actually works" reference for whoever does that next pass.
+How EDFM organizes Engineering reference material, relationships, and procedures.
 
-== Why flat page names, no "Engineering/..." subpaths ==
-Checked before deciding: <code>$wgNamespacesWithSubpages</code> is not set in LocalSettings.php, so the main article namespace gets MediaWiki's default (subpages disabled there) — a page titled <code>Engineering/Blueprints</code> would just be a literal title containing a slash, with none of the automatic parent-link/breadcrumb behaviour subpages provide elsewhere on this wiki. (Template: namespace has subpages on by default — that's why [[Template:EDFM style/styles.css]] and [[Template:Resource card/styles.css]] work the way they do; it's namespace-specific, not a site-wide convention.) Every existing content page uses a plain, flat, human-readable title ([[Tools and Resources]], [[Colonisation]], [[Operations]], ...). Engineering pages match that exactly: [[Engineering]], [[Engineers]], [[Engineering Blueprints]], [[Experimental Effects]], [[Engineering Materials]], [[Engineer Unlock Guide]], and individual articles like [[Broo Tarquin]] / [[Overcharged]] / [[Thermal Vent]] / [[Multi-Cannon]] — no prefixes, no slashes.
+== Purpose ==
+Engineering is a connected subject area, but each article still has one clear owner. The [[Engineering]] hub introduces the system and routes readers to its major branches. Individual pages then cover Engineers, blueprints, Experimental Effects, materials, modules, or procedures without repeating one another in full.
 
-== Page types and where they live ==
+This structure follows [[Elite Dangerous Field Manual:Editorial Policy#Topic ownership and page scope|EDFM's topic-ownership policy]].
+
+== Page types and content ownership ==
 {| class="wikitable"
-! Page !! Title !! Status this pass
+! Page type !! Primary role !! Owns
 |-
-| Engineering hub || [[Engineering]] || Redesigned (pre-existing placeholder)
+| [[Engineering]] || System hub || A concise overview of Engineering, its major concepts, and routes to the detailed reference and procedure pages.
 |-
-| Engineers directory || [[Engineers]] || New
+| [[Engineers]] || Directory || A comparison and navigation index for individual Engineers.
 |-
-| Blueprints browse hub || [[Engineering Blueprints]] || New
+| Individual Engineer articles || Reference || The Engineer's identity, location, discovery and meeting requirements, unlock requirement, services, maximum grades, version requirements, and direct referrals.
 |-
-| Experimental Effects browse hub || [[Experimental Effects]] || New
+| [[Engineering Blueprints]] and individual blueprint articles || Reference || Blueprint mechanics, grades, effects, costs, compatible modules, and Engineers who offer the blueprint.
 |-
-| Materials landing page || [[Engineering Materials]] || New
+| [[Experimental Effects]] and individual effect articles || Reference || Effect behaviour, trade-offs, compatibility, and availability.
 |-
-| Unlock walkthroughs index || [[Engineer Unlock Guide]] || New, minimal
+| [[Engineering Materials]] and individual material articles || Reference || Material classification, sources, uses, and acquisition information specific to that material.
 |-
-| Example Engineer article || [[Broo Tarquin]] || New, demo/placeholder
+| Module articles under [[Ships and Equipment]] || Reference || The module's normal specifications and behaviour together with its compatible Engineering options.
 |-
-| Example blueprint article || [[Overcharged]] || New, demo/placeholder
-|-
-| Example Experimental Effect article || [[Thermal Vent]] || New, demo/placeholder
-|-
-| Example module article || [[Multi-Cannon]] || New, demo/placeholder
+| [[Engineer Unlock Guide]] and individual unlock guides || Procedure || Preparation, travel, acquisition steps, warnings, troubleshooting, and completion checks for reaching or unlocking Engineers.
 |}
 
-'''One page per blueprint/effect, covering every module it applies to.''' [[Overcharged]] is a single page with a "Compatible Modules" section listing every module it can be applied to, not a separate "Overcharged (Multi-Cannon)" / "Overcharged (Cannon)" page per module. This is the core "avoid duplicating data" mechanism the brief asked for — see [[Template:New blueprint page]]'s own usage notes.
+== Engineer articles ==
+An Engineer article explains that Engineer. It retains concise requirements because discovery, meeting, and unlock conditions are part of the Engineer's identity and availability.
 
-'''Module pages are shared with [[Ships and Equipment]], not duplicated.''' Ships and Equipment already claims <code>Category:Modules</code> for general module articles (specs). A module gets exactly one page covering both general specs and its Engineering options — [[Multi-Cannon]] demonstrates this: it's a <code>Category:Modules</code> page with an "Engineering" section (see [[Template:New engineering module page]]), not a second engineering-only page competing with a future general one. If a general module page already exists when someone's ready to add its Engineering section, that section gets appended to the existing page.
+A short requirement such as delivering a named commodity belongs on the Engineer page. The full process for obtaining that commodity belongs on its commodity and activity pages, with links from the unlock procedure where needed.
 
-== Templates ==
-'''Extended (not duplicated):'''
-* {{tl|Infobox}} — 6 rows → 12. No CSS change needed: <code>.edfm-infobox-row</code> in Common.css isn't numbered per-row, so more pairs "just work." Used for the Engineer infobox (~11 fields) and available for future ship/module infoboxes too.
-* {{tl|Related articles}} — gained an optional <code>label=</code> parameter (default unchanged, so all pre-existing pages using it are unaffected). Lets the exact same tile component serve as a hub page's primary "browse" navigation cards, not just a "related articles" footer.
+Engineer articles may list direct referrals involving that Engineer. Large referral-chain walkthroughs belong in the relevant unlock guide or directory. General blueprint mechanics, Experimental Effect explanations, material gathering, Remote Workshop instructions, Engineering strategy, and build recommendations remain separate subjects.
 
-'''New, all reusing existing CSS (<code>.edfm-related</code>/<code>.edfm-related-links</code> tile styling, external-link colours, <code>.wikitable</code> styling) — zero changes to Common.css or [[Template:EDFM style/styles.css]] this pass:'''
-* {{tl|Engineering nav}} — fixed 6-link bottom cross-navigation, wraps {{tl|Related articles}} with a custom label. Placed on every Engineering page so a reader never has to backtrack through the Engineering hub to move between siblings.
-* {{tl|Unlock chain}} — renders a verified Engineer prerequisite sequence (Engineer A → Engineer B → Engineer C) by wrapping each linked name in its own tile span. '''Not used on any page yet''' — no unlock chain has been verified. Its own docs say not to invent one.
+== Blueprints and Experimental Effects ==
+Each blueprint or Experimental Effect has one canonical article. A blueprint that applies to several modules is not split into separate pages for every module. Its page lists compatible modules and the Engineers who offer it, while each module article links back to the Engineering options available for that module.
 
-'''New, subst-only skeletons (not live-transcluded — see each one's own usage docs for exactly how to use it):'''
-* {{tl|New engineer page}}
-* {{tl|New blueprint page}}
-* {{tl|New experimental effect page}}
-* {{tl|New engineering module page}}
+This keeps blueprint values and compatibility information in one place and avoids conflicting copies across Engineer and module pages.
 
-A future editor creates a new article by making the page and typing e.g. <code><nowiki>{{subst:New engineer page}}</nowiki></code> as the first edit, then filling in the placeholders. Subst rather than live transclusion so every resulting article is normal, independently editable wikitext with no ongoing dependency on the skeleton template.
+== Modules ==
+A module has one reference article shared with [[Ships and Equipment]]. That article owns the module's stock specifications, operation, limitations, and compatible Engineering options.
+
+Engineer pages may state that an Engineer modifies the module and to what maximum grade. They do not repeat the module's full specifications or every effect of its blueprints. Engineering procedures may name a required module but leave its detailed operation to the module article.
+
+== Materials and acquisition procedures ==
+[[Engineering Materials]] organizes Raw, Manufactured, and Encoded Materials. Individual material pages own material-specific source information and uses.
+
+A material page may identify activities capable of producing the material. Complete collection routes, farming loops, mining workflows, and trading procedures belong in dedicated guides. Engineer unlock guides link through that chain instead of embedding unrelated activity tutorials.
+
+== Unlock procedures and referrals ==
+An Engineer article states the direct requirement for access. A dedicated unlock procedure explains how to satisfy it from beginning to end, including prerequisites, acquisition steps, travel, hand-in requirements, common mistakes, and expected results.
+
+Referral relationships remain concise on individual Engineer pages and may be summarized in the [[Engineers]] directory. A procedure may cover a longer referral route when following that route is the task itself.
+
+== Naming and navigation ==
+Engineering articles use flat, human-readable Main-namespace titles such as [[Broo Tarquin]], [[Overcharged]], [[Thermal Vent]], and [[Multi-Cannon]]. They do not use artificial paths such as <code>Engineering/Blueprints</code> or duplicate Engineering-only module pages.
+
+Every Engineering page links naturally to its parent hub and directly related subjects. The normal reader paths are:
+
+* Engineer to unlock procedure to required commodity or activity;
+* module to blueprint or Experimental Effect;
+* blueprint to compatible modules and offering Engineers; and
+* material to source activity to acquisition procedure.
+
+Use {{tl|Engineering nav}} for consistent movement between the main Engineering hubs. Descriptive links in the article body remain preferable when a related page is needed to understand the text.
 
 == Categories ==
-* [[:Category:Engineering]] (pre-existing)
+The main Engineering categories are:
+
+* [[:Category:Engineering]]
 ** [[:Category:Engineers]]
 ** [[:Category:Engineering Blueprints]]
 ** [[:Category:Experimental Effects]]
@@ -74,18 +92,13 @@ A future editor creates a new article by making the page and typing e.g. <code><
 ** [[:Category:Optional Internal Engineering]]
 ** [[:Category:Utility Engineering]]
 
-The four module-type categories (Weapon / Core Internal / Optional Internal / Utility Engineering) tag both module pages and, once written, blueprint pages, by which broad module type they relate to — they're children of Engineering directly (not of Engineering Blueprints) since they apply to modules too, not just blueprints.
+Categories support browsing; they do not replace direct links between closely related articles.
 
-Every new category got a short one-line description matching the existing style ([[:Category:Colonisation]], [[:Category:Comparisons]], etc.), not left empty the way [[:Category:Templates]] currently is.
+== Templates and structured data ==
+Templates, infoboxes, Scribunto modules, and structured records may hold reusable Engineering data. Reader-facing prose presents that data as normal game information without exposing storage or implementation details.
 
-== Cross-linking: what's real vs. what's deliberately not there yet ==
-Navigational cross-links (hub → demo page, demo page → hub, the {{tl|Engineering nav}} footer, "see X for an example of this page type") are live everywhere — that's site architecture, not a game-fact claim.
+Structured data should have one canonical source. Article prose may summarize it where that improves understanding, but it must not create a second manually maintained copy that can drift from the structured record.
 
-'''Data cross-links (which Engineer offers which blueprint at which grade, which modules a blueprint/effect applies to, unlock prerequisites) are deliberately NOT populated between the four demo pages, even where it would have been easy to fill in from general knowledge.''' Every data table (Grade Comparison, Available Engineering, Engineers, Compatible Modules/Blueprints/Effects) is either fully empty with a "to be added" placeholder row, or explicitly says a claim hasn't been verified yet. This was a deliberate choice, not an oversight — the brief drew a hard line against inventing or half-confirming unlock requirements, blueprint statistics, or compatibility during this pass, and the safest way to honour "we will populate verified game information in a later pass" was to apply that line to every data table uniformly, not just the ones explicitly named in the brief.
+New reference and procedure pages follow [[Elite Dangerous Field Manual:Creating an Article]] and [[Elite Dangerous Field Manual:Creating a Guide]]. Drafting placeholders and internal implementation commentary must be removed before a page is ready for readers.
 
-== Adding real content later ==
-# Verify the fact against the live game (or a citable source) first — per [[Elite Dangerous Field Manual:Editorial Policy]], same standard as everywhere else on this wiki.
-# Use the matching subst skeleton for a brand new page, or edit an existing placeholder page (all of them are already tagged <code>status=Draft</code> and listed on [[Elite Dangerous Field Manual:Pages Needing Review]]).
-# Fill in real data tables/infobox fields, replacing "to be added" — don't leave stale placeholder text next to real data in the same table.
-# Only use {{tl|Unlock chain}} once a prerequisite relationship is confirmed.
-# Update the page's {{tl|Article status}} from Draft toward Needs review once populated, per the site's normal verification workflow.
+{{Related articles|[[Engineering]] [[Engineers]] [[Engineering Blueprints]] [[Experimental Effects]] [[Engineering Materials]] [[Engineer Unlock Guide]] [[Elite Dangerous Field Manual:Editorial Policy]]}}

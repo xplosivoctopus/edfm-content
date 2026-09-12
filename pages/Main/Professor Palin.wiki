@@ -3,238 +3,101 @@ EDFM current-content archive export.
 Title: Professor Palin
 Namespace: 0
 Page ID: 110
-Revision ID: 1997
-Timestamp: 2026-08-24T21:23:24Z
+Revision ID: 3803
+Timestamp: 2026-09-11T04:01:58Z
 Source URL: https://edfieldmanual.com/wiki/Professor_Palin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=A Grade 5 Thruster specialist based in Arque, reached through Marco Qwent after travelling at least 5,000 light-years from your career start location.
+{{Article status
+ |status=Partially verified
+ |mode=Live and Legacy
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-11
+ |reviewer=Sythan
+ |source_quality=Current INARA Engineer records, EDFM structured Engineer data, Frontier GalNet, and the in-game biography reproduced by the Elite Dangerous Wiki.
+ |uncertainty=Community reports describe an Unclassified Relic interaction at Abel Laboratory; current INARA data continues to list the Marco Qwent referral, 5,000-light-year distance, and 25 Sensor Fragments as the standard access route.
+}}
+{{Article header|deck=Thargoid researcher and ship Engineer at Abel Laboratory in Arque, offering Grade 5 Thruster and Grade 3 Frame Shift Drive engineering.
 }}
 
-{{Engineer infobox}}
+{{Engineer infobox
+ |system=Arque
+ |facility=Abel Laboratory
+ |unlock_requirement=Provide 25 Sensor Fragments
+}}
 
-'''Professor Ishmael Palin''' is a ship Engineer based at '''Abel Laboratory''' in the [[Arque]] system. He is reached through [[Marco Qwent]] and is best known for providing '''Grade 5 Thruster Engineering'''. He also provides Frame Shift Drive Engineering through Grade 3.<ref name="inara-palin">[https://inara.cz/elite/engineer/3/ Professor Palin — Engineer], Inara.</ref><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+'''Professor Ishmael Palin''' is a ship Engineer and Thargoid researcher based at '''Abel Laboratory''' in the '''Arque''' system. He is discovered through '''[[Marco Qwent]]''' and provides Grade 5 Thruster engineering and Grade 3 Frame Shift Drive engineering.<ref name="inara-palin">[https://inara.cz/elite/engineer/3/ Professor Palin — Engineer], INARA. Accessed 11 September 2026.</ref>
 
-Palin is one of the primary Engineers for commanders seeking maximum-grade Thruster modifications, including Grade 5 Clean, Dirty, and Reinforced drives.<ref name="inara-palin" />
-
-{{Field note|Unlocking [[Marco Qwent]] is only the beginning of Palin's access requirements. You must also progress far enough with Marco, travel at least 5,000 light-years from your career start location, and provide 25 Sensor Fragments before Palin's workshop becomes available.}}
+Palin established an independent research programme devoted to Thargoid technology and later relocated his workshop to Arque. Frontier continues to identify Abel Laboratory as his active facility.<ref name="edwiki-palin">[https://elite-dangerous.fandom.com/wiki/Ishmael_Palin Ishmael Palin], Elite Dangerous Wiki. Accessed 11 September 2026.</ref><ref name="frontier-relics">[https://www.elitedangerous.com/news/galnet/palin-and-ram-tah-seek-unclassified-relics Palin and Ram Tah Seek Unclassified Relics], Frontier Developments, 19 August 3308. Accessed 11 September 2026.</ref>
 
 == Location ==
 
-* '''System:''' [[Arque]]
-* '''Facility:''' [[Abel Laboratory]]
-* '''Engineer type:''' Ship Engineer
+* '''System:''' Arque
+* '''Facility:''' Abel Laboratory
+* '''Engineer scope:''' Ship modules
 * '''Referral required:''' [[Marco Qwent]]
 * '''System permit required:''' No
 
-== How to Discover Professor Palin ==
+== Access requirements ==
 
-Professor Palin is discovered through [[Marco Qwent]].
+Palin's direct access conditions are:<ref name="inara-palin" />
 
-Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with Marco to receive the referral to Palin.<ref name="newp-engineers" />
+# Reach Grade 3 access and progress approximately one-third of the way toward Grade 4 with [[Marco Qwent]].
+# Reach a maximum distance of at least '''5,000 light-years from the Commander's career start location'''.
+# Obtain '''25 Sensor Fragments'''.
+# Provide all 25 fragments at Abel Laboratory.
 
-{{Field note|Receiving Marco's referral makes Palin known to you. The separate 5,000-light-year meeting requirement must also be satisfied before Palin can be unlocked.}}
+The distance requirement uses the greatest distance reached from the career start location; it is not a cumulative total of hyperspace travel. Once that maximum-distance statistic reaches 5,000 light-years, returning to the Bubble does not erase the qualification.
 
-== How to Receive an Invitation ==
+Sensor Fragments are Manufactured Engineering materials rather than commodities. They use material storage and do not require 25 tonnes of cargo space.
 
-Reach a '''maximum distance of at least 5,000 light-years from your career start location'''.<ref name="inara-palin" />
+For route planning, checking the distance statistic, collecting Sensor Fragments, and the complete ordered process, see [[Unlocking Professor Palin]].
 
-This is a distance-from-start requirement, not a cumulative travel requirement. Flying a total of 5,000 Ly through many shorter trips does not satisfy it unless your recorded maximum distance from your career start location reaches at least 5,000 Ly.
+{{Field note|Marco's referral reveals Palin. The 5,000-light-year qualification and Sensor Fragment contribution remain separate requirements.}}
 
-=== Checking your distance from your starting location ===
+== Workshop reputation ==
 
-You can check your progress directly in-game:
+Reputation with Palin increases by:<ref name="inara-palin" />
 
-# Open the '''right-hand cockpit panel'''.
-# Select '''Codex'''.
-# Open the '''Commander''' section.
-# Select '''Stats'''.
-# Open the '''Exploration''' statistics.
-# Find '''Max Distance From Start'''.<ref name="frontier-palin-distance">[https://forums.frontier.co.uk/threads/professor-palin-cant-find-distance-traveled.543935/ Professor Palin — Can't Find Distance Traveled], Frontier Forums.</ref>
+* crafting modifications at his workshop; or
+* selling exploration data at Abel Laboratory.
 
-The value shown under '''Max Distance From Start''' is the relevant statistic for this requirement. Do not confuse it with statistics showing your total hyperspace distance travelled.<ref name="frontier-palin-distance" />
+Higher reputation opens the grades that Palin supports. Exploration data gathered while meeting the distance requirement can be sold at Abel Laboratory after access is available. INARA notes that station services may not appear immediately after the first unlock; beginning a new game session can make those services available.<ref name="inara-palin" />
 
-{{Important|You need the Max Distance From Start value to reach at least 5,000 Ly. You do not need to travel 5,000 Ly outward and then another 5,000 Ly back before the requirement counts. Once your maximum-distance statistic has reached 5,000 Ly, the distance requirement has been satisfied.}}
+== Engineering services ==
 
-You only need to reach the required distance; you do not need to remain there after the condition has been recorded.
+Palin's maximum grade is specific to each module family.<ref name="inara-palin" /><ref name="edwiki-palin" />
 
-{{Tip|A trip made specifically for Palin can also generate substantial exploration data. Once Palin is unlocked, exploration data can be sold at Abel Laboratory to help increase your [[Engineer Reputation|reputation with him]].}}
-
-== How to Unlock Professor Palin ==
-
-Unlock requirements summary:
-* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[Marco Qwent]].
-* Reach a maximum distance of at least '''5,000 Ly from your career start location'''.
-* Obtain '''25 [[Sensor Fragments]]'''.
-* Provide the 25 Sensor Fragments to Professor Palin.
-{{Important|'''Sensor Fragments are Manufactured Engineering materials.''' They are not commodities and do not occupy normal cargo space.}}
-{{Field note|[[Chloe Sedesi]] has the same 25-Sensor-Fragment unlock requirement. If you intend to unlock both Engineers, plan your collection accordingly.}}
-
-For the complete step-by-step process, see [[Unlocking Professor Palin]].
-
-== Increasing Engineer Reputation ==
-
-Reputation with Professor Palin can be increased by:
-
-* crafting Engineering modifications at Abel Laboratory; or
-* selling exploration data at Abel Laboratory.<ref name="inara-palin" />
-
-Higher Engineer reputation gives access to the higher grades Palin supports for each blueprint.
-
-See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
-
-{{Tip|If your 5,000-light-year journey generated exploration data, consider saving some of it until after Palin is unlocked. Selling it at Abel Laboratory can help raise your Engineer reputation without relying entirely on repeated Engineering rolls.}}
-
-== Engineer Unlock Chain ==
-
-Professor Palin belongs to the [[Elvira Martuuk]] branch of the ship Engineer network.
-
-The route to Palin is:
-
-<pre>
-Elvira Martuuk
-└── Marco Qwent
-    └── Professor Palin
-</pre>
-
-[[Marco Qwent]] can also refer Commanders to [[Chloe Sedesi]] and [[Lori Jameson]]:
-
-<pre>
-Elvira Martuuk
-└── Marco Qwent
-    ├── Chloe Sedesi
-    ├── Lori Jameson
-    └── Professor Palin
-</pre>
-
-Professor Palin does '''not''' currently lead to another Engineer in the ship Engineer referral network.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
-
-{{Field note|[[Chloe Sedesi]] is not unlocked through Professor Palin. Both Palin and Chloe are separate referrals from [[Marco Qwent]], and both have their own unlock requirements.}}
-
-See [[Engineer Unlock Guide]] for the complete referral network.
-
-== Available Engineering ==
-
-Professor Palin's Engineering coverage is shown below. The listed grade is the highest grade he can apply to that module.<ref name="inara-palin" />
-
-{| class="wikitable"
+{| class="wikitable sortable" style="width:100%;"
 ! Module
-! Available blueprints
 ! Maximum grade
 |-
 | [[Thrusters]]
-|
-* Clean
-* Dirty
-* Reinforced
 | '''Grade 5'''
 |-
 | [[Frame Shift Drive]]
-|
-* Faster Boot Sequence
-* Increased Range
-* Shielded
 | '''Grade 3'''
 |}
 
-Palin's primary specialty is therefore Thrusters. His Frame Shift Drive capability is useful for lower-grade work and Experimental Effects, but commanders seeking Grade 5 FSD Engineering will need another Engineer.
+The available modification families, effects, trade-offs, and recipes belong to [[Engineering Blueprints]]. Compatible secondary modifications belong to [[Experimental Effects]]. Palin can apply compatible Experimental Effects to both module families, including to a Frame Shift Drive carrying a higher blueprint grade from another Engineer.
 
-== Experimental Effects ==
+== Blueprint pinning and remote work ==
 
-Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+After sufficient reputation has been earned, one Palin blueprint can be pinned for use through [[Remote Engineering]]. A pinned blueprint cannot exceed his Grade 5 Thruster or Grade 3 Frame Shift Drive limit, and Experimental Effects still require an appropriate workshop visit.
 
-Professor Palin can apply Experimental Effects to both Thrusters and Frame Shift Drives.
+== Referrals ==
 
-=== Thrusters ===
+Professor Palin does not currently introduce another Engineer in the ship Engineer referral network. His relationship to Marco Qwent, sibling referrals, and other branches can be viewed in the [[Engineer Unlock Guide]].
 
-Available Thruster Experimental Effects include:<ref name="inara-thrusters">[https://inara.cz/elite/blueprint/4/ Thrusters — Dirty], Inara.</ref>
+== Related pages ==
 
-* [[Double Braced]]
-* [[Drag Drives]]
-* [[Drive Distributors]]
-* [[Stripped Down]]
-* [[Thermal Spread]]
-
-=== Frame Shift Drive ===
-
-Available Frame Shift Drive Experimental Effects include:<ref name="inara-fsd">[https://inara.cz/elite/blueprint/2/ Frame Shift Drive — Increased Range], Inara.</ref>
-
-* [[Deep Charge]]
-* [[Double Braced]]
-* [[Mass Manager]]
-* [[Stripped Down]]
-* [[Thermal Spread]]
-
-See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
-
-{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
-
-== Recommended Engineering ==
-
-Professor Palin's most important capability is his '''Grade 5 Thruster Engineering'''.
-
-{{Tip|'''Common general-purpose choice: Dirty + Drag Drives'''
-
-For many ships, [[Dirty Thrusters|Dirty]] Thruster Engineering combined with the [[Drag Drives]] Experimental Effect is a strong general-purpose choice when maximum speed, boost speed, and manoeuvrability are the priority.
-
-This is a recommendation rather than a universal rule. Clean, Reinforced, or a different Experimental Effect may be more appropriate for specialised builds.}}
-
-Dirty Engineering increases Thruster performance at the cost of higher power draw, greater thermal load, and reduced integrity. The exact tradeoff becomes more pronounced at higher grades.<ref name="inara-thrusters" />
-
-{{Field note|[[Drive Distributors]] and [[Drag Drives]] affect Thruster performance differently. Do not assume Drag Drives is automatically optimal for every ship and Thruster configuration; specialised builds should be compared using the actual ship mass and module characteristics.}}
-
-== Blueprint Pinning ==
-
-After earning sufficient reputation with Professor Palin, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
-
-{{Tip|'''EDFM recommendation:''' [[Dirty Thrusters]] is a strong default blueprint to pin at Professor Palin.
-
-Palin provides Dirty Engineering through Grade 5, and it is widely useful across combat and general-purpose ship builds. New Pilots Initiative's current suggested pinning plan likewise assigns '''Dirty Drive''' to Professor Palin.<ref name="newp-engineering">[https://newp.io/engineeringguide Engineering Guide], New Pilots Initiative.</ref>
-
-If you also unlock [[Chloe Sedesi]], she can be used to pin another Grade 5 Thruster blueprint, such as Clean.}}
-
-{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Experimental Effects still require visiting an appropriate Engineer workshop.}}
-
-== What Palin Cannot Fully Engineer ==
-
-Professor Palin provides maximum-grade Engineering for Thrusters, but his Frame Shift Drive Engineering stops at Grade 3.
-
-His maximum grades are:
-
-* '''Thrusters:''' Grade 5
-* '''Frame Shift Drive:''' Grade 3<ref name="inara-palin" />
-
-For higher-grade Frame Shift Drive Engineering:
-
-* [[Felicity Farseer]] provides '''Grade 5''' FSD Engineering.
-* [[Elvira Martuuk]] provides '''Grade 5''' FSD Engineering.
-* [[Mel Brandon]] provides '''Grade 5''' FSD Engineering in Colonia.<ref name="inara-engineers" />
-
-Other Engineers who provide Grade 5 Thruster Engineering include:
-
-* [[Chloe Sedesi]]; and
-* [[Mel Brandon]].<ref name="inara-engineers" />
-
-Palin therefore remains one of the primary Bubble Engineers for maximum-grade Thruster work, but he is not a maximum-grade FSD Engineer.
-
-== What Next? ==
-
-Professor Palin is the end of his referral branch and does not currently introduce another Engineer.
-
-After unlocking him, your next Engineering target depends on which modules you still need to improve.
-
-{{What next|title=Continue Engineering|
-* '''Alternative Grade 5 Thrusters:''' [[Chloe Sedesi]]
-* '''Grade 5 FSD Engineering:''' [[Felicity Farseer]] or [[Elvira Martuuk]]
-* '''Scanners and exploration systems:''' [[Lori Jameson]]
-* '''Grade 5 Power Plant:''' [[Hera Tani]]
-* '''Grade 5 Power Distributor:''' [[The Dweller]]
-* '''Previous Engineer:''' [[Marco Qwent]]
-* '''See the whole network:''' [[Engineer Unlock Guide]]
-* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
-* '''Learn the system:''' [[Engineering]]
-}}
+* [[Engineering]] — the modification system and progression model
+* [[Engineers]] — access overview and Engineer directories
+* [[Engineering Blueprints]] — blueprint families, grades, effects, and recipes
+* [[Experimental Effects]] — compatible secondary modifications
+* [[Remote Engineering]] — using pinned blueprints away from a workshop
+* [[Unlocking Professor Palin]] — ordered access procedure
 
 == Sources ==
 

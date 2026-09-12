@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Broo Tarquin
 Namespace: 828
 Page ID: 172
-Revision ID: 1149
-Timestamp: 2026-08-20T22:08:54Z
+Revision ID: 3864
+Timestamp: 2026-09-11T15:49:38Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Broo_Tarquin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -31,12 +31,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "Referral from Hera Tani",
 	"invitation_requirement": "Combat rank Competent or higher",
 	"meeting_requirement": "Reach Combat rank Competent or higher.",
-	"meeting_links": [
-		{
-			"text": "Combat rank",
-			"target": "Combat Rank"
-		}
-	],
 	"unlock": {
 		"action": "Deliver",
 		"quantity": 50,

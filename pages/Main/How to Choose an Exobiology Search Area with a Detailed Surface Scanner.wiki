@@ -1,0 +1,98 @@
+<!--
+EDFM current-content archive export.
+Title: How to Choose an Exobiology Search Area with a Detailed Surface Scanner
+Namespace: 0
+Page ID: 833
+Revision ID: 3758
+Timestamp: 2026-09-10T20:19:11Z
+Source URL: https://edfieldmanual.com/wiki/How_to_Choose_an_Exobiology_Search_Area_with_a_Detailed_Surface_Scanner
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Live 4.4.1
+ |reviewed=2026-09-10
+ |reviewer=Sythan
+ |source_quality=Frontier issue-tracker clarification and established community exobiology field guides
+ |uncertainty=The overlay identifies suitable habitat, but local terrain and organism visibility still require field judgement.
+}}
+{{Field procedure|summary=Use a mapped body's Signals Filter to choose promising terrain for an Exobiology search without treating the blue overlay as an exact specimen marker.}}
+
+Use this procedure after a body with biological signals has been mapped with a [[Detailed Surface Scanner]]. It selects a search region; it does not locate an individual organism or replace the surface search and sampling stage.
+
+{{Callout|type=warning|label=Live only|text=Odyssey Exobiology and its genus filters are part of the current Live galaxy. They are not available in Legacy.}}
+
+== Before you start ==
+
+* Confirm that the body reports one or more biological signals.
+* Complete the planetary map. See [[How to Map a Planet or Moon with a Detailed Surface Scanner]] if needed.
+* Remain in or reopen the DSS surface view.
+* Leave enough fuel and approach time to compare more than one promising region.
+
+== Procedure ==
+
+{{Procedure steps|
+# Open the '''Signals Filter''' on the mapped-body view.
+# Select the biological genus you intend to search for. Each available genus is evaluated separately.
+# Identify broad blue areas for that selected filter. Blue marks terrain where the organism can occur; it does not mark an exact specimen position or the density of life.<ref name="frontier-overlay">[https://issues.frontierstore.net/issue-detail/31345 Issue 31345: Detailed Surface Scanner heat map], Frontier Issue Tracker. The acknowledged design response describes the display as areas where organics are likely to be found rather than a density heat map. Accessed 10 September 2026.</ref>
+# Compare several blue regions with the visible terrain. Prefer terrain appropriate to the selected organism and practical for a ship or surface vehicle to approach.
+# Alternate between Analysis Mode and Combat Mode while inspecting the body. Removing the blue overlay briefly can reveal ridges, valleys, plains, shadows, and surface colour that the filter obscures.
+# Choose a region with both suitable habitat and manageable terrain, then leave the DSS and descend toward it.
+# During descent, look for the physical form of the selected genus. The DSS will not place a marker on each colony.
+# If the first region is empty or awkward, return to orbital or high-altitude comparison and try another highlighted area.
+}}
+
+== Reading the overlay ==
+
+{| class="wikitable" style="width:100%;"
+! Display !! Meaning
+|-
+| Blue terrain || The selected genus can occur in that region.
+|-
+| No blue terrain || The selected genus is not expected in that region.
+|-
+| Darker or brighter blue || A display or terrain effect; it is not a reliable density scale.
+|-
+| Biological Signals: ''number'' || The number of biological signal types detected on the body, not a specimen count.
+|}
+
+The filter is a habitat map, not a promise. Elevation, slope, rock cover, lighting, and the organism's physical size can all affect whether a useful colony is visible from the chosen approach. Community field guides consistently recommend interpreting the overlay together with the terrain rather than following colour intensity alone.<ref name="marx-exobio">[https://forums.frontier.co.uk/threads/marxs-guide-to-exobiology.583445/ Marx's Guide to Exobiology], Frontier Forums, community field guide. Accessed 10 September 2026.</ref>
+
+== Approaching the search area ==
+
+* Enter the atmosphere or descend only after choosing a broad region; the full-body filter is easier to compare from the DSS view.
+* Use shallow, controlled passes where terrain permits. Large structures may be visible from altitude, while low-profile growth such as Bacterium is easier to miss.
+* Keep the selected genus in mind. Blue coverage for one filter says nothing about another genus on the same world.
+* If sunlight, surface colour, or shadows hide features, change the viewing angle or search a second highlighted region.
+
+== Completion check ==
+
+The procedure is complete when the Commander has selected and reached terrain highlighted for the intended genus and has begun the local visual search. Identification, genetic sampling, sample separation, and sale of biological data continue under [[Exobiology]].
+
+== Common problems ==
+
+* '''The entire body appears blue:''' the selected genus may have a broad habitat. Use terrain and approach conditions to choose a practical search area.
+* '''Different blue shades look like density bands:''' do not rank regions by shade alone; the DSS display is not a population-density heat map.<ref name="frontier-overlay" />
+* '''No organisms are visible after landing:''' move through the highlighted habitat or compare another region. Blue means suitable terrain, not an exact colony location.
+* '''The wrong genus is being found:''' reopen the filter and confirm the selected signal; every genus has its own habitat display.
+* '''The overlay hides terrain detail:''' alternate between Analysis and Combat modes before committing to a landing area.
+* '''A blue region is unsafe to approach:''' choose another highlighted region with flatter or more accessible terrain.
+
+== Related Reference Pages ==
+
+* [[Detailed Surface Scanner]]
+* [[Exobiology]]
+* [[Exploration]]
+
+== Related Field Procedures ==
+{{#invoke:Procedures|list|page=How to Choose an Exobiology Search Area with a Detailed Surface Scanner}}
+
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
+[[Category:Exobiology]]
+[[Category:Exploration]]

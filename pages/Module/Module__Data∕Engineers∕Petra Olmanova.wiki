@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Petra Olmanova
 Namespace: 828
 Page ID: 416
-Revision ID: 1164
-Timestamp: 2026-08-20T22:09:03Z
+Revision ID: 3884
+Timestamp: 2026-09-11T17:38:51Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Petra_Olmanova
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -40,17 +40,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "Referral from Tod \"The Blaster\" McQuinn",
 	"invitation_requirement": "Combat rank Expert or higher",
 	"meeting_requirement": "Reach Combat rank Expert or higher.",
-	"meeting_links": [
-		{
-			"text": "Combat rank",
-			"target": "Combat Rank"
-		}
-	],
-	"unlock": {
-		"action": "Deliver",
-		"quantity": 200,
-		"item": "Progenitor Cells"
-	},
+	"unlock_requirement": "Deliver 200 Progenitor Cells.",
 	"engineering": [
 		{
 			"grade": 5,

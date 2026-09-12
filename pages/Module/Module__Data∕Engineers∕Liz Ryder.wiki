@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Liz Ryder
 Namespace: 828
 Page ID: 170
-Revision ID: 1159
-Timestamp: 2026-08-20T22:09:00Z
+Revision ID: 3859
+Timestamp: 2026-09-11T15:25:46Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Liz_Ryder
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -25,7 +25,13 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		"Torpedo Pylon",
 		"Mine Launcher",
 		"Armour",
-		"Hull Reinforcement Package"
+		"Hull Reinforcement Package",
+		"Abrasion Blaster",
+		{
+			"display": "Enzyme Missile Rack",
+			"link": false
+		},
+		"Mining Laser"
 	],
 	"max_grade": "Grade 5",
 	"prerequisite_engineer": null,
@@ -58,6 +64,19 @@ This is current wikitext only; no revision history, user database, logs, deleted
 			"grade": 3,
 			"modules": [
 				"Mine Launcher"
+			]
+		},
+		{
+			"grade": 3,
+			"live_only": true,
+			"merc": true,
+			"modules": [
+				"Abrasion Blaster",
+				{
+					"display": "Enzyme Missile Rack",
+					"link": false
+				},
+				"Mining Laser"
 			]
 		},
 		{

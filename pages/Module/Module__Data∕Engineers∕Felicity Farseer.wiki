@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Felicity Farseer
 Namespace: 828
 Page ID: 169
-Revision ID: 1155
-Timestamp: 2026-08-20T22:08:58Z
+Revision ID: 3797
+Timestamp: 2026-09-11T03:30:25Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Felicity_Farseer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -35,12 +35,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "None — public data sources",
 	"invitation_requirement": "Exploration rank Scout or higher",
 	"meeting_requirement": "Reach Exploration rank Scout or higher.",
-	"meeting_links": [
-		{
-			"text": "Exploration rank",
-			"target": "Exploration Rank"
-		}
-	],
 	"unlock": {
 		"action": "Deliver",
 		"quantity": 1,

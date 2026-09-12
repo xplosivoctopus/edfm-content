@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Mel Brandon
 Namespace: 828
 Page ID: 404
-Revision ID: 1163
-Timestamp: 2026-08-20T22:09:02Z
+Revision ID: 3881
+Timestamp: 2026-09-11T17:15:47Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Mel_Brandon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -35,20 +35,9 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"prerequisite_engineer_note": "— Grade 3 access plus at least one-third progress toward Grade 4",
 	"prerequisite_engineer_display": null,
 	"discovery_requirement": "Referral from Elvira Martuuk",
-	"invitation_requirement": "Cordial reputation with the Colonia Council",
-	"meeting_requirement": "Reach at least Cordial reputation with the Colonia Council and obtain its Engineer invitation.",
-	"meeting_links": [
-		{
-			"text": "reputation",
-			"target": "Reputation"
-		}
-	],
-	"unlock": {
-		"action": "Provide",
-		"credits": 100000,
-		"item": "Bounty Vouchers",
-		"credits_worth": true
-	},
+	"invitation_requirement": "Invitation from the Colonia Council",
+	"meeting_requirement": "Reach Friendly reputation with the Colonia Council and obtain its Engineer invitation.",
+	"unlock_requirement": "Provide 100,000 CR worth of bounty vouchers.",
 	"engineering": [
 		{
 			"grade": 5,

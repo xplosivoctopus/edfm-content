@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Etienne Dorn
 Namespace: 828
 Page ID: 411
-Revision ID: 1154
-Timestamp: 2026-08-20T22:08:57Z
+Revision ID: 3870
+Timestamp: 2026-09-11T16:21:18Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Etienne_Dorn
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -17,7 +17,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"system": "Los",
 	"body": null,
 	"facility": "Kraken's Retreat",
-	"region": null,
+	"region": "Colonia",
 	"allegiance": null,
 	"specialties": [
 		"Detailed Surface Scanner",
@@ -28,7 +28,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		"Plasma Accelerator",
 		"Power Distributor",
 		"Power Plant",
-		"Rail Gun",
+		{
+			"display": "Rail Gun",
+			"link": false
+		},
 		"Sensors"
 	],
 	"max_grade": "Grade 5",
@@ -38,17 +41,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "Referral from Liz Ryder",
 	"invitation_requirement": "Trade rank Dealer or higher",
 	"meeting_requirement": "Reach Trade rank Dealer or higher.",
-	"meeting_links": [
-		{
-			"text": "Trade rank",
-			"target": "Trade Rank"
-		}
-	],
-	"unlock": {
-		"action": "Deliver",
-		"quantity": 25,
-		"item": "Occupied Escape Pods"
-	},
+	"unlock_requirement": "Deliver 25 Occupied Escape Pods.",
 	"engineering": [
 		{
 			"grade": 5,
@@ -61,7 +54,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 				"Plasma Accelerator",
 				"Power Distributor",
 				"Power Plant",
-				"Rail Gun",
+				{
+					"display": "Rail Gun",
+					"link": false
+				},
 				"Sensors"
 			]
 		}

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/The Sarge
 Namespace: 828
 Page ID: 408
-Revision ID: 1169
-Timestamp: 2026-08-20T22:09:05Z
+Revision ID: 3876
+Timestamp: 2026-09-11T17:01:41Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/The_Sarge
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -25,7 +25,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		"Fuel Transfer Limpet Controller",
 		"Hatch Breaker Limpet Controller",
 		"Prospector Limpet Controller",
-		"Rail Gun"
+		{
+			"display": "Rail Gun",
+			"link": false
+		}
 	],
 	"max_grade": "Grade 5",
 	"prerequisite_engineer": "Juri Ishmaak",
@@ -34,17 +37,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"discovery_requirement": "Referral from Juri Ishmaak",
 	"invitation_requirement": "Federal Navy rank Midshipman or higher",
 	"meeting_requirement": "Reach Federal Navy rank Midshipman or higher.",
-	"meeting_links": [
-		{
-			"text": "Federal Navy rank",
-			"target": "Federal Navy Rank"
-		}
-	],
-	"unlock": {
-		"action": "Deliver",
-		"quantity": 50,
-		"item": "Aberrant Shield Pattern Analysis"
-	},
+	"unlock_requirement": "Deliver 50 Aberrant Shield Pattern Analysis.",
 	"engineering": [
 		{
 			"grade": 5,
@@ -59,7 +52,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		{
 			"grade": 3,
 			"modules": [
-				"Rail Gun"
+				{
+					"display": "Rail Gun",
+					"link": false
+				}
 			]
 		}
 	],

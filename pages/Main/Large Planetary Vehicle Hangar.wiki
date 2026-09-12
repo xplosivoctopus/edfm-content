@@ -3,69 +3,91 @@ EDFM current-content archive export.
 Title: Large Planetary Vehicle Hangar
 Namespace: 0
 Page ID: 744
-Revision ID: 3663
-Timestamp: 2026-09-09T20:28:30Z
+Revision ID: 3790
+Timestamp: 2026-09-11T03:10:53Z
 Source URL: https://edfieldmanual.com/wiki/Large_Planetary_Vehicle_Hangar
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article status
- |status=Upcoming Content
+ |status=Partially verified
  |mode=Live
- |version=Announced for the 2 September 2026 Rhino update; page reflects official pre-release information available on 29 August 2026
- |reviewed=2026-08-29
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-10
  |reviewer=Sythan
- |source_quality=Official Frontier Rhino first-look article and August 2026 developer log
- |uncertainty=Final outfitting behaviour, purchase locations, prices, and released-game module details are not yet verified.
+ |source_quality=Frontier's Rhino release announcement, August 2026 developer log, and current Rhino store page
+ |uncertainty=Frontier's release announcement and earlier developer log disagree on some announced class ranges; the table uses the ranges published with the live Rhino release.
 }}
-{{Article header|section=Ships & Equipment|context=Modules|deck=Upcoming vehicle hangar module required to deploy the Rhino SRV.}}
+{{Article header|section=Ships & Equipment|context=Modules|deck=Optional internal module used to carry and deploy the Rhino Surface Recon Vehicle.}}
 {{Ship module infobox}}
 
-The '''Large Planetary Vehicle Hangar''' is an announced ship module used to deploy the [[Rhino]] [[Surface Recon Vehicles|Surface Recon Vehicle]]. Frontier has stated that the Rhino is too large to deploy through the regular cargo hatch like other SRVs and instead drops from the new large planetary vehicle hangar.<ref name="frontier-first-look">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface - Your First Look at the Rhino], Frontier Developments, 6 August 2026.</ref><ref name="frontier-august-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
+The '''Large Planetary Vehicle Hangar''' is an optional internal ship module used to carry and deploy the [[Rhino]] [[Surface Recon Vehicles|Surface Recon Vehicle]]. The Rhino is too large for the ordinary cargo-hatch deployment used by smaller SRVs, so it drops from this dedicated large-vehicle bay.<ref name="frontier-first-look">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface – Your First Look at the Rhino], Frontier Developments, 6 August 2026. Accessed 10 September 2026.</ref>
 
 == Compatibility ==
 
-Frontier announced the following pre-release compatibility for the Large Planetary Vehicle Hangar:<ref name="frontier-august-dev-log" />
+Frontier's live-release announcement lists the following ship and hangar-class combinations.<ref name="frontier-release">[https://www.elitedangerous.com/news/rhino-available-now-arx-early-access Rhino – Available Now Via ARX Early Access], Frontier Developments, 2 September 2026. Accessed 10 September 2026.</ref>
 
-{| class="wikitable sortable"
-! Ship
-! Supported module class
+{| class="wikitable sortable" style="width:100%;"
+! Ship !! Supported module classes
 |-
-| [[Alliance Crusader]] || Class 5-6
+| Alliance Crusader || 2–6
 |-
-| [[Anaconda]] || Class 5-7
+| Anaconda || 2–6
 |-
-| [[Beluga Liner]] || Class 5-6
+| Beluga Liner || 2–6
 |-
-| [[Caspian Explorer]] || Class 5-7
+| Caspian Explorer || 2–6
 |-
-| [[Federal Corvette]] || Class 5-7
+| Federal Corvette || 2–6
 |-
-| [[Federal Gunship]] || Class 5-6
+| Federal Gunship || 2–6
 |-
-| [[Imperial Cutter]] || Class 5-7
+| Imperial Cutter || 2–6
 |-
-| [[Keelback]] || Class 5
+| Keelback || 2–4
 |-
-| [[Krait Mk II]] || Class 5-6
+| Krait Mk II || 2–6
 |-
-| [[Panther Clipper Mk II]] || Class 5-7
+| Panther Clipper Mk II || 2–6
 |-
-| [[Type-9 Heavy]] || Class 5-7
+| Type-9 Heavy || 2–6
 |-
-| [[Type-10 Defender]] || Class 5-7
+| Type-10 Defender || 2–6
 |-
-| [[Type-11 Prospector]] || Class 5-6
+| Type-11 Prospector || 2–6
 |}
 
-== See also ==
+The Keelback has the narrowest supported range. A ship not present in Frontier's compatibility list should not be assumed to accept the module merely because it can carry an ordinary [[Planetary Vehicle Hangar]] or another launch-bay type.
 
-* [[Planetary Vehicle Hangar]]
-* [[Surface Recon Vehicles]]
+== Acquisition and fitting ==
+
+The Rhino Standard store page states that the hangar is not part of the vehicle bundle itself, but becomes available for compatible ships at most outfitting locations and is free with the Rhino purchase.<ref name="store-standard">[https://www.elitedangerous.com/store/product/rhino-standard Rhino Standard], Elite Dangerous Gamestore, Frontier Developments. Accessed 10 September 2026.</ref>
+
+The fitted ship still needs enough optional-internal space for a supported module class. Cargo racks, shields, and other internals compete for the remaining slots, so carrier-ship choice affects how much room is left for mined cargo.
+
+== Deployment behaviour ==
+
+The hangar stores the Rhino aboard a compatible ship and handles its large-vehicle deployment. Frontier describes the Rhino as being dropped from the bay rather than lowered through the regular SRV cargo hatch.<ref name="frontier-first-look" />
+
+For the complete preparation, deployment, recovery, and cargo-transfer sequence, see [[Surface Mining with the Rhino]].
+
+== Limitations ==
+
+* The module is available in the current Live game and is tied to Rhino access.
+* Only the compatible ships and class ranges listed above are confirmed by Frontier's live-release material.
+* The ordinary Planetary Vehicle Hangar remains the established module for smaller SRVs.
+* Compatibility with fighter or ship-launched-vessel bays does not imply compatibility with the Rhino hangar.
+
+== Related articles ==
+
 * [[Rhino]]
 * [[Surface Mining]]
+* [[Surface Mining with the Rhino]]
+* [[Planetary Vehicle Hangar]]
+* [[Surface Recon Vehicles]]
+* [[Cargo Rack]]
 
-== References ==
+== Sources ==
 
 <references />
 

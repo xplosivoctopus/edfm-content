@@ -3,279 +3,109 @@ EDFM current-content archive export.
 Title: Lei Cheung
 Namespace: 0
 Page ID: 112
-Revision ID: 3644
-Timestamp: 2026-09-09T20:28:02Z
+Revision ID: 3839
+Timestamp: 2026-09-11T13:46:11Z
 Source URL: https://edfieldmanual.com/wiki/Lei_Cheung
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=A Grade 5 Shield Generator, Sensors, and Detailed Surface Scanner Engineer based at Trader's Rest in Laksak, reached through The Dweller.
+{{Article status
+ |status=Partially verified
+ |mode=Live and Legacy
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-11
+ |reviewer=Sythan
+ |source_quality=Current INARA Engineer and Blueprint records, Frontier Operations notes, and the in-game biography reproduced by the Elite Dangerous Wiki.
+ |uncertainty=None currently recorded for Lei Cheung's direct access requirements or service grades.
+}}
+{{Article header|deck=Shield-technology specialist at Trader's Rest in Laksak, offering Grade 5 engineering for Shield Generators, Sensors, and Detailed Surface Scanners.
 }}
 
-{{Engineer infobox}}
+{{Engineer infobox
+ |body=Laksak A 1
+}}
 
-'''Lei Cheung''' is a ship Engineer based at '''Trader's Rest''' in the [[Laksak]] system. He is reached through [[The Dweller]] and is best known for providing '''Grade 5 Shield Generator Engineering'''. He also provides Grade 5 Engineering for Sensors and Detailed Surface Scanners, along with Grade 3 Shield Booster Engineering.<ref name="inara-lei">[https://inara.cz/elite/engineer/10/ Lei Cheung — Engineer], Inara.</ref><ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+'''Lei Cheung''' is a ship Engineer based at '''[[Trader's Rest]]''' in the '''[[Laksak]]''' system. Raised among tramp traders, he learned engineering through the family trade and developed an affinity for shield technology. His workshop remains part of the family's scrapping and rebuilding operation.<ref name="edwiki-lei">[https://elite-dangerous.fandom.com/wiki/Lei_Cheung Lei Cheung], Elite Dangerous Wiki. Accessed 11 September 2026.</ref>
 
-Lei is therefore useful beyond shields alone. His Grade 5 Sensors and Detailed Surface Scanner access also makes him a maximum-grade Engineer for several exploration and utility-focused builds.<ref name="inara-lei" />
-
-{{Field note|Receiving The Dweller's referral does not automatically unlock Lei. You must also satisfy his trading requirement and provide 200 units of Gold before his workshop becomes available.}}
+Lei provides '''Grade 5''' engineering for [[Shield Generator|Shield Generators]], [[Sensors]], and [[Detailed Surface Scanner|Detailed Surface Scanners]]. His [[Shield Booster]] services reach Grade 3.<ref name="inara-lei">[https://inara.cz/elite/engineer/10/ Lei Cheung — Engineer], INARA. Accessed 11 September 2026.</ref>
 
 == Location ==
 
 * '''System:''' [[Laksak]]
-* '''Facility:''' [[Trader's Rest]]
 * '''Body:''' Laksak A 1
-* '''Engineer type:''' Ship Engineer
+* '''Facility:''' [[Trader's Rest]]
+* '''Engineer scope:''' Ship modules, shields, and sensors
 * '''Referral required:''' [[The Dweller]]
 * '''System permit required:''' No
 
-Trader's Rest is a surface Engineer base located on Laksak A 1.<ref name="inara-traders-rest">[https://inara.cz/elite/station-market/52146/ Trader's Rest — Station Market], Inara.</ref>
+== Access requirements ==
 
-== How to Discover Lei Cheung ==
+Access to Lei Cheung has three direct requirements:<ref name="inara-lei" /><ref name="edwiki-lei" />
 
-Lei Cheung is discovered through [[The Dweller]].
+# Reach '''Grade 3 access''' and progress at least one-third of the way toward Grade 4 with [[The Dweller]] to receive his referral.
+# Trade at least '''50 unique commodity markets'''.
+# Deliver '''200 units of [[Gold]]''' to Trader's Rest.
 
-Reach '''Grade 3 access and progress at least one-third of the way toward Grade 4''' with The Dweller to receive his referral to Lei.<ref name="newp-engineers" />
+The referral reveals Lei Cheung, but it does not complete his market-trading requirement or Gold contribution. Gold is a cargo commodity rather than an Engineering material, so each unit occupies cargo space.
 
-{{Field note|Receiving The Dweller's referral makes Lei known to you. His separate market-trading requirement must still be completed before he can be unlocked.}}
+For market counting, commodity sourcing, delivery planning, and the complete ordered process, see [[Unlocking Lei Cheung]].
 
-== How to Receive an Invitation ==
+== Workshop reputation ==
 
-Trade at '''at least 50 unique commodity markets'''.<ref name="newp-engineers" />
+Reputation with Lei Cheung increases by:<ref name="inara-lei" />
 
-The requirement tracks the number of different markets with which your Commander has traded. Repeated trading at the same market does not increase the number of unique markets used.
+* crafting modifications at his workshop; or
+* selling commodities at Trader's Rest.
 
-A reliable way to progress the requirement is to make at least one commodity sale at each new market you visit.
+Higher reputation opens the grades that Lei supports. INARA notes that station services may not appear immediately after the first unlock; beginning a new game session can make those services available.<ref name="inara-lei" />
 
-{{Tip|If you know you intend to unlock Lei later, begin building this requirement naturally while working on other activities. When visiting a new station with a commodity market, carrying and selling a small amount of ordinary cargo can gradually build your market count without requiring a dedicated 50-stop trip later.}}
+== Engineering services ==
 
-See [[Trading at 50 Markets for Lei Cheung]] for a dedicated walkthrough, including how to track your progress and an efficient method for completing the requirement.
+The maximum grade is specific to each module family.<ref name="inara-lei" /><ref name="edwiki-lei" />
 
-{{Important|The 50-market requirement and the '''200 Gold''' donation are separate. Trading at enough markets allows you to meet Lei; the Gold is then required to unlock his workshop.}}
-
-== How to Unlock Lei Cheung ==
-
-Unlock requirements summary:
-* Reach '''Grade 3 access and at least one-third progress toward Grade 4''' with [[The Dweller]].
-* Obtain a total of '''200 units of [[Gold]]'''.
-* Donate the 200 units of Gold to Lei Cheung.
-{{Important|'''Gold is an ordinary commodity.''' It is not a Raw, Manufactured, or Encoded Engineering material. Each unit occupies one tonne of cargo space.}}
-{{Tip|A ship capable of carrying 200 tonnes can complete the Gold donation in one trip, but using a smaller ship only means making additional deliveries.}}
-
-For the complete step-by-step process, see [[Unlocking Lei Cheung]].
-
-== Increasing Engineer Reputation ==
-
-Reputation with Lei Cheung can be increased by:
-
-* crafting Engineering modifications at Trader's Rest; or
-* selling commodities at Trader's Rest.<ref name="inara-lei" />
-
-Higher Engineer reputation gives access to the higher grades Lei supports for each blueprint.
-
-Reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' also allows Lei to provide the referral to [[Ram Tah]].<ref name="newp-engineers" />
-
-See [[Engineer Reputation]] for how ship Engineer reputation, grade access, blueprint progression, referrals, and alternative reputation methods work.
-
-{{Tip|If you still have ordinary commodities aboard after completing Lei's Gold donation, selling appropriate cargo through the commodity market at Trader's Rest can help increase your Engineer reputation without relying entirely on Engineering rolls.}}
-
-== Engineer Unlock Chain ==
-
-Lei Cheung belongs to [[The Dweller]] branch of the ship Engineer network.
-
-The route to Lei is:
-
-<pre>
-The Dweller
-└── Lei Cheung
-</pre>
-
-After reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with Lei, he provides the referral to:
-
-* [[Ram Tah]]
-
-The complete branch is:
-
-<pre>
-The Dweller
-├── Lei Cheung
-│   └── Ram Tah
-└── Marsha Hicks [Colonia]
-</pre>
-
-Current Engineer data independently lists Ram Tah as being discovered through Lei Cheung.<ref name="inara-ram">[https://inara.cz/elite/engineer/18/ Ram Tah — Engineer], Inara.</ref>
-
-{{Field note|A referral from Lei does not automatically unlock [[Ram Tah]]. Ram Tah has his own meeting and unlock requirements that must still be completed.}}
-
-See [[Engineer Unlock Guide]] for the complete referral network.
-
-== Available Engineering ==
-
-Lei's Engineering coverage is shown below. The listed grade is the highest grade he can apply to that module.<ref name="inara-lei" />
-
-{| class="wikitable"
+{| class="wikitable sortable" style="width:100%;"
 ! Module
-! Available blueprints
 ! Maximum grade
 |-
-| [[Shield Generator]]
-|
-* Enhanced Low Power
-* Kinetic Resistant
-* Reinforced
-* Thermal Resistant
-| '''Grade 5'''
-|-
 | [[Detailed Surface Scanner]]
-|
-* Expanded Probe Scanning Radius
-* Long Range Detailed (Live only; compatible Merc modules)
 | '''Grade 5'''
 |-
 | [[Sensors]]
-|
-* Lightweight
-* Long Range
-* Wide Angle
+| '''Grade 5'''
+|-
+| [[Shield Generator]]
 | '''Grade 5'''
 |-
 | [[Shield Booster]]
-|
-* Blast Resistant
-* Heavy Duty
-* Kinetic Resistant
-* Resistance Augmented
-* Thermal Resistant
 | '''Grade 3'''
 |}
 
-Lei therefore provides maximum-grade Engineering for three of his four module types. Only his Shield Booster capability stops below Grade 5.
+The available modification families, effects, trade-offs, and recipes belong to [[Engineering Blueprints]]. Compatible secondary modifications for Shield Generators and Shield Boosters belong to [[Experimental Effects]].
 
-== Detailed Surface Scanner Engineering ==
+=== Operations-era services ===
 
-Lei provides both current Detailed Surface Scanner blueprints through '''Grade 5''':<ref name="inara-lei" />
+Live adds '''Long Range Detailed''' for compatible Merc Detailed Surface Scanners. The blueprint trades increased mass and power draw for a larger probe radius, and Lei can apply it through Grade 5.<ref name="frontier-operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments, 30 June 2026. Accessed 11 September 2026.</ref><ref name="inara-dss-long">[https://inara.cz/elite/blueprint/205/ Detailed Surface Scanner — Long Range Detailed], INARA. Accessed 11 September 2026.</ref>
 
-* '''Expanded Probe Scanning Radius'''
-* '''Long Range Detailed'''
+This service is not part of Legacy Engineering. Its individual modifiers, costs, and module compatibility belong to the corresponding [[Engineering Blueprints|Blueprint]] record.
 
-=== Long Range Detailed ===
+== Blueprint pinning and remote work ==
 
-'''Long Range Detailed''' increases probe radius in exchange for increased module mass and power draw.<ref name="inara-dss-long">[https://inara.cz/elite/blueprint/205/ Detailed Surface Scanner — Long Range Detailed], Inara.</ref>
+After sufficient reputation has been earned, one Lei Cheung blueprint can be pinned for use through [[Remote Engineering]]. A pinned blueprint cannot exceed the grade he offers, and Experimental Effects still require an appropriate workshop visit.
 
-Lei can apply the blueprint through '''Grade 5'''.
+== Direct referral ==
 
-{{Important|'''Live only:''' Long Range Detailed was introduced with the Operations-era Engineering additions and is not available in Legacy. It can only be applied to compatible '''Merc modules'''.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref><ref name="inara-dss-long" />}}
+Lei Cheung introduces '''[[Ram Tah]]''' after the Commander reaches Grade 3 access and progresses approximately one-third of the way toward Grade 4 with him. Ram Tah's current Engineer record identifies Lei as his prerequisite Engineer.<ref name="inara-ram">[https://inara.cz/elite/engineer/18/ Ram Tah — Engineer], INARA. Accessed 11 September 2026.</ref>
 
-== Experimental Effects ==
+The referral reveals Ram Tah; it does not satisfy his own meeting or unlock requirements. His location, requirements, services, and place in the referral network belong to [[Ram Tah|his article]]. For the complete network, see [[Engineer Unlock Guide]].
 
-Experimental Effects are separate from the main Engineering blueprint. A compatible module can normally have one Experimental Effect in addition to its blueprint modification.
+== Related pages ==
 
-Of Lei's specialties, Shield Generators and Shield Boosters support Experimental Effects. Sensors and Detailed Surface Scanners do not currently have Experimental Effects available.
-
-=== Shield Generator ===
-
-Available Shield Generator Experimental Effects include:<ref name="inara-shield-generator">[https://inara.cz/elite/blueprint/20/ Shield Generator — Enhanced Low Power], Inara.</ref>
-
-* [[Double Braced]]
-* [[Fast Charge]]
-* [[Force Block]]
-* [[Hi-Cap]]
-* [[Lo-Draw]]
-* [[Multi-Weave]]
-* [[Stripped Down]]
-* [[Thermo Block]]
-
-=== Shield Booster ===
-
-Available Shield Booster Experimental Effects include:<ref name="inara-experimentals">[https://inara.cz/elite/experimentaleffects/ Engineering — Experimental Effects], Inara.</ref>
-
-* [[Blast Block]]
-* [[Double Braced]]
-* [[Flow Control]]
-* [[Force Block]]
-* [[Super Capacitors]]
-* [[Thermo Block]]
-
-See [[Experimental Effects]] for the effects, tradeoffs, and material costs of each option.
-
-{{Field note|Experimental Effects cannot be applied through ordinary [[Remote Engineering]]. The module must be taken to an Engineer who works on that module.}}
-
-== Recommended Engineering ==
-
-Lei's most important capability for many ship builds is his '''Grade 5 Shield Generator Engineering'''.
-
-Unlike several module types where one blueprint dominates general-purpose use, Shield Generator Engineering depends heavily on the type of shield fitted and the purpose of the ship.
-
-=== Thermal Resistant ===
-
-[[Thermal Resistant Shield Generator|Thermal Resistant]] increases thermal resistance while reducing kinetic resistance and slightly reducing overall shield strength.
-
-It is particularly useful when building shields around balanced resistances, including many Bi-Weave configurations.
-
-=== Reinforced ===
-
-[[Reinforced Shield Generator|Reinforced]] increases overall shield strength and shield-generator integrity at the cost of additional power draw and mass.
-
-It is useful when raw shield capacity is more important than minimizing mass or balancing resistances.
-
-{{Tip|'''There is no universal Shield Generator blueprint.'''
-
-A resistance-focused Bi-Weave build may favor '''Thermal Resistant''', while a build intended to maximize raw shield strength may favor '''Reinforced'''.
-
-Choose the blueprint based on the shield type and the rest of the ship's Shield Booster configuration rather than treating one option as correct for every ship.}}
-
-=== Sensors ===
-
-Lei also provides [[Lightweight Sensors]] through '''Grade 5'''.
-
-Reducing Sensor mass can be valuable on exploration and other mass-sensitive ships, while Long Range or Wide Angle can be preferable when scanner performance is the priority.
-
-== Blueprint Pinning ==
-
-After earning sufficient reputation with Lei, one of his blueprints can be '''pinned''' for use through [[Remote Engineering]].
-
-{{Tip|'''EDFM recommendation:''' [[Thermal Resistant Shield Generator]] is a useful default blueprint to consider pinning at Lei if you regularly use balanced-resistance or Bi-Weave shield builds.
-
-Lei provides the blueprint through '''Grade 5''', making the entire progression available through Remote Engineering once the blueprint has been pinned.
-
-If your fleet relies more heavily on raw shield strength, [[Reinforced Shield Generator]] may be the more useful pin instead.}}
-
-The best pin depends on the shield configurations you use most often. Lei also provides Grade 5 Sensors and Detailed Surface Scanner Engineering, so those remain viable alternatives if your Shield Generator blueprints are already pinned elsewhere.
-
-{{Important|A pinned blueprint does '''not''' allow you to apply Experimental Effects remotely. Experimental Effects still require visiting an appropriate Engineer workshop.}}
-
-== What Lei Cannot Fully Engineer ==
-
-Lei provides Grade 5 Engineering for most of his specialties.
-
-His maximum grades are:
-
-* '''Shield Generator:''' Grade 5
-* '''Detailed Surface Scanner:''' Grade 5
-* '''Sensors:''' Grade 5
-* '''Shield Booster:''' Grade 3<ref name="inara-lei" />
-
-For maximum-grade Shield Booster Engineering:
-
-* [[Didi Vatermann]] provides '''Grade 5 Shield Booster''' Engineering.
-* [[Mel Brandon]] provides '''Grade 5 Shield Booster''' Engineering in Colonia.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
-
-Lei is therefore a maximum-grade Engineer for Shield Generators, Sensors, and Detailed Surface Scanners, but Commanders seeking fully engineered Shield Boosters will eventually need another Engineer.
-
-== What Next? ==
-
-Progressing Lei's reputation opens the route to [[Ram Tah]].
-
-{{What next|title=Continue Engineering|
-* '''Continue Lei's referral branch:''' [[Ram Tah]]
-* '''Grade 5 Shield Boosters:''' [[Didi Vatermann]]
-* '''Another Grade 5 Shield Generator Engineer:''' [[Mel Brandon]]
-* '''Previous Engineer:''' [[The Dweller]]
-* '''Complete the market requirement:''' [[Trading at 50 Markets for Lei Cheung]]
-* '''See the whole network:''' [[Engineer Unlock Guide]]
-* '''Learn about Engineer reputation:''' [[Engineer Reputation]]
-* '''Learn the system:''' [[Engineering]]
-}}
+* [[Engineering]] — the modification system and progression model
+* [[Engineers]] — access overview and Engineer directories
+* [[Engineering Blueprints]] — blueprint families, grades, effects, and recipes
+* [[Experimental Effects]] — compatible secondary modifications
+* [[Remote Engineering]] — using pinned blueprints away from a workshop
+* [[Unlocking Lei Cheung]] — ordered access procedure
 
 == Sources ==
 

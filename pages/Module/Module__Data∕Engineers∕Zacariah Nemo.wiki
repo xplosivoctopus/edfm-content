@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Zacariah Nemo
 Namespace: 828
 Page ID: 403
-Revision ID: 1172
-Timestamp: 2026-08-20T22:09:07Z
+Revision ID: 3856
+Timestamp: 2026-09-11T15:19:25Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Zacariah_Nemo
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -37,11 +37,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 			"target": "Reputation"
 		}
 	],
-	"unlock": {
-		"action": "Deliver",
-		"quantity": 25,
-		"item": "Xihe Biomorphic Companions"
-	},
+	"unlock_requirement": "Deliver 25 Xihe Biomorphic Companions.",
 	"engineering": [
 		{
 			"grade": 5,

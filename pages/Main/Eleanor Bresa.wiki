@@ -3,68 +3,119 @@ EDFM current-content archive export.
 Title: Eleanor Bresa
 Namespace: 0
 Page ID: 141
-Revision ID: 1902
-Timestamp: 2026-08-24T21:21:09Z
+Revision ID: 3930
+Timestamp: 2026-09-12T04:13:19Z
 Source URL: https://edfieldmanual.com/wiki/Eleanor_Bresa
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Weapon performance specialist at Bresa Modifications in the Desy system, Colonia region.}}
-{{Article status|status=Needs review|mode=Live|version=Odyssey on-foot Engineering; exact patch scope not yet directly verified|reviewed=2026-08-20|reviewer=Structured-data migration pass — discovery/invitation/unlock/referral now sourced from the Engineers directory table|source_quality=Location, discovery, unlock, and referral task cross-referenced against Inara's Engineers listing; specific modification effect descriptions and engineering costs have not yet been researched|uncertainty=Specific modification effect descriptions, engineering costs (materials/credits), and maximum grade are not yet researched. Location, discovery, unlock requirement, and the Yi Shen referral task are confirmed.}}
+{{Article status
+ |status=Verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Current INARA Engineer and workshop records, Frontier's Galnet coverage of the Colonia Engineers, and secondary Elite Dangerous Wiki corroboration.
+}}
 
-{{Engineer infobox}}
+{{Article header|deck=A combat-survivability, ammunition, and weapon-reload specialist at Bresa Modifications in Desy, independently accessible in the Colonia region.
+}}
 
-Eleanor Bresa specialises in weapon performance modifications for suits and handheld weapons.<ref name="inara-list" />
+{{Engineer infobox
+ |system=Desy
+ |body=Desy 7 a
+ |facility=Bresa Modifications
+ |region=Colonia
+ |discovery_requirement=Common knowledge; no referral required
+ |unlock_requirement=Visit 5 settlements in the Colonia system
+ |referrals=Yi Shen — provide 10 Digital Designs
+ |modifications_suit=Added Melee Damage, Damage Resistance, Extra Ammo Capacity, Faster Shield Regen
+ |modifications_weapon=Magazine Size, Reload Speed, Stowed Reloading
+}}
 
-Odyssey Engineering is a separate system from ship Engineering — it modifies suits and handheld weapons rather than ship modules, and exists only in Live (there is no Legacy equivalent). See [[Engineers]] for how the two systems are organised.
+'''Eleanor Bresa''' is an [[Engineers|Odyssey Engineer]] based at '''Bresa Modifications''' in the '''Desy''' system of the [[Colonia]] region. She specialises in suit durability, ammunition, and melee performance alongside weapon magazine and reload modifications.<ref name="inara-eleanor">[https://inara.cz/elite/engineer/38/ Eleanor Bresa — Engineer], INARA. Accessed 12 September 2026.</ref><ref name="edwiki-eleanor">[https://elite-dangerous.fandom.com/wiki/Eleanor_Bresa Eleanor Bresa], Elite Dangerous Wiki. Accessed 12 September 2026.</ref>
+
+Frontier introduced Eleanor with the four Colonia Odyssey Engineers and identifies them as providers of suit and personal-equipment modifications for commanders working on low-atmosphere worlds.<ref name="frontier-colonia">[https://www.elitedangerous.com/en-US/news/galnet/the-view-from-colonia The View from Colonia], Frontier Developments, 29 October 2021. Accessed 12 September 2026.</ref>
 
 == Location ==
-* '''System:''' Desy
-* '''Settlement:''' Bresa Modifications
-* '''Region:''' Colonia — this Engineer is only reachable after making the long journey to the Colonia region, separate from the core bubble.
 
-== How to Discover This Engineer ==
-Eleanor Bresa is independently available and does not require a referral from another Engineer.<ref name="inara-list">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+Eleanor's workshop is at '''Bresa Modifications''', a surface Engineer base on '''Desy 7 a''' in the '''Desy''' system. The body is approximately 3,660 light-seconds from the system arrival point.<ref name="inara-bresa">[https://inara.cz/elite/station/427595/ Bresa Modifications — Station], INARA. Accessed 12 September 2026.</ref>
 
-== How to Receive an Invitation ==
-There is no separate invitation requirement distinct from the unlock requirement below.
+The workshop is in the Colonia region, roughly 22,000 light-years from Sol. No system permit is required.
 
-== How to Unlock This Engineer ==
-The unlock requirements are summarized in the discovery and invitation sections above.
+== Discovery and access ==
 
-For the complete step-by-step process, see [[Unlocking Eleanor Bresa]].
+=== Discovery ===
 
-== Engineer Unlock Chain ==
-Eleanor Bresa is one of three independent Colonia Odyssey Engineers (alongside [[Baltanos]] and [[Rosa Dayette]]) whose referral tasks all feed into [[Yi Shen]].<ref name="inara-list" />
+Eleanor is common knowledge and does not require a referral from another Engineer.<ref name="inara-eleanor" />
 
-After Eleanor Bresa is unlocked, delivering '''10 Digital Designs''' completes the referral task toward Yi Shen. All three Colonia Engineers' referral tasks must be completed before Yi Shen becomes available.
+=== Workshop unlock ===
 
-== Available Engineering ==
-{{Draft warning}}
-Specific suit/weapon modification names and maximum grades were not confirmed in the sources checked for this pass — see [[Elite Dangerous Field Manual:Engineering Architecture]] for the site's policy on not inventing unconfirmed specifics. Confirmed specialty area: Weapon performance.
+Visit '''5 settlements in the Colonia system'''.<ref name="inara-eleanor" />
 
-== Experimental Effects ==
-To be added — not confirmed in the sources checked for this pass.
+The qualifying visits are to Odyssey settlements in the system named Colonia, not merely to any five settlements elsewhere in the wider Colonia region.
 
-== Increasing Engineer Reputation ==
-Reputation increases through crafting modifications at their workshop, in line with the general mechanic covered on the main [[Engineering]] page.
+Station services may not appear immediately after the unlock completes. If necessary, return to the main menu and re-enter the game.<ref name="inara-eleanor" />
 
-== Blueprint Pinning ==
-'''Fact:''' Eleanor Bresa's confirmed specialty area is Weapon performance.
+== Services ==
 
-'''EDFM recommendation:''' Not yet made. A pinning recommendation needs the specific modification and maximum-grade data above filled in first — see [[Elite Dangerous Field Manual:Engineering Architecture]] for why EDFM treats pinning guidance as editorial judgement, not a database fact.
+Eleanor installs four suit modifications and three handheld-weapon modifications.<ref name="inara-eleanor" />
 
-== Related Engineers ==
-[[Baltanos]] and [[Rosa Dayette]] are the other two independent Colonia Odyssey Engineers whose referral tasks converge on [[Yi Shen]].
+=== Suit modifications ===
 
-== Related Guides ==
-{{Related articles|[[Engineering]] [[Engineer Unlock Guide]]}}
+{| class="wikitable"
+! Modification
+! Function
+|-
+| Added Melee Damage
+| Increases damage dealt by fists and weapon strikes.
+|-
+| Damage Resistance
+| Improves protection against several weapon-damage types.
+|-
+| Extra Ammo Capacity
+| Increases the ammunition carried for each weapon.
+|-
+| Faster Shield Regen
+| Speeds personal-shield regeneration.
+|}
+
+=== Weapon modifications ===
+
+{| class="wikitable"
+! Modification
+! Function
+|-
+| Magazine Size
+| Increases a weapon's magazine capacity.
+|-
+| Reload Speed
+| Shortens the weapon's active reload time.
+|-
+| Stowed Reloading
+| Automatically reloads the weapon while it is stowed.
+|}
+
+Suit and handheld-weapon modifications are permanent once installed. The equipment must have an unused modification slot, and the required Odyssey materials and credits are paid at the workshop. See [[Odyssey Engineering]] for equipment grades, modification slots, material handling, and the installation process.
+
+== Reputation and referrals ==
+
+Odyssey Engineers do not use the Grade 1–5 workshop-reputation system used by ship Engineers. Once Eleanor is unlocked, her available modifications can be installed immediately when the equipment and material requirements are met.
+
+Providing Eleanor with '''10 Digital Designs''' Data completes her direct referral requirement toward [[Yi Shen]].<ref name="inara-eleanor" /> Yi Shen becomes available only after the separate referral requirements from [[Baltanos]], Eleanor Bresa, and [[Rosa Dayette]] have all been completed.
+
+== Related pages ==
+
+* [[Yi Shen]] — Engineer reached after completing all three Colonia referral tasks.
+* [[Baltanos]] and [[Rosa Dayette]] — the other independent Colonia Engineers whose referral tasks contribute to Yi Shen's discovery.
+* [[Engineers]] — directory of Engineer locations, requirements, services, and referral relationships.
+* [[Odyssey Engineering]] — suit and handheld-weapon upgrade and modification mechanics.
+* [[Colonia]] — regional reference and travel context.
 
 == Sources ==
+
 <references />
 
-{{Engineering nav}}
-
 [[Category:Engineers]]
-[[Category:Odyssey Engineering]]
-[[Category:Engineering]]
+[[Category:Odyssey Engineers]]
+[[Category:Colonia Engineers]]

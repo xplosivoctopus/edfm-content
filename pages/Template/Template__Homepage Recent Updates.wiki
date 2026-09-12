@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Homepage Recent Updates
 Namespace: 10
 Page ID: 738
-Revision ID: 3615
-Timestamp: 2026-09-09T17:12:01Z
+Revision ID: 3806
+Timestamp: 2026-09-11T04:12:13Z
 Source URL: https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -61,7 +61,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {| class="edfm-home-recent-item"
 | class="edfm-home-recent-title" | [[Surface Mining]]
 | class="edfm-home-recent-badge" | '''UPDATED REFERENCE'''
-| class="edfm-home-recent-date" | Updated 9 Sep 2026
+| class="edfm-home-recent-date" | Updated 11 Sep 2026
 |-
 | class="edfm-home-recent-summary" colspan="3" | Updated to reflect the released Rhino guide and the relationship between conventional surface mining and the new vehicle.
 |}
@@ -70,7 +70,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {| class="edfm-home-recent-item"
 | class="edfm-home-recent-title" | [[Detailed Surface Scanner]]
 | class="edfm-home-recent-badge" | '''UPDATED REFERENCE'''
-| class="edfm-home-recent-date" | Updated 29 Aug 2026
+| class="edfm-home-recent-date" | Updated 10 Sep 2026
 |-
 | class="edfm-home-recent-summary" colspan="3" | Expanded scanner guidance with signal filtering, engineering references, and corrected surface-scanning details.
 |}

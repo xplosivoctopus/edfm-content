@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Procedures/Mining
 Namespace: 828
 Page ID: 699
-Revision ID: 3008
-Timestamp: 2026-09-03T02:32:52Z
+Revision ID: 3795
+Timestamp: 2026-09-11T03:23:09Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Procedures/Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -50,7 +50,7 @@ return {
 		required_equipment = { "Detailed Surface Scanner" },
 		related_reference_pages = { "Mining", "Planetary Rings", "Detailed Surface Scanner", "Mining Hotspot" },
 		related_procedures = { "How to Find a Mining Hotspot", "How to Start Mining" },
-		status = "Draft"
+		status = "Partially verified"
 	},
 	{
 		key = "mining-find-hotspot",

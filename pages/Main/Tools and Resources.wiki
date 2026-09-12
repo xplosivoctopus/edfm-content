@@ -3,17 +3,24 @@ EDFM current-content archive export.
 Title: Tools and Resources
 Namespace: 0
 Page ID: 63
-Revision ID: 3662
-Timestamp: 2026-09-09T20:28:28Z
+Revision ID: 3754
+Timestamp: 2026-09-10T19:52:05Z
 Source URL: https://edfieldmanual.com/wiki/Tools_and_Resources
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article header|deck=Community tools, databases, applications and services commonly used alongside Elite Dangerous.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1; platform and game-mode support varies by resource
+ |reviewed=2026-09-10
+ |reviewer=Sythan
+ |source_quality=Every listed site and repository was checked directly on 10 September 2026
+ |uncertainty=Third-party availability, maintenance, features, and platform support can change without notice.
+}}
 
-{{Needs review}}
-
-Third-party tools and websites — not developed, hosted, or endorsed by Frontier Developments plc — that Elite Dangerous commanders commonly use alongside the game. Entries below are widely-recognised, long-established community staples, grouped by what they're for. This list is deliberately not exhaustive; see [[Elite Dangerous Field Manual:Contributing]] once public registration opens if you'd like to propose an addition.
+This directory covers official and community resources that commanders commonly use alongside ''Elite Dangerous''. Community entries are third-party services and software rather than Frontier products; review their current requirements, privacy terms, and platform support before connecting an account or installing an application. The list is curated rather than exhaustive, and [[#Community hubs and directories|EDCodex]] provides a broader community-maintained catalogue.
 
 == {{Section number|01}}Star systems, navigation and exploration ==
 {{Resource grid|
@@ -47,14 +54,14 @@ Third-party tools and websites — not developed, hosted, or endorsed by Frontie
 {{Resource card
  |name=Coriolis
  |url=https://coriolis.io/
- |description=Ship loadout planner for comparing modules and engineering choices before committing credits or materials in-game. Builds can be shared as export codes.
+ |description=Ship loadout planner for comparing modules, engineering choices, performance, and power use before committing credits or materials in-game. Build links can be shared directly.
  |tag1=Ship building|tag2=Engineering|tag3=Loadouts
 }}
 {{Resource card
  |name=EDSY
  |fullname=Elite Dangerous Shipyard
  |url=https://edsy.org/
- |description=Alternative loadout planner, covering the same core build-planning role as Coriolis with a different interface.
+ |description=Detailed ship loadout planner with performance, thermal, power, damage, and engineering analysis in a different interface from Coriolis.
  |tag1=Ship building|tag2=Engineering|tag3=Thermals
 }}
 }}
@@ -67,7 +74,7 @@ Several tools above draw their data from the game's own journal files and Fronti
  |name=EDMC
  |fullname=Elite Dangerous Market Connector
  |url=https://github.com/EDCD/EDMarketConnector
- |description=Background app, maintained by EDCD (Elite Dangerous Community Developers), that reads your journal and forwards data to services such as EDSM and Inara, and to EDDN, the shared open data feed several tools above are built on. Supports plugins.
+ |description=PC application maintained by EDCD that reads game journals and Frontier companion data, then forwards selected data to services such as EDSM, Inara, and EDDN. Supports plugins.
  |tag1=Journal|tag2=API|tag3=Data sync|tag4=Plugins
 }}
 }}
@@ -82,7 +89,7 @@ Several tools above draw their data from the game's own journal files and Fronti
 }}
 }}
 
-== {{Section number|06}}Community hubs ==
+== {{Section number|06}}Community hubs and directories ==
 {{Resource grid|
 {{Resource card
  |name=Frontier's official forums
@@ -93,6 +100,12 @@ Several tools above draw their data from the game's own journal files and Fronti
  |name=r/EliteDangerous
  |url=https://www.reddit.com/r/EliteDangerous/
  |description=The main Elite Dangerous community on Reddit.
+}}
+{{Resource card
+ |name=EDCodex
+ |url=https://edcodex.info/?m=tools
+ |description=Community-maintained catalogue of Elite Dangerous applications, plugins, websites, and utilities, with platform and activity filters.
+ |tag1=Tool directory|tag2=Community projects|tag3=Discovery
 }}
 }}
 
@@ -123,11 +136,17 @@ Several tools above draw their data from the game's own journal files and Fronti
 == {{Section number|08}}Engineering material tracking ==
 {{Resource grid|
 {{Resource card
+ |name=Elite Dangerous Odyssey Materials Helper
+ |url=https://github.com/jixxed/ed-odyssey-materials-helper
+ |description=Actively maintained journal-reading application for ship and on-foot materials, engineering and unlock wishlists, loadout planning, Fleet Carrier stock, and EDSY wishlist imports.
+ |tag1=Engineering|tag2=Materials|tag3=Journal|tag4=Live|tag5=Windows, Linux and macOS
+}}
+{{Resource card
  |name=EDEngineer
  |url=https://github.com/msarilar/EDEngineer
- |description=Real-time overlay that reads your journal to track materials, data, and cargo held toward Engineer blueprint requirements, with a shopping list and alerts when a favourited blueprint is ready to craft.
- |tag1=Engineering|tag2=Materials|tag3=Journal|tag4=Overlay
+ |description=Archived Windows overlay for tracking journal-reported materials, data, cargo, and ship-Engineering blueprint requirements. The repository remains available, but it is no longer actively maintained.
+ |tag1=Archived|tag2=Engineering|tag3=Materials|tag4=Journal|tag5=Windows
 }}
 }}
 
-{{Related articles|[[Field Procedures]] [[Operations]] [[Colonisation]] [[Engineering]]}}
+{{Related articles|[[Field Procedures]] [[Operations]] [[Colonisation]] [[Engineering]] [[Engineering Materials]] [[Mining]]}}

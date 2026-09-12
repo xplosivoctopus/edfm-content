@@ -3,23 +3,34 @@ EDFM current-content archive export.
 Title: Engineers
 Namespace: 0
 Page ID: 95
-Revision ID: 1912
-Timestamp: 2026-08-24T21:21:22Z
+Revision ID: 3742
+Timestamp: 2026-09-10T17:30:13Z
 Source URL: https://edfieldmanual.com/wiki/Engineers
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article header|deck=Directory of every currently available Engineer, including where to find them, how to unlock them, and what they can engineer.
 }}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4; Legacy differences are labelled where known
+ |reviewed=2026-09-10
+ |reviewer=Sythan
+ |source_quality=Frontier update notes, the current Inara Engineer directory, and sources on individual Engineer articles
+ |uncertainty=Some variable Federal Combat Bond unlock amounts are not fully explained by public sources.
+ |recent_changes=Includes Live-only Operations blueprint families and the reduced Odyssey access requirements from Update 18.08.
+}}
 
 '''Engineers''' are specialists who modify ship modules, suits, and handheld weapons beyond their standard specifications. Each Engineer has a fixed workshop, access requirements, and a defined set of modifications they can perform.
 
 Ship Engineering and Odyssey Engineering are separate systems. '''Ship Engineers''' modify ship modules and exist in both Live and Legacy. '''Odyssey Engineers''' modify suits and handheld weapons and exist only in Live.
 
-This page is intended as a quick-reference directory: who the Engineers are, where they are located, what is required to unlock them, and what Engineering they provide. For step-by-step routes, preparation, material sourcing, and efficient unlock order, see the [[Engineer Unlock Guide]].
+Use the directory to compare Engineers, workshops, access requirements, and Engineering services. Individual Engineer articles carry the full subject-specific details; the [[Engineer Unlock Guide]] covers preparation, material sourcing, route planning, and unlock order.
 
 {{Related articles
  |label=Browse Engineering
+ |[[Engineering]]
  |[[Engineer Unlock Guide]]
  |[[Engineering Blueprints]]
  |[[Experimental Effects]]
@@ -39,7 +50,7 @@ Ship Engineers generally have three stages of access:
 ; Unlock requirement
 : The final payment, commodity delivery, material delivery, voucher hand-in, or other task required to gain access to the Engineer's workshop.
 
-For ship Engineers reached through another Engineer, the referral is normally received after reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with the referring Engineer.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative.</ref>
+For ship Engineers reached through another Engineer, the referral is normally received after reaching '''Grade 3 access and progressing at least one-third of the way toward Grade 4''' with the referring Engineer.<ref name="newp-engineers">[https://newp.io/engrhighlight Engineer Highlight], New Pilots Initiative, accessed 2026-09-10.</ref>
 
 {{Field note|A referral only makes the next Engineer available to pursue. It does '''not''' bypass that Engineer's separate meeting, permit, rank, reputation, or unlock requirements.}}
 
@@ -47,15 +58,13 @@ Unlocking a ship Engineer does not automatically provide access to every Enginee
 
 Odyssey Engineers use a similar discovery and unlock structure, but they do '''not''' use the ship Engineer Grade 1–5 reputation progression. Suits and handheld weapons are upgraded separately, while Odyssey Engineers install individual modifications into available modification slots.
 
-{{Draft warning}}
-
 == Ship Engineers ==
 
-There are '''25 ship Engineers''': 20 in the core inhabited regions, four in Colonia, and Chloe Sedesi in the Witch Head Nebula.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara.</ref>
+There are '''25 ship Engineers''': 20 in the core inhabited regions, four in Colonia, and Chloe Sedesi in the Witch Head Nebula.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ Engineers], Inara, accessed 2026-09-10.</ref>
 
-The Engineering column is intended as a quick-reference summary of each Engineer's module coverage.
+The Engineering column summarises each Engineer's module coverage and highest available grades.
 
-For conventional ship Engineering, the grade shown is the highest grade the Engineer can apply to that module. However, this is no longer universally a single module-wide value in Live: newer blueprint families can have their own Engineer lists and grade ceilings.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments.</ref>
+For conventional ship Engineering, the grade shown is the highest grade the Engineer can apply to that module. However, this is no longer universally a single module-wide value in Live: newer blueprint families can have their own Engineer lists and grade ceilings.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations — Update Notes], Frontier Developments, accessed 2026-09-10.</ref>
 
 {{Important|'''Live and Legacy differences'''
 
@@ -65,7 +74,7 @@ Engineering introduced after the Live and Legacy versions diverged is marked '''
 
 Some module families also have additional Live-only blueprints without changing the maximum module grade shown here. For the exact blueprint-by-blueprint availability, see the individual Engineer article or [[Engineering Blueprints]].}}
 
-For example, [[Juri Ishmaak]] provides conventional Seeker Missile Rack Engineering only through Grade 3, but in Live he can take the Merc-only [[Drag Seeker Missile Rack|Drag]], [[Lightweight Thermal Seeker Missile Rack|Lightweight Thermal]], and [[Lockdown Seeker Missile Rack|Lockdown]] blueprints through Grade 5.<ref name="inara-seeker-drag">[https://inara.cz/elite/blueprint/219/ Seeker Missile Rack — Drag], Inara.</ref><ref name="inara-seeker-thermal">[https://inara.cz/elite/blueprint/220/ Seeker Missile Rack — Lightweight Thermal], Inara.</ref><ref name="inara-seeker-lockdown">[https://inara.cz/elite/blueprint/221/ Seeker Missile Rack — Lockdown], Inara.</ref>
+For example, [[Juri Ishmaak]] provides conventional Seeker Missile Rack Engineering only through Grade 3, but in Live he can take the Merc-only [[Drag Seeker Missile Rack|Drag]], [[Lightweight Thermal Seeker Missile Rack|Lightweight Thermal]], and [[Lockdown Seeker Missile Rack|Lockdown]] blueprints through Grade 5.<ref name="inara-seeker-drag">[https://inara.cz/elite/blueprint/219/ Seeker Missile Rack — Drag], Inara, accessed 2026-09-10.</ref><ref name="inara-seeker-thermal">[https://inara.cz/elite/blueprint/220/ Seeker Missile Rack — Lightweight Thermal], Inara, accessed 2026-09-10.</ref><ref name="inara-seeker-lockdown">[https://inara.cz/elite/blueprint/221/ Seeker Missile Rack — Lockdown], Inara, accessed 2026-09-10.</ref>
 
 {{#invoke:Engineers|shipDirectory}}
 
@@ -79,7 +88,7 @@ Odyssey Engineers modify suits and handheld weapons and are available only in ''
 
 Unlike ship Engineering, Odyssey modifications are installed directly into available modification slots on upgraded suits and weapons. They do not use separate Grade 1–5 blueprint levels or the ship-Engineer reputation system.
 
-Several Odyssey Engineer access and referral requirements were reduced in Update 18.08. The requirements below use the current values rather than the original Odyssey launch requirements.<ref name="frontier-1808">[https://forums.frontier.co.uk/threads/elite-dangerous-type-8-update-18-08-wednesday-7th-august.627151/ Elite Dangerous — Type-8 Update 18.08], Frontier Developments.</ref>
+Several Odyssey Engineer access and referral requirements were reduced in Update 18.08. The requirements below use the current values rather than the original Odyssey launch requirements.<ref name="frontier-1808">[https://forums.frontier.co.uk/threads/elite-dangerous-type-8-update-18-08-wednesday-7th-august.627151/ Elite Dangerous — Type-8 Update 18.08], Frontier Developments, accessed 2026-09-10.</ref>
 
 === Core-region Odyssey Engineers ===
 
