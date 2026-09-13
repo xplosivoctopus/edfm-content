@@ -3,46 +3,49 @@ EDFM current-content archive export.
 Title: Painite
 Namespace: 0
 Page ID: 818
-Revision ID: 3401
-Timestamp: 2026-09-07T14:32:20Z
+Revision ID: 3959
+Timestamp: 2026-09-12T12:05:19Z
 Source URL: https://edfieldmanual.com/wiki/Painite
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Match the ring to your equipment: Metallic rings for laser mining, or Metal Rich rings for a documented core-mining route.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Current INARA records, Frontier journal documentation, and established community mining references
+ |uncertainty=Community sources disagree on Painite in Metallic ring cores; planetary surface mining and separate subsurface or asteroid surface-deposit routes remain unconfirmed.
+}}
+
+{{Article header|deck=A rare mineral cargo commodity obtained from asteroids and required to unlock Selene Jean.}}
+
+{{Callout|type=tip|label=Quick answer|1=Use '''mining lasers in Metallic rings''' or a '''core-mining fit in Metal Rich rings''' for the currently documented Painite routes. A Painite hotspot can focus the search but is not required. [[Selene Jean]] requires 10 units of mined Painite for her workshop unlock.<ref name="wiki-painite">[https://elite-dangerous.fandom.com/wiki/Painite Painite], Elite Dangerous Wiki.</ref><ref name="selene">[https://inara.cz/elite/engineer/8/ Selene Jean — Engineer], INARA.</ref>}}
+
 {{Commodity infobox|painite}}
 
-'''Painite''' is a mineable cargo commodity that can be sold at commodity markets or delivered to [[Selene Jean]] for her Engineering unlock. Finding it is as much about choosing the right ring for your equipment as finding a hotspot.<ref name="wiki-painite">[https://elite-dangerous.fandom.com/wiki/Painite Painite], Elite Dangerous Wiki.</ref><ref name="selene">[https://inara.cz/elite/engineer/8/ Selene Jean — Engineer], INARA.</ref>
+'''Painite''' is a rare mineral cargo commodity obtained primarily through asteroid mining. It can be sold through commodity markets or delivered to [[Selene Jean]] as part of her Engineer unlock.<ref name="inara-painite">[https://inara.cz/elite/commodity/84/ Painite — Commodity], INARA.</ref><ref name="selene" /> Painite occupies cargo space; it is not held in the separate [[Engineering Materials]] inventory.
 
-== Where to mine Painite ==
+== Acquisition ==
 
 {{Commodity acquisition|painite}}
 
-The community-documented routes are '''laser mining in Metallic rings''' and '''core mining in Metal Rich rings'''.<ref name="wiki-painite" /><ref name="wiki-miner">[https://elite-dangerous.fandom.com/wiki/Miner Miner], Elite Dangerous Wiki.</ref> These are practical destinations, not an exhaustive statement of every possible ring and extraction method.
+The established routes are '''laser mining in Metallic rings''' and '''core mining in Metal Rich rings'''.<ref name="wiki-painite" /> The available community sources disagree on whether Metallic rings also contain Painite cores, so that combination remains unconfirmed. No Painite-specific subsurface-deposit, uncracked surface-deposit, or planetary surface-mining route has been established.
 
-=== Laser mining ===
+A matching [[Mining Hotspot|hotspot]] narrows the search but does not replace checking the ring type and carrying equipment for the intended extraction method. See [[How to Laser Mine]] or [[How to Core Mine]] for complete fitting and extraction procedures.
 
-Choose a '''Metallic''' ring and use a [[Detailed Surface Scanner]] to look for a Painite [[Mining Hotspot|hotspot]]. A matching hotspot is a useful starting point; an overlap is not a prerequisite for a mining trip.<ref name="edmining">[https://edmining.com/where-to-mine-in-elite-dangerous/ Where to Mine in Elite Dangerous], ED Mining.</ref> The hotspot's name does not replace the ring-type check: arriving at a Painite hotspot in a Metal Rich ring with only mining lasers is not the same plan.<ref name="wiki-painite" />
+=== Buying and salvage ===
 
-Prospect asteroids and look for Painite in the composition readout before firing your [[Mining Laser]]. Collect the fragments and process them through a [[Refinery]], leaving cargo space for the finished commodity. See [[How to Laser Mine]] for fitting and collection advice.<ref name="wiki-miner" /><ref name="laser-guide">[https://edmining.com/laser-mining/ Laser Mining], ED Mining.</ref>
+INARA lists Painite as produced by mining rather than ordinary station economies. Player-operated [[Fleet Carrier|Fleet Carriers]] may offer mined stock for resale, but supply and access can change without notice; check the report age and actual quantity before travelling.<ref name="inara-painite" /> Community records also report Painite cargo as salvage at some signal sources, although mining is the predictable acquisition route.<ref name="wiki-painite" />
 
-=== Core mining ===
-
-For the documented '''Metal Rich''' route, bring a core-mining fit rather than relying on lasers. Use a [[Pulse Wave Analyser]] to search for candidates, then prospect to confirm a Painite core. The prospector's core resource and its bulk-composition percentages are different information: check the core identification when choosing an asteroid to crack.<ref name="wiki-painite" /><ref name="journal">[https://hosting.zaonce.net/community/journal/v37/Journal_Manual_v37.pdf Elite Dangerous Journal Manual, version 37], Frontier Developments, “ProspectedAsteroid”.</ref>
-
-A [[Seismic Charge Launcher]] opens the core; an [[Abrasion Blaster]] removes exposed deposits afterwards. Collect and refine the fragments into cargo. Abrasion at this stage is part of working the opened core, not a separate promise of Painite surface deposits on uncracked asteroids.<ref name="core-guide">[https://edmining.com/elite-dangerous-mining-mechanics/ Elite Dangerous Mining Mechanics], ED Mining.</ref> See [[How to Core Mine]] for the charge-setting procedure.
-
-== Buying and other acquisition ==
-
-INARA classifies Painite as “Mining only” production, so ordinary NPC-produced market stock is not the usual way to obtain it. Player-operated Fleet Carriers may resell it; check actual supply and the age of the market report before travelling.<ref name="inara-painite">[https://inara.cz/elite/commodity/84/ Painite — Commodity], INARA.</ref> The community reference also documents salvaged Painite cargo canisters at some signal sources, although that is less direct than planning a mining run.<ref name="wiki-painite" />
-
-== Uses and Engineering ==
+== Uses ==
 
 {{Commodity uses|painite}}
 
-[[Selene Jean]]'s published unlock wording asks for mined Painite. Her invitation's mining-and-refining milestone is separate from the Painite donation; check both on her page before making the delivery.<ref name="selene" /> Mining your donation yourself follows that wording without depending on whether purchased cargo will qualify.
+[[Selene Jean]] requires 10 units of mined Painite after her invitation requirement has been met. The invitation milestone and the Painite donation are separate conditions; her article covers the complete discovery, meeting, and unlock requirements.<ref name="selene" />
 
-If selling instead, check current demand and prices before choosing a buyer. Painite is cargo, not an item in the separate [[Engineering Materials]] inventory.
+Painite can otherwise be sold at commodity markets with demand. Prices and demand are dynamic, and stations with low demand may apply the mined-commodity bulk-sales adjustment, so check current market data before choosing a buyer.<ref name="inara-painite" />
 
 == Sources ==
 

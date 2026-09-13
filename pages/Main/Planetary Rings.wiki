@@ -3,49 +3,105 @@ EDFM current-content archive export.
 Title: Planetary Rings
 Namespace: 0
 Page ID: 727
-Revision ID: 1989
-Timestamp: 2026-08-24T21:23:14Z
+Revision ID: 3998
+Timestamp: 2026-09-12T20:00:49Z
 Source URL: https://edfieldmanual.com/wiki/Planetary_Rings
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Mining location draft grounded in EDFM Mining data modules and current ring-scanning workflow|uncertainty=Ring-type yield expectations and current commodity-specific recommendations still need direct Live-game verification.}}
-__NOINDEX__
-{{Article header|deck=Planetary rings are the primary environment for ship-based asteroid mining.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; ring classification and established mining mechanics also apply to Legacy
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier mining and exploration documentation supported by current EDFM references and established community mining documentation
+ |uncertainty=Frontier has not published current numerical formulas for reserve levels, hotspot strength, overlap effects, or method-specific depletion.
+}}
 
-'''Planetary rings''' are ring systems around planets and other bodies. In the Mining section, they matter because they contain asteroid fields, [[Mining Hotspot|mining hotspots]], resource extraction sites, and other locations where commanders can prospect and extract mined commodities.
+{{Article header|deck=Ring classification, reserve quality, mapped hotspots, and other features that shape ship-based asteroid mining.}}
 
-{{Draft warning}}
+'''Planetary rings''' are persistent bands of asteroids and ice around planets and other bodies. They are the primary environment for ship-based [[Mining|mining]], but they are not one uniform resource field: a body can have several ring bands with different compositions, hotspot layouts, and navigation features.
 
-== Mining role ==
+{{Callout|type=tip|label=Quick answer|1=Check the exact ring band, its type, and its reserve level before travelling. Map the ring with a [[Detailed Surface Scanner]] when the run depends on a [[Mining Hotspot|hotspot]], then prospect individual asteroids after dropping in.}}
 
-Most ship-based [[Mining|mining]] begins by choosing a ring. The commander may choose a ring because it has a mapped hotspot, a known reserve level, a nearby market route, or simply a safe place to learn the mechanics.
+== Ring bands ==
 
-A ring is only the environment. It does not remove the need to fit the correct equipment, carry limpets, prospect individual asteroids, manage the refinery, and verify sell prices.
+Ring bands are identified from the body outward with letters: the innermost is normally the '''A Ring''', followed by the '''B Ring''' and any additional bands. The body information in the System Map lists each band's composition, mass, and inner and outer radii.<ref name="miner">[https://elite-dangerous.fandom.com/wiki/Miner Miner], Elite Dangerous Wiki.</ref>
 
-== Mapping rings ==
+The letter is an address, not a quality rating. An A Ring is not automatically richer or more valuable than a B Ring. Route notes that name only the body can therefore be ambiguous when that body has more than one mineable band.
 
-A [[Detailed Surface Scanner]] can reveal mining hotspots in rings. Once a ring has been mapped, hotspot markers can be used as navigation targets for a mining run.
+== Ring types ==
 
-The practical loop is:
+Every mineable ring band has one of four composition classes. Ring type determines the commodity pool that its asteroids can support; it does not determine current market value.
 
-# travel to the ringed body;
-# map the ring with the Detailed Surface Scanner;
-# choose a hotspot or other target area;
-# drop into the ring at a safe speed and distance; and
-# begin prospecting asteroids for the chosen method.
+{| class="wikitable" style="width:100%;"
+! Ring type !! General character !! Mining significance
+|-
+| Metallic || Metal-dominant asteroids || Supports many familiar laser-mined metals and some deposit commodities. Do not confuse it with Metal Rich.
+|-
+| Metal Rich || Metal-and-rock assemblages || Supports a different laser-mining pool from Metallic rings while also hosting applicable core and deposit commodities.
+|-
+| Rocky || Rock-dominant asteroids || Commonly associated with mineral and gemstone core targets as well as applicable surface and sub-surface deposits.
+|-
+| Icy || Ice-and-volatile asteroids || Supports icy commodities such as Tritium, Bromellite, Low Temperature Diamonds, and Void Opals through their applicable extraction methods.
+|}
 
-== Related mining concepts ==
+The table is intentionally broad. [[Mining Commodities]] compares commodity and method groups, while each commodity article owns its supported ring types and extraction routes. A hotspot name does not override the ring's commodity distribution.
 
-* [[Mining Hotspot]] — a mapped ring area associated with a named commodity.
-* [[Laser Mining]] — ordinary fragment extraction from suitable asteroids.
-* [[Core Mining]] — search-and-detonation mining for fissured asteroids.
-* [[Sub-surface Mining]] — timed extraction of internal deposits.
-* [[Surface Deposit Mining]] — removal of visible deposits with an abrasion blaster.
+== Reserve level ==
 
-== Related Field Procedures ==
+A ringed body's reserve description gives a broad indication of mining abundance. The established order from highest to lowest is:<ref name="miner" />
 
-{{#invoke:Procedures|list|page=Planetary Rings}}
+# '''Pristine'''
+# '''Major'''
+# '''Common'''
+# '''Low'''
+# '''Depleted'''
 
-{{Related articles|[[Mining]] [[Detailed Surface Scanner]] [[Mining Hotspot]] [[How to Scan Planetary Rings for Mining Hotspots]]}}
+Reserve level is planning context rather than a guaranteed result for any one asteroid. Current community testing treats it as important to [[Laser Mining|laser-mining]] yield, while [[Core Mining|core]] frequency is not treated as reserve-dependent.<ref name="locations">[https://edmining.com/where-to-mine-in-elite-dangerous/ Where to Mine in Elite Dangerous], ED Mining.</ref> It should not be confused with a Resource Extraction Site's hazard designation or a prospector's low, medium, or high material-content result.
+
+Pristine is therefore generally preferred for laser-mining routes, but distance, security, hotspot suitability, and the intended commodity can make a nearer ring more practical.
+
+== Hotspots and ring mapping ==
+
+A [[Detailed Surface Scanner]] probe can map a ring and reveal persistent [[Mining Hotspot|mining hotspots]]. Frontier describes this as the ring-scale search stage: mapping identifies promising regions before a commander uses prospectors and method-specific tools on individual asteroids.<ref name="frontier-beyond">[https://www.elitedangerous.com/en-US/news/elite-dangerous-beyond-chapter-four-out-now Elite Dangerous: Beyond – Chapter Four – Out Now], Frontier Developments, 11 December 2018.</ref><ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref>
+
+A hotspot is a broad region associated with its named commodity. It does not mark a specific valuable asteroid, guarantee that every asteroid contains the commodity, or make an unsupported extraction method valid. Overlapping hotspot circles are also not automatically superior to a suitable single hotspot under current community testing.<ref name="locations" />
+
+A ring scan is separate from mapping the planet or moon it surrounds. Complex ring systems can have several bands, so confirm that the intended band has been scanned and that its marker is selected before entering. [[How to Scan Planetary Rings for Mining Hotspots]] provides the complete ordered procedure.
+
+== Resource Extraction Sites ==
+
+A '''Resource Extraction Site''' ('''RES''') is a persistent navigation location within a ring. It attracts NPC miners, pirates, security ships, and combat activity; Low, standard, High, and Hazardous labels describe the site's encounter environment rather than the ring's reserve quality.<ref name="res">[https://elite-dangerous.fandom.com/wiki/Resource_Extraction_Site Resource Extraction Site], Elite Dangerous Wiki.</ref>
+
+A commander does not need a RES to mine. Dropping into an ordinary ring location or mapped hotspot usually avoids the concentrated NPC traffic found at a RES. Hazardous sites have no local security response and should not be treated as quiet mining locations merely because the ring itself has good reserves.
+
+== Asteroid-level search ==
+
+Ring information narrows the location; it does not identify the contents of individual asteroids.
+
+* A [[Prospector Limpet Controller|prospector limpet]] reports composition and exposes deposits on one asteroid.
+* A [[Pulse Wave Analyser]] highlights anomalous asteroid candidates for deposit and core methods.
+* [[Laser Mining]] works from the ordinary prospected composition.
+* [[Surface Deposit Mining]], [[Sub-surface Mining]], and [[Core Mining]] require their corresponding features and tools.
+
+The complete extraction workflows remain on their dedicated Field Procedures.
+
+== Boundaries ==
+
+Planetary rings are distinct from asteroid-belt clusters and from planetary surfaces. [[Surface Mining|Planetary surface mining]] uses the [[Rhino]], Planetary Mining Locations, and surface deposits generated on landable worlds; ring composition, ring hotspots, and reserve planning do not substitute for that system.
+
+== Field Procedures ==
+
+* [[How to Scan Planetary Rings for Mining Hotspots]] — map a ring band and select a suitable hotspot.
+* [[How to Laser Mine]] — prospect and work ordinary asteroid composition.
+* [[How to Sub-surface Mine]] — extract embedded deposits with displacement missiles.
+* [[How to Core Mine]] — locate, crack, and clean out fissured core asteroids.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Mining Commodities]] [[Mining Hotspot]] [[Detailed Surface Scanner]] [[Laser Mining]] [[Core Mining]] [[Sub-surface Mining]] [[Surface Deposit Mining]]}}
 [[Category:Mining]]

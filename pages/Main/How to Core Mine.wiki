@@ -3,54 +3,125 @@ EDFM current-content archive export.
 Title: How to Core Mine
 Namespace: 0
 Page ID: 707
-Revision ID: 1639
-Timestamp: 2026-08-23T23:51:55Z
+Revision ID: 3977
+Timestamp: 2026-09-12T14:32:51Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Core_Mine
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-23|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Exact fissure-strength tuning and candidate recognition need direct Live-game verification.}}
-{{Field procedure|summary=Identify core asteroids, place seismic charges, crack the asteroid safely, and collect exposed deposits.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four mining documentation, current module documentation, and established community mining references
+ |uncertainty=Frontier has not published current core-spawn rates, commodity-specific core yields, or a universal fissure-and-charge combination for reaching optimum yield.
+}}
 
-Use this procedure for the core-mining loop: search, confirm, place charges, detonate, and collect the exposed deposits.
+{{Field procedure|summary=Find a core-bearing asteroid, tune seismic charges for optimum yield, retreat before detonation, and recover the exposed material.}}
 
-{{Draft warning}}
+{{Callout|type=warning|label=Blast hazard|1=A core detonation produces a damaging shockwave and temporary sensor disruption at close range. Reach the blue optimum-yield range, then move more than 2 km from the asteroid before it explodes.<ref name="seismic">[https://elite-dangerous.fandom.com/wiki/Seismic_Charge_Launcher Seismic Charge Launcher], Elite Dangerous Wiki.</ref>}}
 
-== Required equipment ==
+Use this procedure for [[Core Mining|core mining]]. Core-bearing asteroids have targetable fissures that accept charged seismic warheads. The combined charge must reach the cockpit's blue optimum-yield range without exceeding it; a successful detonation splits the asteroid and exposes material for collection and [[Surface Deposit Mining|surface-deposit mining]].<ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref>
 
-* [[Pulse Wave Analyser]]
-* [[Seismic Charge Launcher]]
-* [[Abrasion Blaster]]
-* [[Collector Limpet Controller]]
-* [[Refinery]]
-* Limpets and cargo space
+== Before departure ==
 
-== Procedure ==
+=== Required equipment ===
+
+* A [[Pulse Wave Analyser]] for finding anomalous asteroids.
+* A [[Prospector Limpet Controller]] and prospecting limpets to confirm the core and reveal targetable fissures.
+* A [[Seismic Charge Launcher]] and sufficient ammunition.
+* An [[Abrasion Blaster]] for the surface deposits exposed after detonation.
+* A [[Collector Limpet Controller]] and collection limpets, unless fragments will be scooped manually.
+* A [[Refinery]] and cargo space.
+
+=== Recommended equipment ===
+
+* A [[Detailed Surface Scanner]] when searching a [[Mining Hotspot|mining hotspot]].
+* Shields capable of absorbing minor collisions while manoeuvring among the cracked fragments.
+* A ship agile enough to hold a firing line on fissures around a rotating asteroid.
+
+Set separate, convenient fire groups for the pulse wave analyser and prospector, the seismic charge launcher, and the abrasion blaster with collector limpets. The seismic charge launcher operates in Analysis Mode.<ref name="seismic" />
+
+== Choose the target ==
+
+Select a core-minable commodity and a compatible ring type using [[Mining Commodities]]. A hotspot can improve the search for its named mineral, but the hotspot label does not guarantee that every highlighted asteroid has a core.
+
+Pulse the analyser while moving through the ring. Inspect strongly highlighted candidates from more than one angle; colour and brightness alone are not confirmation. Launch a prospector limpet at a promising asteroid and continue only when the result reports a core containing the wanted commodity and exposes targetable fissures.
+
+Before placing the first charge, fly around the asteroid and note the available low-, average-, and high-strength fissures. The first embedded charge starts the detonation countdown, so reconnaissance before firing preserves working time.
+
+== Place the charges ==
 
 {{Procedure steps|
-# Use the pulse wave analyser while moving through the ring to identify promising asteroids.
-# Inspect candidates closely and use a prospector where appropriate before committing charges.
-# Target fissures and place seismic charges while watching charge strength.
-# Keep the detonation meter in the safe range rather than stacking charges blindly.
-# Move clear before the timer completes.
-# After detonation, target exposed deposits and break them loose with the abrasion blaster.
-# Keep collector limpets active until the useful deposits and fragments have been collected.
+# Target a fissure and approach on a line that gives the seismic warhead a clear impact path.
+# Hold the launcher trigger to increase the warhead's charge strength. The bars beside the aiming reticle show the selected strength.
+# Release the trigger to fire when the intended strength is reached. The warhead must embed in the targeted fissure; a shot that strikes ordinary rock will bounce away without contributing to the detonation.
+# After the first charge attaches, watch both the countdown and the detonation-yield gauge.
+# Move to another unused fissure and place the next charge. A stronger warhead in a weaker fissure makes a larger contribution; use smaller contributions as the gauge approaches the blue range.<ref name="core-guide">[https://edmining.com/core-mining/ Elite Dangerous: Core Mining], ED Mining.</ref>
+# Continue until the gauge reports '''Optimum Yield Range''' in blue. Do not add another charge once the result is optimal.
+# If the gauge enters the excessive red range, use the Contacts panel to disarm a selected charge, then replace it with a more suitable contribution if time and fissures remain. Disarming consumes time and leaves that fissure unusable.<ref name="seismic" />
 }}
+
+There is no universal charge sequence. Fissure availability varies, and the gauge reflects the combination already attached. Read the live result after every warhead rather than following a memorized set of percentages.
+
+An undercharged detonation may fail to split the asteroid. An excessive charge can crack it while destroying part of the recoverable material. The blue band is the target for maximum yield.<ref name="frontier-recap" /><ref name="seismic" />
+
+== Retreat and detonate ==
+
+Once the gauge is in the blue optimum range:
+
+{{Procedure steps|
+# Turn away from the asteroid and boost clear while watching the distance.
+# Reach more than 2 km before detonation to avoid the shockwave's damage and sensor disruption.<ref name="seismic" />
+# Allow the countdown to finish, or use the Contacts panel to trigger early detonation only after the ship is safely clear.
+# Keep the asteroid in view without flying back into the blast area until it has split and the fragments have separated.
+}}
+
+== Recover the core material ==
+
+A successful blast releases loose material and exposes surface deposits on the interior faces of the cracked asteroid.
+
+{{Procedure steps|
+# Return carefully after the shockwave passes and reduce speed among the moving fragments.
+# Launch collector limpets without targeting a specific fragment so they remain in area-collection mode.
+# Collect loose core material while keeping a clear route to the cargo hatch.
+# Target each wanted surface deposit and break it free with the abrasion blaster.<ref name="abrasion">[https://elite-dangerous.fandom.com/wiki/Abrasion_Blaster Abrasion Blaster], Elite Dangerous Wiki.</ref>
+# Reposition as necessary so collectors do not collide with the cracked asteroid sections.
+# Monitor refinery bins, cargo capacity, active collectors, and remaining limpets until all useful material is recovered.
+}}
+
+[[How to Mine Surface Deposits]] covers the abrasion and collection stage in more detail.
 
 == Completion check ==
 
-A core asteroid is complete when the cracked remains no longer have useful exposed deposits or collectible fragments for the run.
+The asteroid is complete when:
 
-== Common problems ==
+* the core has been split at optimum or otherwise accepted yield;
+* all wanted loose fragments have been collected;
+* all wanted exposed surface deposits have been dislodged and collected;
+* no wanted material remains stalled in the refinery; and
+* the ship can leave the debris field without abandoning active collectors or valuable cargo.
 
-* '''Detonation is too weak:''' add or replace charges before the timer expires if the meter allows it.
-* '''Detonation is too strong:''' disarm charges if needed and rebuild the charge pattern.
-* '''Deposits remain after the explosion:''' use the abrasion blaster; seismic charges only expose the deposits.
+The run is complete when the planned cargo has been refined or the remaining charges, limpets, cargo capacity, or conditions no longer support another safe core attempt.
 
-== Related Reference Pages ==
-{{#invoke:Procedures|referenceLinks|procedure=How to Core Mine}}
+== Troubleshooting ==
 
-== Related Field Procedures ==
-{{#invoke:Procedures|list|page=How to Core Mine}}
+* '''Bright asteroids have no core:''' pulse-wave highlights are candidates, not confirmation. Learn the limited core-bearing shapes for the ring type and require a prospector result before using charges.
+* '''Fissures cannot be targeted:''' confirm that the prospector reports a core and remains active on that asteroid.
+* '''Charges bounce away:''' aim at the fissure itself, reduce relative motion, and account for launcher placement before firing.
+* '''The gauge remains too low:''' add another charge to an unused fissure while time remains, using a contribution large enough to reach the blue range.
+* '''The gauge enters the red range:''' disarm an attached charge through Contacts, then rebuild with a smaller contribution if enough time and fissures remain.
+* '''The countdown is running out:''' stop chasing a perfect arrangement, move clear, and preserve the ship. An early undercharged or excessive result is preferable to remaining beside the blast.
+* '''The asteroid does not split:''' the combined charge was below the cracking threshold or the warheads were not embedded in valid fissures.
+* '''Yield is unexpectedly low:''' the charge exceeded optimum, the selected core commodity or ring was not as expected, or useful fragments were not recovered.
+* '''Collectors repeatedly fail after the blast:''' reposition so cracked asteroid sections do not obstruct the path between fragments and cargo hatch.
+* '''Deposits remain attached:''' use the abrasion blaster; seismic charges expose those deposits but do not collect them.
 
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Core Mining]] [[Mining Commodities]] [[Mining Hotspot]] [[Pulse Wave Analyser]] [[Seismic Charge Launcher]] [[Abrasion Blaster]] [[How to Mine Surface Deposits]]}}
 [[Category:Mining]]

@@ -3,15 +3,73 @@ EDFM current-content archive export.
 Title: Double Braced
 Namespace: 0
 Page ID: 667
-Revision ID: 1560
-Timestamp: 2026-08-23T18:07:32Z
+Revision ID: 4033
+Timestamp: 2026-09-13T02:13:14Z
 Source URL: https://edfieldmanual.com/wiki/Double_Braced
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|A ship Engineering experimental-effect reference for Double Braced, including compatible modules, trade-offs, and Engineer availability.}}
+{{Article header|deck=An Experimental Effect that increases a ship module's integrity without adding mass or power draw.}}
 
-'''Double Braced''' is a ship Engineering experimental effect. This planned reference will document where it can be applied, what it changes, and when it is worth choosing over other experimental effects.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current community Engineering references cross-checked against existing EDFM module data
+ |uncertainty=Exact build value depends on how exposed the receiving module is to damage.
+}}
+
+'''Double Braced''' is an [[Experimental Effects|Experimental Effect]] for several ship modules and weapons. It adds hardened supports that increase the receiving module's integrity without changing its mass or power draw.
+
+== Effect ==
+
+For most compatible modules, Double Braced provides:
+
+* '''Module integrity:''' +15%
+* '''Mass:''' no change
+* '''Power draw:''' no change
+
+The [[Frame Shift Drive]] version provides a larger '''+25% integrity''' modifier. The effect improves the module's own damage tolerance; it does not add hull strength or resistance to the ship as a whole.<ref name="inara-effects">[https://inara.cz/elite/experimentaleffects/ INARA: Experimental effects], accessed 13 September 2026.</ref><ref name="fandom-double">[https://elite-dangerous.fandom.com/wiki/Double_Braced Elite Dangerous Wiki: Double Braced], accessed 13 September 2026.</ref>
+
+== Compatible modules ==
+
+Double Braced is available for:
+
+* [[Frame Shift Drive|Frame Shift Drives]], [[Power Plant|Power Plants]], [[Thrusters]], [[Shield Generator|Shield Generators]], and [[Shield Booster|Shield Boosters]];
+* [[Beam Laser|Beam Lasers]], [[Burst Laser|Burst Lasers]], [[Pulse Laser|Pulse Lasers]], multi-cannons, [[Plasma Accelerator|Plasma Accelerators]], [[Fragment Cannon|Fragment Cannons]], [[Cannon|Cannons]], and [[Railgun|Rail Guns]];
+* [[Mine Launcher|Mine Launchers]], [[Torpedo Pylon|Torpedo Pylons]], [[Seeker Missile Rack|Seeker Missiles]], and dumbfire missiles.
+
+The effect can be installed by an [[Engineers|Engineer]] whose workshop supports Engineering for the receiving module type. Experimental Effects must be installed at an Engineer workshop and cannot be pinned for [[Remote Engineering]].
+
+== Materials ==
+
+Applying Double Braced requires:
+
+* 3 Tungsten
+* 5 Vanadium
+* 1 Compound Shielding
+
+These materials are consumed once when the effect is applied. Replacing Double Braced with another Experimental Effect consumes the new effect's materials.
+
+== When to use it ==
+
+Double Braced is most useful when keeping a particular module operational matters more than reducing mass or improving another performance characteristic. It can reinforce an FSD on a combat ship, strengthen an exposed power plant, or add damage tolerance to weapons and defensive modules without changing the ship's power budget.
+
+It competes directly with effects that improve module performance. An exploration build may prefer [[Stripped Down]] on a heavy compatible module, while an FSD focused on jump range will usually favour [[Mass Manager]]. Choose Double Braced when extra module integrity solves a specific survivability problem rather than as a default addition to every build.
+
+== See also ==
+
+* [[Experimental Effects]]
+* [[Engineering]]
+* [[Engineers]]
+* [[Stripped Down]]
+* [[Mass Manager]]
+
+== Sources ==
+
+<references />
 
 [[Category:Engineering]]
 [[Category:Experimental Effects]]

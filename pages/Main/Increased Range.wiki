@@ -3,42 +3,70 @@ EDFM current-content archive export.
 Title: Increased Range
 Namespace: 0
 Page ID: 786
-Revision ID: 2930
-Timestamp: 2026-09-02T14:14:25Z
+Revision ID: 4030
+Timestamp: 2026-09-13T02:02:48Z
 Source URL: https://edfieldmanual.com/wiki/Increased_Range
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Increased Range is an Engineering Blueprint for Frame Shift Drives that increases optimized mass, generally improving maximum jump range at the cost of higher module mass and power draw plus lower integrity.}}
-{{Article status|status=Partially verified|mode=Live|source_quality=Structured values are generated from EDFM Engineering data cross-checked against EDSY live data and INARA current listings.|notes=Practical-use sections are intentionally concise and can be expanded with field-tested examples.}}
+{{Article header|deck=The primary FSD Blueprint for increasing optimized mass and jump range.}}
 
-Increased Range is an Engineering Blueprint for Frame Shift Drives that increases optimized mass, generally improving maximum jump range at the cost of higher module mass and power draw plus lower integrity.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewed=2026-09-13
+ |reviewer=Sythan
+ |source_quality=EDFM structured Engineering data cross-checked against current INARA and EDSY records
+ |uncertainty=Displayed material totals assume one roll at each grade; completing a grade can require additional rolls.
+}}
+
+'''Increased Range''' is an [[Engineering Blueprints|Engineering Blueprint]] for [[Frame Shift Drive|Frame Shift Drives]]. It increases the drive's optimized mass, allowing it to move the ship's mass more efficiently and generally increasing jump range.<ref name="inara">[https://inara.cz/elite/blueprint/2/ Frame Shift Drive – Increased range], INARA.</ref>
 
 {{#invoke:EngineeringBlueprints|infobox|fsd_increased_range}}
 
-== What It Does ==
-Increased Range is the main range-focused Frame Shift Drive Blueprint. Optimized mass affects how efficiently the drive moves the ship; increasing it generally improves jump range.
+== Effects and trade-offs ==
 
-== Tradeoffs ==
-See the generated grade table for exact modifiers. This article can benefit from additional build-specific examples and field-tested use cases.
+The Blueprint scales through Grades 1–5. Higher grades progressively:
 
-== Grades ==
+* increase optimized mass;
+* increase the FSD's own mass;
+* increase power draw; and
+* reduce module integrity.
+
+At Grade 5, the listed optimized-mass increase is 55%. The resulting jump range is not a fixed percentage because it also depends on the ship's total mass, FSD class and rating, fuel load, and other fitted equipment.
+
 {{#invoke:EngineeringBlueprints|gradeTable|fsd_increased_range}}
 
-== Engineering Materials ==
+== Selection considerations ==
+
+Increased Range is the standard Blueprint choice when jump range is the main objective. It is useful on exploration ships, long-distance transports, and general-purpose vessels that benefit from fewer jumps between systems.
+
+The increased module mass and power draw partially offset the range gain, while reduced integrity makes the drive less durable. Those penalties should be included in the complete ship build rather than assessing the optimized-mass modifier in isolation.
+
+[[Faster Boot Sequence]] provides a smaller optimized-mass increase while prioritising FSD startup time. [[Shielded]] instead prioritises integrity and thermal behaviour. Compatible [[Experimental Effects|Experimental Effects]] can further adjust range, mass, heat, fuel use, or integrity, but only one Experimental Effect may be installed on the drive.
+
+== Engineering materials ==
+
+The materials shown below are the listed ingredients for one roll at each grade. Actual totals vary with progress through a grade.
+
 {{#invoke:EngineeringBlueprints|materialsTable|fsd_increased_range}}
 
-== Available Engineers ==
+== Availability ==
+
 {{#invoke:EngineeringBlueprints|engineers|fsd_increased_range}}
 
+Blueprint grades can be applied through [[Remote Engineering]] after the Blueprint is pinned and the required Engineer access has been earned. Experimental Effects still require a visit to an Engineer workshop.
+
 == Compatible Experimental Effects ==
+
 {{#invoke:EngineeringBlueprints|experimentalEffects|fsd_increased_range}}
 
-== Usage ==
-Additional Commander-tested examples, ship builds, and edge cases are welcome here.
+== Sources ==
 
-== Related ==
-{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Frame Shift Drive]] [[Experimental Effects]]}}
+<references />
+
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Frame Shift Drive]] [[Faster Boot Sequence]] [[Shielded]] [[Experimental Effects]] [[Remote Engineering]]}}
 
 {{Engineering nav}}
 

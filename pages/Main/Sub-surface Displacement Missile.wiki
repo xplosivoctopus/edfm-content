@@ -3,39 +3,96 @@ EDFM current-content archive export.
 Title: Sub-surface Displacement Missile
 Namespace: 0
 Page ID: 606
-Revision ID: 2204
-Timestamp: 2026-08-24T23:45:16Z
+Revision ID: 4007
+Timestamp: 2026-09-12T20:30:21Z
 Source URL: https://edfieldmanual.com/wiki/Sub-surface_Displacement_Missile
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-__NOINDEX__
-{{Article header|deck=A mining hardpoint used to extract sub-surface asteroid deposits.
-}}
+{{Article header|deck=A remote-release drilling hardpoint that ejects material from sub-surface asteroid deposits.}}
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and deposit timing details still need direct Live-game verification.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; the standard module and sub-surface mechanic also apply to Legacy
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four mining documentation, in-game module descriptions, and current community-maintained module references
+ |uncertainty=Frontier has not published current fragment counts for every deposit, release band, or launcher class.
+}}
 
 {{Ship module infobox}}
 
-The '''Sub-surface Displacement Missile''' is the hardpoint used for [[Sub-surface Mining|sub-surface mining]]. It extracts internal asteroid deposits after a [[Prospector Limpet Controller|prospector limpet]] has identified a suitable deposit.
+The '''Sub-surface Displacement Missile''' is a mining hardpoint that drills into a targeted sub-surface asteroid deposit and detonates a shaped charge at the pilot's command. A correctly timed detonation ejects commodity fragments for collection and refining.<ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref>
 
-{{Draft warning}}
+The launcher is specific to [[Sub-surface Mining|sub-surface mining]]. It does not identify deposits, collect the released fragments, or process them. Those roles belong to the [[Prospector Limpet Controller]], [[Collector Limpet Controller]], and [[Refinery]].
 
-== Mining role ==
+== Variants and specifications ==
 
-{{#invoke:Mining|equipmentNote|page=Sub-surface Displacement Missile}}
+The standard launcher is B-rated and is available in Class 1 or Class 2, with fixed and turreted mounts. Class 2 carries three times the ammunition of Class 1 but requires a medium hardpoint and twice the mass.<ref name="missile">[https://elite-dangerous.fandom.com/wiki/Sub-surface_Displacement_Missile Sub-surface Displacement Missile], Elite Dangerous Wiki.</ref>
 
-In practice, the commander targets a scanned sub-surface deposit, fires the missile, holds it while the deposit indicator moves, and releases it during the highlighted extraction band. The released chunks still need to be collected and refined.
+{| class="wikitable" style="width:100%;"
+! Variant !! Mass !! Integrity !! Power draw !! Clip !! Maximum ammunition
+|-
+| 1B fixed || 2.00 t || 40 || 0.42 MW || 1 || 32
+|-
+| 1B turreted || 2.00 t || 40 || 0.53 MW || 1 || 32
+|-
+| 2B fixed || 4.00 t || 51 || 1.01 MW || 1 || 96
+|-
+| 2B turreted || 4.00 t || 51 || 0.93 MW || 1 || 96
+|}
 
-== Fit notes ==
+A turreted launcher functions as a full turret only when controlled by a Multicrew gunner. For a solo pilot it behaves as a forward-fired tool, so mount position and alignment with the moving deposit remain important.<ref name="missile" />
 
-A displacement missile launcher is not enough by itself. A useful sub-surface setup also needs a prospector controller, collector support, a refinery, cargo space, and limpets.
+== Target and drilling behavior ==
 
-== Related Field Procedures ==
+A prospector limpet reveals a suitable feature as a named '''Sub-surface Deposit'''. With that deposit targeted, the launcher is fired while the trigger remains held. The missile flies straight; if it strikes the deposit, it begins drilling into the asteroid.<ref name="missile" />
 
-{{#invoke:Procedures|list|page=Sub-surface Displacement Missile}}
+The drilling display then shows a progress marker moving across a changing density graph while blue extraction bands move in the opposite direction. Releasing the trigger detonates the shaped charge. A release while the marker overlaps a blue band ejects material; a release outside a band does not produce the intended fragment.<ref name="subsurface-guide">[https://edmining.com/sub-surface-mining/ Elite Dangerous: Sub Surface Mining], ED Mining.</ref>
 
-{{Related articles|[[Sub-surface Mining]] [[How to Sub-surface Mine]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]]}}
+Rock density changes the drill's progress rate, so the release cannot be timed from a fixed count. The live marker and the approaching blue band must be read on every shot. [[How to Sub-surface Mine]] covers the full timing procedure.
+
+== Deposit depletion ==
+
+Each successful or failed drilling attempt damages the deposit and reduces the amount that remains available. A deposit can be drilled repeatedly until it is depleted, but the number and placement of extraction bands vary.<ref name="missile" />
+
+The launcher ejects fragments rather than finished cargo. Collector limpets or a cargo scoop must recover them, and a refinery must process their commodity content before it enters the cargo hold.
+
+== Failure states ==
+
+* '''The missile does not start drilling:''' confirm that a prospector is attached, target a revealed sub-surface deposit, use Analysis Mode, and strike the deposit rather than ordinary asteroid surface.
+* '''No fragment is ejected:''' the trigger was released outside a blue extraction band. Watch the live marker rather than relying on a fixed delay.
+* '''The marker changes speed unexpectedly:''' the drill has entered rock of different density; adjust the release point to the current rate.
+* '''The deposit disappears or stops accepting shots:''' it has been depleted by repeated attempts.
+* '''The launcher will not fire:''' check the active fire group, Analysis Mode, ammunition, module power, and whether the single-round clip is reloading.
+* '''Shots repeatedly miss:''' reduce relative motion, approach a slower-spinning deposit, or reposition so the hardpoint has a clear line of fire.
+
+== Selection and fitting ==
+
+Class 1 preserves a medium hardpoint and is adequate when sub-surface deposits are an occasional target. Class 2 is better suited to a dedicated session because its 96-round capacity reduces the risk of exhausting ammunition, but it does not remove the need to time each shot correctly.
+
+One launcher is normally sufficient. Sub-surface extraction is limited by alignment, the drilling sequence, deposit depletion, collection, and refinery throughput rather than by simultaneous missile fire.
+
+A practical fit also needs a prospector controller, collector support, a refinery, cargo space, and limpets. Shields and responsive thrusters help while matching the rotation of an irregular asteroid at close range.
+
+== Method boundaries ==
+
+A displacement missile works only on a prospector-revealed sub-surface deposit. It cannot cut ordinary asteroid fragments, dislodge exposed surface deposits, or crack fissured cores. Those targets require a [[Mining Laser]], [[Abrasion Blaster]], or [[Seismic Charge Launcher]] respectively.
+
+== Engineering ==
+
+The Sub-surface Displacement Missile does not accept ordinary Engineer blueprints.
+
+== Field Procedure ==
+
+[[How to Sub-surface Mine]] covers prospecting, approach geometry, aiming, interpreting the density graph, release timing, repeated extraction, collection, and troubleshooting. [[Sub-surface Mining]] explains the method and its relationship to other forms of asteroid mining.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Sub-surface Mining]] [[How to Sub-surface Mine]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]] [[Mining Laser]] [[Abrasion Blaster]] [[Seismic Charge Launcher]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
 [[Category:Mining]]

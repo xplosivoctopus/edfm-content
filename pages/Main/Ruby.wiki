@@ -3,41 +3,52 @@ EDFM current-content archive export.
 Title: Ruby
 Namespace: 0
 Page ID: 819
-Revision ID: 3613
-Timestamp: 2026-09-09T16:41:30Z
+Revision ID: 3960
+Timestamp: 2026-09-12T12:08:41Z
 Source URL: https://edfieldmanual.com/wiki/Ruby
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=A surface-mined gemstone cargo with buyers in tourism, high-tech, and industrial economies.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier update notes and developer coverage, current INARA commodity data, and EDFM community prospecting observations
+ |uncertainty=Exact deposit yields, refining conversion, replenishment behavior, exhaustive ground distribution, and normal NPC supply remain unconfirmed.
+}}
+
+{{Article header|deck=A gemstone cargo commodity extracted through planetary surface mining with the Rhino.}}
+
+{{Callout|type=tip|label=Quick answer|1='''Ruby''' is obtained through [[Surface Mining|planetary surface mining]] with a [[Rhino]]. EDFM's prospecting observations have found it most often on volcanic magma ground, with additional observations on metal-rich, high-metal-content, volcanic silicate, and rocky ground. Use the table below for current observed rates and [[Surface Mining with the Rhino]] for the extraction procedure.<ref name="ruby-inara">[https://inara.cz/elite/commodity/10501/ Ruby — Commodity], INARA.</ref><ref name="rhino-update">[https://www.elitedangerous.com/news/updates/4-4-1-0 Elite Dangerous — 4.4.1.0 Update Notes], Frontier Developments.</ref>}}
+
 {{Commodity infobox|ruby}}
 
-'''Ruby''' is a gemstone cargo commodity introduced with the [[Rhino]] update. Its description combines decorative uses in jewellery and fashion with practical uses in manufacturing devices, where its hardness is valuable.<ref name="ruby-inara">[https://inara.cz/elite/commodity/10501/ Ruby — Commodity], INARA.</ref><ref name="rhino-update">[https://www.elitedangerous.com/news/updates/4-4-1-0 Elite Dangerous — 4.4.1.0 Update Notes], Frontier Developments.</ref> For a commander, it is a surface-mining target and trade cargo, rather than a loose raw material stored in the [[Engineering Materials]] inventory.
+'''Ruby''' is a gemstone cargo commodity introduced in update 4.4.1.0 alongside the [[Rhino]] and planetary surface-mining system.<ref name="rhino-update" /> INARA classifies it as a mineral, lists it as produced by surface mining, and describes its value in jewellery, fashion, and manufacturing.<ref name="ruby-inara" /> It occupies cargo space rather than the separate [[Engineering Materials]] inventory.
 
-== Finding and extracting Ruby ==
+== Acquisition ==
 
-{{Commodity acquisition|ruby}}
+Ruby can be recovered from Planetary Mining Locations using a [[Rhino]]. A ship's [[Detailed Surface Scanner]] identifies suitable locations from orbit, after which the Rhino searches for and extracts buried deposits.<ref name="rhino-update" /><ref name="rhino-devlog">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments.</ref>
 
-INARA lists Ruby's production as '''surface mining'''.<ref name="ruby-inara" /> Plan around a [[Rhino]] expedition: carry it in a compatible ship's [[Large Planetary Vehicle Hangar]] and bring a [[Detailed Surface Scanner]] to find '''Planetary Mining Locations'''. The Rhino then uses its own scanner to locate buried deposits on the ground.<ref name="rhino-store">[https://www.elitedangerous.com/store/product/rhino-standard Rhino Standard], Frontier Developments.</ref><ref name="rhino-update" /><ref name="rhino-devlog">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments.</ref>
-
-'''Ruby's body-class distribution has not been verified.''' Treat a mining location as a place to search, not a guaranteed gemstone deposit, and check the resource information at the deposit before deploying a rig. There is no verified body-class shortcut for choosing a Ruby destination.
-
-The Rhino deploys mining rigs at suitable deposits and has an onboard refinery. Applying that general surface-mining workflow to Ruby gives the refining route in the table above; it is not a measured Ruby-specific yield or processing rate.<ref name="rhino-store" /><ref name="rhino-devlog" /> [[Surface Mining with the Rhino]] covers the practical rig-placement, recovery, and cargo-handling procedure.
-
-=== Surface Mining prospecting ===
+EDFM's current community prospecting dataset records Ruby on several ground types. These figures are observed occurrence rates from surveyed mining locations, not Frontier-published spawn rates or guaranteed yields. They do not establish that the listed ground types are exhaustive.
 
 {{#invoke:EDFM/SurfaceMining|material|ruby}}
 
-== Planning a sale ==
+See [[Surface Mining with the Rhino]] for equipment, prospecting, rig deployment, refining, and collection instructions. Ruby-specific deposit yield, refining conversion, capacity, and replenishment behavior have not yet been established.
+
+=== Buying ===
+
+Normal NPC production or purchase supply has not been established. Commodity services may display a reference buy price while reporting no actual stock, so confirm current supply, report age, landing-pad access, and carrier permissions before travelling.<ref name="ruby-inara" />
+
+== Uses and selling ==
 
 {{Commodity uses|ruby}}
 
-Tourism, High Tech, and Industrial economies are listed as consumers.<ref name="ruby-inara" /> Use the current [https://inara.cz/elite/commodity/10501/ Ruby market listings] to compare buyers before hauling your cargo: demand, travel distance, docking access, and the age of a report all matter more than a single advertised price.
-
-If you intend to buy Ruby rather than mine it, look for an offer with positive supply. Normal NPC stock has not been established, and a buy-price entry with zero supply does not provide cargo to collect. Refined Ruby occupies cargo storage, so leave room for it when planning the return from a surface-mining trip.
+Ruby can be sold to commodity markets with demand. INARA lists Tourism, High Tech, and Industrial economies as consumers.<ref name="ruby-inara" /> Market prices and demand change, so check a current [https://inara.cz/elite/commodity/10501/ commodity-market listing] before choosing a buyer.
 
 == Sources ==
 
 <references />
 
-{{Related articles|[[Mining Commodities]] [[Surface Mining with the Rhino]] [[Rhino]] [[Iridium]]}}
+{{Related articles|[[Mining Commodities]] [[Surface Mining]] [[Surface Mining with the Rhino]] [[Rhino]] [[Iridium]]}}

@@ -3,15 +3,68 @@ EDFM current-content archive export.
 Title: Electrical Wiring
 Namespace: 0
 Page ID: 676
-Revision ID: 1569
-Timestamp: 2026-08-23T18:40:00Z
+Revision ID: 4034
+Timestamp: 2026-09-13T02:15:32Z
 Source URL: https://edfieldmanual.com/wiki/Electrical_Wiring
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an Odyssey material reference for Electrical Wiring, including usage and sourcing notes once source-backed details are added.}}
+{{Article header|deck=An Odyssey Circuits component used in suit battery, shield, and tool-efficiency modifications.}}
 
-'''Electrical Wiring''' is an Odyssey material. This planned reference will document where it is used, how Commanders commonly source it, and which upgrades or modifications consume it.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current INARA component records cross-checked against the in-game description and maintained community references
+ |uncertainty=Individual settlement loot is procedurally populated and cannot be guaranteed at a particular container.
+}}
+
+'''Electrical Wiring''' is a Circuits component used in [[Odyssey Engineering]] for suit and laser-weapon modifications. Its in-game description identifies it as multipurpose wiring for electronic devices.
+
+It belongs to the Odyssey on-foot material inventory. It is not a ship cargo commodity and is separate from similarly named ship Engineering materials such as Heat Conduction Wiring.
+
+== Uses ==
+
+Electrical Wiring is consumed by these suit modifications:
+
+* Faster Shield Regen for Artemis, [[Dominator Suit|Dominator]], and Maverick suits;
+* [[Improved Battery Capacity]] for Artemis, Dominator, and Maverick suits;
+* [[Reduced Tool Battery Consumption]] for Artemis, Dominator, and Maverick suits.
+
+It is also used for Improved Hip Fire Accuracy on the TK Aphelion, TK Eclipse, and TK Zenith laser weapons. Current community component records list 12 applicable modification recipes in total.<ref name="inara-wiring">[https://inara.cz/elite/component/191/ INARA: Electrical Wiring], accessed 13 September 2026.</ref>
+
+Electrical Wiring is used for modifications rather than for increasing a suit or weapon's grade.
+
+== Acquisition ==
+
+Electrical Wiring can be obtained from:
+
+* containers and lockers in industrial (IND) settlement buildings;
+* containers and lockers in command (CMD) settlement buildings;
+* on-foot mission rewards;
+* barter with a station or settlement bartender in the Circuits category.
+
+Container contents vary between settlements and visits, so the building type improves the search odds rather than guaranteeing a unit. When bartering, Electrical Wiring has a listed Circuits cost of 9 and value of 5; those are exchange weights, not credit prices.<ref name="inara-wiring" />
+
+== Collection priorities ==
+
+Commanders planning battery, shield-regeneration, tool-efficiency, or laser hip-fire modifications should retain Electrical Wiring rather than treating every unit as barter stock. The required amount depends on the planned modifications, so a loadout tracker is useful before exchanging surplus components.
+
+Because Circuits can be bartered against other Circuits, repeatedly looting a well-stocked industrial or command settlement can also provide alternative components that can be exchanged for Electrical Wiring.
+
+== See also ==
+
+* [[Odyssey Engineering]]
+* [[Odyssey Engineer Modifications]]
+* [[Dominator Suit]]
+* [[Improved Battery Capacity]]
+* [[Reduced Tool Battery Consumption]]
+
+== Sources ==
+
+<references />
 
 [[Category:Engineering Materials]]
 [[Category:Odyssey Engineering]]

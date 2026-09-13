@@ -3,54 +3,98 @@ EDFM current-content archive export.
 Title: How to Laser Mine
 Namespace: 0
 Page ID: 706
-Revision ID: 1638
-Timestamp: 2026-08-23T23:51:55Z
+Revision ID: 3966
+Timestamp: 2026-09-12T12:25:30Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Laser_Mine
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-23|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Exact asteroid yields and best commodity targets still need direct Live-game verification.}}
-{{Field procedure|summary=Extract surface fragments from asteroids with mining lasers, collect them with limpets, and refine useful commodities.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Established mining documentation and current community procedure references
+ |uncertainty=Exact fragment yields vary with the asteroid, prospector controller, ring conditions, and current game balance; no universal earnings rate is asserted.
+}}
 
-Use this procedure when the ship is fitted for [[Laser Mining|laser mining]] and the goal is to fill cargo with refined commodities from ordinary asteroid fragments.
+{{Field procedure|summary=Prospect ordinary asteroids, cut free fragments with mining lasers, collect them, and refine them into cargo.}}
 
-{{Draft warning}}
+{{Callout|type=tip|label=Quick answer|1=For laser mining, bring mining lasers, a refinery, cargo space, limpets, a prospector controller, and collector controllers. Prospect each asteroid, mine only useful compositions, keep the cargo hatch clear of the rock, and launch collectors without targeting a fragment so they remain in area-collection mode.<ref name="miner">[https://elite-dangerous.fandom.com/wiki/Miner Miner], Elite Dangerous Wiki.</ref>}}
 
-== Required equipment ==
+Use this procedure for '''laser mining''': cutting fragments from an asteroid's ordinary mineral composition with a [[Mining Laser]]. Surface deposits, sub-surface deposits, and asteroid cores require different tools and have their own procedures.<ref name="laser">[https://elite-dangerous.fandom.com/wiki/Mining_Laser Mining Laser], Elite Dangerous Wiki.</ref>
 
-* [[Mining Laser]]
-* [[Refinery]]
-* [[Prospector Limpet Controller]]
-* [[Collector Limpet Controller]]
-* Limpets and cargo space
+== Before departure ==
+
+=== Required equipment ===
+
+* One or more [[Mining Laser|mining lasers]].
+* A [[Refinery]] with enough bins for the commodities being collected.
+* One or more cargo racks for limpets and refined cargo.
+* Limpets for prospecting and collection.
+
+=== Recommended equipment ===
+
+* An A-rated [[Prospector Limpet Controller]]. A prospector identifies an asteroid's composition, highlights deposits, reports remaining resources, and increases the number of fragments that can be extracted. A-rated controllers provide the highest fragment-yield multiplier.<ref name="prospector">[https://elite-dangerous.fandom.com/wiki/Prospector_Limpet_Controller Prospector Limpet Controller], Elite Dangerous Wiki.</ref>
+* One or more [[Collector Limpet Controller|collector limpet controllers]]. Active collectors allow mining, collection, and refining to continue together.
+* A [[Detailed Surface Scanner]] when using a [[Mining Hotspot|mining hotspot]].
+* Shields, especially while learning close positioning around rotating asteroids.
+
+Assign the mining lasers, prospector controller, and collector controllers to convenient fire groups. Make sure the power distributor can sustain the intended number of lasers; adding lasers shortens extraction time only when the distributor can supply them.<ref name="laser" />
+
+== Choose the target ==
+
+Select a commodity before leaving and check its article in [[Mining Commodities]]. The ring type must support that commodity through laser mining. A hotspot can improve the search for a named mineral, but its label does not override the ring's commodity distribution.
+
+Use [[How to Scan Planetary Rings for Mining Hotspots]] when the ring has not been mapped. Prefer current route information over old overlap recommendations, and confirm the system reserve level when comparing laser-mining locations.
 
 == Procedure ==
 
 {{Procedure steps|
-# Enter the target ring or hotspot and reduce speed before approaching the asteroid field.
-# Fire a prospector limpet at a candidate asteroid.
-# Read the prospector result and skip asteroids that do not contain useful material for the run.
-# Put pips and positioning where the mining lasers can run without constant overheating or drift.
-# Fire mining lasers until fragments break free.
-# Launch collector limpets without targeting a single fragment unless you deliberately want one-use collection.
-# Continue mining while collectors bring fragments to the refinery.
-# Stop or move on when the asteroid is depleted, the refinery is blocked, or cargo planning changes.
+# Enter the selected ring or hotspot and reduce speed before approaching the asteroid field.
+# Choose an asteroid with enough clear space around it for the ship and collector limpets.
+# Launch a prospector limpet and target it after attachment.
+# Read the composition. If the wanted commodity is absent or below the threshold set for the run, move to another asteroid.
+# Approach within the mining laser's effective range. Face a slow-moving area near the asteroid's rotation axis where possible, and keep the cargo hatch and collector route clear of the surface.<ref name="edmining-laser">[https://edmining.com/laser-mining/ Elite Dangerous: Laser Mining], ED Mining.</ref>
+# Put enough power into WEP to sustain the lasers without repeatedly draining the distributor or overheating the ship.
+# Launch collector limpets while no fragment or cargo canister is targeted. This places them in autonomous area-collection mode rather than one-use collection mode.<ref name="miner" />
+# Fire the mining lasers. Hold position while fragments break free and collectors carry them to the cargo hatch.
+# Monitor the prospector's remaining-resource display, collector traffic, refinery bins, cargo capacity, heat, and distributor charge.
+# When the asteroid is depleted or no longer useful, stop firing, allow nearby collectors to finish, and move to the next prospected asteroid.
+# Continue until the planned cargo is refined, limpets are running low, the refinery or hold is blocked, or conditions make the run unsafe.
 }}
+
+== Refining and cargo management ==
+
+Collected fragments pass into refinery bins. A bin transfers one unit of finished commodity to the cargo hold when it reaches 100 percent.<ref name="miner" /> If all suitable bins are occupied, unwanted minerals can block processing. Use the contacts ignore list to prevent collectors from gathering unwanted fragments, or vent an unwanted refinery bin when necessary; venting destroys its contents.
+
+Leave cargo capacity for the refined commodities. Limpets occupy cargo space when the run begins, so consumed limpets normally create room as mining continues.
 
 == Completion check ==
 
-The asteroid is finished when useful fragments stop appearing or the prospector/mining display indicates depletion. The run is finished when the planned cargo amount is refined and ready to sell.
+The procedure is complete when:
 
-== Common problems ==
+* the wanted cargo has been refined into the hold;
+* no desired material remains stalled in the refinery hopper;
+* active collectors have recovered the remaining useful fragments; and
+* the ship can leave the ring safely and reach the intended buyer or delivery point.
 
-* '''Collectors die quickly:''' avoid scraping the asteroid surface and avoid launching collectors while a single fragment is targeted unless that is intentional.
-* '''Fragments are ignored or vanish:''' check refinery capacity, cargo capacity, and the ignore list for unwanted commodities.
-* '''The ship overheats:''' reduce sustained laser fire, adjust power management, or improve distance and positioning.
+Check live demand and market-report age before selling. A high advertised price with insufficient demand may not produce the expected return.
 
-== Related Reference Pages ==
-{{#invoke:Procedures|referenceLinks|procedure=How to Laser Mine}}
+== Troubleshooting ==
 
-== Related Field Procedures ==
-{{#invoke:Procedures|list|page=How to Laser Mine}}
+* '''Collectors expire after one item:''' clear the fragment or canister target before launching the next limpet.
+* '''Collectors repeatedly hit the asteroid:''' move so the cargo hatch and fragments have a clearer line of sight, preferably away from the asteroid's fast-moving edge.
+* '''Fragments remain untouched:''' check active collector count, limpet stock, the contacts ignore list, cargo capacity, refinery bins, and whether the cargo hatch is obstructed.
+* '''The refinery is blocked:''' allocate a bin to the wanted mineral, vent unwanted partial bins, or add unwanted fragments to the ignore list.
+* '''Lasers stop firing:''' increase WEP allocation, reduce the number of simultaneous lasers, or allow the distributor to recharge.
+* '''The ship overheats:''' stop firing, increase distance if the ship is scraping the asteroid, and resume with a shorter firing cycle.
+* '''The target mineral is rare:''' confirm the ring type, hotspot selection, system reserve level, and commodity's supported laser-mining environment before changing the fit.
 
+== Sources ==
+
+<references />
+
+{{Related articles|[[Laser Mining]] [[Mining Commodities]] [[Mining Hotspot]] [[Mining Laser]] [[Refinery]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]]}}
 [[Category:Mining]]

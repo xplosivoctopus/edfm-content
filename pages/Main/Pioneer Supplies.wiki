@@ -3,15 +3,93 @@ EDFM current-content archive export.
 Title: Pioneer Supplies
 Namespace: 0
 Page ID: 684
-Revision ID: 1577
-Timestamp: 2026-08-23T18:40:05Z
+Revision ID: 4011
+Timestamp: 2026-09-12T20:42:15Z
 Source URL: https://edfieldmanual.com/wiki/Pioneer_Supplies
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|a reference page for Pioneer Supplies concourses, Odyssey equipment purchasing, and upgrade/service context.}}
+{{Article header|deck=The concourse retailer for on-foot suits, weapons, consumables, and equipment upgrades.}}
 
-'''Pioneer Supplies''' is the on-foot equipment vendor found in station concourses. This planned reference will cover suits, handheld weapons, consumables, and how the vendor relates to Odyssey Engineering preparation.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier's current Odyssey guide, supported by current community-maintained vendor and equipment references
+ |uncertainty=Individual store inventory is dynamic, and Frontier does not publish a complete current stock-generation table by government and economy.
+}}
 
+'''Pioneer Supplies''' is the retail chain for personal equipment used on foot. Its stores operate from station concourses and sell suits, handheld weapons, and consumables. The vendor also upgrades owned suits and weapons when the commander supplies the required credits and materials.<ref name="odyssey-guide">[https://elitedangerous.com/news/odyssey-guide Odyssey Guide], Frontier Developments.</ref><ref name="pioneer">[https://elite-dangerous.fandom.com/wiki/Pioneer_Supplies Pioneer Supplies], Elite Dangerous Wiki.</ref>
+
+== Locations ==
+
+Pioneer Supplies appears in concourses at orbital starports, outposts, planetary ports, and other eligible facilities. A Fleet Carrier can also provide a store when its owner installs and maintains the corresponding concourse service.<ref name="concourse">[https://elite-dangerous.fandom.com/wiki/Concourse Concourse], Elite Dangerous Wiki.</ref>
+
+The shop is reached on foot from the concourse. Its inventory belongs to that location, so stock found at one store does not establish what another store currently offers.
+
+== Products and services ==
+
+Pioneer Supplies handles four broad parts of the personal-equipment system:
+
+{| class="wikitable" style="width:100%;"
+! Category !! What the store provides
+|-
+| Suits || Grade 1 specialist suits, including the [[Dominator Suit]], plus occasional higher-grade stock
+|-
+| Handheld weapons || Primary and secondary weapons from the standard kinetic, thermal, plasma, and explosive ranges
+|-
+| Consumables || Energy cells, medkits, frag grenades, shield disruptors, shield projectors, and restricted E-Breaches
+|-
+| Equipment services || Purchase and sale of personal equipment, ammunition and consumable restocking, and Grade 1–5 suit or weapon upgrades
+|}
+
+The store does not install Engineer modifications on demand. That work is performed by unlocked on-foot Engineers; [[Odyssey Engineering]] covers the distinction between grade upgrades and modifications.
+
+== Suits and weapons ==
+
+New standard suits and weapons are normally sold at Grade 1. Suit models differ in weapon slots, protection, tools, battery, and backpack capacity. Handheld weapons are divided between primary and secondary slots and use kinetic, thermal, plasma, or explosive damage.<ref name="suits">[https://elite-dangerous.fandom.com/wiki/Suits Suits], Elite Dangerous Wiki.</ref><ref name="weapons">[https://elite-dangerous.fandom.com/wiki/Handheld_Weapon Handheld Weapon], Elite Dangerous Wiki.</ref>
+
+The vendor page shows the item's grade, price, and any installed modifications before purchase. This matters for premium stock because an installed suit or weapon modification cannot later be removed or replaced.
+
+Pioneer Supplies also buys unwanted personal equipment, but its resale return is lower than the original purchase price. Selling a specialised item is permanent, so the exact grade and modifications should be checked first.
+
+== Grade upgrades ==
+
+The vendor can upgrade an owned suit or handheld weapon one grade at a time, to a maximum of Grade 5. Each upgrade requires credits and a specified combination of Odyssey Goods, Assets, and Data. Higher suit grades improve defenses and unlock modification slots; higher weapon grades improve weapon performance and likewise unlock slots.<ref name="suits" /><ref name="weapons" />
+
+Upgrading does not choose or install a modification. After a slot is available, the commander must visit an Engineer who offers the desired effect and pay that modification's separate cost.
+
+== Premium stock ==
+
+A store can occasionally offer a higher-grade suit or weapon, sometimes with one or more Engineer modifications already installed. These premium items cost more than Grade 1 stock and are unique to that store's current inventory.<ref name="pioneer" /><ref name="premium">[https://forums.frontier.co.uk/threads/odyssey-premium-weapon-and-suit-stock.578428/ Odyssey Premium Weapon and Suit Stock], Frontier Developments, 26 May 2021.</ref>
+
+Premium stock follows several important rules:
+
+* inventory refreshes weekly;
+* the grade, model, and installed modifications are generated for that store;
+* purchasing an item removes that copy from sale for other commanders; and
+* the inventory is shared across game modes rather than duplicated for Open, Private Group, and Solo.
+
+A useful pre-upgraded item can bypass part of the material cost, but a poor permanent modification can make the same purchase unsuitable for a planned loadout.
+
+== Consumables and restricted stock ==
+
+Normal consumables include energy cells, medkits, frag grenades, shield disruptors, and shield projectors. The store can also replenish carried ammunition and consumables up to the equipped suit's capacity.
+
+E-Breaches are illegal and are not part of every store's catalog. They are sold by Pioneer Supplies at ports controlled by Anarchy or Communist minor factions.<ref name="pioneer" /> The item remains illegal when carried where local law prohibits it.
+
+== Relationship to Engineering ==
+
+Pioneer Supplies owns equipment retail and grade upgrades. On-foot Engineers own modifications. Material exchange and sale are handled by other concourse services rather than the Pioneer counter.
+
+A commander therefore returns to Pioneer Supplies to buy another suit or weapon, raise its grade, restock, or replace equipment. The detailed Engineer unlocks, modification recipes, and material-planning workflow belong to [[Odyssey Engineering]] and the relevant Engineer pages.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Dominator Suit]] [[Odyssey Engineering]] [[Engineers]]}}
 [[Category:Odyssey]]
 [[Category:Equipment]]

@@ -3,35 +3,97 @@ EDFM current-content archive export.
 Title: Abrasion Blaster
 Namespace: 0
 Page ID: 442
-Revision ID: 2131
-Timestamp: 2026-08-24T23:43:47Z
+Revision ID: 4008
+Timestamp: 2026-09-12T20:34:02Z
 Source URL: https://edfieldmanual.com/wiki/Abrasion_Blaster
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-__NOINDEX__
-{{Article header|deck=An abrasion blaster breaks visible surface deposits from asteroids.
-}}
+{{Article header|deck=A pulse hardpoint that dislodges exposed mineral deposits from asteroid surfaces.}}
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and deposit behavior still need direct Live-game verification.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; standard Abrasion Blaster mechanics also apply to Legacy
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier mining documentation, in-game module descriptions, current community-maintained module data, and Frontier's Operations update
+ |uncertainty=Frontier documents the current Far-Reaching variant's trade-offs but does not publish all of its exact outfitting values on the update page.
+}}
 
 {{Ship module infobox}}
 
-The '''Abrasion Blaster''' is used to dislodge visible surface deposits from an asteroid. It is commonly carried for [[Core Mining|core mining]], where a cracked asteroid exposes deposits that must be knocked loose before collection.
+The '''Abrasion Blaster''' is a mining hardpoint that fires tuned energy pulses at targetable surface deposits on asteroids. A successful hit breaks the deposit free as a commodity fragment that can be collected and refined.<ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref>
 
-{{Draft warning}}
+The blaster is the extraction tool for [[Surface Deposit Mining]]. It is also part of the recovery stage of [[Core Mining]], because a split core asteroid exposes additional deposits on the interior faces.
 
-== Mining role ==
+== Standard variants ==
 
-{{#invoke:Mining|equipmentNote|page=Abrasion Blaster}}
+The standard Abrasion Blaster is a D-rated Class 1 module available in fixed and turreted mounts. It uses no ammunition, but each shot draws from the WEP capacitor and generates heat.<ref name="abrasion">[https://elite-dangerous.fandom.com/wiki/Abrasion_Blaster Abrasion Blaster], Elite Dangerous Wiki.</ref>
 
-The abrasion blaster supports [[Surface Deposit Mining]] directly and often follows a successful core detonation. It does not replace a mining laser for ordinary fragments and does not collect anything by itself; collectors and a refinery still complete the loop.
+{| class="wikitable" style="width:100%;"
+! Mount !! Mass !! Integrity !! Power draw !! Maximum range !! Base value
+|-
+| Fixed || 2.00 t || 40 || 0.34 MW || 1,000 m || 9,700 CR
+|-
+| Turreted || 2.00 t || 40 || 0.47 MW || 1,000 m || 27,480 CR
+|}
 
-== Related Field Procedures ==
+A turreted blaster functions as a full turret only when controlled by a Multicrew gunner. For a solo pilot it behaves as a forward-fired tool, so the physical hardpoint position still affects whether a deposit can be hit without the ship blocking the shot.
 
-{{#invoke:Procedures|list|page=Abrasion Blaster}}
+== Target and firing behavior ==
 
-{{Related articles|[[Surface Deposit Mining]] [[Core Mining]] [[How to Mine Surface Deposits]] [[Collector Limpet Controller]] [[Refinery]]}}
+A prospector limpet reveals a suitable feature as a named '''Surface Deposit'''. The blaster functions in Analysis Mode and acts only on that target type. It does not cut ordinary fragments from the asteroid body.<ref name="abrasion" />
+
+The fired pulse must strike the deposit itself. Once dislodged, the fragment must be recovered with a cargo scoop or a [[Collector Limpet Controller|collector limpet]] and processed by a [[Refinery]]. The blaster does not place material directly into the cargo hold.
+
+Surface deposits can occur on intact mineable asteroids and on fragments exposed by a core detonation. The presence of an abrasion target therefore does not by itself mean that another seismic charge is required.
+
+== Far-Reaching Abrasion Blaster ==
+
+Current Live outfitting also includes the '''Far-Reaching Abrasion Blaster''', a pre-Engineered Class 1 fixed variant purchasable with Merc Coin through the outfitting rewards introduced with Operations. Frontier describes it as having lower power draw, distributor draw, and thermal load, with greater shot speed and maximum range at the cost of integrity.<ref name="operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Elite Dangerous: Operations – Available Now], Frontier Developments.</ref>
+
+The extended range and faster projectile reduce the lead needed against deposits on rotating or widely separated asteroid sections. They do not change the target requirement: the pulse still acts on a revealed surface deposit, and collection and refining remain separate steps.
+
+== Positioning and collection ==
+
+One blaster is normally sufficient because a deposit requires an aimed pulse rather than continuous extraction. A second blaster does not create another deposit or improve the contents of the released fragment.
+
+Mount placement matters most on ships whose small hardpoints sit far above, below, or behind the pilot's sight line. If the reticle is on target but the pulse strikes nearby rock, reposition to give the hardpoint a clear path.
+
+Avoid firing through active collector traffic. An abrasion pulse can destroy a limpet that crosses the line of fire, and a released fragment can remain trapped behind a rotating asteroid section. Repositioning for clear sight between the fragment, collectors, and cargo hatch improves recovery.<ref name="mechanics">[https://edmining.com/elite-dangerous-mining-mechanics/ Elite Dangerous Mining Mechanics], ED Mining.</ref>
+
+== Failure states ==
+
+* '''The deposit is not targetable:''' attach a prospector limpet and confirm that the feature is a Surface Deposit rather than a sub-surface deposit or fissure.
+* '''The blaster will not fire:''' check the active fire group, Analysis Mode, module power, and WEP capacitor.
+* '''The pulse hits rock beside the target:''' reduce relative motion or reposition so the hardpoint has a clear line of fire.
+* '''The fragment is not collected:''' open the cargo scoop or deploy collectors, check the refinery and cargo hold, and remove obstacles from the collectors' route.
+* '''Collectors are being destroyed:''' stop firing through their path and move away from rotating asteroid surfaces.
+
+== Method boundaries ==
+
+An Abrasion Blaster does not replace the other mining hardpoints:
+
+* a [[Mining Laser]] cuts ordinary composition fragments;
+* a [[Sub-surface Displacement Missile]] drills deposits beneath the surface; and
+* a [[Seismic Charge Launcher]] cracks a fissured core.
+
+A miner can carry several of these tools on one ship, but each acts on a different target type.
+
+== Engineering ==
+
+Standard Abrasion Blasters do not accept ordinary Engineer blueprints. The Far-Reaching version is supplied as a pre-Engineered module with its documented advantages and integrity trade-off.<ref name="operations" />
+
+== Field Procedures ==
+
+[[How to Mine Surface Deposits]] covers prospecting, approach geometry, aiming, fragment collection, and troubleshooting. [[How to Core Mine]] covers the seismic detonation and post-split abrasion stage of core mining.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Surface Deposit Mining]] [[How to Mine Surface Deposits]] [[Core Mining]] [[How to Core Mine]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
 [[Category:Mining]]

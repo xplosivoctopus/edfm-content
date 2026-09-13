@@ -3,35 +3,105 @@ EDFM current-content archive export.
 Title: Mining Laser
 Namespace: 0
 Page ID: 531
-Revision ID: 2168
-Timestamp: 2026-08-24T23:44:32Z
+Revision ID: 4004
+Timestamp: 2026-09-12T20:15:49Z
 Source URL: https://edfieldmanual.com/wiki/Mining_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-__NOINDEX__
-{{Article header|deck=Mining lasers extract ordinary asteroid fragments for collection and refining.
-}}
+{{Article header|deck=A continuous-beam hardpoint that cuts ordinary fragments from mineable asteroids.}}
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and engineering availability still need direct Live-game verification.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; standard Mining Laser mechanics also apply to Legacy
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=In-game module description, current community-maintained outfitting data, and Frontier's current Mining Volley Repeater documentation
+ |uncertainty=Frontier has not published current fragment-release rates for every mining-tool variant or combination.
+}}
 
 {{Ship module infobox}}
 
-The '''Mining Laser''' is the primary hardpoint for [[Laser Mining|laser mining]]. It breaks ordinary fragments from suitable asteroids; those fragments still have to be collected and processed by a [[Refinery]] before they become cargo.
+The '''Mining Laser''' is a continuous-beam mining hardpoint that cuts ordinary resource fragments from a mineable asteroid. Fragment release depends on the mining power applied to the rock, so stronger or additional mining lasers release the asteroid's finite fragment supply more quickly.<ref name="laser">[https://elite-dangerous.fandom.com/wiki/Mining_Laser Mining Laser], Elite Dangerous Wiki.</ref>
 
-{{Draft warning}}
+A Mining Laser does not identify an asteroid's contents, retrieve the fragments, or process them. Those roles belong to the [[Prospector Limpet Controller]], [[Collector Limpet Controller]], and [[Refinery]]. The complete operating workflow is covered by [[How to Laser Mine]].
 
-== Mining role ==
+== Standard variants ==
 
-{{#invoke:Mining|equipmentNote|page=Mining Laser}}
+Standard Mining Lasers are D-rated Class 1 or Class 2 hardpoints with fixed and turreted mounts. Both classes have a 500 m maximum mining range and use no ammunition.<ref name="laser" />
 
-Mining lasers are not used for every mining method. [[Core Mining]] uses seismic charges and abrasion blasting, while [[Sub-surface Mining]] uses displacement missiles. A commander fitting for laser mining should reserve enough optional space for collector support, a refinery, cargo, and limpets rather than filling only hardpoints.
+{| class="wikitable" style="width:100%;"
+! Variant !! Mass !! Integrity !! Power draw !! Distributor draw !! Thermal load !! Base value
+|-
+| 1D fixed || 2.00 t || 40 || 0.500 MW || 1.5 MW || 2.0 || 6,800 CR
+|-
+| 1D turreted || 2.00 t || 40 || 0.500 MW || 1.5 MW || 2.0 || 9,400 CR
+|-
+| 2D fixed || 2.00 t || 51 || 0.750 MW || 3.0 MW || 4.0 || 22,576 CR
+|-
+| 2D turreted || 2.00 t || 51 || 0.750 MW || 3.0 MW || 4.0 || 32,576 CR
+|}
 
-== Related Field Procedures ==
+The Class 2 laser applies more mining power and releases fragments faster than the Class 1 version, but doubles distributor draw and thermal load. Additional lasers increase the release rate again while drawing from the same finite prospected asteroid supply.<ref name="laser" />
 
-{{#invoke:Procedures|list|page=Mining Laser}}
+A turreted Mining Laser functions as a full turret only when controlled by a Multicrew gunner. It does not create an automatically aimed mining solution for a solo pilot.<ref name="laser" />
 
-{{Related articles|[[Laser Mining]] [[How to Laser Mine]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]]}}
+== Fragment generation ==
+
+The beam must strike the asteroid continuously within range. Each released fragment inherits commodity percentages from the asteroid's ordinary prospected composition. The fragment is then collected and refined; the laser itself does not add cargo.
+
+An attached prospector limpet increases the total ordinary fragment supply according to the prospector controller's rating. Mining before the prospector attaches forfeits the multiplier on fragments already removed. The laser's class controls extraction speed, while the prospector controls the documented yield multiplier.
+
+Mining lasers draw from the WEP capacitor and generate heat during continuous use. If distributor capacity is exhausted, the beam stops until sufficient weapon energy recovers. Power-distributor capacity, cooling, the number of lasers, and collector throughput therefore determine whether additional lasers improve the complete mining loop.
+
+== Modified Mining Laser ==
+
+The '''Modified Mining Laser''' is a pre-Engineered Class 1 fixed variant available as a per-copy material exchange from the Human Technology Broker at The House Ascendant in the 21 Eridani system. It is supplied with a special combination of Long Range, reduced distributor demand, and Incendiary Rounds that cannot be reproduced or replaced by ordinary Engineering.<ref name="laser" />
+
+Compared with a standard 1D fixed laser, current module documentation lists:<ref name="laser" />
+
+{| class="wikitable" style="width:100%;"
+! Attribute !! Modified variant
+|-
+| Maximum range || 2,500 m
+|-
+| Power draw || 0.25 MW
+|-
+| Distributor draw || 0.75 MW
+|-
+| Thermal load || 1.0
+|-
+| Integrity || 20
+|}
+
+Removing the supplied modifications permanently converts the module away from its special configuration; Engineers cannot reapply them.<ref name="laser" />
+
+== Other laser-mining tools ==
+
+The [[Mining Lance]] is a separate Class 1 Powerplay weapon with standard Class 1 mining performance, 2,000 m range, and limited combat capability. Its acquisition and weapon characteristics belong to its own article.
+
+The '''Mining Volley Repeater''' is a separate current-Live precision tool restricted to the Type-11 Prospector. Frontier describes it as producing more fragments than other laser-mining tools and having a chance to generate higher-density fragments. It is not a standard Mining Laser variant and does not share the specifications above.<ref name="type11">[https://www.elitedangerous.com/news/type-11-prospector-highlights Type-11 Prospector Highlights], Frontier Developments, 5 September 2025.</ref><ref name="update4210">[https://www.elitedangerous.com/update-notes/4-2-1-0 Elite Dangerous: Type-11 Prospector Update], Frontier Developments.</ref>
+
+== Method boundaries ==
+
+A Mining Laser works only on the ordinary composition of a mineable asteroid. It does not remove named surface deposits, drill sub-surface deposits, or place charges in fissures. Those targets require an [[Abrasion Blaster]], [[Sub-surface Displacement Missile]], or [[Seismic Charge Launcher]] respectively.
+
+Its beam has very short range, low combat damage, and low armour penetration. Although it can damage ships, it is a mining tool rather than a practical defensive weapon.<ref name="laser" />
+
+== Engineering ==
+
+Standard Mining Lasers do not accept ordinary Engineer blueprints. The Modified Mining Laser's supplied configuration is fixed, while the Mining Lance and Mining Volley Repeater are separate modules with their own restrictions.
+
+== Field Procedure ==
+
+[[How to Laser Mine]] covers equipment preparation, prospecting, positioning, capacitor management, fragment collection, refinery operation, and completion checks.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Laser Mining]] [[How to Laser Mine]] [[Mining Lance]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
 [[Category:Mining]]

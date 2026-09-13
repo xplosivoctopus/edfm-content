@@ -3,53 +3,64 @@ EDFM current-content archive export.
 Title: Surface Deposit Mining
 Namespace: 0
 Page ID: 725
-Revision ID: 2032
-Timestamp: 2026-08-24T21:24:11Z
+Revision ID: 3975
+Timestamp: 2026-09-12T14:26:38Z
 Source URL: https://edfieldmanual.com/wiki/Surface_Deposit_Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Research-backed draft using current mining loop and EDCD mining equipment data|uncertainty=Commodity-specific deposit behavior still needs direct Live-game verification.}}
-__NOINDEX__
-{{Article header|deck=Surface deposit mining removes visible deposits from an asteroid with an abrasion blaster.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four mining documentation, current module documentation, and established community mining references
+ |uncertainty=Frontier has not published a current commodity-by-commodity table for surface-deposit availability or exact deposit yields.
+}}
 
-'''Surface deposit mining''' is the use of an [[Abrasion Blaster]] to break visible deposits from an asteroid. It often appears as the collection stage after [[Core Mining|core mining]], but the technique is distinct from normal laser mining because it targets named deposits rather than ordinary laser fragments.
+{{Article header|deck=Surface deposit mining removes targetable deposits from asteroids with an abrasion blaster.}}
 
-{{Draft warning}}
+'''Surface deposit mining''' is an asteroid-mining method that uses an [[Abrasion Blaster]] to break a visible, targetable deposit away from the rock for collection. The released fragment is collected manually through the cargo scoop or by a [[Collector Limpet Controller|collector limpet]], then processed by a [[Refinery]].<ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref><ref name="abrasion">[https://elite-dangerous.fandom.com/wiki/Abrasion_Blaster Abrasion Blaster], Elite Dangerous Wiki.</ref>
 
-== When to use surface deposit mining ==
+The method concerns deposits on '''asteroids'''. It is separate from [[Surface Mining]], which uses the Rhino and deployable mining rigs at Planetary Mining Locations.
 
-Surface deposit mining is used when a deposit is visible and targetable on the asteroid surface. The most common teaching context is core mining: after a successful detonation, the cracked asteroid exposes deposits that must be broken free before collectors can recover them.
+== Mechanics ==
 
-It can also appear as a targeted deposit task. In either case, the commander should treat the abrasion blaster as a precision extraction tool, not as a general mining laser.
+A surface deposit is a discrete feature attached to an asteroid rather than part of the ordinary mineral composition cut by a mining laser. When a prospector limpet scans a suitable asteroid, the cockpit display identifies its deposits and makes individual deposit targets available.<ref name="frontier-recap" />
 
-== Equipment ==
+A direct abrasion-blaster hit dislodges the selected deposit as a recoverable fragment. The blaster does not collect or refine that fragment, so the remaining cargo, limpet, and refinery parts of the mining loop still apply.
 
-A surface-deposit setup needs:
+Surface deposits may be found on intact asteroids and on the exposed sections left after a core asteroid is split. They are therefore a mining method in their own right and also the normal extraction method for deposits exposed during [[Core Mining|core mining]].<ref name="mechanics">[https://edmining.com/elite-dangerous-mining-mechanics/ Elite Dangerous Mining Mechanics], ED Mining.</ref>
 
-* [[Abrasion Blaster]] — dislodges the visible deposit.
-* [[Collector Limpet Controller]] — retrieves the released material.
-* [[Refinery]], cargo space, and limpets.
-* [[Prospector Limpet Controller]] — helps identify asteroid contents.
-* [[Pulse Wave Analyser]] — useful when searching for core-style targets that may expose deposits.
+== Equipment relationships ==
 
-== Workflow summary ==
+* '''[[Abrasion Blaster]]:''' the required extraction tool. Its own article covers the module and available variants.
+* '''[[Prospector Limpet Controller]]:''' identifies the asteroid's contents and marks deposit locations.
+* '''[[Collector Limpet Controller]] or cargo scoop:''' recovers each dislodged fragment.
+* '''[[Refinery]] and cargo space:''' process collected fragments and store finished commodities.
+* '''[[Pulse Wave Analyser]]:''' helps locate asteroids with anomalous deposits. It is a search tool, not the extractor.
 
-# Identify an asteroid with visible surface deposits.
-# Target a deposit and fire the abrasion blaster to dislodge it.
-# Let collector limpets retrieve the released resource.
-# Refine the collected material into cargo where applicable.
-# Ignore or vent unwanted refinery contents before they block useful fragments.
+A ship configured for core mining usually carries the required abrasion blaster already because surface deposits remain after a successful detonation. A ship searching only for surface deposits does not need a seismic charge launcher unless it will also crack core asteroids.
 
-== Practical notes ==
+== Relationship to other mining methods ==
 
-* If a core asteroid has just been cracked, look for remaining exposed deposits before leaving.
-* Deposits have to be targeted and struck cleanly; spraying the rock like a laser-mining asteroid is inefficient.
-* The technique depends on collectors and refinery space just like the other mining methods.
+* [[Laser Mining|Laser mining]] cuts ordinary fragments from the asteroid matrix with a mining laser.
+* [[Sub-surface Mining|Sub-surface mining]] drills embedded deposits with a sub-surface displacement missile.
+* Core mining places seismic charges in fissures to split a core asteroid.
+* Surface deposit mining targets exposed deposits individually with an abrasion blaster.
 
-== Related Field Procedures ==
+An asteroid may support more than one method. The presence of a surface deposit does not mean its ordinary composition, sub-surface deposits, or core can be extracted with the abrasion blaster.
 
-{{#invoke:Procedures|list|page=Surface Deposit Mining}}
+Commodity availability depends on the ring and the deposit generated on the asteroid. [[Mining Commodities]] compares known commodity sources without implying that every named mineral is available through every extraction method.
 
-{{Related articles|[[Mining]] [[Abrasion Blaster]] [[Core Mining]] [[How to Mine Surface Deposits]]}}
+== Field Procedure ==
+
+[[How to Mine Surface Deposits]] covers targeting, firing, collection, refinery checks, completion criteria, and common failures. The post-detonation sequence is also incorporated into [[How to Core Mine]].
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Mining Commodities]] [[Abrasion Blaster]] [[How to Mine Surface Deposits]] [[Core Mining]] [[Surface Mining]]}}
 [[Category:Mining]]

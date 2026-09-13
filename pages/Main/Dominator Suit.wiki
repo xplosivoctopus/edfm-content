@@ -3,15 +3,127 @@ EDFM current-content archive export.
 Title: Dominator Suit
 Namespace: 0
 Page ID: 675
-Revision ID: 1568
-Timestamp: 2026-08-23T18:39:59Z
+Revision ID: 4009
+Timestamp: 2026-09-12T20:38:34Z
 Source URL: https://edfieldmanual.com/wiki/Dominator_Suit
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|a suit reference page for the Dominator Suit, including combat role, upgrade path, and Engineering considerations.}}
+{{Article header|deck=Manticore's combat suit, built around strong personal shields and two primary weapon slots.}}
 
-The '''Dominator Suit''' is the dedicated on-foot combat suit in Odyssey. This planned reference will cover its role, equipment slots, upgrade considerations, and relevant Engineering modifications.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier's Odyssey guide and current update notes, supported by current community-maintained suit and Engineering data
+ |uncertainty=Frontier does not publish a complete current table of every numerical suit attribute and modification effect.
+}}
 
+The '''Dominator Suit''' is Manticore's dedicated on-foot combat suit. It has the strongest stock shield performance of the standard specialist suits and is the only suit that carries two primary weapons alongside a secondary weapon. That combat capacity comes with lower battery and inventory capacity than the exploration- and utility-focused alternatives.<ref name="odyssey-guide">[https://elitedangerous.com/news/odyssey-guide Odyssey Guide], Frontier Developments.</ref><ref name="dominator">[https://elite-dangerous.fandom.com/wiki/Dominator_Suit Dominator Suit], Elite Dangerous Wiki.</ref>
+
+== Stock characteristics ==
+
+A Grade 1 Dominator Suit costs 150,000 CR from participating [[Pioneer Supplies]] stores. Its base defensive and utility characteristics are:<ref name="dominator" />
+
+{| class="wikitable" style="width:100%;"
+! Attribute !! Grade 1 value
+|-
+| Health || 30
+|-
+| Shield strength || 15.0 MW
+|-
+| Shield regeneration || 1.10 MW/s
+|-
+| Kinetic resistance || −50%
+|-
+| Thermal resistance || 60%
+|-
+| Plasma resistance || 0%
+|-
+| Explosive resistance || 0%
+|-
+| Battery capacity || 10.0 MW
+|-
+| Emergency air || 60 seconds
+|-
+| Suit mass || 100 kg
+|}
+
+The negative stock kinetic resistance makes an unupgraded suit particularly vulnerable to kinetic fire. Suit grades improve shield strength, regeneration, and resistances, but do not replace the need to manage shield power and use cover.
+
+== Weapons, tools, and inventory ==
+
+The Dominator carries:
+
+* two primary weapons;
+* one secondary weapon;
+* an EnergyLink for charging equipment, drawing power, and overload functions;
+* a Profile Analyser for identity and access-profile scanning; and
+* combat consumables including energy cells, medkits, frag grenades, shield disruptors, and shield projectors.
+
+It has no specialised third tool such as the Maverick Suit's Arc Cutter or the Artemis Suit's Genetic Sampler. Its two-primary layout is the feature that distinguishes it from every other standard suit.
+
+Current base backpack capacity is 10 Goods, 20 Assets, and 10 Data following the Type-8 update's capacity increase.<ref name="type8">[https://elitedangerous.com/update-notes/4-0-18-08 Type-8 Update Release Notes (18.08)], Frontier Developments, 7 August 2024.</ref> This is enough for incidental collection but remains below the Maverick Suit's utility capacity.
+
+== Suit grades ==
+
+Dominator Suits use the standard Grade 1–5 progression. Upgrading at Pioneer Supplies increases defensive performance and opens one additional modification slot per grade above Grade 1.<ref name="dominator" /><ref name="inara">[https://inara.cz/elite/equipment-blueprint/3/ Dominator Suit – equipment blueprints], INARA.</ref>
+
+{| class="wikitable" style="width:100%;"
+! Grade !! Shield strength !! Shield regeneration !! Modification slots !! Credit cost for upgrade
+|-
+| 1 || 15.0 MW || 1.10 MW/s || 0 || —
+|-
+| 2 || 18.3 MW || 1.34 MW/s || 1 || 600,000 CR
+|-
+| 3 || 22.5 MW || 1.65 MW/s || 2 || 2,250,000 CR
+|-
+| 4 || 27.6 MW || 2.02 MW/s || 3 || 4,500,000 CR
+|-
+| 5 || 33.8 MW || 2.48 MW/s || 4 || 7,500,000 CR
+|}
+
+Each upgrade also requires the listed Odyssey materials for that grade. Grades must be completed in order, but a higher-grade suit purchased directly from a vendor begins at its advertised grade.
+
+== Compatible modifications ==
+
+A Dominator Suit can accept the following suit modifications:<ref name="dominator" /><ref name="inara" />
+
+* Added Melee Damage
+* Combat Movement Speed
+* Damage Resistance
+* Enhanced Tracking
+* Extra Ammo Capacity
+* Extra Backpack Capacity
+* Faster Shield Regen
+* Improved Battery Capacity
+* Improved Jump Assist
+* Increased Air Reserves
+* Increased Sprint Duration
+* Night Vision
+* Quieter Footsteps
+* Reduced Tool Battery Consumption
+
+A modification occupies one unlocked slot and cannot be removed or replaced. Multiple copies of the suit are therefore required when a commander wants incompatible specialised configurations. [[Odyssey Engineering]] covers materials, Engineer access, and modification planning without turning this article into a build guide.
+
+== Acquisition ==
+
+Pioneer Supplies normally sells Grade 1 Dominator Suits. Individual stores can also offer limited higher-grade stock, generally Grade 2 or Grade 3, sometimes with one or more modifications already installed. These offers are one-off inventory: another commander purchasing the item removes that copy from the store's stock.<ref name="dominator" />
+
+A pre-upgraded suit can save materials and unlock slots immediately, but an unwanted pre-installed modification remains permanent. Inspect the grade and every installed effect before purchasing.
+
+== Capabilities and limitations ==
+
+The Dominator is built for sustained personal combat, especially where carrying two complementary primary weapons is more valuable than a specialised tool or large backpack. Its stronger shield and increased combat-consumable capacity support that role.
+
+It is not the general-purpose settlement-access suit or the exobiology suit. Tasks that require cutting sealed panels or sampling biological life need the corresponding specialist equipment. Detailed weapon pairings, combat tactics, Conflict Zone strategy, and Engineering material routes belong on their own guides.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Pioneer Supplies]] [[Odyssey Engineering]] [[Engineers]]}}
 [[Category:Odyssey]]
 [[Category:Equipment]]

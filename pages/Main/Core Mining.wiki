@@ -3,56 +3,87 @@ EDFM current-content archive export.
 Title: Core Mining
 Namespace: 0
 Page ID: 723
-Revision ID: 1891
-Timestamp: 2026-08-24T21:20:54Z
+Revision ID: 3979
+Timestamp: 2026-09-12T14:39:57Z
 Source URL: https://edfieldmanual.com/wiki/Core_Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Research-backed draft using current mining loop and EDCD mining equipment data|uncertainty=Candidate recognition details and commodity-specific advice still need direct Live-game verification.}}
-__NOINDEX__
-{{Article header|deck=Core mining identifies fissured asteroids, cracks them with seismic charges, and collects the exposed deposits.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four mining documentation, current module documentation, and established community mining references
+ |uncertainty=Frontier has not published current core-spawn rates, commodity-specific yields, or a universal fissure-and-charge combination for optimum yield.
+}}
 
-'''Core mining''' is the mining method built around finding an asteroid core, placing [[Seismic Charge Launcher|seismic charges]] into fissures, detonating the asteroid safely, and collecting the deposits exposed by the break-up.
+{{Article header|deck=Core mining splits fissured asteroids with tuned seismic charges and exposes their internal deposits.}}
 
-{{Draft warning}}
+'''Core mining''' is an asteroid-mining method for bodies that contain a recoverable core and targetable fissures. A commander confirms the core with a prospector limpet, embeds charged seismic warheads in the fissures, tunes their combined force to the optimum-yield range, and detonates the asteroid. The resulting material is collected directly or broken from exposed surfaces with an [[Abrasion Blaster]].<ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref>
 
-== When to use core mining ==
+The complete search, charge-placement, retreat, detonation, and recovery workflow belongs to [[How to Core Mine]].
 
-Core mining is more deliberate than laser mining. The commander searches for a promising asteroid, confirms that it has fissures and valuable contents, places charges, moves clear of the blast, then uses an [[Abrasion Blaster]] and collectors to recover the exposed deposits.
+== Core-bearing asteroids ==
 
-It rewards careful target selection and timing. It also punishes wasted charges, poor positioning, and cargo/refinery neglect, so a new commander should learn the normal collector and refinery loop first.
+Only suitable asteroids contain cores and fissures. A [[Pulse Wave Analyser]] highlights anomalous candidates, but its visual return does not prove that a core is present. A prospector limpet confirms the core commodity and exposes its fissures as targetable features.<ref name="core-guide">[https://edmining.com/core-mining/ Elite Dangerous: Core Mining], ED Mining.</ref>
 
-== Equipment ==
+Core-bearing shapes are consistent within each ring class, so recognition can make the search faster. The prospector result remains the decisive check before seismic ammunition is spent.
 
-Core mining normally uses:
+Ring type determines which core commodities can occur. A [[Mining Hotspot|mining hotspot]] can weight core generation toward its named commodity, but does not make every highlighted asteroid a core. [[Mining Commodities]] compares known ring environments and extraction routes.
 
-* [[Pulse Wave Analyser]] — highlights candidate asteroids worth inspecting.
-* [[Prospector Limpet Controller]] — confirms contents and deposits before charges are spent.
-* [[Seismic Charge Launcher]] — places charges into fissures.
-* [[Abrasion Blaster]] — removes exposed deposits after detonation.
-* [[Collector Limpet Controller]], [[Refinery]], cargo space, and limpets.
-* [[Detailed Surface Scanner]] — useful for finding mapped hotspots before the search begins.
+== Fissures and seismic charge ==
 
-== Workflow summary ==
+Fissures have low, average, or high strength. A [[Seismic Charge Launcher]] warhead also has a pilot-selected charge strength, set by holding the trigger before firing. The combination determines how much that warhead adds to the detonation-yield gauge.<ref name="seismic">[https://elite-dangerous.fandom.com/wiki/Seismic_Charge_Launcher Seismic Charge Launcher], Elite Dangerous Wiki.</ref>
 
-# Search the ring for promising asteroids with the pulse wave analyser.
-# Inspect and prospect candidates rather than firing charges blindly.
-# Place seismic charges according to fissure strength and the detonation meter.
-# Move to a safe distance before the detonation timer completes.
-# Use an abrasion blaster on exposed deposits and collect the released resources.
-# Refine, keep or vent commodities according to the run plan.
+The first embedded charge starts a 120-second countdown. Additional embedded charges synchronize with it and increase the combined yield. The target is the blue '''Optimum Yield Range''':
 
-== Practical notes ==
+* insufficient charge may fail to split the asteroid;
+* optimum charge produces the best recoverable result; and
+* excessive charge can destroy part of the deposit even when the asteroid splits.<ref name="frontier-recap" /><ref name="seismic" />
 
-* A bright pulse-wave return is a clue, not proof of a valuable core.
-* The charge meter matters more than simply filling every fissure.
-* After detonation, the job is not finished until exposed deposits have been knocked loose and collected.
-* Core mining shares equipment with [[Surface Deposit Mining]], but the fissure-and-detonation stage is specific to core asteroids.
+There is no fixed sequence that works for every core. Fissure availability varies, so the live gauge must be read after every charge. A stronger warhead in a weaker fissure makes a larger contribution; smaller contributions provide finer control near the blue range.<ref name="core-guide" />
 
-== Related Field Procedures ==
+An attached charge can be disarmed through the Contacts panel before detonation, but disarming takes time and leaves that fissure unusable. Charges can also be detonated early once the ship is clear.<ref name="seismic" />
 
-{{#invoke:Procedures|list|page=Core Mining}}
+== Detonation and recovery ==
 
-{{Related articles|[[Mining]] [[Pulse Wave Analyser]] [[Seismic Charge Launcher]] [[Abrasion Blaster]] [[How to Core Mine]]}}
+A successful core detonation produces a damaging shockwave and temporary sensor disruption at close range. Moving more than 2 km away avoids the documented blast effects.<ref name="seismic" />
+
+The split asteroid exposes loose core material and surface deposits on the interior faces. The loose fragments enter the normal collector-and-refinery loop. Attached deposits require an abrasion blaster before they can be collected.<ref name="abrasion">[https://elite-dangerous.fandom.com/wiki/Abrasion_Blaster Abrasion Blaster], Elite Dangerous Wiki.</ref>
+
+Core mining therefore includes a surface-deposit recovery stage, but [[Surface Deposit Mining]] remains a separate mechanic: abrasion can also be used on exposed deposits that did not require a core detonation.
+
+== Equipment relationships ==
+
+* '''[[Pulse Wave Analyser]]:''' searches for anomalous candidate asteroids.
+* '''[[Prospector Limpet Controller]]:''' confirms the core commodity and enables fissure targeting.
+* '''[[Seismic Charge Launcher]]:''' embeds adjustable-strength warheads in fissures.
+* '''[[Abrasion Blaster]]:''' dislodges surface deposits exposed by the split.
+* '''[[Collector Limpet Controller]]:''' recovers loose and dislodged fragments.
+* '''[[Refinery]] and cargo space:''' process and store the recovered commodity.
+* '''[[Detailed Surface Scanner]]:''' reveals hotspots before the search begins.
+
+The extraction modules operate in Analysis Mode. Seismic ammunition and limpets are finite, while the refinery and cargo hold set the amount of recovered material that can remain aboard.
+
+== Method boundaries ==
+
+Core mining does not replace other asteroid-mining methods:
+
+* [[Laser Mining|laser mining]] cuts ordinary asteroid fragments without splitting the rock;
+* [[Sub-surface Mining|sub-surface mining]] drills named deposits beneath the surface; and
+* surface deposit mining removes exposed deposits with an abrasion blaster.
+
+A single asteroid can have ordinary composition and additional deposits, but only a confirmed fissured core accepts the seismic-charge process.
+
+== Field Procedure ==
+
+[[How to Core Mine]] covers candidate recognition, prospecting, fissure reconnaissance, charge tuning, safe retreat, detonation, abrasion recovery, completion checks, and troubleshooting. [[How to Mine Surface Deposits]] covers the post-detonation abrasion stage in more detail.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Mining Commodities]] [[Mining Hotspot]] [[Pulse Wave Analyser]] [[Seismic Charge Launcher]] [[Abrasion Blaster]] [[How to Core Mine]]}}
 [[Category:Mining]]

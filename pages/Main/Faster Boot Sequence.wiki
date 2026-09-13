@@ -3,42 +3,70 @@ EDFM current-content archive export.
 Title: Faster Boot Sequence
 Namespace: 0
 Page ID: 787
-Revision ID: 2931
-Timestamp: 2026-09-02T14:14:26Z
+Revision ID: 4029
+Timestamp: 2026-09-13T02:00:19Z
 Source URL: https://edfieldmanual.com/wiki/Faster_Boot_Sequence
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Faster Boot Sequence is an Engineering Blueprint for Frame Shift Drives that reduces drive boot time and adds a smaller optimized-mass bonus, with heat and integrity tradeoffs.}}
-{{Article status|status=Partially verified|mode=Live|source_quality=Structured values are generated from EDFM Engineering data cross-checked against EDSY live data and INARA current listings.|notes=Practical-use sections are intentionally concise and can be expanded with field-tested examples.}}
+{{Article header|deck=An FSD Engineering Blueprint that reduces module boot time while providing a smaller optimized-mass increase.}}
 
-Faster Boot Sequence is an Engineering Blueprint for Frame Shift Drives that reduces drive boot time and adds a smaller optimized-mass bonus, with heat and integrity tradeoffs.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewed=2026-09-13
+ |reviewer=Sythan
+ |source_quality=EDFM structured Engineering data cross-checked against current INARA and EDSY records
+ |uncertainty=Displayed material totals assume one roll at each grade; completing a grade can require additional rolls.
+}}
+
+'''Faster Boot Sequence''' is an [[Engineering Blueprints|Engineering Blueprint]] for [[Frame Shift Drive|Frame Shift Drives]]. It shortens the time an FSD takes to become operational after the module is powered on or restored from a disabled state. It also increases optimized mass, but by less than the [[Increased Range]] Blueprint.<ref name="inara">[https://inara.cz/elite/blueprint/1/ Frame Shift Drive – Faster boot sequence], INARA.</ref>
 
 {{#invoke:EngineeringBlueprints|infobox|fsd_faster_boot_sequence}}
 
-== What It Does ==
-Faster Boot Sequence helps a Frame Shift Drive come online faster after power-up. It is most relevant to power-managed ships or builds where module startup timing matters.
+== Effects and trade-offs ==
 
-== Tradeoffs ==
-See the generated grade table for exact modifiers. This article can benefit from additional build-specific examples and field-tested use cases.
+The Blueprint scales through Grades 1–5. Higher grades progressively:
 
-== Grades ==
+* reduce boot time;
+* increase optimized mass, providing a modest jump-range benefit;
+* increase thermal load; and
+* reduce module integrity.
+
+The boot-time modifier applies to the module's startup sequence. It does not shorten the normal FSD charging countdown for supercruise or hyperspace jumps.
+
 {{#invoke:EngineeringBlueprints|gradeTable|fsd_faster_boot_sequence}}
 
-== Engineering Materials ==
+== Selection considerations ==
+
+Faster Boot Sequence is most relevant when an FSD is deliberately disabled by power priorities or must recover quickly after being shut down. Power-managed combat and utility builds can use the shorter startup delay to bring the drive back online sooner when it is needed.
+
+For ships whose priority is maximum jump range, [[Increased Range]] provides a substantially larger optimized-mass bonus. Faster Boot Sequence is the narrower choice when startup delay matters and a smaller secondary range increase is still useful.
+
+The integrity and thermal penalties make it less attractive when module durability or heat management is already constrained. A compatible [[Experimental Effects|Experimental Effect]] can adjust some of those priorities, but only one Experimental Effect may be installed on the drive.
+
+== Engineering materials ==
+
+The materials shown below are the listed ingredients for one roll at each grade. Actual totals vary with progress through a grade.
+
 {{#invoke:EngineeringBlueprints|materialsTable|fsd_faster_boot_sequence}}
 
-== Available Engineers ==
+== Availability ==
+
 {{#invoke:EngineeringBlueprints|engineers|fsd_faster_boot_sequence}}
 
+Blueprint grades can be applied through [[Remote Engineering]] after the Blueprint is pinned and the required Engineer access has been earned. Experimental Effects still require a visit to an Engineer workshop.
+
 == Compatible Experimental Effects ==
+
 {{#invoke:EngineeringBlueprints|experimentalEffects|fsd_faster_boot_sequence}}
 
-== Usage ==
-Additional Commander-tested examples, ship builds, and edge cases are welcome here.
+== Sources ==
 
-== Related ==
-{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Frame Shift Drive]] [[Experimental Effects]]}}
+<references />
+
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Frame Shift Drive]] [[Increased Range]] [[Experimental Effects]] [[Remote Engineering]]}}
 
 {{Engineering nav}}
 

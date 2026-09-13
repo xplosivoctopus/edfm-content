@@ -3,34 +3,87 @@ EDFM current-content archive export.
 Title: Seismic Charge Launcher
 Namespace: 0
 Page ID: 591
-Revision ID: 2197
-Timestamp: 2026-08-24T23:45:08Z
+Revision ID: 4006
+Timestamp: 2026-09-12T20:27:22Z
 Source URL: https://edfieldmanual.com/wiki/Seismic_Charge_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-__NOINDEX__
-{{Article header|deck=Seismic charge launchers place charges into asteroid fissures for core mining.}}
+{{Article header|deck=An adjustable-charge hardpoint that embeds seismic warheads in asteroid fissures for core mining.}}
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and fissure-strength details still need direct Live-game verification.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; the standard module and core-mining mechanic also apply to Legacy
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four mining documentation, in-game module data, and current community-maintained module references
+ |uncertainty=Frontier has not published a current universal mapping between every fissure strength, warhead strength, and yield-gauge contribution.
+}}
 
 {{Ship module infobox}}
 
-The '''Seismic Charge Launcher''' is the core-mining hardpoint used to place charges in asteroid fissures. Correct charge placement cracks a core asteroid and exposes deposits for collection.
+The '''Seismic Charge Launcher''' is a Class 2 mining hardpoint that fires adjustable-strength warheads into fissures on a confirmed core-bearing asteroid. Several embedded warheads combine to split the asteroid and expose its internal deposits.<ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref>
 
-{{Draft warning}}
+The launcher is specific to [[Core Mining]]. It does not find core asteroids, confirm their contents, recover loose fragments, or remove the surface deposits exposed after detonation. Those roles belong to the [[Pulse Wave Analyser]], [[Prospector Limpet Controller]], [[Collector Limpet Controller]], and [[Abrasion Blaster]].
 
-== Mining role ==
+== Variants and specifications ==
 
-{{#invoke:Mining|equipmentNote|page=Seismic Charge Launcher}}
+The standard launcher is a B-rated Class 2 module available in fixed and turreted mounts. Both mounts have the same mass, integrity, power draw, charge time, and ammunition capacity; the turreted mount costs more.<ref name="seismic">[https://elite-dangerous.fandom.com/wiki/Seismic_Charge_Launcher Seismic Charge Launcher], Elite Dangerous Wiki.</ref>
 
-The launcher is only one part of [[Core Mining]]. A complete core-mining fit also needs search support, collection support, a refinery, cargo space, and usually an [[Abrasion Blaster]] to remove deposits after the detonation.
+{| class="wikitable" style="width:100%;"
+! Mount !! Mass !! Integrity !! Power draw !! Full charge time !! Clip !! Maximum ammunition
+|-
+| Fixed || 4.00 t || 51 || 1.20 MW || 2.0 seconds || 1 || 48
+|-
+| Turreted || 4.00 t || 51 || 1.20 MW || 2.0 seconds || 1 || 48
+|}
 
-== Related Field Procedures ==
+A turreted launcher functions as a full turret only when controlled by a Multicrew gunner. For a solo pilot it behaves as a forward-fired mining tool, so hardpoint placement and clear line of fire still matter.
 
-{{#invoke:Procedures|list|page=Seismic Charge Launcher}}
+== Target and firing behavior ==
 
-{{Related articles|[[Core Mining]] [[How to Core Mine]] [[Pulse Wave Analyser]] [[Abrasion Blaster]] [[Refinery]]}}
+Fissures become targetable after a prospector limpet confirms a core-bearing asteroid. The launcher must strike one of those fissures; a warhead that misses or hits ordinary rock does not contribute to the detonation.<ref name="seismic" />
+
+Holding the trigger increases the warhead through three charge levels shown beside the reticle. Releasing the trigger fires at the selected level. Warhead strength and the fissure's low, average, or high strength together determine how much the shot adds to the detonation-yield gauge. A strong charge in a weak fissure generally makes a larger contribution than the same charge in a strong fissure.<ref name="core-guide">[https://edmining.com/core-mining/ Elite Dangerous: Core Mining], ED Mining.</ref>
+
+There is no fixed charge sequence that is correct for every asteroid. The available fissures vary, and the live gauge must be checked after each successful placement. [[How to Core Mine]] covers the ordered tuning procedure.
+
+== Linked detonation ==
+
+The first embedded warhead starts a 120-second countdown. Later warheads synchronize with it, allowing their combined force to act in one detonation. Once the gauge reaches the blue '''Optimum Yield Range''', the charges can be detonated early through the Contacts panel after the ship has withdrawn.<ref name="seismic" />
+
+An attached warhead can also be disarmed through the Contacts panel. Disarming takes time and leaves that fissure unusable, but it allows an excessive combined charge to be corrected before detonation.<ref name="core-guide" />
+
+A successful split creates a damaging blast and temporarily disrupts nearby sensors. Withdraw to more than 2 km before detonation rather than remaining beside the asteroid.<ref name="seismic" />
+
+== Failure states ==
+
+* '''The warhead does not attach:''' confirm that a prospector is attached, select a revealed fissure, and strike the fissure rather than the surrounding surface.
+* '''The gauge remains below optimum:''' another correctly placed warhead is required before the timer expires.
+* '''The gauge enters the red range:''' disarm a charge if time and unused fissures remain. Detonating an overcharged core reduces the recoverable result.
+* '''The asteroid does not split:''' the combined charge was insufficient, or the fired warheads did not all embed in valid fissures.
+* '''The launcher will not fire:''' check the active fire group, Analysis Mode, ammunition, module power, and whether the single-round clip is reloading.
+
+== Selection and fitting ==
+
+One launcher is normally sufficient because a core is tuned through successive shots rather than simultaneous launcher fire. Carrying a second launcher consumes another medium hardpoint without expanding the fissure set or removing the need to read the yield gauge.
+
+The module's finite ammunition makes missed fissures and unnecessary charges costly during a long mining session. A practical core-mining fit also needs prospecting, collection, refinery capacity, cargo space, and an abrasion blaster for the deposits exposed after the split.
+
+== Engineering ==
+
+The Seismic Charge Launcher does not accept ordinary Engineer blueprints.
+
+== Field Procedure ==
+
+[[How to Core Mine]] covers candidate identification, prospecting, fissure selection, charge tuning, safe withdrawal, detonation, and recovery. [[Core Mining]] explains the complete mining method and its relationship to other extraction types.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Core Mining]] [[How to Core Mine]] [[Pulse Wave Analyser]] [[Prospector Limpet Controller]] [[Abrasion Blaster]] [[Collector Limpet Controller]] [[Refinery]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
 [[Category:Mining]]

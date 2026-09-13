@@ -3,44 +3,69 @@ EDFM current-content archive export.
 Title: Mining Hotspot
 Namespace: 0
 Page ID: 726
-Revision ID: 1969
-Timestamp: 2026-08-24T21:22:44Z
+Revision ID: 3965
+Timestamp: 2026-09-12T12:22:28Z
 Source URL: https://edfieldmanual.com/wiki/Mining_Hotspot
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Mining location draft grounded in EDFM Mining data modules and current ring-scanning workflow|uncertainty=Hotspot strength, overlap value, and commodity-specific recommendations still need direct Live-game verification.}}
-__NOINDEX__
-{{Article header|deck=Mining hotspots are mapped ring areas that help commanders target specific mined commodities.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Current EDFM mining architecture and established community documentation and testing
+ |uncertainty=Frontier has not published exact hotspot strength, depletion, or overlap formulas; method-specific effects rely partly on community testing.
+}}
 
-A '''mining hotspot''' is an area in a [[Planetary Rings|planetary ring]] associated with a named mined commodity. Hotspots are revealed by mapping a ring with a [[Detailed Surface Scanner]] and are used to guide mining runs toward better candidate areas.
+{{Article header|deck=A mapped region within a planetary ring that concentrates or identifies a named mining commodity.}}
 
-{{Draft warning}}
+{{Callout|type=tip|label=Quick answer|1=A '''mining hotspot''' helps target a named commodity, but it does not guarantee that every asteroid contains it or make every extraction method valid. Check the ring type, carry equipment for the intended method, and prospect individual asteroids after entering the hotspot.<ref name="hotspot">[https://elite-dangerous.fandom.com/wiki/Hotspot Hotspot], Elite Dangerous Wiki.</ref>}}
 
-== Mining role ==
+A '''mining hotspot''' is a persistent region within [[Planetary Rings|planetary rings]] associated with a named mined commodity. Mapping a ring with a [[Detailed Surface Scanner]] reveals its hotspot regions and their commodity labels.<ref name="hotspot" /><ref name="dss">[https://elite-dangerous.fandom.com/wiki/Detailed_Surface_Scanner Detailed Surface Scanner], Elite Dangerous Wiki.</ref>
 
-Hotspots are a search aid, not a guarantee. A commander still has to enter the ring, prospect asteroids, extract with the chosen method, collect fragments or deposits, refine them into cargo, and check the current market before selling.
+Hotspots narrow a search; they do not replace the extraction method, a [[Prospector Limpet Controller|prospector limpet]], or the commodity distribution of the ring itself.
 
-Hotspots matter most when the run has a target commodity. They are less useful for a commander who is simply learning the mining loop or collecting whatever valuable materials appear.
+== Detection ==
 
-== Finding hotspots ==
+A Detailed Surface Scanner probe fired into a ring reveals the ring's hotspot markers. Complex ring systems may have separate ring divisions, so make sure the probe strikes the division that will be mined.<ref name="dss" /> The complete scanning procedure is covered by [[How to Scan Planetary Rings for Mining Hotspots]].
 
-# Fit a [[Detailed Surface Scanner]].
-# Travel to a system with ringed bodies.
-# Use the scanner to map the ringed body or ring region.
-# Select a hotspot marker that matches the intended commodity.
-# Drop into the ring safely and begin prospecting inside or near the hotspot.
+The hotspot marker names the target commodity and shows the region's centre and extent. Entering closer to the centre is a targeting choice rather than a guarantee that the first asteroid will contain the named resource.
 
-== Related methods ==
+== Effect by mining method ==
 
-* [[Laser Mining]] — benefits from hotspots when searching for a target commodity.
-* [[Core Mining]] — may use hotspots for target selection but still depends on finding valid core asteroids.
-* [[Sub-surface Mining]] — requires asteroids with sub-surface deposits even inside a hotspot.
-* [[Surface Deposit Mining]] — depends on visible deposits, often after core mining.
+=== Laser mining ===
 
-== Related Field Procedures ==
+For [[Laser Mining|laser mining]], current community testing treats a matching hotspot as the main way to improve the concentration of the target mineral. The system's reserve level also affects laser-mining yield, and the ring must support the commodity as a laser-mined resource.<ref name="edmining">[https://edmining.com/where-to-mine-in-elite-dangerous/ Where to Mine in Elite Dangerous], ED Mining.</ref>
 
-{{#invoke:Procedures|list|page=Mining Hotspot}}
+A commodity label alone is therefore insufficient. For example, a Painite hotspot in a Metal Rich ring does not provide the same laser-mining route as a Painite hotspot in a Metallic ring; [[Painite]] documents the currently supported combinations.
 
-{{Related articles|[[Mining]] [[Planetary Rings]] [[Detailed Surface Scanner]] [[How to Scan Planetary Rings for Mining Hotspots]] [[How to Find a Mining Hotspot]]}}
+=== Core mining ===
+
+For [[Core Mining|core mining]], community testing indicates that hotspots increase the chance that a core contains the named commodity rather than increasing the total number of core asteroids. Core frequency is not treated as dependent on the system reserve level.<ref name="edmining" /> A commander must still locate core candidates and confirm the core resource with a prospector limpet.
+
+=== Other asteroid methods ===
+
+A hotspot does not guarantee that an asteroid has [[Sub-surface Mining|sub-surface deposits]] or [[Surface Deposit Mining|surface deposits]]. Those features must still be located and confirmed on individual asteroids. The commodity's reference article should be checked before assuming that the target can be extracted by either method.
+
+== Overlap and depletion ==
+
+Older routes often emphasise overlapping hotspot regions. Current community testing does not treat an overlap as automatically better than a suitable single hotspot for laser mining.<ref name="edmining" /> Exact hotspot strength and overlap formulas have not been published by Frontier, so route claims should be judged by current testing rather than the number of overlapping circles alone.
+
+Mining can also leave individual asteroids or cores temporarily depleted. A busy hotspot may therefore produce a worse practical run than its label suggests, particularly for core mining where previously cracked asteroids remain unavailable until they replenish.<ref name="hotspot" /><ref name="edmining" />
+
+== Planetary surface mining ==
+
+Ring hotspots are not [[Surface Mining|Planetary Mining Locations]]. Planetary deposits are found from orbit with the Detailed Surface Scanner and worked on the ground with a [[Rhino]]; they use separate signals, equipment, and commodity distribution.
+
+== Field Procedure ==
+
+[[How to Scan Planetary Rings for Mining Hotspots]] explains how to probe the correct ring division, reveal its hotspots, and select a target marker.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Mining Commodities]] [[Planetary Rings]] [[Detailed Surface Scanner]] [[How to Scan Planetary Rings for Mining Hotspots]]}}
 [[Category:Mining]]

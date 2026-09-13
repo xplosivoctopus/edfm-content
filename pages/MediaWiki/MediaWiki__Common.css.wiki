@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.css
 Namespace: 8
 Page ID: 69
-Revision ID: 3495
-Timestamp: 2026-09-08T04:43:56Z
+Revision ID: 3973
+Timestamp: 2026-09-12T14:11:50Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -7379,5 +7379,151 @@ body.page-Main_Page table.edfm-home-section-link {
 		background-image: none !important;
 		font-size: 0.98rem !important;
 		text-indent: 0 !important;
+	}
+}
+
+/* ===========================================================================
+   27. PHONE JUMP NAVIGATION: SINGLE-COLUMN HIERARCHY
+
+   The desktop/tablet Jump To block keeps its existing multi-column tile
+   layout. Phones use one source-order column so a parent section and its
+   subsections remain visually associated and long labels can wrap naturally.
+   The !important column override is intentional: the desktop
+   `.toc > ul:has( > li:nth-child( 5 ) )` selector has greater specificity
+   than the earlier plain mobile `.toc > ul` rule and otherwise keeps three
+   columns active on narrow screens.
+   =========================================================================== */
+@media ( max-width: 700px ) {
+	body.mediawiki .mw-parser-output #toc.toc {
+		max-width: 100%;
+		margin: 1.35rem 0;
+		overflow: visible;
+	}
+
+	body.mediawiki .mw-parser-output #toc.toc .toctitle {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+		min-height: 44px;
+		margin-bottom: 0.55rem;
+		text-align: left;
+	}
+	body.mediawiki .mw-parser-output #toc.toc .toctitle::before {
+		flex: 1 1 auto;
+	}
+	body.mediawiki .mw-parser-output #toc.toc .toctogglespan {
+		flex: 0 0 auto;
+		margin-left: auto;
+	}
+	body.mediawiki .mw-parser-output #toc.toc .toctogglelabel {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 44px;
+		box-sizing: border-box;
+		padding: 0 0.65rem;
+		font-size: 0.85rem;
+		white-space: nowrap;
+		cursor: pointer;
+	}
+
+	body.mediawiki .mw-parser-output #toc.toc > ul {
+		column-count: 1 !important;
+		column-gap: 0 !important;
+		width: 100%;
+		max-width: 100%;
+		box-sizing: border-box;
+		margin: 0 !important;
+		padding: 0;
+	}
+	body.mediawiki .mw-parser-output #toc.toc > ul > li {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		box-sizing: border-box;
+		break-inside: avoid;
+		margin: 0 0 0.5rem;
+	}
+	body.mediawiki .mw-parser-output #toc.toc > ul > li > a {
+		display: grid !important;
+		grid-template-columns: max-content minmax( 0, 1fr );
+		align-items: start;
+		gap: 0.7rem;
+		width: 100%;
+		max-width: 100%;
+		min-height: 48px;
+		box-sizing: border-box;
+		padding: 0.72rem 0.9rem 0.72rem 0.85rem !important;
+		background-color: var( --edfm-surface-3 ) !important;
+		background-image: none !important;
+		border: 0 !important;
+		border-left: 4px solid var( --edfm-orange ) !important;
+		box-shadow: inset 1px 0 0 rgba( 255, 162, 26, 0.35 );
+	}
+	body.mediawiki .mw-parser-output #toc.toc > ul > li > a:hover,
+	body.mediawiki .mw-parser-output #toc.toc > ul > li > a:focus-visible {
+		background-color: var( --edfm-surface-4 ) !important;
+		border-left-color: var( --edfm-cyan ) !important;
+		box-shadow: inset 1px 0 0 rgba( 66, 199, 217, 0.45 );
+	}
+
+	body.mediawiki .mw-parser-output #toc.toc .tocnumber {
+		min-width: max-content;
+		font-size: 1rem;
+		line-height: 1.35;
+		white-space: nowrap;
+	}
+	body.mediawiki .mw-parser-output #toc.toc .toctext {
+		min-width: 0;
+		font-size: 0.95rem;
+		line-height: 1.35;
+		overflow-wrap: anywhere;
+		word-break: normal;
+	}
+
+	body.mediawiki .mw-parser-output #toc.toc ul ul {
+		display: block;
+		width: calc( 100% - 1rem );
+		max-width: calc( 100% - 1rem );
+		box-sizing: border-box;
+		margin: 0.2rem 0 0.2rem 1rem !important;
+		padding: 0 0 0 0.55rem !important;
+		border-left: 2px solid rgba( 255, 138, 0, 0.42 );
+	}
+	body.mediawiki .mw-parser-output #toc.toc ul ul > li {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		box-sizing: border-box;
+		margin: 0;
+	}
+	body.mediawiki .mw-parser-output #toc.toc ul ul a {
+		display: grid !important;
+		grid-template-columns: minmax( 2.5rem, max-content ) minmax( 0, 1fr );
+		align-items: start;
+		gap: 0.55rem;
+		width: 100%;
+		max-width: 100%;
+		min-height: 44px;
+		box-sizing: border-box;
+		padding: 0.55rem 0.65rem !important;
+		background: transparent !important;
+		border: 0 !important;
+		box-shadow: none !important;
+		transform: none !important;
+	}
+	body.mediawiki .mw-parser-output #toc.toc ul ul a:hover,
+	body.mediawiki .mw-parser-output #toc.toc ul ul a:focus-visible {
+		background: rgba( 66, 199, 217, 0.08 ) !important;
+		color: var( --edfm-text );
+	}
+	body.mediawiki .mw-parser-output #toc.toc ul ul .tocnumber,
+	body.mediawiki .mw-parser-output #toc.toc ul ul .toctext {
+		font-size: 0.9rem;
+	}
+
+	body.mediawiki .mw-parser-output #toc.toc .toctogglecheckbox:checked ~ ul {
+		display: none !important;
 	}
 }

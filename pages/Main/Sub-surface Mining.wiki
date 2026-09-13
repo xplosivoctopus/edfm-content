@@ -3,53 +3,80 @@ EDFM current-content archive export.
 Title: Sub-surface Mining
 Namespace: 0
 Page ID: 724
-Revision ID: 2030
-Timestamp: 2026-08-24T21:24:08Z
+Revision ID: 3996
+Timestamp: 2026-09-12T19:56:27Z
 Source URL: https://edfieldmanual.com/wiki/Sub-surface_Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Research-backed draft using current mining loop and EDCD mining equipment data|uncertainty=Deposit availability and commodity-specific recommendations still need direct Live-game verification.}}
-__NOINDEX__
-{{Article header|deck=Sub-surface mining uses displacement missiles to extract deposits inside an asteroid.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four mining documentation, current module documentation, and established community mining references
+ |uncertainty=Frontier has not published current commodity-specific yields, deposit-integrity ranges, or the formula relating extraction-zone size to fragment output.
+}}
 
-'''Sub-surface mining''' uses a [[Sub-surface Displacement Missile]] against a deposit inside an asteroid. A prospector scan identifies the deposit, then the missile is fired and released during the extraction window to break material loose for collection.
+{{Article header|deck=Sub-surface mining drills targetable deposits inside asteroids and ejects their contents for collection.}}
 
-{{Draft warning}}
+'''Sub-surface mining''' is an asteroid-mining method that uses a [[Sub-surface Displacement Missile]] on a named deposit beneath an asteroid's surface. The missile attaches to the deposit, drills through changing rock density while the trigger is held, and detonates when the trigger is released. Correct timing ejects recoverable fragments for collection and refining.<ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref>
 
-== When to use sub-surface mining ==
+The ordered target approach, missile timing, collection, and troubleshooting workflow belongs to [[How to Sub-surface Mine]].
 
-Sub-surface mining sits between laser mining and core mining in complexity. The commander still prospects asteroids and collects refined cargo, but extraction depends on a short timing interaction rather than a continuous laser beam or a seismic detonation.
+== Sub-surface deposits ==
 
-This method is useful when the target asteroid has sub-surface deposits worth extracting. It is not a replacement for prospecting: firing displacement missiles without a confirmed deposit wastes ammunition and time.
+A sub-surface deposit is a discrete, targetable feature embedded in an asteroid. A prospector limpet identifies the asteroid's contents and reveals its deposits. The extraction missile works only when fired into a valid sub-surface deposit; it does not drill arbitrary points on the rock.<ref name="missile">[https://elite-dangerous.fandom.com/wiki/Sub-surface_Displacement_Missile Sub-surface Displacement Missile], Elite Dangerous Wiki.</ref>
 
-== Equipment ==
+Each deposit has limited integrity and a finite number of extraction opportunities. A successful timed detonation ejects fragments, while missed timing or failed attempts reduce the opportunities remaining. The deposit disappears when its integrity is exhausted.<ref name="missile" />
 
-A sub-surface mining ship needs:
+Community-maintained module documentation reports that smaller extraction zones demand more precise timing but can release more material than broad zones. Exact output varies, and Frontier has not published the current formula.<ref name="missile" />
 
-* [[Sub-surface Displacement Missile]] — extracts the internal deposit.
-* [[Prospector Limpet Controller]] — identifies deposits and contents.
-* [[Collector Limpet Controller]] — retrieves the released chunks.
-* [[Refinery]], cargo space, and limpets.
-* [[Detailed Surface Scanner]] — useful when the run is aimed at a mapped hotspot.
+== Drilling display ==
 
-== Workflow summary ==
+After a missile strikes the targeted deposit, the cockpit opens a drilling display. A drill indicator advances through a background density profile while blue extraction zones move across the interface. The trigger remains held during drilling and is released when the drill indicator aligns with a blue zone.<ref name="frontier-recap" />
 
-# Prospect the asteroid and select a sub-surface deposit.
-# Fire and hold the displacement missile while tracking the deposit indicator.
-# Release during the highlighted extraction band.
-# Keep collector limpets active to retrieve the released chunks.
-# Manage refinery bins so mixed fragments do not stall collection.
+The drill does not move at a constant speed. Denser rock slows its progress and less-dense rock lets it accelerate, so the release is timed from the indicator's current motion rather than a memorized delay.<ref name="mechanics">[https://edmining.com/elite-dangerous-mining-mechanics/ Elite Dangerous Mining Mechanics], ED Mining.</ref>
 
-== Practical notes ==
+A release outside a blue zone does not produce the intended fragment and still consumes part of the deposit's limited integrity. This makes relative ship movement and hardpoint placement important: the missile must first hit a small target on a rotating asteroid before the timing stage begins.
 
-* Sub-surface deposits are target-specific; do not expect every asteroid in a hotspot to contain one.
-* Practice the release timing on low-risk targets before treating it as a profit run.
-* Collectors and refinery bins are still the bottleneck once chunks have been released.
+== Locations and commodity selection ==
 
-== Related Field Procedures ==
+Ring type determines which commodities can occur in sub-surface deposits. A [[Mining Hotspot|mining hotspot]] can improve sub-surface output and the search for its named commodity, but the ring's commodity distribution still applies and every candidate asteroid must be prospected.
 
-{{#invoke:Procedures|list|page=Sub-surface Mining}}
+[[Mining Commodities]] compares known ring environments and extraction methods. The named commodity's own article should be checked when planning a specific run.
 
-{{Related articles|[[Mining]] [[Sub-surface Displacement Missile]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[How to Sub-surface Mine]]}}
+A [[Pulse Wave Analyser]] helps locate asteroids with anomalous deposits. Its highlight indicates a candidate, not confirmation of a wanted sub-surface deposit; the prospector result owns that decision.
+
+== Equipment relationships ==
+
+* '''[[Sub-surface Displacement Missile]]:''' attaches to the deposit, drills while the trigger is held, and detonates when released.
+* '''[[Prospector Limpet Controller]]:''' reports asteroid composition and exposes deposit targets.
+* '''[[Collector Limpet Controller]]:''' recovers ejected fragments.
+* '''[[Refinery]] and cargo space:''' process collected fragments and store completed commodities.
+* '''[[Pulse Wave Analyser]]:''' searches for anomalous candidate asteroids.
+* '''[[Detailed Surface Scanner]]:''' reveals hotspots before the asteroid search begins.
+
+The displacement missile operates in Analysis Mode and uses finite ammunition. Class, mount, ammunition, power, and compatibility details belong to the module article.
+
+== Method boundaries ==
+
+Sub-surface mining targets embedded deposits individually. It does not replace:
+
+* [[Laser Mining|laser mining]], which cuts ordinary asteroid fragments;
+* [[Surface Deposit Mining|surface deposit mining]], which removes exposed deposits with an abrasion blaster; or
+* [[Core Mining|core mining]], which splits fissured asteroids with seismic charges.
+
+An asteroid may support more than one extraction method. Its ordinary composition and other deposits remain separate targets requiring their own tools.
+
+== Field Procedure ==
+
+[[How to Sub-surface Mine]] covers equipment preparation, candidate selection, ship alignment, missile attachment, density-aware release timing, collection, refinery management, completion checks, and troubleshooting.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Mining Commodities]] [[Mining Hotspot]] [[Sub-surface Displacement Missile]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[How to Sub-surface Mine]]}}
 [[Category:Mining]]

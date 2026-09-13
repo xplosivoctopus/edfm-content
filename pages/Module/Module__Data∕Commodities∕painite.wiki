@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Commodities/painite
 Namespace: 828
 Page ID: 809
-Revision ID: 3391
-Timestamp: 2026-09-07T14:32:17Z
+Revision ID: 3958
+Timestamp: 2026-09-12T12:05:18Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Commodities/painite
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -260,7 +260,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 					"painite",
 					"miner"
 				],
-				"notes": "The consulted community article and matrix conflict about Painite in Metallic cores; review is required before treating this as either supported or impossible."
+				"notes": "Current community sources conflict over Painite in Metallic cores, so this route remains unconfirmed rather than being presented as available or impossible."
 			},
 			"environments": [
 				{
@@ -311,7 +311,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 					"miner"
 				]
 			},
-			"notes": "This row records an unresolved evidence conflict; it is not a positive route and not a negative claim."
+			"notes": "The conflicting evidence neither confirms nor rules out this route."
 		}
 	],
 	"npc_market": {
@@ -346,7 +346,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 		}
 	],
 	"review": {
-		"date": "2026-09-07",
+		"date": "2026-09-12",
 		"status": "partial",
 		"notes": [
 			"The Metallic-core conflict is preserved as an explicit unknown route rather than being flattened into true or false.",

@@ -3,15 +3,122 @@ EDFM current-content archive export.
 Title: Colonia
 Namespace: 0
 Page ID: 666
-Revision ID: 1559
-Timestamp: 2026-08-23T18:07:31Z
+Revision ID: 4012
+Timestamp: 2026-09-12T20:48:15Z
 Source URL: https://edfieldmanual.com/wiki/Colonia
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|A location and gameplay hub for Colonia, covering its role in Engineering, travel planning, regional services, and related Commander activities.}}
+{{Article header|deck=A remote independent system and the centre of humanity's largest settlement outside the core systems.}}
 
-'''Colonia''' is a distant inhabited region that appears throughout Engineering and exploration planning. This planned article will summarize its significance, key services, Engineer access, and links to regional guides.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; the system and established regional infrastructure also exist in Legacy
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Current Frontier and GalNet coverage supported by current EDSM and INARA system records
+ |uncertainty=Population, faction influence, station inventories, carrier traffic, and local states change with the live galaxy.
+}}
 
+'''Colonia''' is an independent inhabited system approximately 22,000 light-years from Sol, in the Inner Scutum-Centaurus Arm near the Colonia Nebula. It is the historic and practical centre of the wider '''Colonia Region''', the largest permanent human enclave outside the core systems.<ref name="view">[https://elitedangerous.com/en-US/news/galnet/view-colonia The View from Colonia], GalNet, 29 October 3307.</ref>
+
+The name can refer to three related places: the Colonia star system, the nearby nebula, or the cluster of inhabited systems that makes up the Colonia Region. This article uses '''Colonia''' for the system and '''the Colonia Region''' for the wider settlement.
+
+== System profile ==
+
+{| class="wikitable" style="width:100%;"
+! Attribute !! Current reference value
+|-
+| Allegiance || Independent
+|-
+| Government || Cooperative
+|-
+| Primary economies || Tourism and High Tech
+|-
+| Security || Low
+|-
+| Permit || None required
+|-
+| Main star || Class F, scoopable
+|-
+| Distance from Sol || 22,000.47 ly
+|-
+| Galactic coordinates || −9530.5 / −910.28 / 19808.1
+|}
+
+The economy, government, and infrastructure make Colonia a functioning destination rather than only a distant waypoint. Faction states, influence, traffic, and population are dynamic and should be checked against current navigation data before they are used for mission or market planning.<ref name="edsm">[https://www.edsm.net/en/system/id/3384966/name/Colonia Colonia – System Summary], EDSM.</ref><ref name="inara">[https://inara.cz/elite/starsystem/77690/ Colonia – Star System], INARA.</ref>
+
+== History ==
+
+Colonia developed from the accidental arrival of Jaques Station in the system then designated '''Eol Prou RS-T d3-94'''. The mobile Orbis starport attempted a jump toward Beagle Point on 19 May 3302 but emerged about 22,000 light-years from Sol after its drive was disrupted. Independent commanders later found the damaged station and delivered the supplies needed to restore it.<ref name="anniversary">[https://community.elitedangerous.com/galnet/19-MAY-3312 Jaques Station Celebrates Tenth Anniversary of Historic Jump], GalNet, 19 May 3312.</ref>
+
+The rescue effort led to permanent settlement. Colonia Hub opened on the surface of the second planet's moon, and the surrounding enclave expanded through successive colonisation initiatives. Universal Cartographics adopted '''Colonia''' as the system's name in October 3302.<ref name="colonia-wiki">[https://elite-dangerous.fandom.com/wiki/Colonia Colonia], Elite Dangerous Wiki.</ref>
+
+By 3312, Jaques Station and the regional authorities were marking ten years of continuous settlement. GalNet continued to describe Colonia as a thriving remote community rather than an abandoned expedition site.<ref name="anniversary" />
+
+== Major ports and services ==
+
+The Colonia system's principal permanent ports are:
+
+{| class="wikitable" style="width:100%;"
+! Port !! Type !! Significance
+|-
+| Jaques Station || Orbis starport || Historic arrival point and the system's principal full-service starport
+|-
+| Colonia Hub || Surface port || First permanent surface settlement and a centre of Colonia Council activity
+|-
+| Colonia Orbital || Outpost || Orbital trade and docking facility near Colonia 2 a
+|-
+| Holloway Biology Centre || Surface port || Scientific centre associated with the Holloway Bioscience Institute
+|}
+
+Jaques Station was designated a megamarket during Colonia's tenth-anniversary celebrations, with expanded outfitting and service availability.<ref name="megamarket">[https://community.elitedangerous.com/galnet/20-AUG-3312 Colonia Celebrations Conclude with Megamarket Opening], GalNet, 20 August 3312.</ref> Exact ships, modules, commodities, and missions remain live inventory and should be checked in the current station interface.
+
+The wider region provides shipyards, outfitting, commodity markets, Universal Cartographics, concourse services, and fleet-carrier support across multiple systems. Not every facility provides every service, so Colonia should be treated as a regional network rather than a single all-purpose station.
+
+== Engineering ==
+
+Eight Engineers operate in the Colonia Region.<ref name="engineers3312">[https://elitedangerous.com/en-US/news/galnet/colonia-calls-for-assistance-as-celebrations-get-underway Colonia Calls for Assistance as Celebrations Get Underway], GalNet, 16 July 3312.</ref>
+
+=== Ship Engineers ===
+
+* [[Mel Brandon]] — The Brig, Luchtaine
+* [[Marsha Hicks]] — The Watchtower, Tir
+* [[Petra Olmanova]] — Sanctuary, Asura
+* [[Etienne Dorn]] — Kraken's Retreat, Los
+
+=== Suit and weapon Engineers ===
+
+* [[Baltanos]] — The Divine Apparatus, Deriso
+* [[Eleanor Bresa]] — Bresa Modifications, Desy
+* [[Rosa Dayette]] — Rosa's Shop, Kojeara
+* [[Yi Shen]] — Eidolon Hold, Einheriar
+
+These workshops are distributed around the region and have their own discovery, meeting, and unlock requirements. The individual Engineer pages own those requirements and services; [[Engineers]] and [[Odyssey Engineering]] provide the relevant system-level references.
+
+== Regional characteristics ==
+
+Colonia is separated from the densely inhabited core systems by a large expanse of uninhabited space. Its remoteness shapes the region:
+
+* local economies and ports support permanent residents as well as explorers and travellers;
+* independent factions are prominent, without a single core-system superpower defining the enclave;
+* the Colonia Nebula and nearby galactic-centre routes make the region an exploration staging point;
+* scientific organisations study local stellar and vacuum-life phenomena; and
+* the region has its own ship and on-foot Engineering network.
+
+The Colonia Bridge and earlier connection-highway projects established dockable ports along the long route from the core systems. The Bridge project concluded in 3308 with six new starports and a broad set of travel services in addition to the route's megaships.<ref name="bridge">[https://elitedangerous.com/news/galnet/colonia-bridge-reaches-completion Colonia Bridge Reaches Completion], GalNet, 10 March 3308.</ref> These reduce the distance between repair and resupply points, but they do not remove the need for a capable long-range ship or route planning.
+
+== Scope boundaries ==
+
+Colonia's system profile, settlement history, principal services, and role within the region belong here. Detailed neutron routing, expedition preparation, Engineer unlock walkthroughs, market loops, exploration surveys, and activity guides are separate subjects.
+
+Current commodity prices, faction states, mission availability, carrier positions, and outfitting stock are transient. Use live galaxy data for those decisions rather than treating a static location article as a real-time service report.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Engineers]] [[Odyssey Engineering]] [[Mel Brandon]] [[Marsha Hicks]] [[Petra Olmanova]] [[Etienne Dorn]] [[Baltanos]] [[Eleanor Bresa]] [[Rosa Dayette]] [[Yi Shen]]}}
 [[Category:Locations]]
 [[Category:Exploration]]

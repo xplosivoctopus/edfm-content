@@ -3,57 +3,80 @@ EDFM current-content archive export.
 Title: Laser Mining
 Namespace: 0
 Page ID: 722
-Revision ID: 1954
-Timestamp: 2026-08-24T21:22:24Z
+Revision ID: 3978
+Timestamp: 2026-09-12T14:37:14Z
 Source URL: https://edfieldmanual.com/wiki/Laser_Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Research-backed draft using current mining loop and EDCD mining equipment data|uncertainty=Yield balance, hotspot performance, and sell-price advice still need direct Live-game verification.}}
-__NOINDEX__
-{{Article header|deck=Laser mining uses mining lasers, collectors, and a refinery to turn asteroid fragments into cargo.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier mining documentation, current module documentation, and established community mining references
+ |uncertainty=Frontier has not published current fragment-generation formulae, hotspot weighting, or a complete comparison of standard mining lasers and the Mining Volley Repeater.
+}}
 
-'''Laser mining''' is the most direct mining method: a ship fires [[Mining Laser|mining lasers]] at a suitable asteroid, uses [[Collector Limpet Controller|collector limpets]] to retrieve fragments, and relies on a [[Refinery]] to convert those fragments into cargo.
+{{Article header|deck=Laser mining cuts ordinary fragments from asteroids for collection and refining.}}
 
-{{Draft warning}}
+'''Laser mining''' is the asteroid-mining method that applies a [[Mining Laser|mining laser]] or compatible laser-mining tool to an asteroid's ordinary mineral composition. The tool cuts loose fragments, collectors recover them, and a [[Refinery]] converts their contents into commodity cargo.<ref name="mining-laser">[https://elite-dangerous.fandom.com/wiki/Mining_Laser Mining Laser], Elite Dangerous Wiki.</ref>
 
-== When to use laser mining ==
+The ordered flight, prospecting, positioning, collection, and refinery workflow belongs to [[How to Laser Mine]].
 
-Laser mining is the simplest method to learn because the extraction tool, collection loop, and refinery loop are all visible and repeatable. It is a good first mining style when the commander wants to understand limpets, refinery bins, cargo planning, and asteroid prospecting before adding core or sub-surface timing mechanics.
+== Mechanics ==
 
-Laser mining is not automatically the most profitable choice. Commodity prices, demand, hotspot quality, and ship fit all matter, so this page avoids permanent sell-station recommendations.
+A mineable asteroid has a composition and a finite quantity of ordinary fragments. Firing a mining laser at the rock releases those fragments until its resources are depleted. The prospector display reports composition and remaining resources, allowing a commander to decide whether to continue before spending collection time.<ref name="prospector">[https://elite-dangerous.fandom.com/wiki/Prospector_Limpet_Controller Prospector Limpet Controller], Elite Dangerous Wiki.</ref>
 
-== Equipment ==
+A prospector limpet also increases the number of fragments available from laser mining. Its letter rating controls the multiplier, with A-rated prospectors providing the strongest standard effect. The bonus is not retroactive, so prospecting before extraction preserves the available yield.<ref name="prospector" />
 
-For a basic laser-mining fit, focus on:
+Multiple mining lasers can shorten the time needed to deplete an asteroid, but only while the ship's power distributor can sustain their combined WEP draw and thermal load. Collector capacity and refinery flow must also keep pace or faster extraction only creates a backlog around the ship.<ref name="laser-guide">[https://edmining.com/laser-mining/ Elite Dangerous: Laser Mining], ED Mining.</ref>
 
-* [[Mining Laser]] — breaks ordinary asteroid fragments loose.
-* [[Prospector Limpet Controller]] — reveals asteroid contents before time is spent mining.
-* [[Collector Limpet Controller]] — retrieves fragments efficiently.
-* [[Refinery]] — converts fragments into cargo.
-* [[Cargo Rack|Cargo racks]] and limpets — provide both ammunition and space for the refined result.
-* [[Detailed Surface Scanner]] — useful when choosing or confirming a mapped hotspot.
+== Laser-mining tools ==
 
-{{#invoke:Mining|equipmentTable}}
+The standard Mining Laser is the general-purpose module for this method. Its class, mount, range, power draw, thermal load, and available variants belong to the module article rather than this activity reference.
 
-== Workflow summary ==
+The Type-11 Prospector's large '''Mining Volley Repeater''' also performs laser mining. Frontier describes it as producing more fragments than other laser-mining tools and having a chance to eject a higher-density fragment. Its 2025 update notes called the module the '''Mk II Mining Repeater'''.<ref name="type11">[https://www.elitedangerous.com/news/type-11-prospector-highlights Type-11 Prospector Highlights], Frontier Developments, 5 September 2025.</ref><ref name="type11-update">[https://www.elitedangerous.com/news/updates/4-2-1-0 Elite Dangerous: Type-11 Prospector Update], Frontier Developments.</ref>
 
-# Map or travel to a suitable ring or hotspot.
-# Launch a [[Prospector Limpet Controller|prospector limpet]] at candidate asteroids before spending time on them.
-# Mine useful asteroids with mining lasers while keeping collector limpets active.
-# Watch refinery bins and cargo capacity so fragments do not block the process.
-# Before selling, check current market demand and prices rather than relying on old route advice.
+Higher-density fragments still enter the normal collector and refinery loop; the repeater does not replace either support system.
 
-== Practical notes ==
+== Locations and commodity selection ==
 
-* Launch collectors without targeting a single fragment unless a one-use pickup is intended.
-* Keep some distance from the asteroid surface; limpets die quickly when they repeatedly collide with rock.
-* A full cargo hold or blocked refinery can stop useful collection even while fragments are still floating nearby.
-* Hotspots improve targeting, but every asteroid still needs to be prospected.
+Ring type determines which laser-mineable commodities can occur. A [[Mining Hotspot|mining hotspot]] can weight the search toward its named commodity, but the label is not a guarantee that every asteroid contains it. Each candidate still needs to be prospected.
 
-== Related Field Procedures ==
+System reserve level, the selected ring, hotspot conditions, asteroid composition, prospector rating, and extraction tool all affect the result of a run. Permanent earnings figures and sell-station recommendations are therefore not intrinsic properties of laser mining.
 
-{{#invoke:Procedures|list|page=Laser Mining}}
+[[Mining Commodities]] compares known ring environments and supported extraction methods. [[How to Scan Planetary Rings for Mining Hotspots]] covers revealing hotspot locations with a Detailed Surface Scanner.
 
-{{Related articles|[[Mining]] [[Mining Laser]] [[Refinery]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[How to Laser Mine]]}}
+== Equipment relationships ==
+
+* '''[[Mining Laser]] or compatible laser-mining tool:''' releases ordinary asteroid fragments.
+* '''[[Prospector Limpet Controller]]:''' identifies composition and remaining resources and increases extractable fragment quantity.
+* '''[[Collector Limpet Controller]]:''' retrieves fragments without repeated manual scooping.
+* '''[[Refinery]]:''' separates fragment contents into bins and transfers completed tonnes to cargo.
+* '''Cargo space and limpets:''' support prospecting, collection, and storage.
+* '''[[Detailed Surface Scanner]]:''' reveals hotspots when the selected ring has been mapped.
+
+The [[Pulse Wave Analyser]] is primarily used to find anomalous deposits and core-bearing candidates. It is not required to identify ordinary laser-mineable composition; the prospector performs that check.
+
+== Method boundaries ==
+
+Mining lasers do not replace the extraction tools for named deposits:
+
+* [[Surface Deposit Mining|surface deposits]] require an abrasion blaster;
+* [[Sub-surface Mining|sub-surface deposits]] require a sub-surface displacement missile; and
+* [[Core Mining|cores]] require seismic charges placed in fissures.
+
+An asteroid may support ordinary laser mining alongside one or more deposit methods. Using another method does not make its deposits valid mining-laser targets.
+
+== Field Procedure ==
+
+[[How to Laser Mine]] covers ship preparation, commodity and ring selection, prospecting, power management, positioning, collection, refining, completion checks, and troubleshooting.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Mining Commodities]] [[Mining Hotspot]] [[Mining Laser]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]] [[How to Laser Mine]]}}
 [[Category:Mining]]

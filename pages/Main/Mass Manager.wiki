@@ -3,33 +3,55 @@ EDFM current-content archive export.
 Title: Mass Manager
 Namespace: 0
 Page ID: 789
-Revision ID: 2933
-Timestamp: 2026-09-02T14:14:29Z
+Revision ID: 4031
+Timestamp: 2026-09-13T02:04:36Z
 Source URL: https://edfieldmanual.com/wiki/Mass_Manager
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Mass Manager is an Experimental Effect for Frame Shift Drives that increases optimized mass while reducing FSD integrity.}}
-{{Article status|status=Partially verified|mode=Live|source_quality=Structured values are generated from EDFM Engineering data cross-checked against EDSY live data and INARA current listings.|notes=Practical-use sections are intentionally concise and can be expanded with field-tested examples.}}
+{{Article header|deck=An FSD Experimental Effect that increases optimized mass at the cost of module integrity.}}
 
-Mass Manager is an Experimental Effect for Frame Shift Drives that increases optimized mass while reducing FSD integrity.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewed=2026-09-13
+ |reviewer=Sythan
+ |source_quality=EDFM structured Engineering data cross-checked against current INARA, EDSY, and maintained community records
+ |uncertainty=The exact jump-range gain depends on FSD class and the complete ship build.
+}}
+
+'''Mass Manager''' is an [[Experimental Effects|Experimental Effect]] for [[Frame Shift Drive|Frame Shift Drives]]. It increases optimized mass by 4%, generally improving jump range, while reducing FSD integrity by 8%.<ref name="mass-manager">[https://elite-dangerous.fandom.com/wiki/Mass_Manager Mass Manager], Elite Dangerous Wiki.</ref>
 
 {{#invoke:ExperimentalEffects|infobox|fsd_mass_manager}}
 
-== What It Does ==
-Mass Manager improves the drive parameter most directly associated with jump range. It is commonly considered on larger Frame Shift Drives when maximum range is the priority.
+== Mechanical effects ==
 
-== Mechanical Behavior ==
 {{#invoke:ExperimentalEffects|effectsTable|fsd_mass_manager}}
 
+Optimized mass describes how efficiently the drive moves the ship's mass. Increasing it improves jump performance, but the resulting range change is not a fixed 4% because the FSD equation also accounts for drive class and rating, ship mass, fuel load, and maximum fuel per jump.
+
+Mass Manager does not increase the amount of fuel the FSD may consume per jump. Its integrity penalty instead makes the module less resistant to damage and malfunction.
+
+== Selection considerations ==
+
+Mass Manager is a common range-focused choice, especially on larger Frame Shift Drives. It can be installed alongside any compatible Blueprint, including [[Increased Range]], [[Faster Boot Sequence]], or [[Shielded]], but it occupies the drive's single Experimental Effect slot.
+
+[[Deep Charge]] is the other range-oriented FSD Experimental Effect. Deep Charge increases maximum fuel per jump, while Mass Manager improves optimized mass without increasing fuel consumption. The better maximum-range result varies with FSD class and the complete build; Mass Manager is generally the more fuel-efficient choice for repeated travel.
+
+Choose a durability-focused effect such as [[Double Braced]] instead when FSD integrity matters more than additional range. [[Stripped Down]] reduces the module's own mass, while [[Thermal Spread]] reduces its thermal load.
+
 == Compatible Blueprints ==
+
 {{#invoke:ExperimentalEffects|compatibleBlueprints|fsd_mass_manager}}
 
-== Common Uses ==
-Additional Commander-tested examples, ship builds, and edge cases are welcome here.
+Experimental Effects must be installed at an Engineer workshop. They cannot be applied through [[Remote Engineering]].
 
-== Related ==
-{{Related articles|[[Engineering]] [[Experimental Effects]] [[Frame Shift Drive]] [[Engineering Blueprints]]}}
+== Sources ==
+
+<references />
+
+{{Related articles|[[Engineering]] [[Experimental Effects]] [[Frame Shift Drive]] [[Increased Range]] [[Deep Charge]] [[Double Braced]] [[Stripped Down]] [[Thermal Spread]]}}
 
 {{Engineering nav}}
 

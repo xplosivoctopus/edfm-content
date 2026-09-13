@@ -3,57 +3,108 @@ EDFM current-content archive export.
 Title: How to Sub-surface Mine
 Namespace: 0
 Page ID: 708
-Revision ID: 1668
-Timestamp: 2026-08-23T23:59:46Z
+Revision ID: 3976
+Timestamp: 2026-09-12T14:29:34Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Sub-surface_Mine
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Deposit timing and commodity-specific recommendations still need direct Live-game verification.}}
-__NOINDEX__
-{{Field procedure|summary=Extract sub-surface deposits from asteroids with displacement missiles and collect the released chunks.}}
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four mining documentation, current module documentation, and established community mining references
+ |uncertainty=Frontier has not published current commodity-specific sub-surface yields, deposit-integrity ranges, or timing formulae.
+}}
 
-Use this procedure when a ship is fitted for [[Sub-surface Mining|sub-surface mining]] and the commander wants to extract internal asteroid deposits with a [[Sub-surface Displacement Missile]].
+{{Field procedure|summary=Drill targetable sub-surface asteroid deposits with displacement missiles and recover the ejected fragments.}}
 
-{{Draft warning}}
+{{Callout|type=tip|label=Quick answer|1=Prospect the asteroid, target a sub-surface deposit, align the ship carefully, and fire the displacement missile while holding the trigger. After impact, watch the drilling display and release the trigger when the drill indicator reaches a blue extraction zone. Collect and refine the ejected fragments before repeating on the remaining deposit.}}
 
-== Required equipment ==
+Use this procedure for [[Sub-surface Mining|sub-surface mining]]. A [[Sub-surface Displacement Missile]] drills into a named deposit inside an asteroid and ejects fragments when the charge is released at the correct point on the cockpit display.<ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref>
 
-* [[Sub-surface Displacement Missile]]
-* [[Prospector Limpet Controller]]
-* [[Collector Limpet Controller]]
-* [[Refinery]]
-* Limpets and cargo space
-* Optional: [[Detailed Surface Scanner]] for hotspot planning
+The tool does not cut ordinary laser-mining fragments, remove exposed surface deposits, or crack an asteroid core.
+
+== Before departure ==
+
+=== Required equipment ===
+
+* A [[Sub-surface Displacement Missile]].
+* A [[Prospector Limpet Controller]] and prospecting limpets.
+* A [[Collector Limpet Controller]] and collection limpets, unless every fragment will be scooped manually.
+* A [[Refinery]] and cargo space.
+
+=== Recommended equipment ===
+
+* A [[Pulse Wave Analyser]] to search for asteroids with anomalous deposits.
+* A [[Detailed Surface Scanner]] when searching inside a [[Mining Hotspot|mining hotspot]].
+* Shields and a ship that can hold a stable firing line beside a rotating asteroid.
+
+Assign the displacement missile and collector controller to convenient fire groups. The displacement missile works in Analysis Mode, and its ammunition is finite.<ref name="missile">[https://elite-dangerous.fandom.com/wiki/Sub-surface_Displacement_Missile Sub-surface Displacement Missile], Elite Dangerous Wiki.</ref>
+
+== Choose the target ==
+
+Select a commodity and confirm that it can occur as a sub-surface deposit in the chosen ring type. [[Mining Commodities]] provides a comparison of known extraction routes.
+
+Use the pulse wave analyser to find candidate asteroids, then launch a prospector limpet. Continue only when the prospector identifies a wanted '''sub-surface deposit'''. Target that deposit so its remaining integrity and extraction interface can be monitored.
+
+Slowly rotating asteroids are easier to work. On a fast or irregularly rotating rock, observe the deposit's path before firing and choose a position that keeps it clear of the ship's hardpoint and the asteroid's edges.
 
 == Procedure ==
 
 {{Procedure steps|
-# Enter the target ring or hotspot and approach candidate asteroids safely.
-# Fire a prospector limpet at the asteroid.
-# Check the prospector result for sub-surface deposits worth extracting.
-# Target the deposit and line up the ship so the missile can be held on course.
-# Fire and hold the displacement missile while watching the extraction indicator.
-# Release during the highlighted band to break material loose.
-# Keep collector limpets active while chunks are available.
-# Manage refinery bins and ignore or vent unwanted commodities if they block useful cargo.
+# Approach the prospected asteroid and target the wanted sub-surface deposit.
+# Match the asteroid's rotation as closely as practical, leaving enough distance to track the deposit without colliding with the surface.
+# Select the sub-surface displacement missile in Analysis Mode.
+# Place the aiming reticle over the deposit and fire while '''holding''' the trigger.
+# Keep the missile on course until it strikes the deposit and begins drilling. A miss does not open the drilling display; realign before the next shot.
+# Watch the drilling interface. The drill indicator moves through changing rock density while blue extraction zones move across the display.
+# Continue holding the trigger until the drill indicator is about to align with a blue zone, then release. Denser sections slow the drill and less-dense sections let it advance faster, so time the release from its current speed rather than using a fixed delay.<ref name="mechanics">[https://edmining.com/elite-dangerous-mining-mechanics/ Elite Dangerous Mining Mechanics], ED Mining.</ref>
+# If the release is successful, allow the ejected fragments to clear the asteroid and let untargeted collector limpets recover them.
+# Check the target's remaining integrity and repeat while useful extraction attempts remain.
+# Keep the cargo hatch route clear and monitor limpet stock, ammunition, refinery bins, and cargo capacity throughout the deposit.
+# Move to the next prospected deposit or asteroid when the current deposit is exhausted, no longer worth extracting, or cannot be approached safely.
 }}
+
+== Reading the drilling display ==
+
+The moving drill indicator does not travel at one constant speed. The background density profile represents harder and softer sections of rock: movement slows in denser sections and accelerates through less-dense sections.<ref name="mechanics" />
+
+Release the trigger when the drill indicator and a blue extraction zone align. Releasing outside a blue zone fails to eject the intended material and still reduces the deposit's remaining opportunities. Smaller blue zones require more precise timing; concentrate on alignment rather than trying to memorize a delay.<ref name="missile" />
+
+== Collection and refining ==
+
+Successful extraction ejects fragments into space. Launch collector limpets without targeting an individual fragment so they remain in area-collection mode, then maintain a clear line between the fragments and the cargo hatch. Collected fragments are processed in refinery bins before completed tonnes move into the cargo hold.
+
+Use the contacts ignore list for unwanted fragments, and clear an unwanted refinery bin before it blocks a wanted commodity. Venting a bin destroys its contents.
 
 == Completion check ==
 
-A deposit is complete when the useful extraction windows have been used and no further chunks from that deposit are worth collecting. The run is complete when the planned cargo has been refined and sold or stored.
+A deposit is complete when:
 
-== Common problems ==
+* its useful extraction opportunities have been consumed;
+* all wanted ejected fragments have been recovered;
+* no wanted material is stalled in the refinery; and
+* the ship can reposition without leaving collectors or valuable fragments behind.
 
-* '''No sub-surface deposits:''' move to another asteroid; the method depends on deposits revealed by prospecting.
-* '''Missile released outside the band:''' treat the attempt as practice and realign for the next deposit.
-* '''Collectors are idle:''' make sure limpets are available and the controller is active.
-* '''Refinery is blocked:''' use [[How to Resolve a Full Refinery]] or [[How to Ignore Unwanted Mining Commodities]].
+The run is complete when the planned cargo has been refined or the remaining ammunition, limpets, cargo space, or conditions no longer support safe extraction.
 
-== Related Reference Pages ==
-{{#invoke:Procedures|referenceLinks|procedure=How to Sub-surface Mine}}
+== Troubleshooting ==
 
-== Related Field Procedures ==
-{{#invoke:Procedures|list|page=How to Sub-surface Mine}}
+* '''The missile will not fire:''' switch to Analysis Mode, confirm the module is powered, check the fire group, and verify that ammunition remains.
+* '''The missile misses the deposit:''' reduce relative movement, watch the deposit through a full rotation, and adjust for hardpoint placement before firing again.
+* '''The drilling display never appears:''' the missile did not attach to the targeted sub-surface deposit.
+* '''The drill passes the blue zone:''' anticipate acceleration through less-dense rock and release earlier on the next attempt.
+* '''The drill stops short of the blue zone:''' account for slower progress through dense rock and hold the trigger longer.
+* '''No fragment is ejected:''' the release was outside an extraction zone or the deposit no longer had a useful opportunity remaining.
+* '''Collectors repeatedly fail:''' move the ship so the asteroid does not obstruct the path between the fragments and cargo hatch.
+* '''The refinery is blocked:''' clear unwanted partial bins or place unwanted fragments on the contacts ignore list.
 
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Sub-surface Mining]] [[Sub-surface Displacement Missile]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]] [[Mining Commodities]]}}
 [[Category:Mining]]

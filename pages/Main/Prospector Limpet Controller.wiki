@@ -3,49 +3,120 @@ EDFM current-content archive export.
 Title: Prospector Limpet Controller
 Namespace: 0
 Page ID: 388
-Revision ID: 1998
-Timestamp: 2026-08-24T21:23:25Z
+Revision ID: 4001
+Timestamp: 2026-09-12T20:08:03Z
 Source URL: https://edfieldmanual.com/wiki/Prospector_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Deploys limpets that analyse an asteroid's mineral content before mining it.
+{{Article header|deck=An optional internal controller that launches limpets to analyse mineable asteroids and expose their deposits.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; dedicated-controller mechanics also apply to Legacy
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=In-game module description and current community-maintained module specifications
+ |uncertainty=Frontier has not published the current fragment-yield multipliers; those values rely on established community testing and documentation.
 }}
 
-{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-24|reviewer=Sythan|source_quality=Well-established community consensus and EDFM Mining-section link integration}}
+{{Ship module infobox}}
 
-The '''Prospector Limpet Controller''' launches limpets that scan an asteroid and reveal its mineral composition, deposit information, and yield potential before a Commander commits to mining it.
+The '''Prospector Limpet Controller''' is an optional internal module that programmes standard limpets to analyse mineable asteroids. After a prospector attaches, targeting it displays the asteroid's composition and remaining resources and identifies any surface deposits, sub-surface deposits, fissures, or core resource present.<ref name="prospector">[https://elite-dangerous.fandom.com/wiki/Prospector_Limpet_Controller Prospector Limpet Controller], Elite Dangerous Wiki.</ref><ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond – Chapter Four Livestream – Mining and Squadrons], Frontier Developments, 1 November 2018.</ref>
 
-== Overview ==
+The controller provides the launch capability and active-limpet limits. Each shot consumes one limpet from the ship's cargo.
 
-Prospector limpets are one of the original Limpet Controller types and are considered essential for efficient mining: without one, a Commander is mining asteroids blind, with no way to tell a rich deposit from a low-value one before spending time and ammunition on it. A Prospector scan is normally paired with a [[Collector Limpet Controller]] to retrieve whatever the mining process breaks loose.
+== Information returned ==
 
-== Mining role ==
+A successful prospector attachment can reveal:<ref name="prospector" />
 
-Prospecting supports multiple methods:
+* the asteroid's commodity composition and percentage concentrations;
+* the proportion of ordinary asteroid resources remaining;
+* targetable surface and sub-surface deposits;
+* fissure targets on a core asteroid; and
+* the resource contained in a detected core.
 
-* [[Laser Mining]] — choose asteroids worth spending laser time on.
-* [[Core Mining]] — confirm contents before committing seismic charges.
-* [[Sub-surface Mining]] — identify sub-surface deposits before using displacement missiles.
-* [[Surface Deposit Mining]] — helps evaluate whether visible deposits are useful for the run.
+This is asteroid-scale information. It does not report current commodity prices, judge whether a result is worth mining, or replace ring-type and [[Mining Hotspot|hotspot]] planning.
 
-Carry limpets in cargo. The controller provides the launch capability; limpets are the ammunition.
+== Fragment-yield effect ==
 
-== Related Field Procedures ==
+For ordinary [[Laser Mining|laser mining]], a prospector attached before extraction increases the number of fragments available from the asteroid. Current community-maintained documentation gives the following multipliers:<ref name="prospector" />
 
-{{Related procedures|page=Prospector Limpet Controller}}
+{| class="wikitable" style="width:100%;"
+! Dedicated-controller rating !! Documented laser-fragment multiplier
+|-
+| E || 1.5×
+|-
+| D || 2.0×
+|-
+| C || 2.5×
+|-
+| B || 3.0×
+|-
+| A || 3.5×
+|}
+
+The rating letter controls this effect; the controller's class number does not. The increase is not retroactive, so fragments removed before the prospector attaches do not receive the later multiplier.<ref name="prospector" />
+
+These multipliers apply to the ordinary fragment supply. They do not multiply the number of fissures on a core, restore spent sub-surface deposit integrity, or create deposits that the asteroid did not already contain.
+
+== Dedicated-controller classes ==
+
+Dedicated controllers are sold in Classes 1, 3, 5, and 7. Higher classes allow more prospectors to remain active at once and extend operating range.<ref name="prospector" />
+
+{| class="wikitable" style="width:100%;"
+! Controller class !! Maximum active prospectors !! A-rated active range
+|-
+| 1 || 1 || 7,000 m
+|-
+| 3 || 2 || 7,700 m
+|-
+| 5 || 4 || 9,100 m
+|-
+| 7 || 8 || 11,900 m
+|}
+
+Launching a new prospector after reaching the controller's active limit expires the oldest one. This can remove the display and deposit markers from an asteroid that is still being worked. The attached limpet also stops reporting once it is outside the controller's active range or the controller is no longer operating.
+
+Rating changes mass, power draw, value, operating range, and the laser-fragment multiplier. D-rated controllers are the lightest. A-rated controllers provide the longest dedicated-controller range within each class as well as the highest documented fragment multiplier.<ref name="prospector" />
+
+Multi-limpet controllers can also programme prospectors. Their active limits, range, mass, and prospector behaviour belong to the specific multi-controller and should not be inferred from the dedicated-controller tables above.
+
+== Mining relationships ==
+
+Prospecting serves each asteroid extraction method differently:
+
+* '''[[Laser Mining]]:''' reports ordinary composition and increases the available fragment count.
+* '''[[Core Mining]]:''' confirms the core resource and exposes fissures before seismic charges are committed.
+* '''[[Sub-surface Mining]]:''' identifies and labels sub-surface deposits for the displacement missile.
+* '''[[Surface Deposit Mining]]:''' identifies exposed deposits that can be removed with an abrasion blaster.
+
+The prospector does not extract or recover anything. Mining tools create fragments, a [[Collector Limpet Controller]] retrieves them, a [[Refinery]] processes commodity fragments, and cargo racks store completed tonnes.
+
+== Operation and limitations ==
+
+The module is assigned to a fire group and used in Analysis Mode. A launched limpet flies toward the aim point and must physically strike a mineable asteroid. Ship motion, asteroid rotation, range, and intervening rocks can cause a miss.
+
+A prospector is attached to one asteroid and cannot be recalled. It does not search an entire ring, steer between targets, or identify valuable asteroids before impact. A [[Pulse Wave Analyser]] can narrow the search for anomalous candidates, while a [[Detailed Surface Scanner]] maps ring hotspots; neither replaces the prospector's detailed result.
 
 == Engineering ==
 
-{| class="wikitable"
-! Engineer !! Maximum grade
-|-
-| [[Ram Tah]] || Grade 5
-|}
+Prospector Limpet Controllers accept Lightweight, Reinforced, and Shielded module modifications.<ref name="prospector" />
 
-=== Related Engineering Guides ===
-{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Mining]] [[How to Use a Prospector Limpet]] [[Mining Hotspot]]}}
+{{#invoke:Engineers|moduleEngineers|module=Prospector Limpet Controller|label=Maximum Prospector Limpet Controller grade}}
 
+Blueprint effects, material costs, workshop availability, and Engineer unlock requirements belong to [[Engineering Blueprints]] and the individual Engineer pages.
+
+== Field Procedures ==
+
+[[How to Use a Prospector Limpet]] covers fire-group setup, launch alignment, result interpretation, target selection, and active-limpet management. Complete extraction workflows are provided by [[How to Laser Mine]], [[How to Sub-surface Mine]], and [[How to Core Mine]].
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Mining Hotspot]] [[Planetary Rings]] [[Collector Limpet Controller]] [[Refinery]] [[How to Use a Prospector Limpet]]}}
 {{Engineering nav}}
 
 [[Category:Modules]]

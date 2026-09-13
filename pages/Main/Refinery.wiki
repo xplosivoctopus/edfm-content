@@ -3,41 +3,111 @@ EDFM current-content archive export.
 Title: Refinery
 Namespace: 0
 Page ID: 576
-Revision ID: 2189
-Timestamp: 2026-08-24T23:44:58Z
+Revision ID: 4002
+Timestamp: 2026-09-12T20:10:57Z
 Source URL: https://edfieldmanual.com/wiki/Refinery
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-__NOINDEX__
-{{Article header|deck=A refinery processes mined fragments into cargo.}}
+{{Article header|deck=An optional internal module that separates mined fragments into commodity bins and transfers completed tonnes to cargo.}}
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Exact per-variant outfitting statistics and bin-management edge cases still need direct Live-game verification.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; ship-refinery mechanics also apply to Legacy
+ |reviewed=2026-09-12
+ |reviewer=Sythan
+ |source_quality=In-game module description supported by current community-maintained outfitting data
+ |uncertainty=Rare hopper and transfer edge cases have not been independently retested across every game mode and refinery rating.
+}}
 
 {{Ship module infobox}}
 
-The '''Refinery''' converts collected mining fragments into whole tonnes of cargo. It is required for ordinary mining profits because loose fragments are not saleable cargo until they have been processed.
+A '''Refinery''' is an optional internal module that processes mined commodity fragments into whole tonnes of cargo. Each commodity is accumulated separately in a refinery bin. When a bin reaches 100%, the refinery produces one tonne and transfers it to an available [[Cargo Rack|cargo rack]].<ref name="refinery">[https://elite-dangerous.fandom.com/wiki/Refinery Refinery], Elite Dangerous Wiki.</ref>
 
-{{Draft warning}}
+The refinery is required for saleable commodities obtained from ship-based asteroid mining. Raw Engineering materials use dedicated material storage and do not pass through refinery bins.
 
-== Mining role ==
+== Processing mechanics ==
 
-{{#invoke:Mining|equipmentNote|page=Refinery}}
+A collected mining fragment can contain one or more commodity components, each shown as a percentage of one tonne. With the refinery powered, those components are assigned to matching or empty bins. Later fragments of the same commodity add to the existing bin until its progress reaches 100%.<ref name="refinery" />
 
-The refinery is shared by [[Laser Mining]], [[Core Mining]], [[Sub-surface Mining]], and [[Surface Deposit Mining]]. Collectors deliver fragments or chunks to the ship, and the refinery fills bins until a full tonne can be moved into cargo.
+At completion:
 
-== Operating notes ==
+# the bin creates one tonne of that commodity;
+# the tonne moves to free cargo space; and
+# the bin becomes available for further processing.
 
-* More bins make mixed-fragment mining easier because several partial commodities can be held at once.
-* A full cargo hold can stop the refinery from completing new tonnes.
-* Unwanted or low-priority fragments may need to be ignored or vented so useful commodities can continue processing.
-* The refinery does not choose profitable cargo by itself; the commander still has to plan the run and check market demand.
+Progress beyond the current tonne continues into the next cycle rather than being discarded. If the cargo hold is full, a completed bin remains occupied until space becomes available. This can block later fragments even when other refinery progress is incomplete.
 
-== Related Field Procedures ==
+== Bins ==
 
-{{#invoke:Procedures|list|page=Refinery}}
+Each bin can hold progress for one commodity at a time. More bins therefore increase the number of partial commodities the ship can process simultaneously; they do not speed up extraction or increase the amount contained in a fragment.
 
-{{Related articles|[[Mining]] [[How to Use a Refinery]] [[How to Resolve a Full Refinery]] [[How to Ignore Unwanted Mining Commodities]]}}
+The dedicated refinery family is sold in Classes 1 through 4 and Ratings E through A. Current outfitting data lists the following bin counts:<ref name="refinery" /><ref name="edsm">[https://www.edsm.net/en/faq/outfitting/index/id/5/name/Optional+Internal/sub/Refineries Refineries – Outfitting], EDSM.</ref>
+
+{| class="wikitable" style="width:100%;"
+! Rating !! Class 1 !! Class 2 !! Class 3 !! Class 4
+|-
+| E || 1 || 2 || 3 || 4
+|-
+| D || 1 || 3 || 4 || 5
+|-
+| C || 2 || 4 || 6 || 7
+|-
+| B || 3 || 5 || 7 || 9
+|-
+| A || 4 || 6 || 8 || 10
+|}
+
+All standard refinery variants have a displayed mass of 0.00 t. Higher classes and ratings generally provide more bins at the cost of greater power draw and purchase price.<ref name="refinery" /><ref name="edsm" />
+
+== Hopper and blocked processing ==
+
+A newly collected fragment first reaches the refinery's incoming processing area. If every bin is occupied by a different partial commodity and no bin matches the new resource, processing stops until a bin is freed. A full cargo hold similarly prevents completed tonnes from leaving their bins.
+
+A commander can resolve the blockage by freeing cargo space, venting an unwanted partial bin, or discarding the obstructing incoming resource. Venting loses the progress already accumulated in that bin. Marking unwanted fragments '''Ignore''' before collectors retrieve them prevents repeated deliveries but is separate from the refinery itself.
+
+The complete interface workflow belongs to [[How to Use a Refinery]], with dedicated recovery steps on [[How to Resolve a Full Refinery]] and [[How to Ignore Unwanted Mining Commodities]].
+
+== Mining relationships ==
+
+The ship refinery handles commodity fragments produced by all established asteroid extraction methods:
+
+* [[Laser Mining]]
+* [[Core Mining]]
+* [[Sub-surface Mining]]
+* [[Surface Deposit Mining]]
+
+A [[Collector Limpet Controller]] or cargo scoop brings fragments aboard. The refinery processes them, while cargo racks store the completed commodity. It does not prospect asteroids, extract fragments, collect objects, value commodities, or select a market.
+
+The [[Rhino]] has its own built-in refinery for [[Surface Mining|planetary surface mining]]. That vehicle system is inherent to the Rhino and is not the ship optional-internal module described here.
+
+== Power and module state ==
+
+The refinery must be powered to accept and process mining fragments. Disabling or losing the module interrupts processing but does not create additional cargo capacity. Module malfunction or destruction can therefore halt an otherwise equipped mining ship even when its collectors and extraction tools still operate.
+
+== Engineering ==
+
+The Refinery accepts the '''Shielded''' module blueprint, which increases integrity at the cost of greater power draw.<ref name="shielded">[https://inara.cz/elite/blueprint/136 Refinery – Shielded blueprint], INARA.</ref>
+
+{{#invoke:Engineers|moduleEngineers|module=Refinery|label=Maximum Refinery grade}}
+
+Blueprint effects, material costs, workshop availability, and Engineer unlock requirements belong to [[Engineering Blueprints]] and the individual Engineer pages.
+
+== Field Procedures ==
+
+* [[How to Use a Refinery]] — process fragments and manage bins during a mining run.
+* [[How to Resolve a Full Refinery]] — clear cargo, bin, and hopper blockages.
+* [[How to Ignore Unwanted Mining Commodities]] — prevent collectors from returning unwanted fragments.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Mining Commodities]] [[Collector Limpet Controller]] [[Cargo Rack]] [[How to Use a Refinery]]}}
+{{Engineering nav}}
+
 [[Category:Modules]]
-[[Category:Ship modules]]
+[[Category:Optional Internal Engineering]]
+[[Category:Engineering]]
 [[Category:Mining]]
